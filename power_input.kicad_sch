@@ -3503,7 +3503,7 @@
 		)
 		(uuid "abb48f21-9127-4d3e-87a0-8e7be9451329")
 	)
-	(text_box "UVLO_OUT @ 26.4 V = ~26.4 V, @ 26.7 V = ~0V "
+	(text_box "UVLO_OUT @ 26.4 V = ~26.4 V, @ 26.5 V = ~0V"
 		(exclude_from_sim no)
 		(at 153.67 149.86 0)
 		(size 143.51 20.32)
@@ -4652,16 +4652,6 @@
 			(type default)
 		)
 		(uuid "1f065424-4c6d-449e-a92f-ffac896c6b88")
-	)
-	(wire
-		(pts
-			(xy 190.5 207.01) (xy 190.5 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f40aea7-fe24-42ed-bbdf-6a5741624713")
 	)
 	(wire
 		(pts
@@ -6345,7 +6335,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 194.31) (xy 190.5 199.39)
+			(xy 190.5 194.31) (xy 190.5 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6392,6 +6382,16 @@
 			(type default)
 		)
 		(uuid "c4ab2f26-81a3-4931-a51d-89d38979e294")
+	)
+	(wire
+		(pts
+			(xy 190.5 203.2) (xy 190.5 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bc7a9d-b3c9-46de-af4a-9956461af865")
 	)
 	(wire
 		(pts
@@ -7443,7 +7443,7 @@
 		)
 		(uuid "d37d396e-6950-4a9c-ba1d-9f8a8fe12028")
 	)
-	(label "UVLO_OUT"
+	(label "UVLO_OUT_N"
 		(at 111.76 215.9 180)
 		(effects
 			(font
@@ -8604,6 +8604,75 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3149aab2-3f3b-475b-99ad-1a17fe503c25")
+		(property "Reference" "R208"
+			(at 193.04 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33 k"
+			(at 193.04 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.722 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b42d057-4781-4899-8dd2-96e60746f824")
+		)
+		(pin "1"
+			(uuid "b5b51629-0535-4351-a57c-4ffb0daf788a")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -12214,7 +12283,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330 k"
+		(property "Value" "390 k"
 			(at 193.04 191.7699 0)
 			(effects
 				(font
@@ -12891,75 +12960,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "#PWR0208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 190.5 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bce3d46f-fdff-47f7-a8e4-0455e1e86a6b")
-		(property "Reference" "R208"
-			(at 193.04 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "51 k"
-			(at 193.04 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.722 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "377e4568-1b2b-44a9-9cf2-71b68f57db5b")
-		)
-		(pin "1"
-			(uuid "ac8b7109-f2f8-48ef-a7aa-350c6bc75a0f")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R208")
 					(unit 1)
 				)
 			)
