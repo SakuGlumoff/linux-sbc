@@ -625,6 +625,10 @@
 		(color 0 0 0 0)
 		(uuid "f18a89fc-d7ae-48fe-90c9-266e6844bfd2")
 	)
+	(no_connect
+		(at 241.3 184.15)
+		(uuid "00d92d3d-3c68-4026-b932-3cac0227ef3e")
+	)
 	(wire
 		(pts
 			(xy 226.06 243.84) (xy 232.41 243.84)
@@ -760,25 +764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "-"
-			(at 226.06 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Footprint review check" "+"
-			(at 226.06 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "-"
 			(at 226.06 240.03 0)
 			(effects
 				(font
@@ -810,15 +796,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 245.11 240.03 0)
+		(at 238.76 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "37b17bca-3d3c-4c85-92bf-245f7303c029")
-		(property "Reference" "H104"
-			(at 245.11 236.728 0)
+		(uuid "1ffd7498-00c7-48b2-bc00-c51bdb9d2698")
+		(property "Reference" "H103"
+			(at 238.76 236.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +813,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 247.65 240.03 0)
+			(at 241.3 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +823,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad_Via"
-			(at 245.11 240.03 0)
+			(at 238.76 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 240.03 0)
+			(at 238.76 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,16 +841,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 245.11 240.03 0)
+			(at 238.76 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,16 +850,7 @@
 			)
 		)
 		(property "Footprint review check" "+"
-			(at 245.11 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "-"
-			(at 245.11 240.03 0)
+			(at 238.76 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +859,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 245.11 240.03 0)
+			(at 238.76 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,12 +868,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc9f5779-c79c-4ca7-9d54-31385690c6a5")
+			(uuid "ba22e215-648c-4ab6-b4c9-8284aacd7996")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
-					(reference "H104")
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -966,90 +934,8 @@
 				(hide yes)
 			)
 		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017"
-					(reference "FID102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 232.41 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "701cbfd0-af05-42fa-a2d4-17530a2367e3")
-		(property "Reference" "H102"
-			(at 232.41 236.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 234.95 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad_Via"
-			(at 232.41 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 232.41 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint review check" "+"
-			(at 232.41 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "-"
-			(at 232.41 240.03 0)
+		(property "Sim.Pins" ""
+			(at 299.72 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +944,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 232.41 240.03 0)
+			(at 299.72 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,13 +952,10 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "19233092-29eb-449a-9472-04dc626ddf6b")
-		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
-					(reference "H102")
+					(reference "FID102")
 					(unit 1)
 				)
 			)
@@ -1133,10 +1016,113 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 287.02 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 287.02 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
 					(reference "FID101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 245.11 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad83f05d-de2a-45b5-ae2e-cf74d3f904d6")
+		(property "Reference" "H104"
+			(at 245.11 236.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 247.65 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad_Via"
+			(at 245.11 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint review check" "+"
+			(at 245.11 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 245.11 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dbaeebe-9348-482f-89d9-d9e38547b53a")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(reference "H104")
 					(unit 1)
 				)
 			)
@@ -1189,6 +1175,24 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 312.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 312.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
 			(at 312.42 238.76 0)
 			(effects
 				(font
@@ -1275,15 +1279,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 238.76 240.03 0)
+		(at 232.41 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "e64f6084-e950-4b3e-b4b3-d057eb9b5b4e")
-		(property "Reference" "H103"
-			(at 238.76 236.728 0)
+		(uuid "e84b7520-ed42-460e-9bd3-85ff11659240")
+		(property "Reference" "H102"
+			(at 232.41 236.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1296,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 241.3 240.03 0)
+			(at 234.95 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1306,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad_Via"
-			(at 238.76 240.03 0)
+			(at 232.41 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 240.03 0)
+			(at 232.41 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,16 +1324,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 238.76 240.03 0)
+			(at 232.41 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,16 +1333,7 @@
 			)
 		)
 		(property "Footprint review check" "+"
-			(at 238.76 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "-"
-			(at 238.76 240.03 0)
+			(at 232.41 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1342,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 238.76 240.03 0)
+			(at 232.41 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,12 +1351,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6b22036-6c70-4147-adb7-358253fa3a07")
+			(uuid "3b068869-b8fc-4594-b8da-b77f59c61e2b")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
-					(reference "H103")
+					(reference "H102")
 					(unit 1)
 				)
 			)
