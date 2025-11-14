@@ -299,8 +299,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
+        "netclass": "GND",
+        "pattern": "CHASSIS"
+      },
+      {
         "netclass": "PWR",
-        "pattern": "/*VCC*"
+        "pattern": "/*/V_*"
       },
       {
         "netclass": "GND",
@@ -308,11 +312,7 @@
       },
       {
         "netclass": "GND",
-        "pattern": "CHASSIS"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/*V_*"
+        "pattern": "/*/V_*-"
       }
     ]
   },
