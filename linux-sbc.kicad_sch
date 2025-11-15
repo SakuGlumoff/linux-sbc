@@ -10,6 +10,356 @@
 		(rev "v0.0.1")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -370,10 +720,111 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "- Layout comments are in magenta"
 		(exclude_from_sim no)
-		(at 15.24 265.43 0)
+		(at 15.24 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -385,7 +836,7 @@
 	)
 	(text "Place a stitched chassis guard rail along the edges of the PCB\nto provide a safe point for human contact when handling the device."
 		(exclude_from_sim no)
-		(at 330.2 228.6 0)
+		(at 134.62 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -397,7 +848,7 @@
 	)
 	(text "1. Introduction"
 		(exclude_from_sim no)
-		(at 207.01 64.77 0)
+		(at 16.51 64.77 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -409,7 +860,7 @@
 	)
 	(text "Place fiducials at the top-left, bottom-left,\nand bottom-right corners of the PCB."
 		(exclude_from_sim no)
-		(at 279.4 228.6 0)
+		(at 81.28 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -421,7 +872,7 @@
 	)
 	(text "2. Power"
 		(exclude_from_sim no)
-		(at 207.01 68.58 0)
+		(at 16.51 68.58 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -431,9 +882,19 @@
 		)
 		(uuid "d495d40b-8814-4f8c-9d4e-87a539ce24a0")
 	)
+	(text "12 - 24 V input ± 10%"
+		(exclude_from_sim no)
+		(at 160.02 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8039d25-d2cb-489f-ac2c-8cb3876aceb7")
+	)
 	(text "- Schematic comments are in blue"
 		(exclude_from_sim no)
-		(at 15.24 262.89 0)
+		(at 15.24 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -445,7 +906,7 @@
 	)
 	(text "- Mechanical comments are in green"
 		(exclude_from_sim no)
-		(at 15.24 267.97 0)
+		(at 15.24 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -457,8 +918,8 @@
 	)
 	(text_box "Table of Contents"
 		(exclude_from_sim no)
-		(at 203.2 50.8 0)
-		(size 203.2 62.23)
+		(at 12.7 50.8 0)
+		(size 127 62.23)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -479,8 +940,8 @@
 	)
 	(text_box "This project serves as a practice exercise in PCB design for a Linux Single-Board-Computer."
 		(exclude_from_sim no)
-		(at 15.24 63.5 0)
-		(size 186.69 186.69)
+		(at 15.24 127 0)
+		(size 123.19 88.9)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -499,8 +960,8 @@
 	)
 	(text_box "Block diagram"
 		(exclude_from_sim no)
-		(at 203.2 113.03 0)
-		(size 203.2 105.41)
+		(at 139.7 50.8 0)
+		(size 266.7 200.66)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -521,8 +982,8 @@
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 190.5 200.66)
+		(at 12.7 113.03 0)
+		(size 127 105.41)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -565,8 +1026,8 @@
 	)
 	(text_box "Notes"
 		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
+		(at 12.7 218.44 0)
+		(size 127 33.02)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -587,8 +1048,8 @@
 	)
 	(text_box "Mechanical"
 		(exclude_from_sim no)
-		(at 203.2 218.44 0)
-		(size 203.2 33.02)
+		(at 12.7 251.46 0)
+		(size 285.75 33.02)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -608,30 +1069,64 @@
 		(uuid "e4d8ab3d-1082-4421-b874-24fa72d60d92")
 	)
 	(junction
-		(at 238.76 243.84)
+		(at 50.8 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15beb4bd-d049-456e-99e9-15168ae053eb")
 	)
 	(junction
-		(at 245.11 243.84)
+		(at 38.1 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f545c9f-f59d-4677-b18a-fa7eead80324")
+	)
+	(junction
+		(at 152.4 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f790e7b-166c-40c2-9c7a-64b54dbf3bdb")
+	)
+	(junction
+		(at 57.15 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73621933-6602-4242-af82-f165a14f9521")
 	)
 	(junction
-		(at 232.41 243.84)
+		(at 167.64 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bea17a03-de08-4308-b7b3-71bf6407b6d6")
+	)
+	(junction
+		(at 44.45 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f18a89fc-d7ae-48fe-90c9-266e6844bfd2")
 	)
+	(junction
+		(at 167.64 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe259aa4-9553-481c-821d-bd6f56fdad45")
+	)
 	(no_connect
-		(at 241.3 184.15)
-		(uuid "00d92d3d-3c68-4026-b932-3cac0227ef3e")
+		(at 215.9 96.52)
+		(uuid "79ebb874-8056-4073-bf69-5cd39407904a")
 	)
 	(wire
 		(pts
-			(xy 226.06 243.84) (xy 232.41 243.84)
+			(xy 152.4 91.44) (xy 153.67 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035326fc-d6d4-45bb-aa12-a69875a57b6a")
+	)
+	(wire
+		(pts
+			(xy 38.1 279.4) (xy 44.45 279.4)
 		)
 		(stroke
 			(width 0)
@@ -641,7 +1136,27 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 243.84) (xy 245.11 243.84)
+			(xy 166.37 91.44) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a435f7-60e0-4144-bafe-ec9d1032e111")
+	)
+	(wire
+		(pts
+			(xy 153.67 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2459b5f0-fe7c-433b-b6cc-352725b75c50")
+	)
+	(wire
+		(pts
+			(xy 50.8 279.4) (xy 57.15 279.4)
 		)
 		(stroke
 			(width 0)
@@ -651,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 242.57) (xy 232.41 243.84)
+			(xy 44.45 278.13) (xy 44.45 279.4)
 		)
 		(stroke
 			(width 0)
@@ -661,7 +1176,67 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 242.57) (xy 238.76 243.84)
+			(xy 29.21 278.13) (xy 29.21 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd56d70-af16-40f4-94f1-d21c98fd93d0")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd82b09-d95c-4b73-afa2-bccf3ba85256")
+	)
+	(wire
+		(pts
+			(xy 29.21 279.4) (xy 38.1 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b1c12a-4bc4-4749-8e35-4e838df20522")
+	)
+	(wire
+		(pts
+			(xy 166.37 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864c9846-4e03-473a-b28d-47a418f43a7d")
+	)
+	(wire
+		(pts
+			(xy 152.4 88.9) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89731ede-23dc-4801-8da7-e5580c33f37e")
+	)
+	(wire
+		(pts
+			(xy 152.4 106.68) (xy 190.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fd7c83-0d42-43a0-9dd4-8edf6648892f")
+	)
+	(wire
+		(pts
+			(xy 50.8 278.13) (xy 50.8 279.4)
 		)
 		(stroke
 			(width 0)
@@ -671,7 +1246,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 243.84) (xy 226.06 242.57)
+			(xy 152.4 91.44) (xy 152.4 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aaf5ed7-9826-42d6-9026-392bddd9564e")
+	)
+	(wire
+		(pts
+			(xy 38.1 279.4) (xy 38.1 278.13)
 		)
 		(stroke
 			(width 0)
@@ -681,7 +1266,27 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 242.57) (xy 245.11 243.84)
+			(xy 167.64 100.33) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a356cbbe-1f52-464f-90eb-7f5a2661b179")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b46ced-bd26-479b-bdf2-070c7ca5ff96")
+	)
+	(wire
+		(pts
+			(xy 57.15 278.13) (xy 57.15 279.4)
 		)
 		(stroke
 			(width 0)
@@ -691,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 245.11) (xy 245.11 243.84)
+			(xy 57.15 280.67) (xy 57.15 279.4)
 		)
 		(stroke
 			(width 0)
@@ -701,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 243.84) (xy 238.76 243.84)
+			(xy 44.45 279.4) (xy 50.8 279.4)
 		)
 		(stroke
 			(width 0)
@@ -709,9 +1314,138 @@
 		)
 		(uuid "e07a5936-113f-417a-9a86-22a07666d24e")
 	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb083de3-860e-433e-a3fe-22b4d56def48")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 158.75 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c7e469-7f77-4e3d-882f-4890e2d3e080")
+		(property "Reference" "J101"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Molex Mini-fit Jr"
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/455860005?display=pdf"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 8 position 0.165\" (4.20mm)"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "0455860005-ND"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0455860005"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19ed2bfb-b30d-488d-bb5e-6e1001c7e2e0")
+		)
+		(pin "3"
+			(uuid "3ce89768-76a8-4110-87d0-df4ae2a76d13")
+		)
+		(pin "1"
+			(uuid "d4d53802-0b0f-4a0e-a3b9-d6a14d695bc1")
+		)
+		(pin "4"
+			(uuid "5d901620-f96a-41c2-a2e2-dae09d60421b")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 226.06 240.03 0)
+		(at 38.1 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -719,7 +1453,7 @@
 		(dnp no)
 		(uuid "160058f9-baa4-448c-b354-99225a2ceae8")
 		(property "Reference" "H101"
-			(at 226.06 236.728 0)
+			(at 38.1 272.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -728,7 +1462,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 228.6 240.03 0)
+			(at 40.64 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,7 +1472,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad_Via"
-			(at 226.06 240.03 0)
+			(at 38.1 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +1481,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 240.03 0)
+			(at 38.1 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +1490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 240.03 0)
+			(at 38.1 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +1499,7 @@
 			)
 		)
 		(property "Footprint review check" "+"
-			(at 226.06 240.03 0)
+			(at 38.1 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +1508,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 226.06 240.03 0)
+			(at 38.1 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -796,7 +1530,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 238.76 240.03 0)
+		(at 50.8 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -804,7 +1538,7 @@
 		(dnp no)
 		(uuid "1ffd7498-00c7-48b2-bc00-c51bdb9d2698")
 		(property "Reference" "H103"
-			(at 238.76 236.728 0)
+			(at 50.8 272.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +1547,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 241.3 240.03 0)
+			(at 53.34 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -823,7 +1557,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad_Via"
-			(at 238.76 240.03 0)
+			(at 50.8 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +1566,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 240.03 0)
+			(at 50.8 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -841,7 +1575,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 240.03 0)
+			(at 50.8 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,7 +1584,7 @@
 			)
 		)
 		(property "Footprint review check" "+"
-			(at 238.76 240.03 0)
+			(at 50.8 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -859,7 +1593,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 238.76 240.03 0)
+			(at 50.8 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,8 +1614,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 167.64 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f290939-492e-43c8-a9f5-8867f35e78e5")
+		(property "Reference" "#PWR0102"
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CHASSIS"
+			(at 167.513 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 167.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7627bb84-e05e-4c95-bb5f-cfd138bc43ff")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 299.72 238.76 0)
+		(at 101.6 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -889,7 +1690,7 @@
 		(dnp no)
 		(uuid "61c880d6-eb78-4373-ab8f-f1774093457b")
 		(property "Reference" "FID102"
-			(at 299.72 236.982 0)
+			(at 101.6 272.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +1699,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 302.26 240.0299 0)
+			(at 104.14 275.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,7 +1709,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 299.72 238.76 0)
+			(at 101.6 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +1718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 299.72 238.76 0)
+			(at 101.6 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +1727,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 299.72 238.76 0)
+			(at 101.6 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +1736,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 299.72 238.76 0)
+			(at 101.6 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +1745,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 299.72 238.76 0)
+			(at 101.6 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +1764,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 287.02 238.76 0)
+		(at 88.9 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -971,7 +1772,7 @@
 		(dnp no)
 		(uuid "87581f6e-a7ba-407e-a652-1fbebd13a04c")
 		(property "Reference" "FID101"
-			(at 287.02 236.982 0)
+			(at 88.9 272.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +1781,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 289.56 240.0299 0)
+			(at 91.44 275.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1791,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 287.02 238.76 0)
+			(at 88.9 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +1800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 238.76 0)
+			(at 88.9 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1809,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 287.02 238.76 0)
+			(at 88.9 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1818,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 287.02 238.76 0)
+			(at 88.9 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1827,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 287.02 238.76 0)
+			(at 88.9 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1846,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 245.11 240.03 0)
+		(at 57.15 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1053,7 +1854,7 @@
 		(dnp no)
 		(uuid "ad83f05d-de2a-45b5-ae2e-cf74d3f904d6")
 		(property "Reference" "H104"
-			(at 245.11 236.728 0)
+			(at 57.15 272.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1863,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 247.65 240.03 0)
+			(at 59.69 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1873,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad_Via"
-			(at 245.11 240.03 0)
+			(at 57.15 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 240.03 0)
+			(at 57.15 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 240.03 0)
+			(at 57.15 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1900,7 @@
 			)
 		)
 		(property "Footprint review check" "+"
-			(at 245.11 240.03 0)
+			(at 57.15 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1909,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 245.11 240.03 0)
+			(at 57.15 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,8 +1930,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 29.21 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3163d87-b354-43dc-822c-f5ff94a83228")
+		(property "Reference" "#FLG0101"
+			(at 29.21 276.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 29.21 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 29.21 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a66824bd-97a0-4fd5-9762-3e1258f2d9a3")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 312.42 238.76 0)
+		(at 114.3 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1138,7 +2005,7 @@
 		(dnp no)
 		(uuid "cc029735-4156-42eb-8513-6d4abdc50dad")
 		(property "Reference" "FID103"
-			(at 312.42 236.982 0)
+			(at 114.3 272.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +2014,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 314.96 240.0299 0)
+			(at 116.84 275.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,7 +2024,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
-			(at 312.42 238.76 0)
+			(at 114.3 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +2033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 312.42 238.76 0)
+			(at 114.3 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +2042,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 312.42 238.76 0)
+			(at 114.3 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,7 +2051,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 312.42 238.76 0)
+			(at 114.3 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +2060,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 312.42 238.76 0)
+			(at 114.3 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,8 +2078,113 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Zener")
+		(at 167.64 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d16663dd-dc1e-43f6-802e-146b62ad444f")
+		(property "Reference" "D101"
+			(at 170.18 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XCEZ30V,L3XHF"
+			(at 170.18 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/b0/6e/bc/89/3c/f1/41/b5/CD00283815.pdf/files/CD00283815.pdf/jcr:content/translations/en.CD00283815.pdf"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "47.5V Clamp 4A (8/20µs) Ipp Tvs Diode Surface Mount ESC"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "264-XCEZ30VL3XHFCT-ND"
+			(at 167.64 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 167.64 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XCEZ30V,L3XHF"
+			(at 167.64 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Breakdown voltage" "≥ 30 V"
+			(at 170.18 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2e9a4fbd-67eb-4622-b481-418eb2b359c1")
+		)
+		(pin "2"
+			(uuid "273d243d-526b-4c55-a1b7-c8ce14a05008")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
-		(at 245.11 245.11 0)
+		(at 57.15 280.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1221,7 +2193,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3f91a04-12bc-48d2-835c-e2614baddf9f")
 		(property "Reference" "#PWR0101"
-			(at 245.11 250.19 0)
+			(at 57.15 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +2202,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 244.983 248.92 0)
+			(at 57.023 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +2211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 246.38 0)
+			(at 57.15 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +2220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 246.38 0)
+			(at 57.15 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +2229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 245.11 245.11 0)
+			(at 57.15 280.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +2251,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 232.41 240.03 0)
+		(at 44.45 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1287,7 +2259,7 @@
 		(dnp no)
 		(uuid "e84b7520-ed42-460e-9bd3-85ff11659240")
 		(property "Reference" "H102"
-			(at 232.41 236.728 0)
+			(at 44.45 272.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +2268,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 234.95 240.03 0)
+			(at 46.99 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +2278,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad_Via"
-			(at 232.41 240.03 0)
+			(at 44.45 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +2287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 240.03 0)
+			(at 44.45 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +2296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 240.03 0)
+			(at 44.45 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +2305,7 @@
 			)
 		)
 		(property "Footprint review check" "+"
-			(at 232.41 240.03 0)
+			(at 44.45 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1342,7 +2314,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 232.41 240.03 0)
+			(at 44.45 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,8 +2335,8 @@
 		)
 	)
 	(sheet
-		(at 212.09 173.99)
-		(size 29.21 20.32)
+		(at 190.5 86.36)
+		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1380,7 +2352,7 @@
 		)
 		(uuid "524a017a-f4b1-440b-9b41-00cccec69d8d")
 		(property "Sheetname" "Power input"
-			(at 212.09 173.1046 0)
+			(at 190.5 85.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +2361,7 @@
 			)
 		)
 		(property "Sheetfile" "power_input.kicad_sch"
-			(at 212.09 195.0684 0)
+			(at 190.5 109.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,9 +2369,29 @@
 				(justify left top)
 			)
 		)
-		(pin "V_IN" input
-			(at 241.3 184.15 0)
-			(uuid "7fbf88ab-6094-49b7-84f3-73ae0875be5a")
+		(pin "V_IN+" input
+			(at 190.5 88.9 180)
+			(uuid "3c46b341-3341-49f3-9475-94c2552393e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_IN-" input
+			(at 190.5 106.68 180)
+			(uuid "5bc8f7c6-357e-45e6-8d46-dc74e6b0daa9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_SYS" input
+			(at 215.9 96.52 0)
+			(uuid "32b589fb-e366-485e-9a08-9fafb599adad")
 			(effects
 				(font
 					(size 1.27 1.27)
