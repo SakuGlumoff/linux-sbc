@@ -210,7 +210,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Zener"
+		(symbol "Device:D_TVS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -229,7 +229,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Zener"
+			(property "Value" "D_TVS"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -255,7 +255,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Zener diode"
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -264,7 +264,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode TVS thyrector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -282,10 +282,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Zener_0_1"
+			(symbol "D_TVS_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -307,24 +319,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "D_Zener_1_1"
+			(symbol "D_TVS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -342,7 +342,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1111,7 +1111,7 @@
 		(uuid "fe259aa4-9553-481c-821d-bd6f56fdad45")
 	)
 	(no_connect
-		(at 215.9 96.52)
+		(at 207.01 96.52)
 		(uuid "79ebb874-8056-4073-bf69-5cd39407904a")
 	)
 	(wire
@@ -1226,7 +1226,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 190.5 106.68)
+			(xy 152.4 106.68) (xy 181.61 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 88.9) (xy 190.5 88.9)
+			(xy 167.64 88.9) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2078,7 +2078,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Zener")
+		(lib_id "Device:D_TVS")
 		(at 167.64 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2095,7 +2095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XCEZ30V,L3XHF"
+		(property "Value" "SMAJ26CA"
 			(at 170.18 96.52 90)
 			(effects
 				(font
@@ -2104,7 +2104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 167.64 96.52 0)
 			(effects
 				(font
@@ -2113,7 +2113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/b0/6e/bc/89/3c/f1/41/b5/CD00283815.pdf/files/CD00283815.pdf/jcr:content/translations/en.CD00283815.pdf"
+		(property "Datasheet" "~"
 			(at 167.64 96.52 0)
 			(effects
 				(font
@@ -2122,7 +2122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "47.5V Clamp 4A (8/20µs) Ipp Tvs Diode Surface Mount ESC"
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 167.64 96.52 0)
 			(effects
 				(font
@@ -2131,7 +2131,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part Number" "264-XCEZ30VL3XHFCT-ND"
+		(property "DigiKey Part Number" "732-SMAJ26CACT-ND"
 			(at 167.64 96.52 90)
 			(effects
 				(font
@@ -2140,7 +2140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+		(property "Manufacturer" "Würth Elektronik"
 			(at 167.64 96.52 90)
 			(effects
 				(font
@@ -2149,7 +2149,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "XCEZ30V,L3XHF"
+		(property "MPN" "SMAJ26CA"
 			(at 167.64 96.52 90)
 			(effects
 				(font
@@ -2335,7 +2335,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 86.36)
+		(at 181.61 86.36)
 		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2352,7 +2352,7 @@
 		)
 		(uuid "524a017a-f4b1-440b-9b41-00cccec69d8d")
 		(property "Sheetname" "Power input"
-			(at 190.5 85.4746 0)
+			(at 181.61 85.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2361,7 @@
 			)
 		)
 		(property "Sheetfile" "power_input.kicad_sch"
-			(at 190.5 109.9784 0)
+			(at 181.61 109.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2370,7 @@
 			)
 		)
 		(pin "V_IN+" input
-			(at 190.5 88.9 180)
+			(at 181.61 88.9 180)
 			(uuid "3c46b341-3341-49f3-9475-94c2552393e5")
 			(effects
 				(font
@@ -2380,7 +2380,7 @@
 			)
 		)
 		(pin "V_IN-" input
-			(at 190.5 106.68 180)
+			(at 181.61 106.68 180)
 			(uuid "5bc8f7c6-357e-45e6-8d46-dc74e6b0daa9")
 			(effects
 				(font
@@ -2390,7 +2390,7 @@
 			)
 		)
 		(pin "V_SYS" input
-			(at 215.9 96.52 0)
+			(at 207.01 96.52 0)
 			(uuid "32b589fb-e366-485e-9a08-9fafb599adad")
 			(effects
 				(font
