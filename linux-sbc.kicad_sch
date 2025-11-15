@@ -822,6 +822,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "3. Power generation"
+		(exclude_from_sim no)
+		(at 16.51 72.39 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+			(href "#3")
+		)
+		(uuid "40362385-aab8-45a7-86f1-4db2d133c7d8")
+	)
 	(text "- Layout comments are in magenta"
 		(exclude_from_sim no)
 		(at 15.24 232.41 0)
@@ -870,7 +882,7 @@
 		)
 		(uuid "c07fd134-7ce2-4ac8-9971-5c62de4ab866")
 	)
-	(text "2. Power"
+	(text "2. Power input"
 		(exclude_from_sim no)
 		(at 16.51 68.58 0)
 		(effects
@@ -1110,10 +1122,6 @@
 		(color 0 0 0 0)
 		(uuid "fe259aa4-9553-481c-821d-bd6f56fdad45")
 	)
-	(no_connect
-		(at 207.01 96.52)
-		(uuid "79ebb874-8056-4073-bf69-5cd39407904a")
-	)
 	(wire
 		(pts
 			(xy 152.4 91.44) (xy 153.67 91.44)
@@ -1153,6 +1161,16 @@
 			(type default)
 		)
 		(uuid "2459b5f0-fe7c-433b-b6cc-352725b75c50")
+	)
+	(wire
+		(pts
+			(xy 207.01 96.52) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24987d1d-6aed-4f50-ba8f-f19e183a44fb")
 	)
 	(wire
 		(pts
@@ -2345,7 +2363,7 @@
 		(stroke
 			(width 0.5)
 			(type solid)
-			(color 0 0 0 1)
+			(color 255 255 0 1)
 		)
 		(fill
 			(color 0 255 0 1.0000)
@@ -2389,7 +2407,7 @@
 				(justify left)
 			)
 		)
-		(pin "V_SYS" input
+		(pin "V_SYS" output
 			(at 207.01 96.52 0)
 			(uuid "32b589fb-e366-485e-9a08-9fafb599adad")
 			(effects
@@ -2403,6 +2421,59 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 90.17)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b")
+		(property "Sheetname" "Power generation"
+			(at 228.6 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_generation.kicad_sch"
+			(at 228.6 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_SYS" input
+			(at 228.6 96.52 180)
+			(uuid "af6bd798-eb1f-45f4-9058-441bf0825748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(page "3")
 				)
 			)
 		)

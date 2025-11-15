@@ -1,0 +1,247 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d6ff4083-9473-4e9c-9204-075e3deaa509")
+	(paper "A3")
+	(title_block
+		(title "Linux SBC")
+		(date "2025-11-07")
+		(rev "v0.0.1")
+	)
+	(lib_symbols)
+	(text_box "asd"
+		(exclude_from_sim no)
+		(at 13.97 260.35 0)
+		(size 283.21 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "391eaf28-b8d0-4962-a758-03d8bc7c08ea")
+	)
+	(text_box "TODO: Powers the STPMIC1D, the 3.3V downstream and peripherals (USB, ETH, LCD)."
+		(exclude_from_sim no)
+		(at 13.97 50.8 0)
+		(size 187.96 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "60ade544-df32-44ec-bdc2-d38aad82a9f8")
+	)
+	(text_box "5 V @ 4.5 A"
+		(exclude_from_sim no)
+		(at 12.7 38.1 0)
+		(size 190.5 88.9)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "8ce42b62-a9e5-43f7-b17e-edb2edc66bd5")
+	)
+	(text_box "TODO: Powers the keyboard IO expander and Bluetooth."
+		(exclude_from_sim no)
+		(at 13.97 137.16 0)
+		(size 187.96 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "9f578f85-f165-42e6-92d0-5aa2c28ca0d3")
+	)
+	(text_box "TODO: Powers the MPU, DDR, SD card and flash memory."
+		(exclude_from_sim no)
+		(at 204.47 50.8 0)
+		(size 200.66 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "cb04c30f-a986-487c-90d9-985cdd1c76af")
+	)
+	(text_box "3.3 V @ 4 A"
+		(exclude_from_sim no)
+		(at 12.7 127 0)
+		(size 190.5 88.9)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "d6c5d2df-9ae5-4b38-a486-d9bf071f693e")
+	)
+	(text_box "Notes"
+		(exclude_from_sim no)
+		(at 12.7 251.46 0)
+		(size 285.75 33.02)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "de256da2-3add-4386-811c-9a77f518ca24")
+	)
+	(text_box "MPU @ 1 A"
+		(exclude_from_sim no)
+		(at 203.2 38.1 0)
+		(size 203.2 88.9)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "ebd1cc34-62cc-4c60-afc9-17f45790b0e1")
+	)
+	(text_box "Power generation"
+		(exclude_from_sim no)
+		(at 12.7 12.7 0)
+		(size 393.7 25.4)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "eee1033d-ef79-4a80-9dbe-9b934e9e317e")
+	)
+	(hierarchical_label "V_3V3"
+		(shape output)
+		(at 190.5 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19ebe2cb-5d2c-4be9-a37e-64cf10d34e5f")
+	)
+	(hierarchical_label "V_SYS"
+		(shape input)
+		(at 25.4 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1af3f3f4-54d4-4524-ab1b-58e03d1dded1")
+	)
+	(hierarchical_label "V_5V0"
+		(shape output)
+		(at 190.5 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acd58225-4ded-4eae-aa01-2f3f401014c7")
+	)
+	(hierarchical_label "V_5V0"
+		(shape output)
+		(at 25.4 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbe9c913-a506-46d9-851c-cb5387fc883e")
+	)
+)
