@@ -313,6 +313,14 @@
       {
         "netclass": "GND",
         "pattern": "/*/V_*-"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "/*/VDD*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "V_*"
       }
     ]
   },
@@ -427,12 +435,6 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -471,6 +473,36 @@
           "group_by": false,
           "label": "Temperature Coefficient",
           "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature coefficient",
+          "name": "Temperature coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Breakdown voltage",
+          "name": "Breakdown voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current rating",
+          "name": "Current rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digi-Key Part Number",
+          "name": "Digi-Key Part Number",
           "show": false
         }
       ],
@@ -533,6 +565,10 @@
     [
       "707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b",
       "Power generation"
+    ],
+    [
+      "0dbcfd95-3a31-46da-8612-13eb3752ace8",
+      "Power generation MPU"
     ]
   ],
   "text_variables": {}

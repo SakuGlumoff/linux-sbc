@@ -821,6 +821,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "3. Power generation"
 		(exclude_from_sim no)
@@ -881,6 +1006,18 @@
 			(justify left top)
 		)
 		(uuid "c07fd134-7ce2-4ac8-9971-5c62de4ab866")
+	)
+	(text "3.1. Power generation for MPU"
+		(exclude_from_sim no)
+		(at 22.86 76.2 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+			(href "#4")
+		)
+		(uuid "cb1d2ecb-86db-4a6c-ba54-62990ef4ee1d")
 	)
 	(text "2. Power input"
 		(exclude_from_sim no)
@@ -1014,7 +1151,7 @@
 		)
 		(uuid "8e57c149-078f-4762-98a3-27cd8cac0dea")
 	)
-	(text_box "Introduction"
+	(text_box "1. Introduction"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
 		(size 393.7 38.1)
@@ -1122,6 +1259,62 @@
 		(color 0 0 0 0)
 		(uuid "fe259aa4-9553-481c-821d-bd6f56fdad45")
 	)
+	(no_connect
+		(at 260.35 104.14)
+		(uuid "1dfc1737-fdc1-4a04-a24c-962825331dce")
+	)
+	(no_connect
+		(at 260.35 124.46)
+		(uuid "20ddc3b2-6639-4e22-be8e-aa84b1f61726")
+	)
+	(no_connect
+		(at 260.35 106.68)
+		(uuid "27a3d35a-0edc-4ea3-8825-04cd9aaa7c0d")
+	)
+	(no_connect
+		(at 260.35 137.16)
+		(uuid "2a45ab93-c14c-47da-a23e-fc2596d618b7")
+	)
+	(no_connect
+		(at 260.35 127)
+		(uuid "2a8be2ff-1936-44b7-8138-b552864014b6")
+	)
+	(no_connect
+		(at 260.35 129.54)
+		(uuid "2ef4c661-bef9-492c-8308-d5188d9f65c7")
+	)
+	(no_connect
+		(at 260.35 116.84)
+		(uuid "69c02c7e-09c9-4eb0-a57b-d865d5cb0e56")
+	)
+	(no_connect
+		(at 260.35 114.3)
+		(uuid "6e890cfa-3af4-4bdf-850d-098afee9a7e1")
+	)
+	(no_connect
+		(at 260.35 109.22)
+		(uuid "6f8dbed5-b847-49b3-b9cd-d39d49e43d83")
+	)
+	(no_connect
+		(at 260.35 134.62)
+		(uuid "8d025cd3-ed37-461b-bb8c-391223d24d7b")
+	)
+	(no_connect
+		(at 260.35 101.6)
+		(uuid "b9dcb71f-1f91-4d9b-a70e-835fff32a6bc")
+	)
+	(no_connect
+		(at 260.35 111.76)
+		(uuid "cc886ef1-cef8-4fd1-8d33-d9f728354d59")
+	)
+	(no_connect
+		(at 260.35 121.92)
+		(uuid "e6536a48-51e7-44b4-9cd3-fb87b9622947")
+	)
+	(no_connect
+		(at 260.35 119.38)
+		(uuid "fb4bfc1e-9ddd-4668-bbef-32c4017c91a5")
+	)
 	(wire
 		(pts
 			(xy 152.4 91.44) (xy 153.67 91.44)
@@ -1131,6 +1324,16 @@
 			(type default)
 		)
 		(uuid "035326fc-d6d4-45bb-aa12-a69875a57b6a")
+	)
+	(wire
+		(pts
+			(xy 260.35 88.9) (xy 264.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d97ad4-2c72-4d87-9b16-f9c54a9c5867")
 	)
 	(wire
 		(pts
@@ -1164,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 96.52) (xy 228.6 96.52)
+			(xy 207.01 88.9) (xy 215.9 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1304,6 +1507,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 88.9) (xy 264.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb39b6b-f921-4b71-ab23-60f1c5b9b616")
+	)
+	(wire
+		(pts
 			(xy 57.15 278.13) (xy 57.15 279.4)
 		)
 		(stroke
@@ -1334,6 +1547,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 91.44) (xy 273.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b649e8-eaef-4ee4-bf2b-bcd118493873")
+	)
+	(wire
+		(pts
 			(xy 167.64 91.44) (xy 167.64 92.71)
 		)
 		(stroke
@@ -1341,6 +1564,16 @@
 			(type default)
 		)
 		(uuid "eb083de3-860e-433e-a3fe-22b4d56def48")
+	)
+	(wire
+		(pts
+			(xy 260.35 91.44) (xy 273.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8988033-4e97-4368-8af4-4f8071fa8e43")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
@@ -1422,7 +1655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Power" ""
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -1431,7 +1664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "Temperature Coefficient" ""
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -1534,6 +1767,15 @@
 				(hide yes)
 			)
 		)
+		(property "Temperature Coefficient" ""
+			(at 38.1 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e74376f9-5a04-44dd-942f-c29444f8b5eb")
 		)
@@ -1619,6 +1861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Temperature Coefficient" ""
+			(at 50.8 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba22e215-648c-4ab6-b4c9-8284aacd7996")
 		)
@@ -1626,6 +1877,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
 					(reference "H103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 264.16 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37d2a894-bce5-4361-bbe9-d29cc2d5bbd6")
+		(property "Reference" "#PWR0103"
+			(at 264.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_3V3"
+			(at 264.16 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 264.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cab77e5-a919-486f-a3a9-2e4155150a7f")
+		)
+		(instances
+			(project ""
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1753,7 +2070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Power" ""
 			(at 101.6 274.32 0)
 			(effects
 				(font
@@ -1762,7 +2079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "Temperature Coefficient" ""
 			(at 101.6 274.32 0)
 			(effects
 				(font
@@ -1775,6 +2092,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
 					(reference "FID102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 273.05 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f5d7f95-d250-438e-b28b-301e15a01606")
+		(property "Reference" "#PWR0104"
+			(at 273.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_5V0"
+			(at 273.05 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 273.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82f67877-55cc-4e52-a7f2-e56c9b465930")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -1835,7 +2218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Power" ""
 			(at 88.9 274.32 0)
 			(effects
 				(font
@@ -1844,7 +2227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "Temperature Coefficient" ""
 			(at 88.9 274.32 0)
 			(effects
 				(font
@@ -1927,6 +2310,15 @@
 			)
 		)
 		(property "Power" ""
+			(at 57.15 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
 			(at 57.15 275.59 0)
 			(effects
 				(font
@@ -2068,7 +2460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" ""
+		(property "Power" ""
 			(at 114.3 274.32 0)
 			(effects
 				(font
@@ -2077,7 +2469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" ""
+		(property "Temperature Coefficient" ""
 			(at 114.3 274.32 0)
 			(effects
 				(font
@@ -2183,6 +2575,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 167.64 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2340,6 +2741,15 @@
 				(hide yes)
 			)
 		)
+		(property "Temperature Coefficient" ""
+			(at 44.45 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b068869-b8fc-4594-b8da-b77f59c61e2b")
 		)
@@ -2408,7 +2818,7 @@
 			)
 		)
 		(pin "V_SYS" output
-			(at 207.01 96.52 0)
+			(at 207.01 88.9 0)
 			(uuid "32b589fb-e366-485e-9a08-9fafb599adad")
 			(effects
 				(font
@@ -2426,8 +2836,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 90.17)
-		(size 25.4 12.7)
+		(at 215.9 86.36)
+		(size 44.45 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2443,7 +2853,7 @@
 		)
 		(uuid "707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b")
 		(property "Sheetname" "Power generation"
-			(at 228.6 89.4584 0)
+			(at 215.9 85.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2862,7 @@
 			)
 		)
 		(property "Sheetfile" "power_generation.kicad_sch"
-			(at 228.6 103.4546 0)
+			(at 215.9 140.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,13 +2871,173 @@
 			)
 		)
 		(pin "V_SYS" input
-			(at 228.6 96.52 180)
+			(at 215.9 88.9 180)
 			(uuid "af6bd798-eb1f-45f4-9058-441bf0825748")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VDD" output
+			(at 260.35 101.6 0)
+			(uuid "375b5499-92d7-4164-b359-940a9701c871")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_1V8" output
+			(at 260.35 104.14 0)
+			(uuid "67d21617-1320-460e-abd5-7010b9bc6077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_3V3" output
+			(at 260.35 106.68 0)
+			(uuid "bcdcf37d-70a9-43be-822d-09538d805bdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_ADC" output
+			(at 260.35 109.22 0)
+			(uuid "c7bfdbcf-d61c-40d0-8511-a29ccadb56f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_CORE" output
+			(at 260.35 111.76 0)
+			(uuid "6295464d-9b93-4130-8c87-0496515eccd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_CPU" output
+			(at 260.35 114.3 0)
+			(uuid "7fbb2cd5-2d48-488c-a122-614b477d5785")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_DDR" output
+			(at 260.35 116.84 0)
+			(uuid "4df987d9-ab98-44af-b476-6f763f76bf3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_LDO2" output
+			(at 260.35 119.38 0)
+			(uuid "51197250-2ab7-4c05-a721-40ff30a00447")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_LDO3" output
+			(at 260.35 121.92 0)
+			(uuid "374b97d5-8833-4ff6-90d5-149ea3dd7f0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_SD" output
+			(at 260.35 124.46 0)
+			(uuid "d3d815d8-8f3f-4d8f-8b65-5777cfc864b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_USB" output
+			(at 260.35 127 0)
+			(uuid "207f6781-2a42-4d01-9c46-d6f1fe3b22f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF_DDR" output
+			(at 260.35 129.54 0)
+			(uuid "40e117e5-3bdf-4b5e-81d8-23c21c6906fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_3V3" output
+			(at 260.35 88.9 0)
+			(uuid "d0154055-79d5-47ae-a804-27b3c1722179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_5V0" output
+			(at 260.35 91.44 0)
+			(uuid "f17549f7-81ac-4256-9278-07d4ff0dbad1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MPU_PWR_I2C{SDA SCL}" bidirectional
+			(at 260.35 134.62 0)
+			(uuid "8d364850-5a81-4c0d-bb2b-d485a2a6d23d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MPU_PWR_IO{CTRL RST_N WKUP INT_N}" bidirectional
+			(at 260.35 137.16 0)
+			(uuid "1b999814-a964-4774-8b23-2989a380ab28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
