@@ -2632,16 +2632,6 @@
 		)
 		(uuid "5c871f43-991c-4432-8ed4-dcebad3d3af8")
 	)
-	(bus
-		(pts
-			(xy 358.14 129.54) (xy 360.68 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc99a34-9ae6-4eac-a570-68bd1410c663")
-	)
 	(wire
 		(pts
 			(xy 25.4 111.76) (xy 25.4 135.89)
@@ -3773,17 +3763,6 @@
 		)
 		(uuid "57e2d57e-fed3-4337-8ba2-608517d33980")
 	)
-	(hierarchical_label "MPU_PWR_IO{CTRL RST_N WKUP INT_N}"
-		(shape bidirectional)
-		(at 360.68 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79096297-482b-4858-8778-c393b72c57b1")
-	)
 	(hierarchical_label "VDD_3V3"
 		(shape output)
 		(at 360.68 152.4 0)
@@ -3806,7 +3785,7 @@
 		)
 		(uuid "8e62aa67-3771-4803-a0dc-7be4ef1f0bc3")
 	)
-	(hierarchical_label "MPU_PWR_I2C{SDA SCL}"
+	(hierarchical_label "{PMIC}"
 		(shape bidirectional)
 		(at 360.68 127 0)
 		(effects
@@ -8150,19 +8129,9 @@
 				(justify left)
 			)
 		)
-		(pin "MPU_PWR_I2C{SDA SCL}" bidirectional
+		(pin "{PMIC}" bidirectional
 			(at 358.14 127 0)
 			(uuid "309ce80f-a7c1-433f-9554-056944ebd622")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MPU_PWR_IO{CTRL RST_N WKUP INT_N}" bidirectional
-			(at 358.14 129.54 0)
-			(uuid "47d8ffe7-8a80-4a20-a267-9c1597c5ddb2")
 			(effects
 				(font
 					(size 1.27 1.27)

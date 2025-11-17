@@ -1634,6 +1634,110 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_alias "PMIC"
+		(members "SDA" "SCL" "CTRL" "RST_N" "WKUP" "INT_N")
 	)
 	(text "RST_N & INT_N have internal pull-ups"
 		(exclude_from_sim no)
@@ -1753,6 +1857,27 @@
 		)
 		(uuid "ae66a6eb-bbcb-4d3a-8354-bb66aa4ec15a")
 	)
+	(text_box "I2C address:\n0b0110011X"
+		(exclude_from_sim no)
+		(at 175.26 215.9 0)
+		(size 13.97 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "efc2028e-03fc-4b8f-a2fd-1fac2efe4915")
+	)
 	(junction
 		(at 109.22 203.2)
 		(diameter 0)
@@ -1830,6 +1955,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30cfd252-3142-4060-8a13-1356baf81647")
+	)
+	(junction
+		(at 389.89 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "328491c4-243f-48a5-bd4f-e13f093d9e0f")
 	)
 	(junction
 		(at 250.19 121.92)
@@ -2072,6 +2203,12 @@
 		(uuid "bb994a35-a6e3-46bb-8f3a-e328cb4e6f15")
 	)
 	(junction
+		(at 389.89 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbf8ced6-ca88-447b-acc7-0c083138cb70")
+	)
+	(junction
 		(at 285.75 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2082,6 +2219,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc3808e6-beb8-418d-b031-5d9b2458e8c9")
+	)
+	(junction
+		(at 389.89 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d488fdc3-173d-4c4f-836e-dfd42f19ca5d")
 	)
 	(junction
 		(at 104.14 125.73)
@@ -2106,6 +2249,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5fd54d3-9dc2-4439-ad1d-5da7940bb66e")
+	)
+	(junction
+		(at 389.89 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e664ae59-954d-4a79-99e1-427b2f2c2537")
 	)
 	(junction
 		(at 214.63 114.3)
@@ -2240,6 +2389,16 @@
 			(type default)
 		)
 		(uuid "01985410-20b3-4c53-97bd-56e7a42fca7b")
+	)
+	(wire
+		(pts
+			(xy 389.89 238.76) (xy 389.89 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019b0725-411f-4373-9830-036eaf0cab5e")
 	)
 	(wire
 		(pts
@@ -2533,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 236.22) (xy 331.47 236.22)
+			(xy 388.62 232.41) (xy 389.89 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2560,16 +2719,6 @@
 			(type default)
 		)
 		(uuid "1ed3c273-a270-4ca3-b709-d853fcc1d6ab")
-	)
-	(wire
-		(pts
-			(xy 381 240.03) (xy 382.27 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f576aca-43d5-4f31-9893-f161c0289ea1")
 	)
 	(wire
 		(pts
@@ -3113,6 +3262,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 246.38) (xy 389.89 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583251c4-314d-4189-86d0-e74cc5916929")
+	)
+	(wire
+		(pts
 			(xy 285.75 170.18) (xy 285.75 171.45)
 		)
 		(stroke
@@ -3133,6 +3292,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 240.03) (xy 391.16 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b69d1d3-87e1-4336-9961-a8b1a605b659")
+	)
+	(wire
+		(pts
 			(xy 142.24 114.3) (xy 142.24 115.57)
 		)
 		(stroke
@@ -3143,13 +3312,23 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 228.6) (xy 331.47 228.6)
+			(xy 388.62 247.65) (xy 389.89 247.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5dc4e099-41b7-4215-b14d-550062a45739")
+	)
+	(wire
+		(pts
+			(xy 389.89 232.41) (xy 391.16 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f205636-5c31-4d3f-8010-68b5c2edad72")
 	)
 	(wire
 		(pts
@@ -3233,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 247.65) (xy 339.09 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694bcf51-b763-4633-b56f-8622946add99")
+	)
+	(wire
+		(pts
 			(xy 161.29 124.46) (xy 161.29 125.73)
 		)
 		(stroke
@@ -3260,6 +3449,16 @@
 			(type default)
 		)
 		(uuid "6e5d3759-c6fb-4204-ae7c-427ac8ff9187")
+	)
+	(wire
+		(pts
+			(xy 214.63 121.92) (xy 250.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f79db14-1d27-48c9-91f7-0335eb845106")
 	)
 	(wire
 		(pts
@@ -3303,6 +3502,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 232.41) (xy 364.49 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a80c79f-8143-4976-8b1a-c2651333d5a5")
+	)
+	(wire
+		(pts
 			(xy 229.87 212.09) (xy 229.87 194.31)
 		)
 		(stroke
@@ -3310,6 +3519,16 @@
 			(type default)
 		)
 		(uuid "7bbf08e5-2b68-4801-b70a-3b4560cd21b2")
+	)
+	(wire
+		(pts
+			(xy 389.89 231.14) (xy 389.89 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4f2566-1433-4cbf-aaff-f61652bc5287")
 	)
 	(wire
 		(pts
@@ -3333,16 +3552,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 121.92) (xy 250.19 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8091e80c-4acd-46b5-9708-d8fe8c6e1d37")
-	)
-	(wire
-		(pts
 			(xy 116.84 137.16) (xy 116.84 139.7)
 		)
 		(stroke
@@ -3350,16 +3559,6 @@
 			(type default)
 		)
 		(uuid "8278287c-8eff-49cb-afc1-7fc7c0feaf38")
-	)
-	(wire
-		(pts
-			(xy 381 228.6) (xy 382.27 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8467d9aa-73da-4bf8-9f5c-4ec34c93020f")
 	)
 	(wire
 		(pts
@@ -3433,6 +3632,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 224.79) (xy 339.09 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1e0e04-c289-4156-b1f9-1c552e35d9da")
+	)
+	(wire
+		(pts
 			(xy 255.27 177.8) (xy 257.81 177.8)
 		)
 		(stroke
@@ -3443,7 +3652,17 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 232.41) (xy 331.47 232.41)
+			(xy 361.95 224.79) (xy 364.49 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d209d3d-edc6-4972-a7eb-6a0400ca704c")
+	)
+	(wire
+		(pts
+			(xy 388.62 240.03) (xy 389.89 240.03)
 		)
 		(stroke
 			(width 0)
@@ -3493,23 +3712,13 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 240.03) (xy 356.87 240.03)
+			(xy 361.95 247.65) (xy 364.49 247.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93ae7426-20bf-49f3-9fff-dd28bc19a65b")
-	)
-	(bus
-		(pts
-			(xy 95.25 195.58) (xy 96.52 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96fad712-eae5-45f2-b0cc-4dd36c1c7ed4")
 	)
 	(wire
 		(pts
@@ -3530,6 +3739,16 @@
 			(type default)
 		)
 		(uuid "97b015eb-3c35-4dd3-9f9a-0f07dc471abd")
+	)
+	(bus
+		(pts
+			(xy 96.52 193.04) (xy 96.52 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a86ad7-4a9d-4dad-9595-9301322884a5")
 	)
 	(wire
 		(pts
@@ -3553,6 +3772,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 247.65) (xy 391.16 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a66b56b-35e9-4a55-967f-4e29313ebadc")
+	)
+	(wire
+		(pts
 			(xy 99.06 200.66) (xy 116.84 200.66)
 		)
 		(stroke
@@ -3560,6 +3789,16 @@
 			(type default)
 		)
 		(uuid "9b882cc0-26cd-4b61-844f-930b0289f647")
+	)
+	(wire
+		(pts
+			(xy 336.55 232.41) (xy 339.09 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8cecb5-e5b0-45a4-b011-5c9a0efc631d")
 	)
 	(wire
 		(pts
@@ -3620,16 +3859,6 @@
 			(type default)
 		)
 		(uuid "a277875a-88c6-4f1a-8769-6f512cf7d7b9")
-	)
-	(wire
-		(pts
-			(xy 381 232.41) (xy 382.27 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ae302b-dbfc-4b2c-a5f7-39fa95c5be0f")
 	)
 	(wire
 		(pts
@@ -3833,6 +4062,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 224.79) (xy 391.16 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd389fcd-e37a-400b-9f7d-3d7a4b15275a")
+	)
+	(wire
+		(pts
 			(xy 332.74 157.48) (xy 332.74 158.75)
 		)
 		(stroke
@@ -3840,6 +4079,16 @@
 			(type default)
 		)
 		(uuid "be21493e-77a5-4978-b222-313899e0c184")
+	)
+	(wire
+		(pts
+			(xy 389.89 223.52) (xy 389.89 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb2dde7-bc5b-43cc-87af-c2701bedafb0")
 	)
 	(wire
 		(pts
@@ -3940,16 +4189,6 @@
 			(type default)
 		)
 		(uuid "c847f8c2-d573-4860-b3c5-f4a1a25e43a4")
-	)
-	(wire
-		(pts
-			(xy 355.6 232.41) (xy 356.87 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c895fdd5-3d63-4892-9369-aec25235fe91")
 	)
 	(wire
 		(pts
@@ -4113,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 236.22) (xy 356.87 236.22)
+			(xy 361.95 240.03) (xy 364.49 240.03)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4412,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 240.03) (xy 331.47 240.03)
+			(xy 388.62 224.79) (xy 389.89 224.79)
 		)
 		(stroke
 			(width 0)
@@ -4183,7 +4422,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 236.22) (xy 382.27 236.22)
+			(xy 336.55 240.03) (xy 339.09 240.03)
 		)
 		(stroke
 			(width 0)
@@ -4283,16 +4522,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 228.6) (xy 356.87 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd8633c-4f09-47bb-a93a-a52af977f85d")
-	)
-	(wire
-		(pts
 			(xy 161.29 147.32) (xy 167.64 147.32)
 		)
 		(stroke
@@ -4311,7 +4540,7 @@
 		)
 		(uuid "fdff6234-7f45-4814-b879-3a00588aa832")
 	)
-	(label "MPU_PWR_I2C.SCL"
+	(label "SCL"
 		(at 160.02 195.58 180)
 		(effects
 			(font
@@ -4341,7 +4570,7 @@
 		)
 		(uuid "3d3f390e-1f15-4fa9-a1f2-fc4a0c45d0b5")
 	)
-	(label "MPU_PWR_IO.INT_N"
+	(label "INT_N"
 		(at 199.39 193.04 0)
 		(effects
 			(font
@@ -4361,7 +4590,7 @@
 		)
 		(uuid "7a3e1207-2568-433a-8aec-8eee540f73a6")
 	)
-	(label "MPU_PWR_I2C.SDA"
+	(label "SDA"
 		(at 160.02 193.04 180)
 		(effects
 			(font
@@ -4381,7 +4610,7 @@
 		)
 		(uuid "a49792d1-24d3-4825-a674-8c1ca76954a7")
 	)
-	(label "MPU_PWR_IO.CTRL"
+	(label "CTRL"
 		(at 160.02 198.12 180)
 		(effects
 			(font
@@ -4391,7 +4620,7 @@
 		)
 		(uuid "ab386ef2-9d0f-4753-9e2f-5205e9191abd")
 	)
-	(label "MPU_PWR_IO.WKUP"
+	(label "WKUP"
 		(at 160.02 203.2 180)
 		(effects
 			(font
@@ -4411,7 +4640,7 @@
 		)
 		(uuid "f0e6af64-ec01-4d27-8939-31be1bd9cc83")
 	)
-	(label "MPU_PWR_IO.RST_N"
+	(label "RST_N"
 		(at 160.02 200.66 180)
 		(effects
 			(font
@@ -4456,7 +4685,7 @@
 	)
 	(hierarchical_label "VDD_USB"
 		(shape output)
-		(at 381 240.03 180)
+		(at 336.55 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4478,7 +4707,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape output)
-		(at 330.2 236.22 180)
+		(at 388.62 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4489,7 +4718,7 @@
 	)
 	(hierarchical_label "VDD_LDO3"
 		(shape output)
-		(at 355.6 232.41 180)
+		(at 361.95 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4555,7 +4784,7 @@
 	)
 	(hierarchical_label "VDD_1V8"
 		(shape output)
-		(at 355.6 240.03 180)
+		(at 361.95 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4566,7 +4795,7 @@
 	)
 	(hierarchical_label "VDD_DDR"
 		(shape output)
-		(at 330.2 232.41 180)
+		(at 388.62 240.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4577,7 +4806,7 @@
 	)
 	(hierarchical_label "VREF_DDR"
 		(shape output)
-		(at 381 236.22 180)
+		(at 336.55 240.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4599,7 +4828,7 @@
 	)
 	(hierarchical_label "VDD_SD"
 		(shape output)
-		(at 381 232.41 180)
+		(at 336.55 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4610,7 +4839,7 @@
 	)
 	(hierarchical_label "VDD_CORE"
 		(shape output)
-		(at 330.2 240.03 180)
+		(at 388.62 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4621,7 +4850,7 @@
 	)
 	(hierarchical_label "VDD_LDO2"
 		(shape output)
-		(at 381 228.6 180)
+		(at 336.55 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4632,7 +4861,7 @@
 	)
 	(hierarchical_label "VDD_ADC"
 		(shape output)
-		(at 355.6 236.22 180)
+		(at 361.95 240.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4665,7 +4894,7 @@
 	)
 	(hierarchical_label "VDD_CPU"
 		(shape output)
-		(at 330.2 228.6 180)
+		(at 388.62 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4696,7 +4925,7 @@
 		)
 		(uuid "db5a0edb-50f7-47b3-a871-6bf8728b79be")
 	)
-	(hierarchical_label "MPU_PWR_I2C{SDA SCL}"
+	(hierarchical_label "{PMIC}"
 		(shape bidirectional)
 		(at 95.25 190.5 180)
 		(effects
@@ -4709,7 +4938,7 @@
 	)
 	(hierarchical_label "VDD_3V3"
 		(shape output)
-		(at 355.6 228.6 180)
+		(at 361.95 224.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4728,17 +4957,6 @@
 			(justify left)
 		)
 		(uuid "fc14ccd0-e500-488e-8fd2-9e7482cd6f60")
-	)
-	(hierarchical_label "MPU_PWR_IO{CTRL RST_N WKUP INT_N}"
-		(shape bidirectional)
-		(at 95.25 195.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc266924-09b4-4a5c-87b8-3c347104b056")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5064,7 +5282,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 382.27 240.03 270)
+		(at 339.09 247.65 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5072,8 +5290,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "122a5d4c-f350-4699-bd0e-a5eeb6ad9317")
-		(property "Reference" "TP418"
-			(at 387.35 240.03 90)
+		(property "Reference" "TP410"
+			(at 344.17 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5300,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 385.572 237.49 90)
+			(at 342.392 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5309,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 382.27 234.95 0)
+			(at 339.09 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 234.95 0)
+			(at 339.09 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5327,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 382.27 240.03 0)
+			(at 339.09 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5336,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 382.27 240.03 90)
+			(at 339.09 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5345,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 382.27 240.03 90)
+			(at 339.09 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +5359,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP418")
+					(reference "TP410")
 					(unit 1)
 				)
 			)
@@ -5263,7 +5481,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 356.87 236.22 270)
+		(at 364.49 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5272,7 +5490,7 @@
 		(dnp no)
 		(uuid "1736b1b1-162c-4c77-ac6c-bd356d350dff")
 		(property "Reference" "TP413"
-			(at 361.95 236.22 90)
+			(at 369.57 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5499,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 360.172 233.68 90)
+			(at 367.792 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5508,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 356.87 231.14 0)
+			(at 364.49 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +5517,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 231.14 0)
+			(at 364.49 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5526,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 356.87 236.22 0)
+			(at 364.49 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5535,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 356.87 236.22 90)
+			(at 364.49 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5544,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 356.87 236.22 90)
+			(at 364.49 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5566,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 331.47 232.41 270)
+		(at 391.16 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5356,8 +5574,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a8716d3-128f-4f7c-8fc0-f0b7f2a6334b")
-		(property "Reference" "TP408"
-			(at 336.55 232.41 90)
+		(property "Reference" "TP417"
+			(at 396.24 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5584,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 334.772 229.87 90)
+			(at 394.462 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5593,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 331.47 227.33 0)
+			(at 391.16 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 331.47 227.33 0)
+			(at 391.16 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +5611,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 331.47 232.41 0)
+			(at 391.16 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5620,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 331.47 232.41 90)
+			(at 391.16 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5629,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 331.47 232.41 90)
+			(at 391.16 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +5643,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP408")
+					(reference "TP417")
 					(unit 1)
 				)
 			)
@@ -5855,6 +6073,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
 					(reference "TP401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 389.89 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3281d51a-fa67-4497-ad81-d32da6eaed18")
+		(property "Reference" "#FLG0402"
+			(at 389.89 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 389.89 228.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 389.89 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cafca77c-b715-4c21-b62c-1e3c66a725fc")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
+					(reference "#FLG0402")
 					(unit 1)
 				)
 			)
@@ -6298,7 +6582,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 382.27 236.22 270)
+		(at 339.09 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6306,8 +6590,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49dc3e65-0cb3-4591-a57e-5d0d6c43c5cf")
-		(property "Reference" "TP417"
-			(at 387.35 236.22 90)
+		(property "Reference" "TP409"
+			(at 344.17 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,7 +6600,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 385.572 233.68 90)
+			(at 342.392 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +6609,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 382.27 231.14 0)
+			(at 339.09 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6618,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 231.14 0)
+			(at 339.09 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6343,7 +6627,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 382.27 236.22 0)
+			(at 339.09 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6636,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 382.27 236.22 90)
+			(at 339.09 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6645,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 382.27 236.22 90)
+			(at 339.09 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6659,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP417")
+					(reference "TP409")
 					(unit 1)
 				)
 			)
@@ -6383,7 +6667,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 382.27 228.6 270)
+		(at 339.09 224.79 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6391,8 +6675,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c341a44-7cde-4245-8e90-0f92dac810e0")
-		(property "Reference" "TP415"
-			(at 387.35 228.6 90)
+		(property "Reference" "TP407"
+			(at 344.17 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6685,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 385.572 226.06 90)
+			(at 342.392 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6694,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 382.27 223.52 0)
+			(at 339.09 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6419,7 +6703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 223.52 0)
+			(at 339.09 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6712,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 382.27 228.6 0)
+			(at 339.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6721,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 382.27 228.6 90)
+			(at 339.09 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6730,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 382.27 228.6 90)
+			(at 339.09 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6744,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP415")
+					(reference "TP407")
 					(unit 1)
 				)
 			)
@@ -6676,7 +6960,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 331.47 228.6 270)
+		(at 391.16 247.65 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6684,8 +6968,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "591e054e-cbb7-4c73-87e0-91027cb52d53")
-		(property "Reference" "TP407"
-			(at 336.55 228.6 90)
+		(property "Reference" "TP418"
+			(at 396.24 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6978,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 334.772 226.06 90)
+			(at 394.462 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6987,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 331.47 223.52 0)
+			(at 391.16 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 331.47 223.52 0)
+			(at 391.16 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +7005,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 331.47 228.6 0)
+			(at 391.16 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +7014,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 331.47 228.6 90)
+			(at 391.16 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +7023,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 331.47 228.6 90)
+			(at 391.16 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +7037,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP407")
+					(reference "TP418")
 					(unit 1)
 				)
 			)
@@ -7196,26 +7480,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 331.47 236.22 270)
-		(mirror x)
+		(lib_id "power:PWR_FLAG")
+		(at 389.89 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e8b7a67-502e-49ef-b9b7-faf3c0951750")
-		(property "Reference" "TP409"
-			(at 336.55 236.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 334.772 233.68 90)
+		(uuid "6d8fda46-1b99-4b06-8ba4-d116a0b002b8")
+		(property "Reference" "#FLG0401"
+			(at 389.89 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,8 +7497,17 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 331.47 231.14 0)
+		(property "Value" "PWR_FLAG"
+			(at 389.89 220.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7516,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 331.47 231.14 0)
+			(at 389.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 389.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfe21cd1-c1e2-4cdf-be4f-1423fc1e7026")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
+					(reference "#FLG0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 391.16 232.41 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e8b7a67-502e-49ef-b9b7-faf3c0951750")
+		(property "Reference" "TP416"
+			(at 396.24 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 394.462 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 391.16 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7592,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 331.47 236.22 0)
+			(at 391.16 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +7601,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 331.47 236.22 90)
+			(at 391.16 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7610,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 331.47 236.22 90)
+			(at 391.16 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7624,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP409")
+					(reference "TP416")
 					(unit 1)
 				)
 			)
@@ -8145,7 +8495,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 356.87 232.41 270)
+		(at 364.49 232.41 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8154,7 +8504,7 @@
 		(dnp no)
 		(uuid "9af56725-343a-4c4e-a0dd-b018ff2d7e37")
 		(property "Reference" "TP412"
-			(at 361.95 232.41 90)
+			(at 369.57 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,7 +8513,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 360.172 229.87 90)
+			(at 367.792 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8522,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 356.87 227.33 0)
+			(at 364.49 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,7 +8531,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 227.33 0)
+			(at 364.49 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8540,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 356.87 232.41 0)
+			(at 364.49 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,7 +8549,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 356.87 232.41 90)
+			(at 364.49 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +8558,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 356.87 232.41 90)
+			(at 364.49 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,7 +8580,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 331.47 240.03 270)
+		(at 391.16 224.79 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8238,8 +8588,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0f0e9c1-fbc6-4f2c-946e-6e0a37ecc0aa")
-		(property "Reference" "TP410"
-			(at 336.55 240.03 90)
+		(property "Reference" "TP415"
+			(at 396.24 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8598,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 334.772 237.49 90)
+			(at 394.462 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8607,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 331.47 234.95 0)
+			(at 391.16 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 331.47 234.95 0)
+			(at 391.16 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8625,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 331.47 240.03 0)
+			(at 391.16 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +8634,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 331.47 240.03 90)
+			(at 391.16 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +8643,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 331.47 240.03 90)
+			(at 391.16 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8657,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP410")
+					(reference "TP415")
 					(unit 1)
 				)
 			)
@@ -8315,7 +8665,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 356.87 228.6 270)
+		(at 364.49 224.79 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8324,7 +8674,7 @@
 		(dnp no)
 		(uuid "a31a924e-372e-4867-972e-3d4582f9411c")
 		(property "Reference" "TP411"
-			(at 361.95 228.6 90)
+			(at 369.57 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +8683,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 360.172 226.06 90)
+			(at 367.792 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8692,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 356.87 223.52 0)
+			(at 364.49 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8351,7 +8701,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 223.52 0)
+			(at 364.49 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8360,7 +8710,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 356.87 228.6 0)
+			(at 364.49 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8719,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 356.87 228.6 90)
+			(at 364.49 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8728,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 356.87 228.6 90)
+			(at 364.49 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +9045,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 382.27 232.41 270)
+		(at 339.09 232.41 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8703,8 +9053,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c85023a9-b0fc-4d2e-aebb-f35e5d9c74a0")
-		(property "Reference" "TP416"
-			(at 387.35 232.41 90)
+		(property "Reference" "TP408"
+			(at 344.17 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +9063,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 385.572 229.87 90)
+			(at 342.392 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +9072,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 382.27 227.33 0)
+			(at 339.09 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +9081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 227.33 0)
+			(at 339.09 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +9090,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 382.27 232.41 0)
+			(at 339.09 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +9099,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 382.27 232.41 90)
+			(at 339.09 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +9108,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 382.27 232.41 90)
+			(at 339.09 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +9122,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP416")
+					(reference "TP408")
 					(unit 1)
 				)
 			)
@@ -9882,7 +10232,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 356.87 240.03 270)
+		(at 364.49 247.65 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9891,7 +10241,7 @@
 		(dnp no)
 		(uuid "e9da7d47-5b62-4033-8f1d-e64282e8848a")
 		(property "Reference" "TP414"
-			(at 361.95 240.03 90)
+			(at 369.57 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +10250,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 360.172 237.49 90)
+			(at 367.792 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +10259,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 356.87 234.95 0)
+			(at 364.49 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +10268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 356.87 234.95 0)
+			(at 364.49 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9927,7 +10277,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 356.87 240.03 0)
+			(at 364.49 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9936,7 +10286,7 @@
 			)
 		)
 		(property "Power" ""
-			(at 356.87 240.03 90)
+			(at 364.49 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9945,7 +10295,7 @@
 			)
 		)
 		(property "Temperature Coefficient" ""
-			(at 356.87 240.03 90)
+			(at 364.49 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9960,6 +10310,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
 					(reference "TP414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 389.89 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb16f169-d7c1-4443-9f51-0de85c6ee257")
+		(property "Reference" "#FLG0403"
+			(at 389.89 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 389.89 235.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 389.89 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "535645aa-e6cd-4ddb-add3-815394733467")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
+					(reference "#FLG0403")
 					(unit 1)
 				)
 			)
@@ -10302,6 +10718,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
 					(reference "C415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 389.89 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd1a3fa3-4eb2-4be7-a439-844ff9f377aa")
+		(property "Reference" "#FLG0404"
+			(at 389.89 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 389.89 243.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 389.89 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "431e9607-760b-4c01-8377-22e8c451733d")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
+					(reference "#FLG0404")
 					(unit 1)
 				)
 			)
