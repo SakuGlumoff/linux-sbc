@@ -1793,7 +1793,7 @@
 		)
 		(uuid "2d72553a-18d1-44ba-bde5-eb2dda434977")
 	)
-	(text_box "3.1. Power generation for MPU"
+	(text_box "4.1. MPU PMIC"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
 		(size 393.7 38.1)
@@ -1834,6 +1834,26 @@
 			(justify left top)
 		)
 		(uuid "62cbf3b7-4158-4438-96c7-369854911053")
+	)
+	(text_box "Powers the MPU, DDR, SD card and flash memory."
+		(exclude_from_sim no)
+		(at 13.97 52.07 0)
+		(size 391.16 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "ac881151-6281-400c-a889-3c55fc38cdb3")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -4967,7 +4987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "040a81ff-8219-4200-9d83-37d5cc01d8e7")
-		(property "Reference" "C403"
+		(property "Reference" "C503"
 			(at 106.68 140.97 0)
 			(effects
 				(font
@@ -5067,15 +5087,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2eeacfec-f1ff-4809-9f47-ebcb8c05fa81")
+			(uuid "83b426ec-770c-4e5d-bc1f-5bec107baa96")
 		)
 		(pin "1"
-			(uuid "f2e36abc-7685-42d5-beb4-e6a4b849007c")
+			(uuid "65cd31c1-2125-48f9-b8fa-0f9d9745ddff")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C403")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -5090,7 +5110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08e9d159-68b6-4dc2-990f-d5ffc1f26b3e")
-		(property "Reference" "R402"
+		(property "Reference" "R502"
 			(at 124.46 181.6099 0)
 			(effects
 				(font
@@ -5181,15 +5201,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "09aaf1ee-2900-4be4-9f76-8cc94dcc4e98")
+			(uuid "a0911423-19df-4e45-b9b1-29c893fef71c")
 		)
 		(pin "1"
-			(uuid "6a9710d8-f54a-42fe-94c0-b96cf3f32c76")
+			(uuid "e74add18-b347-4e01-a797-f82f3c9e823f")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "R402")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -5205,7 +5225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09be4936-2b41-4ce7-a13d-23fb37810148")
-		(property "Reference" "TP406"
+		(property "Reference" "TP506"
 			(at 139.7 212.09 0)
 			(effects
 				(font
@@ -5269,12 +5289,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1734248b-641a-420e-bc7b-8c1e493411d1")
+			(uuid "85db0d28-9ad2-41d7-842b-b49764d4e989")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP406")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP506")
 					(unit 1)
 				)
 			)
@@ -5290,7 +5310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "122a5d4c-f350-4699-bd0e-a5eeb6ad9317")
-		(property "Reference" "TP410"
+		(property "Reference" "TP510"
 			(at 344.17 247.65 90)
 			(effects
 				(font
@@ -5354,12 +5374,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4facfc9b-f995-481a-bd2a-42b81d7dac79")
+			(uuid "b26b270c-9ad3-4d8a-9353-6aa14f0d411b")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP410")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP510")
 					(unit 1)
 				)
 			)
@@ -5374,7 +5394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14b70c7d-16e8-46bf-b6ca-2abed0fca220")
-		(property "Reference" "C402"
+		(property "Reference" "C502"
 			(at 107.95 116.84 0)
 			(effects
 				(font
@@ -5465,15 +5485,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8d3c9bda-8651-4152-9cdb-fe51a780657e")
+			(uuid "7d4c668e-a4f4-46ed-a529-7df2375c45a4")
 		)
 		(pin "1"
-			(uuid "957b321b-f3ec-45aa-8eb0-38070db20fb9")
+			(uuid "2a11c3d1-2fd8-49b8-95df-e75affd84720")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C402")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -5489,7 +5509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1736b1b1-162c-4c77-ac6c-bd356d350dff")
-		(property "Reference" "TP413"
+		(property "Reference" "TP513"
 			(at 369.57 240.03 90)
 			(effects
 				(font
@@ -5553,12 +5573,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cd983bc-cab0-4e5d-8ffa-3e235998b704")
+			(uuid "eab1d318-6283-4cb9-9b1d-86c2d58c1b01")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP413")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP513")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a8716d3-128f-4f7c-8fc0-f0b7f2a6334b")
-		(property "Reference" "TP417"
+		(property "Reference" "TP517"
 			(at 396.24 240.03 90)
 			(effects
 				(font
@@ -5638,12 +5658,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "78dfb0dc-a06c-4470-bdab-7dc8718b2a11")
+			(uuid "8be22965-66e9-4970-a517-0426dc9e78dd")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP417")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP517")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22ce8e23-1e8e-4749-9359-6b3cc9e833e3")
-		(property "Reference" "L403"
+		(property "Reference" "L503"
 			(at 208.28 128.27 90)
 			(effects
 				(font
@@ -5740,15 +5760,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fde9628-3cdb-47be-a90b-42583dd63245")
+			(uuid "d4df1764-a28f-4b32-b504-4642c6dc5cbc")
 		)
 		(pin "2"
-			(uuid "921e851e-c88a-4b1b-b5d8-3c9cae615f58")
+			(uuid "1b4b0ca2-56fe-4a0c-8eae-3cb3e0993de2")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "L403")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "L503")
 					(unit 1)
 				)
 			)
@@ -5764,7 +5784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b694922-a3a7-49dc-aa47-9e83deab9dfb")
-		(property "Reference" "U401"
+		(property "Reference" "U501"
 			(at 182.88 106.68 0)
 			(effects
 				(font
@@ -5850,144 +5870,144 @@
 			)
 		)
 		(pin "6"
-			(uuid "99c8577f-49d6-4a1c-ae07-e2a8fa85fdb2")
+			(uuid "f8f2e9eb-9e63-4ca3-bae0-459312c10fa4")
 		)
 		(pin "10"
-			(uuid "ff2b1315-1123-4842-93a8-fac467b3dd21")
+			(uuid "c5bee887-0d16-449d-abe8-76653ac215df")
 		)
 		(pin "13"
-			(uuid "92d4a7de-25dd-4e36-a3fc-cd11c68fe1ac")
+			(uuid "ff0aa2c5-5e64-4628-a3f7-dc1113b594e5")
 		)
 		(pin "3"
-			(uuid "bda36df6-2d55-463d-9f29-4eed8e2677a1")
+			(uuid "0e920203-d926-453d-bdc2-c7c070235d90")
 		)
 		(pin "32"
-			(uuid "ed077774-bc5c-4334-9bd0-e61294444ea1")
+			(uuid "9f8f1841-17f2-4ef9-aa60-f59cf6ecc59a")
 		)
 		(pin "24"
-			(uuid "b3feffd0-1179-4400-82cd-aa0db6772080")
+			(uuid "25fd1989-3f4d-4567-a612-598de4266acf")
 		)
 		(pin "37"
-			(uuid "e1a6fce8-4588-4ca5-96de-673b4f4dd1f9")
+			(uuid "8a858bdf-16e2-429a-92c3-3b3025ebd1d9")
 		)
 		(pin "15"
-			(uuid "d66c5ebf-b024-4cd4-a0c1-84e7c907143f")
+			(uuid "ae77dff2-b84a-4e7e-90f3-b4cfe2453897")
 		)
 		(pin "42"
-			(uuid "3b5931c9-626c-4b68-ab40-a3829edfacc2")
+			(uuid "3ac2f8f0-d884-4dd2-b5b2-bb889bc53482")
 		)
 		(pin "26"
-			(uuid "2761e7dc-7dbf-453e-9583-0b31ccef60e0")
+			(uuid "6d981c81-e6ba-484e-9e55-1c78ae4230dd")
 		)
 		(pin "41"
-			(uuid "123f4890-ae71-4419-a873-64df577b4249")
+			(uuid "6711e1b2-a929-47ac-ac45-d16cb9e6ff96")
 		)
 		(pin "22"
-			(uuid "6bdc7c57-2e2f-4059-8b5a-3bcab9a18f96")
+			(uuid "247b54ff-f732-4bae-aa84-22813708648a")
 		)
 		(pin "19"
-			(uuid "c60de4f7-21d7-4520-a501-dab813d1388d")
+			(uuid "166542ab-fd91-4813-a834-7df93d6ef611")
 		)
 		(pin "8"
-			(uuid "65100667-5bc8-4bf3-8b50-24a8f9a851d6")
+			(uuid "1f805b98-dcbf-4178-b34d-038de58c87ca")
 		)
 		(pin "12"
-			(uuid "7594d347-6b9f-4731-b886-f971a7494446")
+			(uuid "6c24185a-7a58-4de7-9758-33062d4ea56b")
 		)
 		(pin "28"
-			(uuid "a08a1b53-b761-43eb-8eb2-64b7af496433")
+			(uuid "86263857-65e6-4d13-9a10-84202b644154")
 		)
 		(pin "30"
-			(uuid "9165020f-7e6b-4ce3-8f00-f5451e794fb7")
+			(uuid "cbe17694-ad95-483d-839b-037a2374e90b")
 		)
 		(pin "33"
-			(uuid "ffa94d4c-9cbe-4a25-9565-1dea8c7c2811")
+			(uuid "7274df9e-cd4b-4f94-a2da-c9069ef67e14")
 		)
 		(pin "36"
-			(uuid "bba9c7f6-91d0-4717-9b7c-d6c040b0571d")
+			(uuid "162634b2-0c6b-4b2b-8f0a-e87f9bc8899e")
 		)
 		(pin "16"
-			(uuid "9217edbd-ffc3-4a17-80ec-e299aec6abc0")
+			(uuid "a5d200a9-38db-43ec-a581-816259a86c12")
 		)
 		(pin "43"
-			(uuid "e7047195-3a82-4785-b0c3-b4d252a2083e")
+			(uuid "17c9d9f0-ecf4-4946-bfbf-98e07d9e6828")
 		)
 		(pin "9"
-			(uuid "d457e164-b363-418f-9c11-83e583459aae")
+			(uuid "666a7992-2688-433f-929a-398857fc17e6")
 		)
 		(pin "1"
-			(uuid "ceef1a95-b6e1-444e-be3f-85da78cbc63b")
+			(uuid "5ea3d3e2-edd2-4606-9ff8-ef02cc67432b")
 		)
 		(pin "5"
-			(uuid "b400120b-f485-4da8-a4e6-29b6f42f4fd5")
+			(uuid "46d92cc9-cd47-46ec-9d16-44db970a88ae")
 		)
 		(pin "7"
-			(uuid "5689a6a0-45ec-4bf6-9853-324dba49e414")
+			(uuid "464d74ca-7d04-4aca-b2f6-6d63e6e2c8dc")
 		)
 		(pin "27"
-			(uuid "d818f44e-2c12-4188-8eac-40b3d85189a0")
+			(uuid "17ee7133-72cd-4920-9a85-daff44b9daa5")
 		)
 		(pin "34"
-			(uuid "e708d43b-7223-4be6-8b3b-f4b496bdfd81")
+			(uuid "623d1277-b0fb-4036-9210-6eb172412f7e")
 		)
 		(pin "23"
-			(uuid "47f57299-2585-4a78-ac0d-5e946e3d65a4")
+			(uuid "9d8fa3c8-e89e-4392-9eb6-eca21d4144ab")
 		)
 		(pin "18"
-			(uuid "389d17be-c5b0-4328-8165-e88de79bd301")
+			(uuid "1e7146a3-314e-4acc-a243-f81da6a5a13b")
 		)
 		(pin "39"
-			(uuid "6d5bf365-49e0-4159-b194-8137f75fd88c")
+			(uuid "177fa73e-f515-4c46-807c-229355867a84")
 		)
 		(pin "17"
-			(uuid "18194ac5-c337-44fe-a772-c47de5d27c00")
+			(uuid "f7551dd1-d917-429c-bb24-7e5ef5bc4991")
 		)
 		(pin "38"
-			(uuid "7e8bbeea-e345-4236-987d-b6cf1ae6f026")
+			(uuid "4bde5954-4afa-40b4-93f2-ec8c3d9536e8")
 		)
 		(pin "21"
-			(uuid "9ecbf213-7660-498d-bed0-a93a4e6f126b")
+			(uuid "c5765475-8fdc-47f0-892e-341649cf8f00")
 		)
 		(pin "25"
-			(uuid "92274c3c-fd32-45eb-8c19-655444dc5148")
+			(uuid "06cc3372-d94b-4546-b714-f5365a1abbe5")
 		)
 		(pin "35"
-			(uuid "9538640e-ab15-46f4-b771-94c40bd02342")
+			(uuid "a4862128-b53a-4088-9846-cfda89f14f86")
 		)
 		(pin "2"
-			(uuid "7ef94bbc-dbb7-466b-8a43-d424784d428d")
+			(uuid "3b5cc271-f1f1-40bf-9add-477200e4ef71")
 		)
 		(pin "11"
-			(uuid "d0ea9b30-ca5f-403f-93d6-3c5579c2df27")
+			(uuid "eaced883-e015-4c03-aa1b-830de3d63ed6")
 		)
 		(pin "4"
-			(uuid "8379e437-b7ca-456c-b31a-4335278e3d04")
+			(uuid "3ddb32a3-819a-46d9-b261-be47057252ee")
 		)
 		(pin "44"
-			(uuid "788fdd70-661d-4962-83bd-c3878631d41e")
+			(uuid "fd22a751-c1ca-4909-92b8-0ec6dde4a284")
 		)
 		(pin "31"
-			(uuid "833e9302-f329-41da-8958-3f886544d9e3")
+			(uuid "4851bef6-881f-4903-bab1-dec7ebbf8df7")
 		)
 		(pin "29"
-			(uuid "2459f3d5-06af-4cb2-84f9-218664486298")
+			(uuid "87272c4f-9a00-4ff3-8f4f-bcecf4cd7598")
 		)
 		(pin "14"
-			(uuid "c4d0e529-f68f-4812-aa7f-b34e49d426f3")
+			(uuid "9969bc24-6737-4a60-8756-e37790e44723")
 		)
 		(pin "20"
-			(uuid "34b9247b-8ce6-4ad4-bcce-133d488e9aa6")
+			(uuid "6b4c83a0-29d2-4fb0-8a58-1f30b70f9212")
 		)
 		(pin "40"
-			(uuid "fa78a58b-4000-4ddc-a9f9-3a8dd55b273f")
+			(uuid "1585853e-4159-45a1-a78b-3a0873468858")
 		)
 		(pin "45"
-			(uuid "0d0a9ef8-c141-4cbc-a363-d54e223c670b")
+			(uuid "21720dc7-2237-44c0-9c2a-348fed08e85c")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "U401")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -6003,7 +6023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3048b498-c55d-457d-ac8a-79b885fc216a")
-		(property "Reference" "TP401"
+		(property "Reference" "TP501"
 			(at 101.6 212.09 0)
 			(effects
 				(font
@@ -6067,12 +6087,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "21f3ced2-1a2f-439e-b6f3-536f70708b20")
+			(uuid "116b7afa-1b0a-44d2-a2c9-f1839bc0f24d")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP401")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP501")
 					(unit 1)
 				)
 			)
@@ -6087,7 +6107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3281d51a-fa67-4497-ad81-d32da6eaed18")
-		(property "Reference" "#FLG0402"
+		(property "Reference" "#FLG0502"
 			(at 389.89 229.235 0)
 			(effects
 				(font
@@ -6133,12 +6153,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cafca77c-b715-4c21-b62c-1e3c66a725fc")
+			(uuid "07eecd42-10c6-4125-b009-efd00c769e10")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#FLG0402")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#FLG0502")
 					(unit 1)
 				)
 			)
@@ -6153,7 +6173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3be4c5d9-2241-4a9f-b82f-0ce3db955513")
-		(property "Reference" "C421"
+		(property "Reference" "C521"
 			(at 320.04 165.1 0)
 			(effects
 				(font
@@ -6253,15 +6273,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ab0bdddc-e5e7-4761-a3d8-d2a26eeadd00")
+			(uuid "0a479bbb-3314-40b7-8058-a7eacdfdeeab")
 		)
 		(pin "1"
-			(uuid "ab62a47a-b981-4094-816b-52106515b4b5")
+			(uuid "65f06ee7-b42a-472c-809b-a939f1ccf559")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C421")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C521")
 					(unit 1)
 				)
 			)
@@ -6276,7 +6296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c2432de-b480-4f0a-8a02-12488a2ba324")
-		(property "Reference" "L404"
+		(property "Reference" "L504"
 			(at 208.28 135.89 90)
 			(effects
 				(font
@@ -6358,15 +6378,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c80bfc0-d25b-4986-8cb3-a6920e899c69")
+			(uuid "d6a7dc6a-8d19-47f7-b2b2-57cfe6ade65e")
 		)
 		(pin "2"
-			(uuid "bfbd3fdf-9da5-44af-a350-709927fd82fc")
+			(uuid "436e972c-b3f3-44ad-9fae-87cc5bb2cc9e")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "L404")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "L504")
 					(unit 1)
 				)
 			)
@@ -6382,7 +6402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4776417f-119e-4475-a7e8-0534bce9a794")
-		(property "Reference" "TP405"
+		(property "Reference" "TP505"
 			(at 132.08 212.09 0)
 			(effects
 				(font
@@ -6446,12 +6466,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f44301c-a0fd-45a5-af80-960a67edeadc")
+			(uuid "aee480e2-d49d-4adc-8be2-2b7538f468be")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP405")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP505")
 					(unit 1)
 				)
 			)
@@ -6466,7 +6486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "477eed19-deab-4a1f-bf7d-bc494371da6c")
-		(property "Reference" "C407"
+		(property "Reference" "C507"
 			(at 132.08 140.97 0)
 			(effects
 				(font
@@ -6566,15 +6586,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "75b38988-4485-4d92-8fa2-e65f9468639e")
+			(uuid "82e0306f-7fde-405f-b22e-16c62cd3de81")
 		)
 		(pin "1"
-			(uuid "eec78f03-8468-4882-8b04-26585f345b4e")
+			(uuid "2112ef23-2733-4371-a579-fe2cdecf2733")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C407")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C507")
 					(unit 1)
 				)
 			)
@@ -6590,7 +6610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49dc3e65-0cb3-4591-a57e-5d0d6c43c5cf")
-		(property "Reference" "TP409"
+		(property "Reference" "TP509"
 			(at 344.17 240.03 90)
 			(effects
 				(font
@@ -6654,12 +6674,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd17800c-f7eb-4bd1-8a71-96fb4037fd17")
+			(uuid "85858a96-aa01-45a4-9a71-88f03d340469")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP409")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP509")
 					(unit 1)
 				)
 			)
@@ -6675,7 +6695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c341a44-7cde-4245-8e90-0f92dac810e0")
-		(property "Reference" "TP407"
+		(property "Reference" "TP507"
 			(at 344.17 224.79 90)
 			(effects
 				(font
@@ -6739,12 +6759,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaea2603-7d9b-4975-bdca-22180702ed16")
+			(uuid "6a836b69-c1ae-4e54-b83e-5a654fd12a1a")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP407")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP507")
 					(unit 1)
 				)
 			)
@@ -6759,7 +6779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e15d01b-2003-41ae-b151-4916eb10d7d8")
-		(property "Reference" "C408"
+		(property "Reference" "C508"
 			(at 137.16 180.34 0)
 			(effects
 				(font
@@ -6859,15 +6879,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a3a1504f-1c73-43fb-9e55-6f20c08a3684")
+			(uuid "874b8201-bea9-48dd-952c-6aad99a556f8")
 		)
 		(pin "1"
-			(uuid "110d972b-d234-4a37-840e-76b47a11f8e1")
+			(uuid "672af1d9-2381-4d08-8355-d0e216a51254")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C408")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C508")
 					(unit 1)
 				)
 			)
@@ -6883,7 +6903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51f1f0e0-a858-4c83-95de-288075c4c3f7")
-		(property "Reference" "TP403"
+		(property "Reference" "TP503"
 			(at 116.84 212.09 0)
 			(effects
 				(font
@@ -6947,12 +6967,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "38dede1f-0e84-4fd9-be4c-3eab1c5d956b")
+			(uuid "a3a003a4-6912-45e4-9054-2cf42fd403d4")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP403")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP503")
 					(unit 1)
 				)
 			)
@@ -6968,7 +6988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "591e054e-cbb7-4c73-87e0-91027cb52d53")
-		(property "Reference" "TP418"
+		(property "Reference" "TP518"
 			(at 396.24 247.65 90)
 			(effects
 				(font
@@ -7032,12 +7052,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "77b2c703-712a-4aba-9412-22746884649b")
+			(uuid "e489364d-1c41-4abd-a5a1-03c79ce440b1")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP418")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP518")
 					(unit 1)
 				)
 			)
@@ -7052,7 +7072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a28af33-ed44-4bd1-b90c-eabbeec9cd30")
-		(property "Reference" "C422"
+		(property "Reference" "C522"
 			(at 335.28 160.02 0)
 			(effects
 				(font
@@ -7152,15 +7172,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e9919d2-7a9b-402c-a863-cdcdcef58857")
+			(uuid "bbaa7e46-8dd0-43d6-b973-cfc8bb5bda4a")
 		)
 		(pin "1"
-			(uuid "1f43d02b-4ac2-4594-a0d3-f814ea439180")
+			(uuid "5fc77ecb-a2dd-48c5-b293-a51c6abd358a")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C422")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C522")
 					(unit 1)
 				)
 			)
@@ -7176,7 +7196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a8e9056-94a3-40e5-a0a0-064a4afc55ff")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0505"
 			(at 267.97 130.81 0)
 			(effects
 				(font
@@ -7222,12 +7242,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "618de0f8-111c-4d69-8369-645e16e5aa6e")
+			(uuid "3219e9e2-55fb-4f83-9e47-3ededc5535f9")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#PWR0405")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -7242,7 +7262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d9e07d7-e6d7-46c5-88ec-9332585e9721")
-		(property "Reference" "C420"
+		(property "Reference" "C520"
 			(at 304.8 167.64 0)
 			(effects
 				(font
@@ -7342,15 +7362,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3852a908-52ef-4608-b9bc-ed7ee5b9ff5b")
+			(uuid "76b8c4bf-028e-4fd5-85a1-159dccb9e794")
 		)
 		(pin "1"
-			(uuid "f6a15bf7-15d0-4447-87b8-18bfa6601b4c")
+			(uuid "1df40be5-8378-4197-b6b6-919b1f3f7a1f")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C420")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C520")
 					(unit 1)
 				)
 			)
@@ -7365,7 +7385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fd629c1-1d4d-44fb-8b76-4299456395c7")
-		(property "Reference" "C416"
+		(property "Reference" "C516"
 			(at 257.81 180.34 0)
 			(effects
 				(font
@@ -7465,15 +7485,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6870889d-7570-4b6a-9a77-f2c45a2a8d38")
+			(uuid "c5f834f6-5688-443b-8f6a-dd360d501042")
 		)
 		(pin "1"
-			(uuid "c272fa65-cc2d-4224-80cd-b72a1283d753")
+			(uuid "63d516c1-cce3-4559-ac4d-86ede853f319")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C416")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C516")
 					(unit 1)
 				)
 			)
@@ -7488,7 +7508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d8fda46-1b99-4b06-8ba4-d116a0b002b8")
-		(property "Reference" "#FLG0401"
+		(property "Reference" "#FLG0501"
 			(at 389.89 221.615 0)
 			(effects
 				(font
@@ -7534,12 +7554,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bfe21cd1-c1e2-4cdf-be4f-1423fc1e7026")
+			(uuid "57b140d4-880d-4e7a-87c5-4bbba74a8a55")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#FLG0401")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#FLG0501")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e8b7a67-502e-49ef-b9b7-faf3c0951750")
-		(property "Reference" "TP416"
+		(property "Reference" "TP516"
 			(at 396.24 232.41 90)
 			(effects
 				(font
@@ -7619,12 +7639,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1454a92f-5a2e-4042-ac35-7359a84e7971")
+			(uuid "c41e025f-788f-4f18-901b-906cc1a5118a")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP416")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP516")
 					(unit 1)
 				)
 			)
@@ -7640,7 +7660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fdeb6fa-e355-45d8-918c-a29b7e260806")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0503"
 			(at 234.95 146.05 0)
 			(effects
 				(font
@@ -7686,12 +7706,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0501cfb8-f392-4d6b-8f08-55dbc9c77b86")
+			(uuid "d022651a-0ebd-4261-8ff0-5cd9abc83b98")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#PWR0403")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -7707,7 +7727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74433494-6ff0-4f36-a3d0-3039cdfb659b")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0506"
 			(at 349.25 219.71 0)
 			(effects
 				(font
@@ -7753,12 +7773,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e704c5bd-9083-4025-9628-a91ee55982bb")
+			(uuid "9ecb0e2c-4d5f-49f6-8ce6-9af608b33b30")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#PWR0406")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -7773,7 +7793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "786dc976-9d94-4c65-9f3d-e4f48f041b1d")
-		(property "Reference" "C418"
+		(property "Reference" "C518"
 			(at 274.32 175.26 0)
 			(effects
 				(font
@@ -7873,15 +7893,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d48fa71b-17c4-4bac-8e4f-d45cff65dea8")
+			(uuid "7a581035-708b-4185-8a7b-fa08d650c91c")
 		)
 		(pin "1"
-			(uuid "adc82b0f-414f-47d7-82f2-c612681af00d")
+			(uuid "46a0bff0-c371-425a-89b9-adc4c6238f9d")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C418")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C518")
 					(unit 1)
 				)
 			)
@@ -7896,7 +7916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "797e9a51-b741-463c-9d3d-04ae0c64e5de")
-		(property "Reference" "C412"
+		(property "Reference" "C512"
 			(at 232.41 187.96 0)
 			(effects
 				(font
@@ -7996,15 +8016,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd5e1a70-2a88-4eb6-af1e-bdaf2042c903")
+			(uuid "72aa683e-2b7a-4394-bcab-1a97f33748a7")
 		)
 		(pin "1"
-			(uuid "9e406e3b-c043-4927-a215-74e9e7c8ac1c")
+			(uuid "cfb0376f-299d-4032-8def-82ab1c64ba55")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C412")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C512")
 					(unit 1)
 				)
 			)
@@ -8019,7 +8039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7eceb26e-d899-480f-9b3d-67d934c019d0")
-		(property "Reference" "C404"
+		(property "Reference" "C504"
 			(at 120.65 116.84 0)
 			(effects
 				(font
@@ -8110,15 +8130,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e8bdcda6-71cb-4f48-97c0-7029703d021c")
+			(uuid "9e9772aa-662c-48df-8514-743f0063452f")
 		)
 		(pin "1"
-			(uuid "831616f1-5042-4ed5-ac2f-c0a17ab1d990")
+			(uuid "77ec22b2-f31e-4cc2-aa80-2fd8ab4fc28f")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C404")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -8133,7 +8153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82fa2918-5f4c-4e16-ab15-c440be78cb2f")
-		(property "Reference" "C419"
+		(property "Reference" "C519"
 			(at 288.29 172.72 0)
 			(effects
 				(font
@@ -8233,15 +8253,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "07ce6ef7-d74e-4c7a-b887-9466aa7e2f9f")
+			(uuid "ceabda2f-6884-4c1c-8ca3-ee58a97ed73f")
 		)
 		(pin "1"
-			(uuid "1cbefec4-3848-459d-a32d-efe8202d3817")
+			(uuid "d9b74e51-5de4-4878-85b9-e545b6148336")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C419")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C519")
 					(unit 1)
 				)
 			)
@@ -8256,7 +8276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87fc8678-8976-48e0-90f4-76e453183502")
-		(property "Reference" "C423"
+		(property "Reference" "C523"
 			(at 351.79 154.94 0)
 			(effects
 				(font
@@ -8356,15 +8376,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3b353fc6-7c12-46d2-b377-ac82ee44c902")
+			(uuid "37d6be5a-a906-42d0-bc16-9d6f436ed8ce")
 		)
 		(pin "1"
-			(uuid "e55bc21a-7f14-482b-ad1b-85be185168c7")
+			(uuid "d9c8234a-2a1e-412e-a837-a91d42398491")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C423")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C523")
 					(unit 1)
 				)
 			)
@@ -8379,7 +8399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9570e066-ada5-46da-97b3-be551288d21d")
-		(property "Reference" "C414"
+		(property "Reference" "C514"
 			(at 245.11 187.96 0)
 			(effects
 				(font
@@ -8479,15 +8499,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fc212ac3-cb69-43d4-a0c8-b222adc596c9")
+			(uuid "2ca68ce7-af73-49bc-8d47-37016aba49c4")
 		)
 		(pin "1"
-			(uuid "7fe52701-3119-47c6-94ab-11d79bfdbcfe")
+			(uuid "78e024ef-eee4-4d0e-9358-810e815d4403")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C414")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C514")
 					(unit 1)
 				)
 			)
@@ -8503,7 +8523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9af56725-343a-4c4e-a0dd-b018ff2d7e37")
-		(property "Reference" "TP412"
+		(property "Reference" "TP512"
 			(at 369.57 232.41 90)
 			(effects
 				(font
@@ -8567,12 +8587,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f21dc67c-6810-4768-92fe-d4443304d077")
+			(uuid "17c2f4a1-e095-4e83-a823-c5a046cc9b95")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP412")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP512")
 					(unit 1)
 				)
 			)
@@ -8588,7 +8608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0f0e9c1-fbc6-4f2c-946e-6e0a37ecc0aa")
-		(property "Reference" "TP415"
+		(property "Reference" "TP515"
 			(at 396.24 224.79 90)
 			(effects
 				(font
@@ -8652,12 +8672,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "921794a7-9a65-4326-8383-29433ad4f4e8")
+			(uuid "7954f59c-90de-45e5-a28a-1ec90e585980")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP415")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP515")
 					(unit 1)
 				)
 			)
@@ -8673,7 +8693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a31a924e-372e-4867-972e-3d4582f9411c")
-		(property "Reference" "TP411"
+		(property "Reference" "TP511"
 			(at 369.57 224.79 90)
 			(effects
 				(font
@@ -8737,12 +8757,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "de44318c-1714-4eb6-bc98-5f23cab1c394")
+			(uuid "41ef110c-f031-4f9d-8a6f-1572c71ead9a")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP411")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP511")
 					(unit 1)
 				)
 			)
@@ -8757,7 +8777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3c89dc0-226c-4e0e-85d0-d8ee24063b3b")
-		(property "Reference" "C406"
+		(property "Reference" "C506"
 			(at 133.35 116.84 0)
 			(effects
 				(font
@@ -8848,15 +8868,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b5d042b5-a1cf-4302-8114-a05c5819176a")
+			(uuid "d4783fda-6652-40f9-a161-4a3195cd2f17")
 		)
 		(pin "1"
-			(uuid "f4069d3a-54f3-4c6d-b045-72be64937885")
+			(uuid "4bbc6fad-3bc2-4605-b60b-8d10576a297b")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C406")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -8871,7 +8891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b01f3aef-2fe2-4493-a58d-22a28ee49174")
-		(property "Reference" "C409"
+		(property "Reference" "C509"
 			(at 146.05 116.84 0)
 			(effects
 				(font
@@ -8962,15 +8982,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e5db5d2b-105f-459e-86ba-4602bccce7a4")
+			(uuid "91baacaf-121d-438f-b743-8b4e645c8f4d")
 		)
 		(pin "1"
-			(uuid "6bc9d125-9715-43bc-a6fc-70880336d69e")
+			(uuid "f4af105b-70a1-4c0c-b3ba-ac3f7ddbe3d9")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C409")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C509")
 					(unit 1)
 				)
 			)
@@ -8986,7 +9006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e06e99-db20-4e36-a2ec-08650e5bd5a1")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR0504"
 			(at 250.19 138.43 0)
 			(effects
 				(font
@@ -9032,12 +9052,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e14b1ca-1cdf-4ac2-a66c-1e94e191c1b1")
+			(uuid "16368bc0-2a08-4fec-b99e-42835d6316f5")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#PWR0404")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -9053,7 +9073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c85023a9-b0fc-4d2e-aebb-f35e5d9c74a0")
-		(property "Reference" "TP408"
+		(property "Reference" "TP508"
 			(at 344.17 232.41 90)
 			(effects
 				(font
@@ -9117,12 +9137,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b871190d-e18e-44f9-b679-e8cd2cffa49a")
+			(uuid "c6ed8b37-34d0-401b-93ba-0558380bf57c")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP408")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP508")
 					(unit 1)
 				)
 			)
@@ -9137,7 +9157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9437824-5faf-497b-a2f3-382f017e8dbe")
-		(property "Reference" "C401"
+		(property "Reference" "C501"
 			(at 95.25 116.84 0)
 			(effects
 				(font
@@ -9228,15 +9248,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6dbd166f-370c-49ff-9179-06bfcce0ed17")
+			(uuid "7d4422c4-5f8d-4606-92c2-c059dec22fca")
 		)
 		(pin "1"
-			(uuid "59397b5a-b29e-4082-9f0a-5539db74cbd1")
+			(uuid "bbedcf8f-bbd9-49da-b9b2-6e4bac8ee06f")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C401")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -9252,7 +9272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c992262b-6a86-4fe3-880a-09bc1d0f9d2f")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0502"
 			(at 217.17 153.67 0)
 			(effects
 				(font
@@ -9298,12 +9318,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b686081-ec2c-4b62-9686-d3eb925b00a0")
+			(uuid "cde96e8c-ae40-4fee-bcb0-ba82d843dadb")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#PWR0402")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -9318,7 +9338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca3d66da-fa2b-446f-82a5-a1519ca5d711")
-		(property "Reference" "C410"
+		(property "Reference" "C510"
 			(at 144.78 140.97 0)
 			(effects
 				(font
@@ -9418,15 +9438,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9b029c2-3500-446b-b3b0-bfe48e9ac115")
+			(uuid "f176de80-045d-4873-9605-132b49b5df6c")
 		)
 		(pin "1"
-			(uuid "accf305e-3934-4244-8b88-82a0e29a68d2")
+			(uuid "275a4e04-13cf-46b3-a268-9b53dc770ca2")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C410")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C510")
 					(unit 1)
 				)
 			)
@@ -9441,7 +9461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfe0e7c1-d573-4186-812c-bbbae7d625ea")
-		(property "Reference" "C405"
+		(property "Reference" "C505"
 			(at 119.38 140.97 0)
 			(effects
 				(font
@@ -9541,15 +9561,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "24a3822b-1e05-4410-82f0-3f45e328fabe")
+			(uuid "c7da4e48-1dbf-46f7-a7eb-371703cebdb6")
 		)
 		(pin "1"
-			(uuid "c55c0b1a-d152-47cd-818f-59b7db24d093")
+			(uuid "b1b5d849-6071-4feb-a570-c1ed31cf6b76")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C405")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -9564,7 +9584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d02e6ab1-621d-452c-9ef0-cf0c9da51344")
-		(property "Reference" "R401"
+		(property "Reference" "R501"
 			(at 111.76 181.6099 0)
 			(effects
 				(font
@@ -9655,15 +9675,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b7094205-bbf9-45ae-b01b-33b0746da6ee")
+			(uuid "e1425438-2b5a-4532-bd97-2a76d78d9a9d")
 		)
 		(pin "1"
-			(uuid "529ed946-b74d-4f8f-839f-ac6e49993c48")
+			(uuid "d84cad95-e448-46b2-983a-9383ee0eebad")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "R401")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -9678,7 +9698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d091c6a9-a9a7-454b-80fb-f29a256c8bfb")
-		(property "Reference" "L401"
+		(property "Reference" "L501"
 			(at 208.28 113.03 90)
 			(effects
 				(font
@@ -9760,15 +9780,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "99ede5c2-ea39-45cb-a3b9-b975b551885e")
+			(uuid "467b5676-43be-411e-a472-15fae01d7414")
 		)
 		(pin "2"
-			(uuid "0f91490e-0c24-4e58-a588-5a3bf5f62ce7")
+			(uuid "2e88f24a-9062-4d1a-8c2c-b9b775a9dcf5")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "L401")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "L501")
 					(unit 1)
 				)
 			)
@@ -9783,7 +9803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d62892fb-8ec9-4203-b663-46916838d291")
-		(property "Reference" "C411"
+		(property "Reference" "C511"
 			(at 220.98 139.7 0)
 			(effects
 				(font
@@ -9874,15 +9894,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4958baef-a46c-49ea-9e67-feb34e936dda")
+			(uuid "736a7a85-5c3d-44f4-81dd-447d8c6bfd46")
 		)
 		(pin "1"
-			(uuid "a8c30dd4-24ad-4d47-a80c-f135bc87fd39")
+			(uuid "44f239e6-0838-471b-92ae-2c4053acb7e0")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C411")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C511")
 					(unit 1)
 				)
 			)
@@ -9898,7 +9918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7c02c55-51e4-4a05-9b1e-0a59170355a1")
-		(property "Reference" "TP404"
+		(property "Reference" "TP504"
 			(at 124.46 212.09 0)
 			(effects
 				(font
@@ -9962,12 +9982,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b3a496c-41dd-4da5-aee6-70ae404e680e")
+			(uuid "0be8bc0c-94d2-4a9e-8da9-879aa427551b")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP404")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP504")
 					(unit 1)
 				)
 			)
@@ -9982,7 +10002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc44598e-147c-499a-8eee-463918949813")
-		(property "Reference" "L402"
+		(property "Reference" "L502"
 			(at 208.28 120.65 90)
 			(effects
 				(font
@@ -10064,15 +10084,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd633331-762a-41e2-b5ec-62bb8a6fc6d2")
+			(uuid "61fed00a-11f2-4612-9585-9f5a084f5fd0")
 		)
 		(pin "2"
-			(uuid "0f398359-15b9-447d-826d-21a50d855c0e")
+			(uuid "55b35351-2378-4a5e-8222-76a8d2964158")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "L402")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "L502")
 					(unit 1)
 				)
 			)
@@ -10088,7 +10108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de8772f0-1c0d-4169-85ed-d5a47cf59d64")
-		(property "Reference" "TP402"
+		(property "Reference" "TP502"
 			(at 109.22 212.09 0)
 			(effects
 				(font
@@ -10152,12 +10172,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed292a84-6bb2-4815-ac4f-3e6ed2f983a6")
+			(uuid "140dba8c-f976-48b4-b4e9-3367a34b93e9")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP402")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP502")
 					(unit 1)
 				)
 			)
@@ -10173,7 +10193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1d5a435-a076-4aa6-bf5c-a881024662cf")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR0501"
 			(at 134.62 194.31 0)
 			(effects
 				(font
@@ -10219,12 +10239,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1bfefdf-782e-4c3e-85cb-15489652aa68")
+			(uuid "445b1ec7-0242-43b2-817c-52cf8dab2921")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#PWR0401")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -10240,7 +10260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9da7d47-5b62-4033-8f1d-e64282e8848a")
-		(property "Reference" "TP414"
+		(property "Reference" "TP514"
 			(at 369.57 247.65 90)
 			(effects
 				(font
@@ -10304,12 +10324,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cca421e2-ea42-4cae-a8c3-ad56ff27330d")
+			(uuid "4996b12d-3c91-470c-bc06-da57ee1fc210")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "TP414")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "TP514")
 					(unit 1)
 				)
 			)
@@ -10324,7 +10344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb16f169-d7c1-4443-9f51-0de85c6ee257")
-		(property "Reference" "#FLG0403"
+		(property "Reference" "#FLG0503"
 			(at 389.89 236.855 0)
 			(effects
 				(font
@@ -10370,12 +10390,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "535645aa-e6cd-4ddb-add3-815394733467")
+			(uuid "a5fe8120-3b39-4439-a706-5a050b3263a5")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#FLG0403")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#FLG0503")
 					(unit 1)
 				)
 			)
@@ -10390,7 +10410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef8d338b-af04-4b8c-a106-c3ef5297289e")
-		(property "Reference" "C417"
+		(property "Reference" "C517"
 			(at 271.78 116.84 0)
 			(effects
 				(font
@@ -10481,15 +10501,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a3967290-8d82-4ffa-93d0-ec6e1274b364")
+			(uuid "32b7b412-7bce-4871-99c6-c751329527ca")
 		)
 		(pin "1"
-			(uuid "ab478073-e1c2-48b2-9823-ffb51992c8e3")
+			(uuid "16aaeea1-893a-47c5-9b07-083fd9271f8b")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C417")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C517")
 					(unit 1)
 				)
 			)
@@ -10504,7 +10524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f00d0064-e7b0-4c61-b5b4-9fbe81a4993b")
-		(property "Reference" "C413"
+		(property "Reference" "C513"
 			(at 238.76 132.08 0)
 			(effects
 				(font
@@ -10595,15 +10615,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4f85f84d-cded-4802-a28a-5b9e3b032389")
+			(uuid "de866dd5-8e54-4666-a05a-a40139e33b3d")
 		)
 		(pin "1"
-			(uuid "d170f6f2-b275-43ba-9d11-cc2648ede502")
+			(uuid "afebca6b-c6c7-4acf-9e66-fde206106ceb")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C413")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C513")
 					(unit 1)
 				)
 			)
@@ -10618,7 +10638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa7fa389-c122-495b-9d4c-c209a0a32b2a")
-		(property "Reference" "C415"
+		(property "Reference" "C515"
 			(at 254 124.46 0)
 			(effects
 				(font
@@ -10709,15 +10729,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9609bc08-82af-4467-a362-29cf8f624600")
+			(uuid "85ceec37-6667-4062-af75-9cd2516e40ad")
 		)
 		(pin "1"
-			(uuid "8e3c9fac-5793-4933-8d71-aff9e8c03652")
+			(uuid "1be00312-4f3d-4769-8003-b87ca054a8de")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "C415")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "C515")
 					(unit 1)
 				)
 			)
@@ -10732,7 +10752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd1a3fa3-4eb2-4be7-a439-844ff9f377aa")
-		(property "Reference" "#FLG0404"
+		(property "Reference" "#FLG0504"
 			(at 389.89 244.475 0)
 			(effects
 				(font
@@ -10778,12 +10798,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "431e9607-760b-4c01-8377-22e8c451733d")
+			(uuid "62f55770-25f8-4b7c-8c12-79f650617a52")
 		)
 		(instances
 			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b/0dbcfd95-3a31-46da-8612-13eb3752ace8"
-					(reference "#FLG0404")
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/8c2fc621-bdce-4f4c-8cac-9098b808a2b8"
+					(reference "#FLG0504")
 					(unit 1)
 				)
 			)

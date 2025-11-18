@@ -949,7 +949,7 @@
 	)
 	(text "4. MPU"
 		(exclude_from_sim no)
-		(at 16.51 80.01 0)
+		(at 16.51 76.2 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -995,9 +995,9 @@
 		)
 		(uuid "84d1f885-902c-4bea-ace9-dd04a3bf6bd6")
 	)
-	(text "4.1. MPU power"
+	(text "4.2. MPU power"
 		(exclude_from_sim no)
-		(at 22.86 83.82 0)
+		(at 20.32 83.82 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1031,9 +1031,9 @@
 		)
 		(uuid "c07fd134-7ce2-4ac8-9971-5c62de4ab866")
 	)
-	(text "3.1. Power generation for MPU"
+	(text "4.1. MPU PMIC"
 		(exclude_from_sim no)
-		(at 22.86 76.2 0)
+		(at 20.32 80.01 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1284,36 +1284,44 @@
 		(uuid "fe259aa4-9553-481c-821d-bd6f56fdad45")
 	)
 	(no_connect
-		(at 260.35 104.14)
-		(uuid "1dfc1737-fdc1-4a04-a24c-962825331dce")
+		(at 254 137.16)
+		(uuid "043cbada-9ae9-4ef6-bb4f-18a220a25f2b")
 	)
 	(no_connect
-		(at 260.35 124.46)
-		(uuid "20ddc3b2-6639-4e22-be8e-aa84b1f61726")
+		(at 254 142.24)
+		(uuid "4a75afc5-7a87-4bb1-a0f7-9a56cc74216e")
 	)
 	(no_connect
-		(at 260.35 106.68)
-		(uuid "27a3d35a-0edc-4ea3-8825-04cd9aaa7c0d")
+		(at 254 134.62)
+		(uuid "5663de98-f6a3-461c-9f7f-af2d16e32c0a")
 	)
 	(no_connect
-		(at 317.5 93.98)
+		(at 254 149.86)
 		(uuid "68dc0aa6-3be9-4b85-8a6c-186bf346dd2d")
 	)
 	(no_connect
-		(at 317.5 91.44)
+		(at 254 147.32)
 		(uuid "719e9861-d463-432b-b74c-7a6ddf45cf85")
 	)
 	(no_connect
-		(at 317.5 96.52)
+		(at 254 129.54)
+		(uuid "bd60cebd-0737-4144-8751-92bae6d7ae16")
+	)
+	(no_connect
+		(at 254 139.7)
+		(uuid "cc49f1f1-17da-47ee-88a4-fc6aae64584c")
+	)
+	(no_connect
+		(at 254 154.94)
+		(uuid "cfbfdc3a-c532-445d-bff1-78e39d73dcfe")
+	)
+	(no_connect
+		(at 254 152.4)
 		(uuid "d3fbed5f-3472-4e66-8a7f-52477a9f4fa6")
 	)
 	(no_connect
-		(at 260.35 121.92)
-		(uuid "e6536a48-51e7-44b4-9cd3-fb87b9622947")
-	)
-	(no_connect
-		(at 260.35 119.38)
-		(uuid "fb4bfc1e-9ddd-4668-bbef-32c4017c91a5")
+		(at 254 132.08)
+		(uuid "da307ca1-1eb9-4719-9b08-868c6edd3d88")
 	)
 	(wire
 		(pts
@@ -1327,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 88.9) (xy 264.16 88.9)
+			(xy 254 88.9) (xy 257.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1387,16 +1395,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 111.76) (xy 292.1 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3606f9-106d-4b43-baf0-0b6813e678f2")
-	)
-	(wire
-		(pts
 			(xy 44.45 278.13) (xy 44.45 279.4)
 		)
 		(stroke
@@ -1417,26 +1415,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 116.84) (xy 292.1 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a0588db-dbdc-4b28-ad70-b422b4fc09c6")
-	)
-	(wire
-		(pts
-			(xy 260.35 129.54) (xy 292.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ce95b1-6efd-48c8-b13d-a75d8a0f6ead")
-	)
-	(wire
-		(pts
 			(xy 167.64 88.9) (xy 167.64 91.44)
 		)
 		(stroke
@@ -1454,36 +1432,6 @@
 			(type default)
 		)
 		(uuid "75b1c12a-4bc4-4749-8e35-4e838df20522")
-	)
-	(bus
-		(pts
-			(xy 260.35 137.16) (xy 292.1 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "836369ea-aded-4809-8664-0cf888268c42")
-	)
-	(wire
-		(pts
-			(xy 260.35 127) (xy 292.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83771dd6-634a-4cf5-85be-d9fc5dd071c6")
-	)
-	(wire
-		(pts
-			(xy 260.35 109.22) (xy 292.1 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847ef6e2-63af-442c-bea8-6f9c52416e6e")
 	)
 	(wire
 		(pts
@@ -1527,16 +1475,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 114.3) (xy 292.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96ae2555-e553-48b9-8f66-d7be014a944c")
-	)
-	(wire
-		(pts
 			(xy 152.4 91.44) (xy 152.4 106.68)
 		)
 		(stroke
@@ -1577,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 88.9) (xy 264.16 85.09)
+			(xy 257.81 88.9) (xy 257.81 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1617,17 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 101.6) (xy 292.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0e2904e-780d-4019-b83a-4989ea6ffee9")
-	)
-	(wire
-		(pts
-			(xy 273.05 91.44) (xy 273.05 85.09)
+			(xy 266.7 91.44) (xy 266.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1647,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 91.44) (xy 273.05 91.44)
+			(xy 254 91.44) (xy 266.7 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1964,7 +1892,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 264.16 85.09 0)
+		(at 257.81 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1972,7 +1900,7 @@
 		(dnp no)
 		(uuid "37d2a894-bce5-4361-bbe9-d29cc2d5bbd6")
 		(property "Reference" "#PWR0103"
-			(at 264.16 88.9 0)
+			(at 257.81 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1909,7 @@
 			)
 		)
 		(property "Value" "V_3V3"
-			(at 264.16 82.042 0)
+			(at 257.81 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1990,7 +1918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 85.09 0)
+			(at 257.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1999,7 +1927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 85.09 0)
+			(at 257.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +1936,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 264.16 85.09 0)
+			(at 257.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2107,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 273.05 85.09 0)
+		(at 266.7 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2187,7 +2115,7 @@
 		(dnp no)
 		(uuid "6f5d7f95-d250-438e-b28b-301e15a01606")
 		(property "Reference" "#PWR0104"
-			(at 273.05 88.9 0)
+			(at 266.7 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +2124,7 @@
 			)
 		)
 		(property "Value" "V_5V0"
-			(at 273.05 82.042 0)
+			(at 266.7 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 85.09 0)
+			(at 266.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 85.09 0)
+			(at 266.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 273.05 85.09 0)
+			(at 266.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,8 +2771,8 @@
 		)
 	)
 	(sheet
-		(at 292.1 88.9)
-		(size 25.4 50.8)
+		(at 215.9 127)
+		(size 38.1 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2860,7 +2788,7 @@
 		)
 		(uuid "2d01087b-54dc-4f43-9cc7-a0ba17201776")
 		(property "Sheetname" "MPU"
-			(at 292.1 88.0146 0)
+			(at 215.9 126.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +2797,7 @@
 			)
 		)
 		(property "Sheetfile" "mpu.kicad_sch"
-			(at 292.1 140.4584 0)
+			(at 215.9 158.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,78 +2805,8 @@
 				(justify left top)
 			)
 		)
-		(pin "VDD" input
-			(at 292.1 101.6 180)
-			(uuid "11def5b1-20ad-4462-9faa-252e624122e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD_ADC" input
-			(at 292.1 109.22 180)
-			(uuid "372f3067-1f81-4ad3-ac27-9da8560d9c76")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD_CORE" input
-			(at 292.1 111.76 180)
-			(uuid "ad4b9542-a370-4ef3-8c80-8f7bd15dba3b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD_CPU" input
-			(at 292.1 114.3 180)
-			(uuid "062c1d87-7f07-4956-8d84-30dd2b398dd0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD_DDR" input
-			(at 292.1 116.84 180)
-			(uuid "b754d60f-7f9e-4780-bf0d-2c708d52ebfa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VDD_USB" input
-			(at 292.1 127 180)
-			(uuid "dc399b0a-b1a8-404a-b87d-db9f0a93ab63")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VREF_DDR" input
-			(at 292.1 129.54 180)
-			(uuid "25a694be-d17e-448d-96b7-0fef1d1dd0aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "{DDR}" bidirectional
-			(at 317.5 91.44 0)
+			(at 254 147.32 0)
 			(uuid "4149b1da-610d-4889-aff7-744cc3780320")
 			(effects
 				(font
@@ -2958,7 +2816,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 317.5 93.98 0)
+			(at 254 149.86 0)
 			(uuid "be1c874a-aaab-4cd5-adeb-dff5589da640")
 			(effects
 				(font
@@ -2967,19 +2825,79 @@
 				(justify right)
 			)
 		)
-		(pin "{PMIC}" bidirectional
-			(at 292.1 137.16 180)
-			(uuid "f536f1e3-5187-430a-9ca6-e2b8cc11fe44")
+		(pin "{USB}" bidirectional
+			(at 254 152.4 0)
+			(uuid "19340039-3572-410c-8efa-65fa87699ea5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "{USB}" bidirectional
-			(at 317.5 96.52 0)
-			(uuid "19340039-3572-410c-8efa-65fa87699ea5")
+		(pin "VDD_1V8" output
+			(at 254 129.54 0)
+			(uuid "6fd4653b-3ca8-4862-b7ec-a89873797812")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_3V3" output
+			(at 254 132.08 0)
+			(uuid "2e9ef2de-ae41-4111-9ce1-f9a73c91f87a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_LDO2" output
+			(at 254 134.62 0)
+			(uuid "6b4d729c-ab66-4205-a83c-fa55d4088a7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_LDO3" output
+			(at 254 137.16 0)
+			(uuid "1b06392a-ec50-428e-8041-ed16f935b2d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_SD" output
+			(at 254 139.7 0)
+			(uuid "882ee99a-b626-40ca-85c7-a58ffdd17c7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF_DDR" output
+			(at 254 142.24 0)
+			(uuid "c3d76885-83d5-46ef-9eee-b413d57a9e36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{PMIC}" bidirectional
+			(at 254 154.94 0)
+			(uuid "8fa7c7ad-56be-435b-b9ea-72f4f7636ec6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +2908,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -3070,7 +2988,7 @@
 	)
 	(sheet
 		(at 215.9 86.36)
-		(size 44.45 53.34)
+		(size 38.1 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3095,7 +3013,7 @@
 			)
 		)
 		(property "Sheetfile" "power_generation.kicad_sch"
-			(at 215.9 140.4584 0)
+			(at 215.9 109.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,128 +3031,8 @@
 				(justify left)
 			)
 		)
-		(pin "VDD" output
-			(at 260.35 101.6 0)
-			(uuid "375b5499-92d7-4164-b359-940a9701c871")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_1V8" output
-			(at 260.35 104.14 0)
-			(uuid "67d21617-1320-460e-abd5-7010b9bc6077")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_3V3" output
-			(at 260.35 106.68 0)
-			(uuid "bcdcf37d-70a9-43be-822d-09538d805bdc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_ADC" output
-			(at 260.35 109.22 0)
-			(uuid "c7bfdbcf-d61c-40d0-8511-a29ccadb56f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_CORE" output
-			(at 260.35 111.76 0)
-			(uuid "6295464d-9b93-4130-8c87-0496515eccd7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_CPU" output
-			(at 260.35 114.3 0)
-			(uuid "7fbb2cd5-2d48-488c-a122-614b477d5785")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_DDR" output
-			(at 260.35 116.84 0)
-			(uuid "4df987d9-ab98-44af-b476-6f763f76bf3c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_LDO2" output
-			(at 260.35 119.38 0)
-			(uuid "51197250-2ab7-4c05-a721-40ff30a00447")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_LDO3" output
-			(at 260.35 121.92 0)
-			(uuid "374b97d5-8833-4ff6-90d5-149ea3dd7f0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_SD" output
-			(at 260.35 124.46 0)
-			(uuid "d3d815d8-8f3f-4d8f-8b65-5777cfc864b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_USB" output
-			(at 260.35 127 0)
-			(uuid "207f6781-2a42-4d01-9c46-d6f1fe3b22f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VREF_DDR" output
-			(at 260.35 129.54 0)
-			(uuid "40e117e5-3bdf-4b5e-81d8-23c21c6906fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "V_3V3" output
-			(at 260.35 88.9 0)
+			(at 254 88.9 0)
 			(uuid "d0154055-79d5-47ae-a804-27b3c1722179")
 			(effects
 				(font
@@ -3244,18 +3042,8 @@
 			)
 		)
 		(pin "V_5V0" output
-			(at 260.35 91.44 0)
+			(at 254 91.44 0)
 			(uuid "f17549f7-81ac-4256-9278-07d4ff0dbad1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{PMIC}" bidirectional
-			(at 260.35 137.16 0)
-			(uuid "ab751fb6-bfea-4271-98a3-53b02bf2de47")
 			(effects
 				(font
 					(size 1.27 1.27)

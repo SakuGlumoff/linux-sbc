@@ -1741,7 +1741,7 @@
 	(text_box "5 V @ 4.5 A"
 		(exclude_from_sim no)
 		(at 12.7 38.1 0)
-		(size 285.75 107.95)
+		(size 393.7 107.95)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1780,30 +1780,10 @@
 		)
 		(uuid "9f578f85-f165-42e6-92d0-5aa2c28ca0d3")
 	)
-	(text_box "Powers the MPU, DDR, SD card and flash memory."
-		(exclude_from_sim no)
-		(at 299.72 50.8 0)
-		(size 105.41 20.32)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left top)
-		)
-		(uuid "cb04c30f-a986-487c-90d9-985cdd1c76af")
-	)
 	(text_box "3.3 V @ 4 A"
 		(exclude_from_sim no)
 		(at 12.7 146.05 0)
-		(size 285.75 105.41)
+		(size 393.7 105.41)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1843,28 +1823,6 @@
 			(justify top)
 		)
 		(uuid "de256da2-3add-4386-811c-9a77f518ca24")
-	)
-	(text_box "MPU @ 1 A"
-		(exclude_from_sim no)
-		(at 298.45 38.1 0)
-		(size 107.95 213.36)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "ebd1cc34-62cc-4c60-afc9-17f45790b0e1")
 	)
 	(text_box "3. Power generation"
 		(exclude_from_sim no)
@@ -1967,12 +1925,6 @@
 		(uuid "68ff5b9f-b893-4c27-ba78-4df67cf8c11d")
 	)
 	(junction
-		(at 177.8 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c607b1b-6538-480a-9426-5c776a07a8ab")
-	)
-	(junction
 		(at 113.03 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2055,12 +2007,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aaab884f-c9e4-4d32-8052-496886ea2331")
-	)
-	(junction
-		(at 177.8 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aea4f9e5-a470-43f3-9f52-f54ea139c0ed")
 	)
 	(junction
 		(at 154.94 135.89)
@@ -2224,16 +2170,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 147.32) (xy 360.68 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11546845-991f-4782-952a-2b54501439d2")
-	)
-	(wire
-		(pts
 			(xy 168.91 102.87) (xy 168.91 104.14)
 		)
 		(stroke
@@ -2261,16 +2197,6 @@
 			(type default)
 		)
 		(uuid "1bb808c5-9b2d-474a-b955-a9b34c65ffee")
-	)
-	(bus
-		(pts
-			(xy 358.14 127) (xy 360.68 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c5a4eed-27d5-45bc-9a83-4792508ecd59")
 	)
 	(wire
 		(pts
@@ -2351,16 +2277,6 @@
 			(type default)
 		)
 		(uuid "2c6f8d77-116e-427f-9329-ffab7d91c55c")
-	)
-	(wire
-		(pts
-			(xy 177.8 205.74) (xy 304.8 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d181699-d35e-49eb-bfb4-ad8abc29840c")
 	)
 	(wire
 		(pts
@@ -2494,16 +2410,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 165.1) (xy 360.68 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c71ca8-9781-454b-930d-541c8c1ac347")
-	)
-	(wire
-		(pts
 			(xy 154.94 135.89) (xy 154.94 137.16)
 		)
 		(stroke
@@ -2564,16 +2470,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 144.78) (xy 360.68 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef38226-8dcb-48eb-b3c2-d1212b30aacf")
-	)
-	(wire
-		(pts
 			(xy 85.09 134.62) (xy 85.09 135.89)
 		)
 		(stroke
@@ -2624,16 +2520,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 167.64) (xy 360.68 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c871f43-991c-4432-8ed4-dcebad3d3af8")
-	)
-	(wire
-		(pts
 			(xy 25.4 111.76) (xy 25.4 135.89)
 		)
 		(stroke
@@ -2641,16 +2527,6 @@
 			(type default)
 		)
 		(uuid "5cea98d8-b1d5-418c-9e14-bd6460557d49")
-	)
-	(wire
-		(pts
-			(xy 177.8 101.6) (xy 180.34 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63b602c9-824f-4c1b-a12c-50f6a33ce8c3")
 	)
 	(wire
 		(pts
@@ -2681,36 +2557,6 @@
 			(type default)
 		)
 		(uuid "66441326-f019-4f00-b3a7-124b6e1ebafd")
-	)
-	(wire
-		(pts
-			(xy 358.14 157.48) (xy 360.68 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66d7fce3-021a-4f02-819c-3b2c9d27f022")
-	)
-	(wire
-		(pts
-			(xy 177.8 203.2) (xy 177.8 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67e187f7-765b-4895-96d7-f99b9dad0447")
-	)
-	(wire
-		(pts
-			(xy 358.14 149.86) (xy 360.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ce6c3f-7266-4f86-9bed-c0bc69927865")
 	)
 	(wire
 		(pts
@@ -2751,16 +2597,6 @@
 			(type default)
 		)
 		(uuid "6f90917f-ca69-4acc-a918-5c196be1c87e")
-	)
-	(wire
-		(pts
-			(xy 358.14 162.56) (xy 360.68 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71859c48-914e-4cdc-9e8d-f414afaa6a7d")
 	)
 	(wire
 		(pts
@@ -2864,16 +2700,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 104.14) (xy 304.8 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843d11e5-409e-45c1-85f1-d4ad6cfc44f7")
-	)
-	(wire
-		(pts
 			(xy 25.4 203.2) (xy 49.53 203.2)
 		)
 		(stroke
@@ -2964,16 +2790,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 101.6) (xy 177.8 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d02c82b-d50f-4b29-b58d-6e0fe4c24bc0")
-	)
-	(wire
-		(pts
 			(xy 68.58 116.84) (xy 85.09 116.84)
 		)
 		(stroke
@@ -3024,26 +2840,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 160.02) (xy 360.68 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8313d8c-d9fd-47f7-b38d-64f818c7d9d0")
-	)
-	(wire
-		(pts
-			(xy 358.14 152.4) (xy 360.68 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8fb107d-beb1-4289-8626-1e5c91dbdb0c")
-	)
-	(wire
-		(pts
 			(xy 140.97 214.63) (xy 140.97 237.49)
 		)
 		(stroke
@@ -3071,16 +2867,6 @@
 			(type default)
 		)
 		(uuid "b0d7d0ed-5ee7-4e8e-98e0-bddd9f6e76fd")
-	)
-	(wire
-		(pts
-			(xy 358.14 154.94) (xy 360.68 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13cbca6-58d0-4690-8e68-9aa56ff57a4a")
 	)
 	(wire
 		(pts
@@ -3314,16 +3100,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 170.18) (xy 360.68 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3118f46-6f37-4369-ae08-151e76831658")
-	)
-	(wire
-		(pts
 			(xy 154.94 205.74) (xy 163.83 205.74)
 		)
 		(stroke
@@ -3424,16 +3200,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 203.2) (xy 177.8 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05823b8-7ebf-404f-acb8-5ef27414fc42")
-	)
-	(wire
-		(pts
 			(xy 85.09 237.49) (xy 100.33 237.49)
 		)
 		(stroke
@@ -3491,16 +3257,6 @@
 			(type default)
 		)
 		(uuid "fc5a92d8-5746-48ad-b2e2-38dbd8f9483f")
-	)
-	(wire
-		(pts
-			(xy 358.14 142.24) (xy 360.68 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc60fa34-6853-436e-a67c-f14ea1e17efe")
 	)
 	(wire
 		(pts
@@ -3655,7 +3411,7 @@
 	)
 	(hierarchical_label "V_3V3"
 		(shape output)
-		(at 180.34 203.2 0)
+		(at 177.8 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3664,141 +3420,9 @@
 		)
 		(uuid "1ee23964-a9f2-4bff-99cf-eb80f6e02bf1")
 	)
-	(hierarchical_label "VDD_LDO3"
-		(shape output)
-		(at 360.68 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25f5cff1-62f1-4eaa-a43c-2c32a2486af8")
-	)
-	(hierarchical_label "VDD_LDO2"
-		(shape output)
-		(at 360.68 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "263d025c-cf41-4dda-8da5-29839a4a3fe2")
-	)
-	(hierarchical_label "VREF_DDR"
-		(shape output)
-		(at 360.68 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2a525a52-ec10-464b-b265-c4e19adb49ee")
-	)
-	(hierarchical_label "VDD_ADC"
-		(shape output)
-		(at 360.68 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "33d2de66-beae-43c8-a08e-7b67104ff44b")
-	)
-	(hierarchical_label "VDD_CORE"
-		(shape output)
-		(at 360.68 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3431db6a-fea9-4353-9ffc-905f17f82eb1")
-	)
-	(hierarchical_label "VDD_DDR"
-		(shape output)
-		(at 360.68 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4d19fc60-0de8-4426-85ec-766678d71193")
-	)
-	(hierarchical_label "VDD_USB"
-		(shape output)
-		(at 360.68 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "535e95b2-48dd-4afe-b7a9-64f17d21922c")
-	)
-	(hierarchical_label "VDD"
-		(shape output)
-		(at 360.68 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54cf5e6a-904b-4189-8242-ccd3ebfc8d65")
-	)
-	(hierarchical_label "VDD_CPU"
-		(shape output)
-		(at 360.68 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "57e2d57e-fed3-4337-8ba2-608517d33980")
-	)
-	(hierarchical_label "VDD_3V3"
-		(shape output)
-		(at 360.68 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b7e900c-4553-4e5f-a915-b238d0a2e098")
-	)
-	(hierarchical_label "VDD_SD"
-		(shape output)
-		(at 360.68 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e62aa67-3771-4803-a0dc-7be4ef1f0bc3")
-	)
-	(hierarchical_label "{PMIC}"
-		(shape bidirectional)
-		(at 360.68 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "958e59d5-0497-4a72-8f7f-585b522bcaa1")
-	)
 	(hierarchical_label "V_5V0"
 		(shape output)
-		(at 180.34 101.6 0)
+		(at 177.8 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3817,17 +3441,6 @@
 			(justify right)
 		)
 		(uuid "d72bac9e-ce7f-4920-bd32-c69207ea4f30")
-	)
-	(hierarchical_label "VDD_1V8"
-		(shape output)
-		(at 360.68 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1f8ffe7-3f63-4747-96be-3e18c17cb452")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -7950,199 +7563,6 @@
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b"
 					(reference "L301")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 304.8 88.9)
-		(size 53.34 139.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 255 255 0 1)
-		)
-		(fill
-			(color 0 255 0 1.0000)
-		)
-		(uuid "0dbcfd95-3a31-46da-8612-13eb3752ace8")
-		(property "Sheetname" "Power generation MPU"
-			(at 304.8 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power_generation_mpu.kicad_sch"
-			(at 304.8 229.1846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VDD" output
-			(at 358.14 147.32 0)
-			(uuid "a22ac22f-a923-4963-9f97-7574500cd6b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_1V8" output
-			(at 358.14 160.02 0)
-			(uuid "b490daaf-ffd7-4036-8594-255b6c23a71b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_3V3" output
-			(at 358.14 152.4 0)
-			(uuid "f6dae536-409b-414d-bdc1-80c704ae581c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_ADC" output
-			(at 358.14 157.48 0)
-			(uuid "5f990f8b-0915-4063-97f0-cd0a17c3712f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_CORE" output
-			(at 358.14 149.86 0)
-			(uuid "3cd0e30e-e5f1-4d0a-aa30-4fe8ede4925b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_CPU" output
-			(at 358.14 142.24 0)
-			(uuid "b8903b34-3698-4ed2-b4e4-830a718853d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_DDR" output
-			(at 358.14 144.78 0)
-			(uuid "42ba15c7-f6de-4382-929f-527ce69a97ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_LDO2" output
-			(at 358.14 162.56 0)
-			(uuid "762e3e43-9bca-4f9f-9aea-87800733cb58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_LDO3" output
-			(at 358.14 154.94 0)
-			(uuid "0defe350-18e9-44e4-87b2-f0fdcf83ab99")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_SD" output
-			(at 358.14 165.1 0)
-			(uuid "ce9d2850-ce63-4bab-8e7c-02e9f6b330c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_USB" output
-			(at 358.14 170.18 0)
-			(uuid "aecf298c-5263-40e8-a7f7-05e6f5abb4c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VREF_DDR" output
-			(at 358.14 167.64 0)
-			(uuid "be48e8b1-16cd-4fe7-87e6-6ee1291c4249")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V_3V3" input
-			(at 304.8 205.74 180)
-			(uuid "e5d82066-50ca-4bfd-83f8-bb8e8d7204ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_5V0" input
-			(at 304.8 104.14 180)
-			(uuid "943a90fa-0eb2-476e-8f4a-9861f4bff73f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{PMIC}" bidirectional
-			(at 358.14 127 0)
-			(uuid "309ce80f-a7c1-433f-9554-056944ebd622")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b"
-					(page "4")
 				)
 			)
 		)
