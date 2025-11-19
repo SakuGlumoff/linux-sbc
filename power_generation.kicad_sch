@@ -1698,26 +1698,6 @@
 		)
 		(uuid "d43f334a-50e2-401d-8b56-484bae2a8bfb")
 	)
-	(text_box "asd"
-		(exclude_from_sim no)
-		(at 13.97 260.35 0)
-		(size 283.21 22.86)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left top)
-		)
-		(uuid "391eaf28-b8d0-4962-a758-03d8bc7c08ea")
-	)
 	(text_box "R_{RT} @ 1000 kHz = 100000 / f_{SW[kHz]} = 100 kΩ\nR_{FBT} = R_{FBB} * ((V_{OUT} / 0.8 V) - 1) = 24 kΩ * ((5 V / 0.8 V) - 1) = 126 kΩ\nR_{COMP} = 4.67*10^{3}[Ω/A] * f_{c} * V_{OUT} * C_{OUT} = 4.67*10^{3}[Ω/A] * 15 kHz * 5 V * 100 µF ~= 35 kΩ\nC_{COMP} = (V_{OUT} * C_{OUT}) / (I_{OUT} * R_{COMP}) = (5 V * 100 µF) / (4.5 A * 35 kΩ) ~= 3175 pF\n\nL = (V_{OUT} * (V_{IN_MAX} - V_{OUT})) / (V_{IN_MAX} * ∆I_{L} * f_{SW}) = (5 V * (24 V - 5 V)) / (24 V * (4.5 A * 30 %) * 1000 kHz) ~= 2.9 µH\nI_{L_PEAK} = I_{LOAD} + (∆I_{L} / 2) ~= 5.2 A"
 		(exclude_from_sim no)
 		(at 13.97 50.8 0)
