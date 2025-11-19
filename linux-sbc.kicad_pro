@@ -296,7 +296,17 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Debug/VBUS": [
+        "PWR"
+      ],
+      "/Debug/VBUS_FUSED": [
+        "PWR"
+      ],
+      "/Debug/VCCIO": [
+        "PWR"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "GND",
@@ -504,6 +514,24 @@
           "label": "Digi-Key Part Number",
           "name": "Digi-Key Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_1",
+          "name": "Manufacturer_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digi-Key Part Number_1",
+          "name": "Digi-Key Part Number_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN_1",
+          "name": "MPN_1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -577,6 +605,10 @@
     [
       "38fb80ce-3aa2-4a17-bb8b-7759011755a2",
       "MPU power"
+    ],
+    [
+      "5e32b227-0684-45b9-8c92-9550e4036164",
+      "Debug"
     ]
   ],
   "text_variables": {}

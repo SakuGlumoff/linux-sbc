@@ -995,6 +995,18 @@
 		)
 		(uuid "84d1f885-902c-4bea-ace9-dd04a3bf6bd6")
 	)
+	(text "5. Debug"
+		(exclude_from_sim no)
+		(at 16.51 87.63 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+			(href "#3")
+		)
+		(uuid "90ed5270-80c5-4c83-88f4-b4699bf7c734")
+	)
 	(text "4.2. MPU power"
 		(exclude_from_sim no)
 		(at 20.32 83.82 0)
@@ -1288,8 +1300,8 @@
 		(uuid "043cbada-9ae9-4ef6-bb4f-18a220a25f2b")
 	)
 	(no_connect
-		(at 254 144.78)
-		(uuid "39fe0ecf-f853-4191-8f8c-f1f8ebf6cc05")
+		(at 215.9 132.08)
+		(uuid "0c2eee47-7d6d-48f7-9405-e90f639be97b")
 	)
 	(no_connect
 		(at 254 142.24)
@@ -1298,10 +1310,6 @@
 	(no_connect
 		(at 254 134.62)
 		(uuid "5663de98-f6a3-461c-9f7f-af2d16e32c0a")
-	)
-	(no_connect
-		(at 254 149.86)
-		(uuid "68dc0aa6-3be9-4b85-8a6c-186bf346dd2d")
 	)
 	(no_connect
 		(at 254 147.32)
@@ -1576,6 +1584,16 @@
 			(type default)
 		)
 		(uuid "eb083de3-860e-433e-a3fe-22b4d56def48")
+	)
+	(bus
+		(pts
+			(xy 190.5 129.54) (xy 215.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f475662d-98dd-4c90-adf0-727d1a5d22c9")
 	)
 	(wire
 		(pts
@@ -2820,13 +2838,13 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 254 149.86 0)
+			(at 215.9 132.08 180)
 			(uuid "be1c874a-aaab-4cd5-adeb-dff5589da640")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "{USB}" bidirectional
@@ -2910,13 +2928,13 @@
 			)
 		)
 		(pin "{DEBUG}" bidirectional
-			(at 254 144.78 0)
+			(at 215.9 129.54 180)
 			(uuid "ae40f8f6-35ad-4c9b-9bee-ff1f1e63ea5e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -2996,6 +3014,59 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 127)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "5e32b227-0684-45b9-8c92-9550e4036164")
+		(property "Sheetname" "Debug"
+			(at 152.4 126.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug.kicad_sch"
+			(at 152.4 153.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{DEBUG}" bidirectional
+			(at 190.5 129.54 0)
+			(uuid "9c24bb0a-9bbe-42bd-9c10-2b710aba2c08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(page "7")
 				)
 			)
 		)
