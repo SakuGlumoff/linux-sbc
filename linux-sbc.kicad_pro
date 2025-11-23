@@ -211,8 +211,8 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "footprint_link_issues": "error",
+      "four_way_junction": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -229,14 +229,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -616,6 +616,10 @@
     [
       "efbf33e8-83fd-439d-aaf8-dc8287b68178",
       "USB"
+    ],
+    [
+      "9ca4e50e-b0f6-43cd-b87d-1fd05ae8a1fe",
+      "Ethernet"
     ]
   ],
   "text_variables": {}

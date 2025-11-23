@@ -1737,7 +1737,7 @@
 		)
 	)
 	(bus_alias "PMIC"
-		(members "SDA" "SCL" "CTRL" "RST_N" "WKUP" "INT_N")
+		(members "PMIC.SDA" "PMIC.SCL" "PMIC.CTRL" "PMIC.RST_N" "PMIC.WKUP" "PMIC.INT_N")
 	)
 	(text "RST_N & INT_N have internal pull-ups"
 		(exclude_from_sim no)
@@ -4592,7 +4592,7 @@
 		)
 		(uuid "fdff6234-7f45-4814-b879-3a00588aa832")
 	)
-	(label "SCL"
+	(label "PMIC.SCL"
 		(at 160.02 195.58 180)
 		(effects
 			(font
@@ -4622,7 +4622,7 @@
 		)
 		(uuid "3d3f390e-1f15-4fa9-a1f2-fc4a0c45d0b5")
 	)
-	(label "INT_N"
+	(label "PMIC.INT_N"
 		(at 199.39 193.04 0)
 		(effects
 			(font
@@ -4642,7 +4642,7 @@
 		)
 		(uuid "7a3e1207-2568-433a-8aec-8eee540f73a6")
 	)
-	(label "SDA"
+	(label "PMIC.SDA"
 		(at 160.02 193.04 180)
 		(effects
 			(font
@@ -4662,7 +4662,7 @@
 		)
 		(uuid "a49792d1-24d3-4825-a674-8c1ca76954a7")
 	)
-	(label "CTRL"
+	(label "PMIC.CTRL"
 		(at 160.02 198.12 180)
 		(effects
 			(font
@@ -4672,7 +4672,7 @@
 		)
 		(uuid "ab386ef2-9d0f-4753-9e2f-5205e9191abd")
 	)
-	(label "WKUP"
+	(label "PMIC.WKUP"
 		(at 160.02 203.2 180)
 		(effects
 			(font
@@ -4692,7 +4692,7 @@
 		)
 		(uuid "f0e6af64-ec01-4d27-8939-31be1bd9cc83")
 	)
-	(label "RST_N"
+	(label "PMIC.RST_N"
 		(at 160.02 200.66 180)
 		(effects
 			(font

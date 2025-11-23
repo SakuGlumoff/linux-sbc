@@ -995,6 +995,18 @@
 		)
 		(uuid "40889541-01da-4e55-961e-5af34c1ef202")
 	)
+	(text "8. Ethernet"
+		(exclude_from_sim no)
+		(at 16.51 99.06 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+			(href "#10")
+		)
+		(uuid "69682890-bf9c-4f7c-9f13-d8b5c1353a04")
+	)
 	(text "Place a stitched chassis guard rail along the edges of the PCB\nto provide a safe point for human contact when handling the device."
 		(exclude_from_sim no)
 		(at 134.62 264.16 0)
@@ -1302,6 +1314,12 @@
 		(uuid "73621933-6602-4242-af82-f165a14f9521")
 	)
 	(junction
+		(at 285.75 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac9ed19b-be18-4279-800d-a4c6c6781159")
+	)
+	(junction
 		(at 167.64 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1320,19 +1338,19 @@
 		(uuid "fe259aa4-9553-481c-821d-bd6f56fdad45")
 	)
 	(no_connect
-		(at 254 182.88)
+		(at 254 198.12)
 		(uuid "35664417-2461-456e-a400-50eb7fd6cfdf")
 	)
 	(no_connect
-		(at 254 185.42)
+		(at 254 200.66)
 		(uuid "3aec529c-8267-42c8-8e19-14f0a69c79a3")
 	)
 	(no_connect
-		(at 254 177.8)
+		(at 254 193.04)
 		(uuid "3f24a8c8-cce2-4a2d-adf1-68dc57bc33f8")
 	)
 	(no_connect
-		(at 254 180.34)
+		(at 254 195.58)
 		(uuid "66fdad3d-b02d-460e-96ae-ee407a08aec7")
 	)
 	(wire
@@ -1364,6 +1382,16 @@
 			(type default)
 		)
 		(uuid "0bf53e0f-4e0e-461d-b7cf-7091b6a2291b")
+	)
+	(wire
+		(pts
+			(xy 285.75 167.64) (xy 292.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a79e05-fffd-4af9-ac1b-b255e1049278")
 	)
 	(wire
 		(pts
@@ -1485,6 +1513,26 @@
 		)
 		(uuid "75b1c12a-4bc4-4749-8e35-4e838df20522")
 	)
+	(bus
+		(pts
+			(xy 254 182.88) (xy 292.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "853d957e-af8e-456c-8382-6db9e874ab36")
+	)
+	(wire
+		(pts
+			(xy 285.75 180.34) (xy 292.1 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856639f3-9a0b-4caf-ab37-5ed3bbe50847")
+	)
 	(wire
 		(pts
 			(xy 166.37 88.9) (xy 167.64 88.9)
@@ -1547,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 167.64) (xy 292.1 167.64)
+			(xy 254 167.64) (xy 285.75 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1594,6 +1642,16 @@
 			(type default)
 		)
 		(uuid "c0f9b7d8-9ccb-4c1f-8814-a152f00dc751")
+	)
+	(wire
+		(pts
+			(xy 285.75 167.64) (xy 285.75 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f25ac0-d59c-44e8-b18d-141d1034ee04")
 	)
 	(wire
 		(pts
@@ -2874,7 +2932,7 @@
 	)
 	(sheet
 		(at 215.9 127)
-		(size 38.1 63.5)
+		(size 38.1 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2899,7 +2957,7 @@
 			)
 		)
 		(property "Sheetfile" "mpu.kicad_sch"
-			(at 215.9 191.2584 0)
+			(at 215.9 203.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +2996,7 @@
 			)
 		)
 		(pin "VDD_1V8" output
-			(at 254 177.8 0)
+			(at 254 193.04 0)
 			(uuid "6fd4653b-3ca8-4862-b7ec-a89873797812")
 			(effects
 				(font
@@ -2958,7 +3016,7 @@
 			)
 		)
 		(pin "VDD_LDO2" output
-			(at 254 180.34 0)
+			(at 254 195.58 0)
 			(uuid "6b4d729c-ab66-4205-a83c-fa55d4088a7c")
 			(effects
 				(font
@@ -2968,7 +3026,7 @@
 			)
 		)
 		(pin "VDD_LDO3" output
-			(at 254 182.88 0)
+			(at 254 198.12 0)
 			(uuid "1b06392a-ec50-428e-8041-ed16f935b2d2")
 			(effects
 				(font
@@ -2978,7 +3036,7 @@
 			)
 		)
 		(pin "VDD_SD" output
-			(at 254 185.42 0)
+			(at 254 200.66 0)
 			(uuid "882ee99a-b626-40ca-85c7-a58ffdd17c7e")
 			(effects
 				(font
@@ -3030,6 +3088,16 @@
 		(pin "VDD_DDR" output
 			(at 254 129.54 0)
 			(uuid "50e43f50-1486-4d12-8ea2-51ca55660341")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{ETH}" bidirectional
+			(at 254 182.88 0)
+			(uuid "1658a523-91b0-4e56-9ad4-25608d26270f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,6 +3338,69 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 292.1 177.8)
+		(size 38.1 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "9ca4e50e-b0f6-43cd-b87d-1fd05ae8a1fe")
+		(property "Sheetname" "Ethernet"
+			(at 292.1 176.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 292.1 186.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD_3V3" input
+			(at 292.1 180.34 180)
+			(uuid "237b5fa8-a25b-4236-b3f9-6edfd71371b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{ETH}" bidirectional
+			(at 292.1 182.88 180)
+			(uuid "3867d00f-0093-4a0d-8347-1c1c03f9f653")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(page "10")
 				)
 			)
 		)
