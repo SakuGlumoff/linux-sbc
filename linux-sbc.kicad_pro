@@ -276,9 +276,18 @@
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "GND",
+        "name": "CHASSIS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgb(0, 194, 0)",
+        "wire_width": 20
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 20
       },
@@ -287,7 +296,7 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       }
@@ -296,20 +305,10 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Debug/VBUS": [
-        "PWR"
-      ],
-      "/Debug/VBUS_FUSED": [
-        "PWR"
-      ],
-      "/Debug/VCCIO": [
-        "PWR"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "GND",
+        "netclass": "CHASSIS",
         "pattern": "CHASSIS"
       },
       {
@@ -613,6 +612,10 @@
     [
       "b95ca287-ddfc-48bc-929f-a440f70b1b06",
       "DDR"
+    ],
+    [
+      "efbf33e8-83fd-439d-aaf8-dc8287b68178",
+      "USB"
     ]
   ],
   "text_variables": {}

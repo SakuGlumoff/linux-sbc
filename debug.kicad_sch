@@ -3329,12 +3329,6 @@
 		(uuid "1580ec8f-5297-4828-bc01-c6cf788f31fc")
 	)
 	(junction
-		(at 55.88 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "187a2f69-cb24-4975-9613-63748be602b8")
-	)
-	(junction
 		(at 54.61 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3347,22 +3341,10 @@
 		(uuid "23c78a39-8f11-4cc6-8901-640ab54588a9")
 	)
 	(junction
-		(at 114.3 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2858024f-789a-429c-bf92-5bc148b7784f")
-	)
-	(junction
 		(at 82.55 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3082e185-9c20-4da3-b1c8-6ed6dddaa901")
-	)
-	(junction
-		(at 119.38 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4373b047-8eb5-4f51-9439-3e470ceab844")
 	)
 	(junction
 		(at 96.52 220.98)
@@ -3750,17 +3732,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 101.6) (xy 55.88 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de1883e-f7e5-43c4-8f66-1e87fd271925")
-	)
-	(wire
-		(pts
-			(xy 55.88 102.87) (xy 82.55 102.87)
+			(xy 54.61 102.87) (xy 82.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4060,16 +4032,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 119.38 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ecc59d-404a-4799-af72-38e8d6e7ee1e")
-	)
-	(wire
-		(pts
 			(xy 54.61 121.92) (xy 77.47 121.92)
 		)
 		(stroke
@@ -4200,16 +4162,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 114.3 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5aea8065-a32e-4515-8036-ddafe733feba")
-	)
-	(wire
-		(pts
 			(xy 59.69 233.68) (xy 59.69 226.06)
 		)
 		(stroke
@@ -4217,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "5deb827a-234b-499d-9e62-17235e20579e")
-	)
-	(wire
-		(pts
-			(xy 55.88 102.87) (xy 54.61 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "606873a8-ba94-4916-b77d-211a9bbe64fd")
 	)
 	(bus
 		(pts
@@ -4240,7 +4182,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 102.87) (xy 119.38 102.87)
+			(xy 110.49 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5000,16 +4942,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 102.87) (xy 130.81 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6dcc5f6-5107-4a21-aac3-f942bb2a928b")
-	)
-	(wire
-		(pts
 			(xy 71.12 151.13) (xy 82.55 151.13)
 		)
 		(stroke
@@ -5178,7 +5110,7 @@
 		)
 		(uuid "63c1f1b2-a2b9-42d7-b7f5-777c718c2c30")
 	)
-	(label "VBUS_FUSED"
+	(label "V_BUS_FUSED"
 		(at 96.52 102.87 0)
 		(effects
 			(font
@@ -5188,8 +5120,8 @@
 		)
 		(uuid "63f56734-b907-4367-8280-6e3d62b70cf9")
 	)
-	(label "VCCIO"
-		(at 129.54 100.33 0)
+	(label "V_CCIO"
+		(at 114.3 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5228,7 +5160,7 @@
 		)
 		(uuid "88bfe219-dcee-42db-9a4e-9b180ebe092f")
 	)
-	(label "VBUS"
+	(label "V_BUS"
 		(at 63.5 102.87 180)
 		(effects
 			(font
@@ -5331,96 +5263,6 @@
 			(justify right)
 		)
 		(uuid "e0d6c2fc-ff74-4dfe-888d-98bf53a5d90e")
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 114.3 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f7c93e6-3e16-447f-9de3-d7ad30d30c0d")
-		(property "Netclass" "PWR"
-			(at 114.3 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at 22.86 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 55.88 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c1a76df-9dd4-4695-b0f2-5912ad98a19a")
-		(property "Netclass" "PWR"
-			(at 55.88 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at -35.56 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 119.38 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af3b2344-bbab-453f-905d-62d57a3e42e5")
-		(property "Netclass" "PWR"
-			(at 119.38 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Component Class" ""
-			(at 27.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:LED")

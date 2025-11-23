@@ -947,6 +947,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "7. USB"
+		(exclude_from_sim no)
+		(at 16.51 95.25 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+			(href "#9")
+		)
+		(uuid "37687e57-5925-4076-a3a9-d22da20d3a3f")
+	)
 	(text "4. MPU"
 		(exclude_from_sim no)
 		(at 16.51 76.2 0)
@@ -1116,7 +1128,7 @@
 	(text_box "Table of Contents"
 		(exclude_from_sim no)
 		(at 12.7 50.8 0)
-		(size 127 62.23)
+		(size 127 101.6)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1137,8 +1149,8 @@
 	)
 	(text_box "This project serves as a practice exercise in PCB design for a Linux Single-Board-Computer."
 		(exclude_from_sim no)
-		(at 15.24 127 0)
-		(size 123.19 88.9)
+		(at 15.24 165.1 0)
+		(size 123.19 50.8)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -1179,8 +1191,8 @@
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 12.7 113.03 0)
-		(size 127 105.41)
+		(at 12.7 152.4 0)
+		(size 127 66.04)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1316,20 +1328,12 @@
 		(uuid "3aec529c-8267-42c8-8e19-14f0a69c79a3")
 	)
 	(no_connect
-		(at 254 175.26)
-		(uuid "3f24a8c8-cce2-4a2d-adf1-68dc57bc33f8")
-	)
-	(no_connect
 		(at 254 177.8)
-		(uuid "4e7f38ab-0e69-4fc9-b201-e569d9a578ed")
+		(uuid "3f24a8c8-cce2-4a2d-adf1-68dc57bc33f8")
 	)
 	(no_connect
 		(at 254 180.34)
 		(uuid "66fdad3d-b02d-460e-96ae-ee407a08aec7")
-	)
-	(no_connect
-		(at 254 187.96)
-		(uuid "bceb6d76-5fdf-4236-97bc-66874c2ce299")
 	)
 	(wire
 		(pts
@@ -1373,7 +1377,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 162.56) (xy 292.1 162.56)
+			(xy 254 153.67) (xy 292.1 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1433,7 +1437,17 @@
 	)
 	(bus
 		(pts
-			(xy 254 160.02) (xy 292.1 160.02)
+			(xy 254 170.18) (xy 292.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f27dd49-0ae5-4dc7-99a0-fae82639ecee")
+	)
+	(bus
+		(pts
+			(xy 254 151.13) (xy 292.1 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1533,6 +1547,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 167.64) (xy 292.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a242bced-4687-404a-b75c-d2803c24fcc7")
+	)
+	(wire
+		(pts
 			(xy 167.64 100.33) (xy 167.64 101.6)
 		)
 		(stroke
@@ -1593,7 +1617,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 165.1) (xy 292.1 165.1)
+			(xy 254 156.21) (xy 292.1 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1643,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 154.94) (xy 292.1 154.94)
+			(xy 254 146.05) (xy 292.1 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +2918,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 254 165.1 0)
+			(at 254 156.21 0)
 			(uuid "be1c874a-aaab-4cd5-adeb-dff5589da640")
 			(effects
 				(font
@@ -2904,7 +2928,7 @@
 			)
 		)
 		(pin "{USB}" bidirectional
-			(at 254 187.96 0)
+			(at 254 170.18 0)
 			(uuid "19340039-3572-410c-8efa-65fa87699ea5")
 			(effects
 				(font
@@ -2914,7 +2938,7 @@
 			)
 		)
 		(pin "VDD_1V8" output
-			(at 254 175.26 0)
+			(at 254 177.8 0)
 			(uuid "6fd4653b-3ca8-4862-b7ec-a89873797812")
 			(effects
 				(font
@@ -2924,7 +2948,7 @@
 			)
 		)
 		(pin "VDD_3V3" output
-			(at 254 177.8 0)
+			(at 254 167.64 0)
 			(uuid "2e9ef2de-ae41-4111-9ce1-f9a73c91f87a")
 			(effects
 				(font
@@ -2974,7 +2998,7 @@
 			)
 		)
 		(pin "{PMIC}" bidirectional
-			(at 254 160.02 0)
+			(at 254 151.13 0)
 			(uuid "8fa7c7ad-56be-435b-b9ea-72f4f7636ec6")
 			(effects
 				(font
@@ -2984,7 +3008,7 @@
 			)
 		)
 		(pin "{DEBUG}" bidirectional
-			(at 254 162.56 0)
+			(at 254 153.67 0)
 			(uuid "ae40f8f6-35ad-4c9b-9bee-ff1f1e63ea5e")
 			(effects
 				(font
@@ -2994,7 +3018,7 @@
 			)
 		)
 		(pin "VDD" output
-			(at 254 154.94 0)
+			(at 254 146.05 0)
 			(uuid "71d86573-6a2d-4eea-8387-ddc56030357c")
 			(effects
 				(font
@@ -3095,7 +3119,7 @@
 		)
 	)
 	(sheet
-		(at 292.1 152.4)
+		(at 292.1 143.51)
 		(size 38.1 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3112,7 +3136,7 @@
 		)
 		(uuid "5e32b227-0684-45b9-8c92-9550e4036164")
 		(property "Sheetname" "Debug"
-			(at 292.1 151.5146 0)
+			(at 292.1 142.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3145,7 @@
 			)
 		)
 		(property "Sheetfile" "debug.kicad_sch"
-			(at 292.1 168.3984 0)
+			(at 292.1 159.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3154,7 @@
 			)
 		)
 		(pin "{DEBUG}" bidirectional
-			(at 292.1 162.56 180)
+			(at 292.1 153.67 180)
 			(uuid "9c24bb0a-9bbe-42bd-9c10-2b710aba2c08")
 			(effects
 				(font
@@ -3140,7 +3164,7 @@
 			)
 		)
 		(pin "VDD" input
-			(at 292.1 154.94 180)
+			(at 292.1 146.05 180)
 			(uuid "8beb98cc-8c7e-4649-adb4-dae386d5070a")
 			(effects
 				(font
@@ -3150,7 +3174,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 292.1 165.1 180)
+			(at 292.1 156.21 180)
 			(uuid "fd520e4a-59c1-43e4-a9ac-da0777dc9259")
 			(effects
 				(font
@@ -3160,7 +3184,7 @@
 			)
 		)
 		(pin "{PMIC}" bidirectional
-			(at 292.1 160.02 180)
+			(at 292.1 151.13 180)
 			(uuid "636ff3b7-c922-4edc-958c-629a0c9436f5")
 			(effects
 				(font
@@ -3319,6 +3343,69 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 292.1 165.1)
+		(size 38.1 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "efbf33e8-83fd-439d-aaf8-dc8287b68178")
+		(property "Sheetname" "USB"
+			(at 292.1 164.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 292.1 173.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{USB}" bidirectional
+			(at 292.1 170.18 180)
+			(uuid "8ed76118-22da-43a8-83c6-374addbfc55e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_3V3" output
+			(at 292.1 167.64 180)
+			(uuid "0649619a-87e4-425f-85e0-9031eac9f062")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(page "9")
 				)
 			)
 		)
