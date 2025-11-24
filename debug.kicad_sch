@@ -996,6 +996,509 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_ABRG"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_ABRG"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, anode/blue/red/green"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_ABRG_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_ABRG_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_ABRG_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Polyfuse"
 			(pin_numbers
 				(hide yes)
@@ -1863,6 +2366,378 @@
 						)
 					)
 					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Interface_Expansion:TCA9554PW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCA9554PW"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 24.13 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9554.pdf"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SMBUS I2C Expander"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCA9554PW_0_1"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCA9554PW_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3193,6 +4068,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "5. Debug"
 		(exclude_from_sim no)
@@ -3282,6 +4282,49 @@
 		)
 		(uuid "ade85b4c-b357-4481-9dc0-02de254c3d55")
 	)
+	(text_box "LED indicators"
+		(exclude_from_sim no)
+		(at 215.9 50.8 0)
+		(size 190.5 200.66)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "b3c27a25-75b3-4c23-a5b9-1c9d0bbf9111")
+	)
+	(text_box "With A[2..0] LOW, the I2C address is 0x20."
+		(exclude_from_sim no)
+		(at 269.24 144.145 0)
+		(size 25.4 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c47db8e2-0408-45f2-800d-f808cb747d23")
+	)
 	(text_box "Connect a USB-C cable from a PC to the USB-C receptacle and the debug UART will enumerate as a virtual COM port.\n\nThis virtual COM port can be used to program the MPU when the boot selection switch is in the \"UART and USB\" position.\n\nThis virtual COM port can also be used as an external serial interface to the MPU."
 		(exclude_from_sim no)
 		(at 13.97 63.5 0)
@@ -3347,6 +4390,42 @@
 		(uuid "3082e185-9c20-4da3-b1c8-6ed6dddaa901")
 	)
 	(junction
+		(at 257.81 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34a86337-355c-4724-8b28-7ec1949a3b9e")
+	)
+	(junction
+		(at 372.11 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4359dae2-d323-4cbd-a95b-261d5875696f")
+	)
+	(junction
+		(at 270.51 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4884b7b1-29ef-41c0-95b4-530662b58802")
+	)
+	(junction
+		(at 302.26 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b3d4925-3307-4578-bed9-23fa0bae1b0a")
+	)
+	(junction
+		(at 355.6 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50072516-4b54-48f8-b7d0-298a212ee0d9")
+	)
+	(junction
+		(at 245.11 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "502fb9ab-e0c8-474c-9d52-d907fa8f601b")
+	)
+	(junction
 		(at 96.52 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3383,6 +4462,12 @@
 		(uuid "79b8ab0a-a8ba-4688-ac54-ce48165459d9")
 	)
 	(junction
+		(at 257.81 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7abd2712-eb25-4497-b9ed-1dbefc265a13")
+	)
+	(junction
 		(at 114.3 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3413,6 +4498,12 @@
 		(uuid "896db0da-ef84-465a-8a04-a4ea01a128a4")
 	)
 	(junction
+		(at 295.91 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89e76909-3f24-4e4b-b1d5-ef16678a2d29")
+	)
+	(junction
 		(at 76.2 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3431,6 +4522,12 @@
 		(uuid "8c70ea93-e0d3-4583-a3b0-ecb86f6f2078")
 	)
 	(junction
+		(at 381 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96e1e08a-66cd-45ac-b78c-cee02f927a66")
+	)
+	(junction
 		(at 96.52 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3441,6 +4538,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8ea4f6a-1206-4b9d-8f90-101001d17122")
+	)
+	(junction
+		(at 270.51 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af0e5299-7f82-4c3f-843d-daf93b1cc802")
 	)
 	(junction
 		(at 130.81 151.13)
@@ -3509,6 +4612,18 @@
 		(uuid "d61583de-11ad-4836-b33d-4861a7e617e9")
 	)
 	(junction
+		(at 245.11 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d66016e5-23d3-4218-b8ea-372ee6c6a2a8")
+	)
+	(junction
+		(at 308.61 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d700275e-19a7-4a0b-9226-5c24f1819b0e")
+	)
+	(junction
 		(at 96.52 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3525,6 +4640,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0e39c5c-7c63-4279-bc44-02fd29948a44")
+	)
+	(junction
+		(at 295.91 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f313b26d-6cf2-4c10-bcf2-4bd881494e38")
 	)
 	(no_connect
 		(at 152.4 127)
@@ -3559,6 +4680,15 @@
 		(uuid "fdf71cac-3fda-4dac-a160-e81fd111558e")
 	)
 	(bus_entry
+		(at 229.87 132.08)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba431e4-d598-4018-a9da-3aad3d18f005")
+	)
+	(bus_entry
 		(at 44.45 213.36)
 		(size 2.54 2.54)
 		(stroke
@@ -3575,6 +4705,15 @@
 			(type default)
 		)
 		(uuid "1cf3fb25-1469-4401-a95f-f097c43d2b11")
+	)
+	(bus_entry
+		(at 229.87 134.62)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259468a8-e1a1-472b-9c92-7e031392413e")
 	)
 	(bus_entry
 		(at 44.45 210.82)
@@ -3622,6 +4761,15 @@
 		(uuid "9d5757e7-3b9c-40f1-accf-a3a4c50bbea4")
 	)
 	(bus_entry
+		(at 229.87 129.54)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2a3f34-5b02-4ece-a012-5f246b0f16db")
+	)
+	(bus_entry
 		(at 44.45 218.44)
 		(size 2.54 2.54)
 		(stroke
@@ -3629,6 +4777,16 @@
 			(type default)
 		)
 		(uuid "e87bc716-79da-43d0-b6a5-0e6aefe73619")
+	)
+	(wire
+		(pts
+			(xy 355.6 101.6) (xy 355.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009637b3-d986-44e7-af8f-ebb119ddfc1e")
 	)
 	(wire
 		(pts
@@ -3682,6 +4840,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 101.6) (xy 384.81 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d50faf-6a2a-440b-bb05-b1ac9802145d")
+	)
+	(wire
+		(pts
 			(xy 21.59 143.51) (xy 21.59 146.05)
 		)
 		(stroke
@@ -3709,6 +4877,26 @@
 			(type default)
 		)
 		(uuid "09ec706d-e152-4065-8d83-d8b341817a58")
+	)
+	(wire
+		(pts
+			(xy 232.41 137.16) (xy 270.51 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0d0e99-d22a-4bc5-aea9-f199b8d4bb03")
+	)
+	(wire
+		(pts
+			(xy 308.61 154.94) (xy 308.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c80c575-dc4e-4c94-ad32-1fbf5962d4a4")
 	)
 	(wire
 		(pts
@@ -3770,6 +4958,16 @@
 		)
 		(uuid "0f1f69be-7642-43b0-86d9-7689da167fc7")
 	)
+	(wire
+		(pts
+			(xy 318.77 137.16) (xy 336.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffe6815-2217-4a86-b07c-71d57d9b86df")
+	)
 	(bus
 		(pts
 			(xy 44.45 205.74) (xy 44.45 208.28)
@@ -3789,6 +4987,16 @@
 			(type default)
 		)
 		(uuid "10f724a4-2ab7-4156-8cd5-d48b83ae0c8e")
+	)
+	(wire
+		(pts
+			(xy 318.77 149.86) (xy 336.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118ebfc3-2cc8-4786-a3c7-471caa8d78af")
 	)
 	(wire
 		(pts
@@ -3852,6 +5060,26 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 137.16) (xy 278.1299 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af010da-d281-44f3-842a-4e03c9d85464")
+	)
+	(bus
+		(pts
+			(xy 229.87 134.62) (xy 229.87 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b63581c-dc93-4616-b2b3-206f696092c9")
+	)
+	(wire
+		(pts
 			(xy 114.3 111.76) (xy 114.3 127)
 		)
 		(stroke
@@ -3859,6 +5087,16 @@
 			(type default)
 		)
 		(uuid "1b733a7e-ec50-4aa2-8450-797db5f5a10e")
+	)
+	(wire
+		(pts
+			(xy 232.41 132.08) (xy 245.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e40ca2b-9a2e-4187-930b-ea6b00df262b")
 	)
 	(wire
 		(pts
@@ -3879,6 +5117,16 @@
 			(type default)
 		)
 		(uuid "1eb33f75-5b58-4d55-8d54-2dd265116987")
+	)
+	(wire
+		(pts
+			(xy 372.11 101.6) (xy 372.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6514d3-7572-4eeb-885b-4a809ce1b2c3")
 	)
 	(wire
 		(pts
@@ -3932,6 +5180,26 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 132.08) (xy 336.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ebc861-d1f4-4399-8a9a-0dc543e85cce")
+	)
+	(wire
+		(pts
+			(xy 372.11 101.6) (xy 355.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a5fcfe-f9f6-4329-8f03-7f175a50b8e7")
+	)
+	(wire
+		(pts
 			(xy 151.13 142.24) (xy 152.4 142.24)
 		)
 		(stroke
@@ -3939,6 +5207,46 @@
 			(type default)
 		)
 		(uuid "254a343a-890b-4cfc-9b8f-1db169e8a662")
+	)
+	(wire
+		(pts
+			(xy 232.41 107.95) (xy 245.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2812899e-878c-4f21-95c4-a36877b8f134")
+	)
+	(wire
+		(pts
+			(xy 245.11 107.95) (xy 257.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a12628e-aff0-4432-a79c-1decfd1d846d")
+	)
+	(wire
+		(pts
+			(xy 232.41 134.62) (xy 257.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d27f7e5-d0f0-48b7-92d3-c662523e28ce")
+	)
+	(wire
+		(pts
+			(xy 257.81 121.92) (xy 257.81 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7a0ae5-9fa7-4658-a74d-c2ecdba82680")
 	)
 	(wire
 		(pts
@@ -4052,6 +5360,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 132.08) (xy 278.13 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389a77cb-fc78-4d52-9410-4e07f4dea2c3")
+	)
+	(wire
+		(pts
 			(xy 110.49 93.98) (xy 110.49 102.87)
 		)
 		(stroke
@@ -4069,6 +5387,16 @@
 			(type default)
 		)
 		(uuid "393fa5b3-9e5f-4e7b-8514-e556877819bd")
+	)
+	(bus
+		(pts
+			(xy 228.6 129.54) (xy 229.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecf13f5-d625-4250-a2f0-cf48d949d5d5")
 	)
 	(wire
 		(pts
@@ -4092,6 +5420,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 107.95) (xy 245.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cbf3fe-501d-45fe-83a3-3d685f3cb798")
+	)
+	(wire
+		(pts
 			(xy 151.13 124.46) (xy 152.4 124.46)
 		)
 		(stroke
@@ -4099,6 +5437,46 @@
 			(type default)
 		)
 		(uuid "480d7fd4-7d19-4219-a7ca-c0e464208e5e")
+	)
+	(wire
+		(pts
+			(xy 270.51 107.95) (xy 302.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a5e8e0-567b-4974-afe0-155da4b886f5")
+	)
+	(wire
+		(pts
+			(xy 285.7499 134.62) (xy 298.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4988ddcb-c1df-42dc-b6dc-ad2743664c60")
+	)
+	(wire
+		(pts
+			(xy 372.11 142.24) (xy 372.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f00ad0-2294-4cba-a80f-815bf6ad726f")
+	)
+	(wire
+		(pts
+			(xy 257.81 107.95) (xy 270.51 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e968c2e-e4df-4f83-8c50-13bedb46fec9")
 	)
 	(wire
 		(pts
@@ -4162,6 +5540,26 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 139.7) (xy 336.55 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ebea6e-2ef2-43b2-ae1e-8743d394ade6")
+	)
+	(wire
+		(pts
+			(xy 384.81 149.86) (xy 384.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582bee68-6487-45e8-b388-b0af977ce57b")
+	)
+	(wire
+		(pts
 			(xy 59.69 233.68) (xy 59.69 226.06)
 		)
 		(stroke
@@ -4169,6 +5567,16 @@
 			(type default)
 		)
 		(uuid "5deb827a-234b-499d-9e62-17235e20579e")
+	)
+	(wire
+		(pts
+			(xy 350.52 132.08) (xy 350.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f12d7b6-9410-4fbf-a76f-1bd30329e20f")
 	)
 	(bus
 		(pts
@@ -4182,6 +5590,26 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 107.95) (xy 302.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61699960-8bbd-4207-b6e1-a0ecdc354c01")
+	)
+	(wire
+		(pts
+			(xy 344.17 147.32) (xy 381 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6418ffc1-d05d-4268-8292-741b8d90f8d0")
+	)
+	(wire
+		(pts
 			(xy 110.49 102.87) (xy 130.81 102.87)
 		)
 		(stroke
@@ -4189,6 +5617,16 @@
 			(type default)
 		)
 		(uuid "64671f8b-8b83-499b-8e4a-bd7d021d9de3")
+	)
+	(wire
+		(pts
+			(xy 381 101.6) (xy 384.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6495c54a-d6c1-43ff-9351-0766d3b4e6a9")
 	)
 	(wire
 		(pts
@@ -4242,6 +5680,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 101.6) (xy 381 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b380f0f-279c-45a9-b11f-ec9eeeec8a00")
+	)
+	(wire
+		(pts
 			(xy 53.34 110.49) (xy 54.61 110.49)
 		)
 		(stroke
@@ -4259,6 +5707,26 @@
 			(type default)
 		)
 		(uuid "7027d24c-1cc8-4840-a584-4452e53c7dec")
+	)
+	(wire
+		(pts
+			(xy 295.91 149.86) (xy 295.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704298ba-cc9f-4063-96ff-4cabe2b79f86")
+	)
+	(wire
+		(pts
+			(xy 318.77 142.24) (xy 336.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e50e02-ed42-42ea-8d8e-3d4ca9a7ab6c")
 	)
 	(wire
 		(pts
@@ -4292,6 +5760,36 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 147.32) (xy 298.45 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723b3f9e-882a-4f7f-ad08-1784823812cf")
+	)
+	(wire
+		(pts
+			(xy 318.77 134.62) (xy 336.5335 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72538a72-bef7-4a36-87d6-8b84d33b7b72")
+	)
+	(wire
+		(pts
+			(xy 285.7499 137.16) (xy 298.45 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c0ec9a-7c67-4ad1-b4e9-880022478a2c")
+	)
+	(wire
+		(pts
 			(xy 151.13 111.76) (xy 168.91 111.76)
 		)
 		(stroke
@@ -4309,6 +5807,26 @@
 			(type default)
 		)
 		(uuid "75079e7a-c155-4c82-817e-e885b99b2eac")
+	)
+	(wire
+		(pts
+			(xy 367.03 139.7) (xy 367.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b238a52-782f-4f08-88c4-1623c908e4ea")
+	)
+	(wire
+		(pts
+			(xy 344.17 144.78) (xy 377.19 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4abbd4-4443-44ce-a946-aa10dfda27bc")
 	)
 	(wire
 		(pts
@@ -4382,6 +5900,26 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 144.78) (xy 295.91 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd40f65-d545-47a7-9da1-0c924a2ba523")
+	)
+	(wire
+		(pts
+			(xy 355.6 100.33) (xy 355.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800a1120-79d2-4dcd-9b17-8331c521e22d")
+	)
+	(wire
+		(pts
 			(xy 151.13 119.38) (xy 152.4 119.38)
 		)
 		(stroke
@@ -4389,6 +5927,16 @@
 			(type default)
 		)
 		(uuid "8198ffa9-0dfa-41f9-bfcc-dfc986f6814e")
+	)
+	(wire
+		(pts
+			(xy 298.45 144.78) (xy 295.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83cc843e-a319-4618-b854-9e082e86084c")
 	)
 	(wire
 		(pts
@@ -4432,6 +5980,26 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 132.08) (xy 298.45 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1e62ab-fd4a-4913-9c54-01cae45fed1b")
+	)
+	(wire
+		(pts
+			(xy 308.61 157.48) (xy 308.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d38e1c8-2599-4f77-b1f0-9d716b82ccd8")
+	)
+	(wire
+		(pts
 			(xy 54.61 105.41) (xy 54.61 102.87)
 		)
 		(stroke
@@ -4439,6 +6007,16 @@
 			(type default)
 		)
 		(uuid "8d5586bd-b348-4c1a-b993-8d051ad846dc")
+	)
+	(wire
+		(pts
+			(xy 344.17 132.08) (xy 350.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902bfb87-ff2b-4c66-9512-72d10c7678c1")
 	)
 	(wire
 		(pts
@@ -4462,6 +6040,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 123.19) (xy 302.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a5fae9-71be-4b83-9969-3c665ec8270f")
+	)
+	(wire
+		(pts
 			(xy 96.52 210.82) (xy 96.52 213.36)
 		)
 		(stroke
@@ -4469,6 +6057,16 @@
 			(type default)
 		)
 		(uuid "962ce22c-84cf-4ef0-ad82-11fafeae631c")
+	)
+	(wire
+		(pts
+			(xy 270.51 107.95) (xy 270.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978fa6ea-db56-4441-b6fd-fcc3d9a48460")
 	)
 	(wire
 		(pts
@@ -4512,6 +6110,26 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 137.16) (xy 360.68 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b13b392-7157-4e0c-9e50-71d386ec3550")
+	)
+	(wire
+		(pts
+			(xy 302.26 107.95) (xy 308.61 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b14fe61-d3be-450b-9af1-4bc8b3964da4")
+	)
+	(wire
+		(pts
 			(xy 53.34 119.38) (xy 54.61 119.38)
 		)
 		(stroke
@@ -4549,6 +6167,26 @@
 			(type default)
 		)
 		(uuid "a5b7efd5-2606-4247-a18d-823fd16ede5e")
+	)
+	(wire
+		(pts
+			(xy 308.61 107.95) (xy 308.61 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70587f0-a059-4f86-b474-fa327a7e0aad")
+	)
+	(wire
+		(pts
+			(xy 344.17 142.24) (xy 372.11 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a935497c-b986-4332-a13d-66e0e165cc4a")
 	)
 	(wire
 		(pts
@@ -4592,6 +6230,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 121.92) (xy 270.51 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad925253-2920-4475-8380-6e78cf3b1dd4")
+	)
+	(wire
+		(pts
 			(xy 53.34 130.81) (xy 71.12 130.81)
 		)
 		(stroke
@@ -4599,6 +6247,16 @@
 			(type default)
 		)
 		(uuid "af3a0a80-db9f-4926-9dd7-cc6eb5e5861a")
+	)
+	(wire
+		(pts
+			(xy 257.81 134.62) (xy 278.1299 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff46f2e-9bbc-4ace-9612-0a6a8dfc6bee")
 	)
 	(wire
 		(pts
@@ -4662,6 +6320,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 101.6) (xy 381 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ab851d-51b6-4c1a-bd7c-2ad760d463d4")
+	)
+	(wire
+		(pts
 			(xy 162.56 100.33) (xy 162.56 101.6)
 		)
 		(stroke
@@ -4689,6 +6357,16 @@
 			(type default)
 		)
 		(uuid "bc1bb71d-beb5-4ea5-8634-2c54d1fe59ea")
+	)
+	(wire
+		(pts
+			(xy 318.77 144.78) (xy 336.55 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd4a218-f683-4bb3-9727-f61bb48d2cb5")
 	)
 	(wire
 		(pts
@@ -4729,6 +6407,26 @@
 			(type default)
 		)
 		(uuid "c3baa715-6d59-4140-b169-4dea802716e2")
+	)
+	(wire
+		(pts
+			(xy 381 147.32) (xy 381 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76afefe-593d-497a-b466-952587e8cd8e")
+	)
+	(wire
+		(pts
+			(xy 344.1535 134.62) (xy 355.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90e10b6-4afb-4aaf-9fff-bc52bfa2f02f")
 	)
 	(wire
 		(pts
@@ -4790,6 +6488,36 @@
 		)
 		(uuid "d1cd6fb0-bd13-48f8-b18a-e68774003be0")
 	)
+	(bus
+		(pts
+			(xy 229.87 132.08) (xy 229.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d280ad93-88a9-4623-befc-a024e717da42")
+	)
+	(wire
+		(pts
+			(xy 377.19 144.78) (xy 377.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c018f5-2d3b-467e-ba2b-e8a3cb9fb88c")
+	)
+	(wire
+		(pts
+			(xy 318.77 147.32) (xy 336.55 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3de968e-6514-4ea8-8aaa-e15766482deb")
+	)
 	(wire
 		(pts
 			(xy 17.78 138.43) (xy 17.78 151.13)
@@ -4799,6 +6527,16 @@
 			(type default)
 		)
 		(uuid "d481d3c2-fe5d-436e-8bd1-b4c11ab86ee1")
+	)
+	(wire
+		(pts
+			(xy 245.11 121.92) (xy 245.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a5f8b2-395c-42f8-8500-0bb1d667d903")
 	)
 	(wire
 		(pts
@@ -4822,6 +6560,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 147.32) (xy 295.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f13f0f-df03-483b-a13f-2d80a67e9cfc")
+	)
+	(wire
+		(pts
 			(xy 114.3 127) (xy 114.3 128.27)
 		)
 		(stroke
@@ -4829,6 +6577,16 @@
 			(type default)
 		)
 		(uuid "d82eb0f2-c3bd-48ef-a3a6-7de4719d3136")
+	)
+	(wire
+		(pts
+			(xy 295.91 156.21) (xy 308.61 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8420ad7-95c5-4117-b365-0d6146e57d8c")
 	)
 	(wire
 		(pts
@@ -4859,6 +6617,16 @@
 			(type default)
 		)
 		(uuid "db3d4d85-267d-4ca4-8cff-48d16bbf7f18")
+	)
+	(wire
+		(pts
+			(xy 355.6 134.62) (xy 355.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6a38c5-5938-4490-9343-cfdfa5af01f5")
 	)
 	(wire
 		(pts
@@ -4932,6 +6700,36 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 149.86) (xy 384.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eedebc76-7e58-42db-8be7-26a0e5f6d7dc")
+	)
+	(wire
+		(pts
+			(xy 295.91 149.86) (xy 298.45 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f154f1be-3194-4561-b523-2d880e05f4f2")
+	)
+	(wire
+		(pts
+			(xy 257.81 107.95) (xy 257.81 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a2c428-41f0-49ff-98c6-af0c90a5207c")
+	)
+	(wire
+		(pts
 			(xy 90.17 213.36) (xy 96.52 213.36)
 		)
 		(stroke
@@ -4949,6 +6747,16 @@
 			(type default)
 		)
 		(uuid "f7396efd-6c02-475f-b696-f5496afb1e93")
+	)
+	(wire
+		(pts
+			(xy 344.17 139.7) (xy 367.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f846306f-38ad-42ac-a324-c9f9ab14689a")
 	)
 	(wire
 		(pts
@@ -5000,6 +6808,16 @@
 		)
 		(uuid "fa8c5941-489a-4429-9865-0708c9833db8")
 	)
+	(wire
+		(pts
+			(xy 344.17 137.16) (xy 360.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec788ab-d4cf-4ab7-aa8e-41c029df0bb0")
+	)
 	(label "CC2"
 		(at 59.69 133.35 180)
 		(effects
@@ -5009,6 +6827,16 @@
 			(justify right bottom)
 		)
 		(uuid "02c0d275-0fb8-47db-82b5-8edf07b22365")
+	)
+	(label "INT_N"
+		(at 297.18 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dddee44-976e-4b1e-8a07-8f3416a71d38")
 	)
 	(label "DBGACK"
 		(at 69.85 228.6 0)
@@ -5040,6 +6868,26 @@
 		)
 		(uuid "1b437428-0d17-4e5f-8f8a-1e1b3ac72bd3")
 	)
+	(label "RGB2_G"
+		(at 327.66 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f50b6a5-002f-486f-872a-abafa53c4f2c")
+	)
+	(label "RGB1_R"
+		(at 327.66 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23d4ac0c-8037-4c3e-90be-5f86820943d7")
+	)
 	(label "LED_TX_N"
 		(at 152.4 139.7 0)
 		(effects
@@ -5060,6 +6908,26 @@
 		)
 		(uuid "2a9de2b7-a22b-44cd-bad9-aa14a86bb596")
 	)
+	(label "DEBUG.SCL"
+		(at 232.41 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2eecac1a-26f5-4bfc-a155-d0373044c823")
+	)
+	(label "LED3_K"
+		(at 327.66 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "325e1e5a-2046-4557-a714-5c7086af89c9")
+	)
 	(label "JTAG.RTCK"
 		(at 69.85 218.44 180)
 		(effects
@@ -5069,6 +6937,16 @@
 			(justify right bottom)
 		)
 		(uuid "3356f559-a5cb-427c-b1f6-f8d65037b732")
+	)
+	(label "RGB2_B"
+		(at 327.66 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "346eb2e1-5934-4d58-9abd-f25f96c9a5df")
 	)
 	(label "JTAG.JTCK"
 		(at 69.85 215.9 180)
@@ -5089,6 +6967,46 @@
 			(justify left bottom)
 		)
 		(uuid "44028caf-472c-4c09-a5c8-fc7766a4abea")
+	)
+	(label "RGB1_B"
+		(at 327.66 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4aaed126-a0e5-48f2-90b8-633bb3ae2048")
+	)
+	(label "SCL"
+		(at 297.18 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52c724ce-e09f-4097-9701-497650e27b95")
+	)
+	(label "RGB1_G"
+		(at 327.66 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5726a822-96f2-496e-88d1-5cdb10c0c156")
+	)
+	(label "RGB2_R"
+		(at 327.66 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cefaeb2-b1fa-4cdf-adcb-54816f3869ab")
 	)
 	(label "D_N"
 		(at 92.71 119.38 180)
@@ -5130,6 +7048,16 @@
 		)
 		(uuid "69b54c72-94ba-45d3-a300-b4f05a3b7c76")
 	)
+	(label "LED4_K"
+		(at 327.66 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7067f7cb-8d3e-4c47-9fda-cc5bf385bc26")
+	)
 	(label "CC1"
 		(at 59.69 130.81 180)
 		(effects
@@ -5149,6 +7077,16 @@
 			(justify right bottom)
 		)
 		(uuid "7b5da6fe-5726-4bef-b4b7-849003a8a0be")
+	)
+	(label "DEBUG.SDA"
+		(at 232.41 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c6826c8-f58c-48d1-b4cc-184c9b19b1eb")
 	)
 	(label "DBGRQ"
 		(at 69.85 226.06 0)
@@ -5179,6 +7117,16 @@
 			(justify right bottom)
 		)
 		(uuid "ab251c65-113a-4e08-8e68-e89c3e884bdd")
+	)
+	(label "SDA"
+		(at 297.18 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad3561fc-83f4-4644-9967-b9cc9583afe4")
 	)
 	(label "D_IN_N"
 		(at 62.23 119.38 180)
@@ -5219,6 +7167,38 @@
 			(justify right bottom)
 		)
 		(uuid "ecfd0f0f-5d09-4ed3-809b-3a85a48005c3")
+	)
+	(label "DEBUG.INT_N"
+		(at 232.41 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8753c15-4212-4f00-8c81-ef5b8e83c17d")
+	)
+	(hierarchical_label "{DEBUG}"
+		(shape bidirectional)
+		(at 228.6 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01ab98b6-9e9b-42c3-9ba6-43f3aee14803")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 232.41 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0516cab9-cd4c-47e1-b42a-9db91ecf64a2")
 	)
 	(hierarchical_label "{DEBUG}"
 		(shape bidirectional)
@@ -5263,6 +7243,117 @@
 			(justify right)
 		)
 		(uuid "e0d6c2fc-ff74-4dfe-888d-98bf53a5d90e")
+	)
+	(symbol
+		(lib_id "Interface_Expansion:TCA9554PW")
+		(at 308.61 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "059818c6-f4ef-4e2d-be6a-d795b2dfdda6")
+		(property "Reference" "U703"
+			(at 300.99 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TCA9554PW"
+			(at 308.864 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 332.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9554.pdf"
+			(at 311.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16"
+			(at 308.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "e28146d1-d0ff-472d-bfd6-d631fba92088")
+		)
+		(pin "10"
+			(uuid "225eb9a7-37ad-4b90-b23d-ff4dc497e264")
+		)
+		(pin "9"
+			(uuid "8a8aa07b-be24-42c0-96c9-9a7ce29af1c5")
+		)
+		(pin "3"
+			(uuid "06d32506-4fba-4820-b0bb-92629f7af2dd")
+		)
+		(pin "16"
+			(uuid "d43e00c9-5682-4440-8626-b3db215a7d7d")
+		)
+		(pin "2"
+			(uuid "f66f978a-75ae-4401-bccb-c02243d51c00")
+		)
+		(pin "11"
+			(uuid "1b85b5ec-dd3d-443d-bed8-6f202d5b3633")
+		)
+		(pin "12"
+			(uuid "82c866ff-3db0-4eea-831a-917836b7feb8")
+		)
+		(pin "6"
+			(uuid "2e9a7bbf-a0eb-443c-8972-63857fc42214")
+		)
+		(pin "8"
+			(uuid "ece1a583-ffed-4174-8a4e-62e162d42566")
+		)
+		(pin "15"
+			(uuid "2161f9f6-3926-426a-a5a6-72f92b7c409e")
+		)
+		(pin "14"
+			(uuid "07de86b7-b963-445c-b20e-c06d546e261b")
+		)
+		(pin "13"
+			(uuid "94ed5262-030c-498c-9b67-802f3251422d")
+		)
+		(pin "1"
+			(uuid "88e15e82-7a0c-4c4d-9cc5-64c7b3122840")
+		)
+		(pin "4"
+			(uuid "6d15d9c6-cd65-4e60-9391-98256657df43")
+		)
+		(pin "5"
+			(uuid "b8af09e7-f5b6-4e4b-91a1-f88868b7f4a2")
+		)
+		(instances
+			(project ""
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "U703")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -5464,6 +7555,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 340.36 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16348b2d-0e14-4540-8dfb-fb7732f04846")
+		(property "Reference" "R721"
+			(at 337.312 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "620 Ω"
+			(at 343.408 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 340.36 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 340.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 340.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 340.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 340.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a553b38-9544-4321-bc46-cce47fa9d4e7")
+		)
+		(pin "1"
+			(uuid "3fb425c8-bc17-4325-a7d4-fa322db15410")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R721")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 17.78 151.13 0)
 		(unit 1)
@@ -5525,6 +7721,302 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "#PWR0701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 302.26 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19c622b2-4bbd-4312-8b56-d75a62cddf2e")
+		(property "Reference" "C703"
+			(at 298.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 298.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 301.2948 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
+			(at 302.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 302.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "490-7205-1-ND"
+			(at 302.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R6YA475KE15D"
+			(at 302.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 302.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 15 V"
+			(at 298.45 120.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Power" ""
+			(at 302.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 302.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "101b7530-4d6d-4821-8614-d7e3e7f6e490")
+		)
+		(pin "1"
+			(uuid "9a336531-8632-4dc0-9c93-43413228f7d7")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "C703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 308.61 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f591bf1-2fb2-439b-bff2-6fbae59e4cf0")
+		(property "Reference" "#PWR0706"
+			(at 308.61 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 308.61 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b178cb96-9d7b-4aa9-b375-2e3edf571b60")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "#PWR0706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 281.9399 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "251877c9-b0d1-49e3-89af-97c6b1081b53")
+		(property "Reference" "R713"
+			(at 278.8919 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "33 Ω"
+			(at 284.9879 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 281.9399 135.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 281.9399 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 281.9399 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 281.9399 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 281.9399 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 281.9399 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 281.9399 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75ea7671-36a2-4f56-84a4-b6840eb3354b")
+		)
+		(pin "1"
+			(uuid "6e97c565-b8b2-4346-8447-61431a9ed9c7")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R713")
 					(unit 1)
 				)
 			)
@@ -5847,6 +8339,217 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 340.36 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d68f4fb-8b70-4f90-b9fe-96cd5176373e")
+		(property "Reference" "R714"
+			(at 337.312 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 343.408 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 340.36 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 340.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 340.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 340.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 340.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2700644f-e19d-45fc-afa0-03c5f450515e")
+		)
+		(pin "1"
+			(uuid "14ba99ea-7b34-42f9-93d5-46054e30f826")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R714")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 257.81 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "487e5d19-10d3-475d-8cd9-5cb0a404f31e")
+		(property "Reference" "R709"
+			(at 255.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5 kΩ"
+			(at 255.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 259.588 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "± 1 %"
+			(at 255.27 120.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "6a74d545-092c-49cb-81df-fe4368354a28")
+		)
+		(pin "1"
+			(uuid "d782823e-b048-4807-b68b-dfaba535ff13")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R709")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 59.69 152.4 0)
 		(unit 1)
@@ -6143,6 +8846,327 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_ABRG")
+		(at 372.11 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5be3c9a6-4c41-46ed-bd74-c205ab985f3e")
+		(property "Reference" "D704"
+			(at 373.634 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150141M173100"
+			(at 373.634 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
+			(at 373.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141M173100.pdf"
+			(at 373.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 1411 (3528 Metric)"
+			(at 372.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "732-4998-1-ND"
+			(at 372.11 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 372.11 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150141M173100"
+			(at 372.11 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d75566f4-c389-45ec-8de2-248be72bf1b3")
+		)
+		(pin "2"
+			(uuid "728c739d-2d75-4410-86d5-59fab23dfb01")
+		)
+		(pin "4"
+			(uuid "b5e0a4f5-fd53-4390-8b29-fb452efe7e1b")
+		)
+		(pin "3"
+			(uuid "23ff0de4-f265-4f39-9fde-9f95136c51f5")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "D704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 381 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d5c306d-13b2-49ae-917b-216f98a5ecf0")
+		(property "Reference" "D705"
+			(at 383.54 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 383.54 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 381 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+			(at 381 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 381 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-4978-1-ND"
+			(at 381 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 381 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 381 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 381 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 381 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a6a7e42-f124-4f38-a47c-5cde9dc7735a")
+		)
+		(pin "1"
+			(uuid "ad265f8e-a6c7-47cc-816f-09a2b716773c")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "D705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 340.36 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "664abedc-96db-44be-a907-62280d3918c6")
+		(property "Reference" "R720"
+			(at 337.312 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "620 Ω"
+			(at 343.408 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 340.36 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 340.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 340.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 340.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 340.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e336b0c-7cb4-4d55-9360-ab867cd66dcc")
+		)
+		(pin "1"
+			(uuid "f3ac069e-6ea3-414f-aa9c-2299c623db36")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R720")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 132.08 0)
 		(mirror y)
@@ -6249,6 +9273,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 281.94 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "671eff97-edc3-49a1-9897-661b7117698a")
+		(property "Reference" "R711"
+			(at 278.892 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "33 Ω"
+			(at 284.988 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 281.94 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 281.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 281.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 281.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 281.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 281.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 281.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "533e7652-851e-40f6-8b9a-e819b483c265")
+		)
+		(pin "1"
+			(uuid "f9cf8896-addc-4169-b502-5a187837773d")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R711")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 281.9399 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c8b626d-aa6e-4ec8-b05b-15ea06d79b80")
+		(property "Reference" "R712"
+			(at 278.8919 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "33 Ω"
+			(at 284.9879 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 281.9399 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 281.9399 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 281.9399 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 281.9399 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 281.9399 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 281.9399 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 281.9399 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ef86452-a8a6-4653-a760-8e03307bd02e")
+		)
+		(pin "1"
+			(uuid "5065e14a-759c-4476-8e08-b60471b587e6")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 21.59 151.13 0)
 		(unit 1)
@@ -6310,6 +9544,213 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "#PWR0702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_ABRG")
+		(at 355.6 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a23b97c-f873-4e50-b0c0-b272a0f1478c")
+		(property "Reference" "D703"
+			(at 353.568 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150141M173100"
+			(at 353.568 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
+			(at 356.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150141M173100.pdf"
+			(at 356.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red, Green, Blue (RGB) 625nm Red, 520nm Green, 470nm Blue LED Indication - Discrete 2V Red, 3.2V Green, 3.2V Blue 1411 (3528 Metric)"
+			(at 355.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "732-4998-1-ND"
+			(at 355.6 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 355.6 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150141M173100"
+			(at 355.6 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afde2fcb-58dd-4d25-8065-4d65747d649f")
+		)
+		(pin "2"
+			(uuid "522d14e9-412a-4bf9-a6bc-e6f9add87a28")
+		)
+		(pin "4"
+			(uuid "067f3975-4cd2-4b57-b4d8-2eba1943928e")
+		)
+		(pin "3"
+			(uuid "e63c400b-ef51-403e-add0-32fc0606a32c")
+		)
+		(instances
+			(project ""
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "D703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 340.3435 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93fce839-136f-46b5-b7ae-0a5c99c26482")
+		(property "Reference" "R718"
+			(at 337.2955 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "620 Ω"
+			(at 343.3915 134.112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 340.3435 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 340.3435 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.3435 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 340.3435 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 340.3435 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.3435 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 340.3435 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c29f5bc7-2937-4e03-88f9-3094fc18f76b")
+		)
+		(pin "1"
+			(uuid "c00ed866-2092-4c8b-8d31-100fa122ada8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R718")
 					(unit 1)
 				)
 			)
@@ -6443,6 +9884,112 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "#FLG0701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a07e6ae4-5e97-4e2c-b60a-7f89093a5ba4")
+		(property "Reference" "R710"
+			(at 242.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5 kΩ"
+			(at 242.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 246.888 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 245.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 245.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 245.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "± 1 %"
+			(at 242.57 120.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "546b8281-26c7-46b3-b99e-889a16cba42a")
+		)
+		(pin "1"
+			(uuid "f408eda1-484a-4a74-9f07-29e7d4cefae3")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R710")
 					(unit 1)
 				)
 			)
@@ -6786,6 +10333,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 302.26 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aefe8745-4702-488c-b3e6-68dd20950a88")
+		(property "Reference" "#PWR0705"
+			(at 302.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 302.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 302.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 302.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "966611f9-d597-44ef-ac6d-7c781ae6ba19")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "#PWR0705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 162.56 105.41 90)
 		(unit 1)
@@ -6894,6 +10508,111 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "D701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 340.36 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb89c260-e6ec-490c-a18e-ca21762cee87")
+		(property "Reference" "R715"
+			(at 337.312 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 343.408 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 340.36 137.922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 340.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 340.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 340.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 340.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0aafabaa-4237-4ba5-a2dd-a7f41e57ae08")
+		)
+		(pin "1"
+			(uuid "1afa62d4-6eb1-4128-b2e7-0613cc672a20")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R715")
 					(unit 1)
 				)
 			)
@@ -7037,6 +10756,282 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 340.36 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcb74b29-30e5-4183-a4f5-524aa148f65f")
+		(property "Reference" "R716"
+			(at 337.312 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 343.408 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 340.36 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4d96af1-55ce-4348-8cb6-e94b2629ed5f")
+		)
+		(pin "1"
+			(uuid "1f00e96a-3164-44cc-8d5d-7a3749ccd779")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R716")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 340.36 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c21ea8c7-3900-4a7b-a5e1-1fdd39582bc1")
+		(property "Reference" "R719"
+			(at 337.312 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "620 Ω"
+			(at 343.408 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 340.36 135.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 340.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 340.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 340.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 340.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa277ef6-293a-4b04-93a9-f0af43854045")
+		)
+		(pin "1"
+			(uuid "fb776f42-dbc2-421d-81a3-5ef0f31c928c")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R719")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 355.6 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce660a9f-e965-4283-9a08-77cb29e95bf2")
+		(property "Reference" "#PWR0707"
+			(at 355.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_5V0"
+			(at 355.6 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 355.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ffb5d50-0a8e-4fe2-a5e5-bb4cb290e9e3")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "#PWR0707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 59.69 237.49 0)
 		(mirror y)
 		(unit 1)
@@ -7136,6 +11131,111 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "R703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 340.36 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc188e87-ae45-4a2f-b14f-faa679a3930c")
+		(property "Reference" "R717"
+			(at 337.312 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "1 kΩ"
+			(at 343.408 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 340.36 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 340.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 340.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 340.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 340.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 340.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 340.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "327029c0-017d-41bb-95ea-d4dfbd47725c")
+		)
+		(pin "1"
+			(uuid "3f5369e3-889a-46f3-9b54-a0b823f4f312")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R717")
 					(unit 1)
 				)
 			)
@@ -7250,6 +11350,112 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "R706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 270.51 118.11 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2ee1021-72c4-4706-8a7e-5465370fc693")
+		(property "Reference" "R708"
+			(at 267.97 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 267.97 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 272.288 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-560112110020CT-ND"
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110020"
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6352789-71b9-45fb-97d6-691104a6a1f4")
+		)
+		(pin "1"
+			(uuid "c1a5456b-610d-4a9a-a122-1b40f38b2736")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R708")
 					(unit 1)
 				)
 			)
@@ -7373,6 +11579,120 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "C701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 384.81 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f48cf45d-51bb-4d2c-8c92-db8c37a86e65")
+		(property "Reference" "D706"
+			(at 387.35 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150060RS75000"
+			(at 387.35 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "732-4978-1-ND"
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 384.81 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 384.81 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "148e271e-a60c-4cfa-b457-6bf27cf14132")
+		)
+		(pin "1"
+			(uuid "cf65a9d2-a69b-4738-8288-61c9af375bd2")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "D706")
 					(unit 1)
 				)
 			)
