@@ -8003,10 +8003,13 @@
 		)
 	)
 	(bus_alias "DEBUG"
-		(members "DEBUG.RX" "DEBUG.TX")
+		(members "DEBUG.RX" "DEBUG.TX" "DEBUG.SCL" "DEBUG.SDA" "DEBUG.INT_N")
 	)
 	(bus_alias "JTAG"
 		(members "JTAG.JTCK" "JTAG.JTMS" "JTAG.JTDI" "JTAG.JTDO" "JTAG.JTRST_N")
+	)
+	(bus_alias "KEYPAD"
+		(members "KEYPAD.SCL" "KEYPAD.SDA" "KEYPAD.INT_N")
 	)
 	(bus_alias "USB"
 		(members "USB.DP" "USB.DN")
@@ -8308,10 +8311,6 @@
 		(uuid "f8c712a0-0047-4bb7-9110-77a62922c4e9")
 	)
 	(no_connect
-		(at 302.26 139.7)
-		(uuid "02ac23e3-788b-4ea4-b3c6-d6bb07c14554")
-	)
-	(no_connect
 		(at 345.44 190.5)
 		(uuid "02d31b3d-22ed-4e08-9f10-abb0484e7d34")
 	)
@@ -8362,10 +8361,6 @@
 	(no_connect
 		(at 162.56 201.93)
 		(uuid "283c9835-6b0c-4564-8931-71dfd2fcff90")
-	)
-	(no_connect
-		(at 302.26 144.78)
-		(uuid "28bed7fc-b337-4aff-ab96-88fcdf9bbab8")
 	)
 	(no_connect
 		(at 205.74 214.63)
@@ -8692,10 +8687,6 @@
 		(uuid "f35484f9-7b0c-4878-9ce1-93cee3c02138")
 	)
 	(no_connect
-		(at 302.26 142.24)
-		(uuid "f51a0ee4-4e67-4900-b5db-078e12133cfe")
-	)
-	(no_connect
 		(at 345.44 218.44)
 		(uuid "f70394cb-f403-4b6e-aa8e-27c702b3a146")
 	)
@@ -8852,6 +8843,15 @@
 		(uuid "30cf1352-7c2d-48b1-9bbb-eaa8bacfcadb")
 	)
 	(bus_entry
+		(at 285.75 137.16)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b29ef7-afe3-4218-b1a0-cbc132b5e80a")
+	)
+	(bus_entry
 		(at 100.33 175.26)
 		(size 2.54 -2.54)
 		(stroke
@@ -8868,6 +8868,15 @@
 			(type default)
 		)
 		(uuid "37818937-c7ed-4279-8281-dfbc3446b624")
+	)
+	(bus_entry
+		(at 285.75 139.7)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d0f783-fe7b-44f7-a899-610b60b829d1")
 	)
 	(bus_entry
 		(at 143.51 209.55)
@@ -8958,6 +8967,15 @@
 			(type default)
 		)
 		(uuid "4cefb8d1-5d7f-4661-81b8-5fa0d5c8c8b6")
+	)
+	(bus_entry
+		(at 285.75 142.24)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514f4fa5-cfdc-4ad3-b80d-747128dc1a47")
 	)
 	(bus_entry
 		(at 245.11 219.71)
@@ -9804,6 +9822,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 142.24) (xy 288.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e4800c-39bf-4071-909a-ef6d96873605")
+	)
+	(wire
+		(pts
 			(xy 204.47 158.75) (xy 224.79 158.75)
 		)
 		(stroke
@@ -10171,16 +10199,6 @@
 			(type default)
 		)
 		(uuid "28bc6997-19a4-4615-96fa-7f1227fbf7e0")
-	)
-	(wire
-		(pts
-			(xy 303.53 142.24) (xy 302.26 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2af54fc0-4eaf-49a8-8a72-5b8733246330")
 	)
 	(bus
 		(pts
@@ -10624,16 +10642,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 139.7) (xy 302.26 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8bb394-69c8-4833-8c3e-613e58960d90")
-	)
-	(wire
-		(pts
 			(xy 232.41 76.2) (xy 232.41 81.28)
 		)
 		(stroke
@@ -10721,6 +10729,16 @@
 			(type default)
 		)
 		(uuid "4e5db850-1146-4e66-8ad7-51f388c1b8c3")
+	)
+	(wire
+		(pts
+			(xy 303.53 139.7) (xy 288.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e89be14-0460-4c6a-bcb1-d8e4a98a77df")
 	)
 	(wire
 		(pts
@@ -11134,16 +11152,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 144.78) (xy 302.26 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66b1c586-fd2f-487a-bee4-fcfe7916e611")
-	)
-	(wire
-		(pts
 			(xy 302.26 175.26) (xy 303.53 175.26)
 		)
 		(stroke
@@ -11151,6 +11159,16 @@
 			(type default)
 		)
 		(uuid "687073f1-2584-487f-a271-5b71e5ec0f9d")
+	)
+	(wire
+		(pts
+			(xy 303.53 144.78) (xy 288.29 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6973d4f6-2161-4900-9a6f-7d1d08e95204")
 	)
 	(wire
 		(pts
@@ -11481,6 +11499,16 @@
 			(type default)
 		)
 		(uuid "8425df0f-a2bd-4a3a-9de1-1ba389809b19")
+	)
+	(bus
+		(pts
+			(xy 285.75 139.7) (xy 285.75 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84628b98-6c9b-4715-967b-d251fd23ec8f")
 	)
 	(wire
 		(pts
@@ -13134,6 +13162,16 @@
 	)
 	(bus
 		(pts
+			(xy 284.48 137.16) (xy 285.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ecf98a-ceb0-4dd8-85aa-24a801c8c334")
+	)
+	(bus
+		(pts
 			(xy 251.46 146.05) (xy 252.73 146.05)
 		)
 		(stroke
@@ -13151,6 +13189,16 @@
 			(type default)
 		)
 		(uuid "f6f98420-c978-4d3d-bee7-9636e6f71a3b")
+	)
+	(bus
+		(pts
+			(xy 285.75 137.16) (xy 285.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f761bb63-2fc8-43f4-8b2b-ad6f2d184bda")
 	)
 	(wire
 		(pts
@@ -13916,6 +13964,16 @@
 			(justify right bottom)
 		)
 		(uuid "091f2f8f-8ba7-4990-abaf-bbb7574d98ee")
+	)
+	(label "KEYPAD.SCL"
+		(at 288.29 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "116771a5-2e12-4efa-ac31-aa72d483d767")
 	)
 	(label "SDMMC.D1"
 		(at 222.25 168.91 180)
@@ -14727,6 +14785,16 @@
 		)
 		(uuid "b768c75b-0bc0-49b5-ae3a-2f4729ef36be")
 	)
+	(label "KEYPAD.INT_N"
+		(at 288.29 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bff8a5e4-76a1-4051-9855-5994c2bc8228")
+	)
 	(label "DDR.CLK_P"
 		(at 34.29 144.78 0)
 		(effects
@@ -14806,6 +14874,16 @@
 			(justify left bottom)
 		)
 		(uuid "d62bef02-8814-462f-b103-74309faba7dc")
+	)
+	(label "KEYPAD.SDA"
+		(at 288.29 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d630b97e-e2f2-495e-95d9-d511a5a94b0c")
 	)
 	(label "DDR.A13"
 		(at 34.29 185.42 0)
@@ -14988,6 +15066,17 @@
 			(justify right)
 		)
 		(uuid "0ad8b70b-6518-467e-9a74-d8dc0b9aa1ac")
+	)
+	(hierarchical_label "{KEYPAD}"
+		(shape bidirectional)
+		(at 284.48 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bb4b70b-e156-43c7-82ec-c694aad4036a")
 	)
 	(hierarchical_label "{PMIC}"
 		(shape bidirectional)
