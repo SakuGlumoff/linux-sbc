@@ -1094,6 +1094,18 @@
 		)
 		(uuid "ac2f7349-2963-4418-9e8c-00286f8e52a0")
 	)
+	(text "11. Wireless"
+		(exclude_from_sim no)
+		(at 16.51 110.49 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+			(href "#12")
+		)
+		(uuid "ac6cb9d4-aa6d-4dbb-bdba-df8f4986dd0e")
+	)
 	(text "Place fiducials at the top-left, bottom-left,\nand bottom-right corners of the PCB."
 		(exclude_from_sim no)
 		(at 81.28 264.16 0)
@@ -1347,7 +1359,7 @@
 		(uuid "73621933-6602-4242-af82-f165a14f9521")
 	)
 	(junction
-		(at 285.75 196.85)
+		(at 285.75 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac9ed19b-be18-4279-800d-a4c6c6781159")
@@ -1371,21 +1383,27 @@
 		(uuid "f18a89fc-d7ae-48fe-90c9-266e6844bfd2")
 	)
 	(junction
+		(at 285.75 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f822996d-0f14-4021-a413-35b92f96f681")
+	)
+	(junction
 		(at 167.64 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe259aa4-9553-481c-821d-bd6f56fdad45")
 	)
 	(no_connect
-		(at 254 238.76)
+		(at 215.9 233.68)
 		(uuid "35664417-2461-456e-a400-50eb7fd6cfdf")
 	)
 	(no_connect
-		(at 254 233.68)
+		(at 215.9 228.6)
 		(uuid "3f24a8c8-cce2-4a2d-adf1-68dc57bc33f8")
 	)
 	(no_connect
-		(at 254 236.22)
+		(at 215.9 231.14)
 		(uuid "66fdad3d-b02d-460e-96ae-ee407a08aec7")
 	)
 	(wire
@@ -1420,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 196.85) (xy 292.1 196.85)
+			(xy 285.75 215.9) (xy 292.1 215.9)
 		)
 		(stroke
 			(width 0)
@@ -1480,6 +1498,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 181.61) (xy 285.75 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27dec425-fc8d-4747-bc87-a91db626998a")
+	)
+	(wire
+		(pts
 			(xy 50.8 279.4) (xy 57.15 279.4)
 		)
 		(stroke
@@ -1508,9 +1536,19 @@
 		)
 		(uuid "3bd56d70-af16-40f4-94f1-d21c98fd93d0")
 	)
-	(bus
+	(wire
 		(pts
 			(xy 254 199.39) (xy 292.1 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c2e4c8-aa00-4ad4-96e4-0c784db47f5e")
+	)
+	(bus
+		(pts
+			(xy 254 218.44) (xy 292.1 218.44)
 		)
 		(stroke
 			(width 0)
@@ -1547,6 +1585,16 @@
 			(type default)
 		)
 		(uuid "5c65dec7-b9fc-488e-a3f9-4139be9a8c65")
+	)
+	(bus
+		(pts
+			(xy 254 204.47) (xy 292.1 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbba434-b2e3-44ce-8fc9-d02488026c77")
 	)
 	(bus
 		(pts
@@ -1590,7 +1638,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 213.36) (xy 292.1 213.36)
+			(xy 254 232.41) (xy 292.1 232.41)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 210.82) (xy 292.1 210.82)
+			(xy 285.75 229.87) (xy 292.1 229.87)
 		)
 		(stroke
 			(width 0)
@@ -1648,6 +1696,16 @@
 		)
 		(uuid "89fd7c83-0d42-43a0-9dd4-8edf6648892f")
 	)
+	(bus
+		(pts
+			(xy 254 201.93) (xy 292.1 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913087ed-5069-4355-8c83-3e16242b43bb")
+	)
 	(wire
 		(pts
 			(xy 50.8 278.13) (xy 50.8 279.4)
@@ -1690,7 +1748,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 196.85) (xy 285.75 196.85)
+			(xy 254 215.9) (xy 285.75 215.9)
 		)
 		(stroke
 			(width 0)
@@ -1750,7 +1808,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 196.85) (xy 285.75 210.82)
+			(xy 285.75 215.9) (xy 285.75 229.87)
 		)
 		(stroke
 			(width 0)
@@ -1857,6 +1915,16 @@
 			(type default)
 		)
 		(uuid "f8988033-4e97-4368-8af4-4f8071fa8e43")
+	)
+	(wire
+		(pts
+			(xy 285.75 196.85) (xy 292.1 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd7d4ab-a104-4bda-a610-12791966eebd")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
@@ -3119,6 +3187,89 @@
 		)
 	)
 	(sheet
+		(at 292.1 194.31)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 255 255 0 1)
+		)
+		(fill
+			(color 0 255 0 1.0000)
+		)
+		(uuid "24c9b83b-271d-4c51-b843-406c618d8ce8")
+		(property "Sheetname" "Wireless"
+			(at 292.1 193.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wireless.kicad_sch"
+			(at 292.1 207.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LPO_32" input
+			(at 292.1 199.39 180)
+			(uuid "0062f18e-7b1c-41bb-887f-612e1e2c4829")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 292.1 196.85 180)
+			(uuid "6913e91b-2ef9-449a-9438-97a48654eb9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{BT}" bidirectional
+			(at 292.1 201.93 180)
+			(uuid "36d64fd7-0faa-4d5a-b4d2-60b335fa65c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{WLAN}" bidirectional
+			(at 292.1 204.47 180)
+			(uuid "3b47944b-ed18-481f-81b2-1b7d6081f999")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 215.9 127)
 		(size 38.1 114.3)
 		(exclude_from_sim no)
@@ -3174,7 +3325,7 @@
 			)
 		)
 		(pin "{USB}" bidirectional
-			(at 254 199.39 0)
+			(at 254 218.44 0)
 			(uuid "19340039-3572-410c-8efa-65fa87699ea5")
 			(effects
 				(font
@@ -3184,17 +3335,17 @@
 			)
 		)
 		(pin "VDD_1V8" output
-			(at 254 233.68 0)
+			(at 215.9 228.6 180)
 			(uuid "6fd4653b-3ca8-4862-b7ec-a89873797812")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VDD_3V3" output
-			(at 254 196.85 0)
+			(at 254 215.9 0)
 			(uuid "2e9ef2de-ae41-4111-9ce1-f9a73c91f87a")
 			(effects
 				(font
@@ -3204,23 +3355,23 @@
 			)
 		)
 		(pin "VDD_LDO2" output
-			(at 254 236.22 0)
+			(at 215.9 231.14 180)
 			(uuid "6b4d729c-ab66-4205-a83c-fa55d4088a7c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VDD_LDO3" output
-			(at 254 238.76 0)
+			(at 215.9 233.68 180)
 			(uuid "1b06392a-ec50-428e-8041-ed16f935b2d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "VDD_SD" output
@@ -3284,7 +3435,7 @@
 			)
 		)
 		(pin "{ETH}" bidirectional
-			(at 254 213.36 0)
+			(at 254 232.41 0)
 			(uuid "1658a523-91b0-4e56-9ad4-25608d26270f")
 			(effects
 				(font
@@ -3306,6 +3457,36 @@
 		(pin "{KEYPAD}" bidirectional
 			(at 254 170.18 0)
 			(uuid "55fca47e-1e92-4a3f-933f-fe0b8c267ac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LPO_32" output
+			(at 254 199.39 0)
+			(uuid "b804473f-b526-441a-8f3a-f106c0679e56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{BT}" bidirectional
+			(at 254 201.93 0)
+			(uuid "72d29a81-da9a-41b6-a5dc-d4c9b8c1ab24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{WLAN}" bidirectional
+			(at 254 204.47 0)
+			(uuid "cf3ef153-9ac9-4fff-aa2d-0dce04b6066b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,7 +3795,7 @@
 		)
 	)
 	(sheet
-		(at 292.1 208.28)
+		(at 292.1 227.33)
 		(size 38.1 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3631,7 +3812,7 @@
 		)
 		(uuid "9ca4e50e-b0f6-43cd-b87d-1fd05ae8a1fe")
 		(property "Sheetname" "Ethernet"
-			(at 292.1 207.3946 0)
+			(at 292.1 226.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3821,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 292.1 216.6584 0)
+			(at 292.1 235.7084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3830,7 @@
 			)
 		)
 		(pin "VDD_3V3" input
-			(at 292.1 210.82 180)
+			(at 292.1 229.87 180)
 			(uuid "237b5fa8-a25b-4236-b3f9-6edfd71371b2")
 			(effects
 				(font
@@ -3659,7 +3840,7 @@
 			)
 		)
 		(pin "{ETH}" bidirectional
-			(at 292.1 213.36 180)
+			(at 292.1 232.41 180)
 			(uuid "3867d00f-0093-4a0d-8347-1c1c03f9f653")
 			(effects
 				(font
@@ -3750,7 +3931,7 @@
 		)
 	)
 	(sheet
-		(at 292.1 194.31)
+		(at 292.1 213.36)
 		(size 38.1 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3767,7 +3948,7 @@
 		)
 		(uuid "efbf33e8-83fd-439d-aaf8-dc8287b68178")
 		(property "Sheetname" "USB"
-			(at 292.1 193.4246 0)
+			(at 292.1 212.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3957,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 292.1 202.6884 0)
+			(at 292.1 221.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3966,7 @@
 			)
 		)
 		(pin "{USB}" bidirectional
-			(at 292.1 199.39 180)
+			(at 292.1 218.44 180)
 			(uuid "8ed76118-22da-43a8-83c6-374addbfc55e")
 			(effects
 				(font
@@ -3795,7 +3976,7 @@
 			)
 		)
 		(pin "VDD_3V3" output
-			(at 292.1 196.85 180)
+			(at 292.1 215.9 180)
 			(uuid "0649619a-87e4-425f-85e0-9031eac9f062")
 			(effects
 				(font
