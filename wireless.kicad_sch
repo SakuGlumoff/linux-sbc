@@ -1894,6 +1894,28 @@
 	(bus_alias "WLAN"
 		(members "WLAN.D[0..3]" "WLAN.CMD" "WLAN.CLK" "WLAN.REG_ON" "WLAN.HOST_WKUP")
 	)
+	(text_box "Notes"
+		(exclude_from_sim no)
+		(at 12.7 251.46 0)
+		(size 285.75 33.02)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "6eb5019b-0875-44af-9b5e-732600911d4f")
+	)
 	(text_box "11. Wireless"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
@@ -1915,6 +1937,28 @@
 			)
 		)
 		(uuid "8e49d91a-4058-46bb-b610-97e9ba30116f")
+	)
+	(text_box "WLAN and Bluetooth 5"
+		(exclude_from_sim no)
+		(at 12.7 50.8 0)
+		(size 393.7 200.66)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "d0b9e4fe-3809-48ae-ba91-76720a12500a")
 	)
 	(junction
 		(at 184.15 226.06)
@@ -3954,6 +3998,52 @@
 			(justify right)
 		)
 		(uuid "d745913d-a73e-4494-9259-9c0585907106")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 290.83 168.91) (xy 290.83 176.53) (xy 254 176.53) (xy 254 168.91)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 3d919b91-66d2-417c-a8fb-4b5bc8dc459b)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 273.05 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d183b1fc-0797-4ec4-8899-36b4f48b9be5")
+		(property "Netclass" "ANT"
+			(at 273.7485 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -26.67 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")

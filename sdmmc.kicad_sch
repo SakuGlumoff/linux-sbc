@@ -1117,6 +1117,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "micro-SD card interface provides the option to provide the operating system image on the SD card and to boot from it.\n\nThe supported micro-SD card size is up to 1 Terabyte.\n\nThe micro-SD card interface is human-interactable and thus has ESD TVS diodes for protection.\n\nThe micro-SD card interface is a push-push type and includes insertion detection capability. The insertion detection on the MPU side is active LOW.\nWhen the SD card is not inserted, the DET_A and DET_B pins are disconnected.\nWhen the SD card is connected, the DET_A and DET_B pins are connected."
+		(exclude_from_sim no)
+		(at 13.97 63.5 0)
+		(size 391.16 31.75)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "1d9f7747-5bef-4f8e-89c6-03b46d34f41e")
+	)
 	(text_box "9. SDMMC"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
@@ -1138,6 +1158,50 @@
 			)
 		)
 		(uuid "34c900bc-1fc4-4770-9fc2-d382c3db4b99")
+	)
+	(text_box "micro-SD card interface"
+		(exclude_from_sim no)
+		(at 12.7 50.8 0)
+		(size 393.7 200.66)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "52a64d8f-3359-4d5a-a4c6-eb91a210ee47")
+	)
+	(text_box "Notes"
+		(exclude_from_sim no)
+		(at 12.7 251.46 0)
+		(size 285.75 33.02)
+		(margins 0.9525 2 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "72ea6f57-89fc-4687-aea9-7ff639de3508")
 	)
 	(junction
 		(at 196.85 137.16)
