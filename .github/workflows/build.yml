@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - trunk
+    pull_request:
+
+jobs:
+  build:
+    runs-on: [self-hosted, docker]
+    container:
+      image: kicad/kicad:9.0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          submodules: true
+      - name: Generate PDF
+        run: kicad-cli sch export pdf --output linux-sbc.pdf linux-sbc.kicad_sch
+      - name: Archive schematics
+        uses: actions/upload-artifact@v4
+        with:
+          name: schematics
+          path: linux-sbc.pdf
+          if-no-files-found: error
