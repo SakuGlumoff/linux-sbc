@@ -10,6 +10,113 @@
 		(rev "v0.0.1")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_A_Stacked"
 			(pin_names
 				(offset 1.016)
@@ -3279,6 +3386,12 @@
 		(uuid "1fc997c1-95d5-4e3b-8315-cf12a508c0f1")
 	)
 	(junction
+		(at 255.27 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b9520a-1496-4a20-8856-cd8eb46573bf")
+	)
+	(junction
 		(at 342.9 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3375,6 +3488,12 @@
 		(uuid "6421ab20-0628-4185-b6ec-375dc49beca6")
 	)
 	(junction
+		(at 50.8 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65f5c1b2-838b-426e-b1a2-00543afcc1d7")
+	)
+	(junction
 		(at 59.69 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3415,6 +3534,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "809b93df-5abb-4eca-9903-30f481b0974a")
+	)
+	(junction
+		(at 255.27 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e320c2-9090-4cf0-8d61-8fd57256fd28")
 	)
 	(junction
 		(at 115.57 88.9)
@@ -3662,14 +3787,6 @@
 		(color 0 0 0 0)
 		(uuid "ffc3b8a0-10f5-4ab6-b96a-74d152937312")
 	)
-	(no_connect
-		(at 254 168.91)
-		(uuid "05a22aed-d3cf-441b-aa02-d6fcd15204fc")
-	)
-	(no_connect
-		(at 254 120.65)
-		(uuid "1c294e31-98a8-44fd-9119-089cb49e7859")
-	)
 	(bus_entry
 		(at 57.15 127)
 		(size 2.54 2.54)
@@ -3717,16 +3834,6 @@
 			(type default)
 		)
 		(uuid "0187524a-2755-4c98-8de0-6c246e271cef")
-	)
-	(wire
-		(pts
-			(xy 59.69 172.72) (xy 73.66 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a8d112-fcbc-4e36-b109-7e91014b9e7d")
 	)
 	(wire
 		(pts
@@ -3810,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 156.21) (xy 256.54 156.21)
+			(xy 242.57 156.21) (xy 256.54 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4090,7 +4197,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 161.29) (xy 241.3 161.29)
+			(xy 256.54 161.29) (xy 255.27 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4210,13 +4317,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 167.64) (xy 73.66 167.64)
+			(xy 52.07 170.18) (xy 73.66 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28f90d12-ae8a-4c5c-9744-d0d2ce0525e3")
+		(uuid "28c1038d-162c-48eb-a638-2d089cbae820")
 	)
 	(wire
 		(pts
@@ -4510,13 +4617,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 152.4) (xy 139.7 152.4)
+			(xy 129.54 152.4) (xy 140.97 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "41afe8c0-dec2-48e1-b088-e27023488c7e")
+	)
+	(wire
+		(pts
+			(xy 255.27 161.29) (xy 241.3 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435df88c-d0b5-4bf2-ac5e-c426d2f2ca0c")
 	)
 	(wire
 		(pts
@@ -4630,6 +4747,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 113.03) (xy 241.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f001e58-baf3-41a3-ad6b-b059b1a76721")
+	)
+	(wire
+		(pts
 			(xy 73.66 97.79) (xy 73.66 99.06)
 		)
 		(stroke
@@ -4690,7 +4817,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 127) (xy 139.7 127)
+			(xy 129.54 127) (xy 140.97 127)
 		)
 		(stroke
 			(width 0)
@@ -4890,16 +5017,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 120.65) (xy 256.54 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8d1d05-39fd-4f3d-9144-f2ad4fd5f2b7")
-	)
-	(wire
-		(pts
 			(xy 279.4 187.96) (xy 279.4 171.45)
 		)
 		(stroke
@@ -4907,6 +5024,16 @@
 			(type default)
 		)
 		(uuid "6ab49aa3-50d9-4349-bd94-3bcacb5e3971")
+	)
+	(wire
+		(pts
+			(xy 255.27 161.29) (xy 255.27 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b32dd93-092e-4fb2-bb31-f28e56271dd2")
 	)
 	(wire
 		(pts
@@ -4950,7 +5077,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 139.7) (xy 139.7 139.7)
+			(xy 129.54 139.7) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4967,6 +5094,16 @@
 			(type default)
 		)
 		(uuid "710507b6-7474-4a90-981b-20131622475a")
+	)
+	(wire
+		(pts
+			(xy 255.27 113.03) (xy 255.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c56c6c-4c99-433e-9279-cf3c542c3692")
 	)
 	(wire
 		(pts
@@ -5097,6 +5234,16 @@
 			(type default)
 		)
 		(uuid "7b559932-3514-41f4-8c9a-e5c286054f27")
+	)
+	(wire
+		(pts
+			(xy 256.54 120.65) (xy 255.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bacc3ea-66a1-40d2-9324-b01cfbb3406b")
 	)
 	(wire
 		(pts
@@ -5240,16 +5387,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 165.1) (xy 73.66 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3435e5-c47a-43d3-970f-99e2daddab95")
-	)
-	(wire
-		(pts
 			(xy 93.98 105.41) (xy 93.98 106.68)
 		)
 		(stroke
@@ -5297,6 +5434,16 @@
 			(type default)
 		)
 		(uuid "94d1a86b-c722-41b6-b30d-a3aef4f8d381")
+	)
+	(wire
+		(pts
+			(xy 52.07 172.72) (xy 73.66 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ad915e-2d9d-4520-a792-1b3380488c21")
 	)
 	(wire
 		(pts
@@ -5540,7 +5687,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 113.03) (xy 241.3 113.03)
+			(xy 256.54 168.91) (xy 255.27 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4a33c9-5944-4173-bb75-5ceffe62dc35")
+	)
+	(wire
+		(pts
+			(xy 256.54 113.03) (xy 255.27 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5560,16 +5717,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 168.91) (xy 256.54 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af71f9d7-b19c-4ab7-8f07-78c94fe31bab")
-	)
-	(wire
-		(pts
 			(xy 87.63 97.79) (xy 87.63 99.06)
 		)
 		(stroke
@@ -5580,7 +5727,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 115.57) (xy 256.54 115.57)
+			(xy 242.57 115.57) (xy 256.54 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5620,7 +5767,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 107.95) (xy 256.54 107.95)
+			(xy 52.07 165.1) (xy 73.66 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b17777-131f-4c56-9f89-e3005f4f3114")
+	)
+	(wire
+		(pts
+			(xy 242.57 107.95) (xy 256.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5650,7 +5807,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 165.1) (xy 139.7 165.1)
+			(xy 129.54 165.1) (xy 140.97 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5780,7 +5937,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 163.83) (xy 256.54 163.83)
+			(xy 242.57 163.83) (xy 256.54 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6030,6 +6187,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 134.62) (xy 50.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e433642b-9a4d-4eab-ba5b-f2c45b1abb0b")
+	)
+	(wire
+		(pts
 			(xy 54.61 196.85) (xy 44.45 196.85)
 		)
 		(stroke
@@ -6270,6 +6437,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 167.64) (xy 73.66 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bae276-dff1-4567-8185-c769312bd72a")
+	)
+	(wire
+		(pts
 			(xy 73.66 90.17) (xy 73.66 88.9)
 		)
 		(stroke
@@ -6337,16 +6514,6 @@
 			(type default)
 		)
 		(uuid "fe0b9d5a-7de9-48a0-ad26-7eb567635bf5")
-	)
-	(wire
-		(pts
-			(xy 59.69 170.18) (xy 73.66 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe546695-063c-427d-bee3-8f9d9cbb2076")
 	)
 	(image
 		(at 59.69 231.14)
@@ -7618,7 +7785,7 @@
 		(uuid "752e37f2-eb2e-4602-844c-d66bd93e7433")
 	)
 	(label "EN_{A1}"
-		(at 247.65 107.95 0)
+		(at 242.57 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7628,7 +7795,7 @@
 		(uuid "7798f2ee-657c-4262-bbf1-724ad0ef4eba")
 	)
 	(label "EN_{A2}"
-		(at 247.65 115.57 0)
+		(at 242.57 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7848,7 +8015,7 @@
 		(uuid "b8708dba-1749-4415-8094-2cea351dffa6")
 	)
 	(label "EN_{B2}"
-		(at 247.65 163.83 0)
+		(at 242.57 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7898,7 +8065,7 @@
 		(uuid "e1e705d0-41dd-4dbb-89d2-8bd7c75a9896")
 	)
 	(label "EN_{B1}"
-		(at 247.65 156.21 0)
+		(at 242.57 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8046,7 +8213,7 @@
 			(justify left bottom)
 		)
 		(uuid "116e72d1-499b-49ae-a783-8fbadf54d3c2")
-		(property "Netclass" "USB"
+		(property "Netclass" "USB_PAIR"
 			(at 349.9485 163.83 0)
 			(effects
 				(font
@@ -8077,7 +8244,7 @@
 			(justify left bottom)
 		)
 		(uuid "2873dff4-e16d-463a-850b-5e819fdf3830")
-		(property "Netclass" "USB"
+		(property "Netclass" "USB_PAIR"
 			(at 178.4985 116.84 0)
 			(effects
 				(font
@@ -8108,7 +8275,7 @@
 			(justify left bottom)
 		)
 		(uuid "c12defa9-d696-43b0-819d-fba8e3078cd3")
-		(property "Netclass" "USB"
+		(property "Netclass" "USB_PAIR"
 			(at 46.4185 121.92 0)
 			(effects
 				(font
@@ -8139,7 +8306,7 @@
 			(justify left bottom)
 		)
 		(uuid "c7e56822-0e23-4f49-bd2e-ce25e2161be1")
-		(property "Netclass" "USB"
+		(property "Netclass" "USB_PAIR"
 			(at 349.9485 115.57 0)
 			(effects
 				(font
@@ -9751,6 +9918,344 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 139.7 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41175024-86ea-447d-a3ca-717d3d8744be")
+		(property "Reference" "TP907"
+			(at 146.05 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.272 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 140.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 140.97 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 140.97 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5800b06-14ef-4997-9b61-26b7cab4cb4c")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP907")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 165.1 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "418f10b8-820d-4bf1-87e3-6719829790d4")
+		(property "Reference" "TP909"
+			(at 146.05 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.272 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 140.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 140.97 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 140.97 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d8cbf07-cc7e-4cb9-af60-640ff9372d93")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP909")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43fe67c1-a8a8-49b9-88a2-25bd23a55b18")
+		(property "Reference" "TP901"
+			(at 44.45 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.228 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 49.53 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 49.53 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "072a97ac-0918-4dad-b69e-81cc59e60369")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "470f3b81-7d03-4ed2-a495-c87b923c84bc")
+		(property "Reference" "TP903"
+			(at 46.99 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.768 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 52.07 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 52.07 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bc84695-8292-4a5b-89d3-220587954c4a")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_A_Stacked")
 		(at 393.7 171.45 0)
 		(mirror y)
@@ -10835,6 +11340,90 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "R908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b70c1f4-253f-4ecb-aa29-f48b116830b6")
+		(property "Reference" "TP902"
+			(at 46.99 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.768 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 52.07 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 52.07 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7359288-84c6-4732-8382-baafa39a1a3c")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP902")
 					(unit 1)
 				)
 			)
@@ -12080,6 +12669,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 152.4 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "adaf8389-3443-46ca-944d-08d222638480")
+		(property "Reference" "TP908"
+			(at 146.05 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.272 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 140.97 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 140.97 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4337162-e701-43bd-8492-5f42c7f8354a")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 154.94 181.61 0)
 		(unit 1)
@@ -12863,6 +13537,91 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "C912")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 140.97 127 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cae8fff8-23db-4468-b4fb-579b59cc7405")
+		(property "Reference" "TP906"
+			(at 146.05 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 144.272 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 140.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 140.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 140.97 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 140.97 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4a546e4-e9e6-492d-97ab-7d8df05cb0f6")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP906")
 					(unit 1)
 				)
 			)
@@ -13708,6 +14467,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1796c07-5f6f-448e-8591-eadbae807ed6")
+		(property "Reference" "TP905"
+			(at 46.99 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.768 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 52.07 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 52.07 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "578b612d-c186-411f-abbb-d6a6051d9793")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 372.11 134.62 0)
 		(unit 1)
@@ -14082,6 +14925,90 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "R904")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3a6e3bc-1d2c-40c6-a54d-8d3ea911b1f4")
+		(property "Reference" "TP904"
+			(at 46.99 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.768 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 52.07 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 52.07 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdf2943b-5901-43c2-be9b-46eb5746ac3e")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "TP904")
 					(unit 1)
 				)
 			)

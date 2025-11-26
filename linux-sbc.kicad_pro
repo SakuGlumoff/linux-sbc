@@ -278,8 +278,8 @@
         "line_style": 0,
         "name": "ANT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 194, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(132, 0, 132)",
         "wire_width": 6
       },
       {
@@ -287,17 +287,26 @@
         "line_style": 0,
         "name": "CHASSIS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 20
       },
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "ETH",
+        "name": "DDR_PAIR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "ETH_PAIR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgb(194, 0, 194)",
+        "schematic_color": "rgb(0, 0, 194)",
         "wire_width": 6
       },
       {
@@ -305,7 +314,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 20
       },
@@ -314,17 +323,17 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       },
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "USB",
+        "name": "USB_PAIR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgb(0, 0, 194)",
+        "schematic_color": "rgb(0, 0, 255)",
         "wire_width": 6
       }
     ],
@@ -333,86 +342,104 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/DDR/DDR.CLK_N": [
+        "DDR_PAIR"
+      ],
+      "/DDR/DDR.CLK_P": [
+        "DDR_PAIR"
+      ],
+      "/DDR/DDR.DQS0_N": [
+        "DDR_PAIR"
+      ],
+      "/DDR/DDR.DQS0_P": [
+        "DDR_PAIR"
+      ],
+      "/DDR/DDR.DQS1_N": [
+        "DDR_PAIR"
+      ],
+      "/DDR/DDR.DQS1_P": [
+        "DDR_PAIR"
+      ],
       "/Debug/D_IN_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/Debug/D_IN_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/Debug/D_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/Debug/D_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/Ethernet/RX_N": [
-        "ETH"
+        "ETH_PAIR"
       ],
       "/Ethernet/RX_P": [
-        "ETH"
+        "ETH_PAIR"
       ],
       "/Ethernet/TX_N": [
-        "ETH"
+        "ETH_PAIR"
       ],
       "/Ethernet/TX_P": [
-        "ETH"
+        "ETH_PAIR"
       ],
       "/MPU/USB.DN": [
-        "USB"
+        "USB_PAIR"
       ],
       "/MPU/USB.DP": [
-        "USB"
+        "USB_PAIR"
       ],
       "/MPU/{USB}": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{A1}_IN_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{A1}_IN_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{A1}_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{A1}_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{A2}_IN_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{A2}_IN_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{A2}_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{A2}_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{B1}_IN_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{B1}_IN_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{B1}_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{B1}_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{B2}_IN_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{B2}_IN_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{B2}_N": [
-        "USB"
+        "USB_PAIR"
       ],
       "/USB/D_{B2}_P": [
-        "USB"
+        "USB_PAIR"
       ],
       "/Wireless/ANT": [
         "ANT"
