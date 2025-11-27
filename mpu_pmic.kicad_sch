@@ -2544,7 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 170.18) (xy 288.29 170.18)
+			(xy 285.75 170.18) (xy 295.91 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2724,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 157.48) (xy 335.28 157.48)
+			(xy 332.74 157.48) (xy 342.9 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3044,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 165.1) (xy 304.8 165.1)
+			(xy 302.26 165.1) (xy 311.15 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 232.41) (xy 364.49 232.41)
+			(xy 351.79 232.41) (xy 364.49 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3664,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 224.79) (xy 339.09 224.79)
+			(xy 327.66 224.79) (xy 339.09 224.79)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3744,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 247.65) (xy 364.49 247.65)
+			(xy 351.79 247.65) (xy 364.49 247.65)
 		)
 		(stroke
 			(width 0)
@@ -4592,6 +4592,46 @@
 		)
 		(uuid "fdff6234-7f45-4814-b879-3a00588aa832")
 	)
+	(label "VDD_LDO3"
+		(at 342.9 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11cfb2b6-afb3-4303-9548-0a321695fab0")
+	)
+	(label "VDD_1V8"
+		(at 351.79 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "179ea9d8-90d5-4f2c-81a0-7de7224e1e32")
+	)
+	(label "VDD_1V8"
+		(at 311.15 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d24f498-f1fa-4ffc-90b1-f6b227bd2da4")
+	)
+	(label "VDD_LDO3"
+		(at 351.79 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f630c6e-1693-40d7-be88-6012b580be27")
+	)
 	(label "PMIC.SCL"
 		(at 160.02 195.58 180)
 		(effects
@@ -4642,6 +4682,16 @@
 		)
 		(uuid "7a3e1207-2568-433a-8aec-8eee540f73a6")
 	)
+	(label "VDD_LDO2"
+		(at 295.91 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dee1720-930d-4e34-96d5-f5c41d6f18ee")
+	)
 	(label "PMIC.SDA"
 		(at 160.02 193.04 180)
 		(effects
@@ -4661,6 +4711,16 @@
 			(justify right bottom)
 		)
 		(uuid "a49792d1-24d3-4825-a674-8c1ca76954a7")
+	)
+	(label "VDD_LDO2"
+		(at 327.66 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a832450e-648b-4349-a6c3-b04fa6d8fa98")
 	)
 	(label "PMIC.CTRL"
 		(at 160.02 198.12 180)
@@ -4702,17 +4762,6 @@
 		)
 		(uuid "f5791743-81dc-4bee-9712-b3760a470b43")
 	)
-	(hierarchical_label "VDD_LDO2"
-		(shape output)
-		(at 288.29 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "14e68746-c691-4c71-9c63-47795493d6e5")
-	)
 	(hierarchical_label "VREF_DDR"
 		(shape output)
 		(at 257.81 177.8 0)
@@ -4723,17 +4772,6 @@
 			(justify left)
 		)
 		(uuid "259134d8-3294-4918-8235-1799f4ee31f8")
-	)
-	(hierarchical_label "VDD_LDO3"
-		(shape output)
-		(at 335.28 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "28208590-8586-4dd2-ad6b-b51ee7c27064")
 	)
 	(hierarchical_label "VDD_USB"
 		(shape output)
@@ -4767,17 +4805,6 @@
 			(justify right)
 		)
 		(uuid "31b5a2ca-562f-46c2-a69a-cfaa437f23d7")
-	)
-	(hierarchical_label "VDD_LDO3"
-		(shape output)
-		(at 361.95 232.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3895c89f-a7ff-4bb2-bd15-c098d60fa3d4")
 	)
 	(hierarchical_label "VDD_DDR"
 		(shape output)
@@ -4834,17 +4861,6 @@
 		)
 		(uuid "576e7a63-b768-498e-a910-bde2b5309f5a")
 	)
-	(hierarchical_label "VDD_1V8"
-		(shape output)
-		(at 361.95 247.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ef37d8d-002c-4d16-ab5d-cd13ad2111ea")
-	)
 	(hierarchical_label "VDD_DDR"
 		(shape output)
 		(at 388.62 240.03 180)
@@ -4899,17 +4915,6 @@
 			(justify right)
 		)
 		(uuid "aa7a21f3-5151-4238-8225-6a137f1d659f")
-	)
-	(hierarchical_label "VDD_LDO2"
-		(shape output)
-		(at 336.55 224.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae76af2b-e004-41ba-af0c-eabe7690dedd")
 	)
 	(hierarchical_label "VDD_ADC"
 		(shape output)
@@ -4998,17 +5003,6 @@
 			(justify right)
 		)
 		(uuid "f5064c41-1da4-4306-a697-d87d07c57f9e")
-	)
-	(hierarchical_label "VDD_1V8"
-		(shape output)
-		(at 304.8 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc14ccd0-e500-488e-8fd2-9e7482cd6f60")
 	)
 	(symbol
 		(lib_id "Device:C")
