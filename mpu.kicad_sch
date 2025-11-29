@@ -3712,7 +3712,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at 20.32 7.62 180)
 					(length 5.08)
 					(name "PDR_ON"
@@ -3766,7 +3766,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 20.32 0 180)
 					(length 5.08)
 					(name "PWR_ON"
@@ -8016,8 +8016,8 @@
 	)
 	(text_box "Clocks"
 		(exclude_from_sim no)
-		(at 190.5 251.46 0)
-		(size 107.95 33.02)
+		(at 152.4 251.46 0)
+		(size 146.05 33.02)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8039,7 +8039,7 @@
 	(text_box "Notes"
 		(exclude_from_sim no)
 		(at 12.7 251.46 0)
-		(size 177.8 33.02)
+		(size 139.7 33.02)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -8079,6 +8079,26 @@
 			(justify top)
 		)
 		(uuid "56ef3a55-a37a-47b9-becf-adc850011624")
+	)
+	(text_box "C_{XTAL_LOAD} = 9 pF, C_{STRAY} = 5 pF\n\nC_{L} = (C_{XTAL_LOAD} - C_{STRAY}) * 2 = 8 pF"
+		(exclude_from_sim no)
+		(at 152.4 260.35 0)
+		(size 63.5 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "6670810f-475e-49fd-a509-06dd65d6c12b")
 	)
 	(text_box "4. MPU"
 		(exclude_from_sim no)
@@ -8591,7 +8611,7 @@
 		(uuid "1d6cfe1b-2eea-47cb-a0a0-c4a5419dd8f4")
 	)
 	(bus_entry
-		(at 223.52 86.36)
+		(at 223.52 88.9)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -9863,7 +9883,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 83.82) (xy 220.98 83.82)
+			(xy 208.28 86.36) (xy 220.98 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10073,7 +10093,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 78.74) (xy 224.79 78.74)
+			(xy 208.28 81.28) (xy 224.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10773,7 +10793,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 81.28) (xy 232.41 81.28)
+			(xy 208.28 83.82) (xy 232.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -11033,7 +11053,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 76.2) (xy 232.41 81.28)
+			(xy 232.41 78.74) (xy 232.41 83.82)
 		)
 		(stroke
 			(width 0)
@@ -11053,7 +11073,7 @@
 	)
 	(bus
 		(pts
-			(xy 223.52 86.36) (xy 224.79 86.36)
+			(xy 223.52 88.9) (xy 224.79 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11493,7 +11513,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 86.36) (xy 214.63 86.36)
+			(xy 209.55 76.2) (xy 210.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -12321,6 +12341,16 @@
 		)
 		(uuid "96b1de95-47bd-4fb1-adb8-8c31ac536d83")
 	)
+	(wire
+		(pts
+			(xy 209.55 78.74) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976b0eb7-b2f9-44c3-b4ee-734575ef0c5c")
+	)
 	(bus
 		(pts
 			(xy 142.24 186.69) (xy 143.51 186.69)
@@ -12473,7 +12503,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 78.74) (xy 224.79 76.2)
+			(xy 224.79 81.28) (xy 224.79 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12580,6 +12610,16 @@
 			(type default)
 		)
 		(uuid "a80eeca8-9a6f-406f-b849-c90c7aad09e0")
+	)
+	(wire
+		(pts
+			(xy 209.55 76.2) (xy 209.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa18a3b0-c08a-4fa6-a631-72f0d3b05e7b")
 	)
 	(wire
 		(pts
@@ -15317,7 +15357,7 @@
 		(uuid "73efd81f-5716-461a-bd83-4dd24cef04c3")
 	)
 	(label "PWR_LP"
-		(at 209.55 81.28 0)
+		(at 209.55 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15477,7 +15517,7 @@
 		(uuid "8771fd61-b258-4e4f-94de-ce980c4ea072")
 	)
 	(label "PWR_CPU_ON"
-		(at 209.55 78.74 0)
+		(at 209.55 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15637,7 +15677,7 @@
 		(uuid "9b85d7ad-ee58-4a9c-85ca-9a1a9c7abd1c")
 	)
 	(label "PMIC.CTRL"
-		(at 209.55 83.82 0)
+		(at 209.55 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16291,7 +16331,7 @@
 	)
 	(hierarchical_label "{PMIC}"
 		(shape bidirectional)
-		(at 224.79 86.36 0)
+		(at 224.79 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16412,7 +16452,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape output)
-		(at 214.63 86.36 0)
+		(at 210.82 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16675,6 +16715,72 @@
 		(uuid "ffea9ecb-47e8-4dc7-891e-3b98479fd597")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 224.79 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "047c4e5f-9061-484b-90bf-ea225700c652")
+		(property "Reference" "TP404"
+			(at 224.79 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 227.33 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f72eccb-8dec-4ff0-bf21-ef565b1a4ecf")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
+					(reference "TP404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 238.76 266.7 0)
 		(unit 1)
@@ -16682,22 +16788,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07abe1d3-6a22-4d5b-b1df-2ff1af443be5")
 		(property "Reference" "Y401"
-			(at 238.76 259.08 0)
+			(at 238.76 262.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "32.768 kHz"
-			(at 238.76 261.62 0)
+			(at 238.76 263.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -16818,6 +16925,72 @@
 			(project ""
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
 					(reference "SW401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c3a3a84-ab84-46b3-83e9-eb059ff7dc6f")
+		(property "Reference" "TP405"
+			(at 232.41 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 234.95 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 237.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e7a6ab7-da86-4055-98f8-2162f8cbe559")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
+					(reference "TP405")
 					(unit 1)
 				)
 			)
@@ -16965,73 +17138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 224.79 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1af6727b-7644-4a3b-aee2-066fea991590")
-		(property "Reference" "TP404"
-			(at 224.79 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 222.25 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 219.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 224.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d94a8c4-b225-4f34-a549-f864da50455c")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 284.48 271.78 0)
 		(unit 1)
@@ -17049,7 +17155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 pF"
+		(property "Value" "8 pF"
 			(at 287.02 271.78 0)
 			(effects
 				(font
@@ -17201,6 +17307,33 @@
 		)
 		(property "MPN" "STM32MP135FAE7"
 			(at 323.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number_1" "497-STM32MP135FAE7-ND"
+			(at 323.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_1" "STMicroelectronics"
+			(at 323.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_1" "STM32MP135FAE7"
+			(at 323.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18095,7 +18228,7 @@
 		(dnp yes)
 		(uuid "3dbe521a-cc29-4561-a49f-cfed531d02fb")
 		(property "Reference" "R403"
-			(at 236.22 196.8499 0)
+			(at 237.49 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18104,7 +18237,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 236.22 199.3899 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18258,7 +18391,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 pF"
+		(property "Value" "8 pF"
 			(at 229.87 271.78 0)
 			(effects
 				(font
@@ -18346,7 +18479,7 @@
 		(dnp no)
 		(uuid "4bc4111e-fad7-460c-b0c2-5c94484d861e")
 		(property "Reference" "R404"
-			(at 243.84 196.8499 0)
+			(at 242.57 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18355,7 +18488,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 243.84 199.3899 0)
+			(at 242.57 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18424,73 +18557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 232.41 76.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f883868-3ba5-4d72-8f16-c0816dbb67fd")
-		(property "Reference" "TP405"
-			(at 232.41 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 229.87 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 227.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34ea3949-0803-4bd1-be47-3fcea468a472")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 271.78 271.78 0)
 		(mirror y)
@@ -18509,7 +18575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 pF"
+		(property "Value" "8 pF"
 			(at 269.24 271.78 0)
 			(effects
 				(font
@@ -18664,7 +18730,7 @@
 		(dnp no)
 		(uuid "5c29c4d3-8d90-471e-912f-2d9708636f5e")
 		(property "Reference" "R401"
-			(at 95.25 233.68 0)
+			(at 96.52 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18673,7 +18739,7 @@
 			)
 		)
 		(property "Value" "240 Ω"
-			(at 95.25 236.22 0)
+			(at 96.52 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18727,7 +18793,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 95.25 238.7601 0)
+			(at 96.52 238.7601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18824,6 +18890,33 @@
 		)
 		(property "MPN" "STM32MP135FAE7"
 			(at 67.31 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number_1" "497-STM32MP135FAE7-ND"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_1" "STMicroelectronics"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_1" "STM32MP135FAE7"
+			(at 67.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19951,6 +20044,33 @@
 				(hide yes)
 			)
 		)
+		(property "Digi-Key Part Number_1" "497-STM32MP135FAE7-ND"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_1" "STMicroelectronics"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_1" "STM32MP135FAE7"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "J6"
 			(uuid "2c884cb2-5b49-46f9-a4aa-d6eccef89c92")
 		)
@@ -20970,7 +21090,7 @@
 		(dnp no)
 		(uuid "8b9d247d-ea8f-439b-b7ee-287fcd2fcb13")
 		(property "Reference" "R402"
-			(at 160.02 96.52 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20979,7 +21099,7 @@
 			)
 		)
 		(property "Value" "3 kΩ"
-			(at 160.02 99.06 0)
+			(at 158.75 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21033,7 +21153,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 160.02 101.6001 0)
+			(at 158.75 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21066,7 +21186,7 @@
 		(dnp no)
 		(uuid "9cf88300-0317-48cb-a118-ffca2d6e5cb2")
 		(property "Reference" "R407"
-			(at 378.46 93.9799 0)
+			(at 377.19 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21075,7 +21195,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 378.46 96.5199 0)
+			(at 377.19 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21287,7 +21407,7 @@
 		(dnp no)
 		(uuid "bb6fc663-4a67-4c50-9357-38f0e27f002d")
 		(property "Reference" "R405"
-			(at 358.14 93.9799 0)
+			(at 356.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21296,7 +21416,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 358.14 96.5199 0)
+			(at 356.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21374,7 +21494,7 @@
 		(dnp no)
 		(uuid "c4424b41-29ea-4fbf-8ba4-c66cf04c3b4a")
 		(property "Reference" "R406"
-			(at 368.3 93.9799 0)
+			(at 367.03 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21383,7 +21503,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 368.3 96.5199 0)
+			(at 367.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21536,7 +21656,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6.8 pF"
+		(property "Value" "8 pF"
 			(at 247.65 271.78 0)
 			(effects
 				(font
@@ -21755,6 +21875,33 @@
 		)
 		(property "MPN" "STM32MP135FAE7"
 			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number_1" "497-STM32MP135FAE7-ND"
+			(at 187.96 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_1" "STMicroelectronics"
+			(at 187.96 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_1" "STM32MP135FAE7"
+			(at 187.96 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
