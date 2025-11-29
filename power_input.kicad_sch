@@ -3224,7 +3224,7 @@
 		)
 		(uuid "bd112380-0428-4f0c-a684-de7162b4f6a8")
 	)
-	(text_box "OCLO_OUT = I_{IN} * R_{S} * (R_{F} / R_{G}) -> @ 0.1 A = 0.25 V, @ 2 A = 5 V\nV_{CM} = 24 V * (R_{F} / (R_{G} + R_{F})) ~= 23.53 V\nR_{s} Power dissipation = 0.05 * 2 A * 2 A = 0.2 W"
+	(text_box "OCLO_IN = I_{IN} * R_{S} * (R_{F} / R_{G}) -> @ 0.1 A = 0.25 V, @ 2 A = 5 V\nV_{CM} = 24 V * (R_{F} / (R_{G} + R_{F})) ~= 23.53 V\nR_{s} Power dissipation = 0.05 * 2 A * 2 A = 0.2 W"
 		(exclude_from_sim no)
 		(at 140.97 149.86 0)
 		(size 135.89 20.32)
@@ -4112,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 208.28) (xy 180.34 208.28)
+			(xy 168.91 208.28) (xy 179.07 208.28)
 		)
 		(stroke
 			(width 0)
@@ -4282,7 +4282,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 218.44) (xy 180.34 215.9)
+			(xy 179.07 218.44) (xy 179.07 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4322,7 +4322,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 218.44) (xy 180.34 218.44)
+			(xy 168.91 218.44) (xy 179.07 218.44)
 		)
 		(stroke
 			(width 0)
@@ -4352,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 208.28) (xy 180.34 210.82)
+			(xy 179.07 208.28) (xy 179.07 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5492,7 +5492,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 210.82) (xy 191.77 210.82)
+			(xy 179.07 210.82) (xy 191.77 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6952,7 +6952,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 215.9) (xy 191.77 215.9)
+			(xy 179.07 215.9) (xy 191.77 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7690,7 +7690,7 @@
 		)
 		(uuid "9d39dc1c-a52b-4e14-9be2-9588fb51675e")
 	)
-	(label "OCLO_IN+"
+	(label "OCLO_IN_P"
 		(at 190.5 210.82 180)
 		(effects
 			(font
@@ -7750,7 +7750,7 @@
 		)
 		(uuid "e7fe80b2-5eb0-43f7-8242-2dc8d3571c49")
 	)
-	(label "OCLO_IN-"
+	(label "OCLO_IN_N"
 		(at 190.5 215.9 180)
 		(effects
 			(font
@@ -7791,7 +7791,7 @@
 		)
 		(uuid "54d9302b-1c5c-4b27-9dac-b474193fa9b2")
 	)
-	(hierarchical_label "V_IN+"
+	(hierarchical_label "V_IN_P"
 		(shape input)
 		(at 25.4 76.2 180)
 		(effects
@@ -7802,7 +7802,7 @@
 		)
 		(uuid "9175d29b-1d5c-4267-9503-a02bd962c91d")
 	)
-	(hierarchical_label "V_IN-"
+	(hierarchical_label "V_IN_N"
 		(shape input)
 		(at 25.4 114.3 180)
 		(effects

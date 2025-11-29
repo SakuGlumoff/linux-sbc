@@ -480,7 +480,7 @@
         "name": "ANT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
-        "schematic_color": "rgb(132, 0, 132)",
+        "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
       },
       {
@@ -495,19 +495,19 @@
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "DDR_PAIR",
+        "name": "DDR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(0, 0, 132)",
+        "schematic_color": "rgb(0, 132, 132)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "ETH_PAIR",
+        "name": "ETH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgb(0, 0, 194)",
+        "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 6
       },
       {
@@ -531,10 +531,10 @@
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "USB_PAIR",
+        "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgb(0, 0, 255)",
+        "schematic_color": "rgb(132, 0, 132)",
         "wire_width": 6
       }
     ],
@@ -543,104 +543,239 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/DDR/DDR.A0": [
+        "DDR"
+      ],
+      "/DDR/DDR.A1": [
+        "DDR"
+      ],
+      "/DDR/DDR.A10": [
+        "DDR"
+      ],
+      "/DDR/DDR.A11": [
+        "DDR"
+      ],
+      "/DDR/DDR.A12": [
+        "DDR"
+      ],
+      "/DDR/DDR.A13": [
+        "DDR"
+      ],
+      "/DDR/DDR.A14": [
+        "DDR"
+      ],
+      "/DDR/DDR.A15": [
+        "DDR"
+      ],
+      "/DDR/DDR.A2": [
+        "DDR"
+      ],
+      "/DDR/DDR.A3": [
+        "DDR"
+      ],
+      "/DDR/DDR.A4": [
+        "DDR"
+      ],
+      "/DDR/DDR.A5": [
+        "DDR"
+      ],
+      "/DDR/DDR.A6": [
+        "DDR"
+      ],
+      "/DDR/DDR.A7": [
+        "DDR"
+      ],
+      "/DDR/DDR.A8": [
+        "DDR"
+      ],
+      "/DDR/DDR.A9": [
+        "DDR"
+      ],
+      "/DDR/DDR.BA0": [
+        "DDR"
+      ],
+      "/DDR/DDR.BA1": [
+        "DDR"
+      ],
+      "/DDR/DDR.BA2": [
+        "DDR"
+      ],
+      "/DDR/DDR.CAS_N": [
+        "DDR"
+      ],
+      "/DDR/DDR.CKE": [
+        "DDR"
+      ],
       "/DDR/DDR.CLK_N": [
-        "DDR_PAIR"
+        "DDR"
       ],
       "/DDR/DDR.CLK_P": [
-        "DDR_PAIR"
+        "DDR"
+      ],
+      "/DDR/DDR.CS_N": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ0": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ1": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ10": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ11": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ12": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ13": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ14": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ15": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ2": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ3": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ4": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ5": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ6": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ7": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ8": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQ9": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQM0": [
+        "DDR"
+      ],
+      "/DDR/DDR.DQM1": [
+        "DDR"
       ],
       "/DDR/DDR.DQS0_N": [
-        "DDR_PAIR"
+        "DDR"
       ],
       "/DDR/DDR.DQS0_P": [
-        "DDR_PAIR"
+        "DDR"
       ],
       "/DDR/DDR.DQS1_N": [
-        "DDR_PAIR"
+        "DDR"
       ],
       "/DDR/DDR.DQS1_P": [
-        "DDR_PAIR"
+        "DDR"
+      ],
+      "/DDR/DDR.ODT": [
+        "DDR"
+      ],
+      "/DDR/DDR.RAS_N": [
+        "DDR"
+      ],
+      "/DDR/DDR.RST_N": [
+        "DDR"
+      ],
+      "/DDR/DDR.WE_N": [
+        "DDR"
+      ],
+      "/DDR/{DDR}": [
+        "DDR"
       ],
       "/Debug/D_IN_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/Debug/D_IN_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/Debug/D_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/Debug/D_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/Ethernet/RX_N": [
-        "ETH_PAIR"
+        "ETH"
       ],
       "/Ethernet/RX_P": [
-        "ETH_PAIR"
+        "ETH"
       ],
       "/Ethernet/TX_N": [
-        "ETH_PAIR"
+        "ETH"
       ],
       "/Ethernet/TX_P": [
-        "ETH_PAIR"
+        "ETH"
       ],
       "/MPU/USB.DN": [
-        "USB_PAIR"
+        "USB"
       ],
       "/MPU/USB.DP": [
-        "USB_PAIR"
+        "USB"
       ],
       "/MPU/{USB}": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{A1}_IN_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{A1}_IN_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{A1}_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{A1}_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{A2}_IN_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{A2}_IN_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{A2}_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{A2}_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{B1}_IN_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{B1}_IN_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{B1}_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{B1}_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{B2}_IN_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{B2}_IN_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{B2}_N": [
-        "USB_PAIR"
+        "USB"
       ],
       "/USB/D_{B2}_P": [
-        "USB_PAIR"
+        "USB"
       ],
       "/Wireless/ANT": [
         "ANT"
@@ -664,7 +799,7 @@
       },
       {
         "netclass": "GND",
-        "pattern": "/*/V_*-"
+        "pattern": "/*/V_*_N"
       },
       {
         "netclass": "PWR",
@@ -969,6 +1104,24 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_1",
+          "name": "Manufacturer_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digi-Key Part Number_1",
+          "name": "Digi-Key Part Number_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN_1",
+          "name": "MPN_1",
           "show": false
         }
       ],
