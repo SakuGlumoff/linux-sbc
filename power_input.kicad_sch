@@ -2996,7 +2996,7 @@
 	)
 	(text "R_{F}"
 		(exclude_from_sim no)
-		(at 160.02 218.44 0)
+		(at 167.64 223.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3026,7 +3026,7 @@
 	)
 	(text "R_{G}"
 		(exclude_from_sim no)
-		(at 160.02 185.42 0)
+		(at 167.64 190.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3046,7 +3046,7 @@
 	)
 	(text "R_{S}"
 		(exclude_from_sim no)
-		(at 158.75 166.37 0)
+		(at 158.75 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3204,7 +3204,7 @@
 		)
 		(uuid "abb48f21-9127-4d3e-87a0-8e7be9451329")
 	)
-	(text_box "UVLO_OUT @ 26.4 V ~= 26.4 V, @ 26.5 V ~= 0V"
+	(text_box "OVLO_OUT @ 26.4 V ~= 0 V, @ 26.5 V ~= 26.5V"
 		(exclude_from_sim no)
 		(at 255.27 48.26 0)
 		(size 100.33 20.32)
@@ -3224,7 +3224,7 @@
 		)
 		(uuid "bd112380-0428-4f0c-a684-de7162b4f6a8")
 	)
-	(text_box "OCLO_OUT_N = I_{IN} * R_{S} * (R_{F} / R_{G}) -> @ 0.1 A = 0.25 V, @ 2 A = 5 V\nV_{CM} = 24 V * (R_{F} / (R_{G} + R_{F})) ~= 23.53 V\nP_{Rs} = 0.05 * 2 A * 2 A = 0.2 W"
+	(text_box "OCLO_OUT = I_{IN} * R_{S} * (R_{F} / R_{G}) -> @ 0.1 A = 0.25 V, @ 2 A = 5 V\nV_{CM} = 24 V * (R_{F} / (R_{G} + R_{F})) ~= 23.53 V\nR_{s} Power dissipation = 0.05 * 2 A * 2 A = 0.2 W"
 		(exclude_from_sim no)
 		(at 140.97 149.86 0)
 		(size 135.89 20.32)
@@ -3363,6 +3363,12 @@
 		(uuid "0256cd74-4638-410b-bf26-f2b3ba971fd7")
 	)
 	(junction
+		(at 144.78 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b913b3-9edb-44d4-b1a5-135364518ee7")
+	)
+	(junction
 		(at 278.13 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3447,12 +3453,6 @@
 		(uuid "1c4b4f41-d8a8-46a9-8079-25035176b91a")
 	)
 	(junction
-		(at 276.86 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d554b9d-5ade-4296-9998-d84447ddbb4c")
-	)
-	(junction
 		(at 116.84 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3489,6 +3489,12 @@
 		(uuid "2552647d-520d-4950-ad04-f250d90502e4")
 	)
 	(junction
+		(at 278.13 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "271a7b23-13ac-46e6-af4d-824f7c380f27")
+	)
+	(junction
 		(at 69.85 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3499,12 +3505,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b6b76c1-952b-4c8f-a25d-ac15832fdde8")
-	)
-	(junction
-		(at 276.86 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bfc78b6-3511-4dc1-b2c0-1244678247e0")
 	)
 	(junction
 		(at 88.9 177.8)
@@ -3577,6 +3577,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41dceae7-baaa-47ff-83ca-b7fc91cf9cf5")
+	)
+	(junction
+		(at 168.91 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4319d698-baa0-4dae-8fd7-4531d3d12444")
 	)
 	(junction
 		(at 16.51 218.44)
@@ -3705,12 +3711,6 @@
 		(uuid "7063cca1-0d7a-4baf-b245-103482ada677")
 	)
 	(junction
-		(at 278.13 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7640f089-cc52-41af-8b5d-a3d204393746")
-	)
-	(junction
 		(at 196.85 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3739,12 +3739,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ed3e442-3748-4ce8-8ab1-88677e162dca")
-	)
-	(junction
-		(at 167.64 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "821dcd8c-5ad0-45ab-a7c1-9d485e23db2a")
 	)
 	(junction
 		(at 240.03 114.3)
@@ -3825,6 +3819,12 @@
 		(uuid "a33b768d-8d4f-448d-9bb7-42b1f4317bf6")
 	)
 	(junction
+		(at 168.91 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8caab15-defd-4d1b-93e3-1f4c82b53b51")
+	)
+	(junction
 		(at 209.55 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3897,18 +3897,6 @@
 		(uuid "c93be9d9-52e1-4ac7-844a-9d3d50660333")
 	)
 	(junction
-		(at 203.2 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c96a6e6b-e2e5-463c-830e-b9092c23e20f")
-	)
-	(junction
-		(at 167.64 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca97c8ab-687c-446d-87e7-58c85a53fa3c")
-	)
-	(junction
 		(at 287.02 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3921,10 +3909,10 @@
 		(uuid "d086d551-f340-4cba-a42c-ab47431bd779")
 	)
 	(junction
-		(at 107.95 215.9)
+		(at 278.13 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db5ee5a5-867d-4058-b3f1-b4459d61ee43")
+		(uuid "d8b29df7-1375-41f0-8d82-73cb1d5268eb")
 	)
 	(junction
 		(at 191.77 76.2)
@@ -4124,6 +4112,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 208.28) (xy 180.34 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04644235-00d7-4bc9-92b0-723064c18d21")
+	)
+	(wire
+		(pts
 			(xy 287.02 185.42) (xy 287.02 190.5)
 		)
 		(stroke
@@ -4191,16 +4189,6 @@
 			(type default)
 		)
 		(uuid "09d2406c-a542-4c0b-9029-633d8581b114")
-	)
-	(wire
-		(pts
-			(xy 101.6 215.9) (xy 107.95 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a9164e6-861c-4245-8407-1f4079e887f6")
 	)
 	(wire
 		(pts
@@ -4334,6 +4322,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 218.44) (xy 180.34 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e29672-b1be-493d-80c6-9bb14772639e")
+	)
+	(wire
+		(pts
 			(xy 255.27 215.9) (xy 256.54 215.9)
 		)
 		(stroke
@@ -4414,7 +4412,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 218.44) (xy 167.64 217.17)
+			(xy 168.91 218.44) (xy 168.91 217.17)
 		)
 		(stroke
 			(width 0)
@@ -4444,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 241.3) (xy 276.86 241.3)
+			(xy 243.84 241.3) (xy 278.13 241.3)
 		)
 		(stroke
 			(width 0)
@@ -4694,16 +4692,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 215.9) (xy 107.95 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f999f05-687c-4d2e-91b0-a3a17500c22d")
-	)
-	(wire
-		(pts
 			(xy 342.9 76.2) (xy 342.9 78.74)
 		)
 		(stroke
@@ -4724,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 218.44) (xy 167.64 218.44)
+			(xy 165.1 218.44) (xy 168.91 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5034,7 +5022,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 215.9) (xy 276.86 218.44)
+			(xy 144.78 176.53) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e43e6d-886c-44dd-a333-4c393a0a2a38")
+	)
+	(wire
+		(pts
+			(xy 278.13 215.9) (xy 278.13 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5164,16 +5162,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 227.33) (xy 203.2 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c62bcbf-480c-4dd0-b503-6486f29c6634")
-	)
-	(wire
-		(pts
 			(xy 31.75 213.36) (xy 64.77 213.36)
 		)
 		(stroke
@@ -5204,7 +5192,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 215.9) (xy 267.97 215.9)
+			(xy 256.54 215.9) (xy 269.24 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5314,7 +5302,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 215.9) (xy 93.98 215.9)
+			(xy 82.55 215.9) (xy 100.33 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5411,6 +5399,16 @@
 			(type default)
 		)
 		(uuid "6068e77c-0687-4473-ab4e-a6ab04167e58")
+	)
+	(wire
+		(pts
+			(xy 278.13 215.9) (xy 279.4 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d94e08-c0b9-4ba8-afff-d88bda4f62df")
 	)
 	(wire
 		(pts
@@ -5734,16 +5732,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 214.63) (xy 278.13 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc07742-8869-4ab4-8387-fdc59ed942d0")
-	)
-	(wire
-		(pts
 			(xy 16.51 218.44) (xy 64.77 218.44)
 		)
 		(stroke
@@ -5764,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 215.9) (xy 276.86 215.9)
+			(xy 276.86 215.9) (xy 278.13 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5824,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 208.28) (xy 167.64 209.55)
+			(xy 168.91 208.28) (xy 168.91 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5874,6 +5862,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 241.3) (xy 287.02 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87146986-a810-4b91-bf52-90ea2a6890ca")
+	)
+	(wire
+		(pts
 			(xy 139.7 114.3) (xy 132.08 114.3)
 		)
 		(stroke
@@ -5911,6 +5909,16 @@
 			(type default)
 		)
 		(uuid "87ad4648-ed8a-41e2-90a4-ccdeeaec6218")
+	)
+	(wire
+		(pts
+			(xy 144.78 177.8) (xy 152.4 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c721e3-219d-43c7-ae1b-741085b3cd9b")
 	)
 	(wire
 		(pts
@@ -6094,7 +6102,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 208.28) (xy 167.64 208.28)
+			(xy 152.4 208.28) (xy 168.91 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6261,16 +6269,6 @@
 			(type default)
 		)
 		(uuid "a4b29b62-77e9-4e17-ae4f-8b52de0d1cb6")
-	)
-	(wire
-		(pts
-			(xy 276.86 241.3) (xy 287.02 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f5ff6c-db36-4cbd-ad33-cc95df7f77eb")
 	)
 	(wire
 		(pts
@@ -6494,16 +6492,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 228.6) (xy 208.28 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b87cb118-6903-4fd5-9581-6e9752226f98")
-	)
-	(wire
-		(pts
 			(xy 306.07 177.8) (xy 306.07 193.04)
 		)
 		(stroke
@@ -6574,16 +6562,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 215.9) (xy 279.4 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc83aeae-d5b8-4a43-9e76-90b9d6107fdd")
-	)
-	(wire
-		(pts
 			(xy 285.75 86.36) (xy 285.75 87.63)
 		)
 		(stroke
@@ -6604,7 +6582,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 177.8) (xy 152.4 177.8)
+			(xy 124.46 177.8) (xy 144.78 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6671,16 +6649,6 @@
 			(type default)
 		)
 		(uuid "c586cd69-bfd4-4dd2-acd3-f41bb987597e")
-	)
-	(wire
-		(pts
-			(xy 276.86 215.9) (xy 278.13 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d04ce2-e78f-4393-9ab6-ef45218b90ae")
 	)
 	(wire
 		(pts
@@ -6854,16 +6822,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 208.28) (xy 180.34 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d114bd2f-28f3-4125-b2d7-666506c364f4")
-	)
-	(wire
-		(pts
 			(xy 349.25 198.12) (xy 349.25 200.66)
 		)
 		(stroke
@@ -6964,7 +6922,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 226.06) (xy 276.86 241.3)
+			(xy 278.13 226.06) (xy 278.13 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6981,16 +6939,6 @@
 			(type default)
 		)
 		(uuid "db900ba0-6606-4c0b-ad9d-9bad9c8d79a9")
-	)
-	(wire
-		(pts
-			(xy 167.64 218.44) (xy 180.34 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dca9aebc-9838-4174-a620-cfa7bb80b46b")
 	)
 	(wire
 		(pts
@@ -7324,7 +7272,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 228.6) (xy 203.2 228.6)
+			(xy 165.1 228.6) (xy 208.28 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7632,13 +7580,13 @@
 		)
 		(uuid "35af585a-3896-49e8-afff-1ee24d34fd64")
 	)
-	(label "OVLO_OUT_N"
-		(at 355.6 99.06 180)
+	(label "OVLO_OUT"
+		(at 344.17 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3bd1c784-319d-4cb7-96cf-ca9f9a96a680")
 	)
@@ -7752,8 +7700,8 @@
 		)
 		(uuid "9f07f2f3-28be-45d9-834b-1b802a4316ef")
 	)
-	(label "OCLO_OUT_N"
-		(at 255.27 215.9 0)
+	(label "OCLO_OUT"
+		(at 257.81 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7792,8 +7740,8 @@
 		)
 		(uuid "d9373656-8080-4d00-83df-940a6a27b53a")
 	)
-	(label "UVLO_OUT_N"
-		(at 81.28 215.9 0)
+	(label "UVLO_OUT"
+		(at 83.82 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7875,7 +7823,7 @@
 		(dnp no)
 		(uuid "0259a889-bdea-48fb-9e27-65ddaf405be4")
 		(property "Reference" "C207"
-			(at 176.53 187.96 0)
+			(at 175.006 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +7832,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 176.53 190.5 0)
+			(at 175.006 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +7886,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 176.53 193.0401 0)
+			(at 175.006 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,7 +7919,7 @@
 		(dnp no)
 		(uuid "02a77b16-bd84-4505-99d4-b6e11683b3b1")
 		(property "Reference" "D205"
-			(at 269.24 105.41 90)
+			(at 268.224 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,7 +7928,7 @@
 			)
 		)
 		(property "Value" "MM3Z5V1B"
-			(at 269.24 107.95 90)
+			(at 268.224 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +7964,7 @@
 			)
 		)
 		(property "Zener voltage" "5 V"
-			(at 269.24 110.4901 90)
+			(at 268.224 110.4901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,6 +8094,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0736d07a-e76f-4364-9f64-eaa0ac87f9c3")
+		(property "Reference" "TP209"
+			(at 168.91 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a539236-e647-4671-9bea-eafeab7c19b8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 344.17 241.3 90)
 		(unit 1)
@@ -8217,22 +8231,13 @@
 				(hide yes)
 			)
 		)
-		(property "Size" "1206"
-			(at 344.17 248.158 90)
+		(property "Power rating" "≥ 0.5 W"
+			(at 344.17 246.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-			)
-		)
-		(property "Power rating" "≥ 0.5 W"
-			(at 344.17 241.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8349,7 +8354,7 @@
 		(dnp no)
 		(uuid "0ccc2e69-4e20-4d11-bcf8-5f9f963aab4e")
 		(property "Reference" "D207"
-			(at 359.41 80.01 90)
+			(at 360.426 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +8363,7 @@
 			)
 		)
 		(property "Value" "SMAZ16-13-F"
-			(at 359.41 82.55 90)
+			(at 360.426 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8394,7 +8399,7 @@
 			)
 		)
 		(property "Zener voltage" "16 V"
-			(at 359.41 85.0901 90)
+			(at 360.426 85.0901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8512,7 +8517,7 @@
 		(dnp no)
 		(uuid "11933340-cefd-4408-b10d-639f96c82b82")
 		(property "Reference" "C204"
-			(at 143.51 86.36 0)
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +8526,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 143.51 88.9 0)
+			(at 142.24 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8575,7 +8580,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 143.51 91.4401 0)
+			(at 142.24 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +8613,7 @@
 		(dnp no)
 		(uuid "125636c0-4721-4737-a058-2936949f32a5")
 		(property "Reference" "C214"
-			(at 234.95 187.96 0)
+			(at 233.426 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8622,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 234.95 190.5 0)
+			(at 233.426 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +8676,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 234.95 193.0401 0)
+			(at 233.426 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +8701,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 271.78 215.9 90)
+		(at 273.05 215.9 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8705,7 +8710,7 @@
 		(dnp no)
 		(uuid "1394ab6e-7c4c-4473-a00b-b8573414f5d4")
 		(property "Reference" "R219"
-			(at 271.78 210.82 90)
+			(at 273.05 212.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8714,7 +8719,7 @@
 			)
 		)
 		(property "Value" "100 Ω"
-			(at 271.78 213.36 90)
+			(at 273.05 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8723,7 +8728,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 271.78 214.122 90)
+			(at 273.05 214.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8732,7 +8737,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110022.pdf"
-			(at 271.78 215.9 0)
+			(at 273.05 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8741,7 +8746,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 271.78 215.9 0)
+			(at 273.05 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8750,7 +8755,7 @@
 			)
 		)
 		(property "MPN" "560112110022"
-			(at 271.78 215.9 90)
+			(at 273.05 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +8764,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 271.78 215.9 90)
+			(at 273.05 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8797,7 @@
 		(dnp no)
 		(uuid "17a01d22-bfae-4a85-b5b3-55c8644e12bb")
 		(property "Reference" "C213"
-			(at 228.6 86.36 0)
+			(at 227.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8806,7 @@
 			)
 		)
 		(property "Value" "560 µF"
-			(at 228.6 88.9 0)
+			(at 227.33 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8860,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 228.6 91.44 0)
+			(at 227.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8889,7 +8894,7 @@
 		(dnp no)
 		(uuid "17d8eea7-89e2-481f-adbc-7a907768c777")
 		(property "Reference" "R210"
-			(at 149.86 187.96 0)
+			(at 151.13 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +8903,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 149.86 190.5 0)
+			(at 151.13 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +8957,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 149.86 193.0401 0)
+			(at 151.13 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,73 +8982,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 101.6 176.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1aba911a-28ed-4720-a975-788514a3ed80")
-		(property "Reference" "TP205"
-			(at 101.6 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 99.06 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 96.52 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 101.6 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff48ade2-5053-410a-9d00-3448e133bbf1")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 50.8 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9052,11 +8990,12 @@
 		(dnp no)
 		(uuid "1b5d201c-a0bd-43f7-a96d-14437d7eae6d")
 		(property "Reference" "TP201"
-			(at 50.8 82.55 0)
+			(at 50.8 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -9117,7 +9056,7 @@
 		(dnp no)
 		(uuid "1c8ad261-f8d6-4069-8ae3-6ef028d372c7")
 		(property "Reference" "C201"
-			(at 48.26 187.96 0)
+			(at 46.736 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9126,7 +9065,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 48.26 190.5 0)
+			(at 46.736 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9119,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 48.26 193.0401 0)
+			(at 46.736 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,6 +9223,93 @@
 			(project ""
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "L201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 344.17 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f7c8587-0d12-4413-af05-2c1299b1c5e2")
+		(property "Reference" "R226"
+			(at 344.17 181.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 344.17 183.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 344.17 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112120002.pdf"
+			(at 344.17 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 344.17 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 344.17 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112120002"
+			(at 344.17 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97264faf-7402-4890-94d0-40ed9a678ef2")
+		)
+		(pin "1"
+			(uuid "bf111713-e6e1-469c-a882-d6510c29f3f4")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R226")
 					(unit 1)
 				)
 			)
@@ -9424,6 +9450,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 273.05 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "261614ba-f6a1-41aa-9501-ac4afe5e8bcf")
+		(property "Reference" "TP211"
+			(at 273.05 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 275.59 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 278.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 273.05 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "618a6543-73c5-43a5-9bd6-d2b9274db9f8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 63.5 78.74 90)
 		(unit 1)
@@ -9433,19 +9525,21 @@
 		(dnp no)
 		(uuid "2814eabe-918c-4edd-b6aa-2a850369d108")
 		(property "Reference" "Q201"
-			(at 63.5 69.85 90)
+			(at 63.5 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Value" "SQ2319CES"
-			(at 63.5 72.39 90)
+			(at 63.5 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -9610,7 +9704,7 @@
 		(dnp no)
 		(uuid "2a2aa939-14a4-4c80-a9c4-cc7c41adc4a8")
 		(property "Reference" "D206"
-			(at 275.59 181.61 90)
+			(at 276.606 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9713,7 @@
 			)
 		)
 		(property "Value" "SMAZ16-13-F"
-			(at 275.59 184.15 90)
+			(at 276.606 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +9749,7 @@
 			)
 		)
 		(property "Zener voltage" "16 V"
-			(at 275.59 186.6901 90)
+			(at 276.606 186.6901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,71 +9785,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "D206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 285.75 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a603d85-f3cb-472e-a157-d130f4aade9f")
-		(property "Reference" "TP214"
-			(at 282.448 199.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 282.448 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 285.75 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 285.75 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 285.75 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3ad8719-ad99-4ac8-a391-aa6431d7233a")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP214")
 					(unit 1)
 				)
 			)
@@ -9856,93 +9885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 354.33 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c1e4d8d-5c76-4f79-99d6-955d8d326cf1")
-		(property "Reference" "R231"
-			(at 354.33 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "4.99 kΩ"
-			(at 354.33 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 354.33 182.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
-			(at 354.33 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 354.33 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110247"
-			(at 354.33 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 354.33 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5ef2d5d-8da7-4ca0-8cd0-f3a7a4251570")
-		)
-		(pin "1"
-			(uuid "ef61e3ba-3161-4788-a265-d99caedb194b")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R231")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 116.84 180.34 270)
 		(mirror x)
@@ -9951,22 +9893,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f6b5d36-dd68-4e6d-aaf9-c196acf87808")
 		(property "Reference" "Q203"
-			(at 116.84 171.45 90)
+			(at 116.84 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Value" "SQ2319CES"
-			(at 116.84 173.99 90)
+			(at 116.84 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -10042,7 +9985,7 @@
 		(dnp no)
 		(uuid "3149aab2-3f3b-475b-99ad-1a17fe503c25")
 		(property "Reference" "R221"
-			(at 288.29 88.9 0)
+			(at 287.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,7 +9994,7 @@
 			)
 		)
 		(property "Value" "33 kΩ"
-			(at 288.29 91.44 0)
+			(at 287.02 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10048,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 288.29 93.9801 0)
+			(at 287.02 93.9801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,6 +10072,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 372.11 87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "333eec4f-6797-4050-8382-e0f6039278d1")
+		(property "Reference" "TP217"
+			(at 376.428 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 375.412 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 372.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 372.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e0c7674-a808-4c08-bea4-9dc5cedf4b27")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 259.08 184.15 0)
 		(mirror y)
@@ -10139,7 +10149,7 @@
 		(dnp no)
 		(uuid "3358f0b8-6698-4979-925e-7fda2de72aca")
 		(property "Reference" "R217"
-			(at 256.54 182.8799 0)
+			(at 257.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +10158,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 256.54 185.4199 0)
+			(at 257.81 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10329,7 @@
 		(dnp no)
 		(uuid "33f30e39-226b-4f91-a46c-932d55c34555")
 		(property "Reference" "D201"
-			(at 19.05 226.06 90)
+			(at 17.78 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +10338,7 @@
 			)
 		)
 		(property "Value" "MM3Z5V1B"
-			(at 19.05 228.6 90)
+			(at 17.78 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10364,7 +10374,7 @@
 			)
 		)
 		(property "Zener voltage" "5 V"
-			(at 19.05 231.1401 90)
+			(at 17.78 231.1401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10415,7 +10425,7 @@
 		(dnp no)
 		(uuid "356cfcde-c33f-4283-9db3-b5cb00653d3c")
 		(property "Reference" "C212"
-			(at 222.25 187.96 0)
+			(at 220.726 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10424,7 +10434,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 222.25 190.5 0)
+			(at 220.726 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10478,7 +10488,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 222.25 193.0401 0)
+			(at 220.726 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,72 +10506,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "C212")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 217.17 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3925f027-75d4-4d60-91dd-2c86204e5622")
-		(property "Reference" "TP206"
-			(at 107.95 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 110.49 220.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 113.03 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 107.95 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f44406ad-0886-444d-8bd0-1604d95f496d")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP206")
 					(unit 1)
 				)
 			)
@@ -10650,6 +10594,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "J203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 201.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b7e8067-175e-48ce-b9e6-6d9878cfd835")
+		(property "Reference" "TP206"
+			(at 111.252 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 112.268 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 115.57 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 115.57 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e59dd3b2-55ac-4195-ad46-3aec87c81f6a")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP206")
 					(unit 1)
 				)
 			)
@@ -10753,7 +10763,7 @@
 		(dnp no)
 		(uuid "41a1c13c-dad7-4a8e-a2a7-3aab80e75772")
 		(property "Reference" "R204"
-			(at 34.29 226.06 0)
+			(at 33.02 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10762,7 +10772,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 34.29 228.6 0)
+			(at 33.02 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10816,7 +10826,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 34.29 231.1401 0)
+			(at 33.02 231.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10849,7 +10859,7 @@
 		(dnp no)
 		(uuid "41e01674-2d1f-4f04-8782-cd6f8d2d6b30")
 		(property "Reference" "R202"
-			(at 34.29 187.96 0)
+			(at 33.02 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +10868,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 34.29 190.5 0)
+			(at 33.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10912,7 +10922,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 34.29 193.0401 0)
+			(at 33.02 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10936,6 +10946,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 288.29 191.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41ebca63-6c99-4f7d-92c4-d869b677399f")
+		(property "Reference" "TP213"
+			(at 292.608 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 291.592 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 288.29 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 288.29 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52c5a5be-ad0e-414b-82cf-903cdbb0e489")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 152.4 213.36 0)
 		(mirror y)
@@ -10946,7 +11023,7 @@
 		(dnp no)
 		(uuid "43d9fdfe-0a00-4c05-99ee-c1d62c4949cc")
 		(property "Reference" "R211"
-			(at 149.86 210.82 0)
+			(at 151.13 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10955,7 +11032,7 @@
 			)
 		)
 		(property "Value" "50 kΩ"
-			(at 149.86 213.36 0)
+			(at 151.13 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11009,7 +11086,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 149.86 215.9001 0)
+			(at 151.13 215.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11027,6 +11104,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "R211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 285.75 201.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44971245-82af-476b-b368-f0034b2b4ac3")
+		(property "Reference" "TP212"
+			(at 281.432 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 282.448 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 285.75 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 285.75 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59f96162-de7f-4e10-82e9-7ffb94f4afaa")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP212")
 					(unit 1)
 				)
 			)
@@ -11128,22 +11271,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b393308-f8c5-45d7-a871-08b31e15cedf")
 		(property "Reference" "F201"
-			(at 38.1 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3 A"
 			(at 38.1 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
+			)
+		)
+		(property "Value" "3 A"
+			(at 38.1 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT200"
@@ -11302,72 +11446,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 118.11 191.77 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f496497-847b-4714-8eb2-22913213446e")
-		(property "Reference" "TP208"
-			(at 121.412 189.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 121.412 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 118.11 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 118.11 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "484d50da-8c5e-4a04-ac19-f644bdcbaee2")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 185.42 190.5 0)
 		(unit 1)
@@ -11377,7 +11455,7 @@
 		(dnp no)
 		(uuid "4fa7d4a2-392d-4e45-9cea-61de49764180")
 		(property "Reference" "C209"
-			(at 189.23 187.96 0)
+			(at 187.706 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +11464,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 189.23 190.5 0)
+			(at 187.706 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11518,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 189.23 193.0401 0)
+			(at 187.706 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11554,72 +11632,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 288.29 191.77 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "559a64b8-27d9-4602-b63a-02b370c92eff")
-		(property "Reference" "TP215"
-			(at 291.592 189.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 291.592 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 288.29 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 288.29 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d633937c-ff34-46e6-8be6-db1e6ef6fbf3")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP215")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 69.85 81.28 270)
 		(unit 1)
@@ -11629,7 +11641,7 @@
 		(dnp no)
 		(uuid "5823bf9e-6eef-4616-ac7e-0610306abb69")
 		(property "Reference" "D202"
-			(at 72.39 78.74 90)
+			(at 71.628 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11638,7 +11650,7 @@
 			)
 		)
 		(property "Value" "SMAZ16-13-F"
-			(at 72.39 81.28 90)
+			(at 71.628 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11674,7 +11686,7 @@
 			)
 		)
 		(property "Zener voltage" "16 V"
-			(at 72.39 83.8201 90)
+			(at 71.628 83.8201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11793,7 +11805,7 @@
 		(dnp no)
 		(uuid "59539ec9-e578-4592-b46f-f08b138ff8e5")
 		(property "Reference" "R215"
-			(at 208.28 187.96 0)
+			(at 209.55 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11802,7 +11814,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 208.28 190.5 0)
+			(at 209.55 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +11868,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 208.28 193.0401 0)
+			(at 209.55 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,6 +11892,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 398.78 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "597b9ffa-f110-46c7-abfd-81c7ccf81dc9")
+		(property "Reference" "#FLG0204"
+			(at 398.78 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 398.78 243.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 398.78 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1952824-6a26-4628-af90-b70941346a65")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "#FLG0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 287.02 180.34 270)
 		(mirror x)
@@ -11888,22 +11966,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5af6e257-176f-433e-b829-3ae88955c5fb")
 		(property "Reference" "Q205"
-			(at 287.02 171.45 90)
+			(at 287.02 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Value" "SQ2319CES"
-			(at 287.02 173.99 90)
+			(at 287.02 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
@@ -11970,25 +12049,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 341.63 100.33 0)
-		(mirror x)
+		(lib_id "Device:R")
+		(at 354.33 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5e7dc1a5-5af9-4495-a487-3b1dbf3e88bc")
-		(property "Reference" "TP216"
-			(at 341.63 105.41 0)
+		(uuid "63322a44-568e-4f67-ae17-336a80c3b6f1")
+		(property "Reference" "R233"
+			(at 354.33 222.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 344.17 103.632 90)
+		(property "Value" "4.99 kΩ"
+			(at 354.33 224.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 354.33 222.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,8 +12084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 346.71 100.33 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
+			(at 354.33 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,8 +12093,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 346.71 100.33 0)
+		(property "Description" "Resistor"
+			(at 354.33 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12014,22 +12102,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 341.63 100.33 0)
+		(property "MPN" "560112110247"
+			(at 354.33 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 354.33 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5775cdce-7789-4e13-be72-9135e11fc6b8")
 		)
 		(pin "1"
-			(uuid "2be614c6-1068-4ce8-996f-7b59b50c872f")
+			(uuid "9c52be47-52b3-4519-8060-c6dd9d3fd61f")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP216")
+					(reference "R233")
 					(unit 1)
 				)
 			)
@@ -12045,7 +12145,7 @@
 		(dnp no)
 		(uuid "633a65aa-6e37-4e15-b8d8-c2f2d9433019")
 		(property "Reference" "R225"
-			(at 344.17 162.56 90)
+			(at 344.17 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12054,7 +12154,7 @@
 			)
 		)
 		(property "Value" "0 Ω"
-			(at 344.17 165.1 90)
+			(at 344.17 163.322 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12124,180 +12224,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 354.33 200.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "634b1f0e-d13c-494c-a0f0-77b4cd4ac678")
-		(property "Reference" "R232"
-			(at 354.33 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "4.99 kΩ"
-			(at 354.33 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 354.33 202.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
-			(at 354.33 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 354.33 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110247"
-			(at 354.33 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 354.33 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e80dfff-9a42-4ca4-acb7-c0f1a8e5cee3")
-		)
-		(pin "1"
-			(uuid "cd050334-02ac-42b2-a12e-ae9721ebbf28")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R232")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 344.17 220.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65dd5f7a-e0dd-4d3d-86b1-662aac266c03")
-		(property "Reference" "R228"
-			(at 344.17 223.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 344.17 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 344.17 222.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112120002.pdf"
-			(at 344.17 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 344.17 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 344.17 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112120002"
-			(at 344.17 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7a8f84c-1fb8-4454-86e9-aaedeb7c2907")
-		)
-		(pin "1"
-			(uuid "02926a9b-f147-45e0-bf99-59931b7d79e6")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R228")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 88.9 184.15 0)
 		(mirror y)
 		(unit 1)
@@ -12307,7 +12233,7 @@
 		(dnp no)
 		(uuid "6681e331-f8c6-44e3-92f2-22989c9faecf")
 		(property "Reference" "R207"
-			(at 86.36 182.8799 0)
+			(at 87.63 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12316,7 +12242,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 86.36 185.4199 0)
+			(at 87.63 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12394,7 +12320,7 @@
 		(dnp no)
 		(uuid "689d16d8-25ab-4fd3-b0bf-bb92b407eae9")
 		(property "Reference" "C218"
-			(at 309.88 194.31 0)
+			(at 308.356 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12403,7 +12329,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 309.88 196.85 0)
+			(at 308.356 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +12383,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 309.88 199.3901 0)
+			(at 308.356 199.3901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,72 +12407,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 372.11 87.63 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6914e73b-26ad-4e06-94cc-02f7b10c31b5")
-		(property "Reference" "TP219"
-			(at 375.412 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 375.412 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 372.11 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 372.11 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 372.11 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b19e4d1-50cf-46de-a77c-c82188980a61")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP219")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 31.75 199.39 0)
 		(unit 1)
@@ -12556,7 +12416,7 @@
 		(dnp no)
 		(uuid "6c8683c3-5edd-422e-96cd-4f3932253637")
 		(property "Reference" "R203"
-			(at 34.29 196.85 0)
+			(at 33.02 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +12425,7 @@
 			)
 		)
 		(property "Value" "15 kΩ"
-			(at 34.29 199.39 0)
+			(at 33.02 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12479,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 34.29 201.9301 0)
+			(at 33.02 201.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12652,7 +12512,7 @@
 		(dnp no)
 		(uuid "6db30f10-1cb9-4c14-bc1c-776046a82b4b")
 		(property "Reference" "R209"
-			(at 119.38 195.58 0)
+			(at 118.11 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,7 +12521,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 119.38 198.12 0)
+			(at 118.11 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12737,10 +12597,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7044c632-0b93-4aed-8c93-162c82f7cead")
 		(property "Reference" "Q204"
-			(at 290.83 214.6299 0)
+			(at 289.306 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,7 +12608,7 @@
 			)
 		)
 		(property "Value" "IRFL4315TRPBF"
-			(at 290.83 217.1699 0)
+			(at 289.306 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12824,6 +12683,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "711a067f-5fbb-4116-80d8-89ae304e5941")
+		(property "Reference" "TP208"
+			(at 144.78 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 147.32 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 149.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a24ae4c7-7867-4500-97ad-4f61dcf288f1")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 16.51 190.5 0)
 		(unit 1)
@@ -12833,7 +12758,7 @@
 		(dnp no)
 		(uuid "71fdbf59-5f22-415a-b956-759c9ffc352d")
 		(property "Reference" "R201"
-			(at 19.05 187.96 0)
+			(at 17.78 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,7 +12767,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 19.05 190.5 0)
+			(at 17.78 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +12821,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 19.05 193.0401 0)
+			(at 17.78 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12914,6 +12839,93 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "R201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 354.33 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "723b3729-b553-4cda-9a6e-e373bf026223")
+		(property "Reference" "R232"
+			(at 354.33 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4.99 kΩ"
+			(at 354.33 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 354.33 202.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
+			(at 354.33 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 354.33 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110247"
+			(at 354.33 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 354.33 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a746167-5ac8-4e8b-9684-49c0d49f193f")
+		)
+		(pin "1"
+			(uuid "6089c000-a42f-43b5-bfff-b6be10a7d124")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R232")
 					(unit 1)
 				)
 			)
@@ -12981,6 +12993,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79ef681a-3d60-474a-a4e4-e4b9c8b194ec")
+		(property "Reference" "TP205"
+			(at 101.6 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 173.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 106.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57a2b359-a00d-44ed-8e6f-b7f97a5b7eca")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP205")
 					(unit 1)
 				)
 			)
@@ -13179,7 +13257,7 @@
 		(dnp no)
 		(uuid "7d8bcae6-8b53-4085-8b8f-95cf84786343")
 		(property "Reference" "R230"
-			(at 354.33 162.56 90)
+			(at 354.33 161.544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +13266,7 @@
 			)
 		)
 		(property "Value" "4.99 kΩ"
-			(at 354.33 165.1 90)
+			(at 354.33 163.322 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,72 +13335,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 367.03 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81f014ed-1782-439b-b488-60c440147c99")
-		(property "Reference" "#FLG0202"
-			(at 367.03 238.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 367.03 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 367.03 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 367.03 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e8699ac-cab8-4171-b305-98436fc32b7e")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#FLG0202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 210.82 226.06 270)
 		(unit 1)
@@ -13332,7 +13344,7 @@
 		(dnp no)
 		(uuid "825be9a9-0165-4d8c-949f-74955e2f33e1")
 		(property "Reference" "D204"
-			(at 213.36 223.52 90)
+			(at 212.344 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13341,7 +13353,7 @@
 			)
 		)
 		(property "Value" "MM3Z5V1B"
-			(at 213.36 226.06 90)
+			(at 212.344 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,7 +13389,7 @@
 			)
 		)
 		(property "Zener voltage" "5 V"
-			(at 213.36 228.6001 90)
+			(at 212.344 228.6001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13420,16 +13432,102 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 344.17 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8543f931-31d2-4c91-b8ef-58621e432dea")
+		(property "Reference" "R228"
+			(at 344.17 222.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 344.17 224.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 344.17 222.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112120002.pdf"
+			(at 344.17 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 344.17 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 344.17 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112120002"
+			(at 344.17 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d7130f5-84df-4189-9ff3-b2fbb8434421")
+		)
+		(pin "1"
+			(uuid "2547599d-6305-469f-9d34-f4f1da9be8e0")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 287.02 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85568913-3ab1-4243-bd26-2f4493e298a8")
 		(property "Reference" "R223"
-			(at 289.56 195.5799 0)
+			(at 288.29 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13438,7 +13536,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 289.56 198.1199 0)
+			(at 288.29 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13508,7 +13606,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 213.36 0)
+		(at 168.91 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13516,7 +13614,7 @@
 		(dnp no)
 		(uuid "8f7cf721-f0b7-42f2-9151-4949a807db4b")
 		(property "Reference" "C206"
-			(at 171.45 210.82 0)
+			(at 171.196 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13525,7 +13623,7 @@
 			)
 		)
 		(property "Value" "1000 pF"
-			(at 171.45 213.36 0)
+			(at 171.196 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13534,7 +13632,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
-			(at 168.6052 217.17 0)
+			(at 169.8752 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13543,7 +13641,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555CYA103GE01-01A.pdf"
-			(at 167.64 213.36 0)
+			(at 168.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13552,7 +13650,7 @@
 			)
 		)
 		(property "Description" "10000 pF ±2% 35V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 167.64 213.36 0)
+			(at 168.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13561,7 +13659,7 @@
 			)
 		)
 		(property "MPN" "GRM1555CYA103GE01D"
-			(at 167.64 213.36 0)
+			(at 168.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13570,7 +13668,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 167.64 213.36 0)
+			(at 168.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,7 +13677,7 @@
 			)
 		)
 		(property "Temperature coefficient" "C0G"
-			(at 171.45 215.9001 0)
+			(at 171.196 215.9001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13604,7 +13702,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 215.9 90)
+		(at 104.14 215.9 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13613,7 +13711,7 @@
 		(dnp no)
 		(uuid "906464fa-afd7-4bf3-8921-06c7b8590bb7")
 		(property "Reference" "R208"
-			(at 97.79 210.82 90)
+			(at 104.14 212.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13622,7 +13720,7 @@
 			)
 		)
 		(property "Value" "100 Ω"
-			(at 97.79 213.36 90)
+			(at 104.14 214.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13631,7 +13729,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 97.79 214.122 90)
+			(at 104.14 214.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13640,7 +13738,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110022.pdf"
-			(at 97.79 215.9 0)
+			(at 104.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13649,7 +13747,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 215.9 0)
+			(at 104.14 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13658,7 +13756,7 @@
 			)
 		)
 		(property "MPN" "560112110022"
-			(at 97.79 215.9 90)
+			(at 104.14 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13667,7 +13765,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 97.79 215.9 90)
+			(at 104.14 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13691,137 +13789,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 278.13 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90b58611-63de-4690-99a3-020917d43a42")
-		(property "Reference" "TP213"
-			(at 278.13 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 280.67 211.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 283.21 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 283.21 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 278.13 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19162728-8d86-40a4-a3bf-7cffb72d311e")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 398.78 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "966570b7-21d3-4e7c-8e06-5781cc7de7c2")
-		(property "Reference" "#FLG0204"
-			(at 398.78 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 398.78 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 398.78 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 398.78 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dabe913b-7dc9-4139-9e29-0c8379c26dea")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#FLG0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 161.29 88.9 0)
 		(unit 1)
@@ -13831,7 +13798,7 @@
 		(dnp no)
 		(uuid "9764ff20-0a59-4e0f-ac5d-b6914b2bcc4c")
 		(property "Reference" "C205"
-			(at 165.1 86.36 0)
+			(at 163.83 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13840,7 +13807,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 165.1 88.9 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13894,7 +13861,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 165.1 91.4401 0)
+			(at 163.83 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13918,112 +13885,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 344.17 200.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98c6c88d-2e66-4c88-9ded-f0cc9086e138")
-		(property "Reference" "R227"
-			(at 344.17 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 344.17 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 344.17 202.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112120002.pdf"
-			(at 344.17 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 344.17 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 344.17 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112120002"
-			(at 344.17 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b451924d-76eb-4174-9013-17eadd09452f")
-		)
-		(pin "1"
-			(uuid "eb748f96-4c39-44c8-a23c-c58422d7c14c")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R227")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 82.55 217.17 0)
-		(mirror x)
+		(at 82.55 217.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c5e2d0b-8b04-46d7-a6ed-e1d942cdc126")
+		(uuid "9802f325-f063-4c01-ac83-902002651d2c")
 		(property "Reference" "TP203"
-			(at 82.55 222.25 0)
+			(at 82.55 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 85.09 220.472 90)
+			(at 80.01 220.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14032,7 +13912,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 87.63 217.17 0)
+			(at 77.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14041,7 +13921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 217.17 0)
+			(at 77.47 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14059,12 +13939,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8276f18-66b2-492e-bf34-5aa215eec53b")
+			(uuid "e522feb2-b57f-48eb-b6a7-489dc95f40cd")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "TP203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 355.6 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9be9fddd-0f5c-4bb3-ba7b-a8f92b0a7f11")
+		(property "Reference" "TP215"
+			(at 355.6 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 358.14 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 360.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 355.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8781fb63-adbe-4f85-ac76-49b122d22f8c")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP215")
 					(unit 1)
 				)
 			)
@@ -14080,11 +14026,12 @@
 		(dnp no)
 		(uuid "9e1e571f-4c67-435a-bceb-14fed75920c6")
 		(property "Reference" "TP204"
-			(at 88.9 69.85 0)
+			(at 88.9 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -14145,7 +14092,7 @@
 		(dnp no)
 		(uuid "9fff65a2-292b-447e-83f2-0f9e8080806f")
 		(property "Reference" "R220"
-			(at 288.29 80.01 0)
+			(at 287.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14154,7 +14101,7 @@
 			)
 		)
 		(property "Value" "390 kΩ"
-			(at 288.29 82.55 0)
+			(at 287.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14208,7 +14155,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 288.29 85.0901 0)
+			(at 287.02 85.0901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14232,6 +14179,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 367.03 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1e57b59-8411-4ac6-a8d6-5c3e5d4e518d")
+		(property "Reference" "#FLG0202"
+			(at 367.03 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 367.03 236.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 367.03 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12614ad2-faa0-4e33-a96b-4a0d4e39a233")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "#FLG0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 266.7 82.55 0)
 		(unit 1)
@@ -14241,7 +14254,7 @@
 		(dnp no)
 		(uuid "a29c2376-187a-47ce-b27a-201c6bd8886d")
 		(property "Reference" "R218"
-			(at 269.24 80.01 0)
+			(at 267.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14250,7 +14263,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 269.24 82.55 0)
+			(at 267.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +14317,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 269.24 85.0901 0)
+			(at 267.97 85.0901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,6 +14341,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 354.33 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a75cfc52-ceb1-419e-b049-ca754a83c776")
+		(property "Reference" "R231"
+			(at 354.33 181.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4.99 kΩ"
+			(at 354.33 183.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 354.33 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
+			(at 354.33 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 354.33 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112110247"
+			(at 354.33 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 354.33 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f5fbe33-c482-465f-9174-1d6cad0e52fc")
+		)
+		(pin "1"
+			(uuid "fe5e0078-3de3-47c4-b57e-8eb971df74d9")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 176.53 88.9 0)
 		(unit 1)
@@ -14337,7 +14437,7 @@
 		(dnp no)
 		(uuid "aaa59ab5-68f9-4c65-9738-fc4a6c1ab929")
 		(property "Reference" "C208"
-			(at 180.34 86.36 0)
+			(at 179.07 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14346,7 +14446,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 180.34 88.9 0)
+			(at 179.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14400,7 +14500,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 180.34 91.4401 0)
+			(at 179.07 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14512,6 +14612,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 344.17 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad9808fa-3d97-42e1-8373-7815863a72f2")
+		(property "Reference" "R227"
+			(at 344.17 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 344.17 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 344.17 202.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112120002.pdf"
+			(at 344.17 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 344.17 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 344.17 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "560112120002"
+			(at 344.17 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eafe0701-27d5-42b1-a137-e4ba14bdc0c7")
+		)
+		(pin "1"
+			(uuid "c19f4b21-9e85-43b7-9649-f2349aeab367")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 62.23 88.9 90)
 		(unit 1)
@@ -14521,11 +14708,12 @@
 		(dnp no)
 		(uuid "aefa7050-e6df-4370-a415-4f5b893d7139")
 		(property "Reference" "TP202"
-			(at 58.928 86.868 90)
+			(at 57.912 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -14586,7 +14774,7 @@
 		(dnp no)
 		(uuid "af33469b-22ce-4388-8902-33d4062fca7b")
 		(property "Reference" "R216"
-			(at 257.81 201.9299 0)
+			(at 256.54 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14595,7 +14783,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 257.81 204.4699 0)
+			(at 256.54 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14671,10 +14859,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b448c977-c902-4dbb-922e-1d5b90c90829")
 		(property "Reference" "Q202"
-			(at 120.65 214.6299 0)
+			(at 119.126 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14683,7 +14870,7 @@
 			)
 		)
 		(property "Value" "IRFL4315TRPBF"
-			(at 120.65 217.1699 0)
+			(at 119.126 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14758,72 +14945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 203.2 227.33 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8d449cf-15af-4c00-b1e9-b31ad40c3b25")
-		(property "Reference" "TP210"
-			(at 203.2 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 200.66 224.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 198.12 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 203.2 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c4e3eac-3851-4232-b7bc-231170e381d9")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 57.15 190.5 0)
 		(unit 1)
@@ -14833,7 +14954,7 @@
 		(dnp no)
 		(uuid "bb84875b-3e1e-4756-a2d2-d95b6bb3af9e")
 		(property "Reference" "C202"
-			(at 60.96 187.96 0)
+			(at 59.436 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14842,7 +14963,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 60.96 190.5 0)
+			(at 59.436 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14896,7 +15017,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 60.96 193.0401 0)
+			(at 59.436 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14930,7 +15051,7 @@
 		(dnp no)
 		(uuid "bd890276-67e2-4a25-8e63-43a652610569")
 		(property "Reference" "R214"
-			(at 162.56 220.98 0)
+			(at 163.83 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14939,7 +15060,7 @@
 			)
 		)
 		(property "Value" "50 kΩ"
-			(at 162.56 223.52 0)
+			(at 163.83 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,7 +15114,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 162.56 226.0601 0)
+			(at 163.83 226.0601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15018,7 +15139,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 276.86 222.25 0)
+		(at 278.13 222.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15027,7 +15148,7 @@
 		(dnp no)
 		(uuid "bf4b14d4-d519-4955-9f35-e4267cacb912")
 		(property "Reference" "C216"
-			(at 273.05 219.71 0)
+			(at 275.844 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15036,7 +15157,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 273.05 222.25 0)
+			(at 275.844 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15045,7 +15166,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 275.8948 226.06 0)
+			(at 277.1648 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15054,7 +15175,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 276.86 222.25 0)
+			(at 278.13 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15063,7 +15184,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 276.86 222.25 0)
+			(at 278.13 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15072,7 +15193,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 276.86 222.25 0)
+			(at 278.13 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15081,7 +15202,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 276.86 222.25 0)
+			(at 278.13 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15090,7 +15211,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 273.05 224.7901 0)
+			(at 275.844 224.7901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15123,7 +15244,7 @@
 		(dnp no)
 		(uuid "c02efdbe-745a-4350-8a04-3c01f9b0003e")
 		(property "Reference" "R222"
-			(at 288.29 105.41 0)
+			(at 287.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15132,7 +15253,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 288.29 107.95 0)
+			(at 287.02 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15186,7 +15307,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 288.29 110.4901 0)
+			(at 287.02 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15219,7 +15340,7 @@
 		(dnp no)
 		(uuid "c155c60b-a273-49cb-829e-9c004dba6aec")
 		(property "Reference" "R205"
-			(at 66.04 93.9799 0)
+			(at 64.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15228,7 +15349,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 66.04 96.5199 0)
+			(at 64.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15385,73 +15506,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 358.14 240.03 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6b13b1a-65ae-40ca-bec1-a405faa9400c")
-		(property "Reference" "TP218"
-			(at 358.14 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 355.6 236.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 353.06 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 353.06 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 358.14 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a4ee2c5-e95b-4e5a-bfcc-909e16ae4937")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP218")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 304.8 82.55 0)
 		(unit 1)
@@ -15461,7 +15515,7 @@
 		(dnp no)
 		(uuid "c6f075b8-bb6b-4ecb-993a-75f6b41985de")
 		(property "Reference" "C217"
-			(at 308.61 80.01 0)
+			(at 307.086 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15470,7 +15524,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 308.61 82.55 0)
+			(at 307.086 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15524,7 +15578,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 308.61 85.0901 0)
+			(at 307.086 85.0901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15558,7 +15612,7 @@
 		(dnp no)
 		(uuid "c73f3a97-18e1-4a67-b819-13c0d1309979")
 		(property "Reference" "D203"
-			(at 105.41 181.61 90)
+			(at 106.426 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15567,7 +15621,7 @@
 			)
 		)
 		(property "Value" "SMAZ16-13-F"
-			(at 105.41 184.15 90)
+			(at 106.426 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15603,7 +15657,7 @@
 			)
 		)
 		(property "Zener voltage" "16 V"
-			(at 105.41 186.6901 90)
+			(at 106.426 186.6901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15739,73 +15793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 273.05 176.53 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8acfb43-6151-44b6-b9eb-9533cc260de0")
-		(property "Reference" "TP212"
-			(at 273.05 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 270.51 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 267.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 273.05 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1627226d-d1ce-4ea0-b3ea-f879fecf8c54")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP212")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 16.51 242.57 0)
 		(unit 1)
@@ -15873,73 +15860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 355.6 74.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca6bbe09-987c-4ca3-97ca-93df521856f3")
-		(property "Reference" "TP217"
-			(at 355.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 353.06 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 350.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 350.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 355.6 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02c34904-b395-43ae-b6a9-080c7684591d")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 342.9 82.55 0)
 		(mirror y)
@@ -15950,7 +15870,7 @@
 		(dnp no)
 		(uuid "cc16f25e-f7bd-4ec0-b560-3d47b105ee0f")
 		(property "Reference" "R224"
-			(at 340.36 81.2799 0)
+			(at 341.63 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15959,7 +15879,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 340.36 83.8199 0)
+			(at 341.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16028,34 +15948,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 354.33 220.98 90)
+		(lib_id "Connector:TestPoint")
+		(at 118.11 191.77 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ccb572ed-c4ed-4508-a6d0-7b89989ffb64")
-		(property "Reference" "R233"
-			(at 354.33 223.52 90)
+		(uuid "cefeeb47-b61a-4ec3-8121-b0833bb9bc31")
+		(property "Reference" "TP207"
+			(at 122.428 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "4.99 kΩ"
-			(at 354.33 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 354.33 222.758 90)
+		(property "Value" "TestPoint"
+			(at 121.412 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16063,8 +15975,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
-			(at 354.33 220.98 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 118.11 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16072,8 +15984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 354.33 220.98 0)
+		(property "Datasheet" "~"
+			(at 118.11 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16081,34 +15993,22 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110247"
-			(at 354.33 220.98 90)
+		(property "Description" "test point"
+			(at 118.11 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 354.33 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "818d4ee8-ddef-450f-a8f4-5f29e5980187")
 		)
 		(pin "1"
-			(uuid "405ebf16-cfe1-4234-a340-7bcd679fd0df")
+			(uuid "195f1c4a-0b56-4095-881f-8f12696de217")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R233")
+					(reference "TP207")
 					(unit 1)
 				)
 			)
@@ -16125,7 +16025,7 @@
 		(dnp no)
 		(uuid "cff151fc-8439-46b5-b35d-3f368dd34f54")
 		(property "Reference" "R213"
-			(at 162.56 187.96 0)
+			(at 163.83 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16134,7 +16034,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 162.56 190.5 0)
+			(at 163.83 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +16088,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 162.56 193.0401 0)
+			(at 163.83 193.0401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16212,138 +16112,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 115.57 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d27bee25-1f94-4b81-9861-63ecf4ba9578")
-		(property "Reference" "TP207"
-			(at 112.268 199.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 112.268 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 115.57 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 115.57 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "877b9a46-9084-486c-b749-087853ec1c41")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 74.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d30908c7-cf78-4bc0-8adb-683ae6c89bc2")
-		(property "Reference" "TP209"
-			(at 168.91 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 166.37 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 163.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af1201fe-5edf-448d-a0ea-7156815009c5")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 240.03 88.9 0)
 		(unit 1)
@@ -16353,7 +16121,7 @@
 		(dnp no)
 		(uuid "d3f8740d-8c0d-4a29-b0d0-6a4d3bb19794")
 		(property "Reference" "C215"
-			(at 243.84 86.36 0)
+			(at 242.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16362,7 +16130,7 @@
 			)
 		)
 		(property "Value" "560 µF"
-			(at 243.84 88.9 0)
+			(at 242.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16416,7 +16184,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 243.84 91.44 0)
+			(at 242.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16671,7 +16439,7 @@
 		(dnp no)
 		(uuid "da9be042-f2ab-4ad1-8b6a-418582b16acc")
 		(property "Reference" "C219"
-			(at 321.31 80.01 0)
+			(at 319.786 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16680,7 +16448,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 321.31 82.55 0)
+			(at 319.786 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,7 +16502,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 321.31 85.0901 0)
+			(at 319.786 85.0901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16752,6 +16520,138 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "C219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 256.54 217.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db5c900e-6cbf-41e2-965e-417f4ff1a591")
+		(property "Reference" "TP210"
+			(at 256.54 221.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 254 220.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 251.46 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 256.54 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9a8af29-f227-4aa8-8981-c5e2dc025955")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 358.14 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc53ed53-4552-412f-bea0-ea470bc7aed6")
+		(property "Reference" "TP216"
+			(at 358.14 235.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 360.68 236.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 363.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 358.14 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da56516b-f96e-4325-aa0b-d43b7771e8e2")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP216")
 					(unit 1)
 				)
 			)
@@ -16855,7 +16755,7 @@
 		(dnp no)
 		(uuid "dceff2b4-7dee-4539-921d-e469d9cb7021")
 		(property "Reference" "R212"
-			(at 158.75 168.91 90)
+			(at 158.75 171.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16864,7 +16764,7 @@
 			)
 		)
 		(property "Value" "50 mΩ"
-			(at 158.75 171.45 90)
+			(at 158.75 172.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +16818,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 158.75 173.99 90)
+			(at 158.75 174.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16958,7 +16858,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e44e85fc-229b-4793-8c53-11670be9744f")
 		(property "Reference" "#FLG0203"
 			(at 383.54 79.375 0)
@@ -16970,11 +16869,12 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 383.54 82.55 0)
+			(at 383.54 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -17105,6 +17005,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 341.63 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e99aab33-5a8c-4ae9-bc96-a35a40d5fa83")
+		(property "Reference" "TP214"
+			(at 341.63 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 339.09 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 336.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 336.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 341.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9321dc4-3b81-4504-9cee-e11ac4579bd0")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 191.77 88.9 0)
 		(unit 1)
@@ -17211,7 +17177,7 @@
 		(dnp no)
 		(uuid "ef931ef0-6204-463d-8d08-c79b6af2b021")
 		(property "Reference" "C203"
-			(at 110.49 86.36 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17220,7 +17186,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 110.49 88.9 0)
+			(at 111.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17274,7 +17240,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 110.49 91.4401 0)
+			(at 111.76 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17305,10 +17271,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f28b7713-d3ac-4c78-ba6f-7de435eee277")
 		(property "Reference" "R234"
-			(at 373.38 92.7099 0)
+			(at 372.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17317,7 +17282,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 373.38 95.2499 0)
+			(at 372.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17387,93 +17352,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 344.17 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f28db26c-4639-42f1-bf30-2c7378154711")
-		(property "Reference" "R226"
-			(at 344.17 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 344.17 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 344.17 182.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112120002.pdf"
-			(at 344.17 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 344.17 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 344.17 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112120002"
-			(at 344.17 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8295df5-f17f-485a-b16e-96a0dee3381c")
-		)
-		(pin "1"
-			(uuid "bd496b8e-d009-49da-bb92-593b632e5b40")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R226")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 81.28 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17482,7 +17360,7 @@
 		(dnp no)
 		(uuid "f5b031c7-19ae-4d65-a17e-ded80fb2b853")
 		(property "Reference" "R206"
-			(at 83.82 201.9299 0)
+			(at 82.55 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17491,7 +17369,7 @@
 			)
 		)
 		(property "Value" "100 kΩ"
-			(at 83.82 204.4699 0)
+			(at 82.55 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17567,7 +17445,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f69f3756-0b0c-4d8e-80ba-dab4f550b5d4")
 		(property "Reference" "#FLG0201"
 			(at 215.9 73.025 0)
@@ -17579,11 +17456,12 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 215.9 69.85 0)
+			(at 215.9 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
@@ -17836,7 +17714,7 @@
 		(dnp no)
 		(uuid "fefbe97a-bc13-44c3-9c4d-58352ac4336c")
 		(property "Reference" "C211"
-			(at 213.36 86.36 0)
+			(at 212.09 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17845,7 +17723,7 @@
 			)
 		)
 		(property "Value" "560 µF"
-			(at 213.36 88.9 0)
+			(at 212.09 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17899,7 +17777,7 @@
 			)
 		)
 		(property "Voltage rating" "≥ 35 V"
-			(at 213.36 91.44 0)
+			(at 212.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,72 +17795,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "C211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 256.54 217.17 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffef72d3-5259-406f-8402-220df0e3d9ba")
-		(property "Reference" "TP211"
-			(at 256.54 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 259.08 220.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 261.62 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 256.54 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d4780b4-830f-4501-b5c9-298ce66ffcfb")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP211")
 					(unit 1)
 				)
 			)
