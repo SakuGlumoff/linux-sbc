@@ -3597,16 +3597,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 82.55) (xy 77.47 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074a0506-a1fc-4b23-b15b-a8769115cd0e")
-	)
-	(wire
-		(pts
 			(xy 203.2 134.62) (xy 232.41 134.62)
 		)
 		(stroke
@@ -5737,6 +5727,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 82.55) (xy 77.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57bc610-13ff-4168-9ab3-a919318020dd")
+	)
+	(wire
+		(pts
 			(xy 262.89 121.92) (xy 297.18 121.92)
 		)
 		(stroke
@@ -7444,200 +7444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 115.57 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03bcd6b2-2f9c-443a-ade6-a45cb7bbdc92")
-		(property "Reference" "C817"
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 113.03 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.6048 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 113.03 91.4401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "2876f6e2-a313-474d-8230-5d972a760b9b")
-		)
-		(pin "1"
-			(uuid "8959cb2c-1a15-4410-a388-0c3637c9e0e8")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C817")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 102.87 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "044039f5-1011-4b4e-8ec3-e814d05c7420")
-		(property "Reference" "C814"
-			(at 100.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 100.33 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.9048 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 102.87 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 102.87 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 100.33 91.4401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "97173a9d-80b7-4e9d-b01a-95b0a3d1ef3c")
-		)
-		(pin "1"
-			(uuid "ce2b7176-cead-4930-b92a-5b1c7c17f898")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C814")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Micron Technology:MT41K256M16TW")
 		(at 161.29 116.84 0)
 		(unit 1)
@@ -8088,7 +7894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
+		(property "Voltage rating" "≥ 16 V"
 			(at 124.46 158.7501 0)
 			(effects
 				(font
@@ -8107,6 +7913,103 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
 					(reference "C819")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d016499-9726-40b4-8f4c-2625def1c14f")
+		(property "Reference" "C815"
+			(at 111.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.3348 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 111.76 127.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "1818020b-e48a-4068-9462-9e73b4b783c7")
+		)
+		(pin "1"
+			(uuid "939fec0e-f77e-42f3-8647-26535392765b")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C815")
 					(unit 1)
 				)
 			)
@@ -8492,16 +8395,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 140.97 88.9 0)
+		(at 101.6 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1fe0b29f-9fb6-4d22-8349-9674761dc3b8")
-		(property "Reference" "C822"
-			(at 138.43 86.36 0)
+		(uuid "2f2a725b-6d54-433e-b086-f6931fd4dde9")
+		(property "Reference" "C813"
+			(at 99.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8413,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 138.43 88.9 0)
+			(at 99.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.0048 92.71 0)
+			(at 100.6348 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 88.9 0)
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 88.9 0)
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8449,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 140.97 88.9 0)
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +8458,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 140.97 88.9 0)
+			(at 101.6 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8563,8 +8466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 138.43 91.4401 0)
+		(property "Voltage rating" "≥ 16 V"
+			(at 99.06 127.0001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8573,15 +8476,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a6f2890-d1d4-4116-910b-98c87a58d910")
+			(uuid "464c058f-e8be-4323-9e95-83858630c90e")
 		)
 		(pin "1"
-			(uuid "bba2aaf8-4f72-4ba7-9451-8499d741f43a")
+			(uuid "c29d8389-653d-4c9d-a963-f0d5723a9009")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C822")
+					(reference "C813")
 					(unit 1)
 				)
 			)
@@ -8589,16 +8492,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 124.46 0)
+		(at 76.2 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3888d9fc-bfba-4fb3-9ea3-ed413ed0515d")
-		(property "Reference" "C807"
-			(at 60.96 121.92 0)
+		(uuid "3289f568-60c2-450d-adc0-4877e6d97e26")
+		(property "Reference" "C809"
+			(at 73.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8510,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 60.96 124.46 0)
+			(at 73.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +8519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.5348 128.27 0)
+			(at 75.2348 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 124.46 0)
+			(at 76.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8537,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 124.46 0)
+			(at 76.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +8546,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 63.5 124.46 0)
+			(at 76.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8555,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 63.5 124.46 0)
+			(at 76.2 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,8 +8563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 60.96 127.0001 0)
+		(property "Voltage rating" "≥ 16 V"
+			(at 73.66 127.0001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,15 +8573,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8622848b-5912-46af-a012-09c5066b758c")
+			(uuid "28409d22-eabd-4e7c-8e46-0acda2e8e169")
 		)
 		(pin "1"
-			(uuid "2b90ccfa-ca50-4353-8b1a-bdaad65c692a")
+			(uuid "5925c4d2-67d1-4312-937e-46f36b0a545b")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C807")
+					(reference "C809")
 					(unit 1)
 				)
 			)
@@ -8686,16 +8589,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 124.46 0)
+		(at 77.47 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3c830245-522d-47d0-81d0-fbcb485d1aba")
-		(property "Reference" "C805"
-			(at 48.26 121.92 0)
+		(uuid "3cebd0fd-0ccd-43d5-a541-8adda4aac0c4")
+		(property "Reference" "C810"
+			(at 74.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +8607,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 48.26 124.46 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.8348 128.27 0)
+			(at 76.5048 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +8625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 124.46 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +8634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 124.46 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +8643,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 50.8 124.46 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +8652,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 50.8 124.46 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8757,8 +8660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 48.26 127.0001 0)
+		(property "Voltage rating" "≥ 16 V"
+			(at 74.93 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8767,15 +8670,209 @@
 			)
 		)
 		(pin "2"
-			(uuid "be8ccee8-583e-4d82-a351-6452fb129fd7")
+			(uuid "718cfe7f-8578-4d60-a14f-1dbe5d671e99")
 		)
 		(pin "1"
-			(uuid "3b21cba9-4312-45b3-9e38-5458aa0827a8")
+			(uuid "9373d4d4-3e7b-41b2-bd56-db69c91700b1")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C805")
+					(reference "C810")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 128.27 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46a925ee-d711-473e-893e-0032913cfb5b")
+		(property "Reference" "C820"
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.3048 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 125.73 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "ba382894-ae0b-4aa9-9f41-4ced3085e73d")
+		)
+		(pin "1"
+			(uuid "ef620632-9560-48f5-891f-489124067100")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C820")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 38.1 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49860d84-82ff-47cc-b36e-f7afa69b4a3e")
+		(property "Reference" "C803"
+			(at 35.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 35.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.1348 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 35.56 127.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "d0648753-0929-4e10-8c19-0952f150c67a")
+		)
+		(pin "1"
+			(uuid "fc92c177-99cb-46d7-8829-f5faddc65ba0")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C803")
 					(unit 1)
 				)
 			)
@@ -8870,6 +8967,103 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 140.97 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e76b812-df45-4032-b097-48d9c6d13daf")
+		(property "Reference" "C822"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.0048 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 138.43 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "ab3c6286-f7b5-4beb-8637-2f9707a69d7d")
+		)
+		(pin "1"
+			(uuid "d3535b98-5ad7-4917-a83d-01c5e0d824a6")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C822")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 114.3 156.21 0)
 		(mirror y)
 		(unit 1)
@@ -8941,7 +9135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
+		(property "Voltage rating" "≥ 16 V"
 			(at 111.76 158.7501 0)
 			(effects
 				(font
@@ -8967,16 +9161,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 101.6 124.46 0)
+		(at 52.07 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "773c8f83-a84a-462a-8703-c3917e4235b3")
-		(property "Reference" "C813"
-			(at 99.06 121.92 0)
+		(uuid "8d4fb789-9497-41d1-a861-a9b00f9d9324")
+		(property "Reference" "C806"
+			(at 49.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8985,7 +9179,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 99.06 124.46 0)
+			(at 49.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8994,7 +9188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.6348 128.27 0)
+			(at 51.1048 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 124.46 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +9206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 124.46 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9021,7 +9215,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 101.6 124.46 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9224,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 101.6 124.46 0)
+			(at 52.07 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9038,8 +9232,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 99.06 127.0001 0)
+		(property "Voltage rating" "≥ 16 V"
+			(at 49.53 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9048,112 +9242,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9c58a83b-ace8-44d8-8f24-67770b49adfc")
+			(uuid "49db8693-abd7-4bc4-9e3b-188e2792c5a1")
 		)
 		(pin "1"
-			(uuid "e7769591-2c3c-4742-8b8f-277de1a04631")
+			(uuid "9f2e49dd-9898-4b97-a81f-e873684e6b5b")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C813")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 127 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c0138ba-801a-459f-aaf9-71315a072cc8")
-		(property "Reference" "C818"
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 126.0348 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 124.46 127.0001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "46b70626-4655-47ce-9c01-4a850ebfe16d")
-		)
-		(pin "1"
-			(uuid "38fc4875-c6f0-4090-8efe-1a4698f7bdcf")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C818")
+					(reference "C806")
 					(unit 1)
 				)
 			)
@@ -9232,7 +9329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
+		(property "Voltage rating" "≥ 16 V"
 			(at 36.83 91.4401 0)
 			(effects
 				(font
@@ -9348,6 +9445,103 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
 					(reference "R802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91c795f9-c1f8-46d7-928b-96278a9f272a")
+		(property "Reference" "C818"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 124.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.0348 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 124.46 127.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "343d2876-fe4c-49f9-b189-b8c649f86864")
+		)
+		(pin "1"
+			(uuid "3f75f2d1-f373-47cf-8589-68256f4e0d75")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C818")
 					(unit 1)
 				)
 			)
@@ -9801,16 +9995,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 88.9 0)
+		(at 139.7 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a78ed440-8544-4e16-ba11-468f6449bcd1")
-		(property "Reference" "C812"
-			(at 87.63 86.36 0)
+		(uuid "a04b9176-1317-4ceb-82b4-0d84a83ababd")
+		(property "Reference" "C821"
+			(at 137.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9819,7 +10013,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 87.63 88.9 0)
+			(at 137.16 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,7 +10022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 89.2048 92.71 0)
+			(at 138.7348 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +10031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 88.9 0)
+			(at 139.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +10040,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 88.9 0)
+			(at 139.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +10049,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 90.17 88.9 0)
+			(at 139.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +10058,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 90.17 88.9 0)
+			(at 139.7 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9872,8 +10066,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 87.63 91.4401 0)
+		(property "Voltage rating" "≥ 16 V"
+			(at 137.16 127.0001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9882,15 +10076,306 @@
 			)
 		)
 		(pin "2"
-			(uuid "e1815b72-49d3-4dc5-bee4-b7675eaca381")
+			(uuid "b7fa8783-716a-4c80-929a-a9b424d29a08")
 		)
 		(pin "1"
-			(uuid "eee1f2df-a8ff-41ef-92e9-d70512ed6811")
+			(uuid "f43f3236-981e-421b-aebb-3e9cce8c2926")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C812")
+					(reference "C821")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1c09749-c698-4784-9267-18145008b5f4")
+		(property "Reference" "C814"
+			(at 100.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.9048 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 100.33 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "a17d230a-b3a4-4172-b23f-6758071d61bf")
+		)
+		(pin "1"
+			(uuid "0c7ef6e5-122d-40b3-a9d3-3e290cdb21a3")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C814")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5b36021-2b2e-42a1-903a-a247443b34c5")
+		(property "Reference" "C817"
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.6048 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 115.57 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 113.03 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "82523751-d751-48f1-a671-8d8890f58703")
+		)
+		(pin "1"
+			(uuid "b44a66ab-11d2-42f8-92d3-533c8fbeaa21")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C817")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab8ded0b-66b8-4d3b-a604-07d75bef7410")
+		(property "Reference" "C807"
+			(at 60.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 60.96 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.5348 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 60.96 127.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f32bbebc-3b5d-4788-97df-185860170481")
+		)
+		(pin "1"
+			(uuid "b2d2e6ae-539e-4828-8c91-af6cf6192bec")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C807")
 					(unit 1)
 				)
 			)
@@ -9905,7 +10390,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a895cb49-bf34-477b-bec9-f420a6c703ab")
+		(uuid "ad3129f6-ec0e-4289-be2f-7330aff00364")
 		(property "Reference" "C811"
 			(at 86.36 121.92 0)
 			(effects
@@ -9969,7 +10454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
+		(property "Voltage rating" "≥ 16 V"
 			(at 86.36 127.0001 0)
 			(effects
 				(font
@@ -9979,10 +10464,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9eb9baa7-f780-4516-9a8c-c891c7aee4b3")
+			(uuid "4c1e9d65-855d-4b12-a02b-7cec00b3a091")
 		)
 		(pin "1"
-			(uuid "68454be8-7d64-491e-9a8d-fddab07e1289")
+			(uuid "abbd1390-ffcb-4f38-9472-7c8f7719aba0")
 		)
 		(instances
 			(project "linux-sbc"
@@ -9995,16 +10480,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 88.9 0)
+		(at 90.17 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ad00a438-833b-4101-b094-1e107cf1f9cb")
-		(property "Reference" "C808"
-			(at 62.23 86.36 0)
+		(uuid "b1a886ae-6722-4ee4-a952-b5d69d591d17")
+		(property "Reference" "C812"
+			(at 87.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10498,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 62.23 88.9 0)
+			(at 87.63 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,7 +10507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.8048 92.71 0)
+			(at 89.2048 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10031,7 +10516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 88.9 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10040,7 +10525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 88.9 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,7 +10534,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 64.77 88.9 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10543,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 64.77 88.9 0)
+			(at 90.17 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,8 +10551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 62.23 91.4401 0)
+		(property "Voltage rating" "≥ 16 V"
+			(at 87.63 91.4401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,209 +10561,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "19aeaa76-0a65-4c46-b98e-14801d808578")
+			(uuid "7272d0bd-3ce8-46d5-a543-85ce4e7a26cb")
 		)
 		(pin "1"
-			(uuid "a45fce66-7b52-4773-a500-6021fb93eb4c")
+			(uuid "97ab4ab5-a64e-4530-ad5d-37e53e85e893")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C808")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 77.47 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b0b48010-369b-4b49-a53f-c05705442d5e")
-		(property "Reference" "C810"
-			(at 74.93 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 74.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.5048 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 74.93 91.4401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "b7b2a2fe-5919-4ef8-bdac-3d1d72fd3f3d")
-		)
-		(pin "1"
-			(uuid "a0ca2ad2-d9d4-4af0-9da0-6705728e5d60")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C810")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b43c460a-26ad-4b90-b225-4f4477ca5fee")
-		(property "Reference" "C820"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 125.73 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127.3048 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 128.27 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 128.27 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 125.73 91.4401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "35272f95-d9bb-4117-b907-3b1bf191a9b6")
-		)
-		(pin "1"
-			(uuid "acd70115-9fd3-4393-8207-b3770d428d0d")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C820")
+					(reference "C812")
 					(unit 1)
 				)
 			)
@@ -10346,200 +10637,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
 					(reference "#PWR0803")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 139.7 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c77cdc80-0a55-44d0-b3c8-806f38417ed5")
-		(property "Reference" "C821"
-			(at 137.16 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 137.16 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.7348 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 139.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 137.16 127.0001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "86a19e52-96f5-4817-97d4-0bfbe7dd9d5c")
-		)
-		(pin "1"
-			(uuid "c253d10a-3b65-438f-b709-e32ed7cd0196")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C821")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 114.3 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cae61174-5fc1-4c85-a47a-c62009e3527e")
-		(property "Reference" "C815"
-			(at 111.76 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 111.76 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.3348 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 114.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 114.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 111.76 127.0001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "2e3ba30f-e089-4d54-8ff6-e6326e123aff")
-		)
-		(pin "1"
-			(uuid "776166a4-c930-4405-9dcb-ec129996de0d")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C815")
 					(unit 1)
 				)
 			)
@@ -10618,7 +10715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
+		(property "Voltage rating" "≥ 16 V"
 			(at 22.86 127.0001 0)
 			(effects
 				(font
@@ -10704,200 +10801,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
 					(reference "#PWR0801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 76.2 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd7a1768-fc6d-49b6-8434-5bd34c50a538")
-		(property "Reference" "C809"
-			(at 73.66 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 73.66 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.2348 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 76.2 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 73.66 127.0001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "1ea6f758-f56c-46c3-9e29-b489f858385e")
-		)
-		(pin "1"
-			(uuid "80c0f03f-44ac-4d4d-aee3-a09143bb7c0b")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C809")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 38.1 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce4c9a4d-5cb3-42f3-87d8-3974a1f0b45d")
-		(property "Reference" "C803"
-			(at 35.56 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 35.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 37.1348 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 38.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 38.1 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 35.56 127.0001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "4ef9f8d0-6679-4121-8d5a-77210064012d")
-		)
-		(pin "1"
-			(uuid "9f5ecf47-203b-499b-8cce-da54fd238ed3")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C803")
 					(unit 1)
 				)
 			)
@@ -11002,103 +10905,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 52.07 88.9 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f33f7f75-4400-4ea5-97f3-38d74dcb6930")
-		(property "Reference" "C806"
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 49.53 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 51.1048 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 52.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 10 V"
-			(at 49.53 91.4401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "f01ea355-8023-45da-8682-58303c7834b2")
-		)
-		(pin "1"
-			(uuid "051cee78-08a2-4ce6-a69a-c6323e6ca921")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
-					(reference "C806")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 26.67 88.9 0)
 		(mirror y)
 		(unit 1)
@@ -11170,7 +10976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 10 V"
+		(property "Voltage rating" "≥ 16 V"
 			(at 24.13 91.4401 0)
 			(effects
 				(font
@@ -11277,6 +11083,200 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
 					(reference "R803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8859e48-20f5-49d1-aa03-3cf5fbc5d3be")
+		(property "Reference" "C808"
+			(at 62.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 62.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.8048 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 64.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 62.23 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "b68dac51-b6ef-481d-bcfc-cc01c9b0c576")
+		)
+		(pin "1"
+			(uuid "685c797b-3254-4e5f-9bf3-3c940480eab8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C808")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50.8 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdf31b1f-54ac-477a-9e27-29cc6617ab9a")
+		(property "Reference" "C805"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.8348 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 16 V"
+			(at 48.26 127.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "07c3752d-75e1-4e3c-a0a3-c20e931306ff")
+		)
+		(pin "1"
+			(uuid "45ea2e1c-cc67-46ff-95b7-7ce69a73c9e4")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b95ca287-ddfc-48bc-929f-a440f70b1b06"
+					(reference "C805")
 					(unit 1)
 				)
 			)
