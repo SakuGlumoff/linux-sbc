@@ -319,6 +319,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2075,6 +2225,12 @@
 		(uuid "8632b4d3-eeb8-4a15-a6bb-bfa1237cb32b")
 	)
 	(junction
+		(at 292.1 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8656b502-02c2-432c-8e73-a6a417312609")
+	)
+	(junction
 		(at 184.15 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2085,6 +2241,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92cc43aa-121a-4e92-bfb5-e46a388eeb2a")
+	)
+	(junction
+		(at 304.8 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95f45920-ec2a-41e9-a927-544310eda4bf")
 	)
 	(junction
 		(at 184.15 200.66)
@@ -2099,10 +2261,10 @@
 		(uuid "a95a286b-2e28-4bb6-b378-16adf173a000")
 	)
 	(junction
-		(at 297.18 185.42)
+		(at 292.1 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "adb3adfb-73a9-4fdb-a02d-5d8d2651f8f7")
+		(uuid "ac0db12b-681d-4b53-a57b-cbd4ff40cba6")
 	)
 	(junction
 		(at 184.15 208.28)
@@ -2515,6 +2677,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 175.26) (xy 292.1 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c40ce5f-3b12-4de7-ad8d-7c70898384c7")
+	)
+	(wire
+		(pts
 			(xy 184.15 226.06) (xy 184.15 227.33)
 		)
 		(stroke
@@ -2815,7 +2987,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 185.42) (xy 297.18 186.69)
+			(xy 304.8 185.42) (xy 304.8 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3082,6 +3254,16 @@
 			(type default)
 		)
 		(uuid "755d0127-4b29-41cb-8310-2a6cd17bc2e6")
+	)
+	(wire
+		(pts
+			(xy 292.1 184.15) (xy 292.1 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e44318-4ce9-4247-8af5-ab927d517aaa")
 	)
 	(wire
 		(pts
@@ -3695,7 +3877,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 185.42) (xy 297.18 185.42)
+			(xy 279.4 185.42) (xy 292.1 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3755,7 +3937,17 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 180.34) (xy 297.18 185.42)
+			(xy 292.1 175.26) (xy 299.72 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e385caa5-33d6-41aa-8b3e-8f1ee8657c30")
+	)
+	(wire
+		(pts
+			(xy 304.8 180.34) (xy 304.8 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3782,6 +3974,16 @@
 			(type default)
 		)
 		(uuid "e7478e02-04b8-4e9a-bd5c-45aef40e2fbf")
+	)
+	(wire
+		(pts
+			(xy 292.1 185.42) (xy 304.8 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9dc0034-ead8-4d67-9bc1-166fa1e4a869")
 	)
 	(wire
 		(pts
@@ -4334,7 +4536,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 297.18 175.26 0)
+		(at 304.8 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4342,7 +4544,7 @@
 		(dnp no)
 		(uuid "0ac2bee4-a753-4073-9895-d8fc7086308a")
 		(property "Reference" "J1301"
-			(at 299.72 173.99 0)
+			(at 307.34 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4553,7 @@
 			)
 		)
 		(property "Value" "u.FL"
-			(at 299.72 176.53 0)
+			(at 307.34 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 175.26 0)
+			(at 304.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 297.18 175.26 0)
+			(at 304.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4580,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 297.18 175.26 0)
+			(at 304.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5260,7 @@
 		(dnp no)
 		(uuid "45133779-5b62-4f14-bd75-f7f2e5f6afc9")
 		(property "Reference" "R1302"
-			(at 99.06 156.21 0)
+			(at 100.33 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5269,7 @@
 			)
 		)
 		(property "Value" "47 kΩ"
-			(at 99.06 158.75 0)
+			(at 100.33 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5323,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 99.06 161.2901 0)
+			(at 100.33 161.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +5962,7 @@
 		(dnp no)
 		(uuid "62b2585e-f653-4c74-8e32-7749419b17b1")
 		(property "Reference" "R1303"
-			(at 111.76 156.21 0)
+			(at 113.03 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +5971,7 @@
 			)
 		)
 		(property "Value" "47 kΩ"
-			(at 111.76 158.75 0)
+			(at 113.03 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +6025,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 111.76 161.2901 0)
+			(at 113.03 161.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +6059,7 @@
 		(dnp no)
 		(uuid "6545252c-bc98-414b-b842-a65ba12a60b0")
 		(property "Reference" "R1304"
-			(at 124.46 156.21 0)
+			(at 125.73 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +6068,7 @@
 			)
 		)
 		(property "Value" "47 kΩ"
-			(at 124.46 158.75 0)
+			(at 125.73 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6122,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 124.46 161.2901 0)
+			(at 125.73 161.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,6 +6314,76 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/24c9b83b-271d-4c51-b843-406c618d8ce8"
 					(reference "R1315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 292.1 180.34 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bd7b807-cf7a-4472-a370-a24547c02c42")
+		(property "Reference" "D1301"
+			(at 293.624 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 293.624 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 292.1 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19beaf65-39fb-48b7-841a-409b4719edbb")
+		)
+		(pin "2"
+			(uuid "f8f35848-5156-457a-9e64-e35f883a0576")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/24c9b83b-271d-4c51-b843-406c618d8ce8"
+					(reference "D1301")
 					(unit 1)
 				)
 			)
@@ -6572,7 +6844,7 @@
 		(dnp no)
 		(uuid "989b9c01-427c-4d27-afc1-18d2d243bf3e")
 		(property "Reference" "R1305"
-			(at 137.16 156.21 0)
+			(at 138.43 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6853,7 @@
 			)
 		)
 		(property "Value" "47 kΩ"
-			(at 137.16 158.75 0)
+			(at 138.43 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +6907,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 137.16 161.2901 0)
+			(at 138.43 161.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7325,7 @@
 		(dnp no)
 		(uuid "ce47600c-e30f-476c-af08-6b61e6ee6fe9")
 		(property "Reference" "R1301"
-			(at 86.36 156.21 0)
+			(at 87.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7334,7 @@
 			)
 		)
 		(property "Value" "47 kΩ"
-			(at 86.36 158.75 0)
+			(at 87.63 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +7388,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 86.36 161.2901 0)
+			(at 87.63 161.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +8166,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 297.18 186.69 0)
+		(at 304.8 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7903,7 +8175,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5c7e34d-e28b-4219-91d2-75b58960148e")
 		(property "Reference" "#PWR01306"
-			(at 297.18 193.04 0)
+			(at 304.8 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +8184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 297.18 191.77 0)
+			(at 304.8 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7921,7 +8193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 186.69 0)
+			(at 304.8 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7930,7 +8202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 297.18 186.69 0)
+			(at 304.8 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7939,7 +8211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 297.18 186.69 0)
+			(at 304.8 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
