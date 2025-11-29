@@ -2498,6 +2498,12 @@
 		(uuid "065eea76-b808-4b8e-b5fc-f166a10820f0")
 	)
 	(junction
+		(at 127 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06adb3f8-12d4-4393-ad8c-42e33a220def")
+	)
+	(junction
 		(at 177.8 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2592,12 +2598,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3988ba52-5cdd-4b55-90c4-4fac25c899af")
-	)
-	(junction
-		(at 127 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3b589c7e-ac5b-4e2d-8e55-d64057d0fc92")
 	)
 	(junction
 		(at 114.3 130.81)
@@ -2726,16 +2726,16 @@
 		(uuid "809ddd36-a175-4647-96b2-38cbd37a96bb")
 	)
 	(junction
-		(at 127 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "826409cd-6290-481a-a544-11bead8d54f7")
-	)
-	(junction
 		(at 177.8 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8406bb35-266d-4bae-bdd1-7434a67ea0ee")
+	)
+	(junction
+		(at 127 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "844b62b0-1af0-42ae-b61f-ad24d851fe25")
 	)
 	(junction
 		(at 364.49 137.16)
@@ -4547,6 +4547,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 146.05) (xy 144.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574d9a2c-a1a4-42b8-9133-6a6ab69c36ff")
+	)
+	(wire
+		(pts
 			(xy 64.77 82.55) (xy 64.77 85.09)
 		)
 		(stroke
@@ -4675,16 +4685,6 @@
 		)
 		(uuid "618db67a-dda1-4aab-9494-73949b013563")
 	)
-	(wire
-		(pts
-			(xy 139.7 161.29) (xy 127 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f1ddc3-ed27-449e-9b3f-409ea65d60c3")
-	)
 	(bus
 		(pts
 			(xy 299.72 124.46) (xy 299.72 127)
@@ -4714,16 +4714,6 @@
 			(type default)
 		)
 		(uuid "657b7cad-603e-460c-9bee-2fbf36aa73a9")
-	)
-	(wire
-		(pts
-			(xy 144.78 146.05) (xy 127 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65969942-b5cc-4d4b-96b0-431a2158aa64")
 	)
 	(wire
 		(pts
@@ -4884,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "726c30b8-f6e0-45b4-900a-60a7c95a836d")
+	)
+	(wire
+		(pts
+			(xy 127 161.29) (xy 139.7 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73530aff-b7b8-4222-982a-330c12637484")
 	)
 	(bus
 		(pts
@@ -5397,7 +5397,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 146.05) (xy 114.3 146.05)
+			(xy 114.3 146.05) (xy 127 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5917,7 +5917,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 161.29) (xy 114.3 161.29)
+			(xy 114.3 161.29) (xy 127 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8791,7 +8791,7 @@
 		(dnp no)
 		(uuid "5a06743f-bd50-4987-a3fd-7e2c01e00058")
 		(property "Reference" "R804"
-			(at 367.03 151.1299 0)
+			(at 365.76 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8800,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 367.03 153.6699 0)
+			(at 365.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,7 +9267,7 @@
 		(dnp no)
 		(uuid "8ed5a2ae-15b0-43a2-85de-c9034e57a499")
 		(property "Reference" "R802"
-			(at 245.11 163.83 0)
+			(at 246.38 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,7 +9276,7 @@
 			)
 		)
 		(property "Value" "100 Ω"
-			(at 245.11 166.37 0)
+			(at 246.38 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,7 +9330,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 245.11 168.9101 0)
+			(at 246.38 168.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +10914,7 @@
 		(dnp no)
 		(uuid "e12a62df-fefe-4f29-b369-aa8b3806916b")
 		(property "Reference" "R801"
-			(at 137.16 153.67 0)
+			(at 138.43 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +10923,7 @@
 			)
 		)
 		(property "Value" "240 Ω"
-			(at 137.16 156.21 0)
+			(at 138.43 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +10977,7 @@
 			)
 		)
 		(property "Tolerance" "± 1 %"
-			(at 137.16 158.7501 0)
+			(at 138.43 158.7501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11205,7 +11205,7 @@
 		(dnp no)
 		(uuid "f846939a-3a51-4622-a0f8-69db82a19960")
 		(property "Reference" "R803"
-			(at 359.41 151.1299 0)
+			(at 360.68 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +11214,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 359.41 153.6699 0)
+			(at 360.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
