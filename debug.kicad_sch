@@ -4690,6 +4690,12 @@
 		(uuid "2dc71cf6-1dbf-4e4f-aa13-6b3b1e7c5beb")
 	)
 	(junction
+		(at 96.52 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fba76ed-c768-4984-bab7-b8d5e21f00e8")
+	)
+	(junction
 		(at 187.96 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4742,6 +4748,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64cc7cdb-7fd0-462a-83c9-3a9e8168e248")
+	)
+	(junction
+		(at 101.6 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "661b3e25-28e4-45c4-bcc3-021fb91da87c")
 	)
 	(junction
 		(at 193.04 102.87)
@@ -5454,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 91.44 88.9)
+			(xy 101.6 83.82) (xy 101.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5484,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 88.9) (xy 91.44 88.9)
+			(xy 90.17 88.9) (xy 101.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6334,6 +6346,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 97.79) (xy 101.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7374a866-5409-4d30-8ef8-05f9dd803d83")
+	)
+	(wire
+		(pts
 			(xy 165.1 189.23) (xy 165.1 190.5)
 		)
 		(stroke
@@ -6534,7 +6556,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 83.82) (xy 91.44 83.82)
+			(xy 76.2 83.82) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6961,6 +6983,16 @@
 			(type default)
 		)
 		(uuid "b216ee87-b7ac-4731-93a2-0e0de8e9c3be")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fbbb62-0ed0-40ea-a319-91804c357b87")
 	)
 	(wire
 		(pts
@@ -7644,6 +7676,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 128.27) (xy 96.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae4d14d-921a-44ca-9d51-e68e05fa5db8")
+	)
+	(wire
+		(pts
 			(xy 354.33 118.11) (xy 354.33 86.36)
 		)
 		(stroke
@@ -8250,7 +8292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0306f108-de43-44eb-89f3-a2d864371371")
-		(property "Reference" "C701"
+		(property "Reference" "C702"
 			(at 111.76 218.44 0)
 			(effects
 				(font
@@ -8331,7 +8373,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C701")
+					(reference "C702")
 					(unit 1)
 				)
 			)
@@ -8763,7 +8805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19c622b2-4bbd-4312-8b56-d75a62cddf2e")
-		(property "Reference" "C707"
+		(property "Reference" "C708"
 			(at 229.87 83.82 0)
 			(effects
 				(font
@@ -8844,7 +8886,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C707")
+					(reference "C708")
 					(unit 1)
 				)
 			)
@@ -8935,7 +8977,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "33 Ω"
+		(property "Value" "0 Ω"
 			(at 216.408 104.902 90)
 			(effects
 				(font
@@ -9912,7 +9954,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5949356d-4602-4a2a-833c-49bd0cfcea48")
-		(property "Reference" "C705"
+		(property "Reference" "C706"
 			(at 175.26 217.17 0)
 			(effects
 				(font
@@ -9993,7 +10035,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C705")
+					(reference "C706")
 					(unit 1)
 				)
 			)
@@ -10507,7 +10549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "670c91d4-bc66-4e9b-9d22-9ebc4c9da63e")
-		(property "Reference" "C706"
+		(property "Reference" "C707"
 			(at 187.96 217.17 0)
 			(effects
 				(font
@@ -10588,7 +10630,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C706")
+					(reference "C707")
 					(unit 1)
 				)
 			)
@@ -10612,7 +10654,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "33 Ω"
+		(property "Value" "0 Ω"
 			(at 216.408 99.822 90)
 			(effects
 				(font
@@ -10699,7 +10741,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "33 Ω"
+		(property "Value" "0 Ω"
 			(at 216.408 102.362 90)
 			(effects
 				(font
@@ -10836,6 +10878,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 101.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e49db8a-0690-452a-b336-1efe962042ac")
+		(property "Reference" "C701"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 104.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 102.5652 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R6YA106MA73D"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "≥ 35 V"
+			(at 104.14 96.5201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "82f1ea7d-df1c-4c4a-8352-707d74c6d15b")
+		)
+		(pin "1"
+			(uuid "94a22e44-394d-438e-b6e7-010dbc5a6b52")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "C701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 276.86 199.39 270)
 		(unit 1)
@@ -10853,7 +10991,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "33 Ω"
+		(property "Value" "0 Ω"
 			(at 279.908 198.882 90)
 			(effects
 				(font
@@ -12991,7 +13129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d30fdc4e-d7c2-49bb-9f9f-e8e5d0cfb1b1")
-		(property "Reference" "C703"
+		(property "Reference" "C704"
 			(at 142.24 218.44 0)
 			(effects
 				(font
@@ -13072,7 +13210,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C703")
+					(reference "C704")
 					(unit 1)
 				)
 			)
@@ -13673,7 +13811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f39bd499-a681-4341-8ba4-547753d99ae7")
-		(property "Reference" "C704"
+		(property "Reference" "C705"
 			(at 154.94 218.44 0)
 			(effects
 				(font
@@ -13754,7 +13892,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C704")
+					(reference "C705")
 					(unit 1)
 				)
 			)
@@ -13769,7 +13907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3dfaf47-5ab0-4b37-b5b7-fea77b8df871")
-		(property "Reference" "C702"
+		(property "Reference" "C703"
 			(at 129.54 218.44 0)
 			(effects
 				(font
@@ -13850,7 +13988,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C702")
+					(reference "C703")
 					(unit 1)
 				)
 			)
@@ -14028,7 +14166,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "33 Ω"
+		(property "Value" "0 Ω"
 			(at 279.908 201.422 90)
 			(effects
 				(font
