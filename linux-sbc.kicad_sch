@@ -1210,8 +1210,8 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "SDMMC"
-		(members "SDMMC.D[0..3]" "SDMMC.CMD" "SDMMC.CLK" "SDMMC.DET_N")
+	(bus_alias "uSD"
+		(members "uSD.D[0..3]" "uSD.CMD" "uSD.CLK" "uSD.DET_N")
 	)
 	(text "7. USB"
 		(exclude_from_sim no)
@@ -3403,7 +3403,7 @@
 			(color 0 255 0 1.0000)
 		)
 		(uuid "20d14260-625d-4d8e-93b5-fdd7ca1e9f7d")
-		(property "Sheetname" "SDMMC"
+		(property "Sheetname" "SD card"
 			(at 252.73 165.4846 0)
 			(effects
 				(font
@@ -3412,7 +3412,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sdmmc.kicad_sch"
+		(property "Sheetfile" "sd_card.kicad_sch"
 			(at 252.73 177.2884 0)
 			(effects
 				(font
@@ -3441,7 +3441,7 @@
 				(justify left)
 			)
 		)
-		(pin "{SDMMC}" bidirectional
+		(pin "{uSD}" bidirectional
 			(at 252.73 173.99 180)
 			(uuid "1b2bf598-eb98-43dc-aa06-022904c352aa")
 			(effects
@@ -3687,7 +3687,7 @@
 				(justify left)
 			)
 		)
-		(pin "{SDMMC}" bidirectional
+		(pin "{uSD}" bidirectional
 			(at 242.57 173.99 0)
 			(uuid "d0f10d51-e7a8-4e34-b616-3044b15d5beb")
 			(effects

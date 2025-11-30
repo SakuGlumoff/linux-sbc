@@ -2044,6 +2044,30 @@
 	(bus_alias "WLAN"
 		(members "WLAN.D[0..3]" "WLAN.CMD" "WLAN.CLK" "WLAN.REG_ON" "WLAN.HOST_WKUP")
 	)
+	(text "Route ANT @ 50 Ω"
+		(exclude_from_sim no)
+		(at 273.812 162.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "355d0415-7e38-4043-af0e-affc5a91496f")
+	)
+	(text "Route WLAN @ 50 Ω"
+		(exclude_from_sim no)
+		(at 151.638 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+			(justify right)
+		)
+		(uuid "3c8a11fa-72fa-4800-b011-5a55aa6a3b13")
+	)
 	(text_box "Notes"
 		(exclude_from_sim no)
 		(at 12.7 251.46 0)
@@ -4444,21 +4468,22 @@
 		)
 		(uuid "98e558e4-8972-4ef1-88cd-6b3bb2921b48")
 		(property "Netclass" "WLAN"
-			(at 153.0985 184.15 0)
+			(at 151.7015 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Component Class" ""
-			(at -77.47 35.56 0)
+			(at 382.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(justify left)
 			)
 		)
 	)

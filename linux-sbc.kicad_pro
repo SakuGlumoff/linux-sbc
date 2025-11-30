@@ -479,7 +479,7 @@
         "line_style": 0,
         "name": "ANT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
       },
@@ -488,7 +488,7 @@
         "line_style": 0,
         "name": "CHASSIS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 20
       },
@@ -513,9 +513,18 @@
       {
         "bus_width": 12,
         "line_style": 0,
+        "name": "ETH_RMII",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 255, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 20
       },
@@ -524,7 +533,7 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       },
@@ -533,7 +542,7 @@
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(132, 0, 132)",
         "wire_width": 6
       },
@@ -542,8 +551,17 @@
         "line_style": 0,
         "name": "WLAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(132, 132, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "uSD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(194, 194, 0)",
         "wire_width": 6
       }
     ],
@@ -717,6 +735,30 @@
       "/Debug/D_P": [
         "USB"
       ],
+      "/Ethernet/ETH.CRS_DV": [
+        "ETH_RMII"
+      ],
+      "/Ethernet/ETH.MDC": [
+        "ETH_RMII"
+      ],
+      "/Ethernet/ETH.MDIO": [
+        "ETH_RMII"
+      ],
+      "/Ethernet/ETH.RXD0": [
+        "ETH_RMII"
+      ],
+      "/Ethernet/ETH.RXD1": [
+        "ETH_RMII"
+      ],
+      "/Ethernet/ETH.TXD0": [
+        "ETH_RMII"
+      ],
+      "/Ethernet/ETH.TXD1": [
+        "ETH_RMII"
+      ],
+      "/Ethernet/ETH.TXEN": [
+        "ETH_RMII"
+      ],
       "/Ethernet/RX_N": [
         "ETH"
       ],
@@ -752,6 +794,24 @@
       ],
       "/MPU/WLAN.D3": [
         "WLAN"
+      ],
+      "/MPU/uSD.CLK": [
+        "uSD"
+      ],
+      "/MPU/uSD.CMD": [
+        "uSD"
+      ],
+      "/MPU/uSD.D0": [
+        "uSD"
+      ],
+      "/MPU/uSD.D1": [
+        "uSD"
+      ],
+      "/MPU/uSD.D2": [
+        "uSD"
+      ],
+      "/MPU/uSD.D3": [
+        "uSD"
       ],
       "/MPU/{USB}": [
         "USB"
@@ -809,6 +869,24 @@
       ],
       "/Wireless/ANT_IN": [
         "ANT"
+      ],
+      "Net-(D1102-A1)": [
+        "uSD"
+      ],
+      "Net-(D1103-A1)": [
+        "uSD"
+      ],
+      "Net-(D1104-A1)": [
+        "uSD"
+      ],
+      "Net-(D1106-A1)": [
+        "uSD"
+      ],
+      "Net-(D1107-A1)": [
+        "uSD"
+      ],
+      "Net-(D1108-A1)": [
+        "uSD"
       ]
     },
     "netclass_patterns": [
@@ -1250,7 +1328,7 @@
     ],
     [
       "20d14260-625d-4d8e-93b5-fdd7ca1e9f7d",
-      "SDMMC"
+      "SD card"
     ],
     [
       "530a7454-1232-4a53-8117-19eb81379b71",
