@@ -3682,18 +3682,6 @@
 			"ETH.RST_N" "ETH.INT_N" "ETH.TXEN" "ETH.REF_CLK"
 		)
 	)
-	(text "Route RTH_RMII @ 50 Ω"
-		(exclude_from_sim no)
-		(at 62.738 164.084 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 194 0 194 1)
-			)
-			(justify right)
-		)
-		(uuid "304249c9-d577-4719-a849-fb3bf74f67b7")
-	)
 	(text "Route ETH @ 100 Ω differential"
 		(exclude_from_sim no)
 		(at 216.662 186.69 0)
@@ -3812,6 +3800,27 @@
 			(justify top)
 		)
 		(uuid "91e05016-2089-466c-89ff-46614428c8bd")
+	)
+	(text_box "Route as single-ended @ 50 Ω.\n\nEnsure that the skew between ETH.[T|R]XD0 and ETH.[T|R]XD1 is minimized."
+		(exclude_from_sim no)
+		(at 33.02 152.4 0)
+		(size 34.29 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+			(justify left top)
+		)
+		(uuid "9f18eee0-d7b4-4ebf-bc92-bc5df770f668")
 	)
 	(junction
 		(at 91.44 151.13)
