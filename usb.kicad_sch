@@ -717,6 +717,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -3228,7 +3389,7 @@
 	)
 	(text "4.7 µF + 0.1 µF x VDD pin"
 		(exclude_from_sim no)
-		(at 101.6 86.36 0)
+		(at 101.6 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3391,6 +3552,12 @@
 		(uuid "00e3f4f6-2799-4051-8b45-071d2e3d9e15")
 	)
 	(junction
+		(at 59.69 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02e90296-efe9-4547-bee3-edfd3132d86a")
+	)
+	(junction
 		(at 241.3 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3403,10 +3570,16 @@
 		(uuid "174be4b0-53d1-49f0-9b57-fb8515b36eeb")
 	)
 	(junction
-		(at 59.69 99.06)
+		(at 73.66 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1fc997c1-95d5-4e3b-8315-cf12a508c0f1")
+		(uuid "19aca272-ac4b-494c-971e-d8206605c813")
+	)
+	(junction
+		(at 129.54 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dfddc4b-4254-418c-b242-2e1628179a71")
 	)
 	(junction
 		(at 255.27 161.29)
@@ -3419,6 +3592,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23082864-51ba-4988-a431-2e0d9ac770fc")
+	)
+	(junction
+		(at 129.54 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25da399a-d2c7-4177-ad87-66483797deca")
 	)
 	(junction
 		(at 45.72 124.46)
@@ -3451,10 +3630,10 @@
 		(uuid "3f19ce55-dfe8-4d40-8c6b-548276e27f4a")
 	)
 	(junction
-		(at 87.63 99.06)
+		(at 101.6 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f1e4b0c-5ee8-4baf-b2b3-69ae74389464")
+		(uuid "441c4c81-8c41-457e-a44e-14efde2cbf54")
 	)
 	(junction
 		(at 227.33 139.7)
@@ -3473,6 +3652,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fbebc6a-b5c6-4a57-b066-839e134dfd73")
+	)
+	(junction
+		(at 59.69 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "507f4579-9832-43e0-8c8a-ea94305122c5")
 	)
 	(junction
 		(at 143.51 203.2)
@@ -3529,10 +3714,10 @@
 		(uuid "65f5c1b2-838b-426e-b1a2-00543afcc1d7")
 	)
 	(junction
-		(at 59.69 88.9)
+		(at 73.66 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "669095b3-4e83-49e2-a0af-b16fe24afc63")
+		(uuid "69ea8052-77b6-4cf0-acc9-15e42ebfee41")
 	)
 	(junction
 		(at 57.15 105.41)
@@ -3565,34 +3750,16 @@
 		(uuid "7dc5ec1e-1992-4a0c-a081-15851dc7f47c")
 	)
 	(junction
-		(at 87.63 88.9)
+		(at 87.63 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "809b93df-5abb-4eca-9903-30f481b0974a")
+		(uuid "8069f3c1-99c1-4f39-b05a-474a67d06ae4")
 	)
 	(junction
 		(at 255.27 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82e320c2-9090-4cf0-8d61-8fd57256fd28")
-	)
-	(junction
-		(at 115.57 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85508104-613b-40ad-b60f-f8d400a877f1")
-	)
-	(junction
-		(at 101.6 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89a51789-6f6f-49d0-9eb7-3b3caa327c13")
-	)
-	(junction
-		(at 50.8 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ca50294-4458-44ad-8278-3c1eed067a78")
 	)
 	(junction
 		(at 367.03 105.41)
@@ -3619,16 +3786,16 @@
 		(uuid "9e6f16a5-464c-4542-b0ae-6f5966775ae2")
 	)
 	(junction
-		(at 129.54 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a336a464-190e-4483-888e-8c86aebfa43e")
-	)
-	(junction
 		(at 367.03 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a381becf-4b6c-4469-af9b-11d26377092a")
+	)
+	(junction
+		(at 87.63 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a462654d-e698-4576-b8b9-6ae833afc53a")
 	)
 	(junction
 		(at 292.1 187.96)
@@ -3643,10 +3810,22 @@
 		(uuid "a91b5e66-9542-4e59-919a-53dbb9de71fd")
 	)
 	(junction
+		(at 115.57 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e91e45-1523-4a53-8204-7d351368b37b")
+	)
+	(junction
 		(at 279.4 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae1fd8f2-b087-4e9e-b2f8-ea62b20e0f7d")
+	)
+	(junction
+		(at 115.57 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b13a6a86-1e90-43f2-9d47-de777c182bbc")
 	)
 	(junction
 		(at 325.12 139.7)
@@ -3661,22 +3840,10 @@
 		(uuid "b52c6cad-e5fc-4e5c-8656-4361984c9282")
 	)
 	(junction
-		(at 73.66 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6507eee-24ad-4782-952f-8120703c740a")
-	)
-	(junction
 		(at 96.52 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b673151a-6751-469b-8e04-dd98aabc29e4")
-	)
-	(junction
-		(at 73.66 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69ced8b-d328-4097-b211-fa15d9bd2b2c")
 	)
 	(junction
 		(at 101.6 105.41)
@@ -3707,12 +3874,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c72b0a5b-aa77-4449-88d6-ea68118a0d3c")
-	)
-	(junction
-		(at 101.6 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cabcd4e4-ea91-4eab-aa25-c8ce9d705e6c")
 	)
 	(junction
 		(at 99.06 105.41)
@@ -3751,12 +3912,6 @@
 		(uuid "de818be5-df04-4dde-b63d-af57c67a728a")
 	)
 	(junction
-		(at 115.57 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dee6b3c3-d356-4d8a-9ecf-1ab515650eae")
-	)
-	(junction
 		(at 241.3 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3773,6 +3928,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eea6985a-7ab8-4b2e-89c6-0190fa663154")
+	)
+	(junction
+		(at 50.8 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef877e4a-e320-4cac-8663-11e6b3350d6d")
 	)
 	(junction
 		(at 227.33 105.41)
@@ -3811,6 +3972,12 @@
 		(uuid "f7e695d6-ca3e-4b8a-88b3-73653aea648b")
 	)
 	(junction
+		(at 101.6 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9c81e23-7e95-43be-911e-0f55f552065f")
+	)
+	(junction
 		(at 38.1 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3821,12 +3988,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fae8d4a2-0a3b-446a-b9cb-a3fd2f4a642c")
-	)
-	(junction
-		(at 129.54 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffc3b8a0-10f5-4ab6-b96a-74d152937312")
 	)
 	(bus_entry
 		(at 57.15 127)
@@ -3908,16 +4069,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 101.6 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "045f3cee-2e28-4e75-8f64-bec4d2bd95e5")
-	)
-	(wire
-		(pts
 			(xy 152.4 176.53) (xy 154.94 176.53)
 		)
 		(stroke
@@ -3938,17 +4089,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 97.79) (xy 115.57 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0728d35c-5fc4-4c44-a44d-69e88256ba7a")
-	)
-	(wire
-		(pts
-			(xy 59.69 99.06) (xy 59.69 100.33)
+			(xy 59.69 97.79) (xy 59.69 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4005,16 +4146,6 @@
 			(type default)
 		)
 		(uuid "09a3882b-7235-4dfe-a768-4bd6b96b6bd6")
-	)
-	(wire
-		(pts
-			(xy 87.63 88.9) (xy 87.63 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e5f9f4-b2d2-4080-a5c7-4451618de093")
 	)
 	(wire
 		(pts
@@ -4148,6 +4279,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 97.79) (xy 129.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c79c4d-a56a-43cd-a660-ec2db5e842de")
+	)
+	(wire
+		(pts
 			(xy 170.18 105.41) (xy 170.18 107.95)
 		)
 		(stroke
@@ -4158,7 +4299,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 143.51 90.17)
+			(xy 143.51 87.63) (xy 143.51 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4238,13 +4379,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 87.63 88.9)
+			(xy 73.66 87.63) (xy 87.63 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1f0e3baa-9ba0-4230-877b-3ebf989274a6")
+	)
+	(wire
+		(pts
+			(xy 59.69 87.63) (xy 59.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f180cf5-4225-4777-a60f-14a1bd2017aa")
 	)
 	(wire
 		(pts
@@ -4255,16 +4406,6 @@
 			(type default)
 		)
 		(uuid "1f64dcee-1a9a-4a64-a565-800ecb72f615")
-	)
-	(wire
-		(pts
-			(xy 129.54 97.79) (xy 129.54 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20542832-63c9-4bcd-91ce-0a9dbdd6392d")
 	)
 	(wire
 		(pts
@@ -4288,7 +4429,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 187.96) (xy 55.88 186.69)
+			(xy 55.88 187.96) (xy 55.88 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4488,6 +4629,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 100.33) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "305c1468-34cb-4dc7-8e3f-d5d383ac5ad3")
+	)
+	(wire
+		(pts
 			(xy 227.33 152.4) (xy 227.33 153.67)
 		)
 		(stroke
@@ -4578,6 +4729,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 97.79) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384e938c-ea15-4141-8028-72f83910675b")
+	)
+	(wire
+		(pts
 			(xy 276.86 163.83) (xy 292.1 163.83)
 		)
 		(stroke
@@ -4608,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 99.06) (xy 101.6 99.06)
+			(xy 87.63 100.33) (xy 101.6 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4648,7 +4809,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 115.57 88.9)
+			(xy 101.6 87.63) (xy 115.57 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4685,16 +4846,6 @@
 			(type default)
 		)
 		(uuid "435df88c-d0b5-4bf2-ac5e-c426d2f2ca0c")
-	)
-	(wire
-		(pts
-			(xy 129.54 88.9) (xy 129.54 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b95bc8-73f8-45c5-83b5-ac12c20a5e78")
 	)
 	(wire
 		(pts
@@ -4808,16 +4959,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 97.79) (xy 73.66 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "509f514a-3151-474c-8c76-43d0040a0f7a")
-	)
-	(wire
-		(pts
 			(xy 148.59 187.96) (xy 154.94 187.96)
 		)
 		(stroke
@@ -4845,6 +4986,16 @@
 			(type default)
 		)
 		(uuid "5164a4e5-351b-48c9-8596-95496caaf72e")
+	)
+	(wire
+		(pts
+			(xy 115.57 97.79) (xy 115.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a20c54-22fa-4604-8a9f-7a06ea5a6a1a")
 	)
 	(wire
 		(pts
@@ -5008,7 +5159,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 186.69) (xy 50.8 187.96)
+			(xy 50.8 185.42) (xy 50.8 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5025,6 +5176,16 @@
 			(type default)
 		)
 		(uuid "6517ca6b-b47c-4962-83ca-3b5c23e578ff")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652c24e5-c078-4010-a897-429b4747e93f")
 	)
 	(wire
 		(pts
@@ -5045,16 +5206,6 @@
 			(type default)
 		)
 		(uuid "67b65af7-040b-4814-9b31-3ef908108ff2")
-	)
-	(wire
-		(pts
-			(xy 59.69 97.79) (xy 59.69 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d938ce-c9d1-4a2f-ae76-bec4b7f60f75")
 	)
 	(wire
 		(pts
@@ -5178,7 +5329,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 143.51 88.9)
+			(xy 129.54 87.63) (xy 143.51 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5238,23 +5389,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 154.94) (xy 50.8 179.07)
+			(xy 50.8 154.94) (xy 50.8 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76f6f1f1-1732-47b8-8dd4-eed0353a7ee1")
-	)
-	(wire
-		(pts
-			(xy 50.8 105.41) (xy 50.8 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "795aa9d6-3a01-4bdc-b489-7c9bd0dddf42")
 	)
 	(wire
 		(pts
@@ -5428,7 +5569,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 143.51 99.06)
+			(xy 129.54 100.33) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5508,7 +5649,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 186.69) (xy 38.1 187.96)
+			(xy 38.1 185.42) (xy 38.1 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5578,13 +5719,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 59.69 88.9)
+			(xy 50.8 87.63) (xy 59.69 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9fca2b01-f15b-4509-bb81-25c57e6ce8a4")
+	)
+	(wire
+		(pts
+			(xy 115.57 87.63) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08d6c37-0efe-44a4-9dd9-8e824559c7bc")
 	)
 	(wire
 		(pts
@@ -5595,16 +5746,6 @@
 			(type default)
 		)
 		(uuid "a0a55a0b-faca-4813-8409-0964244ac58c")
-	)
-	(wire
-		(pts
-			(xy 115.57 88.9) (xy 115.57 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a307c01c-73b1-4ffa-92af-3010a963ec12")
 	)
 	(wire
 		(pts
@@ -5688,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 99.06) (xy 143.51 97.79)
+			(xy 143.51 100.33) (xy 143.51 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5768,16 +5909,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 87.63 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af8b42a1-c388-4ea1-9c36-e5aea727a5de")
-	)
-	(wire
-		(pts
 			(xy 242.57 115.57) (xy 256.54 115.57)
 		)
 		(stroke
@@ -5788,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 87.63 99.06)
+			(xy 73.66 100.33) (xy 87.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5848,7 +5979,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 99.06) (xy 115.57 99.06)
+			(xy 87.63 87.63) (xy 87.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6606932-af1b-4d79-9a5c-adc863e46e07")
+	)
+	(wire
+		(pts
+			(xy 50.8 87.63) (xy 50.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b718d5a0-d62d-462c-b760-2704206db4f1")
+	)
+	(wire
+		(pts
+			(xy 101.6 100.33) (xy 115.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5908,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 99.06) (xy 129.54 99.06)
+			(xy 115.57 100.33) (xy 129.54 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5935,16 +6086,6 @@
 			(type default)
 		)
 		(uuid "c3168c72-dc99-4280-9f00-ec455f9dfe19")
-	)
-	(wire
-		(pts
-			(xy 101.6 88.9) (xy 101.6 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c39d6440-cc1d-4b71-b010-53a6ebe898b6")
 	)
 	(wire
 		(pts
@@ -5998,7 +6139,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 157.48) (xy 55.88 179.07)
+			(xy 55.88 157.48) (xy 55.88 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6055,16 +6196,6 @@
 			(type default)
 		)
 		(uuid "ccc6fa9b-11f4-47bd-a653-471636289171")
-	)
-	(wire
-		(pts
-			(xy 59.69 90.17) (xy 59.69 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc0aff2-1698-4af0-81cb-4cf5bec593d2")
 	)
 	(wire
 		(pts
@@ -6138,7 +6269,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 129.54 88.9)
+			(xy 115.57 87.63) (xy 129.54 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6218,7 +6349,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 88.9) (xy 50.8 88.9)
+			(xy 44.45 87.63) (xy 50.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6235,6 +6366,16 @@
 			(type default)
 		)
 		(uuid "e0c85f52-d1b5-4b2f-a3a7-4116492deeca")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18ee016-09f3-4900-8695-98fe4a45f4ca")
 	)
 	(wire
 		(pts
@@ -6318,7 +6459,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 88.9) (xy 101.6 88.9)
+			(xy 87.63 87.63) (xy 101.6 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6378,7 +6519,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 88.9) (xy 73.66 88.9)
+			(xy 59.69 87.63) (xy 73.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6408,7 +6549,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 99.06) (xy 73.66 99.06)
+			(xy 59.69 100.33) (xy 73.66 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6428,7 +6569,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 142.24) (xy 38.1 179.07)
+			(xy 38.1 142.24) (xy 38.1 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6488,6 +6629,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 87.63) (xy 129.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f9c4a3-2b3b-4f5e-915f-1d5f500efabf")
+	)
+	(wire
+		(pts
 			(xy 367.03 138.43) (xy 367.03 139.7)
 		)
 		(stroke
@@ -6508,7 +6659,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 90.17) (xy 73.66 88.9)
+			(xy 73.66 87.63) (xy 73.66 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6535,6 +6686,16 @@
 			(type default)
 		)
 		(uuid "f928f1ca-16eb-4811-9cb7-9e1305093211")
+	)
+	(wire
+		(pts
+			(xy 87.63 97.79) (xy 87.63 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b70af8-24b2-4953-a543-eaa13f815b8c")
 	)
 	(wire
 		(pts
@@ -8197,7 +8358,7 @@
 	)
 	(hierarchical_label "VDD_3V3"
 		(shape output)
-		(at 44.45 88.9 180)
+		(at 44.45 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8389,16 +8550,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 182.88 0)
+		(at 67.31 201.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "056a9c8d-9d0e-4158-b498-5a6baf4d480a")
-		(property "Reference" "R901"
-			(at 36.83 180.34 0)
+		(uuid "012b8239-99ee-4c5e-8340-33f16404fab6")
+		(property "Reference" "R905"
+			(at 66.04 198.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,8 +8567,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12.1 kΩ"
-			(at 36.83 182.88 0)
+		(property "Value" "100 kΩ"
+			(at 66.04 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8416,7 +8577,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 39.878 182.88 90)
+			(at 69.088 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,395 +8585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 38.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 38.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "± 1 %"
-			(at 36.83 185.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "9f01ef75-fa66-4115-a8fc-a8097aff83a0")
-		)
-		(pin "1"
-			(uuid "5d43f7cf-8d0d-48ab-a6cc-b28f19f79d2b")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 367.03 134.62 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09440702-ec5a-4a7d-8b31-5bd9de02d35d")
-		(property "Reference" "C920"
-			(at 364.49 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220 µF"
-			(at 364.49 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 366.0648 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 367.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 367.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 367.03 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 364.49 137.1601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "0d5dbc65-e435-4285-a975-2659994018bf")
-		)
-		(pin "1"
-			(uuid "f348c75d-46de-46c7-b7bd-230a2d2e5a19")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C920")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 50.8 182.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b862924-9ed8-448c-a7bc-7ae457d5ba4a")
-		(property "Reference" "C901"
-			(at 48.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 48.26 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.8348 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 50.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 50.8 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 48.26 185.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "541caa4d-ff8f-4242-a48b-bfccdff26e98")
-		)
-		(pin "1"
-			(uuid "08379d70-1510-4871-ae3a-10d778c4fa71")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 87.63 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c424b36-f6d8-4f77-96bf-64beedbe383d")
-		(property "Reference" "C905"
-			(at 90.17 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 90.17 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.5952 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 87.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 87.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 90.17 96.5201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "47436c4c-028f-4c27-981d-005f56894b15")
-		)
-		(pin "1"
-			(uuid "b354f42b-e9c7-40b7-9e94-ee011aa032ce")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C905")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 161.29 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0dd3c801-79c8-41af-876b-c12087d9568a")
-		(property "Reference" "R910"
-			(at 160.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 160.02 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 163.068 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 161.29 111.76 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 67.31 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8595,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 111.76 0)
+			(at 67.31 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8829,8 +8603,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110020"
-			(at 161.29 111.76 0)
+		(property "MPN" ""
+			(at 67.31 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,25 +8612,422 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 161.29 111.76 0)
+		(property "Manufacturer" ""
+			(at 67.31 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 66.04 201.93 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 66.04 203.2 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 66.04 204.4701 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "9638468c-9046-4221-abae-52d2ecbce334")
+			(uuid "e372476d-eda2-4252-9e48-9c55fcd71c3b")
 		)
 		(pin "1"
-			(uuid "f5b0b7c2-13eb-41c9-b62a-a41f1bf132d7")
+			(uuid "dee2746a-0afa-4880-9e46-69bdfabac7c1")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R910")
+					(reference "R905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "075ed5d9-10aa-4542-9e63-ee91d9ea6cee")
+		(property "Reference" "C902"
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 58.42 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.8452 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 58.674 182.88 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 58.674 183.896 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 58.674 184.912 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 58.674 185.928 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "885d2c67-a274-433b-a089-f0cce166a5c1")
+		)
+		(pin "1"
+			(uuid "fcd9fba3-1cb7-4d96-8773-6f175ca67bca")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.24 181.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14a39ccb-4759-41d3-86ca-9b00ee75552d")
+		(property "Reference" "C909"
+			(at 139.7 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8 pF"
+			(at 139.7 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.2748 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 139.446 182.88 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "2 %"
+			(at 139.446 183.896 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "C0G"
+			(at 139.446 184.912 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 139.446 185.928 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "d57e691f-6b90-4926-bd9b-f0c631fa2a26")
+		)
+		(pin "1"
+			(uuid "d77e3bee-45fb-4192-99af-ca51c70b5627")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C909")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 297.18 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "168f2b4b-a9c7-497d-8fb4-1750acbaf472")
+		(property "Reference" "C919"
+			(at 299.72 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01 µF"
+			(at 299.72 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.1452 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 297.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 297.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 299.974 180.34 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 299.974 181.356 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 299.974 182.372 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 299.974 183.388 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "5aa32ee4-aa86-418d-a0f9-e3b4458cb620")
+		)
+		(pin "1"
+			(uuid "d01478eb-7da6-4b23-b38c-71deca4a93f4")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C919")
 					(unit 1)
 				)
 			)
@@ -9057,103 +9228,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "#PWR0908")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1bb5b58a-671f-48c0-9cd9-eabfb361df64")
-		(property "Reference" "C914"
-			(at 238.76 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 238.76 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.3348 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 241.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 241.3 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 238.76 123.1901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "6b8c775b-d1ac-4df2-b053-b0126fb3c805")
-		)
-		(pin "1"
-			(uuid "a5287191-d607-46ca-8464-9857857d6b49")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C914")
 					(unit 1)
 				)
 			)
@@ -9361,6 +9435,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 367.03 182.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b573b8a-2b28-4369-9bc1-ed371a9acc2b")
+		(property "Reference" "C921"
+			(at 364.49 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220 µF"
+			(at 364.49 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 366.0648 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "560 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 364.49 184.15 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 364.49 185.166 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "Elec"
+			(at 364.49 186.182 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2bb6af38-6bce-4e17-b20a-31879d17bf71")
+		)
+		(pin "2"
+			(uuid "bd76fc31-2d7b-4c28-9883-eff122766cb9")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C921")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 227.33 152.4 0)
 		(unit 1)
@@ -9421,94 +9610,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "#PWR0910")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 208.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32556ecd-81a5-4e83-b15a-9252e3178a5f")
-		(property "Reference" "R907"
-			(at 142.24 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 kΩ"
-			(at 142.24 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 145.288 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110019.pdf"
-			(at 143.51 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110019"
-			(at 143.51 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 143.51 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4cdeecb-c59d-4adc-a961-3dc414210ac5")
-		)
-		(pin "1"
-			(uuid "c1841a77-53a7-4a1e-9bf4-a61d99bbac7f")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R907")
 					(unit 1)
 				)
 			)
@@ -9602,16 +9703,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 143.51 93.98 0)
+		(lib_id "Device:R")
+		(at 152.4 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3626054a-4ce0-4b78-9a7b-294bbb6313e0")
-		(property "Reference" "C910"
-			(at 146.05 91.44 0)
+		(uuid "34c693a9-4e1e-4796-9da5-d11578e6123f")
+		(property "Reference" "R909"
+			(at 151.13 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,8 +9721,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 µF"
-			(at 146.05 93.98 0)
+		(property "Value" "10 kΩ"
+			(at 151.13 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,8 +9730,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.4752 97.79 0)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 154.178 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9637,8 +9739,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 143.51 93.98 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,8 +9748,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 143.51 93.98 0)
+		(property "Description" "Resistor"
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9758,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 143.51 93.98 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9767,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 143.51 93.98 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,8 +9775,59 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 146.05 96.5201 0)
+		(property "Tolerance" "1 %"
+			(at 151.13 111.76 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 151.13 113.03 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 151.13 114.3001 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "9af25e8f-e99e-4579-a2df-6165a23ebcf2")
+		)
+		(pin "1"
+			(uuid "95ba6487-6961-415f-902a-e3369d4f4b74")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "R909")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ac8597c-6b3a-484d-8f4b-a4b924fd3c31")
+		(property "Reference" "C906"
+			(at 104.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,16 +9835,106 @@
 				(justify left)
 			)
 		)
+		(property "Value" "0.1 µF"
+			(at 104.14 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.5652 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 104.394 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 104.394 96.266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 104.394 97.282 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 104.394 98.298 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
 		(pin "2"
-			(uuid "0fa7f105-79d6-4e6b-a8a4-578ba4dfe9d7")
+			(uuid "fd24e327-549d-422b-825e-6a512863d740")
 		)
 		(pin "1"
-			(uuid "d39d3c71-b017-4aef-b079-ed7bbd6e50b0")
+			(uuid "ccd73324-2ef3-4d92-8996-44fa690da137")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C910")
+					(reference "C906")
 					(unit 1)
 				)
 			)
@@ -9759,102 +10002,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "#PWR0911")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 297.18 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ea754f7-00c0-401d-b715-0b87dbc92671")
-		(property "Reference" "C919"
-			(at 299.72 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01 µF"
-			(at 299.72 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 298.1452 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 297.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 297.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 299.72 181.6101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "4ca58c9b-1601-4737-8315-d1f390d99d54")
-		)
-		(pin "1"
-			(uuid "ba96593a-8d20-4605-b184-4edf4ee1982b")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C919")
 					(unit 1)
 				)
 			)
@@ -10127,102 +10274,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 101.6 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b1891da-5c0c-4362-80da-17f35b737b06")
-		(property "Reference" "C906"
-			(at 104.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 104.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.5652 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 104.14 96.5201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "066d0a02-1d42-459e-a15d-8afabeca85bc")
-		)
-		(pin "1"
-			(uuid "feef43d2-da8b-478e-b741-6ca447872593")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C906")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_A_Stacked")
 		(at 393.7 171.45 0)
 		(mirror y)
@@ -10342,6 +10393,236 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 130.81 208.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5077f207-36d9-492a-9e07-b69342964c99")
+		(property "Reference" "R906"
+			(at 129.54 205.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 kΩ"
+			(at 129.54 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 132.588 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 130.81 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 130.81 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 130.81 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 129.54 208.28 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 129.54 209.55 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 129.54 210.8201 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "d7f03730-6bbb-4f12-9c2c-9446771232b3")
+		)
+		(pin "1"
+			(uuid "4f1d05ec-b991-4f50-9907-c84df1b45c52")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "R906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 367.03 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56a17d9c-d2e9-407b-a32b-82c96a5889a8")
+		(property "Reference" "C920"
+			(at 364.49 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220 µF"
+			(at 364.49 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 366.0648 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "560 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+			(at 367.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 367.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 367.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 364.49 135.89 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 364.49 136.906 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "Elec"
+			(at 364.49 137.922 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "20b0e7a8-b0d5-43aa-8cd1-4568de3b8698")
+		)
+		(pin "2"
+			(uuid "202f0da3-7b6e-49b7-822d-2265732b2873")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C920")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 342.9 168.91 0)
 		(mirror y)
@@ -10428,16 +10709,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 201.93 0)
+		(at 50.8 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5f8eae5c-fc55-4b35-af31-d6587623cf46")
-		(property "Reference" "R905"
-			(at 66.04 200.66 0)
+		(uuid "5f114b4c-72b4-42ab-b321-849577e996b9")
+		(property "Reference" "R902"
+			(at 49.53 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10445,8 +10726,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 kΩ"
-			(at 66.04 203.2 0)
+		(property "Value" "10 kΩ"
+			(at 49.53 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +10736,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 69.088 201.93 90)
+			(at 52.578 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,8 +10744,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110019.pdf"
-			(at 67.31 201.93 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,94 +10754,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110019"
-			(at 67.31 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 67.31 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "086ca4fd-ff16-4d15-860b-cecbac6fd059")
-		)
-		(pin "1"
-			(uuid "90333b08-fb6b-4269-a0b7-60eddfc22c40")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R905")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 297.18 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60fe0dc7-f22a-473a-baec-0497a8fe8346")
-		(property "Reference" "C918"
-			(at 299.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01 µF"
-			(at 299.72 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 298.1452 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 297.18 130.81 0)
+			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +10763,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 297.18 130.81 0)
+			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,7 +10772,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 297.18 130.81 0)
+			(at 50.8 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,25 +10780,43 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 299.72 133.3501 0)
+		(property "Tolerance" "1 %"
+			(at 49.53 114.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 49.53 116.8401 0)
+			(effects
+				(font
+					(size 0.7 0.7)
 				)
 				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "c2ae8704-7213-4e6b-b2b9-62e6d63e10c9")
+			(uuid "9a5a280b-fdce-49ec-8d20-1ea66c99c5a1")
 		)
 		(pin "1"
-			(uuid "233e5ce9-d357-49af-a288-c3dcd3f894a6")
+			(uuid "9e17e38a-55f0-4ff9-ad5c-7efa9a84d4fd")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C918")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -10672,6 +10884,252 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "#PWR0906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66d57c50-2a94-4dec-be31-fb7f146396a0")
+		(property "Reference" "C910"
+			(at 146.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 146.05 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.4752 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 146.304 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 146.304 96.266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 146.304 97.282 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 146.304 98.298 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "4dcc10ca-b482-4c2a-9c5e-70435baeccdf")
+		)
+		(pin "1"
+			(uuid "29613e5c-f244-4b5f-a171-24ff7313104f")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C910")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "682e552c-f60f-496e-b16c-eb14e938f4c1")
+		(property "Reference" "C913"
+			(at 229.87 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 229.87 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.2952 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+			(at 227.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 227.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 227.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 227.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 230.124 160.02 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 230.124 161.036 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 230.124 162.052 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0603"
+			(at 230.124 163.068 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "54cce7c0-302a-40c4-bc91-5b4daa8f4092")
+		)
+		(pin "1"
+			(uuid "e487df9b-76b5-410f-a50d-148ee9e5bcf1")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C913")
 					(unit 1)
 				)
 			)
@@ -10802,199 +11260,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 241.3 168.91 0)
-		(mirror y)
+		(at 129.54 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "687b982d-403b-4b26-a0eb-2fdfa4865270")
-		(property "Reference" "C915"
-			(at 238.76 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 238.76 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.3348 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 241.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 241.3 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 238.76 171.4501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "46f2af16-f012-42c6-8fbc-5b64e1b190d2")
-		)
-		(pin "1"
-			(uuid "e7970430-d0cf-4dd4-8401-ff7f17d67abb")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C915")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 203.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7138ed6d-ea6b-47b7-a099-d51f9c198b8f")
-		(property "Reference" "R908"
-			(at 148.59 200.152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "1 kΩ"
-			(at 148.59 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 148.59 201.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 148.59 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 148.59 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 148.59 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "de20cc89-ca4d-4676-a4fa-844709a580eb")
-		)
-		(pin "1"
-			(uuid "dfaa9444-15ac-4981-9d5b-635cbf97197c")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R908")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 55.88 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75118252-aba5-4da0-bb9b-64a4691930a9")
-		(property "Reference" "C902"
-			(at 58.42 180.34 0)
+		(uuid "6ada286a-7beb-465d-aeed-2217fd091098")
+		(property "Reference" "C908"
+			(at 132.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11003,7 +11277,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 58.42 182.88 0)
+			(at 132.08 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11012,7 +11286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.8452 186.69 0)
+			(at 130.5052 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11021,7 +11295,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 182.88 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11030,7 +11304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 182.88 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11313,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 55.88 182.88 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11048,7 +11322,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 55.88 182.88 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11056,8 +11330,68 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 58.42 185.4201 0)
+		(property "Voltage rating" "16 V"
+			(at 132.334 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 132.334 96.266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 132.334 97.282 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 132.334 98.298 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "a2d8c57e-5d13-475b-b081-db348083dfad")
+		)
+		(pin "1"
+			(uuid "596b8394-5d02-45f1-8a1c-a227e05cb1ef")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d38e056-4e7b-4440-9bf5-500b8543c751")
+		(property "Reference" "C911"
+			(at 157.48 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11065,16 +11399,352 @@
 				(justify left)
 			)
 		)
+		(property "Value" "8 pF"
+			(at 157.48 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.9052 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 154.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 154.94 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 157.734 182.88 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "2 %"
+			(at 157.734 183.896 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "C0G"
+			(at 157.734 184.912 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 157.734 185.928 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
 		(pin "2"
-			(uuid "1800cc10-5b19-4ae1-b345-07ab44fd1858")
+			(uuid "82baf434-e3bf-4a8e-97cc-7d83567f3081")
 		)
 		(pin "1"
-			(uuid "d1c2101e-128a-4861-9cc5-0eb6ec8181d9")
+			(uuid "b36e2c46-73fc-49b3-9f81-a10466738dd2")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C902")
+					(reference "C911")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e80d749-b9bb-4ae8-84b4-7c5415ef0b6d")
+		(property "Reference" "C903"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 62.23 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.6552 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 59.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 62.484 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 62.484 96.266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 62.484 97.282 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0603"
+			(at 62.484 98.298 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "1f43aa7f-ed14-4ba9-baad-62aa77cd9803")
+		)
+		(pin "1"
+			(uuid "2d97468a-fc96-463a-8994-1d2e018880ac")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.3 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73f19b26-0dad-4c4b-8d4d-ab89fb206efa")
+		(property "Reference" "C914"
+			(at 243.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 243.84 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.2652 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+			(at 241.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 241.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 241.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 241.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 244.094 121.92 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 244.094 122.936 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 244.094 123.952 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0603"
+			(at 244.094 124.968 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "6dbcba59-d513-4abb-8511-c0fc46ef6781")
+		)
+		(pin "1"
+			(uuid "1662f4da-6b3d-441a-87bf-1c5996d2692b")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C914")
 					(unit 1)
 				)
 			)
@@ -11082,16 +11752,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 111.76 0)
-		(mirror y)
+		(at 57.15 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7754e38c-316c-4ac8-9468-a715b29adf35")
-		(property "Reference" "R909"
-			(at 151.13 110.49 0)
+		(uuid "74065761-a5d3-446b-ae22-9a95cc45d61e")
+		(property "Reference" "R904"
+			(at 58.42 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11100,7 +11769,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 151.13 113.03 0)
+			(at 58.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11109,7 +11778,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 154.178 111.76 90)
+			(at 55.372 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,8 +11786,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 152.4 111.76 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 57.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +11796,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 111.76 0)
+			(at 57.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11135,8 +11804,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110020"
-			(at 152.4 111.76 0)
+		(property "MPN" ""
+			(at 57.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11144,25 +11813,52 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 152.4 111.76 0)
+		(property "Manufacturer" ""
+			(at 57.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 58.42 114.3 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 58.42 116.8401 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "e01cb84d-0eba-452e-a2a2-1bdc500007a5")
+			(uuid "c088304a-b689-45c5-86d1-184253c58aba")
 		)
 		(pin "1"
-			(uuid "d6df49b3-05dc-46a6-910f-242f4bdfc4b3")
+			(uuid "e454d22d-b494-40fe-ae92-698fc1790be4")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R909")
+					(reference "R904")
 					(unit 1)
 				)
 			)
@@ -11235,131 +11931,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 372.11 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7bc98c91-e19f-49d2-b266-fa32e9f31bc4")
-		(property "Reference" "C923"
-			(at 374.65 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220 µF"
-			(at 374.65 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.0752 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 374.65 185.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "8e368756-4b6a-4ac1-a911-c034c74177a0")
-		)
-		(pin "1"
-			(uuid "d489e2ab-835e-42fe-8731-46c70ed967d8")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C923")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 50.8 114.3 0)
-		(mirror y)
+		(at 148.59 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7e7533e4-ce45-4368-8360-eb3af4d37e5d")
-		(property "Reference" "R902"
-			(at 49.53 113.03 0)
+		(uuid "7c403b17-21a0-400d-b40e-de9173fa8172")
+		(property "Reference" "R908"
+			(at 146.05 197.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right top)
 			)
 		)
-		(property "Value" "10 kΩ"
-			(at 49.53 115.57 0)
+		(property "Value" "1 kΩ"
+			(at 146.05 198.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 52.578 114.3 90)
+			(at 148.59 204.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11367,8 +11966,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 50.8 114.3 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 148.59 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11377,95 +11976,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 50.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 50.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 50.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a37c21b0-76d8-4322-8129-181b6fbe3250")
-		)
-		(pin "1"
-			(uuid "dcdca7c1-ab11-43d2-a6e3-477044ac0ea5")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R902")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 142.24 181.61 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e762544-8671-40b9-a4ff-446342fb461d")
-		(property "Reference" "C909"
-			(at 139.7 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8 pF"
-			(at 139.7 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.2748 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 181.61 0)
+			(at 148.59 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,7 +11985,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 142.24 181.61 0)
+			(at 148.59 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11483,7 +11994,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 142.24 181.61 0)
+			(at 148.59 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11491,8 +12002,60 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature coefficient" "C0G"
-			(at 139.7 184.1501 0)
+		(property "Tolerance" "1 %"
+			(at 146.05 199.898 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 146.05 200.914 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Size" "0402"
+			(at 146.05 201.93 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(pin "2"
+			(uuid "dc5c2637-f2f5-4362-8610-beea274a70bc")
+		)
+		(pin "1"
+			(uuid "15122b28-1c7f-42d5-b852-48d7758efea4")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "R908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 292.1 130.81 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "809b64b3-8205-48b4-a727-3122dd8c284d")
+		(property "Reference" "C916"
+			(at 289.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11500,16 +12063,468 @@
 				(justify left)
 			)
 		)
+		(property "Value" "0.01 µF"
+			(at 289.56 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 291.1348 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 292.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 292.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 289.306 132.08 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 289.306 133.096 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 289.306 134.112 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 289.306 135.128 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
 		(pin "2"
-			(uuid "72546c2c-5d2f-4856-adc8-ca9d1557b80e")
+			(uuid "07d4a457-387f-4c86-bf73-961d1d1e420e")
 		)
 		(pin "1"
-			(uuid "901cf41d-e48b-4e07-83c3-0d79b3708bb0")
+			(uuid "02fcb668-1870-426e-8be3-3bd80ed40042")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C909")
+					(reference "C916")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 54.61 201.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e46d04-dd48-41b0-92ff-b80f3fbf0bb8")
+		(property "Reference" "R903"
+			(at 53.34 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 kΩ"
+			(at 53.34 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 56.388 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 54.61 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 54.61 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 54.61 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 53.34 201.93 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 53.34 203.2 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 53.34 204.4701 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "d9a86b2d-be16-49e1-b1b3-bce4367a1d5d")
+		)
+		(pin "1"
+			(uuid "44e92f83-a68d-47ef-854c-85ee2186a7fe")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "R903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.3 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8464717d-0e3e-4eea-9b79-03b150a14c68")
+		(property "Reference" "C915"
+			(at 243.84 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 243.84 168.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.2652 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+			(at 241.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 241.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 241.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 241.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 244.094 170.18 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 244.094 171.196 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 244.094 172.212 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0603"
+			(at 244.094 173.228 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "2666c5df-4c7c-4f23-a040-123efa3e65f0")
+		)
+		(pin "1"
+			(uuid "f459374f-4188-464e-a2fa-fd3da4b2dd1b")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C915")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 292.1 179.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88ed1135-980d-456d-a658-bbab2aa54288")
+		(property "Reference" "C917"
+			(at 289.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01 µF"
+			(at 289.56 178.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 291.1348 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 292.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 292.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 289.306 180.34 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 289.306 181.356 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 289.306 182.372 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 289.306 183.388 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "7138a657-68f3-4b31-ba1c-fc2bfff99141")
+		)
+		(pin "1"
+			(uuid "dbbcf627-fb9a-42c5-b841-c2170ca3e2c8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C917")
 					(unit 1)
 				)
 			)
@@ -11707,111 +12722,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 93.98 0)
+		(at 227.33 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "93cff758-afc2-429b-878f-a84556f4fb0f")
-		(property "Reference" "C907"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 118.11 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.5352 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 115.57 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 118.11 96.5201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "37fc8dba-f46c-4f4d-a6d8-a30040b1a952")
-		)
-		(pin "1"
-			(uuid "747fee78-1821-491f-bc6e-95a936dbb268")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C907")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 227.33 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96108437-ed28-47f0-b9f3-660121a5bfed")
-		(property "Reference" "C913"
-			(at 229.87 156.21 0)
+		(uuid "996a3605-b1d5-4cb9-98b5-908fafc294ac")
+		(property "Reference" "C912"
+			(at 229.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11820,7 +12739,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 229.87 158.75 0)
+			(at 229.87 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11829,7 +12748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.2952 162.56 0)
+			(at 228.2952 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11837,8 +12756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 227.33 158.75 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21B105KBFNNNE_Spec.pdf"
+			(at 227.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11846,280 +12765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 227.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 227.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 227.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 229.87 161.2901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "527d1d5f-f7ff-43c2-b4b8-ec901f3c8868")
-		)
-		(pin "1"
-			(uuid "16ddc2ea-94e0-4157-ae2e-0019758aa34f")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C913")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 170.18 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d9a2d25-b774-42e0-80a4-ee5600dd1205")
-		(property "Reference" "R911"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 168.91 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 171.958 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 170.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 170.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 170.18 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d10919bd-5136-4eb6-8a1a-a176708e2a11")
-		)
-		(pin "1"
-			(uuid "32de3059-38a2-441b-b870-aa254d0f6968")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R911")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 179.07 111.76 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a12e9895-7e46-4b55-92ae-6e722aa52985")
-		(property "Reference" "R912"
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 177.8 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 180.848 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 179.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 179.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 179.07 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f20b601-a1f9-4fcd-964d-0cd79d1fcc24")
-		)
-		(pin "1"
-			(uuid "fbf8d25d-b570-4d47-a9ec-f5937c24370a")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R912")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 73.66 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a7911e04-423f-4668-9da1-a3f76f5d94aa")
-		(property "Reference" "C904"
-			(at 76.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 76.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.6252 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 93.98 0)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 227.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12128,7 +12775,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 73.66 93.98 0)
+			(at 227.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12137,7 +12784,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 73.66 93.98 0)
+			(at 227.33 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12145,25 +12792,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 76.2 96.5201 0)
+		(property "Voltage rating" "35 V"
+			(at 230.124 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 230.124 112.776 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 230.124 113.792 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0603"
+			(at 230.124 114.808 0)
+			(effects
+				(font
+					(size 0.7 0.7)
 				)
 				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "fb821274-222e-41ce-8f88-8e7c32ec2ebb")
+			(uuid "db6346e3-34a2-4653-93fe-b95516f0786e")
 		)
 		(pin "1"
-			(uuid "a108050b-6760-4a5f-825b-4b365bae8208")
+			(uuid "b81b2849-00b5-4faa-ae23-8cd2766eaaba")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C904")
+					(reference "C912")
 					(unit 1)
 				)
 			)
@@ -12304,6 +12978,244 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 115.57 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa256004-4a18-45ff-b46d-e9e6ac880266")
+		(property "Reference" "C907"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 118.11 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.5352 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 118.364 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 118.364 96.266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 118.364 97.282 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 118.364 98.298 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "e0659e40-a8e2-48f6-a433-1aa00042738d")
+		)
+		(pin "1"
+			(uuid "dfb06eb2-601e-4e44-a546-6f4c5587fa0c")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C907")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 181.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab1bf41e-797e-4bd0-a6e1-595db6c337a9")
+		(property "Reference" "R901"
+			(at 36.83 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12.1 kΩ"
+			(at 36.83 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 39.878 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 38.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 36.83 184.1501 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "bdb58bdc-35dd-4dd1-8299-a4c81f4eab43")
+		)
+		(pin "1"
+			(uuid "d8db536b-3696-40fc-9bbb-01e3da9347c8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "R901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 140.97 152.4 270)
 		(mirror x)
@@ -12371,16 +13283,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 154.94 181.61 0)
+		(lib_id "Device:C_Polarized")
+		(at 372.11 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b117e9c0-dea6-481a-99c5-7993aa9b7a5c")
-		(property "Reference" "C911"
-			(at 157.48 179.07 0)
+		(uuid "b63e7276-798a-436d-b9e6-2e3fbde9e62e")
+		(property "Reference" "C922"
+			(at 374.65 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,8 +13300,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8 pF"
-			(at 157.48 181.61 0)
+		(property "Value" "220 µF"
+			(at 374.65 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12398,7 +13310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.9052 185.42 0)
+			(at 373.0752 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12407,7 +13319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 181.61 0)
+			(at 372.11 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,8 +13327,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 181.61 0)
+		(property "Description" "560 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+			(at 372.11 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,7 +13337,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 154.94 181.61 0)
+			(at 372.11 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12434,7 +13346,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 154.94 181.61 0)
+			(at 372.11 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,8 +13354,60 @@
 				(hide yes)
 			)
 		)
-		(property "Temperature coefficient" "C0G"
-			(at 157.48 184.1501 0)
+		(property "Voltage rating" "35 V"
+			(at 374.65 135.89 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 374.65 136.906 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "Elec"
+			(at 374.65 137.922 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "47442004-bc1f-4460-be7c-798294831d5b")
+		)
+		(pin "2"
+			(uuid "b50a40d1-f5cd-4412-8eb2-27f518a0f1a0")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C922")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd0d1217-a94d-4293-bf98-eb1a07b59ad4")
+		(property "Reference" "R911"
+			(at 168.91 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,16 +13415,97 @@
 				(justify left)
 			)
 		)
+		(property "Value" "10 kΩ"
+			(at 168.91 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 171.958 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 168.91 114.3001 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
 		(pin "2"
-			(uuid "f2cc8c00-4d35-4901-adb3-30e383c85f8e")
+			(uuid "49fa81c6-86d3-4c99-be0f-43871d6d4b55")
 		)
 		(pin "1"
-			(uuid "fb4f0a41-8a1d-4bfd-a20d-47f0287de7b9")
+			(uuid "697892d9-82a1-425d-b48f-0eda415013ea")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C911")
+					(reference "R911")
 					(unit 1)
 				)
 			)
@@ -12468,15 +13513,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 59.69 93.98 0)
+		(at 50.8 181.61 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bc260937-1414-4f04-941d-23b20ed1c453")
-		(property "Reference" "C903"
-			(at 62.23 91.44 0)
+		(uuid "bf5920dd-cf87-41ce-83ab-070e13f3280d")
+		(property "Reference" "C901"
+			(at 48.26 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12484,8 +13530,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 µF"
-			(at 62.23 93.98 0)
+		(property "Value" "0.1 µF"
+			(at 48.26 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12494,7 +13540,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.6552 97.79 0)
+			(at 49.8348 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12503,7 +13549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 93.98 0)
+			(at 50.8 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12512,7 +13558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 93.98 0)
+			(at 50.8 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12521,7 +13567,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 59.69 93.98 0)
+			(at 50.8 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12530,7 +13576,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 59.69 93.98 0)
+			(at 50.8 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12538,201 +13584,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 62.23 96.5201 0)
+		(property "Voltage rating" "16 V"
+			(at 48.006 182.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 48.006 183.896 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 48.006 184.912 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 48.006 185.928 0)
+			(effects
+				(font
+					(size 0.7 0.7)
 				)
 				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "c1b615df-aea4-4660-af5a-446fd1d4a973")
+			(uuid "d04edf89-521f-4234-a32c-0beb4c39f71b")
 		)
 		(pin "1"
-			(uuid "b72ae1ed-6500-45a5-892c-2b0186f3c4e6")
+			(uuid "d42b2220-51d1-4465-b400-6c3569c37e1c")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C903")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 201.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2b842bf-b735-41ce-810b-a494939851e2")
-		(property "Reference" "R903"
-			(at 53.34 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 kΩ"
-			(at 53.34 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 56.388 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110019.pdf"
-			(at 54.61 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110019"
-			(at 54.61 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 54.61 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "25492575-2642-4cc3-a34b-6e943f7936bb")
-		)
-		(pin "1"
-			(uuid "0de06b56-cecc-4078-95d5-37b81cc1276e")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R903")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 130.81 208.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4911fb6-9a64-4998-8cd5-a9da148890f9")
-		(property "Reference" "R906"
-			(at 129.54 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 kΩ"
-			(at 129.54 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 132.588 208.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110019.pdf"
-			(at 130.81 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110019"
-			(at 130.81 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 130.81 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae49a064-3f9a-4c54-b72c-398e706f6f7a")
-		)
-		(pin "1"
-			(uuid "0ceeb5d5-9c09-42de-810b-16243f3bb4ee")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R906")
+					(reference "C901")
 					(unit 1)
 				)
 			)
@@ -12824,16 +13721,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 227.33 110.49 0)
+		(lib_id "Device:C_Polarized")
+		(at 372.11 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c7fcfe09-995a-469a-b668-3f9582dab860")
-		(property "Reference" "C912"
-			(at 229.87 107.95 0)
+		(uuid "c7e62535-b2cc-4a46-b005-7eeb92ca90bd")
+		(property "Reference" "C923"
+			(at 374.65 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12841,8 +13738,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 µF"
-			(at 229.87 110.49 0)
+		(property "Value" "220 µF"
+			(at 374.65 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,7 +13748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.2952 114.3 0)
+			(at 373.0752 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12860,7 +13757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 110.49 0)
+			(at 372.11 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12868,8 +13765,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 227.33 110.49 0)
+		(property "Description" "560 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+			(at 372.11 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,7 +13775,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 227.33 110.49 0)
+			(at 372.11 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12887,7 +13784,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 227.33 110.49 0)
+			(at 372.11 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12895,25 +13792,43 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 229.87 113.0301 0)
+		(property "Voltage rating" "35 V"
+			(at 374.65 184.15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7 0.7)
 				)
 				(justify left)
 			)
 		)
-		(pin "2"
-			(uuid "d0244a79-1fb7-4154-aba3-46d033f08b6b")
+		(property "Tolerance" "20 %"
+			(at 374.65 185.166 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "Elec"
+			(at 374.65 186.182 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
 		)
 		(pin "1"
-			(uuid "ef1c9075-c80e-4890-a69f-66c73d4b7c55")
+			(uuid "73c7dbd7-2d9b-4edf-a211-581729552b51")
+		)
+		(pin "2"
+			(uuid "0449813a-83a4-49af-b2dd-b3e7d430335d")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C912")
+					(reference "C923")
 					(unit 1)
 				)
 			)
@@ -12981,103 +13896,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "TP906")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 292.1 130.81 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ceb5b475-407c-46db-8398-be95fadc93cf")
-		(property "Reference" "C916"
-			(at 289.56 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01 µF"
-			(at 289.56 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 291.1348 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 292.1 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 292.1 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 292.1 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 289.56 133.3501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "c0d2587a-630e-4162-9297-56ac848a60e5")
-		)
-		(pin "1"
-			(uuid "e51f6ad5-8673-4a11-bee6-1be6860cdd17")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C916")
 					(unit 1)
 				)
 			)
@@ -13288,17 +14106,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 367.03 182.88 0)
+		(lib_id "Device:R")
+		(at 161.29 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d58b2c64-b719-4943-8be0-3b7e5f8b609a")
-		(property "Reference" "C921"
-			(at 364.49 180.34 0)
+		(uuid "d7816909-d744-4354-badb-9fc9f9c876c8")
+		(property "Reference" "R910"
+			(at 160.02 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,8 +14124,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220 µF"
-			(at 364.49 182.88 0)
+		(property "Value" "10 kΩ"
+			(at 160.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13315,8 +14133,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 366.0648 186.69 0)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 163.068 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,8 +14142,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 367.03 182.88 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 161.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13333,8 +14151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 367.03 182.88 0)
+		(property "Description" "Resistor"
+			(at 161.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13343,7 +14161,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 367.03 182.88 0)
+			(at 161.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13352,7 +14170,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 367.03 182.88 0)
+			(at 161.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,25 +14178,43 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 364.49 185.4201 0)
+		(property "Tolerance" "1 %"
+			(at 160.02 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 160.02 114.3001 0)
+			(effects
+				(font
+					(size 0.7 0.7)
 				)
 				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "00ad0d41-b2db-416b-9c7d-3b96605f51b0")
+			(uuid "260e6ef0-dfc4-4394-aac6-fe8071301009")
 		)
 		(pin "1"
-			(uuid "a8b7553c-e33c-45c5-a4c6-45a33d7d6602")
+			(uuid "ac6dd195-8842-44a0-a9b8-d2f6ad28d69f")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C921")
+					(reference "R910")
 					(unit 1)
 				)
 			)
@@ -13526,6 +14362,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 73.66 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e174f968-19ed-455d-8652-b80f524a3784")
+		(property "Reference" "C904"
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 76.2 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.6252 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 76.454 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 76.454 96.266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 76.454 97.282 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 76.454 98.298 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "6036c683-6840-4c7d-8daa-cf70e2c22793")
+		)
+		(pin "1"
+			(uuid "692e70ab-ddd9-484b-b3d0-d91e292751eb")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C904")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 52.07 172.72 90)
 		(unit 1)
@@ -13592,16 +14551,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 372.11 134.62 0)
+		(lib_id "Device:R")
+		(at 143.51 208.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e2674cdd-d796-4d02-a425-bf074673e219")
-		(property "Reference" "C922"
-			(at 374.65 132.08 0)
+		(uuid "e23cf787-97f9-49a8-a8e5-7833dd2dae43")
+		(property "Reference" "R907"
+			(at 142.24 205.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13609,8 +14569,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220 µF"
-			(at 374.65 134.62 0)
+		(property "Value" "100 kΩ"
+			(at 142.24 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13618,8 +14578,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 373.0752 138.43 0)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 145.288 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13627,8 +14587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 372.11 134.62 0)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,8 +14596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 372.11 134.62 0)
+		(property "Description" "Resistor"
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,7 +14606,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 372.11 134.62 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +14615,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 372.11 134.62 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13663,25 +14623,43 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 374.65 137.1601 0)
+		(property "Tolerance" "1 %"
+			(at 142.24 208.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 142.24 209.55 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 142.24 210.8201 0)
+			(effects
+				(font
+					(size 0.7 0.7)
 				)
 				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "eac90d2b-4b3e-45f2-9785-fe726ca818f2")
+			(uuid "9002e722-9746-4854-b427-d123c2e67353")
 		)
 		(pin "1"
-			(uuid "9656224a-f885-48f4-9621-18711b17d12b")
+			(uuid "e57541d2-4a1e-4eeb-934e-67315fdd9143")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C922")
+					(reference "R907")
 					(unit 1)
 				)
 			)
@@ -13689,15 +14667,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 93.98 0)
+		(at 87.63 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e38d2b14-04df-408f-84b7-d90db9486751")
-		(property "Reference" "C908"
-			(at 132.08 91.44 0)
+		(uuid "e46b9a04-a186-47ee-b3fc-e0ed8df64cd3")
+		(property "Reference" "C905"
+			(at 90.17 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13706,7 +14684,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 132.08 93.98 0)
+			(at 90.17 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +14693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.5052 97.79 0)
+			(at 88.5952 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +14702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 93.98 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,7 +14711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 93.98 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13742,7 +14720,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 129.54 93.98 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13751,7 +14729,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 129.54 93.98 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,25 +14737,52 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 132.08 96.5201 0)
+		(property "Voltage rating" "16 V"
+			(at 90.424 95.25 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 90.424 96.266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 90.424 97.282 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 90.424 98.298 0)
+			(effects
+				(font
+					(size 0.7 0.7)
 				)
 				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "6fc33b97-8458-4886-b61d-295e940dc7cb")
+			(uuid "57e363e8-6202-480b-b5c1-c2d95535cc9e")
 		)
 		(pin "1"
-			(uuid "c42999c9-132f-4266-861a-a80066d94191")
+			(uuid "62577742-bf35-4082-8cf9-cca1a81480f5")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C908")
+					(reference "C905")
 					(unit 1)
 				)
 			)
@@ -13845,6 +14850,121 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "#PWR0907")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6789984-b8eb-4451-a935-faf2e8942563")
+		(property "Reference" "R912"
+			(at 177.8 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 180.848 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 177.8 114.3001 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "cf38e43f-c0c2-4197-bcf6-e98723029574")
+		)
+		(pin "1"
+			(uuid "966edfb6-03b2-49d5-b4c1-cba6b639da11")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "R912")
 					(unit 1)
 				)
 			)
@@ -13936,16 +15056,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 57.15 114.3 0)
+		(lib_id "Device:C")
+		(at 297.18 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6f69284-5302-467e-846c-08213318c583")
-		(property "Reference" "R904"
-			(at 58.42 113.03 0)
+		(uuid "f2ba1f56-ea9b-4fcb-b998-09a4157af616")
+		(property "Reference" "C918"
+			(at 299.72 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,8 +15073,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 kΩ"
-			(at 58.42 115.57 0)
+		(property "Value" "0.01 µF"
+			(at 299.72 130.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13962,8 +15082,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 55.372 114.3 90)
+		(property "Footprint" ""
+			(at 298.1452 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13971,8 +15091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 57.15 114.3 0)
+		(property "Datasheet" ""
+			(at 297.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13980,8 +15100,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 57.15 114.3 0)
+		(property "Description" ""
+			(at 297.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13989,8 +15109,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110020"
-			(at 57.15 114.3 0)
+		(property "MPN" ""
+			(at 297.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13998,25 +15118,61 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 57.15 114.3 0)
+		(property "Manufacturer" ""
+			(at 297.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 299.974 132.08 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 299.974 133.096 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 299.974 134.112 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 299.974 135.128 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
-			(uuid "2e4ecd89-7e19-4716-9138-2cac716504a9")
+			(uuid "6d383a72-155e-4d74-8969-1fca89fce131")
 		)
 		(pin "1"
-			(uuid "af79e1f4-0bf6-404d-86dd-cbe46679b396")
+			(uuid "12832f9b-0363-45f8-8a6c-ab091c773d7c")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "R904")
+					(reference "C918")
 					(unit 1)
 				)
 			)
@@ -14156,105 +15312,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 292.1 179.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fba4466d-5210-4984-bfb9-9147eb8f9544")
-		(property "Reference" "C917"
-			(at 289.56 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.01 µF"
-			(at 289.56 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 291.1348 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 292.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 292.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 292.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 35 V"
-			(at 289.56 181.6101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "c71b9a8d-3896-45d2-b12c-7b64ca71a49e")
-		)
-		(pin "1"
-			(uuid "9eaf8bdf-b3d7-4c17-a8a3-d9dc15b15725")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C917")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
-		(at 59.69 100.33 0)
+		(at 59.69 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14263,7 +15322,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbcc9210-2e6c-4c53-b8ba-685b307f47de")
 		(property "Reference" "#PWR0903"
-			(at 59.69 106.68 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14272,7 +15331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 105.41 0)
+			(at 59.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14281,7 +15340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 100.33 0)
+			(at 59.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14290,7 +15349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 100.33 0)
+			(at 59.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14299,7 +15358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 59.69 100.33 0)
+			(at 59.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

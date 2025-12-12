@@ -806,6 +806,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:Earth"
 			(power)
 			(pin_numbers
@@ -1222,6 +1346,12 @@
 		(uuid "04c08af2-887e-45b4-8385-174e521c48ab")
 	)
 	(junction
+		(at 247.65 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08deba1f-586a-4a2a-a30f-d7f88d7c23bf")
+	)
+	(junction
 		(at 247.65 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1234,34 +1364,16 @@
 		(uuid "1dbf6e81-dfab-4922-a40e-6813a19c6ef0")
 	)
 	(junction
-		(at 158.75 160.02)
+		(at 254 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "24a2fe0a-a202-486d-83a9-f860f6150558")
+		(uuid "268ecf08-3f94-4a4c-a073-80989fee62c2")
 	)
 	(junction
-		(at 222.25 160.02)
+		(at 171.45 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26cf9019-3681-44d9-b1ab-85f647b50422")
-	)
-	(junction
-		(at 209.55 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e5f1ec1-87ee-4c4b-b073-53a67e5a49e1")
-	)
-	(junction
-		(at 146.05 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ee4dc02-7a69-444b-8235-fc1ed13e57c0")
-	)
-	(junction
-		(at 184.15 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "490cff12-c4d2-45ba-996d-c5fbcfb54608")
+		(uuid "41d5ccff-7545-4260-9dff-20c15a3f8ec0")
 	)
 	(junction
 		(at 133.35 137.16)
@@ -1270,22 +1382,34 @@
 		(uuid "4d0332a2-c1f1-4aa4-beeb-98d66d9ef790")
 	)
 	(junction
-		(at 196.85 160.02)
+		(at 222.25 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5055d64d-82de-46a4-971e-2ca92551de15")
+		(uuid "6169d4e5-5017-4bd3-9edf-7aca97bc338d")
 	)
 	(junction
-		(at 171.45 160.02)
+		(at 158.75 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ceae614-2707-4751-acc4-1026b8cafbbd")
+		(uuid "634dd932-954c-4eaf-8353-063de00e75b8")
 	)
 	(junction
 		(at 184.15 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "641d2239-5c47-4352-bf75-470495769cc8")
+	)
+	(junction
+		(at 234.95 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "790bb0fc-bb1a-4559-87b5-fa934f6e351f")
+	)
+	(junction
+		(at 209.55 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f80fd95-9aef-4af7-ad1e-d21b9dbf3c62")
 	)
 	(junction
 		(at 171.45 144.78)
@@ -1300,10 +1424,22 @@
 		(uuid "883a89ce-b1c0-4765-9ff1-d057900c3340")
 	)
 	(junction
+		(at 196.85 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90352406-1817-41c1-9259-ee65107f3527")
+	)
+	(junction
 		(at 209.55 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "936d94d8-2a69-4ca1-9922-fdc264809ca5")
+	)
+	(junction
+		(at 184.15 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a88ecb5d-c525-4a91-96cc-7f58a2003cbe")
 	)
 	(junction
 		(at 158.75 147.32)
@@ -1312,34 +1448,22 @@
 		(uuid "b6b30dee-ef71-4e16-bf9c-f85444d7411e")
 	)
 	(junction
-		(at 234.95 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c496b726-82ef-4e5b-a9e1-1be679232735")
-	)
-	(junction
-		(at 247.65 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c50e5119-fb63-413a-9a00-486a3c3d8b8a")
-	)
-	(junction
 		(at 254 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c91677db-3adc-480b-bea8-b150255aca1f")
 	)
 	(junction
+		(at 146.05 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5157f82-921d-44d9-8f8a-aa9582d72152")
+	)
+	(junction
 		(at 146.05 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e20e44d4-9ffd-4718-863c-7f4285b94787")
-	)
-	(junction
-		(at 254 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e362d58d-a28b-40aa-91bd-e888ab25a572")
 	)
 	(junction
 		(at 222.25 132.08)
@@ -1422,7 +1546,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 147.32) (xy 127 147.32)
+			(xy 234.95 158.75) (xy 234.95 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c8acab-fa48-474f-8e27-8755e16a75eb")
+	)
+	(wire
+		(pts
+			(xy 118.11 147.32) (xy 127 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1432,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 129.54) (xy 234.95 129.54)
+			(xy 118.11 129.54) (xy 234.95 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1442,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 142.24) (xy 184.15 142.24)
+			(xy 118.11 142.24) (xy 184.15 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1452,23 +1586,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 144.78) (xy 171.45 144.78)
+			(xy 118.11 144.78) (xy 171.45 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "148dff06-91a0-4ab1-87c5-1a1ed4701692")
-	)
-	(wire
-		(pts
-			(xy 234.95 158.75) (xy 234.95 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1616795b-9a31-462d-8994-f84b364ad509")
 	)
 	(wire
 		(pts
@@ -1492,7 +1616,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 144.78) (xy 114.3 144.78)
+			(xy 88.9 144.78) (xy 110.49 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +1626,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 160.02) (xy 234.95 160.02)
+			(xy 247.65 161.29) (xy 234.95 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 147.32) (xy 114.3 147.32)
+			(xy 88.9 147.32) (xy 110.49 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 160.02) (xy 146.05 160.02)
+			(xy 133.35 161.29) (xy 146.05 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1582,17 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 160.02) (xy 158.75 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a39b204-5d3b-4597-af13-21b7e47b5dee")
-	)
-	(wire
-		(pts
-			(xy 171.45 160.02) (xy 184.15 160.02)
+			(xy 171.45 161.29) (xy 184.15 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1736,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 132.08) (xy 114.3 132.08)
+			(xy 88.9 132.08) (xy 110.49 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1652,17 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 158.75) (xy 146.05 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49114dc0-b0da-4531-ab47-d53ed90845ac")
-	)
-	(wire
-		(pts
-			(xy 209.55 160.02) (xy 222.25 160.02)
+			(xy 209.55 161.29) (xy 222.25 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 160.02) (xy 196.85 160.02)
+			(xy 184.15 161.29) (xy 196.85 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1786,27 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 160.02) (xy 171.45 160.02)
+			(xy 184.15 158.75) (xy 184.15 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6d226d-926a-4d33-b84d-6852e48e940f")
+	)
+	(wire
+		(pts
+			(xy 254 149.86) (xy 254 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8e990e-4f41-44c6-8efd-3e740e5b0b40")
+	)
+	(wire
+		(pts
+			(xy 158.75 161.29) (xy 171.45 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 158.75) (xy 171.45 160.02)
+			(xy 171.45 158.75) (xy 171.45 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1702,17 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 149.86) (xy 254 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "597143e9-8449-4aa0-8018-ab7e5a0c8daf")
-	)
-	(wire
-		(pts
-			(xy 133.35 160.02) (xy 133.35 158.75)
+			(xy 133.35 161.29) (xy 133.35 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +1846,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 142.24) (xy 114.3 142.24)
+			(xy 196.85 158.75) (xy 196.85 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68347fc5-ed36-4863-92c7-b3844e0437b0")
+	)
+	(wire
+		(pts
+			(xy 88.9 142.24) (xy 110.49 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +1886,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 137.16) (xy 133.35 137.16)
+			(xy 118.11 137.16) (xy 133.35 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1802,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 160.02) (xy 234.95 160.02)
+			(xy 222.25 161.29) (xy 234.95 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1812,7 +1936,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 114.3 129.54)
+			(xy 88.9 129.54) (xy 110.49 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1822,17 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 158.75) (xy 247.65 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e08f897-4a79-4648-8b87-336165c2ffcf")
-	)
-	(wire
-		(pts
-			(xy 254 161.29) (xy 254 160.02)
+			(xy 254 162.56) (xy 254 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1852,7 +1966,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 160.02) (xy 158.75 160.02)
+			(xy 146.05 161.29) (xy 158.75 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1862,7 +1976,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 158.75) (xy 209.55 160.02)
+			(xy 146.05 158.75) (xy 146.05 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1f0a1c-d1ab-46fe-b34e-9731df0383ab")
+	)
+	(wire
+		(pts
+			(xy 209.55 158.75) (xy 209.55 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1902,7 +2026,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 137.16) (xy 114.3 137.16)
+			(xy 88.9 137.16) (xy 110.49 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1932,7 +2056,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 127) (xy 114.3 127)
+			(xy 88.9 127) (xy 110.49 127)
 		)
 		(stroke
 			(width 0)
@@ -1942,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 160.02) (xy 254 160.02)
+			(xy 247.65 161.29) (xy 254 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1952,7 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 132.08) (xy 222.25 132.08)
+			(xy 118.11 132.08) (xy 222.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1962,13 +2086,33 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 127) (xy 247.65 127)
+			(xy 118.11 127) (xy 247.65 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb4fc0ce-2c55-4e89-a692-b3e42d9e700b")
+	)
+	(wire
+		(pts
+			(xy 222.25 158.75) (xy 222.25 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2baaef-afbd-4a75-8784-f58bfb6fb621")
+	)
+	(wire
+		(pts
+			(xy 158.75 158.75) (xy 158.75 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee16358-7d82-4ea7-8d49-617928cc94a6")
 	)
 	(wire
 		(pts
@@ -1982,17 +2126,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 158.75) (xy 184.15 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0120de5-2a85-4a1f-8bc5-16b42a2b1db4")
-	)
-	(wire
-		(pts
-			(xy 196.85 160.02) (xy 209.55 160.02)
+			(xy 196.85 161.29) (xy 209.55 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2032,6 +2166,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 158.75) (xy 247.65 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6b3e0a-499e-4ec8-820b-97e964c89c8e")
+	)
+	(wire
+		(pts
 			(xy 171.45 144.78) (xy 255.27 144.78)
 		)
 		(stroke
@@ -2039,16 +2183,6 @@
 			(type default)
 		)
 		(uuid "cfcbe00b-65af-48fa-bbbb-ae6ac4c1f9e4")
-	)
-	(wire
-		(pts
-			(xy 222.25 158.75) (xy 222.25 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d34cbdd3-9b04-42b8-a72e-e48f874ba6a8")
 	)
 	(wire
 		(pts
@@ -2099,16 +2233,6 @@
 			(type default)
 		)
 		(uuid "f0521a57-05e8-43da-8917-c669b8cc71d4")
-	)
-	(wire
-		(pts
-			(xy 196.85 158.75) (xy 196.85 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23c58b0-0362-48b7-9779-46556030ed00")
 	)
 	(wire
 		(pts
@@ -2335,25 +2459,18 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 118.11 144.78 270)
+		(at 114.3 144.78 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "10c5987b-6507-4c8f-b646-ee447f78d045")
+		(uuid "15d9a3f7-a5ab-4308-8560-0df9a181a665")
 		(property "Reference" "R1106"
-			(at 115.062 144.272 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 121.158 144.272 90)
+			(at 111.506 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,8 +2478,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 118.11 143.002 90)
+		(property "Value" "0 Ω"
+			(at 117.094 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 143.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,8 +2496,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 118.11 144.78 0)
+		(property "Datasheet" ""
+			(at 114.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,8 +2505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 118.11 144.78 0)
+		(property "Description" ""
+			(at 114.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,8 +2514,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110020"
-			(at 118.11 144.78 0)
+		(property "MPN" ""
+			(at 114.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,20 +2523,29 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 118.11 144.78 0)
+		(property "Manufacturer" ""
+			(at 114.3 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 121.158 144.526 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
 			)
 		)
 		(pin "2"
-			(uuid "5df801a1-712a-4b37-af31-ab5aba92d56e")
+			(uuid "4eaa89a5-6ec3-4f2a-80b8-107db1fe651d")
 		)
 		(pin "1"
-			(uuid "7e97d1dd-d76a-4d97-8563-ff0532234a06")
+			(uuid "c3290c33-81e1-4dce-b5ae-be193f3f9570")
 		)
 		(instances
 			(project "linux-sbc"
@@ -2554,190 +2689,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
 					(reference "D1103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 129.54 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bdddba4-f857-4466-b9df-a099c6eabd1f")
-		(property "Reference" "R1102"
-			(at 115.062 129.032 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 121.158 129.032 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 118.11 127.762 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eeb5e5e2-a688-4314-a42e-ac3689ad16f2")
-		)
-		(pin "1"
-			(uuid "55879691-3c60-471b-afcd-a930f4c22bae")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "R1102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 154.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30d83803-0d16-4ab1-89f1-dbedd0d83745")
-		(property "Reference" "C1101"
-			(at 143.51 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 µF"
-			(at 143.51 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 145.0848 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 146.05 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 146.05 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "≥ 16 V"
-			(at 143.51 157.4801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "a07d87fa-3580-4e95-9731-fcd3ea5ec2dc")
-		)
-		(pin "1"
-			(uuid "c247b60a-1bea-4b02-b359-ed80e402f26e")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "C1101")
 					(unit 1)
 				)
 			)
@@ -2930,6 +2881,121 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
 					(reference "D1104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "509eb1fb-80d8-4c7f-b607-fe5d210ffc14")
+		(property "Reference" "R1109"
+			(at 132.08 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 135.128 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 133.35 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 132.08 154.94 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 132.08 157.4801 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "0baf5369-0e84-499a-b876-e96cd99fb55c")
+		)
+		(pin "1"
+			(uuid "5a5e6f76-ace8-42ab-9a08-4068a7f73121")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
+					(reference "R1109")
 					(unit 1)
 				)
 			)
@@ -3141,200 +3207,18 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 118.11 137.16 270)
+		(at 114.3 142.24 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "69d58acc-6a1c-4f0c-a464-a9959d0943ec")
-		(property "Reference" "R1104"
-			(at 115.062 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 121.158 136.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 118.11 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 118.11 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 118.11 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 118.11 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed12a155-28cf-4b2a-9a7e-e472d061eb00")
-		)
-		(pin "1"
-			(uuid "cb76050e-2b6b-4fb8-9f9c-b099ee8275c3")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "R1104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 154.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71847f9d-31aa-4174-a42a-eba68b388d88")
-		(property "Reference" "R1109"
-			(at 132.08 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 132.08 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 135.128 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 133.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 133.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 133.35 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb5ca8f0-4ea6-4e95-a245-57ec2b4f7caa")
-		)
-		(pin "1"
-			(uuid "7c2d939b-8504-425d-a806-c5241fb01bc6")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "R1109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81442df2-28e2-4d33-b9ad-4e10c7d58a2c")
+		(uuid "687a9e9b-9459-4472-904b-dd940c437c66")
 		(property "Reference" "R1105"
-			(at 115.062 141.732 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 121.158 141.732 90)
+			(at 111.506 141.986 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,8 +3226,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 118.11 140.462 90)
+		(property "Value" "0 Ω"
+			(at 117.094 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 140.462 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,8 +3244,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 118.11 142.24 0)
+		(property "Datasheet" ""
+			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,8 +3253,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 118.11 142.24 0)
+		(property "Description" ""
+			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,8 +3262,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110020"
-			(at 118.11 142.24 0)
+		(property "MPN" ""
+			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,20 +3271,29 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 118.11 142.24 0)
+		(property "Manufacturer" ""
+			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 121.158 141.986 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
 			)
 		)
 		(pin "2"
-			(uuid "6faf9d87-9f8e-48d8-aec4-3b76ab49488c")
+			(uuid "25056263-d192-47c3-a5d1-e012c9b26f0a")
 		)
 		(pin "1"
-			(uuid "678b7752-4c80-4bc4-9e91-d6a9f3258a43")
+			(uuid "f820b761-7906-4e68-a62a-e6979273553e")
 		)
 		(instances
 			(project "linux-sbc"
@@ -3403,34 +3305,36 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 127 120.65 0)
+		(at 114.3 132.08 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "955d2068-2e69-4f79-9c76-e29d22eaeec9")
-		(property "Reference" "R1108"
-			(at 128.27 119.38 0)
+		(uuid "92d77542-a1e6-4192-842e-84472e40a85c")
+		(property "Reference" "R1103"
+			(at 111.506 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "100 kΩ"
-			(at 128.27 121.92 0)
+		(property "Value" "0 Ω"
+			(at 117.094 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 125.222 120.65 90)
+		(property "Footprint" ""
+			(at 114.3 130.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,8 +3342,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110019.pdf"
-			(at 127 120.65 0)
+		(property "Datasheet" ""
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,8 +3351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 127 120.65 0)
+		(property "Description" ""
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,8 +3360,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110019"
-			(at 127 120.65 0)
+		(property "MPN" ""
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,25 +3369,132 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 127 120.65 0)
+		(property "Manufacturer" ""
+			(at 114.3 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 121.158 131.826 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
 			)
 		)
 		(pin "2"
-			(uuid "2e06eaa0-81bb-4d31-a7db-4f337673d246")
+			(uuid "dff523cd-e939-4793-afac-b0b33aa40310")
 		)
 		(pin "1"
-			(uuid "1531998d-fdbd-4db7-888e-66a988ede3d4")
+			(uuid "047c0230-4e29-4ac5-b7b2-10e5120659c9")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "R1108")
+					(reference "R1103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 114.3 127 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96818a86-ad00-4515-b12b-d07331611379")
+		(property "Reference" "R1101"
+			(at 111.506 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 117.094 126.746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 125.222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 121.158 126.746 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "9bd240f3-4aa1-46c6-8d32-676931a55da0")
+		)
+		(pin "1"
+			(uuid "194db685-417e-4700-8cd2-1b4fae713e7a")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
+					(reference "R1101")
 					(unit 1)
 				)
 			)
@@ -3559,6 +3570,228 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 114.3 147.32 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a114e9a9-a842-4412-82cb-5278c2775267")
+		(property "Reference" "R1107"
+			(at 111.506 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 117.094 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 114.3 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 121.158 147.066 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "d9523f99-8ede-4de2-a81a-62d989bd7501")
+		)
+		(pin "1"
+			(uuid "8eae649a-ead6-44e4-b0b0-812b1f2e3a46")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
+					(reference "R1107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 154.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0d85875-2e77-4f9d-93d5-dc69ba18c115")
+		(property "Reference" "C1101"
+			(at 143.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 143.51 154.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.0848 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 146.05 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 143.256 156.21 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 143.256 157.226 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 143.256 158.242 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0805"
+			(at 143.256 159.258 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "396022e2-914a-419e-9aca-2111fc8172db")
+		)
+		(pin "1"
+			(uuid "01007a98-fc01-412a-9dc0-83e3a1f61d4b")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
+					(reference "C1101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 222.25 154.94 270)
 		(unit 1)
@@ -3628,25 +3861,18 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 118.11 147.32 270)
+		(at 114.3 137.16 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b58346a9-7d25-478d-8f79-37ef71ce4762")
-		(property "Reference" "R1107"
-			(at 115.062 146.812 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 121.158 146.812 90)
+		(uuid "b66c432c-f341-4bdf-a073-165acbef320f")
+		(property "Reference" "R1104"
+			(at 111.506 136.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,8 +3880,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 118.11 145.542 90)
+		(property "Value" "0 Ω"
+			(at 117.094 136.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,8 +3898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 118.11 147.32 0)
+		(property "Datasheet" ""
+			(at 114.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,8 +3907,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 118.11 147.32 0)
+		(property "Description" ""
+			(at 114.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,8 +3916,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110020"
-			(at 118.11 147.32 0)
+		(property "MPN" ""
+			(at 114.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,25 +3925,132 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 118.11 147.32 0)
+		(property "Manufacturer" ""
+			(at 114.3 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 121.158 136.906 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
 			)
 		)
 		(pin "2"
-			(uuid "c069a51d-2655-4462-8679-605eab089cec")
+			(uuid "f1aa6569-59b2-4a14-99ef-72002957a8a6")
 		)
 		(pin "1"
-			(uuid "7a1a895e-3aab-466e-afa5-fbe743a21caf")
+			(uuid "df36d78f-57ab-451e-8a41-74c75273338e")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "R1107")
+					(reference "R1104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 114.3 129.54 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbb330e1-05a7-4a6e-b152-5b405cb05abe")
+		(property "Reference" "R1102"
+			(at 111.506 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 117.094 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 114.3 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0402"
+			(at 121.158 129.286 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "2"
+			(uuid "d85b4b3c-8796-4db1-823e-b7869d4a0fcc")
+		)
+		(pin "1"
+			(uuid "8f51e6d5-b1cd-42dc-86f4-9a3c84e3c6c8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
+					(reference "R1102")
 					(unit 1)
 				)
 			)
@@ -3716,7 +4058,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 254 161.29 0)
+		(at 254 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3725,7 +4067,7 @@
 		(fields_autoplaced yes)
 		(uuid "d45538d6-7052-42a7-8f5e-baf205ebb295")
 		(property "Reference" "#PWR01101"
-			(at 254 167.64 0)
+			(at 254 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +4076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 166.37 0)
+			(at 254 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,7 +4085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 161.29 0)
+			(at 254 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +4094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 161.29 0)
+			(at 254 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +4103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 254 161.29 0)
+			(at 254 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,6 +4118,120 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
 					(reference "#PWR01101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deaa1d95-ee44-463a-9d56-3f2d12351675")
+		(property "Reference" "R1108"
+			(at 128.27 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 kΩ"
+			(at 128.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+			(at 125.222 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116014.pdf"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 128.27 121.92 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 128.27 123.1901 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "9a7f99f9-598f-40bf-935a-29621dacff1c")
+		)
+		(pin "1"
+			(uuid "c91c7e0f-0ff7-46e6-a31b-dc4d6402d63c")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
+					(reference "R1108")
 					(unit 1)
 				)
 			)
@@ -3845,180 +4301,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
 					(reference "D1107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec8670e2-abb9-45d0-92a5-6c7e897dcd46")
-		(property "Reference" "R1101"
-			(at 115.062 126.492 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 121.158 126.492 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 118.11 125.222 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 118.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 118.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 118.11 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47de3213-5ce1-409a-867c-eebca0d735dc")
-		)
-		(pin "1"
-			(uuid "9ee3bdbe-d460-4385-94a9-ee2b4b2460d7")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "R1101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4380a7c-ad6e-470a-b629-be5715c6e78d")
-		(property "Reference" "R1103"
-			(at 115.062 131.572 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 121.158 131.572 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 118.11 130.302 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110020.pdf"
-			(at 118.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110020"
-			(at 118.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 118.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1f7de8d-9af2-47a0-b2e7-1c94666a2edd")
-		)
-		(pin "1"
-			(uuid "e411af7e-fcb9-46f6-a8ab-83922d6bb2a3")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "R1103")
 					(unit 1)
 				)
 			)
