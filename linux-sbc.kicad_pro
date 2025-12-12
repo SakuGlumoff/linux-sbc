@@ -479,7 +479,7 @@
         "line_style": 0,
         "name": "ANT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
       },
@@ -488,7 +488,7 @@
         "line_style": 0,
         "name": "CHASSIS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 6,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 20
       },
@@ -513,18 +513,9 @@
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "ETH_RMII",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgb(0, 255, 255)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 7,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 20
       },
@@ -533,7 +524,7 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       },
@@ -542,7 +533,7 @@
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgb(132, 0, 132)",
         "wire_width": 6
       },
@@ -551,7 +542,7 @@
         "line_style": 0,
         "name": "WLAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 4,
         "schematic_color": "rgb(132, 132, 0)",
         "wire_width": 6
       },
@@ -560,7 +551,7 @@
         "line_style": 0,
         "name": "uSD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 5,
         "schematic_color": "rgb(194, 194, 0)",
         "wire_width": 6
       }
@@ -735,34 +726,79 @@
       "/Debug/D_P": [
         "USB"
       ],
+      "/Ethernet/CLKIN": [
+        "ETH"
+      ],
       "/Ethernet/ETH.CRS_DV": [
-        "ETH_RMII"
+        "ETH"
+      ],
+      "/Ethernet/ETH.INT_N": [
+        "ETH"
       ],
       "/Ethernet/ETH.MDC": [
-        "ETH_RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.MDIO": [
-        "ETH_RMII"
+        "ETH"
+      ],
+      "/Ethernet/ETH.REF_CLK": [
+        "ETH"
+      ],
+      "/Ethernet/ETH.RST_N": [
+        "ETH"
       ],
       "/Ethernet/ETH.RXD0": [
-        "ETH_RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.RXD1": [
-        "ETH_RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.TXD0": [
-        "ETH_RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.TXD1": [
-        "ETH_RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.TXEN": [
-        "ETH_RMII"
+        "ETH"
+      ],
+      "/Ethernet/INT_N": [
+        "ETH"
+      ],
+      "/Ethernet/MDC": [
+        "ETH"
+      ],
+      "/Ethernet/MDIO": [
+        "ETH"
+      ],
+      "/Ethernet/MODE0": [
+        "ETH"
+      ],
+      "/Ethernet/MODE1": [
+        "ETH"
+      ],
+      "/Ethernet/RST_N": [
+        "ETH"
+      ],
+      "/Ethernet/RXD0": [
+        "ETH"
+      ],
+      "/Ethernet/RXD1": [
+        "ETH"
       ],
       "/Ethernet/RX_N": [
         "ETH"
       ],
       "/Ethernet/RX_P": [
+        "ETH"
+      ],
+      "/Ethernet/TXD0": [
+        "ETH"
+      ],
+      "/Ethernet/TXD1": [
+        "ETH"
+      ],
+      "/Ethernet/TXEN": [
         "ETH"
       ],
       "/Ethernet/TX_N": [
