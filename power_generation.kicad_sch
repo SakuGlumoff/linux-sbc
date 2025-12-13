@@ -1108,7 +1108,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RFShield_TwoPieces"
+		(symbol "Device:RFShield_OnePiece"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1123,7 +1123,7 @@
 					)
 				)
 			)
-			(property "Value" "RFShield_TwoPieces"
+			(property "Value" "RFShield_OnePiece"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1149,7 +1149,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two-piece EMI RF shielding cabinet"
+			(property "Description" "One-piece EMI RF shielding cabinet"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1167,19 +1167,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RFShield_TwoPieces_0_1"
-				(polyline
-					(pts
-						(xy -17.78 5.08) (xy -17.78 11.43) (xy 17.78 11.43) (xy 17.78 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "RFShield_OnePiece_0_1"
 				(polyline
 					(pts
 						(xy -15.24 6.35) (xy -15.24 7.62) (xy -13.97 7.62)
@@ -1469,7 +1457,7 @@
 					)
 				)
 			)
-			(symbol "RFShield_TwoPieces_1_1"
+			(symbol "RFShield_OnePiece_1_1"
 				(pin passive line
 					(at 0 -10.16 90)
 					(length 2.54)
@@ -4075,7 +4063,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RFShield_TwoPieces")
+		(lib_id "Device:RFShield_OnePiece")
 		(at 228.6 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4085,7 +4073,7 @@
 		(fields_autoplaced yes)
 		(uuid "22c92bec-39d7-4b71-9ad8-94ee4c6eff0e")
 		(property "Reference" "J303"
-			(at 247.65 98.4249 0)
+			(at 245.11 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,8 +4081,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36103505"
-			(at 247.65 100.9649 0)
+		(property "Value" "EMI shield frame"
+			(at 245.11 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Shielding:Wuerth_36103205_20x20mm"
+		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-202-F_16.50x16.50mm"
 			(at 228.6 104.14 0)
 			(effects
 				(font
@@ -4111,7 +4099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/36103505.pdf"
+		(property "Datasheet" "~"
 			(at 228.6 104.14 0)
 			(effects
 				(font
@@ -4120,7 +4108,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two-piece EMI RF shielding cabinet"
+		(property "Description" "One-piece EMI RF shielding cabinet"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "903-1051-1-ND"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BMI-S-202-F"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird Technologies EMI"
 			(at 228.6 101.6 0)
 			(effects
 				(font
@@ -4727,7 +4742,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RFShield_TwoPieces")
+		(lib_id "Device:RFShield_OnePiece")
 		(at 228.6 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4737,7 +4752,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bcc7a0c-8bb7-4e9e-9341-19109fa809b6")
 		(property "Reference" "J304"
-			(at 247.65 200.0249 0)
+			(at 245.11 201.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,8 +4760,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36103505"
-			(at 247.65 202.5649 0)
+		(property "Value" "EMI shield frame"
+			(at 245.11 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4754,7 +4769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Shielding:Wuerth_36103205_20x20mm"
+		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-202-F_16.50x16.50mm"
 			(at 228.6 205.74 0)
 			(effects
 				(font
@@ -4763,7 +4778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/36103505.pdf"
+		(property "Datasheet" "~"
 			(at 228.6 205.74 0)
 			(effects
 				(font
@@ -4772,7 +4787,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two-piece EMI RF shielding cabinet"
+		(property "Description" "One-piece EMI RF shielding cabinet"
+			(at 228.6 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "903-1051-1-ND"
+			(at 228.6 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BMI-S-202-F"
+			(at 228.6 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird Technologies EMI"
 			(at 228.6 203.2 0)
 			(effects
 				(font

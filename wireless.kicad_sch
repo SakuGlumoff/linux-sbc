@@ -2168,7 +2168,7 @@
 	(bus_alias "WLAN"
 		(members "WLAN.D[0..3]" "WLAN.CMD" "WLAN.CLK" "WLAN.REG_ON" "WLAN.HOST_WKUP")
 	)
-	(text "Route ANT @ 50 Ω"
+	(text "Route ANT as 50 Ω microstrip"
 		(exclude_from_sim no)
 		(at 273.812 162.306 0)
 		(effects
@@ -4767,7 +4767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "u.FL"
+		(property "Value" "U.FL-R-SMT-1"
 			(at 307.34 176.53 0)
 			(effects
 				(font
@@ -4776,7 +4776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 304.8 175.26 0)
 			(effects
 				(font
@@ -4785,7 +4785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4832/EDC3-302540-10.tif.pdf"
 			(at 304.8 175.26 0)
 			(effects
 				(font
@@ -4794,7 +4794,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 304.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "H11891CT-ND"
+			(at 304.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "U.FL-R-SMT-1(10)"
+			(at 304.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hirose Electric Co Ltd"
 			(at 304.8 175.26 0)
 			(effects
 				(font

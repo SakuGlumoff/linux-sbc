@@ -542,7 +542,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RFShield_TwoPieces"
+		(symbol "Device:RFShield_OnePiece"
 			(pin_names
 				(offset 1.016)
 			)
@@ -557,7 +557,7 @@
 					)
 				)
 			)
-			(property "Value" "RFShield_TwoPieces"
+			(property "Value" "RFShield_OnePiece"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -583,7 +583,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two-piece EMI RF shielding cabinet"
+			(property "Description" "One-piece EMI RF shielding cabinet"
 				(at 0 0 0)
 				(effects
 					(font
@@ -601,19 +601,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "RFShield_TwoPieces_0_1"
-				(polyline
-					(pts
-						(xy -17.78 5.08) (xy -17.78 11.43) (xy 17.78 11.43) (xy 17.78 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "RFShield_OnePiece_0_1"
 				(polyline
 					(pts
 						(xy -15.24 6.35) (xy -15.24 7.62) (xy -13.97 7.62)
@@ -903,7 +891,7 @@
 					)
 				)
 			)
-			(symbol "RFShield_TwoPieces_1_1"
+			(symbol "RFShield_OnePiece_1_1"
 				(pin passive line
 					(at 0 -10.16 90)
 					(length 2.54)
@@ -2246,7 +2234,7 @@
 	(bus_alias "PMIC"
 		(members "PMIC.SDA" "PMIC.SCL" "PMIC.CTRL" "PMIC.RST_N" "PMIC.WKUP" "PMIC.INT_N")
 	)
-	(text "RST_N & INT_N have internal pull-ups"
+	(text "RST_N and INT_N have internal pull-ups."
 		(exclude_from_sim no)
 		(at 120.65 217.17 0)
 		(effects
@@ -2344,7 +2332,7 @@
 		)
 		(uuid "ae66a6eb-bbcb-4d3a-8354-bb66aa4ec15a")
 	)
-	(text_box "I2C address:\n0b0110011, 0x33h"
+	(text_box "I2C address:\n0b0110011 / 0x33h"
 		(exclude_from_sim no)
 		(at 170.18 215.9 0)
 		(size 25.4 7.62)
@@ -9839,7 +9827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RFShield_TwoPieces")
+		(lib_id "Device:RFShield_OnePiece")
 		(at 182.88 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9849,7 +9837,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c5986f5-dc7a-4924-ab77-2adf3e5c8c79")
 		(property "Reference" "J501"
-			(at 201.93 85.7249 0)
+			(at 199.39 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,8 +9845,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36103505"
-			(at 201.93 88.2649 0)
+		(property "Value" "EMI shield frame"
+			(at 199.39 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9866,7 +9854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Shielding:Wuerth_36103205_20x20mm"
+		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-202-F_16.50x16.50mm"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -9875,7 +9863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/36103505.pdf"
+		(property "Datasheet" "~"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -9884,7 +9872,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two-piece EMI RF shielding cabinet"
+		(property "Description" "One-piece EMI RF shielding cabinet"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "903-1051-1-ND"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BMI-S-202-F"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Laird Technologies EMI"
 			(at 182.88 88.9 0)
 			(effects
 				(font

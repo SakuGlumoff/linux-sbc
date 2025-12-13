@@ -3806,7 +3806,7 @@
 			"ETH.RST_N" "ETH.INT_N" "ETH.TXEN" "ETH.REF_CLK"
 		)
 	)
-	(text "Route ETH @ 100 Ω differential"
+	(text "Route ETH as 100 Ω differential"
 		(exclude_from_sim no)
 		(at 253.492 186.69 0)
 		(effects
@@ -3883,7 +3883,7 @@
 		)
 		(uuid "5cbf0988-36e5-4553-a2ca-176740b4709c")
 	)
-	(text_box "- IEEE 802.3u 10/100 Base-T compliant Ethernet.\n- Auto-negotiation\n- Automatic polarity detection and correction\n- Wake-On-Lan support\n- Link Activity and Link Speed indicator support\n- RMII interface"
+	(text_box "- IEEE 802.3u 10/100 Base-T compliant Ethernet\n- Auto-negotiation\n- Automatic polarity detection and correction\n- Wake-On-Lan support\n- Link Activity and Link Speed indicator support"
 		(exclude_from_sim no)
 		(at 13.335 63.5 0)
 		(size 392.43 31.75)
@@ -3925,7 +3925,7 @@
 		)
 		(uuid "91e05016-2089-466c-89ff-46614428c8bd")
 	)
-	(text_box "Route as single-ended @ 50 Ω.\n\nEnsure that the skew between ETH.[T|R]XD0 and ETH.[T|R]XD1 is minimized."
+	(text_box "Route as 50 Ω single-ended.\n\nEnsure that the skew between ETH.[T|R]XD0 and ETH.[T|R]XD1 is minimized."
 		(exclude_from_sim no)
 		(at 71.12 152.4 0)
 		(size 34.29 12.7)
@@ -7690,7 +7690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-4.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00047494.pdf"
 			(at 306.07 214.63 0)
 			(effects
 				(font
@@ -7700,7 +7700,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"
+		(property "Description" "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6"
+			(at 303.53 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "497-4492-1-ND"
+			(at 303.53 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-4SC6"
+			(at 303.53 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 303.53 201.93 0)
 			(effects
 				(font
