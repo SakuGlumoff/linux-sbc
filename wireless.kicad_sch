@@ -7263,75 +7263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 292.1 182.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7bd7b807-cf7a-4472-a370-a24547c02c42")
-		(property "Reference" "D1301"
-			(at 290.576 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 290.576 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 292.1 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19beaf65-39fb-48b7-841a-409b4719edbb")
-		)
-		(pin "2"
-			(uuid "f8f35848-5156-457a-9e64-e35f883a0576")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/24c9b83b-271d-4c51-b843-406c618d8ce8"
-					(reference "D1301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 177.8 160.02 90)
@@ -8866,6 +8797,102 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/24c9b83b-271d-4c51-b843-406c618d8ce8"
 					(reference "#PWR01304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 292.1 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4917645-5aca-47c8-bd59-5aefb19b2514")
+		(property "Reference" "D1301"
+			(at 290.322 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD7351"
+			(at 290.322 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 292.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf"
+			(at 292.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Clamp Ipp Tvs Diode Surface Mount SOD-323"
+			(at 292.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "ESD7351HT1GOSCT-ND"
+			(at 292.1 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESD7351HT1G"
+			(at 292.1 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 292.1 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89350c4c-8cea-4325-a7c3-675b30bdc280")
+		)
+		(pin "1"
+			(uuid "3772d61d-7d1f-48bf-9d0d-841070dafa71")
+		)
+		(instances
+			(project ""
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/24c9b83b-271d-4c51-b843-406c618d8ce8"
+					(reference "D1301")
 					(unit 1)
 				)
 			)
