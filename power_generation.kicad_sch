@@ -10,247 +10,6 @@
 		(rev "v0.0.1")
 	)
 	(lib_symbols
-		(symbol "AP64500_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Value" "AP64500SP-13"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-				)
-			)
-			(property "Footprint" "Package_SO:Diodes_SO-8EP"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64500.pdf"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.8V TO 40V INPUT, 5A LOW IQ SYNCHRONOUS BUCK WITH PROGRAMMABLE FREQUENCY"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key Part Number" "31-AP64500SP-13CT-ND"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Diodes Incorporated"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-					(hide yes)
-				)
-			)
-			(property "MPN" "AP64500SP-13"
-				(at 0 -10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify top)
-					(hide yes)
-				)
-			)
-			(symbol "AP64500_1_1_1"
-				(rectangle
-					(start -6.35 10.16)
-					(end 6.35 -10.16)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -8.89 7.62 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 5.08 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -5.08 0)
-					(length 2.54)
-					(name "RT/CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -8.89 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 7.62 180)
-					(length 2.54)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 5.08 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -5.08 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -7.62 180)
-					(length 2.54)
-					(name "COMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1479,7 +1238,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diodes Incorporated:AP64500"
+		(symbol "Diodes Incorporated:AP64500SP-13"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1493,7 +1252,7 @@
 				)
 			)
 			(property "Value" "AP64500SP-13"
-				(at 0 -10.414 0)
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1502,7 +1261,7 @@
 				)
 			)
 			(property "Footprint" "Package_SO:Diodes_SO-8EP"
-				(at 0 -10.414 0)
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1512,7 +1271,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64500.pdf"
-				(at 0 -10.414 0)
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1522,7 +1281,7 @@
 				)
 			)
 			(property "Description" "3.8V TO 40V INPUT, 5A LOW IQ SYNCHRONOUS BUCK WITH PROGRAMMABLE FREQUENCY"
-				(at 0 -10.414 0)
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1532,7 +1291,7 @@
 				)
 			)
 			(property "Digi-Key Part Number" "31-AP64500SP-13CT-ND"
-				(at 0 -10.414 0)
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1542,7 +1301,7 @@
 				)
 			)
 			(property "Manufacturer" "Diodes Incorporated"
-				(at 0 -10.414 0)
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1552,7 +1311,7 @@
 				)
 			)
 			(property "MPN" "AP64500SP-13"
-				(at 0 -10.414 0)
+				(at 0 -12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1561,10 +1320,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP64500_1_1"
+			(symbol "AP64500SP-13_1_1"
 				(rectangle
 					(start -6.35 10.16)
-					(end 6.35 -10.16)
+					(end 6.35 -12.7)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1638,6 +1397,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2222,6 +1999,12 @@
 		(uuid "071f0a00-8140-4fe2-b909-ef9c88c86d69")
 	)
 	(junction
+		(at 49.53 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0905a709-af95-408f-ba62-70b0fdb417b9")
+	)
+	(junction
 		(at 113.03 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2310,6 +2093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93385dc0-09ed-4b45-bd2c-c486930754fc")
+	)
+	(junction
+		(at 49.53 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98080898-3a53-4e73-b5f8-db9257d4158e")
 	)
 	(junction
 		(at 137.16 205.74)
@@ -2657,7 +2446,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 116.84) (xy 49.53 137.16)
+			(xy 49.53 116.84) (xy 49.53 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 218.44) (xy 49.53 238.76)
+			(xy 49.53 218.44) (xy 49.53 220.98)
 		)
 		(stroke
 			(width 0)
@@ -3147,6 +2936,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 119.38) (xy 50.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2b955f-e1f8-45fa-8c16-7ccff079ede8")
+	)
+	(wire
+		(pts
 			(xy 68.58 116.84) (xy 85.09 116.84)
 		)
 		(stroke
@@ -3197,6 +2996,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 220.98) (xy 50.8 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b803e2fb-af4d-4321-93f9-b37da4797d77")
+	)
+	(wire
+		(pts
 			(xy 148.59 104.14) (xy 153.67 104.14)
 		)
 		(stroke
@@ -3224,6 +3033,16 @@
 			(type default)
 		)
 		(uuid "bda3b7fb-1db2-49ef-b4ef-1be0643e1c4f")
+	)
+	(wire
+		(pts
+			(xy 49.53 220.98) (xy 49.53 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffcc95e-8dd2-4a44-8b2a-1efd26bcb25b")
 	)
 	(wire
 		(pts
@@ -3484,6 +3303,16 @@
 			(type default)
 		)
 		(uuid "ee92680c-6f35-41d0-b20f-a0fddf5d9b7b")
+	)
+	(wire
+		(pts
+			(xy 49.53 119.38) (xy 49.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef16b2c5-7b0f-4faf-8057-ef3383c0694e")
 	)
 	(wire
 		(pts
@@ -4870,7 +4699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diodes Incorporated:AP64500")
+		(lib_id "Diodes Incorporated:AP64500SP-13")
 		(at 59.69 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4888,7 +4717,7 @@
 			)
 		)
 		(property "Value" "AP64500SP-13"
-			(at 59.69 221.234 0)
+			(at 59.69 224.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +4726,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Diodes_SO-8EP"
-			(at 59.69 221.234 0)
+			(at 59.69 223.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4736,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64500.pdf"
-			(at 59.69 221.234 0)
+			(at 59.69 223.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +4746,7 @@
 			)
 		)
 		(property "Description" "3.8V TO 40V INPUT, 5A LOW IQ SYNCHRONOUS BUCK WITH PROGRAMMABLE FREQUENCY"
-			(at 59.69 221.234 0)
+			(at 59.69 223.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4927,7 +4756,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "31-AP64500SP-13CT-ND"
-			(at 59.69 221.234 0)
+			(at 59.69 223.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4766,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 59.69 221.234 0)
+			(at 59.69 223.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4776,7 @@
 			)
 		)
 		(property "MPN" "AP64500SP-13"
-			(at 59.69 221.234 0)
+			(at 59.69 223.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,6 +4808,9 @@
 		)
 		(pin "2"
 			(uuid "e39b24c1-b48e-4d2e-be8b-6b9ce306ea7e")
+		)
+		(pin "9"
+			(uuid "0b0fde7f-ce18-4b56-8876-e957473ce8f3")
 		)
 		(instances
 			(project "linux-sbc"
@@ -5994,8 +5826,7 @@
 		)
 	)
 	(symbol
-		(lib_name "AP64500_1")
-		(lib_id "Diodes Incorporated:AP64500")
+		(lib_id "Diodes Incorporated:AP64500SP-13")
 		(at 59.69 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6013,7 +5844,7 @@
 			)
 		)
 		(property "Value" "AP64500SP-13"
-			(at 59.69 119.888 0)
+			(at 59.69 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +5853,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Diodes_SO-8EP"
-			(at 59.69 119.634 0)
+			(at 59.69 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +5863,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64500.pdf"
-			(at 59.69 119.634 0)
+			(at 59.69 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +5873,7 @@
 			)
 		)
 		(property "Description" "3.8V TO 40V INPUT, 5A LOW IQ SYNCHRONOUS BUCK WITH PROGRAMMABLE FREQUENCY"
-			(at 59.69 119.634 0)
+			(at 59.69 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +5883,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "31-AP64500SP-13CT-ND"
-			(at 59.69 119.634 0)
+			(at 59.69 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,7 +5893,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 59.69 119.634 0)
+			(at 59.69 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +5903,7 @@
 			)
 		)
 		(property "MPN" "AP64500SP-13"
-			(at 59.69 119.634 0)
+			(at 59.69 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,6 +5935,9 @@
 		)
 		(pin "2"
 			(uuid "828732f1-3313-4ef9-9445-5d927c77f3b7")
+		)
+		(pin "9"
+			(uuid "f0a07394-1b27-4941-9333-024e5bd4d94d")
 		)
 		(instances
 			(project ""

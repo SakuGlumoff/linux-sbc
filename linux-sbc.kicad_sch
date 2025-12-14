@@ -10,7 +10,7 @@
 		(rev "v0.0.1")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -19,15 +19,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 1.27 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Odd_Even"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_02x04_Counter_Clockwise"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,16 +79,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x02_Odd_Even_1_1"
+			(symbol "Conn_02x04_Counter_Clockwise_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -3.81)
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -105,6 +116,28 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -135,8 +168,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -146,6 +190,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -172,16 +234,52 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -192,14 +290,32 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 3.81)
-					(name "Pin_4"
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1329,6 +1445,12 @@
 		(uuid "e4d8ab3d-1082-4421-b874-24fa72d60d92")
 	)
 	(junction
+		(at 152.4 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01174399-e7e5-4583-b801-372a7c31bf7d")
+	)
+	(junction
 		(at 50.8 279.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1371,10 +1493,28 @@
 		(uuid "78bee8c3-60a6-494b-8a14-4dc85f2d28dd")
 	)
 	(junction
+		(at 167.64 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97e3c5a7-34a8-43c6-bc2b-79dd7e4256e2")
+	)
+	(junction
+		(at 167.64 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b5be497-d569-4a70-8361-cfd2c2d9c396")
+	)
+	(junction
 		(at 167.64 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea17a03-de08-4308-b7b3-71bf6407b6d6")
+	)
+	(junction
+		(at 152.4 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2d25d6e-8fb7-4da7-af6f-3f83fd1b53ee")
 	)
 	(junction
 		(at 220.98 148.59)
@@ -1624,6 +1764,16 @@
 		)
 		(uuid "75b1c12a-4bc4-4749-8e35-4e838df20522")
 	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 167.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1d6d30-7ae2-4db9-b3df-6490aab9da0d")
+	)
 	(bus
 		(pts
 			(xy 215.9 153.67) (xy 226.06 153.67)
@@ -1676,13 +1826,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 190.5 106.68)
+			(xy 152.4 114.3) (xy 190.5 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89fd7c83-0d42-43a0-9dd4-8edf6648892f")
+	)
+	(wire
+		(pts
+			(xy 167.64 96.52) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d26cd2b-a98a-4527-9fbf-5ba596397be5")
 	)
 	(bus
 		(pts
@@ -1726,7 +1886,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 91.44) (xy 152.4 106.68)
+			(xy 166.37 96.52) (xy 167.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9825f093-3fe5-4272-85c2-9c8e21465229")
+	)
+	(wire
+		(pts
+			(xy 152.4 91.44) (xy 152.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1746,7 +1916,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 100.33) (xy 167.64 101.6)
+			(xy 152.4 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a268ad54-f9fb-4bac-96ec-dfc32f25a750")
+	)
+	(wire
+		(pts
+			(xy 167.64 105.41) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1844,6 +2024,26 @@
 		)
 		(uuid "c746d166-0073-4279-8029-e245b1c6f71a")
 	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 152.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8cb8435-b43c-4812-ad2d-db93abc2cd55")
+	)
+	(wire
+		(pts
+			(xy 152.4 96.52) (xy 153.67 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb62d38c-f70f-4fac-a544-f3a2592cbed1")
+	)
 	(bus
 		(pts
 			(xy 251.46 173.99) (xy 261.62 173.99)
@@ -1886,6 +2086,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 93.98) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f13418-60d8-4c95-97ad-3a10dfbb017d")
+	)
+	(wire
+		(pts
 			(xy 264.16 91.44) (xy 264.16 85.09)
 		)
 		(stroke
@@ -1896,13 +2106,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 167.64 92.71)
+			(xy 167.64 91.44) (xy 167.64 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb083de3-860e-433e-a3fe-22b4d56def48")
+	)
+	(wire
+		(pts
+			(xy 166.37 93.98) (xy 167.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed870e5d-281b-47e8-9574-5f4a755e4721")
 	)
 	(wire
 		(pts
@@ -1925,8 +2145,8 @@
 		(uuid "f8988033-4e97-4368-8af4-4f8071fa8e43")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 158.75 88.9 0)
+		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
+		(at 158.75 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1951,7 +2171,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal"
-			(at 158.75 88.9 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,8 +2179,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/455860005?display=pdf"
-			(at 158.75 88.9 0)
+		(property "Datasheet" "~"
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,8 +2188,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Through Hole, Right Angle 8 position 0.165\" (4.20mm)"
-			(at 158.75 88.9 0)
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +2198,7 @@
 			)
 		)
 		(property "MPN" "0455860005"
-			(at 158.75 88.9 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +2207,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 158.75 88.9 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2216,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "0455860005-ND"
-			(at 158.75 88.9 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,6 +2235,18 @@
 		)
 		(pin "4"
 			(uuid "5d901620-f96a-41c2-a2e2-dae09d60421b")
+		)
+		(pin "7"
+			(uuid "6bf8a28b-c05a-4920-8706-c4084236ed2d")
+		)
+		(pin "6"
+			(uuid "ad210b32-d53c-4dd9-a33a-43658d30e786")
+		)
+		(pin "8"
+			(uuid "e72ca715-bb26-4dbb-9054-87f07c484490")
+		)
+		(pin "5"
+			(uuid "96eb6a1b-9e0c-4a0e-a587-773399a17a2d")
 		)
 		(instances
 			(project "linux-sbc"
@@ -2245,7 +2477,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 167.64 101.6 0)
+		(at 167.64 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2254,7 +2486,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f290939-492e-43c8-a9f5-8867f35e78e5")
 		(property "Reference" "#PWR0102"
-			(at 167.64 106.68 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2495,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 167.513 105.41 0)
+			(at 167.513 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 102.87 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 102.87 0)
+			(at 167.64 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 167.64 101.6 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2944,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 167.64 96.52 270)
+		(at 167.64 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2720,7 +2952,7 @@
 		(dnp no)
 		(uuid "d16663dd-dc1e-43f6-802e-146b62ad444f")
 		(property "Reference" "D101"
-			(at 170.18 93.98 90)
+			(at 170.18 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,7 +2961,7 @@
 			)
 		)
 		(property "Value" "SMAJ30CA"
-			(at 170.18 96.52 90)
+			(at 170.18 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2970,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 167.64 96.52 0)
+			(at 167.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2979,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/824501301.pdf"
-			(at 167.64 96.52 0)
+			(at 167.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2988,7 @@
 			)
 		)
 		(property "Description" "48.4V Clamp 8.3A Ipp Tvs Diode Surface Mount DO-214AC"
-			(at 167.64 96.52 0)
+			(at 167.64 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2997,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 167.64 96.52 90)
+			(at 167.64 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +3006,7 @@
 			)
 		)
 		(property "MPN" "SMAJ30CA"
-			(at 167.64 96.52 90)
+			(at 167.64 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +3015,7 @@
 			)
 		)
 		(property "Breakdown voltage" "30 V"
-			(at 170.18 99.06 90)
+			(at 170.18 104.14 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2792,7 +3024,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-SMAJ30CACT-ND"
-			(at 167.64 96.52 90)
+			(at 167.64 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3329,7 +3561,7 @@
 	)
 	(sheet
 		(at 190.5 86.36)
-		(size 25.4 22.86)
+		(size 25.4 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3354,7 +3586,7 @@
 			)
 		)
 		(property "Sheetfile" "power_input.kicad_sch"
-			(at 190.5 109.9784 0)
+			(at 190.5 117.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3605,7 @@
 			)
 		)
 		(pin "V_IN_N" input
-			(at 190.5 106.68 180)
+			(at 190.5 114.3 180)
 			(uuid "5bc8f7c6-357e-45e6-8d46-dc74e6b0daa9")
 			(effects
 				(font
@@ -3558,7 +3790,7 @@
 	)
 	(sheet
 		(at 226.06 86.36)
-		(size 25.4 22.86)
+		(size 25.4 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3583,7 +3815,7 @@
 			)
 		)
 		(property "Sheetfile" "power_generation.kicad_sch"
-			(at 226.06 109.9784 0)
+			(at 226.06 117.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
