@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2025-11-07")
-		(rev "v0.0.1")
+		(date "2025-12-14")
+		(rev "v1.0.0")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
@@ -4716,6 +4716,16 @@
 			(justify left)
 		)
 		(uuid "7cab6579-21e3-4ad5-90e5-6c3b6d7c90b6")
+	)
+	(text "Place inside the EMI shield frame."
+		(exclude_from_sim no)
+		(at 241.3 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a42c5ea-3858-4597-96d2-c5a31ae01b71")
 	)
 	(text_box "I_{LED} = 0.25 V / R_{SET}\nR_{SET} = 0.25 V / 40 mA = 6.25 Ω"
 		(exclude_from_sim no)
@@ -10444,7 +10454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-202-F_16.50x16.50mm"
+		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-203-F_26.21x26.21mm"
 			(at 241.3 104.14 0)
 			(effects
 				(font

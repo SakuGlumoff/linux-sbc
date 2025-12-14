@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2025-11-07")
-		(rev "v0.0.1")
+		(date "2025-12-14")
+		(rev "v1.0.0")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1738,7 +1738,7 @@
 	)
 	(text "R_{FBB}"
 		(exclude_from_sim no)
-		(at 99.06 119.38 0)
+		(at 140.97 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1749,7 +1749,7 @@
 	)
 	(text "R_{RT}"
 		(exclude_from_sim no)
-		(at 36.576 123.952 0)
+		(at 78.486 117.602 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1760,7 +1760,7 @@
 	)
 	(text "R_{FBT}"
 		(exclude_from_sim no)
-		(at 99.06 210.82 0)
+		(at 140.97 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1771,7 +1771,7 @@
 	)
 	(text "C_{COMP}"
 		(exclude_from_sim no)
-		(at 82.55 130.81 0)
+		(at 124.46 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1782,7 +1782,7 @@
 	)
 	(text "R_{RT}"
 		(exclude_from_sim no)
-		(at 36.576 225.552 0)
+		(at 78.486 219.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1793,7 +1793,7 @@
 	)
 	(text "C_{COMP}"
 		(exclude_from_sim no)
-		(at 82.55 232.41 0)
+		(at 124.46 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1802,9 +1802,19 @@
 		)
 		(uuid "7142a433-405b-46f5-8dd3-552a36921f41")
 	)
+	(text "Place both inside the EMI shield frame."
+		(exclude_from_sim no)
+		(at 355.6 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71d6bc9c-43ef-4813-a032-7951d519b3a0")
+	)
 	(text "R_{COMP}"
 		(exclude_from_sim no)
-		(at 83.82 223.52 0)
+		(at 125.73 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1815,7 +1825,7 @@
 	)
 	(text "R_{COMP}"
 		(exclude_from_sim no)
-		(at 83.82 121.92 0)
+		(at 125.73 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1826,7 +1836,7 @@
 	)
 	(text "R_{FBB}"
 		(exclude_from_sim no)
-		(at 99.06 220.98 0)
+		(at 140.97 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1837,7 +1847,7 @@
 	)
 	(text "R_{FBT}"
 		(exclude_from_sim no)
-		(at 99.06 109.22 0)
+		(at 140.97 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1869,7 +1879,7 @@
 	(text_box "5 V @ 4.5 A"
 		(exclude_from_sim no)
 		(at 12.7 38.1 0)
-		(size 393.7 107.95)
+		(size 285.75 107.95)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1911,7 +1921,7 @@
 	(text_box "3.3 V @ 4 A"
 		(exclude_from_sim no)
 		(at 12.7 146.05 0)
-		(size 393.7 105.41)
+		(size 285.75 105.41)
 		(margins 0.9525 2 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1975,248 +1985,248 @@
 		(uuid "eee1033d-ef79-4a80-9dbe-9b934e9e317e")
 	)
 	(junction
-		(at 127 205.74)
+		(at 168.91 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "028970d4-841e-4d63-be91-e5560cf5ebc9")
 	)
 	(junction
-		(at 90.17 205.74)
+		(at 132.08 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "058db07a-affd-4b74-977a-d0b33db7ea63")
 	)
 	(junction
-		(at 49.53 137.16)
+		(at 91.44 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06b4eb62-99cc-46e2-8f1e-dd4bc485bffe")
 	)
 	(junction
-		(at 100.33 205.74)
+		(at 142.24 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "071f0a00-8140-4fe2-b909-ef9c88c86d69")
 	)
 	(junction
-		(at 49.53 220.98)
+		(at 91.44 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0905a709-af95-408f-ba62-70b0fdb417b9")
 	)
 	(junction
-		(at 113.03 238.76)
+		(at 154.94 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c4c7ab2-c28b-493c-80a8-126a153a946c")
 	)
 	(junction
-		(at 38.1 238.76)
+		(at 80.01 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f596238-f16f-4800-89e5-88c2e8f742c8")
 	)
 	(junction
-		(at 100.33 238.76)
+		(at 142.24 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1edb115a-afe4-4709-a318-20ab48e8b935")
 	)
 	(junction
-		(at 49.53 101.6)
+		(at 91.44 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2397b7d8-79ce-40d7-b49e-a6ee4f538105")
 	)
 	(junction
-		(at 148.59 104.14)
+		(at 190.5 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "243dc7ee-6c53-46c8-aa04-3dbdc19952f8")
 	)
 	(junction
-		(at 49.53 203.2)
+		(at 91.44 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27d1c23c-e8b4-4b8d-99ad-33ea321adda4")
 	)
 	(junction
-		(at 85.09 137.16)
+		(at 127 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "308f694c-808e-4372-82e4-7d2b398fe02c")
 	)
 	(junction
-		(at 127 238.76)
+		(at 168.91 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3443307a-56dd-4b59-9683-8645b952c530")
 	)
 	(junction
-		(at 139.7 238.76)
+		(at 181.61 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35136f32-ca05-4a35-910d-d92177fefa98")
 	)
 	(junction
-		(at 38.1 137.16)
+		(at 80.01 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54081275-7942-41aa-be51-fa1a15a1758a")
 	)
 	(junction
-		(at 148.59 205.74)
+		(at 190.5 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f9e01fb-1d40-4bdd-8f1b-962ecf544a1e")
 	)
 	(junction
-		(at 85.09 238.76)
+		(at 127 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61ddb454-7423-471e-9ff2-4d2037c32540")
 	)
 	(junction
-		(at 137.16 104.14)
+		(at 179.07 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77eb4143-5503-423f-bdd3-9e6e8496a9a6")
 	)
 	(junction
-		(at 113.03 205.74)
+		(at 154.94 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ea6ea23-d911-4fde-85a8-bdc6bcaf2310")
 	)
 	(junction
-		(at 139.7 114.3)
+		(at 181.61 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93385dc0-09ed-4b45-bd2c-c486930754fc")
 	)
 	(junction
-		(at 49.53 119.38)
+		(at 91.44 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98080898-3a53-4e73-b5f8-db9257d4158e")
 	)
 	(junction
-		(at 137.16 205.74)
+		(at 179.07 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "989d22ff-c4cd-433a-adc5-4da9dbfcda59")
 	)
 	(junction
-		(at 113.03 104.14)
+		(at 154.94 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9be8423d-1760-4c5d-aa8c-5da4f6b8cb8b")
 	)
 	(junction
-		(at 127 104.14)
+		(at 168.91 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9caaaffe-f1bb-4717-aaec-af846065a55f")
 	)
 	(junction
-		(at 25.4 101.6)
+		(at 67.31 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3cc87b0-08cf-4e53-bbf9-d8b443a20e8e")
 	)
 	(junction
-		(at 100.33 137.16)
+		(at 142.24 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7c4436d-d1b9-4ae7-b3da-ab19a4708499")
 	)
 	(junction
-		(at 139.7 104.14)
+		(at 181.61 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aaab884f-c9e4-4d32-8052-496886ea2331")
 	)
 	(junction
-		(at 127 137.16)
+		(at 168.91 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae41fd4f-a8fb-4ffc-b441-674747c87494")
 	)
 	(junction
-		(at 90.17 104.14)
+		(at 132.08 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af389e5f-194d-4cad-a0fa-86b29c4e975b")
 	)
 	(junction
-		(at 100.33 215.9)
+		(at 142.24 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b65339a5-6f61-414e-a813-bc5d2ab250da")
 	)
 	(junction
-		(at 100.33 104.14)
+		(at 142.24 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b92f5b51-abf9-4845-a318-3595905491cd")
 	)
 	(junction
-		(at 113.03 137.16)
+		(at 154.94 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c143e67b-a8f8-48a8-9ae1-1e2cec6a8c9e")
 	)
 	(junction
-		(at 100.33 114.3)
+		(at 142.24 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c48e12d2-cac2-401d-b42c-cd299c097e7f")
 	)
 	(junction
-		(at 25.4 203.2)
+		(at 67.31 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c599bdbc-11aa-4950-9bb2-cdb5e0e1a277")
 	)
 	(junction
-		(at 49.53 238.76)
+		(at 91.44 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce53016d-c79a-443d-9d67-2a53cbdf9b85")
 	)
 	(junction
-		(at 154.94 205.74)
+		(at 196.85 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce7be78a-cf96-4c72-8fd0-e3f01659fdbd")
 	)
 	(junction
-		(at 139.7 205.74)
+		(at 181.61 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0252b4d-8c46-45cd-b9f9-869d63b21da2")
 	)
 	(junction
-		(at 139.7 137.16)
+		(at 181.61 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d38717b8-6dcd-43fd-ae9a-f5dc9bac8f65")
 	)
 	(junction
-		(at 139.7 215.9)
+		(at 181.61 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecefad99-3bed-435d-9783-ddcebdd3dcc4")
 	)
 	(junction
-		(at 153.67 104.14)
+		(at 195.58 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eef83959-1d06-4c82-a0c8-419b9f8f5855")
 	)
 	(wire
 		(pts
-			(xy 88.9 203.2) (xy 90.17 203.2)
+			(xy 130.81 196.85) (xy 132.08 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2226,7 +2236,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 218.44) (xy 85.09 219.71)
+			(xy 127 212.09) (xy 127 213.36)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 113.03) (xy 100.33 114.3)
+			(xy 142.24 106.68) (xy 142.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2246,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 114.3) (xy 38.1 114.3)
+			(xy 92.71 107.95) (xy 80.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 123.19) (xy 100.33 137.16)
+			(xy 142.24 116.84) (xy 142.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2266,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 203.2) (xy 81.28 203.2)
+			(xy 110.49 196.85) (xy 123.19 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2276,7 +2286,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 203.2) (xy 49.53 205.74)
+			(xy 91.44 196.85) (xy 91.44 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2286,7 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 111.76) (xy 228.6 113.03)
+			(xy 355.6 156.21) (xy 355.6 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2296,17 +2306,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 213.36) (xy 228.6 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "139aa4a6-7c8b-4ce0-95dc-595915621044")
-	)
-	(wire
-		(pts
-			(xy 153.67 102.87) (xy 153.67 104.14)
+			(xy 195.58 96.52) (xy 195.58 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2316,7 +2316,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 137.16) (xy 139.7 137.16)
+			(xy 168.91 130.81) (xy 181.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2326,7 +2326,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 205.74) (xy 113.03 205.74)
+			(xy 142.24 199.39) (xy 154.94 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2336,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 116.84) (xy 50.8 116.84)
+			(xy 91.44 110.49) (xy 92.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2346,7 +2346,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 113.03 105.41)
+			(xy 154.94 97.79) (xy 154.94 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2356,7 +2356,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 214.63) (xy 127 238.76)
+			(xy 168.91 208.28) (xy 168.91 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2366,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 137.16) (xy 38.1 137.16)
+			(xy 67.31 130.81) (xy 80.01 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2376,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 205.74) (xy 127 205.74)
+			(xy 154.94 199.39) (xy 168.91 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2386,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 111.76) (xy 148.59 114.3)
+			(xy 190.5 105.41) (xy 190.5 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2396,7 +2396,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 205.74) (xy 90.17 205.74)
+			(xy 110.49 199.39) (xy 132.08 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2406,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 101.6) (xy 81.28 101.6)
+			(xy 110.49 95.25) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2416,7 +2416,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 215.9) (xy 148.59 215.9)
+			(xy 181.61 209.55) (xy 190.5 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 137.16 104.14)
+			(xy 168.91 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 238.76) (xy 85.09 238.76)
+			(xy 91.44 232.41) (xy 127 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2446,7 +2446,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 116.84) (xy 49.53 119.38)
+			(xy 91.44 110.49) (xy 91.44 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 125.73) (xy 85.09 127)
+			(xy 127 119.38) (xy 127 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 215.9) (xy 100.33 217.17)
+			(xy 142.24 209.55) (xy 142.24 210.82)
 		)
 		(stroke
 			(width 0)
@@ -2476,7 +2476,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 203.2) (xy 25.4 203.2)
+			(xy 64.77 196.85) (xy 67.31 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 205.74) (xy 137.16 205.74)
+			(xy 168.91 199.39) (xy 179.07 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2496,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 224.79) (xy 38.1 226.06)
+			(xy 80.01 218.44) (xy 80.01 219.71)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 238.76) (xy 38.1 238.76)
+			(xy 67.31 232.41) (xy 80.01 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2516,7 +2516,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 205.74) (xy 139.7 207.01)
+			(xy 181.61 199.39) (xy 181.61 200.66)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 227.33) (xy 85.09 228.6)
+			(xy 127 220.98) (xy 127 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2536,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 134.62) (xy 139.7 137.16)
+			(xy 181.61 128.27) (xy 181.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2546,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 238.76) (xy 139.7 240.03)
+			(xy 181.61 232.41) (xy 181.61 233.68)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 213.36) (xy 25.4 238.76)
+			(xy 67.31 207.01) (xy 67.31 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 116.84) (xy 85.09 118.11)
+			(xy 127 110.49) (xy 127 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2576,7 +2576,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 90.17 101.6)
+			(xy 130.81 95.25) (xy 132.08 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2586,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 113.03) (xy 113.03 137.16)
+			(xy 154.94 106.68) (xy 154.94 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2596,7 +2596,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 101.6) (xy 50.8 101.6)
+			(xy 91.44 95.25) (xy 92.71 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 227.33) (xy 139.7 228.6)
+			(xy 181.61 220.98) (xy 181.61 222.25)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 101.6) (xy 25.4 104.14)
+			(xy 67.31 95.25) (xy 67.31 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2626,7 +2626,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 215.9) (xy 100.33 215.9)
+			(xy 110.49 209.55) (xy 142.24 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2636,7 +2636,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 111.76) (xy 25.4 137.16)
+			(xy 67.31 105.41) (xy 67.31 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2646,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 137.16) (xy 139.7 138.43)
+			(xy 181.61 130.81) (xy 181.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2656,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 104.14) (xy 91.44 104.14)
+			(xy 132.08 97.79) (xy 133.35 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2666,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 134.62) (xy 85.09 137.16)
+			(xy 127 128.27) (xy 127 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +2676,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 213.36) (xy 148.59 215.9)
+			(xy 190.5 207.01) (xy 190.5 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 238.76) (xy 49.53 238.76)
+			(xy 80.01 232.41) (xy 91.44 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2696,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 102.87) (xy 137.16 104.14)
+			(xy 179.07 96.52) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 218.44) (xy 50.8 218.44)
+			(xy 91.44 212.09) (xy 92.71 212.09)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +2716,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 214.63) (xy 100.33 215.9)
+			(xy 142.24 208.28) (xy 142.24 209.55)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.3) (xy 139.7 118.11)
+			(xy 181.61 107.95) (xy 181.61 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2736,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 148.59 109.22)
+			(xy 190.5 97.79) (xy 190.5 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +2746,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 203.2) (xy 90.17 205.74)
+			(xy 132.08 196.85) (xy 132.08 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2756,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 137.16) (xy 49.53 137.16)
+			(xy 80.01 130.81) (xy 91.44 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +2766,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 104.14) (xy 148.59 104.14)
+			(xy 181.61 97.79) (xy 190.5 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2776,7 +2776,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 127 105.41)
+			(xy 168.91 97.79) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2786,7 +2786,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 101.6) (xy 90.17 104.14)
+			(xy 132.08 95.25) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 139.7 104.14)
+			(xy 179.07 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +2806,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 101.6) (xy 49.53 104.14)
+			(xy 91.44 95.25) (xy 91.44 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 218.44) (xy 49.53 220.98)
+			(xy 91.44 212.09) (xy 91.44 214.63)
 		)
 		(stroke
 			(width 0)
@@ -2826,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 204.47) (xy 154.94 205.74)
+			(xy 196.85 198.12) (xy 196.85 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 205.74) (xy 162.56 205.74)
+			(xy 196.85 199.39) (xy 204.47 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2846,7 +2846,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 214.63) (xy 113.03 238.76)
+			(xy 154.94 208.28) (xy 154.94 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2856,7 +2856,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 203.2) (xy 49.53 203.2)
+			(xy 67.31 196.85) (xy 91.44 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +2866,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 205.74) (xy 127 207.01)
+			(xy 168.91 199.39) (xy 168.91 200.66)
 		)
 		(stroke
 			(width 0)
@@ -2876,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 113.03 104.14)
+			(xy 142.24 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2886,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 238.76) (xy 113.03 238.76)
+			(xy 168.91 232.41) (xy 154.94 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2896,7 +2896,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 238.76) (xy 139.7 238.76)
+			(xy 168.91 232.41) (xy 181.61 232.41)
 		)
 		(stroke
 			(width 0)
@@ -2906,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 101.6) (xy 25.4 101.6)
+			(xy 64.77 95.25) (xy 67.31 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2916,7 +2916,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 127 104.14)
+			(xy 154.94 97.79) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2926,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 123.19) (xy 38.1 124.46)
+			(xy 80.01 116.84) (xy 80.01 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 119.38) (xy 50.8 119.38)
+			(xy 91.44 113.03) (xy 92.71 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 85.09 116.84)
+			(xy 110.49 110.49) (xy 127 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +2956,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 215.9) (xy 139.7 219.71)
+			(xy 181.61 209.55) (xy 181.61 213.36)
 		)
 		(stroke
 			(width 0)
@@ -2966,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 137.16) (xy 100.33 137.16)
+			(xy 154.94 130.81) (xy 142.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 100.33 105.41)
+			(xy 142.24 97.79) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2986,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 205.74) (xy 91.44 205.74)
+			(xy 132.08 199.39) (xy 133.35 199.39)
 		)
 		(stroke
 			(width 0)
@@ -2996,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 220.98) (xy 50.8 220.98)
+			(xy 91.44 214.63) (xy 92.71 214.63)
 		)
 		(stroke
 			(width 0)
@@ -3006,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 153.67 104.14)
+			(xy 190.5 97.79) (xy 195.58 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3016,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 132.08) (xy 38.1 137.16)
+			(xy 80.01 125.73) (xy 80.01 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 114.3) (xy 100.33 115.57)
+			(xy 142.24 107.95) (xy 142.24 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 220.98) (xy 49.53 238.76)
+			(xy 91.44 214.63) (xy 91.44 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3046,7 +3046,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 101.6) (xy 49.53 101.6)
+			(xy 67.31 95.25) (xy 91.44 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3056,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 218.44) (xy 85.09 218.44)
+			(xy 110.49 212.09) (xy 127 212.09)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 139.7 114.3)
+			(xy 181.61 106.68) (xy 181.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3076,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 214.63) (xy 139.7 215.9)
+			(xy 181.61 208.28) (xy 181.61 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3086,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 205.74) (xy 49.53 205.74)
+			(xy 92.71 199.39) (xy 91.44 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +3096,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 236.22) (xy 139.7 238.76)
+			(xy 181.61 229.87) (xy 181.61 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 137.16) (xy 100.33 137.16)
+			(xy 127 130.81) (xy 142.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3116,7 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 215.9) (xy 38.1 217.17)
+			(xy 80.01 209.55) (xy 80.01 210.82)
 		)
 		(stroke
 			(width 0)
@@ -3126,7 +3126,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 104.14) (xy 162.56 104.14)
+			(xy 195.58 97.79) (xy 204.47 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 224.79) (xy 100.33 238.76)
+			(xy 142.24 218.44) (xy 142.24 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 205.74) (xy 100.33 207.01)
+			(xy 142.24 199.39) (xy 142.24 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3156,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 100.33 114.3)
+			(xy 110.49 107.95) (xy 142.24 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 104.14) (xy 139.7 105.41)
+			(xy 181.61 97.79) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 104.14) (xy 90.17 104.14)
+			(xy 110.49 97.79) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 104.14) (xy 49.53 104.14)
+			(xy 92.71 97.79) (xy 91.44 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3196,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 205.74) (xy 148.59 210.82)
+			(xy 190.5 199.39) (xy 190.5 204.47)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 104.14) (xy 100.33 104.14)
+			(xy 140.97 97.79) (xy 142.24 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 127 137.16)
+			(xy 168.91 106.68) (xy 168.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3226,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 205.74) (xy 148.59 205.74)
+			(xy 181.61 199.39) (xy 190.5 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 125.73) (xy 139.7 127)
+			(xy 181.61 119.38) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 137.16) (xy 85.09 137.16)
+			(xy 91.44 130.81) (xy 127 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 236.22) (xy 85.09 238.76)
+			(xy 127 229.87) (xy 127 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3266,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 205.74) (xy 100.33 205.74)
+			(xy 140.97 199.39) (xy 142.24 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3276,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 238.76) (xy 100.33 238.76)
+			(xy 154.94 232.41) (xy 142.24 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3286,7 +3286,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 233.68) (xy 38.1 238.76)
+			(xy 80.01 227.33) (xy 80.01 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3296,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 204.47) (xy 137.16 205.74)
+			(xy 179.07 198.12) (xy 179.07 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 119.38) (xy 49.53 137.16)
+			(xy 91.44 113.03) (xy 91.44 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3316,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 203.2) (xy 50.8 203.2)
+			(xy 91.44 196.85) (xy 92.71 196.85)
 		)
 		(stroke
 			(width 0)
@@ -3326,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 238.76) (xy 100.33 238.76)
+			(xy 127 232.41) (xy 142.24 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3336,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 215.9) (xy 38.1 215.9)
+			(xy 92.71 209.55) (xy 80.01 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3346,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 203.2) (xy 25.4 205.74)
+			(xy 67.31 196.85) (xy 67.31 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.3) (xy 148.59 114.3)
+			(xy 181.61 107.95) (xy 190.5 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3366,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 205.74) (xy 154.94 205.74)
+			(xy 190.5 199.39) (xy 196.85 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3376,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 205.74) (xy 113.03 207.01)
+			(xy 154.94 199.39) (xy 154.94 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 114.3) (xy 38.1 115.57)
+			(xy 80.01 107.95) (xy 80.01 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 137.16) (xy 113.03 137.16)
+			(xy 168.91 130.81) (xy 154.94 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3406,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 205.74) (xy 139.7 205.74)
+			(xy 179.07 199.39) (xy 181.61 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3415,7 @@
 		(uuid "ffd54ffa-6c0b-4c5e-b575-f7c5012534ec")
 	)
 	(label "BST_V_3V3"
-		(at 69.85 203.2 0)
+		(at 111.76 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3425,7 +3425,7 @@
 		(uuid "30cb2151-347e-47b8-8027-24bd85479fb1")
 	)
 	(label "RT_V_3V3"
-		(at 49.53 215.9 180)
+		(at 91.44 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3435,7 +3435,7 @@
 		(uuid "5bfd86b2-c4da-4f9f-a4b2-89334cde6bcb")
 	)
 	(label "BST_V_5V0"
-		(at 69.85 101.6 0)
+		(at 111.76 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3445,7 +3445,7 @@
 		(uuid "7eb7134b-6dfa-49f5-84cf-0fe8c52b4e42")
 	)
 	(label "FB_V_5V0"
-		(at 69.85 114.3 0)
+		(at 111.76 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3455,7 +3455,7 @@
 		(uuid "8e8f3c02-b7f9-4b85-b97e-f4db7ef72eaf")
 	)
 	(label "SW_V_5V0"
-		(at 69.85 104.14 0)
+		(at 111.76 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3465,7 +3465,7 @@
 		(uuid "99c2a421-1ccc-4a8f-b0e3-a248b85dac25")
 	)
 	(label "RT_V_5V0"
-		(at 49.53 114.3 180)
+		(at 91.44 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3475,7 +3475,7 @@
 		(uuid "a164e273-db2f-4aa7-a2a2-bdf4c4db0b74")
 	)
 	(label "COMP_V_3V3"
-		(at 69.85 218.44 0)
+		(at 111.76 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3485,7 +3485,7 @@
 		(uuid "b4fcc1e3-a8ed-4d77-8ce3-7b880cb10fa5")
 	)
 	(label "COMP_V_5V0"
-		(at 69.85 116.84 0)
+		(at 111.76 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3495,7 +3495,7 @@
 		(uuid "bc6f87a7-97d8-4f1e-a97e-8191f902ce5a")
 	)
 	(label "SW_V_3V3"
-		(at 69.85 205.74 0)
+		(at 111.76 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,7 +3505,7 @@
 		(uuid "d6e3bf40-181e-44c9-9c37-b21634ce67ee")
 	)
 	(label "FB_V_3V3"
-		(at 69.85 215.9 0)
+		(at 111.76 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3516,7 +3516,7 @@
 	)
 	(hierarchical_label "V_SYS"
 		(shape input)
-		(at 22.86 101.6 180)
+		(at 64.77 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3527,7 +3527,7 @@
 	)
 	(hierarchical_label "V_3V3"
 		(shape output)
-		(at 162.56 205.74 0)
+		(at 204.47 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3538,7 +3538,7 @@
 	)
 	(hierarchical_label "V_5V0"
 		(shape output)
-		(at 162.56 104.14 0)
+		(at 204.47 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3549,7 +3549,7 @@
 	)
 	(hierarchical_label "V_SYS"
 		(shape input)
-		(at 22.86 203.2 180)
+		(at 64.77 196.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3559,75 +3559,8 @@
 		(uuid "d72bac9e-ce7f-4920-bd32-c69207ea4f30")
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 228.6 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "010670c9-f194-400e-8f5e-a7110516b701")
-		(property "Reference" "#PWR0304"
-			(at 228.6 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 228.6 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94177671-6f41-4619-9966-fdb17cf13e0a")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b"
-					(reference "#PWR0304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 100.33 220.98 0)
+		(at 142.24 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3635,7 +3568,7 @@
 		(dnp no)
 		(uuid "02066747-4531-4ad4-a85c-4cd2543f5da4")
 		(property "Reference" "R310"
-			(at 101.6 217.932 0)
+			(at 143.51 211.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3577,7 @@
 			)
 		)
 		(property "Value" "68 kΩ"
-			(at 101.6 219.71 0)
+			(at 143.51 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3586,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 98.552 220.98 90)
+			(at 140.462 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3595,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110035.pdf"
-			(at 100.33 220.98 0)
+			(at 142.24 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3604,7 @@
 			)
 		)
 		(property "Description" "68 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur Thick Film"
-			(at 100.33 220.98 0)
+			(at 142.24 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3613,7 @@
 			)
 		)
 		(property "MPN" "560112110035"
-			(at 100.33 220.98 0)
+			(at 142.24 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +3622,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 100.33 220.98 0)
+			(at 142.24 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +3631,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 101.6 220.98 0)
+			(at 143.51 214.63 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3707,7 +3640,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 101.6 222.25 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3716,7 +3649,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 101.6 223.5201 0)
+			(at 143.51 217.1701 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3725,7 +3658,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-560112110035CT-ND"
-			(at 100.33 220.98 0)
+			(at 142.24 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3683,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 119.38 0)
+		(at 80.01 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3758,7 +3691,7 @@
 		(dnp no)
 		(uuid "04a12409-34f8-49ff-b9b2-c76367853f21")
 		(property "Reference" "R301"
-			(at 39.37 116.332 0)
+			(at 81.28 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3700,7 @@
 			)
 		)
 		(property "Value" "47 kΩ"
-			(at 39.37 118.11 0)
+			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3709,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 36.322 119.38 90)
+			(at 78.232 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3718,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 38.1 119.38 0)
+			(at 80.01 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3727,7 @@
 			)
 		)
 		(property "Description" "47 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 38.1 119.38 0)
+			(at 80.01 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3736,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF4702X"
-			(at 38.1 119.38 0)
+			(at 80.01 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3745,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 38.1 119.38 0)
+			(at 80.01 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3754,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 39.37 119.38 0)
+			(at 81.28 113.03 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3830,7 +3763,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 39.37 120.65 0)
+			(at 81.28 114.3 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3839,7 +3772,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 39.37 121.9201 0)
+			(at 81.28 115.5701 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3848,7 +3781,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P47.0KLCT-ND"
-			(at 38.1 119.38 0)
+			(at 80.01 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3806,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 153.67 109.22 0)
+		(at 195.58 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3881,7 +3814,7 @@
 		(dnp yes)
 		(uuid "06770b2e-bb58-4cb3-8cc7-d15cbf37fb17")
 		(property "Reference" "J301"
-			(at 153.67 113.538 0)
+			(at 195.58 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3823,7 @@
 			)
 		)
 		(property "Value" "61300211121"
-			(at 153.67 114.3 0)
+			(at 195.58 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +3833,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
-			(at 153.67 109.22 0)
+			(at 195.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3842,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
-			(at 153.67 109.22 0)
+			(at 195.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3851,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 109.22 0)
+			(at 195.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3860,7 @@
 			)
 		)
 		(property "MPN" "61300211121"
-			(at 153.67 109.22 90)
+			(at 195.58 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3869,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 153.67 109.22 90)
+			(at 195.58 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3878,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-5315-ND"
-			(at 153.67 109.22 0)
+			(at 195.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3903,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 95.25 205.74 90)
+		(at 137.16 199.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3978,7 +3911,7 @@
 		(dnp no)
 		(uuid "1062b0c3-17f4-449c-b5f3-aca13dce29c9")
 		(property "Reference" "L302"
-			(at 95.25 200.406 90)
+			(at 137.16 194.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3920,7 @@
 			)
 		)
 		(property "Value" "1.5 µH"
-			(at 95.25 202.184 90)
+			(at 137.16 195.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3929,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
-			(at 95.25 205.74 0)
+			(at 137.16 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +3938,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf"
-			(at 95.25 205.74 0)
+			(at 137.16 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +3947,7 @@
 			)
 		)
 		(property "Description" "1.5 µH Shielded Molded Inductor 9 A 15mOhm Max Nonstandard"
-			(at 95.25 205.74 0)
+			(at 137.16 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +3956,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "541-1007-1-ND"
-			(at 95.25 205.74 90)
+			(at 137.16 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +3965,7 @@
 			)
 		)
 		(property "MPN" "IHLP2525CZER1R5M01"
-			(at 95.25 205.74 90)
+			(at 137.16 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +3974,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 95.25 205.74 90)
+			(at 137.16 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +3983,7 @@
 			)
 		)
 		(property "Current rating" "7 A"
-			(at 95.25 204.724 90)
+			(at 137.16 198.374 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4059,7 +3992,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 95.25 203.708 90)
+			(at 137.16 197.358 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4084,7 +4017,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 137.16 204.47 0)
+		(at 179.07 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4092,7 +4025,7 @@
 		(dnp no)
 		(uuid "1ad6cac8-1fcb-4aff-b09e-4e28ed16acb7")
 		(property "Reference" "#FLG0302"
-			(at 137.16 202.565 0)
+			(at 179.07 196.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4034,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 137.16 201.422 0)
+			(at 179.07 195.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +4043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 204.47 0)
+			(at 179.07 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 204.47 0)
+			(at 179.07 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4061,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 137.16 204.47 0)
+			(at 179.07 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4083,7 @@
 	)
 	(symbol
 		(lib_id "Device:RFShield_OnePiece")
-		(at 228.6 101.6 0)
+		(at 355.6 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4159,7 +4092,7 @@
 		(fields_autoplaced yes)
 		(uuid "22c92bec-39d7-4b71-9ad8-94ee4c6eff0e")
 		(property "Reference" "J303"
-			(at 245.11 100.3299 0)
+			(at 372.11 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4101,7 @@
 			)
 		)
 		(property "Value" "EMI shield frame"
-			(at 245.11 102.8699 0)
+			(at 372.11 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,8 +4109,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-202-F_16.50x16.50mm"
-			(at 228.6 104.14 0)
+		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-203-F_26.21x26.21mm"
+			(at 355.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 104.14 0)
+			(at 355.6 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4128,7 @@
 			)
 		)
 		(property "Description" "One-piece EMI RF shielding cabinet"
-			(at 228.6 101.6 0)
+			(at 355.6 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4137,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "903-1051-1-ND"
-			(at 228.6 101.6 0)
+			(at 355.6 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4146,7 @@
 			)
 		)
 		(property "MPN" "BMI-S-202-F"
-			(at 228.6 101.6 0)
+			(at 355.6 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4155,7 @@
 			)
 		)
 		(property "Manufacturer" "Laird Technologies EMI"
-			(at 228.6 101.6 0)
+			(at 355.6 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4244,7 +4177,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 119.38 0)
+		(at 142.24 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4252,7 +4185,7 @@
 		(dnp no)
 		(uuid "30804849-c8f3-4e49-9dbe-f811a1bbb672")
 		(property "Reference" "R308"
-			(at 101.6 116.332 0)
+			(at 143.51 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4194,7 @@
 			)
 		)
 		(property "Value" "24 kΩ"
-			(at 101.6 118.11 0)
+			(at 143.51 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4203,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 98.552 119.38 90)
+			(at 140.462 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4212,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110178.pdf"
-			(at 100.33 119.38 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4221,7 @@
 			)
 		)
 		(property "Description" "24 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur Thick Film"
-			(at 100.33 119.38 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4230,7 @@
 			)
 		)
 		(property "MPN" "560112110178"
-			(at 100.33 119.38 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4239,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 100.33 119.38 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4248,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 101.6 119.38 0)
+			(at 143.51 113.03 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4324,7 +4257,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 101.6 120.65 0)
+			(at 143.51 114.3 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4333,7 +4266,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 101.6 121.9201 0)
+			(at 143.51 115.5701 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4342,7 +4275,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-560112110178CT-ND"
-			(at 100.33 119.38 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4300,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 210.82 0)
+		(at 181.61 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4375,7 +4308,7 @@
 		(dnp no)
 		(uuid "368cd6de-6d3f-4219-b82f-a23a69d38ab4")
 		(property "Reference" "R313"
-			(at 140.97 209.804 0)
+			(at 182.88 203.454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4317,7 @@
 			)
 		)
 		(property "Value" "0 Ω"
-			(at 140.97 211.582 0)
+			(at 182.88 205.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4326,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 137.922 210.82 90)
+			(at 179.832 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4335,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 139.7 210.82 0)
+			(at 181.61 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4344,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 139.7 210.82 0)
+			(at 181.61 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4353,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GE0R00X"
-			(at 139.7 210.82 0)
+			(at 181.61 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4362,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 139.7 210.82 0)
+			(at 181.61 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4371,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 140.97 213.36 0)
+			(at 182.88 207.01 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4447,7 +4380,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P0.0JCT-ND"
-			(at 139.7 210.82 0)
+			(at 181.61 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4405,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 109.22 0)
+		(at 181.61 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4480,7 +4413,7 @@
 		(dnp no)
 		(uuid "3ddf1e40-a51e-4bac-b686-4d0096778432")
 		(property "Reference" "R311"
-			(at 140.97 108.204 0)
+			(at 182.88 101.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4422,7 @@
 			)
 		)
 		(property "Value" "0 Ω"
-			(at 140.97 109.982 0)
+			(at 182.88 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4431,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 137.922 109.22 90)
+			(at 179.832 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4440,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 139.7 109.22 0)
+			(at 181.61 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4449,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 139.7 109.22 0)
+			(at 181.61 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4458,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2GE0R00X"
-			(at 139.7 109.22 0)
+			(at 181.61 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4467,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 139.7 109.22 0)
+			(at 181.61 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +4476,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 140.97 111.76 0)
+			(at 182.88 105.41 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4552,7 +4485,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P0.0JCT-ND"
-			(at 139.7 109.22 0)
+			(at 181.61 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,7 +4510,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 128.27 0)
+		(at 80.01 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4585,7 +4518,7 @@
 		(dnp no)
 		(uuid "4c7767ca-8910-4f69-8024-cb386e94a811")
 		(property "Reference" "R302"
-			(at 39.37 125.222 0)
+			(at 81.28 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4527,7 @@
 			)
 		)
 		(property "Value" "3 kΩ"
-			(at 39.37 127 0)
+			(at 81.28 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4536,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 36.322 128.27 90)
+			(at 78.232 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4545,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCF.pdf"
-			(at 38.1 128.27 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4554,7 @@
 			)
 		)
 		(property "Description" "3 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 38.1 128.27 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4563,7 @@
 			)
 		)
 		(property "MPN" "RNCF0402DTE3K00"
-			(at 38.1 128.27 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4572,7 @@
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 38.1 128.27 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4581,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 39.37 128.27 0)
+			(at 81.28 121.92 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4657,7 +4590,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 39.37 129.54 0)
+			(at 81.28 123.19 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4666,7 +4599,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 39.37 130.8101 0)
+			(at 81.28 124.4601 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4675,7 +4608,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "738-RNCF0402DTE3K00CT-ND"
-			(at 38.1 128.27 0)
+			(at 80.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4633,7 @@
 	)
 	(symbol
 		(lib_id "Diodes Incorporated:AP64500SP-13")
-		(at 59.69 210.82 0)
+		(at 101.6 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4708,7 +4641,7 @@
 		(dnp no)
 		(uuid "55aa64bb-34ca-492d-b680-0fb9e63cf9da")
 		(property "Reference" "U302"
-			(at 59.69 200.406 0)
+			(at 101.6 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4650,7 @@
 			)
 		)
 		(property "Value" "AP64500SP-13"
-			(at 59.69 224.028 0)
+			(at 101.6 217.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4659,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Diodes_SO-8EP"
-			(at 59.69 223.774 0)
+			(at 101.6 217.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4669,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64500.pdf"
-			(at 59.69 223.774 0)
+			(at 101.6 217.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,7 +4679,7 @@
 			)
 		)
 		(property "Description" "3.8V TO 40V INPUT, 5A LOW IQ SYNCHRONOUS BUCK WITH PROGRAMMABLE FREQUENCY"
-			(at 59.69 223.774 0)
+			(at 101.6 217.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +4689,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "31-AP64500SP-13CT-ND"
-			(at 59.69 223.774 0)
+			(at 101.6 217.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4699,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 59.69 223.774 0)
+			(at 101.6 217.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4709,7 @@
 			)
 		)
 		(property "MPN" "AP64500SP-13"
-			(at 59.69 223.774 0)
+			(at 101.6 217.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4756,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 210.82 0)
+		(at 154.94 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4831,7 +4764,7 @@
 		(dnp no)
 		(uuid "59514e55-814d-4de7-8dbc-0960ffe0a9d9")
 		(property "Reference" "C308"
-			(at 115.57 208.28 0)
+			(at 157.48 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4773,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 115.57 210.058 0)
+			(at 157.48 203.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,7 +4782,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.9952 214.63 0)
+			(at 155.9052 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +4791,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 113.03 210.82 0)
+			(at 154.94 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +4800,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 113.03 210.82 0)
+			(at 154.94 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +4809,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 113.03 210.82 0)
+			(at 154.94 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +4818,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 113.03 210.82 0)
+			(at 154.94 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +4827,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 115.824 212.09 0)
+			(at 157.734 205.74 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4903,7 +4836,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 115.824 213.106 0)
+			(at 157.734 206.756 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4912,7 +4845,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 115.824 214.122 0)
+			(at 157.734 207.772 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4921,7 +4854,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 115.824 215.138 0)
+			(at 157.734 208.788 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -4930,7 +4863,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 113.03 210.82 0)
+			(at 154.94 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,102 +4887,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RFShield_OnePiece")
-		(at 228.6 203.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bcc7a0c-8bb7-4e9e-9341-19109fa809b6")
-		(property "Reference" "J304"
-			(at 245.11 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EMI shield frame"
-			(at 245.11 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-202-F_16.50x16.50mm"
-			(at 228.6 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "One-piece EMI RF shielding cabinet"
-			(at 228.6 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "903-1051-1-ND"
-			(at 228.6 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BMI-S-202-F"
-			(at 228.6 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Laird Technologies EMI"
-			(at 228.6 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a11a79b-91ec-4124-9a1a-0e9878b3e48e")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b"
-					(reference "J304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 100.33 210.82 0)
+		(at 142.24 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5057,7 +4896,7 @@
 		(dnp no)
 		(uuid "66881dc3-a8c2-4eb4-a438-f14607f472a2")
 		(property "Reference" "R309"
-			(at 101.6 207.772 0)
+			(at 143.51 201.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +4905,7 @@
 			)
 		)
 		(property "Value" "215 kΩ"
-			(at 101.6 209.55 0)
+			(at 143.51 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +4914,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 98.552 210.82 90)
+			(at 140.462 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +4923,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 100.33 210.82 0)
+			(at 142.24 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +4932,7 @@
 			)
 		)
 		(property "Description" "215 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 100.33 210.82 0)
+			(at 142.24 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +4941,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF2153X"
-			(at 100.33 210.82 0)
+			(at 142.24 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +4950,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 100.33 210.82 0)
+			(at 142.24 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +4959,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 101.6 210.82 0)
+			(at 143.51 204.47 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5129,7 +4968,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 101.6 212.09 0)
+			(at 143.51 205.74 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5138,7 +4977,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 101.6 213.3601 0)
+			(at 143.51 207.0101 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5147,7 +4986,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P215KLCT-ND"
-			(at 100.33 210.82 0)
+			(at 142.24 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5011,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 153.67 210.82 0)
+		(at 195.58 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5180,7 +5019,7 @@
 		(dnp yes)
 		(uuid "680feb49-aa62-4e06-a80c-d507111545dc")
 		(property "Reference" "J302"
-			(at 153.67 215.138 0)
+			(at 195.58 208.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +5028,7 @@
 			)
 		)
 		(property "Value" "61300211121"
-			(at 153.67 215.9 0)
+			(at 195.58 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5038,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
-			(at 153.67 210.82 0)
+			(at 195.58 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5047,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211121.pdf"
-			(at 153.67 210.82 0)
+			(at 195.58 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5056,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 153.67 210.82 0)
+			(at 195.58 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5065,7 @@
 			)
 		)
 		(property "MPN" "61300211121"
-			(at 153.67 210.82 90)
+			(at 195.58 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5074,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 153.67 210.82 90)
+			(at 195.58 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5083,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-5315-ND"
-			(at 153.67 210.82 0)
+			(at 195.58 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5108,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 220.98 0)
+		(at 80.01 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5277,7 +5116,7 @@
 		(dnp no)
 		(uuid "768c82db-1b76-454f-973f-f9eddf46a436")
 		(property "Reference" "R303"
-			(at 39.37 217.932 0)
+			(at 81.28 211.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5125,7 @@
 			)
 		)
 		(property "Value" "47 kΩ"
-			(at 39.37 219.71 0)
+			(at 81.28 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5134,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 36.322 220.98 90)
+			(at 78.232 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5304,7 +5143,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 38.1 220.98 0)
+			(at 80.01 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5152,7 @@
 			)
 		)
 		(property "Description" "47 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 38.1 220.98 0)
+			(at 80.01 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5161,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF4702X"
-			(at 38.1 220.98 0)
+			(at 80.01 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5170,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 38.1 220.98 0)
+			(at 80.01 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5179,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 39.37 220.98 0)
+			(at 81.28 214.63 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5349,7 +5188,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 39.37 222.25 0)
+			(at 81.28 215.9 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5358,7 +5197,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 39.37 223.5201 0)
+			(at 81.28 217.1701 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5367,7 +5206,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P47.0KLCT-ND"
-			(at 38.1 220.98 0)
+			(at 80.01 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5231,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 223.52 0)
+		(at 127 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5400,7 +5239,7 @@
 		(dnp no)
 		(uuid "825cb507-3298-48df-ad35-2c2af72e51b5")
 		(property "Reference" "R306"
-			(at 86.36 220.472 0)
+			(at 128.27 214.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5248,7 @@
 			)
 		)
 		(property "Value" "23.7 kΩ"
-			(at 86.36 222.25 0)
+			(at 128.27 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5257,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 83.312 223.52 90)
+			(at 125.222 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +5266,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 85.09 223.52 0)
+			(at 127 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5436,7 +5275,7 @@
 			)
 		)
 		(property "Description" "23.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 85.09 223.52 0)
+			(at 127 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5445,7 +5284,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF2372X"
-			(at 85.09 223.52 0)
+			(at 127 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5293,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 85.09 223.52 0)
+			(at 127 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5463,7 +5302,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 86.36 223.52 0)
+			(at 128.27 217.17 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5472,7 +5311,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 86.36 224.79 0)
+			(at 128.27 218.44 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5481,7 +5320,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 86.36 226.0601 0)
+			(at 128.27 219.7101 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5490,7 +5329,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P23.7KLCT-ND"
-			(at 85.09 223.52 0)
+			(at 127 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5354,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 137.16 102.87 0)
+		(at 179.07 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5523,7 +5362,7 @@
 		(dnp no)
 		(uuid "83f325ad-8d06-4e3a-938a-865c2331433e")
 		(property "Reference" "#FLG0301"
-			(at 137.16 100.965 0)
+			(at 179.07 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5371,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 137.16 99.822 0)
+			(at 179.07 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 102.87 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 102.87 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5398,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 137.16 102.87 0)
+			(at 179.07 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +5420,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 223.52 0)
+		(at 181.61 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5589,7 +5428,7 @@
 		(dnp no)
 		(uuid "843cb27f-7761-4faf-9db8-947e18fceb90")
 		(property "Reference" "R314"
-			(at 140.97 220.472 0)
+			(at 182.88 214.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +5437,7 @@
 			)
 		)
 		(property "Value" "330 Ω"
-			(at 140.97 222.25 0)
+			(at 182.88 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +5446,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 137.922 223.52 90)
+			(at 179.832 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +5455,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110231.pdf"
-			(at 139.7 223.52 0)
+			(at 181.61 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5464,7 @@
 			)
 		)
 		(property "Description" "330 Ohms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur Thick Film"
-			(at 139.7 223.52 0)
+			(at 181.61 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +5473,7 @@
 			)
 		)
 		(property "MPN" "560112110231"
-			(at 139.7 223.52 0)
+			(at 181.61 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5482,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 139.7 223.52 0)
+			(at 181.61 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5491,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 140.97 223.52 0)
+			(at 182.88 217.17 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5661,7 +5500,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 140.97 224.79 0)
+			(at 182.88 218.44 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5670,7 +5509,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 140.97 226.0601 0)
+			(at 182.88 219.7101 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5679,7 +5518,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-560112110231CT-ND"
-			(at 139.7 223.52 0)
+			(at 181.61 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 121.92 0)
+		(at 127 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5712,7 +5551,7 @@
 		(dnp no)
 		(uuid "87e926fa-6474-4e51-9f90-3735dd5c1dbb")
 		(property "Reference" "R305"
-			(at 86.36 118.872 0)
+			(at 128.27 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5560,7 @@
 			)
 		)
 		(property "Value" "34.8 kΩ"
-			(at 86.36 120.65 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 83.312 121.92 90)
+			(at 125.222 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 85.09 121.92 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5748,7 +5587,7 @@
 			)
 		)
 		(property "Description" "34.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 85.09 121.92 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5596,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF3482X"
-			(at 85.09 121.92 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5605,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 85.09 121.92 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5614,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 86.36 121.92 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5784,7 +5623,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 86.36 123.19 0)
+			(at 128.27 116.84 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5793,7 +5632,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 86.36 124.4601 0)
+			(at 128.27 118.1101 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -5802,7 +5641,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P34.8KLCT-ND"
-			(at 85.09 121.92 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +5666,7 @@
 	)
 	(symbol
 		(lib_id "Diodes Incorporated:AP64500SP-13")
-		(at 59.69 109.22 0)
+		(at 101.6 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5835,7 +5674,7 @@
 		(dnp no)
 		(uuid "88b8c388-1081-4ef6-ab92-77fb03d8b0de")
 		(property "Reference" "U301"
-			(at 59.69 98.806 0)
+			(at 101.6 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,7 +5683,7 @@
 			)
 		)
 		(property "Value" "AP64500SP-13"
-			(at 59.69 122.428 0)
+			(at 101.6 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +5692,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:Diodes_SO-8EP"
-			(at 59.69 122.174 0)
+			(at 101.6 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5702,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP64500.pdf"
-			(at 59.69 122.174 0)
+			(at 101.6 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5712,7 @@
 			)
 		)
 		(property "Description" "3.8V TO 40V INPUT, 5A LOW IQ SYNCHRONOUS BUCK WITH PROGRAMMABLE FREQUENCY"
-			(at 59.69 122.174 0)
+			(at 101.6 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +5722,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "31-AP64500SP-13CT-ND"
-			(at 59.69 122.174 0)
+			(at 101.6 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5732,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 59.69 122.174 0)
+			(at 101.6 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5742,7 @@
 			)
 		)
 		(property "MPN" "AP64500SP-13"
-			(at 59.69 122.174 0)
+			(at 101.6 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +5789,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 101.6 90)
+		(at 127 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5958,7 +5797,7 @@
 		(dnp no)
 		(uuid "915068af-e71f-4492-b31e-479bb164260d")
 		(property "Reference" "C303"
-			(at 82.55 91.694 90)
+			(at 124.46 85.344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +5806,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 82.55 93.472 90)
+			(at 124.46 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +5815,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
-			(at 88.9 100.6348 0)
+			(at 130.81 94.2848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +5824,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 85.09 101.6 0)
+			(at 127 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +5833,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 85.09 101.6 0)
+			(at 127 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +5842,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 85.09 101.6 0)
+			(at 127 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +5851,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 85.09 101.6 0)
+			(at 127 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +5860,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 82.55 95.504 90)
+			(at 124.46 89.154 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6030,7 +5869,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 82.55 96.52 90)
+			(at 124.46 90.17 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6039,7 +5878,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 82.55 97.536 90)
+			(at 124.46 91.186 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6048,7 +5887,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 82.55 98.552 90)
+			(at 124.46 92.202 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6057,7 +5896,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-10700-1-ND"
-			(at 85.09 101.6 90)
+			(at 127 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +5921,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 130.81 0)
+		(at 127 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6090,7 +5929,7 @@
 		(dnp no)
 		(uuid "94e78f94-2187-492d-ba96-84b1b0ec5550")
 		(property "Reference" "C304"
-			(at 87.63 128.27 0)
+			(at 129.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +5938,7 @@
 			)
 		)
 		(property "Value" "3300 pF"
-			(at 87.63 130.048 0)
+			(at 129.54 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +5947,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
-			(at 86.0552 134.62 0)
+			(at 127.9652 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +5956,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H332GE01-01A.pdf"
-			(at 85.09 130.81 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +5965,7 @@
 			)
 		)
 		(property "Description" "3300 pF ±2% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 85.09 130.81 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +5974,7 @@
 			)
 		)
 		(property "MPN" "GRM1555C1H332GE01J"
-			(at 85.09 130.81 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +5983,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 85.09 130.81 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +5992,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 87.884 132.08 0)
+			(at 129.794 125.73 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6162,7 +6001,7 @@
 			)
 		)
 		(property "Tolerance" "2 %"
-			(at 87.884 133.096 0)
+			(at 129.794 126.746 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6171,7 +6010,7 @@
 			)
 		)
 		(property "Temperature coefficient" "C0G"
-			(at 87.884 134.112 0)
+			(at 129.794 127.762 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6180,7 +6019,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 87.884 135.128 0)
+			(at 129.794 128.778 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6189,7 +6028,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-GRM1555C1H332GE01JCT-ND"
-			(at 85.09 130.81 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6053,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 121.92 0)
+		(at 181.61 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6222,7 +6061,7 @@
 		(dnp no)
 		(uuid "95df84ed-3b50-4a12-aed1-07a579d95f6c")
 		(property "Reference" "R312"
-			(at 140.97 118.872 0)
+			(at 182.88 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +6070,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 140.97 120.65 0)
+			(at 182.88 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6079,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 137.922 121.92 90)
+			(at 179.832 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +6088,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 139.7 121.92 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +6097,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 139.7 121.92 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +6106,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF1001X"
-			(at 139.7 121.92 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +6115,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 139.7 121.92 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +6124,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 140.97 121.92 0)
+			(at 182.88 115.57 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6294,7 +6133,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 140.97 123.19 0)
+			(at 182.88 116.84 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6303,7 +6142,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 140.97 124.4601 0)
+			(at 182.88 118.1101 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6312,7 +6151,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P1.00KLCT-ND"
-			(at 139.7 121.92 0)
+			(at 181.61 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6176,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 229.87 0)
+		(at 80.01 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6345,7 +6184,7 @@
 		(dnp no)
 		(uuid "a893797a-759f-42bc-bf2d-4a48d680b85c")
 		(property "Reference" "R304"
-			(at 39.37 226.822 0)
+			(at 81.28 220.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6193,7 @@
 			)
 		)
 		(property "Value" "3 kΩ"
-			(at 39.37 228.6 0)
+			(at 81.28 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6202,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 36.322 229.87 90)
+			(at 78.232 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6211,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCF.pdf"
-			(at 38.1 229.87 0)
+			(at 80.01 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6220,7 @@
 			)
 		)
 		(property "Description" "3 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 38.1 229.87 0)
+			(at 80.01 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6229,7 @@
 			)
 		)
 		(property "MPN" "RNCF0402DTE3K00"
-			(at 38.1 229.87 0)
+			(at 80.01 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6238,7 @@
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 38.1 229.87 0)
+			(at 80.01 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,7 +6247,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 39.37 229.87 0)
+			(at 81.28 223.52 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6417,7 +6256,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 39.37 231.14 0)
+			(at 81.28 224.79 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6426,7 +6265,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 39.37 232.4101 0)
+			(at 81.28 226.0601 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6435,7 +6274,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "738-RNCF0402DTE3K00CT-ND"
-			(at 38.1 229.87 0)
+			(at 80.01 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6299,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 153.67 102.87 0)
+		(at 195.58 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6468,7 +6307,7 @@
 		(dnp no)
 		(uuid "b6af3216-0b21-4136-a3a0-466a572cc7ae")
 		(property "Reference" "TP301"
-			(at 153.67 98.552 0)
+			(at 195.58 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6316,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 156.21 99.568 90)
+			(at 198.12 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6325,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 158.75 102.87 0)
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 102.87 0)
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6343,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 153.67 102.87 0)
+			(at 195.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6526,7 +6365,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 109.22 0)
+		(at 168.91 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6534,7 +6373,7 @@
 		(dnp no)
 		(uuid "bac28373-45ab-4b5b-b8b4-c6454d823b37")
 		(property "Reference" "C309"
-			(at 129.54 106.68 0)
+			(at 171.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6543,7 +6382,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 129.54 108.458 0)
+			(at 171.45 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6391,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127.9652 113.03 0)
+			(at 169.8752 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6561,7 +6400,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 127 109.22 0)
+			(at 168.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6409,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 127 109.22 0)
+			(at 168.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6418,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 127 109.22 0)
+			(at 168.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6427,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 127 109.22 0)
+			(at 168.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6436,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 129.794 110.49 0)
+			(at 171.704 104.14 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6606,7 +6445,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 129.794 111.506 0)
+			(at 171.704 105.156 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6615,7 +6454,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 129.794 112.522 0)
+			(at 171.704 106.172 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6624,7 +6463,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 129.794 113.538 0)
+			(at 171.704 107.188 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6633,7 +6472,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 127 109.22 0)
+			(at 168.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +6497,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 139.7 138.43 0)
+		(at 181.61 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6667,7 +6506,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc643153-4b43-4038-98f9-abdf253f47bf")
 		(property "Reference" "#PWR0301"
-			(at 139.7 144.78 0)
+			(at 181.61 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +6515,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 143.51 0)
+			(at 181.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 138.43 0)
+			(at 181.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6533,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 138.43 0)
+			(at 181.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 139.7 138.43 0)
+			(at 181.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6564,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 203.2 90)
+		(at 127 196.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6733,7 +6572,7 @@
 		(dnp no)
 		(uuid "c0b06040-7d24-4b25-9556-1a2c35c2b936")
 		(property "Reference" "C305"
-			(at 82.55 193.294 90)
+			(at 124.46 186.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6581,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 82.55 195.072 90)
+			(at 124.46 188.722 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6590,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
-			(at 88.9 202.2348 0)
+			(at 130.81 195.8848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6599,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 85.09 203.2 0)
+			(at 127 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +6608,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 85.09 203.2 0)
+			(at 127 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6617,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H104KE14D"
-			(at 85.09 203.2 0)
+			(at 127 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +6626,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 85.09 203.2 0)
+			(at 127 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +6635,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 82.55 197.104 90)
+			(at 124.46 190.754 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6805,7 +6644,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 82.55 198.12 90)
+			(at 124.46 191.77 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6814,7 +6653,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 82.55 199.136 90)
+			(at 124.46 192.786 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6823,7 +6662,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 82.55 200.152 90)
+			(at 124.46 193.802 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6832,7 +6671,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-10700-1-ND"
-			(at 85.09 203.2 90)
+			(at 127 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,7 +6696,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 210.82 0)
+		(at 168.91 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6865,7 +6704,7 @@
 		(dnp no)
 		(uuid "ca3fe6a8-0e0d-4928-8909-837b564fd5a5")
 		(property "Reference" "C310"
-			(at 129.54 208.28 0)
+			(at 171.45 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6713,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 129.54 210.058 0)
+			(at 171.45 203.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +6722,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127.9652 214.63 0)
+			(at 169.8752 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +6731,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 127 210.82 0)
+			(at 168.91 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +6740,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 127 210.82 0)
+			(at 168.91 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +6749,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 127 210.82 0)
+			(at 168.91 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +6758,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 127 210.82 0)
+			(at 168.91 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +6767,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 129.794 212.09 0)
+			(at 171.704 205.74 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6937,7 +6776,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 129.794 213.106 0)
+			(at 171.704 206.756 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6946,7 +6785,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 129.794 214.122 0)
+			(at 171.704 207.772 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6955,7 +6794,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 129.794 215.138 0)
+			(at 171.704 208.788 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6964,7 +6803,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 127 210.82 0)
+			(at 168.91 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +6828,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 139.7 130.81 90)
+		(at 181.61 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6997,7 +6836,7 @@
 		(dnp no)
 		(uuid "cabfad39-72f8-4cd3-9b36-0f014bf13090")
 		(property "Reference" "D301"
-			(at 142.24 129.54 90)
+			(at 184.15 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +6845,7 @@
 			)
 		)
 		(property "Value" "150060RS75000"
-			(at 142.24 132.08 90)
+			(at 184.15 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +6854,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 139.7 130.81 0)
+			(at 181.61 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +6863,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 139.7 130.81 0)
+			(at 181.61 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +6872,7 @@
 			)
 		)
 		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 139.7 130.81 0)
+			(at 181.61 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +6881,7 @@
 			)
 		)
 		(property "MPN" "150060RS75000"
-			(at 139.7 130.81 0)
+			(at 181.61 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +6890,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 139.7 130.81 0)
+			(at 181.61 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +6899,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-4978-1-ND"
-			(at 139.7 130.81 90)
+			(at 181.61 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +6924,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 109.22 0)
+		(at 154.94 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7093,7 +6932,7 @@
 		(dnp no)
 		(uuid "d0f33961-af6a-4d57-8c2b-d8f589d0e2b2")
 		(property "Reference" "C307"
-			(at 115.57 106.68 0)
+			(at 157.48 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +6941,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 115.57 108.458 0)
+			(at 157.48 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +6950,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.9952 113.03 0)
+			(at 155.9052 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +6959,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 113.03 109.22 0)
+			(at 154.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +6968,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 113.03 109.22 0)
+			(at 154.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +6977,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 113.03 109.22 0)
+			(at 154.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7147,7 +6986,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 113.03 109.22 0)
+			(at 154.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,7 +6995,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 115.824 110.49 0)
+			(at 157.734 104.14 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7165,7 +7004,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 115.824 111.506 0)
+			(at 157.734 105.156 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7174,7 +7013,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 115.824 112.522 0)
+			(at 157.734 106.172 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7183,7 +7022,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 115.824 113.538 0)
+			(at 157.734 107.188 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7192,7 +7031,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 113.03 109.22 0)
+			(at 154.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7056,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 154.94 204.47 0)
+		(at 196.85 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7225,7 +7064,7 @@
 		(dnp no)
 		(uuid "d5ae2b67-74ea-4673-b049-9e463e08cf1e")
 		(property "Reference" "TP302"
-			(at 154.94 200.152 0)
+			(at 196.85 193.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +7073,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 157.48 201.168 90)
+			(at 199.39 194.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7082,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 160.02 204.47 0)
+			(at 201.93 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +7091,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 204.47 0)
+			(at 201.93 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +7100,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 154.94 204.47 0)
+			(at 196.85 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7122,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 139.7 240.03 0)
+		(at 181.61 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7292,7 +7131,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddc2a8a5-738a-409a-8b10-4ba0f312989c")
 		(property "Reference" "#PWR0302"
-			(at 139.7 246.38 0)
+			(at 181.61 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7140,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 245.11 0)
+			(at 181.61 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 240.03 0)
+			(at 181.61 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +7158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 240.03 0)
+			(at 181.61 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +7167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 139.7 240.03 0)
+			(at 181.61 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7189,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 109.22 0)
+		(at 142.24 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7358,7 +7197,7 @@
 		(dnp no)
 		(uuid "e7f600f3-6afb-4434-ba04-004d191c5171")
 		(property "Reference" "R307"
-			(at 101.6 106.172 0)
+			(at 143.51 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7367,7 +7206,7 @@
 			)
 		)
 		(property "Value" "127 kΩ"
-			(at 101.6 107.95 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 98.552 109.22 90)
+			(at 140.462 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7224,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 100.33 109.22 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7233,7 @@
 			)
 		)
 		(property "Description" "127 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 100.33 109.22 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7242,7 @@
 			)
 		)
 		(property "MPN" "ERJ-2RKF1273X"
-			(at 100.33 109.22 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7251,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 100.33 109.22 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7260,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 101.6 109.22 0)
+			(at 143.51 102.87 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7430,7 +7269,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 101.6 110.49 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7439,7 +7278,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 101.6 111.7601 0)
+			(at 143.51 105.4101 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7448,7 +7287,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P127KLCT-ND"
-			(at 100.33 109.22 0)
+			(at 142.24 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +7312,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 139.7 232.41 90)
+		(at 181.61 226.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7481,7 +7320,7 @@
 		(dnp no)
 		(uuid "e826b470-9414-4390-89f2-d192491bf2c4")
 		(property "Reference" "D302"
-			(at 142.24 231.14 90)
+			(at 184.15 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +7329,7 @@
 			)
 		)
 		(property "Value" "150060RS75000"
-			(at 142.24 233.68 90)
+			(at 184.15 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +7338,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 139.7 232.41 0)
+			(at 181.61 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +7347,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 139.7 232.41 0)
+			(at 181.61 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7356,7 @@
 			)
 		)
 		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 139.7 232.41 0)
+			(at 181.61 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7365,7 @@
 			)
 		)
 		(property "MPN" "150060RS75000"
-			(at 139.7 232.41 0)
+			(at 181.61 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7374,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 139.7 232.41 0)
+			(at 181.61 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7383,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-4978-1-ND"
-			(at 139.7 232.41 90)
+			(at 181.61 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +7408,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 228.6 113.03 0)
+		(at 355.6 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7578,7 +7417,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8b9337a-e0d7-4eb0-8301-471fe3d7d779")
 		(property "Reference" "#PWR0303"
-			(at 228.6 119.38 0)
+			(at 355.6 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +7426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 118.11 0)
+			(at 355.6 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7435,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 113.03 0)
+			(at 355.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 113.03 0)
+			(at 355.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 228.6 113.03 0)
+			(at 355.6 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7475,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 25.4 107.95 0)
+		(at 67.31 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7644,7 +7483,7 @@
 		(dnp no)
 		(uuid "effeedd5-1b3e-40dd-889f-bacd711d9fad")
 		(property "Reference" "C301"
-			(at 27.94 105.41 0)
+			(at 69.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,7 +7492,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 27.94 107.188 0)
+			(at 69.85 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,7 +7501,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 26.3652 111.76 0)
+			(at 68.2752 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7510,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 25.4 107.95 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7519,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 25.4 107.95 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,7 +7528,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 25.4 107.95 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,7 +7537,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 25.4 107.95 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +7546,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 28.194 109.22 0)
+			(at 70.104 102.87 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7716,7 +7555,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 28.194 110.236 0)
+			(at 70.104 103.886 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7725,7 +7564,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 28.194 111.252 0)
+			(at 70.104 104.902 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7734,7 +7573,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 28.194 112.268 0)
+			(at 70.104 105.918 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7743,7 +7582,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 25.4 107.95 0)
+			(at 67.31 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7607,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 232.41 0)
+		(at 127 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7776,7 +7615,7 @@
 		(dnp no)
 		(uuid "f560e52f-9930-445f-b083-4bc0ddfb77f8")
 		(property "Reference" "C306"
-			(at 87.63 229.87 0)
+			(at 129.54 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7785,7 +7624,7 @@
 			)
 		)
 		(property "Value" "3300 pF"
-			(at 87.63 231.648 0)
+			(at 129.54 225.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,7 +7633,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
-			(at 86.0552 236.22 0)
+			(at 127.9652 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +7642,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H332GE01-01A.pdf"
-			(at 85.09 232.41 0)
+			(at 127 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +7651,7 @@
 			)
 		)
 		(property "Description" "3300 pF ±2% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 85.09 232.41 0)
+			(at 127 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7660,7 @@
 			)
 		)
 		(property "MPN" "GRM1555C1H332GE01J"
-			(at 85.09 232.41 0)
+			(at 127 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +7669,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 85.09 232.41 0)
+			(at 127 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +7678,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 87.884 233.68 0)
+			(at 129.794 227.33 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7848,7 +7687,7 @@
 			)
 		)
 		(property "Tolerance" "2 %"
-			(at 87.884 234.696 0)
+			(at 129.794 228.346 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7857,7 +7696,7 @@
 			)
 		)
 		(property "Temperature coefficient" "C0G"
-			(at 87.884 235.712 0)
+			(at 129.794 229.362 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7866,7 +7705,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 87.884 236.728 0)
+			(at 129.794 230.378 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7875,7 +7714,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-GRM1555C1H332GE01JCT-ND"
-			(at 85.09 232.41 0)
+			(at 127 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,7 +7739,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 25.4 209.55 0)
+		(at 67.31 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7908,7 +7747,7 @@
 		(dnp no)
 		(uuid "f72c6c3f-45ce-44e4-a65a-d652f56cae0a")
 		(property "Reference" "C302"
-			(at 27.94 207.01 0)
+			(at 69.85 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +7756,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 27.94 208.788 0)
+			(at 69.85 202.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +7765,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 26.3652 213.36 0)
+			(at 68.2752 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +7774,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 25.4 209.55 0)
+			(at 67.31 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7944,7 +7783,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 25.4 209.55 0)
+			(at 67.31 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7953,7 +7792,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 25.4 209.55 0)
+			(at 67.31 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,7 +7801,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 25.4 209.55 0)
+			(at 67.31 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,7 +7810,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 28.194 210.82 0)
+			(at 70.104 204.47 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7980,7 +7819,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 28.194 211.836 0)
+			(at 70.104 205.486 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7989,7 +7828,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 28.194 212.852 0)
+			(at 70.104 206.502 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7998,7 +7837,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 28.194 213.868 0)
+			(at 70.104 207.518 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8007,7 +7846,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 25.4 209.55 0)
+			(at 67.31 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8032,7 +7871,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 95.25 104.14 90)
+		(at 137.16 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8040,7 +7879,7 @@
 		(dnp no)
 		(uuid "fa2bd3d8-e934-4dce-9e21-77f2648022c3")
 		(property "Reference" "L301"
-			(at 95.25 98.806 90)
+			(at 137.16 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +7888,7 @@
 			)
 		)
 		(property "Value" "1.5 µH"
-			(at 95.25 100.584 90)
+			(at 137.16 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +7897,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
-			(at 95.25 104.14 0)
+			(at 137.16 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +7906,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf"
-			(at 95.25 104.14 0)
+			(at 137.16 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +7915,7 @@
 			)
 		)
 		(property "Description" "1.5 µH Shielded Molded Inductor 9 A 15mOhm Max Nonstandard"
-			(at 95.25 104.14 0)
+			(at 137.16 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +7924,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "541-1007-1-ND"
-			(at 95.25 104.14 90)
+			(at 137.16 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +7933,7 @@
 			)
 		)
 		(property "MPN" "IHLP2525CZER1R5M01"
-			(at 95.25 104.14 90)
+			(at 137.16 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +7942,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 95.25 104.14 90)
+			(at 137.16 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +7951,7 @@
 			)
 		)
 		(property "Current rating" "7 A"
-			(at 95.25 103.124 90)
+			(at 137.16 96.774 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8121,7 +7960,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 95.25 102.108 90)
+			(at 137.16 95.758 90)
 			(effects
 				(font
 					(size 0.7 0.7)

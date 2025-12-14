@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2025-11-07")
-		(rev "v0.0.1")
+		(date "2025-12-14")
+		(rev "v1.0.0")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2265,6 +2265,16 @@
 			(justify right bottom)
 		)
 		(uuid "f4f1d806-5a6f-4352-9628-2b4758f58ef7")
+	)
+	(text "Place inside the EMI shield frame."
+		(exclude_from_sim no)
+		(at 182.88 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd6c002a-bc99-4232-a527-9a036cc50827")
 	)
 	(text_box "Notes"
 		(exclude_from_sim no)
@@ -9874,7 +9884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-202-F_16.50x16.50mm"
+		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-203-F_26.21x26.21mm"
 			(at 182.88 91.44 0)
 			(effects
 				(font
