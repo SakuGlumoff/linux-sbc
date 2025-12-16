@@ -7789,130 +7789,6 @@
 		(uuid "e0b305ce-aefb-4689-b29c-a86f1641dd0e")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0203aafa-9988-4b2e-b813-ebb5386c21f0")
-		(property "Reference" "R1202"
-			(at 62.23 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 kΩ"
-			(at 62.23 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 65.278 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 63.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 63.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF4701X"
-			(at 63.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 63.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Power rating" "0.1 W"
-			(at 62.23 107.95 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0402"
-			(at 62.23 109.2201 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "P4.70KLCT-ND"
-			(at 63.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "968050d3-9a6e-4f75-b5fd-761eae325f41")
-		)
-		(pin "1"
-			(uuid "ed967410-7283-4c69-8aca-a4a2ced1c835")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 374.65 247.65 0)
 		(unit 1)
@@ -8102,7 +7978,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0a06df42-bfc4-4887-8157-147c37a1d8ce")
+		(uuid "1321757c-815e-484f-867d-8f0b6bdc7b63")
 		(property "Reference" "R1211"
 			(at 364.49 236.982 0)
 			(effects
@@ -8121,7 +7997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 367.538 240.03 90)
 			(effects
 				(font
@@ -8139,7 +8015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "4.7 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
 			(at 365.76 240.03 0)
 			(effects
 				(font
@@ -8148,7 +8024,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF4701X"
+		(property "MPN" "ERJ-1GNF4701C"
 			(at 365.76 240.03 0)
 			(effects
 				(font
@@ -8175,7 +8051,7 @@
 				(justify left)
 			)
 		)
-		(property "Power rating" "0.1 W"
+		(property "Power rating" "0.05 W"
 			(at 364.49 241.3 0)
 			(effects
 				(font
@@ -8184,7 +8060,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0402"
+		(property "Size" "0201"
 			(at 364.49 242.5701 0)
 			(effects
 				(font
@@ -8193,7 +8069,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "P4.70KLCT-ND"
+		(property "Digi-Key Part Number" "P123031CT-ND"
 			(at 365.76 240.03 0)
 			(effects
 				(font
@@ -8203,10 +8079,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d86753e4-3692-4277-ae6b-b94957830ae7")
+			(uuid "133068c2-d50f-4a9f-a19a-e425d50150c0")
 		)
 		(pin "1"
-			(uuid "3f11abcb-989f-41b7-b256-db989095b603")
+			(uuid "2bc69b18-a10e-4942-9d48-eae5dbef044f")
 		)
 		(instances
 			(project "linux-sbc"
@@ -8393,237 +8269,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
 					(reference "#PWR01201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 86.36 121.92 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29ebb540-eb61-43fb-bf77-bda75dd1c904")
-		(property "Reference" "R1205"
-			(at 83.566 121.666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 89.154 121.666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 86.36 120.142 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 86.36 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 86.36 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2GE0R00X"
-			(at 86.36 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 86.36 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "0402"
-			(at 93.218 121.666 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Digi-Key Part Number" "P0.0JCT-ND"
-			(at 86.36 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6fbd5725-af4e-439c-8b1f-6538899a8915")
-		)
-		(pin "1"
-			(uuid "60962268-e33e-4cf9-8dda-e093a31fb21f")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 354.33 240.03 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a4d924b-c084-4b23-be12-a693850013a4")
-		(property "Reference" "R1210"
-			(at 353.06 236.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 kΩ"
-			(at 353.06 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 356.108 240.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 354.33 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 354.33 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF4701X"
-			(at 354.33 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 354.33 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 353.06 240.03 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Power rating" "0.1 W"
-			(at 353.06 241.3 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0402"
-			(at 353.06 242.5701 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "P4.70KLCT-ND"
-			(at 354.33 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5fc8ec9-b641-4094-8147-540adf70cd23")
-		)
-		(pin "1"
-			(uuid "610f21ad-fcb7-41aa-9d91-5800dda9f61c")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1210")
 					(unit 1)
 				)
 			)
@@ -8886,113 +8531,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 86.36 124.46 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3edd24eb-5c39-4f0d-bf8f-3172d886c687")
-		(property "Reference" "R1206"
-			(at 83.566 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 89.154 124.206 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 86.36 122.682 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2GE0R00X"
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 86.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "0402"
-			(at 93.218 124.206 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Digi-Key Part Number" "P0.0JCT-ND"
-			(at 86.36 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "655e74ba-6d35-4f7b-9c5c-dde597d8baf5")
-		)
-		(pin "1"
-			(uuid "42ac9581-df90-40f3-b9af-4e6fc4f230ba")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 215.9 154.94 0)
 		(unit 1)
@@ -9175,6 +8713,325 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 250.19 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51be756a-d5d5-433a-952d-f04289f21f90")
+		(property "Reference" "R1208"
+			(at 247.65 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 247.65 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 250.19 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GN0R00C"
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GN0R00C"
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 247.65 134.62 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Digi-Key Part Number" "P15979CT-ND"
+			(at 250.19 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f2eed68-3386-4141-bd9a-d9cc3671a31a")
+		)
+		(pin "1"
+			(uuid "6dd1e69e-118d-4bbf-9e45-aa623363b9eb")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 86.36 119.38 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51d7e345-c1d3-4c07-a6d2-835380eff583")
+		(property "Reference" "R1204"
+			(at 83.566 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 89.154 119.126 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 86.36 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GN0R00C"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GN0R00C"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 86.36 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 93.218 119.126 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Digi-Key Part Number" "P15979CT-ND"
+			(at 86.36 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84e553d0-083a-4e0b-bd63-da97b6cb6633")
+		)
+		(pin "1"
+			(uuid "8b48413a-8fcf-4c46-8eb5-78804e96a52b")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 86.36 124.46 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5262cd9f-74aa-4bfc-98c0-0c45e6e72708")
+		(property "Reference" "R1206"
+			(at 83.566 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 89.154 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 86.36 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GN0R00C"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GN0R00C"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 93.218 124.206 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Digi-Key Part Number" "P15979CT-ND"
+			(at 86.36 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b24c6cb2-670e-49e8-90a5-07a606d2b4e6")
+		)
+		(pin "1"
+			(uuid "153006c7-6a48-41b1-944e-2d07a277c108")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 304.8 128.27 0)
 		(unit 1)
@@ -9236,254 +9093,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
 					(reference "#PWR01206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 240.03 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59791225-0579-4dd3-b5b8-d6e3a4f2041b")
-		(property "Reference" "R1207"
-			(at 238.76 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 238.76 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 241.808 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 238.76 148.59 0)
-			(effects
-				(font
-					(size 0.638 0.638)
-				)
-				(justify left)
-			)
-		)
-		(property "Power rating" "0.1 W"
-			(at 238.76 149.86 0)
-			(effects
-				(font
-					(size 0.638 0.638)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0402"
-			(at 238.76 151.1301 0)
-			(effects
-				(font
-					(size 0.638 0.638)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "P10.0KLCT-ND"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "62ec1bc1-86ec-4691-b089-f47f9d2a6bb0")
-		)
-		(pin "1"
-			(uuid "cefdca52-db0e-4519-915f-211714371973")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a5523ac-232b-4d64-96a9-69cfe7c3f071")
-		(property "Reference" "R1201"
-			(at 49.53 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 kΩ"
-			(at 49.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 52.578 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF4701X"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 49.53 106.68 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Power rating" "0.1 W"
-			(at 49.53 107.95 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0402"
-			(at 49.53 109.2201 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "P4.70KLCT-ND"
-			(at 50.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1373d3d1-fb8d-4e4c-8d74-57840848b31c")
-		)
-		(pin "1"
-			(uuid "247619d2-7c01-4d47-99bd-f9c586b88717")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1201")
 					(unit 1)
 				)
 			)
@@ -10035,130 +9644,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 76.2 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a87b2d9-0dce-4ee3-9a68-fe3a5abcc2b3")
-		(property "Reference" "R1203"
-			(at 74.93 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 74.93 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 77.978 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1002X"
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 74.93 106.68 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Power rating" "0.1 W"
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0402"
-			(at 74.93 109.2201 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "P10.0KLCT-ND"
-			(at 76.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bcfad17-dc34-4229-83e9-88eeb38144d4")
-		)
-		(pin "1"
-			(uuid "2e12d967-3ce1-4de2-a5c8-f3d500e59d21")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diodes Incorporated:AP5725FDCG-7")
 		(at 266.7 135.89 0)
 		(unit 1)
@@ -10264,6 +9749,131 @@
 			(project ""
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
 					(reference "U1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 76.2 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "832bcd39-3adb-4bff-99e2-b2ddb6139b1e")
+		(property "Reference" "R1203"
+			(at 74.93 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 77.978 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GNF1002C"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 74.93 106.68 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.05 W"
+			(at 74.93 107.95 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0201"
+			(at 74.93 109.2201 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P122414CT-ND"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19a97feb-73dd-4f33-ac60-3371d9ece384")
+		)
+		(pin "1"
+			(uuid "8df36c75-c730-4535-a79d-d4cc644311e0")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1203")
 					(unit 1)
 				)
 			)
@@ -10421,6 +10031,255 @@
 			(project ""
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
 					(reference "X1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 240.03 148.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b6bae5c-f8d3-47dd-9ab8-1ff5f7820acb")
+		(property "Reference" "R1207"
+			(at 238.76 145.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 238.76 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 241.808 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GNF1002C"
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 238.76 148.59 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.05 W"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0201"
+			(at 238.76 151.1301 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P122414CT-ND"
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c3f0b63-70b9-4dd8-9325-d8ab3d946e21")
+		)
+		(pin "1"
+			(uuid "bc03beca-e087-4ea4-b35e-ec8370f04082")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 50.8 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e3f9526-c99b-46a3-a904-2fa0ac77c7ef")
+		(property "Reference" "R1201"
+			(at 49.53 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kΩ"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 52.578 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GNF4701C"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 49.53 106.68 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.05 W"
+			(at 49.53 107.95 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0201"
+			(at 49.53 109.2201 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P123031CT-ND"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7a378ca-0de4-4fb1-bf2e-fdda77372f85")
+		)
+		(pin "1"
+			(uuid "b434b554-62c6-4d4b-9c33-da3356338d27")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1201")
 					(unit 1)
 				)
 			)
@@ -10654,6 +10513,237 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 354.33 240.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a85b8779-3af0-4d19-9431-bb0dfa0724a8")
+		(property "Reference" "R1210"
+			(at 353.06 236.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kΩ"
+			(at 353.06 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 356.108 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 354.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 354.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GNF4701C"
+			(at 354.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 354.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 353.06 240.03 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.05 W"
+			(at 353.06 241.3 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0201"
+			(at 353.06 242.5701 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P123031CT-ND"
+			(at 354.33 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c145dd4a-37ce-44a0-93a9-23c29f83c404")
+		)
+		(pin "1"
+			(uuid "e31abafc-eedf-4ead-bb82-07473911a88f")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 86.36 121.92 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad9e462f-72e3-4576-903d-fe1038e562d3")
+		(property "Reference" "R1205"
+			(at 83.566 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 89.154 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 86.36 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GN0R00C"
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GN0R00C"
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 93.218 121.666 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Digi-Key Part Number" "P15979CT-ND"
+			(at 86.36 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0677f23-fc1d-43ab-b6b8-44b9d312192d")
+		)
+		(pin "1"
+			(uuid "6727684d-8e2a-49cb-9a0a-49c60eda093e")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 328.93 240.03 0)
 		(mirror y)
@@ -10662,7 +10752,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ab4f588e-6b3a-455c-8767-e821caa36ca3")
+		(uuid "bad4bd7a-aae1-48a3-850f-15fff86f28a2")
 		(property "Reference" "C1204"
 			(at 326.39 237.49 0)
 			(effects
@@ -10681,7 +10771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 327.9648 243.84 0)
 			(effects
 				(font
@@ -10690,7 +10780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R6YA104KE14-01.pdf"
 			(at 328.93 240.03 0)
 			(effects
 				(font
@@ -10699,7 +10789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X5R 0201 (0603 Metric)"
 			(at 328.93 240.03 0)
 			(effects
 				(font
@@ -10708,7 +10798,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM155R71H104KE14D"
+		(property "MPN" "GRM033R6YA104KE14D"
 			(at 328.93 240.03 0)
 			(effects
 				(font
@@ -10726,7 +10816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "16 V"
+		(property "Voltage rating" "35 V"
 			(at 326.136 241.3 0)
 			(effects
 				(font
@@ -10735,7 +10825,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20 %"
+		(property "Tolerance" "10 %"
 			(at 326.136 242.316 0)
 			(effects
 				(font
@@ -10753,7 +10843,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0402"
+		(property "Size" "0201"
 			(at 326.136 244.348 0)
 			(effects
 				(font
@@ -10762,7 +10852,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "490-10700-1-ND"
+		(property "Digi-Key Part Number" "490-10430-1-ND"
 			(at 328.93 240.03 0)
 			(effects
 				(font
@@ -10772,10 +10862,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e3148b3c-2765-41df-848f-dbcdf4978f3e")
+			(uuid "21e75a99-7ea5-403b-acd7-3787c2f992ad")
 		)
 		(pin "1"
-			(uuid "6be81fc1-1c60-4f3f-8603-637b55820910")
+			(uuid "3d6c75f6-5dfc-482e-9884-11cf31990b18")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10991,6 +11081,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 63.5 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5437a76-0869-4db9-a21c-befc5441e883")
+		(property "Reference" "R1202"
+			(at 62.23 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 kΩ"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 65.278 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GNF4701C"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.05 W"
+			(at 62.23 107.95 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0201"
+			(at 62.23 109.2201 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P123031CT-ND"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9490c835-ebbc-4832-b4cc-90589a3ccdd2")
+		)
+		(pin "1"
+			(uuid "e9d6fe43-cfd0-458c-81e7-1afaff8d14fb")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
+					(reference "R1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 215.9 132.08 0)
 		(unit 1)
@@ -11117,218 +11331,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
 					(reference "C1202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 86.36 119.38 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d11e9a2b-77e7-4c5f-a2ce-b826e78ec5f0")
-		(property "Reference" "R1204"
-			(at 83.566 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 89.154 119.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 86.36 117.602 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2GE0R00X"
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 86.36 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "0402"
-			(at 93.218 119.126 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Digi-Key Part Number" "P0.0JCT-ND"
-			(at 86.36 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43a9c6cc-cbe6-40e8-abed-1a03e17b9662")
-		)
-		(pin "1"
-			(uuid "a8ca7a3c-48cb-4a25-a5ae-854fa583490d")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 250.19 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd50d142-f56a-415a-a707-42c90b5d27b5")
-		(property "Reference" "R1208"
-			(at 247.65 131.826 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 247.65 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
-			(at 250.19 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 250.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 250.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2GE0R00X"
-			(at 250.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 250.19 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "0402"
-			(at 247.65 134.62 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Digi-Key Part Number" "P0.0JCT-ND"
-			(at 250.19 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e03ac624-b830-4287-a121-2e40261bb10a")
-		)
-		(pin "1"
-			(uuid "f54de127-b711-454d-8d15-3e1e51ee3763")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/530a7454-1232-4a53-8117-19eb81379b71"
-					(reference "R1208")
 					(unit 1)
 				)
 			)
