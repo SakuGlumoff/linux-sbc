@@ -4869,16 +4869,6 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 153.67) (xy 367.03 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dc6ec3a-3ce3-4a07-b3c8-1e9cdcaec618")
-	)
-	(wire
-		(pts
 			(xy 325.12 137.16) (xy 325.12 142.24)
 		)
 		(stroke
@@ -6776,6 +6766,16 @@
 			(type default)
 		)
 		(uuid "f9b70af8-24b2-4953-a543-eaa13f815b8c")
+	)
+	(wire
+		(pts
+			(xy 367.03 153.67) (xy 367.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9b5557-8755-402c-84b0-90a60ca50f7c")
 	)
 	(wire
 		(pts
@@ -9792,6 +9792,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 372.11 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cf042c5-211e-48dd-88f7-4d8ec3c3e719")
+		(property "Reference" "C922"
+			(at 374.65 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 µF"
+			(at 374.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 373.0752 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+			(at 372.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 µF Molded Tantalum Capacitors 16 V 2917 (7343 Metric) 600mOhm @ 100kHz"
+			(at 372.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TAJD107K016SNJV"
+			(at 372.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 372.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 374.65 135.128 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10 %"
+			(at 374.65 136.144 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "Tant"
+			(at 374.65 137.16 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "478-TAJD107K016SNJVCT-ND"
+			(at 372.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "2917"
+			(at 374.65 138.176 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b88d7cb2-08d0-4b9a-bfaa-90a8990efaaf")
+		)
+		(pin "2"
+			(uuid "c16b4b9e-d87c-4546-a5a3-e02246faf5b8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C922")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
 		(at 161.29 111.76 0)
@@ -10790,7 +10922,7 @@
 		(dnp no)
 		(uuid "56a17d9c-d2e9-407b-a32b-82c96a5889a8")
 		(property "Reference" "C920"
-			(at 364.49 132.588 0)
+			(at 364.49 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,8 +10930,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120 µF"
-			(at 364.49 134.366 0)
+		(property "Value" "100 µF"
+			(at 364.49 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10807,7 +10939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
 			(at 366.0648 138.43 0)
 			(effects
 				(font
@@ -10816,7 +10948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020574009.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
 			(at 367.03 134.62 0)
 			(effects
 				(font
@@ -10825,7 +10957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "120 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
+		(property "Description" "100 µF Molded Tantalum Capacitors 16 V 2917 (7343 Metric) 600mOhm @ 100kHz"
 			(at 367.03 134.62 0)
 			(effects
 				(font
@@ -10834,7 +10966,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "860020574009"
+		(property "MPN" "TAJD107K016SNJV"
 			(at 367.03 134.62 0)
 			(effects
 				(font
@@ -10843,7 +10975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "KYOCERA AVX"
 			(at 367.03 134.62 0)
 			(effects
 				(font
@@ -10852,8 +10984,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "35 V"
-			(at 364.49 135.89 0)
+		(property "Voltage rating" "16 V"
+			(at 364.49 135.128 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10861,8 +10993,8 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20 %"
-			(at 364.49 136.906 0)
+		(property "Tolerance" "10 %"
+			(at 364.49 136.144 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10870,8 +11002,8 @@
 				(justify left)
 			)
 		)
-		(property "Temperature coefficient" "Elec"
-			(at 364.49 137.922 0)
+		(property "Temperature coefficient" "Tant"
+			(at 364.49 137.16 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10879,13 +11011,22 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "732-8943-1-ND"
+		(property "Digi-Key Part Number" "478-TAJD107K016SNJVCT-ND"
 			(at 367.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Size" "2917"
+			(at 364.49 138.176 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -11334,129 +11475,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "C910")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 372.11 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65bddade-7c05-4089-a11d-0da069e9892d")
-		(property "Reference" "C923"
-			(at 374.65 180.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120 µF"
-			(at 374.65 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
-			(at 373.0752 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020574009.pdf"
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "120 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "860020574009"
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 374.65 184.15 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 374.65 185.166 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "Elec"
-			(at 374.65 186.182 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "732-8943-1-ND"
-			(at 372.11 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58a77829-2caa-46ad-a01d-632443b2ab10")
-		)
-		(pin "2"
-			(uuid "2ca81802-302b-4b05-b364-f7b7b900dfad")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C923")
 					(unit 1)
 				)
 			)
@@ -15051,6 +15069,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 372.11 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deeb6ca4-ab36-427d-8479-545534de6458")
+		(property "Reference" "C923"
+			(at 374.65 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 µF"
+			(at 374.65 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 373.0752 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+			(at 372.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 µF Molded Tantalum Capacitors 16 V 2917 (7343 Metric) 600mOhm @ 100kHz"
+			(at 372.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TAJD107K016SNJV"
+			(at 372.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 372.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 374.65 183.388 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10 %"
+			(at 374.65 184.404 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "Tant"
+			(at 374.65 185.42 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "478-TAJD107K016SNJVCT-ND"
+			(at 372.11 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "2917"
+			(at 374.65 186.436 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2b688389-52f9-4a9c-b80a-fc68a4a9972d")
+		)
+		(pin "2"
+			(uuid "b972ed93-d888-4077-827b-0c3dd7b46391")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C923")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 67.31 207.01 0)
 		(unit 1)
@@ -15795,130 +15945,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 367.03 182.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f40fe872-0e86-4e9f-b236-c2876a8f6e1e")
-		(property "Reference" "C921"
-			(at 364.49 180.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120 µF"
-			(at 364.49 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
-			(at 366.0648 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020574009.pdf"
-			(at 367.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "120 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
-			(at 367.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "860020574009"
-			(at 367.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 367.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 364.49 184.15 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 364.49 185.166 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "Elec"
-			(at 364.49 186.182 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "732-8943-1-ND"
-			(at 367.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1872ccd0-c4bb-43ba-bb45-d43015f12bc1")
-		)
-		(pin "2"
-			(uuid "e2cdadb4-f88b-4bd2-a9c9-7b10dfdae698")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C921")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 54.61 207.01 0)
 		(unit 1)
@@ -15986,6 +16012,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 367.03 182.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f932df1b-8c8b-45ac-b480-ec7534aaac11")
+		(property "Reference" "C921"
+			(at 364.49 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 µF"
+			(at 364.49 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 366.0648 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 µF Molded Tantalum Capacitors 16 V 2917 (7343 Metric) 600mOhm @ 100kHz"
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TAJD107K016SNJV"
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 364.49 183.388 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10 %"
+			(at 364.49 184.404 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "Tant"
+			(at 364.49 185.42 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "478-TAJD107K016SNJVCT-ND"
+			(at 367.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "2917"
+			(at 364.49 186.436 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3fb42dd7-c950-4057-8a70-fff97a62495a")
+		)
+		(pin "2"
+			(uuid "2b4246d9-ae41-4a77-841b-f1e629179ac2")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "C921")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 59.69 101.6 0)
 		(unit 1)
@@ -16047,129 +16206,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "#PWR0903")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 372.11 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc6bb9c9-b227-4859-ac8e-27b5f510f285")
-		(property "Reference" "C922"
-			(at 374.65 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120 µF"
-			(at 374.65 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm"
-			(at 373.0752 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020574009.pdf"
-			(at 372.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "120 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 2000 Hrs @ 105°C"
-			(at 372.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "860020574009"
-			(at 372.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 372.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 374.65 135.89 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 374.65 136.906 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "Elec"
-			(at 374.65 137.922 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "732-8943-1-ND"
-			(at 372.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52922991-75b8-4fc9-a21c-b497958cbba4")
-		)
-		(pin "2"
-			(uuid "6317a280-833e-40b5-9dbb-16bb4ad733b1")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "C922")
 					(unit 1)
 				)
 			)
