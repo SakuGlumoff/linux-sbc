@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2025-12-17")
+		(date "2025-12-19")
 		(rev "v1.0.0")
 	)
 	(lib_symbols
@@ -8150,131 +8150,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(bus_alias "DDR"
 		(members "DDR.A[0..15]" "DDR.BA[0..2]" "DDR.DQ[0..15]" "DDR.DQM[0..1]"
@@ -8338,7 +8213,7 @@
 		)
 		(uuid "2eb9e103-15ae-4170-96ce-40c0c48b198e")
 	)
-	(text_box "PMIC"
+	(text_box "Power"
 		(exclude_from_sim no)
 		(at 12.7 50.8 0)
 		(size 114.3 63.5)
@@ -8380,7 +8255,7 @@
 		)
 		(uuid "6670810f-475e-49fd-a509-06dd65d6c12b")
 	)
-	(text_box "4. MPU"
+	(text_box "5. MPU"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
 		(size 393.7 38.1)
@@ -8517,12 +8392,6 @@
 		(uuid "2ecbcc3f-bcb8-4f7b-b6c0-ebe1aa1102c3")
 	)
 	(junction
-		(at 78.74 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "348ad8ed-bb02-49d9-80bd-a09f7155cce1")
-	)
-	(junction
 		(at 260.35 278.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8539,12 +8408,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45e27881-9bd0-411d-bd8e-56825b18d2b3")
-	)
-	(junction
-		(at 83.82 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bdc0758-afa9-46d1-87af-85da935c9428")
 	)
 	(junction
 		(at 401.32 105.41)
@@ -8575,12 +8438,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "740df596-67f9-4ef0-a5eb-c66a0801ea08")
-	)
-	(junction
-		(at 83.82 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83e35961-eae4-4d63-9de0-3f2091e90f9f")
 	)
 	(junction
 		(at 278.13 278.13)
@@ -10065,16 +9922,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 105.41) (xy 86.36 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b3f4af-7231-406a-a001-ab5692449255")
-	)
-	(wire
-		(pts
 			(xy 46.99 190.5) (xy 34.29 190.5)
 		)
 		(stroke
@@ -10192,16 +10039,6 @@
 			(type default)
 		)
 		(uuid "04766ccf-02c9-464d-9c08-763b10d360f0")
-	)
-	(wire
-		(pts
-			(xy 73.66 100.33) (xy 83.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04966472-ed1b-4a57-8d4b-ac17bc65f9ad")
 	)
 	(wire
 		(pts
@@ -10505,16 +10342,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 102.87) (xy 86.36 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15ed28a3-79ba-4760-80d4-9ee63f0c98e9")
-	)
-	(wire
-		(pts
 			(xy 87.63 185.42) (xy 100.33 185.42)
 		)
 		(stroke
@@ -10542,16 +10369,6 @@
 			(type default)
 		)
 		(uuid "16a67bb6-e555-4f6e-86d5-9b42fa164507")
-	)
-	(wire
-		(pts
-			(xy 83.82 85.09) (xy 99.06 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16b58a19-2a39-441b-91e4-0fb6c6d56960")
 	)
 	(wire
 		(pts
@@ -11135,16 +10952,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 77.47) (xy 86.36 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "314b32c5-dfc6-41ec-8551-556f6488456e")
-	)
-	(wire
-		(pts
 			(xy 201.93 224.79) (xy 215.9 224.79)
 		)
 		(stroke
@@ -11215,16 +11022,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 97.79) (xy 99.06 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33b711e4-d7ea-49dd-a8e2-b0974226cbec")
-	)
-	(wire
-		(pts
 			(xy 300.99 200.66) (xy 317.5 200.66)
 		)
 		(stroke
@@ -11232,6 +11029,16 @@
 			(type default)
 		)
 		(uuid "33b759e6-90fc-441c-a684-5f47dcfba8a5")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 63.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ffda6f-e34a-47e5-a1a7-84e4e9c920cd")
 	)
 	(wire
 		(pts
@@ -11405,16 +11212,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 31.75 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b939b3c-c0ec-4754-b586-14311c5ed013")
-	)
-	(wire
-		(pts
 			(xy 226.06 175.26) (xy 226.06 173.99)
 		)
 		(stroke
@@ -11515,16 +11312,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 82.55) (xy 83.82 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40437c04-a6dd-4628-a602-bde192de056b")
-	)
-	(wire
-		(pts
 			(xy 142.24 241.3) (xy 154.94 241.3)
 		)
 		(stroke
@@ -11552,26 +11339,6 @@
 			(type default)
 		)
 		(uuid "4227174c-abc0-4eca-bb34-f578848fa9ce")
-	)
-	(wire
-		(pts
-			(xy 83.82 82.55) (xy 83.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "427dc9db-9dbd-43c5-8050-5608baba366a")
-	)
-	(wire
-		(pts
-			(xy 73.66 80.01) (xy 86.36 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42bf8e9f-5f6f-4a44-a10c-d70a0984416a")
 	)
 	(wire
 		(pts
@@ -11612,6 +11379,16 @@
 			(type default)
 		)
 		(uuid "463869cb-ca87-4e63-b49e-cede8b93f606")
+	)
+	(wire
+		(pts
+			(xy 50.8 76.2) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465558e4-a7b0-45f7-9f38-cf5cfd90f415")
 	)
 	(bus
 		(pts
@@ -11995,16 +11772,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 97.79) (xy 78.74 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5709b5b6-0e1a-4914-858c-6d90ed8c7664")
-	)
-	(wire
-		(pts
 			(xy 271.78 278.13) (xy 278.13 278.13)
 		)
 		(stroke
@@ -12022,16 +11789,6 @@
 			(type default)
 		)
 		(uuid "58d1a4b2-8c10-4396-be05-124e646395e5")
-	)
-	(wire
-		(pts
-			(xy 31.75 72.39) (xy 35.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59096a2b-9864-4be0-be86-d2f510cf8db7")
 	)
 	(wire
 		(pts
@@ -12215,26 +11972,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 83.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "616dde1d-b129-4147-ac2a-6fef0af060b5")
-	)
-	(wire
-		(pts
-			(xy 83.82 100.33) (xy 99.06 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62595751-5348-4d6b-afed-3df7b732a739")
-	)
-	(wire
-		(pts
 			(xy 383.54 129.54) (xy 368.3 129.54)
 		)
 		(stroke
@@ -12332,16 +12069,6 @@
 			(type default)
 		)
 		(uuid "64b1c97f-49c1-4338-9772-38116887dfad")
-	)
-	(wire
-		(pts
-			(xy 73.66 97.79) (xy 78.74 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64e67280-2edb-407c-96f3-8042a159afc5")
 	)
 	(wire
 		(pts
@@ -12705,6 +12432,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 81.28) (xy 63.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cee250a-e0a0-45a7-be95-8cc045286d90")
+	)
+	(wire
+		(pts
 			(xy 300.99 223.52) (xy 302.26 223.52)
 		)
 		(stroke
@@ -12885,16 +12622,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 87.63) (xy 99.06 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88dae5d4-e6d8-4f19-a02f-b06e3093a7f5")
-	)
-	(wire
-		(pts
 			(xy 383.54 170.18) (xy 368.3 170.18)
 		)
 		(stroke
@@ -12902,6 +12629,16 @@
 			(type default)
 		)
 		(uuid "890308ff-93de-41e2-83c1-86adcedda3c1")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89231321-3d79-448f-b017-3af9854474d0")
 	)
 	(wire
 		(pts
@@ -13433,16 +13170,6 @@
 		)
 		(uuid "a5f8bd57-0c81-40e5-baa9-abbad03d47ca")
 	)
-	(bus
-		(pts
-			(xy 73.66 72.39) (xy 76.2 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ae283f-daf5-4643-96da-f2d730c34933")
-	)
 	(wire
 		(pts
 			(xy 142.24 165.1) (xy 157.48 165.1)
@@ -13692,16 +13419,6 @@
 			(type default)
 		)
 		(uuid "b2ac7205-c1bd-4575-b845-5f91281553f2")
-	)
-	(wire
-		(pts
-			(xy 73.66 92.71) (xy 99.06 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b2c70e-e1c7-429d-8fe7-3dd9a7c7bcaf")
 	)
 	(bus
 		(pts
@@ -14103,16 +13820,6 @@
 		)
 		(uuid "c675f040-d722-444c-b60e-af2660d0d23d")
 	)
-	(wire
-		(pts
-			(xy 83.82 102.87) (xy 83.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6875d61-b21d-4af7-b6f7-0bfba6129d28")
-	)
 	(bus
 		(pts
 			(xy 102.87 157.48) (xy 102.87 154.94)
@@ -14182,6 +13889,16 @@
 			(type default)
 		)
 		(uuid "c9482c88-02af-42a7-a278-4e6639e3698f")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96c765f-af87-4f47-ba4f-02ce5efcef0f")
 	)
 	(bus
 		(pts
@@ -14505,16 +14222,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 99.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d72fc4c5-c9a1-4ffd-9961-5154ee23e0dd")
-	)
-	(wire
-		(pts
 			(xy 401.32 105.41) (xy 401.32 107.95)
 		)
 		(stroke
@@ -14542,6 +14249,16 @@
 			(type default)
 		)
 		(uuid "d874da86-d076-4db3-9006-02b9e3838dfd")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 63.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c9a8f4-bf07-4732-bc83-1176ff2aa7bf")
 	)
 	(wire
 		(pts
@@ -14835,6 +14552,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9802dd7-1c06-4aa6-8689-b15b07bd1a50")
+	)
+	(wire
+		(pts
 			(xy 241.3 241.3) (xy 255.27 241.3)
 		)
 		(stroke
@@ -14992,16 +14719,6 @@
 			(type default)
 		)
 		(uuid "f1c999de-b812-438e-884c-7214489052c6")
-	)
-	(wire
-		(pts
-			(xy 73.66 90.17) (xy 99.06 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f280a0c0-694f-4d5e-9328-f6fa03ddc816")
 	)
 	(bus
 		(pts
@@ -18371,6 +18088,17 @@
 		)
 		(uuid "1298ddee-5ec0-4c8b-bdd9-52304fac55d8")
 	)
+	(hierarchical_label "VDD_DDR"
+		(shape input)
+		(at 50.8 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14c5b053-77f8-44fb-8dff-ddad698cf54c")
+	)
 	(hierarchical_label "{JTAG}"
 		(shape bidirectional)
 		(at 237.49 210.82 180)
@@ -18415,17 +18143,6 @@
 		)
 		(uuid "2c4f1849-2cac-4519-b171-78d0c6e87101")
 	)
-	(hierarchical_label "VDD_SD_IO"
-		(shape output)
-		(at 86.36 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ac54919-2ddb-4827-9a85-a4394615e34f")
-	)
 	(hierarchical_label "{DDR}"
 		(shape bidirectional)
 		(at 104.14 142.24 0)
@@ -18458,6 +18175,17 @@
 			(justify right)
 		)
 		(uuid "42c280f1-5a57-4753-8343-85cb7101d8a7")
+	)
+	(hierarchical_label "VDD_SD_IO"
+		(shape input)
+		(at 50.8 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45bd9dbf-222c-416e-8774-b8a007ace90b")
 	)
 	(hierarchical_label "{DDR}"
 		(shape bidirectional)
@@ -18503,39 +18231,6 @@
 		)
 		(uuid "67c3a716-53e8-4db4-864e-4209bb7c793e")
 	)
-	(hierarchical_label "VDD_DDR"
-		(shape output)
-		(at 86.36 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c32ffe8-a3d4-4be7-8aba-1ae314b8cf6b")
-	)
-	(hierarchical_label "VDD_3V3"
-		(shape output)
-		(at 86.36 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83e01ca7-93e3-496b-9f60-72f9741a2483")
-	)
-	(hierarchical_label "VDD"
-		(shape output)
-		(at 86.36 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9456fee5-66f3-43d3-895f-d57639d0d931")
-	)
 	(hierarchical_label "VREF_DDR"
 		(shape output)
 		(at 105.41 228.6 0)
@@ -18547,16 +18242,27 @@
 		)
 		(uuid "b10705aa-5001-471d-b46b-9268195f8ef3")
 	)
-	(hierarchical_label "VREF_DDR"
-		(shape output)
-		(at 86.36 80.01 0)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 50.8 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b295a0f4-bc46-4bc6-b7b3-ed8689ba1bab")
+		(uuid "b4b0bd61-d93d-4d97-869f-e18bd2b48541")
+	)
+	(hierarchical_label "VDD_USB"
+		(shape input)
+		(at 50.8 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "baef0c65-e20c-4cd0-9daf-5903e7478e0c")
 	)
 	(hierarchical_label "LPO_32"
 		(shape output)
@@ -18591,16 +18297,38 @@
 		)
 		(uuid "de663c18-2db2-4664-856c-73be52421312")
 	)
-	(hierarchical_label "{PMIC}"
-		(shape bidirectional)
-		(at 76.2 72.39 0)
+	(hierarchical_label "VDD_CORE"
+		(shape input)
+		(at 50.8 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e60bfd1b-28d8-4bd6-95a7-2352ecedd09f")
+		(uuid "e2b8413f-af83-42bd-89f8-2a3fd55baaef")
+	)
+	(hierarchical_label "VDD_ADC"
+		(shape input)
+		(at 50.8 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4f888b3-fb8e-4968-aff0-99d6d7bed31a")
+	)
+	(hierarchical_label "VDD_CPU"
+		(shape input)
+		(at 50.8 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f17dc42c-aa75-4809-a308-acb4ef7cd4dd")
 	)
 	(hierarchical_label "{PMIC}"
 		(shape bidirectional)
@@ -18633,7 +18361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "047c4e5f-9061-484b-90bf-ea225700c652")
-		(property "Reference" "TP404"
+		(property "Reference" "TP504"
 			(at 224.79 74.422 0)
 			(effects
 				(font
@@ -18684,7 +18412,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP404")
+					(reference "TP504")
 					(unit 1)
 				)
 			)
@@ -18699,7 +18427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07abe1d3-6a22-4d5b-b1df-2ff1af443be5")
-		(property "Reference" "Y401"
+		(property "Reference" "Y501"
 			(at 238.76 262.128 0)
 			(effects
 				(font
@@ -18780,7 +18508,7 @@
 		(instances
 			(project ""
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "Y401")
+					(reference "Y501")
 					(unit 1)
 				)
 			)
@@ -18795,7 +18523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0915db40-a1da-45c8-9fa0-2989d89e1d86")
-		(property "Reference" "SW401"
+		(property "Reference" "SW501"
 			(at 392.43 97.536 0)
 			(effects
 				(font
@@ -18888,7 +18616,7 @@
 		(instances
 			(project ""
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "SW401")
+					(reference "SW501")
 					(unit 1)
 				)
 			)
@@ -18903,7 +18631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c3a3a84-ab84-46b3-83e9-eb059ff7dc6f")
-		(property "Reference" "TP405"
+		(property "Reference" "TP505"
 			(at 232.41 74.422 0)
 			(effects
 				(font
@@ -18954,7 +18682,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP405")
+					(reference "TP505")
 					(unit 1)
 				)
 			)
@@ -18970,7 +18698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f512cf9-a182-40c0-9ecf-0941648c4eef")
-		(property "Reference" "TP403"
+		(property "Reference" "TP503"
 			(at 32.512 210.82 90)
 			(effects
 				(font
@@ -19021,7 +18749,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP403")
+					(reference "TP503")
 					(unit 1)
 				)
 			)
@@ -19037,7 +18765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "108fe309-ba79-466d-b95f-1b94800a45cb")
-		(property "Reference" "R406"
+		(property "Reference" "R506"
 			(at 323.85 236.474 90)
 			(effects
 				(font
@@ -19145,7 +18873,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R406")
+					(reference "R506")
 					(unit 1)
 				)
 			)
@@ -19160,7 +18888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15e9b825-a8bd-4988-9a11-d5a846779a4b")
-		(property "Reference" "C401"
+		(property "Reference" "C501"
 			(at 105.41 231.14 0)
 			(effects
 				(font
@@ -19277,7 +19005,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "C401")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -19293,7 +19021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1971e795-ac4b-44e6-b333-c482de0516e5")
-		(property "Reference" "Y402"
+		(property "Reference" "Y502"
 			(at 285.75 260.2798 0)
 			(effects
 				(font
@@ -19378,7 +19106,7 @@
 		(instances
 			(project ""
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "Y402")
+					(reference "Y502")
 					(unit 1)
 				)
 			)
@@ -19393,7 +19121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a36aa5f-2fb0-4182-bb00-dc5f1d053cdb")
-		(property "Reference" "D401"
+		(property "Reference" "D501"
 			(at 334.01 234.95 0)
 			(effects
 				(font
@@ -19474,7 +19202,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "D401")
+					(reference "D501")
 					(unit 1)
 				)
 			)
@@ -19489,7 +19217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32c630ae-64f1-4fed-a8ab-f78fbb0302b1")
-		(property "Reference" "U401"
+		(property "Reference" "U501"
 			(at 280.67 124.206 0)
 			(effects
 				(font
@@ -20431,7 +20159,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "U401")
+					(reference "U501")
 					(unit 6)
 				)
 			)
@@ -20447,7 +20175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f9902ac-cbef-4fca-869a-3f3434b32e3f")
-		(property "Reference" "TP410"
+		(property "Reference" "TP510"
 			(at 321.818 220.98 90)
 			(effects
 				(font
@@ -20498,7 +20226,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP410")
+					(reference "TP510")
 					(unit 1)
 				)
 			)
@@ -20514,7 +20242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44f31b84-e584-4be6-98dd-fc7d8fd93be4")
-		(property "Reference" "C403"
+		(property "Reference" "C503"
 			(at 229.87 269.24 0)
 			(effects
 				(font
@@ -20631,7 +20359,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "C403")
+					(reference "C503")
 					(unit 1)
 				)
 			)
@@ -20646,7 +20374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a9d3483-5ee7-49c7-aac4-2aef96aff336")
-		(property "Reference" "C406"
+		(property "Reference" "C506"
 			(at 287.02 269.24 0)
 			(effects
 				(font
@@ -20763,73 +20491,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "C406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 31.75 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bd2a9e9-8893-4160-b126-f7c1e2608596")
-		(property "Reference" "#PWR0401"
-			(at 31.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_5V0"
-			(at 31.75 66.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 31.75 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6426b0e-f65a-484a-a341-bcf4b899a773")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "#PWR0401")
+					(reference "C506")
 					(unit 1)
 				)
 			)
@@ -20844,7 +20506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5eb8a755-12d9-4e20-ac27-d79673d4e505")
-		(property "Reference" "U401"
+		(property "Reference" "U501"
 			(at 67.31 141.986 0)
 			(effects
 				(font
@@ -21786,7 +21448,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "U401")
+					(reference "U501")
 					(unit 3)
 				)
 			)
@@ -21802,7 +21464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "616e8550-9e95-42b6-b231-dcbe38f29607")
-		(property "Reference" "TP408"
+		(property "Reference" "TP508"
 			(at 321.818 215.9 90)
 			(effects
 				(font
@@ -21853,7 +21515,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP408")
+					(reference "TP508")
 					(unit 1)
 				)
 			)
@@ -21868,7 +21530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68d9c262-5e0a-4081-9a0c-caa979793c58")
-		(property "Reference" "TP407"
+		(property "Reference" "TP507"
 			(at 304.292 242.57 90)
 			(effects
 				(font
@@ -21919,7 +21581,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP407")
+					(reference "TP507")
 					(unit 1)
 				)
 			)
@@ -21935,7 +21597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e4c95dd-854c-4e92-a940-021555210704")
-		(property "Reference" "C405"
+		(property "Reference" "C505"
 			(at 269.24 269.24 0)
 			(effects
 				(font
@@ -22052,7 +21714,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "C405")
+					(reference "C505")
 					(unit 1)
 				)
 			)
@@ -22068,7 +21730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7445cbf7-513f-4b6d-ad58-b2397d274b0d")
-		(property "Reference" "R405"
+		(property "Reference" "R505"
 			(at 323.85 226.314 90)
 			(effects
 				(font
@@ -22176,7 +21838,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R405")
+					(reference "R505")
 					(unit 1)
 				)
 			)
@@ -22191,7 +21853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "790b62d2-8fa7-4bab-95ce-b09d9476d534")
-		(property "Reference" "U401"
+		(property "Reference" "U501"
 			(at 177.8 124.206 0)
 			(effects
 				(font
@@ -23133,7 +22795,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "U401")
+					(reference "U501")
 					(unit 5)
 				)
 			)
@@ -23150,7 +22812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8024c75b-911e-4902-b544-7ce6ca1de28e")
-		(property "Reference" "R403"
+		(property "Reference" "R503"
 			(at 224.79 176.022 0)
 			(effects
 				(font
@@ -23258,7 +22920,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R403")
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -23274,7 +22936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "824566af-2336-401f-970e-7617f08e6fc4")
-		(property "Reference" "TP409"
+		(property "Reference" "TP509"
 			(at 321.818 218.44 90)
 			(effects
 				(font
@@ -23325,7 +22987,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP409")
+					(reference "TP509")
 					(unit 1)
 				)
 			)
@@ -23341,7 +23003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ac5508b-7785-4696-83c6-534804f74605")
-		(property "Reference" "R404"
+		(property "Reference" "R504"
 			(at 229.87 176.022 0)
 			(effects
 				(font
@@ -23449,7 +23111,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R404")
+					(reference "R504")
 					(unit 1)
 				)
 			)
@@ -23464,7 +23126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95545970-09d3-4c0c-a39a-7adc600dcc5b")
-		(property "Reference" "C402"
+		(property "Reference" "C502"
 			(at 147.32 96.52 0)
 			(effects
 				(font
@@ -23581,7 +23243,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "C402")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -23596,7 +23258,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af832002-703f-4715-a6b2-6360ded29153")
-		(property "Reference" "D402"
+		(property "Reference" "D502"
 			(at 334.01 245.11 0)
 			(effects
 				(font
@@ -23677,7 +23339,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "D402")
+					(reference "D502")
 					(unit 1)
 				)
 			)
@@ -23693,7 +23355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ac1d04-9b2d-4374-9af3-0b725d6de360")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR0506"
 			(at 284.48 285.75 0)
 			(effects
 				(font
@@ -23744,7 +23406,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "#PWR0407")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -23760,7 +23422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b591e58e-9825-4f09-b1b6-209fea6aa4ff")
-		(property "Reference" "R401"
+		(property "Reference" "R501"
 			(at 96.52 233.172 0)
 			(effects
 				(font
@@ -23868,7 +23530,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R401")
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -23884,7 +23546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b845170c-f68f-4299-a709-c08f85ff460c")
-		(property "Reference" "#PWR0408"
+		(property "Reference" "#PWR0507"
 			(at 401.32 114.3 0)
 			(effects
 				(font
@@ -23935,7 +23597,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "#PWR0408")
+					(reference "#PWR0507")
 					(unit 1)
 				)
 			)
@@ -23950,7 +23612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baad65cf-4b19-479f-9ad5-1d932e94b729")
-		(property "Reference" "TP406"
+		(property "Reference" "TP506"
 			(at 304.292 232.41 90)
 			(effects
 				(font
@@ -24001,7 +23663,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP406")
+					(reference "TP506")
 					(unit 1)
 				)
 			)
@@ -24017,7 +23679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4b32ba0-d869-48a8-8a50-51735b9f215b")
-		(property "Reference" "TP402"
+		(property "Reference" "TP502"
 			(at 32.512 208.28 90)
 			(effects
 				(font
@@ -24068,7 +23730,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP402")
+					(reference "TP502")
 					(unit 1)
 				)
 			)
@@ -24084,7 +23746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df8299e1-f46b-478e-a37c-e8d5500a6286")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR0505"
 			(at 209.55 101.6 0)
 			(effects
 				(font
@@ -24135,7 +23797,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "#PWR0406")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -24150,7 +23812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e66eab6e-90a4-4c48-a298-7ac2645c44be")
-		(property "Reference" "U401"
+		(property "Reference" "U501"
 			(at 187.96 75.946 0)
 			(effects
 				(font
@@ -25092,7 +24754,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "U401")
+					(reference "U501")
 					(unit 4)
 				)
 			)
@@ -25108,7 +24770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e74cf501-9ab1-40d5-a97c-629a7512f322")
-		(property "Reference" "TP401"
+		(property "Reference" "TP501"
 			(at 32.512 205.74 90)
 			(effects
 				(font
@@ -25159,7 +24821,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "TP401")
+					(reference "TP501")
 					(unit 1)
 				)
 			)
@@ -25174,7 +24836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea88a72a-dd47-4309-8368-b9288717bd08")
-		(property "Reference" "C404"
+		(property "Reference" "C504"
 			(at 247.65 269.24 0)
 			(effects
 				(font
@@ -25291,7 +24953,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "C404")
+					(reference "C504")
 					(unit 1)
 				)
 			)
@@ -25307,7 +24969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eccbc08c-5664-4a37-a032-1ff7f0f050c1")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0501"
 			(at 97.79 247.65 0)
 			(effects
 				(font
@@ -25358,7 +25020,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "#PWR0402")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -25374,7 +25036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0bf3bdc-b271-4f58-9b26-54dd9db067f5")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR0503"
 			(at 144.78 110.49 0)
 			(effects
 				(font
@@ -25425,7 +25087,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "#PWR0404")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -25441,7 +25103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6331055-ebf6-4ef4-8803-51fdd60a98a5")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR0502"
 			(at 102.87 245.11 0)
 			(effects
 				(font
@@ -25492,7 +25154,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "#PWR0403")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -25508,7 +25170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8314f63-15e5-4d01-9559-f386209014b7")
-		(property "Reference" "R407"
+		(property "Reference" "R507"
 			(at 355.6 89.662 0)
 			(effects
 				(font
@@ -25616,7 +25278,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R407")
+					(reference "R507")
 					(unit 1)
 				)
 			)
@@ -25631,7 +25293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8d36958-2c0b-4ea2-816d-d5ac175c7633")
-		(property "Reference" "R402"
+		(property "Reference" "R502"
 			(at 158.75 96.012 0)
 			(effects
 				(font
@@ -25739,7 +25401,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R402")
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -25755,7 +25417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb0fb313-c27b-431d-ac43-8691753a2eaf")
-		(property "Reference" "R408"
+		(property "Reference" "R508"
 			(at 367.03 89.662 0)
 			(effects
 				(font
@@ -25863,7 +25525,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R408")
+					(reference "R508")
 					(unit 1)
 				)
 			)
@@ -25879,7 +25541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc576ecb-0c97-4822-a7ac-6bdd5b4b239e")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR0504"
 			(at 157.48 110.49 0)
 			(effects
 				(font
@@ -25930,7 +25592,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "#PWR0405")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 			)
@@ -25946,7 +25608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc8a360e-bbf1-4a72-b9c7-0c5a32c1ff30")
-		(property "Reference" "R409"
+		(property "Reference" "R509"
 			(at 378.46 89.662 0)
 			(effects
 				(font
@@ -26054,14 +25716,14 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R409")
+					(reference "R509")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 99.06 82.55)
+		(at 63.5 73.66)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26078,7 +25740,7 @@
 		)
 		(uuid "38fb80ce-3aa2-4a17-bb8b-7759011755a2")
 		(property "Sheetname" "MPU power"
-			(at 99.06 81.6646 0)
+			(at 63.5 72.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26087,7 +25749,7 @@
 			)
 		)
 		(property "Sheetfile" "mpu_power.kicad_sch"
-			(at 99.06 103.6284 0)
+			(at 63.5 94.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26096,7 +25758,7 @@
 			)
 		)
 		(pin "VDD" input
-			(at 99.06 85.09 180)
+			(at 63.5 76.2 180)
 			(uuid "2a03b78d-a27f-4714-9208-254044c4b850")
 			(effects
 				(font
@@ -26106,7 +25768,7 @@
 			)
 		)
 		(pin "VDD_ADC" input
-			(at 99.06 90.17 180)
+			(at 63.5 81.28 180)
 			(uuid "c37bc462-5a87-4782-821c-459d1841ecf0")
 			(effects
 				(font
@@ -26116,7 +25778,7 @@
 			)
 		)
 		(pin "VDD_CORE" input
-			(at 99.06 92.71 180)
+			(at 63.5 83.82 180)
 			(uuid "58928c8b-2bf5-43cb-aa1a-3d05605f4277")
 			(effects
 				(font
@@ -26126,7 +25788,7 @@
 			)
 		)
 		(pin "VDD_CPU" input
-			(at 99.06 95.25 180)
+			(at 63.5 86.36 180)
 			(uuid "ae9a6b4d-317b-4c9f-8d14-608521eb6f1f")
 			(effects
 				(font
@@ -26136,7 +25798,7 @@
 			)
 		)
 		(pin "VDD_DDR" input
-			(at 99.06 100.33 180)
+			(at 63.5 91.44 180)
 			(uuid "09c75126-6118-4d11-a9a4-396256733fd2")
 			(effects
 				(font
@@ -26146,7 +25808,7 @@
 			)
 		)
 		(pin "VDD_USB" input
-			(at 99.06 87.63 180)
+			(at 63.5 78.74 180)
 			(uuid "ba86d496-e808-40fc-8608-b6fe2910d991")
 			(effects
 				(font
@@ -26156,7 +25818,7 @@
 			)
 		)
 		(pin "VDD_SD_IO" input
-			(at 99.06 97.79 180)
+			(at 63.5 88.9 180)
 			(uuid "f6bc54c6-ef25-43b0-b137-a0f9fb2d9ef7")
 			(effects
 				(font
@@ -26174,159 +25836,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 35.56 69.85)
-		(size 38.1 33.02)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 255 255 0 1)
-		)
-		(fill
-			(color 0 255 0 1.0000)
-		)
-		(uuid "8c2fc621-bdce-4f4c-8cac-9098b808a2b8")
-		(property "Sheetname" "MPU PMIC"
-			(at 35.56 69.1384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mpu_pmic.kicad_sch"
-			(at 35.56 103.4546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V_5V0" input
-			(at 35.56 72.39 180)
-			(uuid "e06e1553-f89c-4cb8-a2f6-5a616d55543c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{PMIC}" bidirectional
-			(at 73.66 72.39 0)
-			(uuid "0011880a-6118-4d60-a114-c894a1d3e5b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD" output
-			(at 73.66 85.09 0)
-			(uuid "17eb46c0-7f61-40c9-aca9-ca19a8d49452")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_3V3" output
-			(at 73.66 77.47 0)
-			(uuid "89371685-cc6e-43d7-9ec2-df70f2b6653c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_ADC" output
-			(at 73.66 90.17 0)
-			(uuid "e3d6de75-9655-46e5-982e-c0bf1f16cd4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_CORE" output
-			(at 73.66 92.71 0)
-			(uuid "3866f574-7c11-4bbb-95d4-55a92a1ae565")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_CPU" output
-			(at 73.66 95.25 0)
-			(uuid "c237d0c5-15ff-4577-8781-17e83ba976f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_DDR" output
-			(at 73.66 100.33 0)
-			(uuid "bffd7ff6-f22c-40f9-99c7-f5d425472baa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_USB" output
-			(at 73.66 87.63 0)
-			(uuid "9268c735-dd78-4a2b-a0e7-5096093b5e95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VREF_DDR" output
-			(at 73.66 80.01 0)
-			(uuid "3cf509dd-7523-405f-b0f5-9f6f6c1e91db")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VDD_SD_IO" output
-			(at 73.66 97.79 0)
-			(uuid "569b2922-b4d5-4eb2-9081-db30832b4d12")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(page "5")
 				)
 			)
 		)
