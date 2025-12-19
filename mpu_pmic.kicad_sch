@@ -2606,6 +2606,12 @@
 		(uuid "6ca16024-86ce-481e-9222-a5e4f860bc12")
 	)
 	(junction
+		(at 288.29 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e314dbd-0955-4559-8025-9280624047a7")
+	)
+	(junction
 		(at 199.39 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2628,12 +2634,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a133f0b-be17-4b92-b5eb-0aca795c13c7")
-	)
-	(junction
-		(at 285.75 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b6cb145-f278-4898-b1b6-a03ff955aaad")
 	)
 	(junction
 		(at 139.7 193.04)
@@ -2786,12 +2786,6 @@
 		(uuid "bbf8ced6-ca88-447b-acc7-0c083138cb70")
 	)
 	(junction
-		(at 285.75 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf320d66-ddf0-4839-b7b4-6f3411da349c")
-	)
-	(junction
 		(at 104.14 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2844,6 +2838,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e664ae59-954d-4a79-99e1-427b2f2c2537")
+	)
+	(junction
+		(at 288.29 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7ad2466-99a0-49fc-bf78-8500ef89815a")
 	)
 	(junction
 		(at 124.46 198.12)
@@ -3134,16 +3134,6 @@
 			(type default)
 		)
 		(uuid "0d58ff52-aeaa-46f0-9acf-853fb47513a9")
-	)
-	(wire
-		(pts
-			(xy 285.75 170.18) (xy 295.91 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f305c4c-85b0-41cb-bb45-8993c2f00aa4")
 	)
 	(wire
 		(pts
@@ -3907,7 +3897,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 179.07) (xy 285.75 212.09)
+			(xy 288.29 179.07) (xy 288.29 212.09)
 		)
 		(stroke
 			(width 0)
@@ -3987,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 170.18) (xy 285.75 171.45)
+			(xy 288.29 170.18) (xy 288.29 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4537,7 +4527,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 212.09) (xy 285.75 212.09)
+			(xy 302.26 212.09) (xy 288.29 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4627,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 212.09) (xy 271.78 212.09)
+			(xy 271.78 212.09) (xy 288.29 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4764,6 +4754,16 @@
 			(type default)
 		)
 		(uuid "b2c673d3-dcd3-4d49-a607-aa31bce6bbf5")
+	)
+	(wire
+		(pts
+			(xy 288.29 170.18) (xy 298.45 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b571928a-4371-4fd4-b290-2b2245a2a276")
 	)
 	(bus
 		(pts
@@ -4987,7 +4987,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 170.18) (xy 285.75 170.18)
+			(xy 198.12 170.18) (xy 288.29 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5526,14 +5526,14 @@
 		(uuid "7a3e1207-2568-433a-8aec-8eee540f73a6")
 	)
 	(label "VDD_LDO2"
-		(at 295.91 170.18 180)
+		(at 298.45 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "7dee1720-930d-4e34-96d5-f5c41d6f18ee")
+		(uuid "7e510aad-facc-48c7-8820-011f4ffbb749")
 	)
 	(label "PMIC.SDA"
 		(at 85.09 193.04 0)
@@ -5682,17 +5682,6 @@
 		)
 		(uuid "4784abee-b6a8-4568-98fd-04737e9803f6")
 	)
-	(hierarchical_label "V_3V3"
-		(shape input)
-		(at 101.6 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4c12f0fb-b355-4103-b038-bff3be897e09")
-	)
 	(hierarchical_label "VDD_3V3"
 		(shape output)
 		(at 351.79 152.4 0)
@@ -5748,16 +5737,16 @@
 		)
 		(uuid "9253c491-0511-4d6c-bfb2-e46bc2486e8b")
 	)
-	(hierarchical_label "VDD_SD"
+	(hierarchical_label "VDD"
 		(shape output)
-		(at 336.55 232.41 180)
+		(at 101.6 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a3925b9c-f660-4dfa-b82b-f0623716241f")
+		(uuid "98cd8033-2bbc-43d4-97e2-302af9a66ce4")
 	)
 	(hierarchical_label "VDD_CORE"
 		(shape output)
@@ -5781,7 +5770,7 @@
 		)
 		(uuid "b37ccbd1-73a2-4e28-be49-7d7c308c4b7f")
 	)
-	(hierarchical_label "VDD_SD"
+	(hierarchical_label "VDD_SD_IO"
 		(shape output)
 		(at 274.32 172.72 0)
 		(effects
@@ -5835,6 +5824,17 @@
 			(justify left)
 		)
 		(uuid "db5a0edb-50f7-47b3-a871-6bf8728b79be")
+	)
+	(hierarchical_label "VDD_SD_IO"
+		(shape output)
+		(at 336.55 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec52fbd9-bcc4-43ca-a503-31dc7813f44d")
 	)
 	(hierarchical_label "{PMIC}"
 		(shape bidirectional)
@@ -6392,7 +6392,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 285.75 175.26 0)
+		(at 288.29 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6400,7 +6400,7 @@
 		(dnp no)
 		(uuid "25c28a47-a1e7-46cd-b685-b525d830fc4b")
 		(property "Reference" "C519"
-			(at 288.29 172.72 0)
+			(at 290.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +6409,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 288.29 174.498 0)
+			(at 290.83 174.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +6418,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 286.7152 179.07 0)
+			(at 289.2552 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,7 +6427,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 285.75 175.26 0)
+			(at 288.29 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +6436,7 @@
 			)
 		)
 		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 285.75 175.26 0)
+			(at 288.29 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6445,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA475KE15D"
-			(at 285.75 175.26 0)
+			(at 288.29 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6454,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 285.75 175.26 0)
+			(at 288.29 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6463,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 288.544 176.53 0)
+			(at 291.084 176.53 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6472,7 +6472,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 288.544 177.546 0)
+			(at 291.084 177.546 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6481,7 +6481,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 288.544 178.562 0)
+			(at 291.084 178.562 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6490,7 +6490,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 288.544 179.578 0)
+			(at 291.084 179.578 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6499,7 +6499,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 285.75 175.26 0)
+			(at 288.29 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1559,7 +1559,7 @@
 		(uuid "c2d25d6e-8fb7-4da7-af6f-3f83fd1b53ee")
 	)
 	(junction
-		(at 304.8 96.52)
+		(at 304.8 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc1ffb54-87ec-4ada-9fc1-147c4cd8f4de")
@@ -1618,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 96.52) (xy 304.8 96.52)
+			(xy 309.88 97.79) (xy 304.8 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 96.52) (xy 304.8 96.52)
+			(xy 299.72 97.79) (xy 304.8 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1685,6 +1685,16 @@
 			(type default)
 		)
 		(uuid "24987d1d-6aed-4f50-ba8f-f19e183a44fb")
+	)
+	(wire
+		(pts
+			(xy 335.28 119.38) (xy 345.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27183605-cc7e-40a9-a9c9-d860141960a4")
 	)
 	(wire
 		(pts
@@ -1848,7 +1858,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 96.52) (xy 304.8 114.3)
+			(xy 304.8 97.79) (xy 304.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1978,7 +1988,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 114.3) (xy 304.8 114.3)
+			(xy 299.72 115.57) (xy 304.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2025,16 +2035,6 @@
 			(type default)
 		)
 		(uuid "bcb39b6b-f921-4b71-ab23-60f1c5b9b616")
-	)
-	(wire
-		(pts
-			(xy 335.28 119.38) (xy 345.44 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03c072c-a455-4ea3-8346-ef5c45545fc4")
 	)
 	(wire
 		(pts
@@ -4173,16 +4173,6 @@
 				(justify left top)
 			)
 		)
-		(pin "VDD_SD" input
-			(at 345.44 119.38 180)
-			(uuid "ce098dc2-3b75-457f-a7ee-f3479550d06a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VDD" input
 			(at 345.44 116.84 180)
 			(uuid "6bf0e23c-32ac-483a-8b28-addfce98965b")
@@ -4196,6 +4186,16 @@
 		(pin "{uSD}" bidirectional
 			(at 345.44 121.92 180)
 			(uuid "1b2bf598-eb98-43dc-aa06-022904c352aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_SD_IO" input
+			(at 345.44 119.38 180)
+			(uuid "cf468be8-fcf0-497f-bc67-8033be8c9eee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,23 +4360,13 @@
 			)
 		)
 		(pin "VDD_3V3" output
-			(at 309.88 96.52 180)
+			(at 309.88 97.79 180)
 			(uuid "2e9ef2de-ae41-4111-9ce1-f9a73c91f87a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "VDD_SD" output
-			(at 335.28 119.38 0)
-			(uuid "882ee99a-b626-40ca-85c7-a58ffdd17c7e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "VREF_DDR" output
@@ -4492,6 +4482,16 @@
 		(pin "{SCREEN}" bidirectional
 			(at 335.28 104.14 0)
 			(uuid "f0616837-dbba-41f9-869c-a5cab3518b1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDD_SD_IO" output
+			(at 335.28 119.38 0)
+			(uuid "c2971f6e-eac2-4346-a644-8e5381e49228")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,8 +4810,8 @@
 		)
 	)
 	(sheet
-		(at 274.32 112.395)
-		(size 25.4 9.525)
+		(at 274.32 113.03)
+		(size 25.4 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4827,7 +4827,7 @@
 		)
 		(uuid "9ca4e50e-b0f6-43cd-b87d-1fd05ae8a1fe")
 		(property "Sheetname" "Ethernet"
-			(at 274.32 111.5096 0)
+			(at 274.32 112.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4845,7 @@
 			)
 		)
 		(pin "VDD_3V3" input
-			(at 299.72 114.3 0)
+			(at 299.72 115.57 0)
 			(uuid "237b5fa8-a25b-4236-b3f9-6edfd71371b2")
 			(effects
 				(font
@@ -4946,8 +4946,8 @@
 		)
 	)
 	(sheet
-		(at 274.32 94.615)
-		(size 25.4 9.525)
+		(at 274.32 95.25)
+		(size 25.4 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4963,7 +4963,7 @@
 		)
 		(uuid "efbf33e8-83fd-439d-aaf8-dc8287b68178")
 		(property "Sheetname" "USB"
-			(at 274.32 93.7296 0)
+			(at 274.32 94.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +4991,7 @@
 			)
 		)
 		(pin "VDD_3V3" output
-			(at 299.72 96.52 0)
+			(at 299.72 97.79 0)
 			(uuid "0649619a-87e4-425f-85e0-9031eac9f062")
 			(effects
 				(font
