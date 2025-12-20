@@ -8613,6 +8613,10 @@
 		(uuid "9dd48ff7-bedd-498f-9b97-0810103417ca")
 	)
 	(no_connect
+		(at 156.21 157.48)
+		(uuid "9ffbc48d-c42a-487a-9f2a-458ee86f40c4")
+	)
+	(no_connect
 		(at 302.26 129.54)
 		(uuid "a7b05cc0-dcdb-491b-8f0f-7a2260d26822")
 	)
@@ -8647,10 +8651,6 @@
 	(no_connect
 		(at 156.21 137.16)
 		(uuid "d224a045-e07b-430c-8714-7c7d1922a8d2")
-	)
-	(no_connect
-		(at 199.39 160.02)
-		(uuid "dba99feb-03c7-4c81-9813-3f6da153dd3d")
 	)
 	(no_connect
 		(at 302.26 223.52)
@@ -11897,16 +11897,6 @@
 		)
 		(uuid "5b13b244-4c32-4366-8ec0-3e875b7dde72")
 	)
-	(wire
-		(pts
-			(xy 142.24 157.48) (xy 157.48 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b235690-7019-40fb-945a-5ccc240b0369")
-	)
 	(bus
 		(pts
 			(xy 170.18 243.84) (xy 170.18 246.38)
@@ -11926,6 +11916,16 @@
 			(type default)
 		)
 		(uuid "5bec491e-7ae4-4f41-b238-30288ba127f5")
+	)
+	(wire
+		(pts
+			(xy 156.21 157.48) (xy 157.48 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca812e4-349d-402a-903f-9f0520ec586a")
 	)
 	(wire
 		(pts
@@ -12269,7 +12269,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 160.02) (xy 199.39 160.02)
+			(xy 198.12 160.02) (xy 215.9 160.02)
 		)
 		(stroke
 			(width 0)
@@ -17583,12 +17583,12 @@
 		(uuid "d3762f80-3c9c-46a9-9468-7cd172fb13e3")
 	)
 	(label "PMIC.WKUP"
-		(at 142.24 157.48 0)
+		(at 215.9 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d3f70a75-26f4-49e9-8317-436485dcb875")
 	)
