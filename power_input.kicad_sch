@@ -3623,6 +3623,116 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 317.5 139.7)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 225a80c9-4e48-49a5-9a35-36d72a1cbd78)
+	)
+	(rectangle
+		(start 254 38.1)
+		(end 406.4 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 44d2e903-137a-4fa7-903f-7bd4ce20abfa)
+	)
+	(rectangle
+		(start 101.6 38.1)
+		(end 254 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6971a17e-b1f3-4dae-893f-baf2df6b499b)
+	)
+	(rectangle
+		(start 12.7 139.7)
+		(end 139.7 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6db5c615-d98a-47ac-aaa9-d49a94259a71)
+	)
+	(rectangle
+		(start 139.7 139.7)
+		(end 317.5 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81d255d1-a22c-4eb4-a470-8ef6e6b796be)
+	)
+	(rectangle
+		(start 12.7 38.1)
+		(end 101.6 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a74fd9af-0429-498f-b958-8cb243f9420d)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8fecbe3-d4af-48ea-83f5-e8e6be3fd2dd)
+	)
+	(text "Protection"
+		(exclude_from_sim no)
+		(at 13.97 40.64 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "23162c77-ab02-4cfd-afd0-283df1dcea16")
+	)
+	(text "Overcurrent-lockout @ 2 A"
+		(exclude_from_sim no)
+		(at 140.97 142.24 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "455a77c9-561c-4b43-9de1-3469515c953d")
+	)
 	(text "PWR_IN"
 		(exclude_from_sim no)
 		(at 368.554 157.48 0)
@@ -3633,6 +3743,19 @@
 		)
 		(uuid "55df3679-c4c6-4e91-abf7-92217270605b")
 	)
+	(text "Overvoltage-lockout @ 26.4 V"
+		(exclude_from_sim no)
+		(at 255.27 40.64 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "5fbb889e-c9ca-4677-9ffc-808eacfbeb9b")
+	)
 	(text "R_{F}"
 		(exclude_from_sim no)
 		(at 167.386 228.346 0)
@@ -3642,6 +3765,32 @@
 			)
 		)
 		(uuid "6e8f29a9-9576-42f2-bcd3-b81f7c373493")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "804d123c-539a-4e85-9d02-9c6fc8ae6a1b")
+	)
+	(text "EMI filter"
+		(exclude_from_sim no)
+		(at 102.87 40.64 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "bf5add46-30a4-413b-a92b-c24d565ca7f0")
 	)
 	(text "OCLO OK"
 		(exclude_from_sim no)
@@ -3693,6 +3842,32 @@
 		)
 		(uuid "f58a3019-23d5-4ef4-95b4-6df7ec50ef1e")
 	)
+	(text "Undervoltage-lockout @ 10.8 V"
+		(exclude_from_sim no)
+		(at 13.97 142.24 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fac62733-3e11-4260-9e91-4f5826dd2aa4")
+	)
+	(text "Outputs"
+		(exclude_from_sim no)
+		(at 318.77 142.24 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fe9827ab-49ef-463a-80e3-3ec770eed736")
+	)
 	(text_box "- See UVLO.asc for UVLO simulation in LTSPICE.\n- See OVLO.asc for OVLO simulation in LTSPICE.\n- See OCLO.asc for OCLO simulation in LTSPICE.\n- See EMI_FILTER.asc for EMI filter simulation in LTSPICE."
 		(exclude_from_sim no)
 		(at 13.97 260.35 0)
@@ -3713,28 +3888,6 @@
 		)
 		(uuid "3528cb12-b98e-4923-a0da-494da5d62951")
 	)
-	(text_box "Notes"
-		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "4d318ad0-1ec7-43f9-b68c-caab3e9dfab1")
-	)
 	(text_box "Reverse polarity insertion protection and a resettable fuse for continous significant overcurrent."
 		(exclude_from_sim no)
 		(at 13.97 48.26 0)
@@ -3754,28 +3907,6 @@
 			(justify left top)
 		)
 		(uuid "8467759d-d4ed-4ed3-b10d-762f82ec9a7d")
-	)
-	(text_box "Protection"
-		(exclude_from_sim no)
-		(at 12.7 38.1 0)
-		(size 88.9 101.6)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "8c065882-33f5-41e6-9ae4-7f1313934bb2")
 	)
 	(text_box "2. Power input"
 		(exclude_from_sim no)
@@ -3798,50 +3929,6 @@
 			)
 		)
 		(uuid "a4c92f03-232d-42c8-91e9-896cb7de50e8")
-	)
-	(text_box "Undervoltage-lockout @ 10.8 V"
-		(exclude_from_sim no)
-		(at 12.7 139.7 0)
-		(size 127 111.76)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "a76f3cb2-fc61-495b-8c83-191e1afdb650")
-	)
-	(text_box "Overcurrent-lockout @ 2 A"
-		(exclude_from_sim no)
-		(at 139.7 139.7 0)
-		(size 177.8 111.76)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "abb48f21-9127-4d3e-87a0-8e7be9451329")
 	)
 	(text_box "OVLO_OUT @ 26.4 V ~= 0 V, @ 26.5 V ~= 26.5V"
 		(exclude_from_sim no)
@@ -3903,28 +3990,6 @@
 		)
 		(uuid "c79f48ef-91be-45c1-b2ad-e7f8933611b0")
 	)
-	(text_box "Outputs"
-		(exclude_from_sim no)
-		(at 317.5 139.7 0)
-		(size 88.9 111.76)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "ce170687-73ef-4076-a81d-fed859281bdf")
-	)
 	(text_box "UVLO_OUT @ 10.8 V ~= 0 V, @ 10.7 V ~= 10.7 V"
 		(exclude_from_sim no)
 		(at 13.97 149.86 0)
@@ -3944,50 +4009,6 @@
 			(justify left top)
 		)
 		(uuid "d527c0ed-e020-40dc-8198-25c3aff7f896")
-	)
-	(text_box "EMI filter"
-		(exclude_from_sim no)
-		(at 101.6 38.1 0)
-		(size 152.4 101.6)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "deaa80d9-3979-41bd-81d4-28f376326851")
-	)
-	(text_box "Overvoltage-lockout @ 26.4 V"
-		(exclude_from_sim no)
-		(at 254 38.1 0)
-		(size 152.4 101.6)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "e83ebea4-8cd8-498b-8af7-2a6ea1bd9c02")
 	)
 	(junction
 		(at 287.02 209.55)

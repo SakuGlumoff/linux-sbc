@@ -3806,6 +3806,43 @@
 			"ETH.RST_N" "ETH.INT_N" "ETH.TXEN" "ETH.REF_CLK"
 		)
 	)
+	(rectangle
+		(start 12.7 50.8)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f9d127b-a0e9-4afe-9b47-6a095b0abdbf)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f214b14e-bb59-4c13-9bd7-d708d6eb0b50)
+	)
+	(text "Ethernet PHY and a MagJack RJ45 connector"
+		(exclude_from_sim no)
+		(at 13.97 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "22fe57e7-e7e8-4999-b85c-670ba64de9ad")
+	)
 	(text "Route ETH as\n100 Ω differential"
 		(exclude_from_sim no)
 		(at 265.43 185.42 0)
@@ -3817,6 +3854,19 @@
 			(justify left)
 		)
 		(uuid "8856167e-0b96-4ed3-91ba-d6ae868f372f")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b85ae808-51a1-4f42-bbf0-e78b51b3cd63")
 	)
 	(text_box "With MODE[2:0] = 111, the PHY is configured to be all capable with auto-negotiation enabled.\n\nWith LED1/REGOFF floating, the internal 1.2 V regulator is enabled and LED1/REGOFF functions as LED1 (Link Activity).\n\nWith LED2/~{INTSEL} floating, ~{INT}/REFCLKO is an active low interrupt output and the 50 MHz REF_CLK is sourced externally on the XTAL1/CLKIN pin and LED2/~{INTSEL} functions as LED2 (Link Speed)."
 		(exclude_from_sim no)
@@ -3838,28 +3888,6 @@
 			(justify left top)
 		)
 		(uuid "03d5dc02-ff12-4df8-b850-c0fe17f43039")
-	)
-	(text_box "Notes"
-		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "22d5df43-9a40-4bd4-83e1-865fa263b827")
 	)
 	(text_box "9. Ethernet"
 		(exclude_from_sim no)
@@ -3902,28 +3930,6 @@
 			(justify left top)
 		)
 		(uuid "77349a38-79ec-4e53-b385-1694c465c90b")
-	)
-	(text_box "Ethernet PHY and a MagJack RJ45 connector"
-		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 393.7 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "91e05016-2089-466c-89ff-46614428c8bd")
 	)
 	(text_box "Route as 50 Ω single-ended.\n\nEnsure that the skew between ETH.[T|R]XD0 and ETH.[T|R]XD1 is minimized."
 		(exclude_from_sim no)

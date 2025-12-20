@@ -4695,6 +4695,42 @@
 			"SCREEN.SCL" "SCREEN.SDA" "SCREEN.BL_EN"
 		)
 	)
+	(rectangle
+		(start 209.55 50.8)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9fb53853-dd61-4726-b002-cd44ab49a136)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d39f0906-8a75-462a-85ca-10d8dd7f9034)
+	)
+	(rectangle
+		(start 12.7 50.8)
+		(end 209.55 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7ba1689-93f4-43d9-9f27-165602842d40)
+	)
 	(text "R_{SET}"
 		(exclude_from_sim no)
 		(at 290.83 148.59 0)
@@ -4705,6 +4741,32 @@
 			(justify right)
 		)
 		(uuid "20b7b033-3374-4f42-9221-0ded737ee015")
+	)
+	(text "Graphical interface"
+		(exclude_from_sim no)
+		(at 210.82 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "62492116-4621-407e-8620-950abe6977cf")
+	)
+	(text "Keypad interface"
+		(exclude_from_sim no)
+		(at 13.97 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "744251ae-3c8a-46d6-bddc-e18e23f3a63d")
 	)
 	(text "To 4x4 membrane matrix keypad"
 		(exclude_from_sim no)
@@ -4726,6 +4788,19 @@
 			)
 		)
 		(uuid "8a42c5ea-3858-4597-96d2-c5a31ae01b71")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "f59cec89-b17f-41ef-8f29-45e8faab8d65")
 	)
 	(text_box "I_{LED} = 0.25 V / R_{SET}\nR_{SET} = 0.25 V / 40 mA = 6.25 Ω"
 		(exclude_from_sim no)
@@ -4810,72 +4885,6 @@
 			(justify left top)
 		)
 		(uuid "6adde5bd-9622-43c3-bbba-6b52c9f2ad17")
-	)
-	(text_box "Notes"
-		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "7bb92848-48d1-4ba1-9702-28649fb740ea")
-	)
-	(text_box "Keypad interface"
-		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 196.85 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "8be96075-2f9b-4da5-8f1d-7b205f87baf3")
-	)
-	(text_box "Graphical interface"
-		(exclude_from_sim no)
-		(at 209.55 50.8 0)
-		(size 196.85 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "a8ea76c7-f7cb-407b-b68a-ccf3f89a8482")
 	)
 	(text_box "They keypad interface is for a 3/4x4 matrix membrane keypad.\n\nThe keypad buttons are polled continuously and button presses are detected by switching rows and columns HIGH/LOW and changing states between INPUT/OUTPUT.\n\nThe keypad buttons and their usage is application defined and thus not hard-set."
 		(exclude_from_sim no)

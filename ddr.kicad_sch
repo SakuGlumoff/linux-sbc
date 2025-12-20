@@ -2433,6 +2433,106 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 185.42 50.8)
+		(end 317.5 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 06163c0c-30fa-405b-9561-c0b52ec4f1c1)
+	)
+	(rectangle
+		(start 317.5 50.8)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 10328e72-764c-401d-9d39-ec44daca9975)
+	)
+	(rectangle
+		(start 12.7 50.8)
+		(end 185.42 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c9be076-0e28-4201-9db5-4e5040de9927)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5bc2f745-e343-4d1a-8458-23318df343f3)
+	)
+	(text "Control"
+		(exclude_from_sim no)
+		(at 318.77 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "48d298ea-e726-40f6-a770-0b45b1cb47fc")
+	)
+	(text "Addressing"
+		(exclude_from_sim no)
+		(at 186.69 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "548a9467-5475-4d16-831c-053d73dac7f6")
+	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8b218d18-0eae-4572-9652-ec53d8aff5e3")
+	)
+	(text "Power supply"
+		(exclude_from_sim no)
+		(at 13.97 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "b1868fe5-100c-4c4a-862a-55483f69fa92")
+	)
 	(text "Route DDR @ 50 Ω for single-ended, 100 Ω for differential"
 		(exclude_from_sim no)
 		(at 201.422 82.804 0)
@@ -2444,28 +2544,6 @@
 			(justify left)
 		)
 		(uuid "dbf0067d-f790-47ab-91f4-c17580ada041")
-	)
-	(text_box "Notes"
-		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "16829610-e0a5-41d4-a9f2-e9b79dfefdf7")
 	)
 	(text_box "Pinout according to STM32MP135F-DK.\nOn-Die-Termination on DQ/DQS/DM lines."
 		(exclude_from_sim no)
@@ -2486,28 +2564,6 @@
 			(justify left top)
 		)
 		(uuid "1c8861a0-2d69-4c93-b4fa-601ca44a9826")
-	)
-	(text_box "Power supply"
-		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 172.72 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "3b331296-bdd9-4b01-8da8-d5353720d748")
 	)
 	(text_box "Pin M7 (NC/A15) used only for 8 Gb DDR3L."
 		(exclude_from_sim no)
@@ -2551,28 +2607,6 @@
 		)
 		(uuid "739ba377-3927-44a4-b95f-3098f1a0302f")
 	)
-	(text_box "Control"
-		(exclude_from_sim no)
-		(at 317.5 50.8 0)
-		(size 88.9 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "75f8a8b6-fa48-42c0-b09d-9a2123bd88c9")
-	)
 	(text_box "10 µF + 0.1 µF x V_{DD} pin\n10 µF + 0.1 µF x V_{DDQ} pin\n0.1 µF per V_{REFDQ} and V_{REFCA}"
 		(exclude_from_sim no)
 		(at 13.97 60.325 0)
@@ -2592,28 +2626,6 @@
 			(justify left top)
 		)
 		(uuid "82fee260-9b0b-4281-982e-ac9f0902f4d5")
-	)
-	(text_box "Addressing"
-		(exclude_from_sim no)
-		(at 185.42 50.8 0)
-		(size 132.08 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "f6d16db4-c36a-4946-acfc-4c20a2112b29")
 	)
 	(junction
 		(at 64.77 118.11)

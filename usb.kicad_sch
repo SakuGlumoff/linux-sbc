@@ -3488,6 +3488,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 215.9 50.8)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 21b2c1fd-aade-4497-8b9b-b249a02842c4)
+	)
+	(rectangle
+		(start 12.7 50.8)
+		(end 215.9 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aba83979-8ca1-4b9f-9750-6341f42e631b)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ddf7e779-d7f6-4aa7-9997-baf6f0baeb48)
+	)
 	(text "Ports B[0..1]"
 		(exclude_from_sim no)
 		(at 393.7 153.67 0)
@@ -3509,6 +3545,19 @@
 		)
 		(uuid "462843c9-201a-4c21-a6ba-62e65f37c538")
 	)
+	(text "USB downstream facing ports"
+		(exclude_from_sim no)
+		(at 217.17 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "979952f8-c298-4c69-9ef1-9cf73ded916c")
+	)
 	(text "Route USB as\n90 Ω differential"
 		(exclude_from_sim no)
 		(at 40.64 119.38 0)
@@ -3521,6 +3570,19 @@
 		)
 		(uuid "a43ebe4e-be76-477c-a235-0751b5db6c7e")
 	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "a8f77831-cc43-4869-9104-822722639494")
+	)
 	(text "Ports A[0..1]"
 		(exclude_from_sim no)
 		(at 393.7 105.41 0)
@@ -3532,6 +3594,19 @@
 		)
 		(uuid "ba0d977c-57ec-4e9d-a4ca-cc9bb19f4496")
 	)
+	(text "USB hub controller"
+		(exclude_from_sim no)
+		(at 13.97 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d93270f9-d2ee-4836-8c85-9585fab35dac")
+	)
 	(text "C_{XTAL_LOAD} = 9 pF, C_{STRAY} = 5 pF\nC_{L} = (C_{XTAL_LOAD} - C_{STRAY}) * 2 = 8 pF"
 		(exclude_from_sim no)
 		(at 165.354 177.8 0)
@@ -3542,50 +3617,6 @@
 			(justify left)
 		)
 		(uuid "ff75288c-c407-4ce9-a1fb-86c443e500ef")
-	)
-	(text_box "USB hub controller"
-		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 203.2 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "070e9cec-9df2-4431-8ac9-e0248ca812be")
-	)
-	(text_box "Notes"
-		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "41ef54ee-d328-41b8-afea-8a2083f45604")
 	)
 	(text_box "Support for up to 4 downstream devices.\n\nEach device is specified to draw up to 0.5 A maximum."
 		(exclude_from_sim no)
@@ -3606,28 +3637,6 @@
 			(justify left top)
 		)
 		(uuid "94b0f952-34b2-4430-b5bc-b4dd216393a5")
-	)
-	(text_box "USB downstream facing ports"
-		(exclude_from_sim no)
-		(at 215.9 50.8 0)
-		(size 190.5 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "a5b82cc3-0070-4b7e-a09c-144ffb033c2f")
 	)
 	(text_box "8. USB"
 		(exclude_from_sim no)

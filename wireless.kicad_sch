@@ -2168,6 +2168,30 @@
 	(bus_alias "WLAN"
 		(members "WLAN.D[0..3]" "WLAN.CMD" "WLAN.CLK" "WLAN.REG_ON" "WLAN.HOST_WKUP")
 	)
+	(rectangle
+		(start 12.7 50.8)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 19097b4b-8ea2-4dd7-b64d-0268018875d1)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 35a101d6-3396-4f65-a3bd-50e35009f3ab)
+	)
 	(text "Route ANT as\n50 Ω microstrip"
 		(exclude_from_sim no)
 		(at 273.05 160.02 0)
@@ -2192,27 +2216,31 @@
 		)
 		(uuid "3c8a11fa-72fa-4800-b011-5a55aa6a3b13")
 	)
-	(text_box "Notes"
+	(text "Notes"
 		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
+		(at 13.97 254 0)
 		(effects
 			(font
 				(size 5.08 5.08)
 				(thickness 1.016)
 				(bold yes)
 			)
-			(justify top)
+			(justify left top)
 		)
-		(uuid "6eb5019b-0875-44af-9b5e-732600911d4f")
+		(uuid "72d537ee-847f-4756-af9a-3098b85be13f")
+	)
+	(text "WLAN and Bluetooth 5"
+		(exclude_from_sim no)
+		(at 13.97 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d7397b94-4e11-4124-8ad8-ce6e4a4b330d")
 	)
 	(text_box "12. Wireless"
 		(exclude_from_sim no)
@@ -2235,28 +2263,6 @@
 			)
 		)
 		(uuid "8e49d91a-4058-46bb-b610-97e9ba30116f")
-	)
-	(text_box "WLAN and Bluetooth 5"
-		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 393.7 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "d0b9e4fe-3809-48ae-ba91-76720a12500a")
 	)
 	(junction
 		(at 184.15 226.06)

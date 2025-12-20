@@ -8169,18 +8169,93 @@
 	(bus_alias "USB"
 		(members "USB.DP" "USB.DN")
 	)
-	(text_box "Clocks"
-		(exclude_from_sim no)
-		(at 152.4 251.46 0)
-		(size 146.05 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
+	(rectangle
+		(start 12.7 251.46)
+		(end 152.4 284.48)
 		(stroke
 			(width 0)
-			(type solid)
+			(type default)
 		)
 		(fill
 			(type none)
 		)
+		(uuid 10114bff-6e88-4ae5-9b60-b40c0b4a21b9)
+	)
+	(rectangle
+		(start 12.7 50.8)
+		(end 127 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 422f4eba-97c8-49f9-bdd3-6111321a2b24)
+	)
+	(rectangle
+		(start 12.7 114.3)
+		(end 127 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4eaab113-2fec-4456-9c11-e7599ed101fa)
+	)
+	(rectangle
+		(start 241.3 50.8)
+		(end 406.4 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c3beca3-8d18-41df-b5c4-8a478a36dfbe)
+	)
+	(rectangle
+		(start 127 114.3)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 627284ef-d341-439d-a4c1-f488504de134)
+	)
+	(rectangle
+		(start 152.4 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 79fe89fc-2ee0-4c21-a7ff-0ca9d5ceebc6)
+	)
+	(rectangle
+		(start 127 50.8)
+		(end 241.3 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 90c76893-c6ad-4e5b-8599-7ccacc780d6c)
+	)
+	(text "Miscellaneous"
+		(exclude_from_sim no)
+		(at 128.27 53.34 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -8189,51 +8264,85 @@
 			)
 			(justify left top)
 		)
-		(uuid "02d812a7-759f-4194-84e1-4000e4ebb723")
+		(uuid "1143444a-5627-437f-9a49-8b00a1a4b82e")
 	)
-	(text_box "Notes"
+	(text "Notes"
 		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 139.7 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
+		(at 13.97 254 0)
 		(effects
 			(font
 				(size 5.08 5.08)
 				(thickness 1.016)
 				(bold yes)
 			)
-			(justify top)
+			(justify left top)
 		)
-		(uuid "2eb9e103-15ae-4170-96ce-40c0c48b198e")
+		(uuid "3a73f4bb-1d9c-415f-9457-3c3fcad625eb")
 	)
-	(text_box "Power"
+	(text "Clocks"
 		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 114.3 63.5)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
+		(at 153.67 254 0)
 		(effects
 			(font
 				(size 5.08 5.08)
 				(thickness 1.016)
 				(bold yes)
 			)
-			(justify top)
+			(justify left top)
 		)
-		(uuid "56ef3a55-a37a-47b9-becf-adc850011624")
+		(uuid "4e5a492b-4f1a-471f-869f-223058c83267")
+	)
+	(text "Boot selection"
+		(exclude_from_sim no)
+		(at 242.57 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c07fe225-797a-4ba1-a7e5-1746ad26bcad")
+	)
+	(text "IO"
+		(exclude_from_sim no)
+		(at 128.27 116.84 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c52282b3-6a2e-41e3-861a-feaf4a439b9f")
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 13.97 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "cba1b8e7-b830-45fe-a30d-652e3860984c")
+	)
+	(text "DDR"
+		(exclude_from_sim no)
+		(at 13.97 116.84 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d6ea3475-fbd4-4279-ad9b-fb3d6484ae6b")
 	)
 	(text_box "C_{XTAL_LOAD} = 9 pF, C_{STRAY} ~= 5 pF\n\nC_{L} = (C_{XTAL_LOAD} - C_{STRAY}) * 2 = 8 pF"
 		(exclude_from_sim no)
@@ -8276,94 +8385,6 @@
 			)
 		)
 		(uuid "67c98310-c2e4-479d-b0e6-417fa01798f4")
-	)
-	(text_box "Boot selection"
-		(exclude_from_sim no)
-		(at 241.3 50.8 0)
-		(size 165.1 63.5)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "755456ef-9afe-4bcd-b36d-c046e372aa5a")
-	)
-	(text_box "DDR"
-		(exclude_from_sim no)
-		(at 12.7 114.3 0)
-		(size 114.3 137.16)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "8f74e47d-ec92-4de5-a0df-2b2a81493cb6")
-	)
-	(text_box "IO"
-		(exclude_from_sim no)
-		(at 127 114.3 0)
-		(size 279.4 137.16)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "9c74c97e-9980-4627-8b4d-2fad66036aa1")
-	)
-	(text_box "Miscellaneous"
-		(exclude_from_sim no)
-		(at 127 50.8 0)
-		(size 114.3 63.5)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "e3432fdb-b0ad-4584-8dbe-40da9838d887")
 	)
 	(text_box "AN5474, Chapter 5.1 Boot mode selection:\nU(S)ARTx_[R|T]X might need 10 kΩ VDD pull-ups to avoid spurious data during boot-up."
 		(exclude_from_sim no)

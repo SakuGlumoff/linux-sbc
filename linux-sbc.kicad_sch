@@ -1066,6 +1066,79 @@
 	(bus_alias "uSD"
 		(members "uSD.D[0..3]" "uSD.CMD" "uSD.CLK" "uSD.DET_N")
 	)
+	(rectangle
+		(start 12.7 50.8)
+		(end 203.2 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2dcc37e7-1fc5-4920-bdf0-a31814bcbfa4)
+	)
+	(rectangle
+		(start 12.7 215.9)
+		(end 203.2 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 70b470b5-89db-4a32-b005-35f0e0bb6a70)
+	)
+	(rectangle
+		(start 12.7 114.3)
+		(end 203.2 215.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9ccdd9f4-0d8f-43e4-89e0-b7c341096e91)
+	)
+	(rectangle
+		(start 203.2 50.8)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad700443-f086-47ef-b079-6109999c0945)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b130573b-2d70-41bd-b725-5e71bb25dda1)
+	)
+	(text "Description"
+		(exclude_from_sim no)
+		(at 13.97 118.11 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "032d42a0-8fca-4686-8c02-6bba2e066c9b")
+	)
 	(text "8. USB"
 		(exclude_from_sim no)
 		(at 16.51 95.25 0)
@@ -1113,6 +1186,19 @@
 			(justify left)
 		)
 		(uuid "40889541-01da-4e55-961e-5af34c1ef202")
+	)
+	(text "Mechanical"
+		(exclude_from_sim no)
+		(at 13.97 218.44 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "44d1d918-bbe0-4611-809a-798be407b77e")
 	)
 	(text "11. User Interface"
 		(exclude_from_sim no)
@@ -1198,6 +1284,19 @@
 		)
 		(uuid "9d316990-f386-422e-9214-ffecd2077e10")
 	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "9fa78e7e-ab5a-491f-be6d-38bf3779ef59")
+	)
 	(text "1. Introduction"
 		(exclude_from_sim no)
 		(at 16.51 64.77 0)
@@ -1268,6 +1367,32 @@
 		)
 		(uuid "d8039d25-d2cb-489f-ac2c-8cb3876aceb7")
 	)
+	(text "Table of Contents"
+		(exclude_from_sim no)
+		(at 13.97 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "d9ba06d8-4190-45ba-841d-914b7bc4d80c")
+	)
+	(text "Block diagram"
+		(exclude_from_sim no)
+		(at 204.47 53.34 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "e8f2ff03-08cb-45e2-863f-6a890e558d92")
+	)
 	(text "- Schematic comments are in blue"
 		(exclude_from_sim no)
 		(at 15.24 262.89 0)
@@ -1292,32 +1417,10 @@
 		)
 		(uuid "ffe98e27-8e2c-4c29-a978-589d16a9c15b")
 	)
-	(text_box "Table of Contents"
-		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 190.5 63.5)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "21ca0632-e6d4-4c2e-8a3c-9abc5c955902")
-	)
 	(text_box "This project serves as a practice exercise in PCB design for a Linux Single-Board-Computer (SBC).\nIt's targeted to be installed in an industrial environment.\n\nThe SBC incorporates Bluetooth, Wi-Fi and Ethernet functionality to allow device control over the air/network.\n\nThe SBC also optionally includes an LCD screen and a matrix keypad for physical device control.\n\nA USB hub provides the SBC with four downstream USB devices.\n\nFor debugging, a JTAG connection and a virtual COM port via a USB-C port is provided.\n\nA micro-SD card interface is provided for booting the device using a Linux image."
 		(exclude_from_sim no)
-		(at 13.97 123.19 0)
-		(size 186.69 91.44)
+		(at 13.97 127 0)
+		(size 186.69 87.63)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -1333,50 +1436,6 @@
 			(justify left top)
 		)
 		(uuid "7b7a2424-88f0-40c5-9e37-d7b18c25e692")
-	)
-	(text_box "Block diagram"
-		(exclude_from_sim no)
-		(at 203.2 50.8 0)
-		(size 203.2 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "88a158f7-1713-43fa-bec4-737653dedde5")
-	)
-	(text_box "Description"
-		(exclude_from_sim no)
-		(at 12.7 114.3 0)
-		(size 190.5 101.6)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "8e57c149-078f-4762-98a3-27cd8cac0dea")
 	)
 	(text_box "1. Introduction"
 		(exclude_from_sim no)
@@ -1399,50 +1458,6 @@
 			)
 		)
 		(uuid "b6ea611a-cbd4-4834-b0cd-d0c884b4006b")
-	)
-	(text_box "Notes"
-		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "db9cee29-6f21-4b29-a66b-ac091810c6d9")
-	)
-	(text_box "Mechanical"
-		(exclude_from_sim no)
-		(at 12.7 215.9 0)
-		(size 190.5 35.56)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "e4d8ab3d-1082-4421-b874-24fa72d60d92")
 	)
 	(junction
 		(at 210.82 90.17)

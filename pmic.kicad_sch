@@ -2234,6 +2234,30 @@
 	(bus_alias "PMIC"
 		(members "PMIC.SDA" "PMIC.SCL" "PMIC.CTRL" "PMIC.RST_N" "PMIC.WKUP" "PMIC.INT_N")
 	)
+	(rectangle
+		(start 12.7 50.8)
+		(end 406.4 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid db58bdd6-7069-47fa-a006-e2bfbed06cb8)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f42cb19f-584c-456e-bd0d-0666cd788de5)
+	)
 	(text "RST_N and INT_N have internal pull-ups."
 		(exclude_from_sim no)
 		(at 120.65 217.17 0)
@@ -2255,6 +2279,19 @@
 		)
 		(uuid "34a9252c-b97f-4682-ab53-c3aa75834037")
 	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "77507d70-4e7d-40a6-bb38-755b7da3b08f")
+	)
 	(text "10 µF x BUCK inputs"
 		(exclude_from_sim no)
 		(at 142.24 113.03 0)
@@ -2275,28 +2312,6 @@
 			)
 		)
 		(uuid "fd6c002a-bc99-4232-a527-9a036cc50827")
-	)
-	(text_box "Notes"
-		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "2d72553a-18d1-44ba-bde5-eb2dda434977")
 	)
 	(text_box "4. PMIC"
 		(exclude_from_sim no)
@@ -2339,28 +2354,6 @@
 			(justify left top)
 		)
 		(uuid "5e02d952-c424-4f3c-9127-88fb588df1a9")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 12.7 50.8 0)
-		(size 393.7 200.66)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "ae66a6eb-bbcb-4d3a-8354-bb66aa4ec15a")
 	)
 	(text_box "I2C address:\n0b0110011 / 0x33h"
 		(exclude_from_sim no)

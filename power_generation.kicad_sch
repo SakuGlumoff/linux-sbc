@@ -1736,6 +1736,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.7 38.1)
+		(end 298.45 146.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 43c7b20a-d1c1-4420-a213-194fa5f07148)
+	)
+	(rectangle
+		(start 12.7 146.05)
+		(end 298.45 251.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 49d0a517-01c5-40ee-820d-7fc367780d16)
+	)
+	(rectangle
+		(start 12.7 251.46)
+		(end 298.45 284.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bd5641d2-cd6b-48f4-90e0-b1ebb0ee6a5d)
+	)
 	(text "R_{FBB}"
 		(exclude_from_sim no)
 		(at 140.97 113.03 0)
@@ -1791,6 +1827,32 @@
 		)
 		(uuid "63510ca3-bda2-46b3-8c52-47f6a8d9f684")
 	)
+	(text "Notes"
+		(exclude_from_sim no)
+		(at 13.97 254 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "6722939d-5d62-44ef-aa37-402b9ae9e5a1")
+	)
+	(text "3.3 V @ 4 A"
+		(exclude_from_sim no)
+		(at 13.97 148.59 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "6d21d6d8-9b1d-4f41-863d-3a5e33868d36")
+	)
 	(text "C_{COMP}"
 		(exclude_from_sim no)
 		(at 124.46 226.06 0)
@@ -1822,6 +1884,19 @@
 			(justify right)
 		)
 		(uuid "7fa17410-4f02-415d-b915-35f8d583c1de")
+	)
+	(text "5 V @ 4.5 A"
+		(exclude_from_sim no)
+		(at 13.97 40.64 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8c3e0940-cee0-47fa-9858-02d2f710392c")
 	)
 	(text "R_{COMP}"
 		(exclude_from_sim no)
@@ -1876,28 +1951,6 @@
 		)
 		(uuid "60ade544-df32-44ec-bdc2-d38aad82a9f8")
 	)
-	(text_box "5 V @ 4.5 A"
-		(exclude_from_sim no)
-		(at 12.7 38.1 0)
-		(size 285.75 107.95)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "8ce42b62-a9e5-43f7-b17e-edb2edc66bd5")
-	)
 	(text_box "R_{RT} @ 2 MHz = 100000 / f_{SW[kHz]} = 50 kΩ\nR_{FBT} = R_{FBB} * ((V_{OUT} / 0.8 V) - 1) = 68 kΩ * ((3.3 V / 0.8 V) - 1) = 212.5 kΩ\nR_{COMP} = 4.67*10^{3}[Ω/A] * f_{c} * V_{OUT} * C_{OUT} = 4.67*10^{3}[Ω/A] * 15 kHz * 3.3 V * 100 µF ~= 23.1 kΩ\nC_{COMP} = (V_{OUT} * C_{OUT}) / (I_{OUT} * R_{COMP}) = (3.3 V * 100 µF) / (4.5 A * 35 kΩ) ~= 3571 pF\n\nL = (V_{OUT} * (V_{IN_MAX} - V_{OUT})) / (V_{IN_MAX} * ∆I_{L} * f_{SW}) = (3.3 V * (24 V - 3.3 V)) / (24 V * (4 A * 30 %) * 2 MHz) ~= 1.2 µH\nI_{L_PEAK} = I_{LOAD} + (∆I_{L} / 2) = 4.6 A\nL_{I_RATING} = I_{L_PEAK} + 35 % ~= 6 A"
 		(exclude_from_sim no)
 		(at 13.97 156.21 0)
@@ -1917,50 +1970,6 @@
 			(justify left top)
 		)
 		(uuid "9f578f85-f165-42e6-92d0-5aa2c28ca0d3")
-	)
-	(text_box "3.3 V @ 4 A"
-		(exclude_from_sim no)
-		(at 12.7 146.05 0)
-		(size 285.75 105.41)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "d6c5d2df-9ae5-4b38-a486-d9bf071f693e")
-	)
-	(text_box "Notes"
-		(exclude_from_sim no)
-		(at 12.7 251.46 0)
-		(size 285.75 33.02)
-		(margins 0.9525 2 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify top)
-		)
-		(uuid "de256da2-3add-4386-811c-9a77f518ca24")
 	)
 	(text_box "3. Power generation"
 		(exclude_from_sim no)
