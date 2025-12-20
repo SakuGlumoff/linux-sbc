@@ -4586,9 +4586,9 @@
 		)
 		(uuid "53486afe-5a56-4425-a34b-823da3a8c76e")
 	)
-	(text "Route USB @ 90 Ω differential"
+	(text "Route USB as\n90 Ω differential"
 		(exclude_from_sim no)
-		(at 80.772 200.152 0)
+		(at 80.01 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5628,7 +5628,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 209.55) (xy 204.47 209.55)
+			(xy 165.1 209.55) (xy 204.47 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6588,7 +6588,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 207.01) (xy 204.47 207.01)
+			(xy 165.1 207.01) (xy 204.47 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7388,7 +7388,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 209.55) (xy 158.75 209.55)
+			(xy 139.7 209.55) (xy 157.48 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7618,16 +7618,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 207.01) (xy 158.75 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d77fbd7f-5640-42bc-8a34-5d31581fb7f1")
-	)
-	(wire
-		(pts
 			(xy 228.6 123.19) (xy 228.6 125.73)
 		)
 		(stroke
@@ -7835,6 +7825,16 @@
 			(type default)
 		)
 		(uuid "ef7b125c-b79c-4b34-8df8-3552c020914b")
+	)
+	(wire
+		(pts
+			(xy 157.48 207.01) (xy 152.4 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff6911e-a000-49e8-9c8f-a0a12f690d83")
 	)
 	(wire
 		(pts
@@ -8563,7 +8563,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 162.56 209.55 90)
+		(at 161.29 209.55 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8572,7 +8572,7 @@
 		(dnp no)
 		(uuid "05430429-4d6e-4782-8dd0-699570687dcd")
 		(property "Reference" "R707"
-			(at 159.766 209.296 90)
+			(at 158.496 209.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +8581,7 @@
 			)
 		)
 		(property "Value" "33 Ω"
-			(at 165.354 209.296 90)
+			(at 164.084 209.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8590,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 162.56 207.772 90)
+			(at 161.29 207.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +8599,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 162.56 209.55 0)
+			(at 161.29 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +8608,7 @@
 			)
 		)
 		(property "Description" "330 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 162.56 209.55 0)
+			(at 161.29 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8617,7 @@
 			)
 		)
 		(property "MPN" "ERJ-1GNF3300C"
-			(at 162.56 209.55 0)
+			(at 161.29 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8626,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 162.56 209.55 0)
+			(at 161.29 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +8644,7 @@
 			)
 		)
 		(property "Power rating" "0.05 W"
-			(at 170.688 208.0259 90)
+			(at 169.418 208.0259 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8653,7 +8653,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 170.688 209.296 90)
+			(at 169.418 209.296 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8662,7 +8662,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P122936CT-ND"
-			(at 162.56 209.55 90)
+			(at 161.29 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15138,7 +15138,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 162.56 207.01 90)
+		(at 161.29 207.01 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15147,7 +15147,7 @@
 		(dnp no)
 		(uuid "e0516878-313f-4f40-a651-b0aea24cace0")
 		(property "Reference" "R706"
-			(at 159.766 206.756 90)
+			(at 158.496 206.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15156,7 +15156,7 @@
 			)
 		)
 		(property "Value" "33 Ω"
-			(at 165.354 206.756 90)
+			(at 164.084 206.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15165,7 +15165,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 162.56 205.232 90)
+			(at 161.29 205.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15174,7 +15174,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 162.56 207.01 0)
+			(at 161.29 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15183,7 +15183,7 @@
 			)
 		)
 		(property "Description" "330 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 162.56 207.01 0)
+			(at 161.29 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15192,7 +15192,7 @@
 			)
 		)
 		(property "MPN" "ERJ-1GNF3300C"
-			(at 162.56 207.01 0)
+			(at 161.29 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15201,7 +15201,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 162.56 207.01 0)
+			(at 161.29 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15219,7 +15219,7 @@
 			)
 		)
 		(property "Power rating" "0.05 W"
-			(at 170.688 205.4859 90)
+			(at 169.418 205.4859 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -15228,7 +15228,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 170.688 206.756 90)
+			(at 169.418 206.756 90)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -15237,7 +15237,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P122936CT-ND"
-			(at 162.56 207.01 90)
+			(at 161.29 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
