@@ -1037,6 +1037,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_2_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "STMicroelectronics:STPMIC1DPQR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6902,7 +7026,7 @@
 		(dnp no)
 		(uuid "2bb2f711-3f19-4d9e-98bc-011d38085c25")
 		(property "Reference" "C420"
-			(at 281.94 139.7 0)
+			(at 281.94 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,7 +7035,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 281.94 141.478 0)
+			(at 281.94 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6965,7 +7089,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 282.194 143.51 0)
+			(at 281.94 143.256 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6974,7 +7098,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 282.194 144.526 0)
+			(at 281.94 144.272 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6983,7 +7107,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 282.194 145.542 0)
+			(at 281.94 145.288 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6992,7 +7116,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 282.194 146.558 0)
+			(at 281.94 146.304 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8309,7 +8433,7 @@
 		(dnp no)
 		(uuid "6a7f714d-4f05-4554-aa12-ba083eb5a5bd")
 		(property "Reference" "C422"
-			(at 294.64 139.7 0)
+			(at 294.64 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,7 +8442,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 294.64 141.478 0)
+			(at 294.64 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,7 +8496,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 294.894 143.51 0)
+			(at 294.64 143.256 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8381,7 +8505,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 294.894 144.526 0)
+			(at 294.64 144.272 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8390,7 +8514,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 294.894 145.542 0)
+			(at 294.64 145.288 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8399,7 +8523,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 294.894 146.558 0)
+			(at 294.64 146.304 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9266,7 +9390,7 @@
 		(dnp no)
 		(uuid "7f0bdecd-1fee-422b-a1b1-51183bfb2766")
 		(property "Reference" "C426"
-			(at 320.04 139.7 0)
+			(at 320.04 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9399,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 320.04 141.478 0)
+			(at 320.04 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +9453,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 320.294 143.51 0)
+			(at 320.04 143.256 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9338,7 +9462,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 320.294 144.526 0)
+			(at 320.04 144.272 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9347,7 +9471,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 320.294 145.542 0)
+			(at 320.04 145.288 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9356,7 +9480,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 320.294 146.558 0)
+			(at 320.04 146.304 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9398,7 +9522,7 @@
 		(dnp no)
 		(uuid "89d37b41-3794-4252-8d2b-2e85af6c7641")
 		(property "Reference" "C418"
-			(at 269.24 139.7 0)
+			(at 269.24 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9407,7 +9531,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 269.24 141.478 0)
+			(at 269.24 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,7 +9585,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 269.494 143.51 0)
+			(at 269.24 143.256 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9470,7 +9594,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 269.494 144.526 0)
+			(at 269.24 144.272 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9479,7 +9603,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 269.494 145.542 0)
+			(at 269.24 145.288 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -9488,7 +9612,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 269.494 146.558 0)
+			(at 269.24 146.304 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10146,7 +10270,7 @@
 		(dnp no)
 		(uuid "a876b2f0-a674-4791-b163-914e74fffa14")
 		(property "Reference" "C412"
-			(at 231.14 139.7 0)
+			(at 231.14 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10279,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 231.14 141.478 0)
+			(at 231.14 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10333,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 231.394 143.51 0)
+			(at 231.14 143.256 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10218,7 +10342,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 231.394 144.526 0)
+			(at 231.14 144.272 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10227,7 +10351,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 231.394 145.542 0)
+			(at 231.14 145.288 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10236,7 +10360,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 231.394 146.558 0)
+			(at 231.14 146.304 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10278,7 +10402,7 @@
 		(dnp no)
 		(uuid "a9814870-398f-4b40-a6ba-ad128a2604cc")
 		(property "Reference" "C414"
-			(at 243.84 139.7 0)
+			(at 243.84 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10287,7 +10411,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 243.84 141.478 0)
+			(at 243.84 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10465,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 244.094 143.51 0)
+			(at 243.84 143.256 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10350,7 +10474,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 244.094 144.526 0)
+			(at 243.84 144.272 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10359,7 +10483,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 244.094 145.542 0)
+			(at 243.84 145.288 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10368,7 +10492,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 244.094 146.558 0)
+			(at 243.84 146.304 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10401,7 +10525,7 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
+		(lib_name "R_2")
 		(lib_id "Device:R")
 		(at 134.62 193.04 90)
 		(mirror x)
@@ -10649,7 +10773,7 @@
 		(dnp no)
 		(uuid "c334e5c2-6be1-47e3-ab27-8d516165cd38")
 		(property "Reference" "C424"
-			(at 307.34 139.7 0)
+			(at 307.34 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10782,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 307.34 141.478 0)
+			(at 307.34 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10712,7 +10836,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 307.594 143.51 0)
+			(at 307.34 143.256 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10721,7 +10845,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 307.594 144.526 0)
+			(at 307.34 144.272 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10730,7 +10854,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 307.594 145.542 0)
+			(at 307.34 145.288 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10739,7 +10863,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 307.594 146.558 0)
+			(at 307.34 146.304 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -12578,7 +12702,7 @@
 		(dnp no)
 		(uuid "f1a68b49-e605-46bf-a318-413716619e15")
 		(property "Reference" "C416"
-			(at 256.54 139.7 0)
+			(at 256.54 139.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12587,7 +12711,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 256.54 141.478 0)
+			(at 256.54 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12641,7 +12765,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 256.794 143.51 0)
+			(at 256.54 143.256 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -12650,7 +12774,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 256.794 144.526 0)
+			(at 256.54 144.272 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -12659,7 +12783,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 256.794 145.542 0)
+			(at 256.54 145.288 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -12668,7 +12792,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 256.794 146.558 0)
+			(at 256.54 146.304 0)
 			(effects
 				(font
 					(size 0.7 0.7)
