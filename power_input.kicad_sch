@@ -5108,7 +5108,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 160.02) (xy 339.09 160.02)
+			(xy 322.58 160.02) (xy 339.09 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5238,7 +5238,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 220.98) (xy 339.09 220.98)
+			(xy 322.58 220.98) (xy 339.09 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6228,7 +6228,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 200.66) (xy 339.09 200.66)
+			(xy 322.58 200.66) (xy 339.09 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6318,7 +6318,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 241.3) (xy 339.09 241.3)
+			(xy 322.58 241.3) (xy 339.09 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6738,7 +6738,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 180.34) (xy 339.09 180.34)
+			(xy 322.58 180.34) (xy 339.09 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8127,7 +8127,7 @@
 		(uuid "25eac918-2d1b-447d-971c-10b504916382")
 	)
 	(label "V_OCLO_OUT"
-		(at 325.12 220.98 0)
+		(at 322.58 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8135,16 +8135,6 @@
 			(justify left bottom)
 		)
 		(uuid "2a5743fa-e037-48e8-9ebb-453ee87beefe")
-	)
-	(label "V_IN_FILTERED"
-		(at 325.12 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c64d3bf-c136-4faa-a3bf-a5c99937afbc")
 	)
 	(label "OVLO_IN"
 		(at 322.58 96.52 180)
@@ -8186,7 +8176,7 @@
 		)
 		(uuid "3c6b73a7-042b-47f1-98ae-4f9a3939e3d2")
 	)
-	(label "V_IN_FILTERED"
+	(label "V_IN_DM_FILTER"
 		(at 208.28 76.2 180)
 		(effects
 			(font
@@ -8206,6 +8196,26 @@
 		)
 		(uuid "506455b0-e98c-4f5a-848a-7971f9e0cd8b")
 	)
+	(label "V_IN_DM_FILTER"
+		(at 177.8 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fb8cdfe-f0c2-44c0-abf3-64ba787989c5")
+	)
+	(label "V_IN_DM_FILTER"
+		(at 322.58 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "615a6271-4478-4ff8-8d50-e70dee6c3b73")
+	)
 	(label "OVLO_REF"
 		(at 322.58 101.6 180)
 		(effects
@@ -8217,7 +8227,7 @@
 		(uuid "61e54f64-cffa-470b-9c41-cbf85c7c6366")
 	)
 	(label "V_OVLO_OUT"
-		(at 325.12 180.34 0)
+		(at 322.58 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8247,7 +8257,7 @@
 		(uuid "88f85ed7-6f85-4bec-9196-1bb5358afdca")
 	)
 	(label "V_OCLO_OUT"
-		(at 325.12 241.3 0)
+		(at 322.58 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8267,7 +8277,7 @@
 		(uuid "9ca94294-2c7f-4d01-bd5e-39c864a7e482")
 	)
 	(label "V_UVLO_OUT"
-		(at 325.12 200.66 0)
+		(at 322.58 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8306,13 +8316,13 @@
 		)
 		(uuid "c2ad7c7d-e631-41e9-bc3b-070647f20cc6")
 	)
-	(label "V_IN_CM"
-		(at 152.4 76.2 180)
+	(label "V_IN_CM_FILTER"
+		(at 140.97 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d37d396e-6950-4a9c-ba1d-9f8a8fe12028")
 	)
@@ -8345,16 +8355,6 @@
 			(justify right bottom)
 		)
 		(uuid "e8d6765f-d7a7-493f-bbb3-0cc1dd564e9f")
-	)
-	(label "V_IN_FILTERED"
-		(at 177.8 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fab3d0da-0847-4415-a358-f335b96711ab")
 	)
 	(label "V_OVLO_OUT"
 		(at 396.24 76.2 180)
