@@ -4119,6 +4119,12 @@
 		(uuid "1c4b4f41-d8a8-46a9-8079-25035176b91a")
 	)
 	(junction
+		(at 50.8 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1df93081-0446-4127-a659-bd48996bf455")
+	)
+	(junction
 		(at 114.3 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6852,7 +6858,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 114.3) (xy 63.5 114.3)
+			(xy 25.4 114.3) (xy 50.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7582,6 +7588,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 113.03) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df807540-e802-4fa3-8bb3-1c1e72040eef")
+	)
+	(wire
+		(pts
 			(xy 114.3 76.2) (xy 121.92 76.2)
 		)
 		(stroke
@@ -8069,6 +8085,16 @@
 			(type default)
 		)
 		(uuid "fd795009-e057-4127-b3a5-61a2c197e759")
+	)
+	(wire
+		(pts
+			(xy 50.8 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8089f8-4df8-44d8-8d40-a5e9f3148480")
 	)
 	(wire
 		(pts
@@ -9097,7 +9123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0736d07a-e76f-4364-9f64-eaa0ac87f9c3")
-		(property "Reference" "TP208"
+		(property "Reference" "TP209"
 			(at 168.91 70.612 0)
 			(effects
 				(font
@@ -9148,7 +9174,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP208")
+					(reference "TP209")
 					(unit 1)
 				)
 			)
@@ -9850,7 +9876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "261614ba-f6a1-41aa-9501-ac4afe5e8bcf")
-		(property "Reference" "TP210"
+		(property "Reference" "TP211"
 			(at 273.05 172.212 0)
 			(effects
 				(font
@@ -9901,7 +9927,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP210")
+					(reference "TP211")
 					(unit 1)
 				)
 			)
@@ -10544,7 +10570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "333eec4f-6797-4050-8382-e0f6039278d1")
-		(property "Reference" "TP216"
+		(property "Reference" "TP217"
 			(at 376.428 87.63 90)
 			(effects
 				(font
@@ -10595,7 +10621,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP216")
+					(reference "TP217")
 					(unit 1)
 				)
 			)
@@ -11654,7 +11680,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41ebca63-6c99-4f7d-92c4-d869b677399f")
-		(property "Reference" "TP211"
+		(property "Reference" "TP212"
 			(at 292.608 186.69 90)
 			(effects
 				(font
@@ -11705,7 +11731,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP211")
+					(reference "TP212")
 					(unit 1)
 				)
 			)
@@ -11721,7 +11747,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44971245-82af-476b-b368-f0034b2b4ac3")
-		(property "Reference" "TP212"
+		(property "Reference" "TP213"
 			(at 292.608 208.28 90)
 			(effects
 				(font
@@ -11772,7 +11798,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP212")
+					(reference "TP213")
 					(unit 1)
 				)
 			)
@@ -11870,6 +11896,73 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "J208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "470cc755-d966-4aef-b943-19f42243c722")
+		(property "Reference" "TP202"
+			(at 50.8 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.26 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 45.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "774e4fe0-e1b1-4aef-8997-919e280e720d")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -13835,7 +13928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "711a067f-5fbb-4116-80d8-89ae304e5941")
-		(property "Reference" "TP207"
+		(property "Reference" "TP208"
 			(at 144.78 172.212 0)
 			(effects
 				(font
@@ -13886,7 +13979,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP207")
+					(reference "TP208")
 					(unit 1)
 				)
 			)
@@ -14198,7 +14291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79ef681a-3d60-474a-a4e4-e4b9c8b194ec")
-		(property "Reference" "TP205"
+		(property "Reference" "TP206"
 			(at 95.25 172.212 0)
 			(effects
 				(font
@@ -14249,7 +14342,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP205")
+					(reference "TP206")
 					(unit 1)
 				)
 			)
@@ -15578,7 +15671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9802f325-f063-4c01-ac83-902002651d2c")
-		(property "Reference" "TP203"
+		(property "Reference" "TP204"
 			(at 82.55 221.488 0)
 			(effects
 				(font
@@ -15629,7 +15722,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP203")
+					(reference "TP204")
 					(unit 1)
 				)
 			)
@@ -15644,7 +15737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9be9fddd-0f5c-4bb3-ba7b-a8f92b0a7f11")
-		(property "Reference" "TP214"
+		(property "Reference" "TP215"
 			(at 355.6 70.612 0)
 			(effects
 				(font
@@ -15695,7 +15788,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP214")
+					(reference "TP215")
 					(unit 1)
 				)
 			)
@@ -15710,7 +15803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e1e571f-4c67-435a-bceb-14fed75920c6")
-		(property "Reference" "TP204"
+		(property "Reference" "TP205"
 			(at 88.9 70.612 0)
 			(effects
 				(font
@@ -15761,7 +15854,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP204")
+					(reference "TP205")
 					(unit 1)
 				)
 			)
@@ -16443,7 +16536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aefa7050-e6df-4370-a415-4f5b893d7139")
-		(property "Reference" "TP202"
+		(property "Reference" "TP203"
 			(at 57.912 88.9 90)
 			(effects
 				(font
@@ -16494,7 +16587,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP202")
+					(reference "TP203")
 					(unit 1)
 				)
 			)
@@ -17700,7 +17793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cefeeb47-b61a-4ec3-8121-b0833bb9bc31")
-		(property "Reference" "TP206"
+		(property "Reference" "TP207"
 			(at 119.888 186.69 90)
 			(effects
 				(font
@@ -17751,7 +17844,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP206")
+					(reference "TP207")
 					(unit 1)
 				)
 			)
@@ -18451,7 +18544,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db5c900e-6cbf-41e2-965e-417f4ff1a591")
-		(property "Reference" "TP209"
+		(property "Reference" "TP210"
 			(at 256.54 221.488 0)
 			(effects
 				(font
@@ -18502,7 +18595,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP209")
+					(reference "TP210")
 					(unit 1)
 				)
 			)
@@ -18517,7 +18610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc53ed53-4552-412f-bea0-ea470bc7aed6")
-		(property "Reference" "TP215"
+		(property "Reference" "TP216"
 			(at 358.14 235.712 0)
 			(effects
 				(font
@@ -18568,7 +18661,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP215")
+					(reference "TP216")
 					(unit 1)
 				)
 			)
@@ -18966,7 +19059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e99aab33-5a8c-4ae9-bc96-a35a40d5fa83")
-		(property "Reference" "TP213"
+		(property "Reference" "TP214"
 			(at 341.63 104.648 0)
 			(effects
 				(font
@@ -19017,7 +19110,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP213")
+					(reference "TP214")
 					(unit 1)
 				)
 			)
