@@ -1931,7 +1931,7 @@
 		)
 		(uuid "d43f334a-50e2-401d-8b56-484bae2a8bfb")
 	)
-	(text_box "R_{RT} @ 2 MHz = 100000 / f_{SW[kHz]} = 50 kΩ\nR_{FBT} = R_{FBB} * ((V_{OUT} / 0.8 V) - 1) = 24 kΩ * ((5 V / 0.8 V) - 1) = 126 kΩ\nR_{COMP} = 4.67*10^{3}[Ω/A] * f_{c} * V_{OUT} * C_{OUT} = 4.67*10^{3}[Ω/A] * 15 kHz * 5 V * 100 µF ~= 35 kΩ\nC_{COMP} = (V_{OUT} * C_{OUT}) / (I_{OUT} * R_{COMP}) = (5 V * 100 µF) / (4.5 A * 35 kΩ) ~= 3175 pF\n\nL = (V_{OUT} * (V_{IN_MAX} - V_{OUT})) / (V_{IN_MAX} * ∆I_{L} * f_{SW}) = (5 V * (24 V - 5 V)) / (24 V * (4.5 A * 30 %) * 2 MHz) ~= 1.5 µH\nI_{L_PEAK} = I_{LOAD} + (∆I_{L} / 2) ~= 5.2 A\nL_{I_RATING} = I_{L_PEAK} + 35 % ~= 7 A"
+	(text_box "R_{RT} @ 2 MHz = 100000 / f_{SW[kHz]} = 50 kΩ\nR_{FBT} = R_{FBB} * ((V_{OUT} / 0.8 V) - 1) = 24 kΩ * ((5 V / 0.8 V) - 1) = 126 kΩ\nR_{COMP} = 4.67*10^{3}[Ω/A] * f_{c} * V_{OUT} * C_{OUT} = 4.67*10^{3}[Ω/A] * 15 kHz * 5 V * 100 µF ~= 35 kΩ\nC_{COMP} = (V_{OUT} * C_{OUT}) / (I_{OUT} * R_{COMP}) = (5 V * 100 µF) / (4.5 A * 35 kΩ) ~= 3175 pF\n\nL = (V_{OUT} * (V_{IN_MAX} - V_{OUT})) / (V_{IN_MAX} * ∆I_{L} * f_{SW}) = (5 V * (26.4 V - 5 V)) / (26.4 V * (4.5 A * 30 %) * 2 MHz) ~= 1.5 µH\nI_{L_PEAK} = I_{LOAD} + (∆I_{L} / 2) ~= 5.2 A\nL_{I_RATING} = I_{L_PEAK} + 35 % ~= 7 A"
 		(exclude_from_sim no)
 		(at 13.97 50.8 0)
 		(size 214.63 38.1)
@@ -1951,7 +1951,7 @@
 		)
 		(uuid "60ade544-df32-44ec-bdc2-d38aad82a9f8")
 	)
-	(text_box "R_{RT} @ 2 MHz = 100000 / f_{SW[kHz]} = 50 kΩ\nR_{FBT} = R_{FBB} * ((V_{OUT} / 0.8 V) - 1) = 68 kΩ * ((3.3 V / 0.8 V) - 1) = 212.5 kΩ\nR_{COMP} = 4.67*10^{3}[Ω/A] * f_{c} * V_{OUT} * C_{OUT} = 4.67*10^{3}[Ω/A] * 15 kHz * 3.3 V * 100 µF ~= 23.1 kΩ\nC_{COMP} = (V_{OUT} * C_{OUT}) / (I_{OUT} * R_{COMP}) = (3.3 V * 100 µF) / (4.5 A * 35 kΩ) ~= 3571 pF\n\nL = (V_{OUT} * (V_{IN_MAX} - V_{OUT})) / (V_{IN_MAX} * ∆I_{L} * f_{SW}) = (3.3 V * (24 V - 3.3 V)) / (24 V * (4 A * 30 %) * 2 MHz) ~= 1.2 µH\nI_{L_PEAK} = I_{LOAD} + (∆I_{L} / 2) = 4.6 A\nL_{I_RATING} = I_{L_PEAK} + 35 % ~= 6 A"
+	(text_box "R_{RT} @ 2 MHz = 100000 / f_{SW[kHz]} = 50 kΩ\nR_{FBT} = R_{FBB} * ((V_{OUT} / 0.8 V) - 1) = 68 kΩ * ((3.3 V / 0.8 V) - 1) = 212.5 kΩ\nR_{COMP} = 4.67*10^{3}[Ω/A] * f_{c} * V_{OUT} * C_{OUT} = 4.67*10^{3}[Ω/A] * 15 kHz * 3.3 V * 100 µF ~= 23.1 kΩ\nC_{COMP} = (V_{OUT} * C_{OUT}) / (I_{OUT} * R_{COMP}) = (3.3 V * 100 µF) / (4.5 A * 35 kΩ) ~= 3571 pF\n\nL = (V_{OUT} * (V_{IN_MAX} - V_{OUT})) / (V_{IN_MAX} * ∆I_{L} * f_{SW}) = (3.3 V * (26.4 V - 3.3 V)) / (26.4 V * (4 A * 30 %) * 2 MHz) ~= 1.2 µH\nI_{L_PEAK} = I_{LOAD} + (∆I_{L} / 2) = 4.6 A\nL_{I_RATING} = I_{L_PEAK} + 35 % ~= 6 A"
 		(exclude_from_sim no)
 		(at 13.97 156.21 0)
 		(size 214.63 34.29)
