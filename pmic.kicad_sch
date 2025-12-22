@@ -2737,6 +2737,12 @@
 		(uuid "90440abd-cb74-4d8c-a21d-77482fd0b934")
 	)
 	(junction
+		(at 266.7 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c74edb-fafe-43dd-b692-e2db72d163c3")
+	)
+	(junction
 		(at 292.1 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4448,7 +4454,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 224.79) (xy 339.09 224.79)
+			(xy 336.55 224.79) (xy 339.09 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5438,6 +5444,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 170.18) (xy 330.2 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3228040-4129-4cdd-9621-c661b7a577b4")
+	)
+	(wire
+		(pts
 			(xy 279.4 147.32) (xy 279.4 146.05)
 		)
 		(stroke
@@ -5656,16 +5672,6 @@
 		)
 		(uuid "7a3e1207-2568-433a-8aec-8eee540f73a6")
 	)
-	(label "VDD_LDO2"
-		(at 203.2 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e510aad-facc-48c7-8820-011f4ffbb749")
-	)
 	(label "VDD_LDO6"
 		(at 351.79 247.65 0)
 		(effects
@@ -5695,16 +5701,6 @@
 			(justify right bottom)
 		)
 		(uuid "a49792d1-24d3-4825-a674-8c1ca76954a7")
-	)
-	(label "VDD_LDO2"
-		(at 327.66 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a832450e-648b-4349-a6c3-b04fa6d8fa98")
 	)
 	(label "PMIC.CTRL"
 		(at 68.58 198.12 0)
@@ -5853,6 +5849,17 @@
 		)
 		(uuid "576e7a63-b768-498e-a910-bde2b5309f5a")
 	)
+	(hierarchical_label "VDD_SD"
+		(shape output)
+		(at 336.55 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59027d81-fd83-4afb-bfb8-58bc82750755")
+	)
 	(hierarchical_label "VDD_DDR"
 		(shape output)
 		(at 388.62 240.03 180)
@@ -5896,6 +5903,17 @@
 			(justify right)
 		)
 		(uuid "98cd8033-2bbc-43d4-97e2-302af9a66ce4")
+	)
+	(hierarchical_label "VDD_SD"
+		(shape output)
+		(at 330.2 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d695c4e-7675-47b7-8687-232487b4ed0e")
 	)
 	(hierarchical_label "VDD_CORE"
 		(shape output)
