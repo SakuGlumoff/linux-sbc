@@ -4733,12 +4733,12 @@
 	)
 	(text "R_{SET}"
 		(exclude_from_sim no)
-		(at 290.83 148.59 0)
+		(at 293.37 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "20b7b033-3374-4f42-9221-0ded737ee015")
 	)
@@ -4955,12 +4955,6 @@
 		(uuid "1324e8c0-4195-48f9-9b5c-92e0deada13d")
 	)
 	(junction
-		(at 279.4 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18a6f682-dcbb-4479-aa13-4ce0a21efea5")
-	)
-	(junction
 		(at 354.33 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4977,6 +4971,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bb0dbb2-bcb1-4c2a-902a-47fe95851f28")
+	)
+	(junction
+		(at 281.94 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f942c21-a45d-45b5-85a0-31ad85dc455b")
 	)
 	(junction
 		(at 368.3 207.01)
@@ -5765,16 +5765,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 118.11) (xy 281.94 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3051a7a9-a669-41af-b52c-b50eed8a9561")
-	)
-	(wire
-		(pts
 			(xy 341.63 236.22) (xy 341.63 143.51)
 		)
 		(stroke
@@ -5832,16 +5822,6 @@
 			(type default)
 		)
 		(uuid "3a38c267-aaf2-406f-9922-30fcb1604336")
-	)
-	(bus
-		(pts
-			(xy 311.15 142.24) (xy 311.15 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b2ed230-1820-4c1d-831a-cce3453f0aa6")
 	)
 	(wire
 		(pts
@@ -5945,7 +5925,7 @@
 	)
 	(bus
 		(pts
-			(xy 309.88 142.24) (xy 311.15 142.24)
+			(xy 309.88 143.51) (xy 311.15 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6155,7 +6135,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 118.11) (xy 292.1 118.11)
+			(xy 290.83 118.11) (xy 292.1 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6305,6 +6285,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 118.11) (xy 283.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0020b5-c886-4b37-9e53-5d990045ff0c")
+	)
+	(wire
+		(pts
 			(xy 365.76 246.38) (xy 368.3 246.38)
 		)
 		(stroke
@@ -6375,7 +6365,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 118.11) (xy 279.4 118.11)
+			(xy 270.51 118.11) (xy 281.94 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6635,7 +6625,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 125.73) (xy 279.4 125.73)
+			(xy 275.59 125.73) (xy 281.94 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7105,7 +7095,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 125.73) (xy 279.4 118.11)
+			(xy 281.94 125.73) (xy 281.94 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7766,7 +7756,7 @@
 	)
 	(hierarchical_label "{SCREEN}"
 		(shape bidirectional)
-		(at 309.88 142.24 180)
+		(at 309.88 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8112,21 +8102,21 @@
 		(dnp no)
 		(uuid "1457c334-1845-468b-ba23-00e8ec6816d8")
 		(property "Reference" "L1201"
-			(at 266.7 112.776 90)
+			(at 264.16 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify top)
+				(justify right top)
 			)
 		)
 		(property "Value" "22 µH"
-			(at 266.7 114.554 90)
+			(at 264.16 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify top)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_TechFuse_SL0630"
@@ -8184,21 +8174,21 @@
 			)
 		)
 		(property "Current rating" "1 A"
-			(at 266.7 117.094 90)
+			(at 264.16 116.84 90)
 			(effects
 				(font
 					(size 0.7 0.7)
 				)
-				(justify top)
+				(justify right top)
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 266.7 116.078 90)
+			(at 264.16 115.824 90)
 			(effects
 				(font
 					(size 0.7 0.7)
 				)
-				(justify top)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -8419,6 +8409,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 292.1 148.59 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8426,7 +8417,7 @@
 		(dnp no)
 		(uuid "3996e583-f2cf-4f40-8255-3b15c8b6ce5a")
 		(property "Reference" "R1209"
-			(at 293.37 145.542 0)
+			(at 290.83 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +8426,7 @@
 			)
 		)
 		(property "Value" "6.8 Ω"
-			(at 293.37 147.32 0)
+			(at 290.83 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +8435,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 290.322 148.59 90)
+			(at 293.878 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8480,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 293.37 148.59 0)
+			(at 290.83 148.59 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8498,7 +8489,7 @@
 			)
 		)
 		(property "Power rating" "0.25 W"
-			(at 293.37 149.86 0)
+			(at 290.83 149.86 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8507,7 +8498,7 @@
 			)
 		)
 		(property "Size" "0805"
-			(at 293.37 151.1301 0)
+			(at 290.83 151.1301 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8608,7 +8599,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 285.75 118.11 0)
+		(at 287.02 118.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8617,7 +8608,7 @@
 		(dnp no)
 		(uuid "484906d0-0f25-4010-a005-d25d9b901c39")
 		(property "Reference" "D1201"
-			(at 285.75 112.268 0)
+			(at 287.02 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8617,7 @@
 			)
 		)
 		(property "Value" "B0540WS"
-			(at 285.75 114.046 0)
+			(at 287.02 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8635,7 +8626,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 285.75 118.11 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +8635,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6778/5399_B0540WS%20SOD-323.PDF"
-			(at 285.75 118.11 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8653,7 +8644,7 @@
 			)
 		)
 		(property "Description" "Schottky diode 40 V 500mA Surface Mount SOD-323"
-			(at 285.75 118.11 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,7 +8653,7 @@
 			)
 		)
 		(property "Voltage rating" "40 V"
-			(at 285.75 115.316 0)
+			(at 287.02 115.316 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8671,7 +8662,7 @@
 			)
 		)
 		(property "Current rating" "0.5 A"
-			(at 285.75 116.332 0)
+			(at 287.02 116.332 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8680,7 +8671,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "5399-B0540WSCT-ND"
-			(at 285.75 118.11 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8680,7 @@
 			)
 		)
 		(property "Manufacturer" "Shenzhen Slkormicro Semicon Co., Ltd."
-			(at 285.75 118.11 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +8689,7 @@
 			)
 		)
 		(property "MPN" "B0540WS"
-			(at 285.75 118.11 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
