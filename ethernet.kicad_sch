@@ -4149,10 +4149,10 @@
 		)
 		(uuid "b85ae808-51a1-4f42-bbf0-e78b51b3cd63")
 	)
-	(text_box "With MODE[2:0] = 111, the PHY is configured to be all capable with auto-negotiation enabled.\n\nWith LED1/REGOFF floating, the internal 1.2 V regulator is enabled and LED1/REGOFF functions as LED1 (Link Activity).\n\nWith LED2/~{INTSEL} floating, ~{INT}/REFCLKO is an active low interrupt output and the 50 MHz REF_CLK is sourced externally on the XTAL1/CLKIN pin and LED2/~{INTSEL} functions as LED2 (Link Speed).\n\nWith PHYAD0 pulled down, the PHY address is 0."
+	(text_box "MODE[2:0] = 111: The PHY is configured for all capabilities with auto-negotiation enabled.\n\nLED1/REGOFF floating: The internal 1.2 V regulator is enabled, and LED1/REGOFF functions as LED1 (link activity).\n\nLED2/~{INTSEL} floating: The ~{INT}/REFCLKO pin operates as an active-low interrupt output. The 50 MHz reference clock is sourced externally via the XTAL1/CLKIN pin, and LED2/~{INTSEL} functions as LED2 (link speed).\n\nPHYAD0 pulled down: The PHY address is set to 0."
 		(exclude_from_sim no)
 		(at 163.83 222.25 0)
-		(size 101.6 20.32)
+		(size 101.6 24.13)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4192,7 +4192,7 @@
 		)
 		(uuid "5cbf0988-36e5-4553-a2ca-176740b4709c")
 	)
-	(text_box "- IEEE 802.3u 10/100 Base-T compliant Ethernet\n- Auto-negotiation\n- Automatic polarity detection and correction\n- Wake-On-Lan support\n- Link Activity and Link Speed indicator support"
+	(text_box "- IEEE 802.3u-compliant 10/100BASE-T Ethernet\n- Auto-negotiation support\n- Automatic polarity detection and correction\n- Wake-on-LAN (WoL) support\n- Link activity and link speed indicator support"
 		(exclude_from_sim no)
 		(at 13.335 63.5 0)
 		(size 392.43 31.75)
@@ -7469,7 +7469,7 @@
 		(dnp no)
 		(uuid "1a245488-3fd8-4526-beaf-1d2f36596bbf")
 		(property "Reference" "FB1001"
-			(at 160.02 112.268 90)
+			(at 160.02 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,8 +7477,8 @@
 				(justify top)
 			)
 		)
-		(property "Value" "600 Ω @ 100 MHz"
-			(at 160.02 114.808 90)
+		(property "Value" "MPZ1608S601ATA00"
+			(at 160.02 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +7495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
 			(at 160.02 118.11 0)
 			(effects
 				(font
@@ -7504,7 +7504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor with ferrite core"
+		(property "Description" "600 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1A 150mOhm"
 			(at 160.02 118.11 0)
 			(effects
 				(font

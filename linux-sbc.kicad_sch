@@ -1236,18 +1236,6 @@
 		)
 		(uuid "6a75c57a-401b-4143-adae-75f247dce1d8")
 	)
-	(text "Place a stitched chassis guard rail along\nthe edges of the PCB to provide a continuous\ncontact point for the chassis."
-		(exclude_from_sim no)
-		(at 114.3 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 194 0 194 1)
-			)
-			(justify left top)
-		)
-		(uuid "84d1f885-902c-4bea-ace9-dd04a3bf6bd6")
-	)
 	(text "6. Debug"
 		(exclude_from_sim no)
 		(at 16.51 87.63 0)
@@ -1320,18 +1308,6 @@
 			(href "#13")
 		)
 		(uuid "ac6cb9d4-aa6d-4dbb-bdba-df8f4986dd0e")
-	)
-	(text "Place fiducials at the top-left, bottom-left,\nand bottom-right corners of the PCB."
-		(exclude_from_sim no)
-		(at 62.23 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 194 0 194 1)
-			)
-			(justify left top)
-		)
-		(uuid "c07fd134-7ce2-4ac8-9971-5c62de4ab866")
 	)
 	(text "4. PMIC"
 		(exclude_from_sim no)
@@ -1417,7 +1393,47 @@
 		)
 		(uuid "ffe98e27-8e2c-4c29-a978-589d16a9c15b")
 	)
-	(text_box "This project serves as a practice exercise in PCB design for a Linux Single-Board-Computer (SBC).\nIt's targeted to be installed in an industrial environment.\n\nThe SBC incorporates Bluetooth, Wi-Fi and Ethernet functionality to allow device control over the air/network.\n\nThe SBC also optionally includes an LCD screen and a matrix keypad for physical device control.\n\nA USB hub provides the SBC four downstream USB devices.\n\nFor debugging, a JTAG connection and a virtual COM port via a USB-C port is provided.\n\nA micro-SD card interface is provided for booting the device using a portable Linux image."
+	(text_box "Place fiducials at the top-left, bottom-left, and bottom-right corners of the PCB."
+		(exclude_from_sim no)
+		(at 63.5 228.6 0)
+		(size 38.1 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0ca998c8-51dd-48bb-b586-d1fa69881b61")
+	)
+	(text_box "Add a stitched chassis guard rail along the perimeter of the PCB to provide a continuous electrical contact point for the chassis."
+		(exclude_from_sim no)
+		(at 114.3 228.6 0)
+		(size 50.8 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "785b9faf-a483-4d22-9e3f-b1332abb2128")
+	)
+	(text_box "This project is a practice exercise in printed circuit board (PCB) design for a Linux-based single-board computer (SBC) intended for installation in an industrial environment.\n\nThe SBC integrates Bluetooth, Wi-Fi, and Ethernet connectivity to enable device control over wireless and network interfaces.\n\nThe design optionally supports an LCD display and a matrix keypad to allow local, physical control of the device.\n\nA USB hub expands the SBC's connectivity by providing four downstream USB ports.\n\nFor development and debugging purposes, the system includes a JTAG interface and a virtual COM port accessible through a USB-C connector.\n\nA microSD card interface is included to support booting the device from a portable Linux image."
 		(exclude_from_sim no)
 		(at 13.97 127 0)
 		(size 186.69 87.63)

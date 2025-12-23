@@ -4845,7 +4845,7 @@
 		)
 		(uuid "35e77fd9-1f7e-4a8c-a3a0-787c707582b3")
 	)
-	(text_box "The graphical interface is a TFT LCD with a backlight.\n\nTouchscreen functionality is provided via the I2C interface.\nThe pins can be disconnected if a non-touchscreen TFT LCD is used."
+	(text_box "The graphical interface consists of a TFT LCD with backlighting.\n- Touchscreen functionality: Provided via the I²C interface.\n- Optional configuration: The I²C pins can be disconnected if a non-touchscreen TFT LCD is used."
 		(exclude_from_sim no)
 		(at 210.82 63.5 0)
 		(size 194.31 25.4)
@@ -4886,7 +4886,7 @@
 		)
 		(uuid "6adde5bd-9622-43c3-bbba-6b52c9f2ad17")
 	)
-	(text_box "They keypad interface is for a 3/4x4 matrix membrane keypad.\n\nThe keypad buttons are polled continuously and button presses are detected by switching rows and columns HIGH/LOW and changing states between INPUT/OUTPUT.\n\nThe keypad buttons and their usage is application defined and thus not hard-set."
+	(text_box "The keypad interface supports a 3×4 or 4×4 matrix membrane keypad.\n- Button scanning: Key presses are detected by continuously polling the keypad and toggling rows and columns between HIGH/LOW and INPUT/OUTPUT states.\n- Application-defined mapping: The functionality and usage of individual keypad buttons are defined by the application and are not fixed."
 		(exclude_from_sim no)
 		(at 13.97 63.5 0)
 		(size 194.31 31.75)

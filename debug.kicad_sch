@@ -5264,13 +5264,13 @@
 	)
 	(text "Place near FT231XQ-R"
 		(exclude_from_sim no)
-		(at 189.23 229.87 0)
+		(at 196.85 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 194 0 194 1)
 			)
-			(justify right bottom)
+			(justify top)
 		)
 		(uuid "10b894aa-f8b3-450d-a8d3-468d6ab398e8")
 	)
@@ -5425,10 +5425,10 @@
 		)
 		(uuid "c47db8e2-0408-45f2-800d-f808cb747d23")
 	)
-	(text_box "Connect a USB-C cable from a PC to the USB-C receptacle and the debug UART will enumerate as a virtual COM port.\n\nThis virtual COM port can be used to program the MPU when the boot selection switch is in the \"UART and USB\" position.\n\nThis virtual COM port can also be used as an external serial interface to the MPU."
+	(text_box "Connect a USB-C cable from a host PC to the USB-C receptacle. The debug UART will enumerate on the host system as a virtual COM port.\n\nWhen the boot selection switch is set to the \"UART and USB\" position, this virtual COM port can be used to program the MPU.\n\nThe virtual COM port may also be used as an external serial interface for communication with the MPU."
 		(exclude_from_sim no)
 		(at 13.97 149.86 0)
-		(size 199.39 34.29)
+		(size 199.39 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -5445,7 +5445,7 @@
 		)
 		(uuid "cd720c16-c924-4d3a-810f-d6b6677e18e7")
 	)
-	(text_box "Connect a JTAG device such as the Segger J-Link to program and debug the device."
+	(text_box "Connect a JTAG programmer (for example, a Segger J-Link) to program and debug the device."
 		(exclude_from_sim no)
 		(at 13.97 63.5 0)
 		(size 137.16 12.7)
@@ -6484,7 +6484,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 224.79) (xy 190.5 238.76)
+			(xy 190.5 236.22) (xy 190.5 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6674,7 +6674,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 209.55) (xy 160.02 217.17)
+			(xy 160.02 209.55) (xy 160.02 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7244,7 +7244,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 190.5) (xy 190.5 217.17)
+			(xy 190.5 190.5) (xy 190.5 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7684,7 +7684,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 224.79) (xy 165.1 238.76)
+			(xy 165.1 236.22) (xy 165.1 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8044,7 +8044,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 224.79) (xy 203.2 238.76)
+			(xy 203.2 236.22) (xy 203.2 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8184,7 +8184,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 224.79) (xy 160.02 238.76)
+			(xy 160.02 236.22) (xy 160.02 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8314,7 +8314,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 207.01) (xy 165.1 217.17)
+			(xy 165.1 207.01) (xy 165.1 228.6)
 		)
 		(stroke
 			(width 0)
@@ -8484,7 +8484,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 214.63) (xy 203.2 217.17)
+			(xy 203.2 214.63) (xy 203.2 228.6)
 		)
 		(stroke
 			(width 0)
@@ -9991,7 +9991,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 220.98 0)
+		(at 190.5 232.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10000,7 +10000,7 @@
 		(dnp no)
 		(uuid "2ebbc4ee-126b-4965-a931-6fafe0466b6b")
 		(property "Reference" "C706"
-			(at 187.96 218.44 0)
+			(at 187.96 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +10009,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 187.96 220.218 0)
+			(at 187.96 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10018,7 +10018,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0201_0603Metric"
-			(at 189.5348 224.79 0)
+			(at 189.5348 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +10027,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R6YA104KE14-01.pdf"
-			(at 190.5 220.98 0)
+			(at 190.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +10036,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 190.5 220.98 0)
+			(at 190.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +10045,7 @@
 			)
 		)
 		(property "MPN" "GRM033R6YA104KE14D"
-			(at 190.5 220.98 0)
+			(at 190.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +10054,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 190.5 220.98 0)
+			(at 190.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +10063,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 187.706 222.25 0)
+			(at 187.706 233.68 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10072,7 +10072,7 @@
 			)
 		)
 		(property "Tolerance" "10 %"
-			(at 187.706 223.266 0)
+			(at 187.706 234.696 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10081,7 +10081,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 187.706 224.282 0)
+			(at 187.706 235.712 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10090,7 +10090,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 187.706 225.298 0)
+			(at 187.706 236.728 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10099,7 +10099,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-10430-1-ND"
-			(at 190.5 220.98 0)
+			(at 190.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,102 +10224,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "R707")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Ferrite")
-		(at 120.65 190.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "415faaf3-a562-4dd4-bdec-c05091493cb1")
-		(property "Reference" "L701"
-			(at 120.65 184.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "MPZ1608S601ATA00"
-			(at 120.65 187.198 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 120.65 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor with ferrite core"
-			(at 120.65 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "445-MPZ1608S601ATA00CT-ND"
-			(at 120.65 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MPZ1608S601ATA00"
-			(at 120.65 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK Corporation"
-			(at 120.65 190.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fac007bb-c0a8-4341-a9d2-8d7b4e5ad1ac")
-		)
-		(pin "1"
-			(uuid "ded0a262-1e11-40c6-b182-a92290768272")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "L701")
 					(unit 1)
 				)
 			)
@@ -10903,7 +10807,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 220.98 0)
+		(at 165.1 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10911,7 +10815,7 @@
 		(dnp no)
 		(uuid "5c0781ba-b83a-4930-88b4-679768e66258")
 		(property "Reference" "C705"
-			(at 167.64 218.44 0)
+			(at 167.64 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10920,7 +10824,7 @@
 			)
 		)
 		(property "Value" "47 pF"
-			(at 167.64 220.218 0)
+			(at 167.64 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10929,7 +10833,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0201_0603Metric"
-			(at 166.0652 224.79 0)
+			(at 166.0652 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10938,7 +10842,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H470JA01-01.pdf"
-			(at 165.1 220.98 0)
+			(at 165.1 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10947,7 +10851,7 @@
 			)
 		)
 		(property "Description" "47 pF ±5% 50V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)"
-			(at 165.1 220.98 0)
+			(at 165.1 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10956,7 +10860,7 @@
 			)
 		)
 		(property "MPN" "GRM0335C1H470JA01D"
-			(at 165.1 220.98 0)
+			(at 165.1 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10965,7 +10869,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 165.1 220.98 0)
+			(at 165.1 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +10878,7 @@
 			)
 		)
 		(property "Voltage rating" "50 V"
-			(at 167.894 222.25 0)
+			(at 167.894 233.68 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10983,7 +10887,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 167.894 223.266 0)
+			(at 167.894 234.696 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -10992,7 +10896,7 @@
 			)
 		)
 		(property "Temperature coefficient" "C0G"
-			(at 167.894 224.282 0)
+			(at 167.894 235.712 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11001,7 +10905,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 167.894 225.298 0)
+			(at 167.894 236.728 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11010,7 +10914,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-6129-1-ND"
-			(at 165.1 220.98 0)
+			(at 165.1 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11865,7 +11769,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 203.2 220.98 0)
+		(at 203.2 232.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11874,7 +11778,7 @@
 		(dnp no)
 		(uuid "78f7a44a-cd2b-43d8-ac53-d6284a83cfd0")
 		(property "Reference" "C707"
-			(at 200.66 218.44 0)
+			(at 200.66 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11883,7 +11787,7 @@
 			)
 		)
 		(property "Value" "0.1 µF"
-			(at 200.66 220.218 0)
+			(at 200.66 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +11796,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0201_0603Metric"
-			(at 202.2348 224.79 0)
+			(at 202.2348 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11901,7 +11805,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R6YA104KE14-01.pdf"
-			(at 203.2 220.98 0)
+			(at 203.2 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11910,7 +11814,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 203.2 220.98 0)
+			(at 203.2 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,7 +11823,7 @@
 			)
 		)
 		(property "MPN" "GRM033R6YA104KE14D"
-			(at 203.2 220.98 0)
+			(at 203.2 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +11832,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 203.2 220.98 0)
+			(at 203.2 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +11841,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 200.406 222.25 0)
+			(at 200.406 233.68 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11946,7 +11850,7 @@
 			)
 		)
 		(property "Tolerance" "10 %"
-			(at 200.406 223.266 0)
+			(at 200.406 234.696 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11955,7 +11859,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 200.406 224.282 0)
+			(at 200.406 235.712 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11964,7 +11868,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 200.406 225.298 0)
+			(at 200.406 236.728 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11973,7 +11877,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-10430-1-ND"
-			(at 203.2 220.98 0)
+			(at 203.2 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +12372,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 160.02 220.98 0)
+		(at 160.02 232.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12477,7 +12381,7 @@
 		(dnp no)
 		(uuid "88438eef-5486-445f-b57a-decd17419c44")
 		(property "Reference" "C704"
-			(at 157.48 218.44 0)
+			(at 157.48 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12486,7 +12390,7 @@
 			)
 		)
 		(property "Value" "47 pF"
-			(at 157.48 220.218 0)
+			(at 157.48 231.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12495,7 +12399,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:C_0201_0603Metric"
-			(at 159.0548 224.79 0)
+			(at 159.0548 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12504,7 +12408,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM0335C1H470JA01-01.pdf"
-			(at 160.02 220.98 0)
+			(at 160.02 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12513,7 +12417,7 @@
 			)
 		)
 		(property "Description" "47 pF ±5% 50V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)"
-			(at 160.02 220.98 0)
+			(at 160.02 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12522,7 +12426,7 @@
 			)
 		)
 		(property "MPN" "GRM0335C1H470JA01D"
-			(at 160.02 220.98 0)
+			(at 160.02 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12531,7 +12435,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 160.02 220.98 0)
+			(at 160.02 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12540,7 +12444,7 @@
 			)
 		)
 		(property "Voltage rating" "50 V"
-			(at 157.226 222.25 0)
+			(at 157.226 233.68 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -12549,7 +12453,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 157.226 223.266 0)
+			(at 157.226 234.696 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -12558,7 +12462,7 @@
 			)
 		)
 		(property "Temperature coefficient" "C0G"
-			(at 157.226 224.282 0)
+			(at 157.226 235.712 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -12567,7 +12471,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 157.226 225.298 0)
+			(at 157.226 236.728 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -12576,7 +12480,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-6129-1-ND"
-			(at 160.02 220.98 0)
+			(at 160.02 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15660,6 +15564,102 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "D704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 120.65 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8283171-caa7-4336-8f5e-8ec4bd009f8f")
+		(property "Reference" "FB701"
+			(at 120.65 186.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "MPZ1608S601ATA00"
+			(at 120.65 188.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 120.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
+			(at 120.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 1A 150mOhm"
+			(at 120.65 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "445-MPZ1608S601ATA00CT-ND"
+			(at 120.65 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MPZ1608S601ATA00"
+			(at 120.65 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 120.65 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea0973c4-d9ae-4515-ba42-f6ecd910eff6")
+		)
+		(pin "1"
+			(uuid "401bb693-2c85-4524-8f6c-dfdc942d94b9")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "FB701")
 					(unit 1)
 				)
 			)
