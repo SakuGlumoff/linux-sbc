@@ -1640,189 +1640,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2409,6 +2226,189 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4620,11 +4620,12 @@
 	)
 	(text "PWR_IN"
 		(exclude_from_sim no)
-		(at 368.554 157.48 0)
+		(at 374.904 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify bottom)
 		)
 		(uuid "55df3679-c4c6-4e91-abf7-92217270605b")
 	)
@@ -4679,21 +4680,23 @@
 	)
 	(text "OCLO OK"
 		(exclude_from_sim no)
-		(at 368.3 218.44 0)
+		(at 374.65 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify bottom)
 		)
 		(uuid "cebabaaa-bb1a-4edd-b447-3f410d6701a6")
 	)
 	(text "UVLO OK"
 		(exclude_from_sim no)
-		(at 368.3 198.12 0)
+		(at 374.65 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify bottom)
 		)
 		(uuid "dcbb7640-baf1-462d-b6ff-613311808259")
 	)
@@ -4709,11 +4712,12 @@
 	)
 	(text "OVLO OK"
 		(exclude_from_sim no)
-		(at 368.3 177.8 0)
+		(at 374.65 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify bottom)
 		)
 		(uuid "f1eed630-dee4-487b-b7e1-03618227afbc")
 	)
@@ -5713,7 +5717,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 182.88) (xy 381 180.34)
+			(xy 387.35 182.88) (xy 387.35 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5853,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 200.66) (xy 364.49 200.66)
+			(xy 363.22 200.66) (xy 370.84 200.66)
 		)
 		(stroke
 			(width 0)
@@ -6423,7 +6427,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 160.02) (xy 364.49 160.02)
+			(xy 363.22 160.02) (xy 370.84 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6643,7 +6647,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 220.98) (xy 364.49 220.98)
+			(xy 363.22 220.98) (xy 370.84 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7313,7 +7317,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 180.34) (xy 381 180.34)
+			(xy 378.46 180.34) (xy 387.35 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7323,7 +7327,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 200.66) (xy 381 200.66)
+			(xy 378.46 200.66) (xy 387.35 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7493,7 +7497,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 220.98) (xy 381 220.98)
+			(xy 378.46 220.98) (xy 387.35 220.98)
 		)
 		(stroke
 			(width 0)
@@ -7623,7 +7627,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 160.02) (xy 381 160.02)
+			(xy 378.46 160.02) (xy 387.35 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7683,7 +7687,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 180.34) (xy 364.49 180.34)
+			(xy 363.22 180.34) (xy 370.84 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8233,7 +8237,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 223.52) (xy 381 220.98)
+			(xy 387.35 223.52) (xy 387.35 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8543,7 +8547,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 162.56) (xy 381 160.02)
+			(xy 387.35 162.56) (xy 387.35 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8753,7 +8757,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 203.2) (xy 381 200.66)
+			(xy 387.35 203.2) (xy 387.35 200.66)
 		)
 		(stroke
 			(width 0)
@@ -10067,103 +10071,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 368.3 160.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c649f2d-3fff-4cc3-8d7a-fd048d4ee166")
-		(property "Reference" "D205"
-			(at 368.3 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 368.3 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "150060RS75000"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "732-4978-1-ND"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e95e3fa-ac7d-454a-b1ac-b3f5f5acadc2")
-		)
-		(pin "1"
-			(uuid "e3e5a38c-ee31-4b2d-a624-2be85ef304d6")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "D205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 361.95 82.55 90)
 		(mirror x)
@@ -10331,6 +10238,218 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 220.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13eb84a9-df1d-4933-99c9-252fba1867e6")
+		(property "Reference" "D208"
+			(at 374.65 222.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RED"
+			(at 374.65 224.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 374.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+			(at 374.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 374.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 374.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 374.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "732-4978-1-ND"
+			(at 374.65 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0603"
+			(at 374.65 226.314 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "a8c1ad44-22b7-4608-ad9e-a3dca98c510e")
+		)
+		(pin "1"
+			(uuid "b383e65a-9fae-44ca-b107-4e143684ed73")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "D208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16dbd247-097e-43b4-939e-2c4d9ca3ea69")
+		(property "Reference" "D205"
+			(at 374.65 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RED"
+			(at 374.65 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "732-4978-1-ND"
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0603"
+			(at 374.65 165.354 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "b9d2a2ea-4c43-4312-ac56-b5c300b95f68")
+		)
+		(pin "1"
+			(uuid "a5bf3926-7fad-485e-8685-8dda2c38acd8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "D205")
 					(unit 1)
 				)
 			)
@@ -10688,7 +10807,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 381 203.2 0)
+		(at 387.35 203.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10697,7 +10816,7 @@
 		(fields_autoplaced yes)
 		(uuid "23474cef-34f1-4dcf-a98a-51980fd21ecd")
 		(property "Reference" "#PWR0209"
-			(at 381 209.55 0)
+			(at 387.35 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10825,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 381 208.28 0)
+			(at 387.35 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10715,7 +10834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 203.2 0)
+			(at 387.35 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 203.2 0)
+			(at 387.35 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,7 +10852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 381 203.2 0)
+			(at 387.35 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13023,7 +13142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/2920l_datasheet_update.pdf?assetguid=f237e8c2-1ed9-4c13-a738-dbe0738b3d2c"
 			(at 38.1 76.2 0)
 			(effects
 				(font
@@ -14194,6 +14313,112 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 200.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "662f32b8-15fb-4210-a089-22008fcbdbf6")
+		(property "Reference" "D207"
+			(at 374.65 202.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RED"
+			(at 374.65 204.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "732-4978-1-ND"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0603"
+			(at 374.65 205.994 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "eb25df8c-c588-4876-aa6d-38580a0951ff")
+		)
+		(pin "1"
+			(uuid "390b0535-3226-4658-a19a-cc6847d6d048")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "D207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 57.15 190.5 0)
 		(unit 1)
@@ -14875,7 +15100,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 381 182.88 0)
+		(at 387.35 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14884,7 +15109,7 @@
 		(fields_autoplaced yes)
 		(uuid "74ed069a-a56e-4493-9433-fe5ee80b552a")
 		(property "Reference" "#PWR0208"
-			(at 381 189.23 0)
+			(at 387.35 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14893,7 +15118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 381 187.96 0)
+			(at 387.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14902,7 +15127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 182.88 0)
+			(at 387.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14911,7 +15136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 182.88 0)
+			(at 387.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14920,7 +15145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 381 182.88 0)
+			(at 387.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15231,103 +15456,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "TP206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 368.3 220.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c0f555a-c9b2-4d71-a928-794a99a83afd")
-		(property "Reference" "D208"
-			(at 368.3 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 368.3 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 368.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 368.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 368.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "150060RS75000"
-			(at 368.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 368.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "732-4978-1-ND"
-			(at 368.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17b4449c-917a-440c-8e7e-f87c85998d3a")
-		)
-		(pin "1"
-			(uuid "f78e1aff-a7ab-4cca-b629-5cb7451105c9")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "D208")
 					(unit 1)
 				)
 			)
@@ -17197,103 +17325,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 368.3 200.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab02f159-f38a-4f15-9dec-33d7501fc56b")
-		(property "Reference" "D207"
-			(at 368.3 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 368.3 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 368.3 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 368.3 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 368.3 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "150060RS75000"
-			(at 368.3 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 368.3 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "732-4978-1-ND"
-			(at 368.3 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9618caeb-d590-4eb8-9df9-7ba09202edf3")
-		)
-		(pin "1"
-			(uuid "aa4c15ae-cd36-40a7-b1c0-f0acecca472c")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "D207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 287.02 200.66 0)
 		(mirror y)
@@ -18398,6 +18429,112 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 374.65 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c83c82bd-4713-4dda-a5d2-50697a057966")
+		(property "Reference" "D206"
+			(at 374.65 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "RED"
+			(at 374.65 183.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "732-4978-1-ND"
+			(at 374.65 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0603"
+			(at 374.65 185.674 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "5dca101c-52bf-4d81-af2a-c7fbf8d299ed")
+		)
+		(pin "1"
+			(uuid "3be5932a-ac15-4569-9a96-610433944f73")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "D206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Comparator:LM397")
 		(at 332.74 99.06 0)
 		(unit 1)
@@ -18768,7 +18905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
 			(at 273.05 217.678 90)
 			(effects
 				(font
@@ -18786,7 +18923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
 			(at 273.05 215.9 0)
 			(effects
 				(font
@@ -18795,7 +18932,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1000X"
+		(property "MPN" "ERJ-1GNF1000C"
 			(at 273.05 215.9 0)
 			(effects
 				(font
@@ -18831,7 +18968,7 @@
 				(justify right)
 			)
 		)
-		(property "Size" "0402"
+		(property "Size" "0201"
 			(at 270.51 214.122 90)
 			(effects
 				(font
@@ -18840,7 +18977,7 @@
 				(justify right)
 			)
 		)
-		(property "Digi-Key Part Number" "P100LCT-ND"
+		(property "Digi-Key Part Number" "P122654CT-ND"
 			(at 273.05 215.9 90)
 			(effects
 				(font
@@ -18933,7 +19070,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 381 162.56 0)
+		(at 387.35 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18942,7 +19079,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4f36d85-e25b-4c2c-bcec-ad96aff6422d")
 		(property "Reference" "#PWR0207"
-			(at 381 168.91 0)
+			(at 387.35 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18951,7 +19088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 381 167.64 0)
+			(at 387.35 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18960,7 +19097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 162.56 0)
+			(at 387.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18969,7 +19106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 162.56 0)
+			(at 387.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18978,7 +19115,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 381 162.56 0)
+			(at 387.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19192,103 +19329,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "#PWR0203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 368.3 180.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d82865bf-6535-4607-8484-0f1020f36eb1")
-		(property "Reference" "D206"
-			(at 368.3 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Value" "150060RS75000"
-			(at 368.3 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 368.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 368.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 368.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "150060RS75000"
-			(at 368.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 368.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "732-4978-1-ND"
-			(at 368.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b09bc84b-d31d-4ce8-a438-56a0f078fb34")
-		)
-		(pin "1"
-			(uuid "12fb7af4-ac3d-4e2f-b582-d0e5ed6381a8")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "D206")
 					(unit 1)
 				)
 			)
@@ -20703,7 +20743,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 381 223.52 0)
+		(at 387.35 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20712,7 +20752,7 @@
 		(fields_autoplaced yes)
 		(uuid "faefede0-9f2f-42b3-a174-3bf82551da9d")
 		(property "Reference" "#PWR0210"
-			(at 381 229.87 0)
+			(at 387.35 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20721,7 +20761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 381 228.6 0)
+			(at 387.35 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20730,7 +20770,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 223.52 0)
+			(at 387.35 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20739,7 +20779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381 223.52 0)
+			(at 387.35 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20748,7 +20788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 381 223.52 0)
+			(at 387.35 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
