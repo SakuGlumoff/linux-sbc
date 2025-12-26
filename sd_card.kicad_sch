@@ -1876,6 +1876,12 @@
 		(uuid "6bba5851-df3a-4940-8ed4-f81cbd9e8b78")
 	)
 	(junction
+		(at 189.23 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7d0877-ffe4-4c9f-9c81-fc7b9a27d2a3")
+	)
+	(junction
 		(at 242.57 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1916,12 +1922,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f52c7f5f-0b5c-4235-9643-8621eb986708")
-	)
-	(junction
-		(at 177.8 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6300ee1-932a-4bed-a51b-da89f6d1794b")
 	)
 	(junction
 		(at 203.2 134.62)
@@ -2164,6 +2164,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 137.16) (xy 190.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d2c2dd-25b5-4f0f-bc85-6c6803a98826")
+	)
+	(wire
+		(pts
 			(xy 237.49 167.64) (xy 299.72 167.64)
 		)
 		(stroke
@@ -2254,23 +2264,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 124.46) (xy 177.8 137.16)
+			(xy 189.23 124.46) (xy 189.23 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c1fcd02-f433-422f-b31d-41114900d4e1")
-	)
-	(wire
-		(pts
-			(xy 177.8 137.16) (xy 190.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da823f6-4fa5-4d3d-8bc1-4b6f05adb2f1")
 	)
 	(wire
 		(pts
@@ -2304,7 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 111.76) (xy 177.8 111.76)
+			(xy 187.96 115.57) (xy 189.23 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2334,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 111.76) (xy 177.8 116.84)
+			(xy 189.23 115.57) (xy 189.23 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2344,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 137.16) (xy 177.8 137.16)
+			(xy 130.81 137.16) (xy 189.23 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2737,7 +2737,7 @@
 	)
 	(hierarchical_label "VDD_SD_IO"
 		(shape input)
-		(at 163.83 111.76 180)
+		(at 187.96 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2840,7 +2840,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 177.8 120.65 0)
+		(at 189.23 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2848,7 +2848,7 @@
 		(dnp no)
 		(uuid "30cf9683-ff0e-4c14-99d4-a7bffbf1f320")
 		(property "Reference" "R1109"
-			(at 179.07 117.602 0)
+			(at 190.5 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2857,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 179.07 119.38 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2866,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 176.022 120.65 90)
+			(at 187.452 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2875,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 177.8 120.65 0)
+			(at 189.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 177.8 120.65 0)
+			(at 189.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +2893,7 @@
 			)
 		)
 		(property "MPN" "ERJ-1GNF1002C"
-			(at 177.8 120.65 0)
+			(at 189.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2902,7 +2902,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 177.8 120.65 0)
+			(at 189.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +2911,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 179.07 120.65 0)
+			(at 190.5 120.65 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2920,7 +2920,7 @@
 			)
 		)
 		(property "Power rating" "0.05 W"
-			(at 179.07 121.92 0)
+			(at 190.5 121.92 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2929,7 +2929,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 179.07 123.1901 0)
+			(at 190.5 123.1901 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2938,7 +2938,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P122414CT-ND"
-			(at 177.8 120.65 0)
+			(at 189.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

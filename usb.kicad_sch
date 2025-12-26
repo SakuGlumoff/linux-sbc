@@ -4166,6 +4166,12 @@
 		(uuid "d9dc5dc7-c6df-4170-8284-85856a338bdf")
 	)
 	(junction
+		(at 50.8 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dab68300-01de-492f-bf41-deebfe688d01")
+	)
+	(junction
 		(at 292.1 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4200,12 +4206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eea6985a-7ab8-4b2e-89c6-0190fa663154")
-	)
-	(junction
-		(at 50.8 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef877e4a-e320-4cac-8663-11e6b3350d6d")
 	)
 	(junction
 		(at 227.33 105.41)
@@ -4702,6 +4702,16 @@
 			(type default)
 		)
 		(uuid "23197bb4-ab2a-48f3-821b-065b66b0f9fe")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 50.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232d170d-c90e-476e-8ecc-9e939d8934b0")
 	)
 	(wire
 		(pts
@@ -6642,16 +6652,6 @@
 			(type default)
 		)
 		(uuid "dea1bedc-cf26-45ae-bdcd-c5e8e38da3c4")
-	)
-	(wire
-		(pts
-			(xy 44.45 87.63) (xy 50.8 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0596bf2-37c2-4407-b768-b5136bc99fba")
 	)
 	(wire
 		(pts
@@ -8642,17 +8642,6 @@
 		)
 		(uuid "fe09dff1-d508-413c-a85f-353c7cd846f1")
 	)
-	(hierarchical_label "VDD_3V3"
-		(shape input)
-		(at 44.45 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2481619d-cb0e-4b2d-9d10-722296177630")
-	)
 	(hierarchical_label "{USB}"
 		(shape bidirectional)
 		(at 44.45 124.46 180)
@@ -8953,10 +8942,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6740b261-e599-4d13-8599-f2122c82bebb")
+			(uuid "2b245715-c3c5-4b71-8735-b0d7d4aa0d3b")
 		)
 		(pin "1"
-			(uuid "01b0f779-5b9c-456a-b285-d9fd30e6ebba")
+			(uuid "7eec4ca4-677b-4a72-902c-4ac061f270c8")
 		)
 		(instances
 			(project "linux-sbc"
@@ -9085,10 +9074,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fe4133e0-59f1-4030-afe8-062a996bfbd2")
+			(uuid "3482ad80-9740-4d67-b3e3-be388b11f6b0")
 		)
 		(pin "1"
-			(uuid "14917d53-a8a8-4574-9f73-75eed8ddf9e6")
+			(uuid "b339eb6d-b4dd-47e5-b95f-5aa995074070")
 		)
 		(instances
 			(project "linux-sbc"
@@ -9210,10 +9199,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f595b61-5296-453d-8631-ba282c0b58ac")
+			(uuid "e510c48c-5ba7-4ffc-bf22-ad9ff2953d51")
 		)
 		(pin "1"
-			(uuid "bb6a62c5-38bf-4309-9696-a94a07a1bf20")
+			(uuid "d9efef93-5414-43ca-9308-dbc9829287f6")
 		)
 		(instances
 			(project "linux-sbc"
@@ -9343,10 +9332,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d57e691f-6b90-4926-bd9b-f0c631fa2a26")
+			(uuid "932fe9ca-9fb5-45f3-8806-571891c2f5f1")
 		)
 		(pin "1"
-			(uuid "d77e3bee-45fb-4192-99af-ca51c70b5627")
+			(uuid "7e03bcad-dd32-4631-927f-7ae375627e9d")
 		)
 		(instances
 			(project "linux-sbc"
@@ -9413,7 +9402,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3dc4247-aa1a-4423-b05b-fd7bdcd14e25")
+			(uuid "35a6b9af-d34c-4e68-b31f-2bb58c1ce3ac")
 		)
 		(instances
 			(project "linux-sbc"
@@ -9434,7 +9423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a21bab9-d417-4fb0-9585-7b0488ed5a89")
-		(property "Reference" "#PWR0912"
+		(property "Reference" "#PWR0913"
 			(at 396.24 148.59 0)
 			(effects
 				(font
@@ -9480,12 +9469,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "412a40d3-6da6-4d80-ade3-ae6d967bb711")
+			(uuid "a08e6bf1-4db4-4f7c-bf2e-c50cd0958dd0")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0912")
+					(reference "#PWR0913")
 					(unit 1)
 				)
 			)
@@ -9500,7 +9489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b2e5751-f7be-4f50-a11f-559e338eb821")
-		(property "Reference" "#PWR0908"
+		(property "Reference" "#PWR0909"
 			(at 227.33 107.95 0)
 			(effects
 				(font
@@ -9546,12 +9535,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8cae1a4e-4bbd-4e9d-906c-55fa61627041")
+			(uuid "4034262d-abd6-4c5e-bda2-871848aca2e3")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0908")
+					(reference "#PWR0909")
 					(unit 1)
 				)
 			)
@@ -9639,115 +9628,115 @@
 			)
 		)
 		(pin "30"
-			(uuid "40287c7a-6ca0-4ab0-b966-bdc6d103de6a")
+			(uuid "fca57e61-59b2-477f-9789-e44d7fbec70e")
 		)
 		(pin "14"
-			(uuid "fd1dcaee-fe21-4d4c-8b08-dc1c2f71cf15")
+			(uuid "8c72bfed-f25c-40d9-b265-a1cdaa3c0b8a")
 		)
 		(pin "10"
-			(uuid "af077d99-f5d5-48a4-b886-50b118c014a6")
+			(uuid "567a6e62-25b7-4016-9da6-20b8e5073e8d")
 		)
 		(pin "31"
-			(uuid "2185a9de-12fb-4daf-a106-a862092032f7")
+			(uuid "7044a4b9-64da-43fd-99e6-c984150baf4f")
 		)
 		(pin "34"
-			(uuid "0d9318e0-5df3-4dec-8492-e37ba28a0f00")
+			(uuid "b4e84861-ce00-4309-825f-d795dcfa0c36")
 		)
 		(pin "24"
-			(uuid "a4750ed4-a70c-439f-ad8c-d22dbe77aa5a")
+			(uuid "f219f6ac-67f4-40a5-b865-149a91dd5adc")
 		)
 		(pin "22"
-			(uuid "525efc22-826e-441b-8afb-8377cb7188da")
+			(uuid "b07b53ff-71f6-470c-8ba6-ccdf733a83e3")
 		)
 		(pin "32"
-			(uuid "cec374c8-92ba-448c-95cd-91e2a0be0ad0")
+			(uuid "1c5d9a38-dac9-4cb4-9657-4288857b8e55")
 		)
 		(pin "28"
-			(uuid "f373572c-eaf3-4039-8d47-e8281913f885")
+			(uuid "abebcbfe-05da-469a-a91e-79ad38583c26")
 		)
 		(pin "33"
-			(uuid "138bea31-8418-47f3-adb7-4f0f665ad65e")
+			(uuid "8edbaabd-0c5e-4943-aed1-dc623826a70b")
 		)
 		(pin "25"
-			(uuid "1d975c54-8cd0-4e33-af78-5ae6b0ecaed7")
+			(uuid "931edf1d-1892-43f0-80f1-801c5e5d8d47")
 		)
 		(pin "27"
-			(uuid "87eb177a-aaaa-45d1-b78a-e1725558f1b3")
+			(uuid "5530edfb-28b9-4654-bdfb-b869f279a3d0")
 		)
 		(pin "26"
-			(uuid "9af8ac87-d905-446c-b014-53614f8fb66b")
+			(uuid "7333f4b9-b7b3-4a9c-b99b-798feba80bdd")
 		)
 		(pin "11"
-			(uuid "99e514df-6bb5-40e9-83bc-6540d4934b14")
+			(uuid "041c3cf3-8c9a-41ec-9e47-01bc565df526")
 		)
 		(pin "35"
-			(uuid "4e4b3330-8889-4273-9ce8-931c1fffb692")
+			(uuid "372ee697-66c5-4f20-a0a0-8cb203728d45")
 		)
 		(pin "5"
-			(uuid "3fb2b58d-9c3e-4b49-9482-2b566e0a2215")
+			(uuid "fc4ba55d-5fcd-4cb7-a1eb-d7becc2383aa")
 		)
 		(pin "29"
-			(uuid "8c1af1d0-b0ae-4eca-a7c3-f66066ffa281")
+			(uuid "6a4b9710-af6e-4117-9cc6-98cca3a9a049")
 		)
 		(pin "36"
-			(uuid "4d3d7672-555f-4e4e-8af4-72a25db9156c")
+			(uuid "36abc5da-5ce9-4ad6-b7ea-a4ca023749e7")
 		)
 		(pin "37"
-			(uuid "ae786e98-2936-471c-b3ca-9e97e432cb5e")
+			(uuid "741d08d0-0264-4812-9165-f61b36c04a2d")
 		)
 		(pin "15"
-			(uuid "ac016309-6bdd-4843-91a9-b473b4db998e")
+			(uuid "3554c3ce-f0b3-4460-b603-e2f9f5db90b9")
 		)
 		(pin "23"
-			(uuid "eedabca7-5151-4f4a-b74e-0e26e100b9a0")
+			(uuid "3bd9f471-015f-4244-82e6-0ae130fc27c9")
 		)
 		(pin "1"
-			(uuid "349cbf2b-899c-432a-9ef8-9778c45392aa")
+			(uuid "777f9917-37f4-4b47-b4a5-12e9f43cf635")
 		)
 		(pin "2"
-			(uuid "bbfabd5b-d23a-47d0-bdb1-fdb5a2e22686")
+			(uuid "baec5cc0-fce0-499d-ab74-fc56ba3a18e7")
 		)
 		(pin "8"
-			(uuid "01eba96a-c003-448a-acc7-e49f79081615")
+			(uuid "a4365808-8862-4908-96cf-6eceed97b9f3")
 		)
 		(pin "12"
-			(uuid "778ca4ed-62c0-4ec8-a3b9-a4d064f41708")
+			(uuid "24ecf3d9-67e1-44d9-ba08-d29dcf580ffe")
 		)
 		(pin "20"
-			(uuid "76faa379-a6a0-49e9-99fa-379f7a5e9238")
+			(uuid "202d941c-f1f1-4690-93cb-304bb63b4a69")
 		)
 		(pin "7"
-			(uuid "f9f1d5f3-4405-45ea-9e29-a2de772a1e26")
+			(uuid "9633369c-7272-482f-b24d-d79f024ab6fd")
 		)
 		(pin "17"
-			(uuid "ac3747fe-a1e6-48ee-9441-661c9e07f833")
+			(uuid "6513d3b9-82fd-474f-ba5a-6dcc54ea51b6")
 		)
 		(pin "4"
-			(uuid "5872b0b4-24c3-451a-b6ac-5c4ff31fdee7")
+			(uuid "4703c35f-5630-45f2-a6fe-ec6b9e65f8b0")
 		)
 		(pin "16"
-			(uuid "e3e5e75b-7222-4d03-adcd-7d84e322b5b0")
+			(uuid "2de91960-a63f-4c60-8943-9d8bbdcf2f79")
 		)
 		(pin "19"
-			(uuid "834abb06-3d12-4fcf-ba84-f6cd6788798f")
+			(uuid "39f26706-7d7c-4f66-a09e-fd0dc289a0a7")
 		)
 		(pin "21"
-			(uuid "fffe8e2d-71f0-43ce-a357-759c3073ed0d")
+			(uuid "716c331e-1c8c-4304-bb27-b23ab2b0445f")
 		)
 		(pin "13"
-			(uuid "7c61e828-518d-4bbe-8555-2cf3312d7081")
+			(uuid "90b44585-541f-4b35-bdfc-560c81cf8a19")
 		)
 		(pin "6"
-			(uuid "1fd42101-b7c0-4a02-b229-f9de5b9ce42f")
+			(uuid "ef9aeb2d-812b-40d3-9fb5-b848376070c7")
 		)
 		(pin "9"
-			(uuid "c3e4bc15-091f-46cf-9df1-030fb6e8b7ee")
+			(uuid "d5ec4333-bb0f-4828-9642-a01056c11a83")
 		)
 		(pin "18"
-			(uuid "601ae1ba-c828-430b-91bd-7da9ef39e75d")
+			(uuid "f48f2f89-7e13-4a80-93fc-8c05280a6943")
 		)
 		(pin "3"
-			(uuid "1e4d6ccd-a3cd-49dd-92f5-47bd3a416047")
+			(uuid "bd2e783e-3e9b-495f-abd6-c625a1267460")
 		)
 		(instances
 			(project ""
@@ -9869,10 +9858,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2240c6f3-1d6a-43fd-b151-d431aae7480b")
+			(uuid "30fd2c81-4b3b-4e44-9cc2-a5c7ec9a61fb")
 		)
 		(pin "1"
-			(uuid "a0f2d326-311b-4b10-8340-c6bb41c0e374")
+			(uuid "d12160b7-9e05-42ce-852e-2c0ccffa1643")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10001,10 +9990,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "b88d7cb2-08d0-4b9a-bfaa-90a8990efaaf")
+			(uuid "223dcf6d-d51d-4470-81d4-95f59741aa13")
 		)
 		(pin "2"
-			(uuid "c16b4b9e-d87c-4546-a5a3-e02246faf5b8")
+			(uuid "b208b4df-0334-4b44-b62a-cea9c47f476e")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10126,10 +10115,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "607a7bb6-6278-41ca-8701-2a414a3b92bb")
+			(uuid "76f33e5a-82ed-4525-8e95-90404cb7e3eb")
 		)
 		(pin "1"
-			(uuid "3d10579b-e318-476c-9c59-b1610900cd9c")
+			(uuid "38a48b96-7f81-48dc-a475-2974645cb0a9")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10149,7 +10138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32434d64-aa7e-4da1-af73-9472c6d367e5")
-		(property "Reference" "#PWR0910"
+		(property "Reference" "#PWR0911"
 			(at 227.33 156.21 0)
 			(effects
 				(font
@@ -10195,12 +10184,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "af0ebdd3-bb83-43ce-9750-1f4aabfbc92b")
+			(uuid "d0d0717e-47f4-48ca-9553-843041c4028b")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0910")
+					(reference "#PWR0911")
 					(unit 1)
 				)
 			)
@@ -10216,7 +10205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c8b935f-9bec-4377-a6d6-28ed73bdcf75")
-		(property "Reference" "#PWR0911"
+		(property "Reference" "#PWR0912"
 			(at 227.33 195.58 0)
 			(effects
 				(font
@@ -10262,12 +10251,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a010b0c-8614-41ae-ae9a-68e6918d1e84")
+			(uuid "1bb7295e-0dd7-40a1-a2d4-1b1c6c8ab679")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0911")
+					(reference "#PWR0912")
 					(unit 1)
 				)
 			)
@@ -10329,7 +10318,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5800b06-14ef-4997-9b61-26b7cab4cb4c")
+			(uuid "45855ec2-ecb0-4ade-94dd-e972ecb2328f")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10396,7 +10385,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d8cbf07-cc7e-4cb9-af60-640ff9372d93")
+			(uuid "9cf1bec4-43cf-4035-95a2-6f761c8c1bf7")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10462,7 +10451,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "072a97ac-0918-4dad-b69e-81cc59e60369")
+			(uuid "1b505603-865a-4801-98bc-d157ce66d9b1")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10584,10 +10573,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "edb46ae3-eabd-4e20-9859-26860d3a23a1")
+			(uuid "da5150fa-ae80-4e9e-9397-ccdfd01c5c32")
 		)
 		(pin "1"
-			(uuid "5e9dc246-57de-437f-86a2-8ec4c64d504f")
+			(uuid "28d255fd-ec6d-4b2f-8dad-ff17aa9f72f1")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10653,7 +10642,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bc84695-8292-4a5b-89d3-220587954c4a")
+			(uuid "9cbd9d4a-9b66-4c29-a7be-34574e09263a")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10748,31 +10737,31 @@
 			)
 		)
 		(pin "9"
-			(uuid "0d38dac0-e260-479a-b13e-b6e1574f39a6")
+			(uuid "5c63c0ab-0e65-47e9-a6bb-53127b825238")
 		)
 		(pin "5"
-			(uuid "3b76f918-122c-44db-84b1-b0e03b44063a")
+			(uuid "854eb2d1-a4a9-46b4-ab20-b4ee43da88a6")
 		)
 		(pin "3"
-			(uuid "88e015b8-1530-43f5-b738-d61d59c11263")
+			(uuid "c1a19597-568c-4f5e-aa6f-a451ebad99da")
 		)
 		(pin "7"
-			(uuid "7ffff81a-c371-42fc-b275-1b6b384eaa4e")
+			(uuid "d5da7024-f1fb-47af-b7de-c0e114a15df9")
 		)
 		(pin "6"
-			(uuid "3a280bf2-2a59-4b91-addd-5a14ffd87066")
+			(uuid "55cecb39-6688-4e17-8f7b-fdb371066e5f")
 		)
 		(pin "1"
-			(uuid "4e34fe92-69b4-4cfd-990f-d8e086ec12aa")
+			(uuid "007c41f5-a0b4-4f8e-8251-99f830ac24e2")
 		)
 		(pin "4"
-			(uuid "f70a3160-bcbb-4eee-a791-8738f4d4a97d")
+			(uuid "0e8f4252-f8f3-41ab-b18f-cde1fe7c8728")
 		)
 		(pin "8"
-			(uuid "0bc55dbe-8c8d-4cf5-9f2f-6ef47c0efbca")
+			(uuid "f64ec877-0fe8-417d-a5b5-888de21d4fb5")
 		)
 		(pin "2"
-			(uuid "a9ed1e50-5c29-447f-a9bb-7bf8610fc7b5")
+			(uuid "770a207f-df4c-4959-8bf9-d2fb2e8538ed")
 		)
 		(instances
 			(project "linux-sbc"
@@ -10893,10 +10882,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "83b3b353-99d7-4786-9bdb-707e0639cd89")
+			(uuid "add88021-7b69-4e8a-8a85-69b5e002cabd")
 		)
 		(pin "1"
-			(uuid "1c39b578-5bed-4763-802d-f2b5a547e1d9")
+			(uuid "aa8565c6-9f0f-4b05-831f-30b99ca7a487")
 		)
 		(instances
 			(project "linux-sbc"
@@ -11026,10 +11015,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2fd45708-9810-4b08-af58-af583a0c7a18")
+			(uuid "e364073f-46f2-470a-986c-6dea5f67501b")
 		)
 		(pin "1"
-			(uuid "89b882a5-8a87-4525-952a-e1e0c48ff607")
+			(uuid "2340a2e8-a47c-4fff-abbd-62e503da374e")
 		)
 		(instances
 			(project "linux-sbc"
@@ -11159,10 +11148,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "20b0e7a8-b0d5-43aa-8cd1-4568de3b8698")
+			(uuid "9c0b0bf0-ce37-4b41-87b6-07ac860bfd61")
 		)
 		(pin "2"
-			(uuid "202f0da3-7b6e-49b7-822d-2265732b2873")
+			(uuid "b3e672c3-4632-44ca-bb67-57822e22a00e")
 		)
 		(instances
 			(project "linux-sbc"
@@ -11259,22 +11248,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "47c09549-7347-4c6b-b437-737b9e66a0bc")
+			(uuid "5a24ca69-a944-43ef-b7ba-92d3a9ea63c6")
 		)
 		(pin "6"
-			(uuid "011115d4-d813-4c02-8580-3bb0d41a30f3")
+			(uuid "10e2297f-ffe7-4a84-a83c-6cf9840f10d3")
 		)
 		(pin "5"
-			(uuid "741bf5c0-d787-4000-b169-d9ad987d5e46")
+			(uuid "96fc751e-cff9-42d0-83e7-2294e82d1c25")
 		)
 		(pin "1"
-			(uuid "c71025f3-1782-425d-9555-6b8623187178")
+			(uuid "79be11cf-9d77-4101-84f9-f5792c4aa21f")
 		)
 		(pin "2"
-			(uuid "0b1bf988-8775-44f5-88aa-fb0eb849207e")
+			(uuid "91ed1164-cefb-4234-81bc-3b64eca7fd7a")
 		)
 		(pin "4"
-			(uuid "7ef1e89b-af79-427e-9081-899e6cf29e23")
+			(uuid "597d9f51-5e25-458c-8ca3-6ea9adb9797e")
 		)
 		(instances
 			(project "linux-sbc"
@@ -11396,10 +11385,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "72fb59de-eb5a-4ba5-8b0c-a7997689c51e")
+			(uuid "75d1b0d3-8dde-44ce-bf30-0192582497a0")
 		)
 		(pin "1"
-			(uuid "73d50373-79a9-4732-b415-4a04a492472f")
+			(uuid "40fbabdd-0183-4f47-8b37-2368fbafde25")
 		)
 		(instances
 			(project "linux-sbc"
@@ -11420,7 +11409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "623778ce-808f-4af4-aa24-dfa476a04532")
-		(property "Reference" "#PWR0906"
+		(property "Reference" "#PWR0907"
 			(at 143.51 219.71 0)
 			(effects
 				(font
@@ -11466,12 +11455,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "38ba8c68-9e8d-4a5f-b4d7-bf407c8abaa3")
+			(uuid "e3fb464d-3fd0-4b2b-aae5-1384e8ee8761")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0906")
+					(reference "#PWR0907")
 					(unit 1)
 				)
 			)
@@ -11595,10 +11584,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6fd4f060-0393-4b86-95bf-7622fe3d7c27")
+			(uuid "8f88d655-c326-43c4-b0e9-7280abf101be")
 		)
 		(pin "1"
-			(uuid "0e02046f-c923-4a87-95c4-3565ea8d220e")
+			(uuid "d60ca9e8-0cd9-4cb2-b86c-4c085eb85113")
 		)
 		(instances
 			(project "linux-sbc"
@@ -11727,10 +11716,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "54cce7c0-302a-40c4-bc91-5b4daa8f4092")
+			(uuid "b91ca803-8bbe-4e5e-b995-71c53b9ba2b2")
 		)
 		(pin "1"
-			(uuid "e487df9b-76b5-410f-a50d-148ee9e5bcf1")
+			(uuid "0602115e-35fa-451f-b57e-5c6bed971976")
 		)
 		(instances
 			(project "linux-sbc"
@@ -11823,37 +11812,37 @@
 			)
 		)
 		(pin "13"
-			(uuid "d92be2d1-d1e1-4dab-9ecd-c307ad3cbe37")
+			(uuid "2a62bdf0-5d59-4815-8353-8088b0fe67cb")
 		)
 		(pin "15"
-			(uuid "ee529618-2028-4067-831f-dbb9f16542f3")
+			(uuid "3095d723-d901-49c6-8aa5-b33ec8f1fe91")
 		)
 		(pin "3"
-			(uuid "4819cd62-9ab0-41a5-b5c6-f3b24f0cb2ec")
+			(uuid "5a370040-dccc-4a13-8579-e58f7cfe170b")
 		)
 		(pin "1"
-			(uuid "02f16b7a-977f-4908-841c-7f8b211f6005")
+			(uuid "03c8ae17-ec97-4d61-9a53-6a94eabc62b9")
 		)
 		(pin "4"
-			(uuid "465f24dc-0725-4e3e-9675-c3715bccaaed")
+			(uuid "1932e3ad-ae30-4220-929f-8a7ea81b85b0")
 		)
 		(pin "12"
-			(uuid "751af14d-2850-452c-868b-768b8d4e9bfa")
+			(uuid "1eace047-93b3-401e-8f82-1d2274ed8e39")
 		)
 		(pin "5"
-			(uuid "12ff5214-ace4-4224-bbe8-9bb01f8a8f0e")
+			(uuid "dddfa63e-24fb-47e2-ba87-d7242e123ef0")
 		)
 		(pin "10"
-			(uuid "1d72ea88-ff51-4a9d-b3f1-a552f47cebd3")
+			(uuid "f2c80f27-0cd4-43dd-be4a-b97b5d85cce3")
 		)
 		(pin "6"
-			(uuid "7d25fa15-41f5-4fdb-872f-ac4263084c0d")
+			(uuid "6b2af72a-56b4-4702-b55b-b7f13d356a7d")
 		)
 		(pin "11"
-			(uuid "6dddc95e-0513-4cfb-bcd0-84871db3bc37")
+			(uuid "9d0d5a25-1a06-4d45-ab28-cd326d3fd838")
 		)
 		(pin "8"
-			(uuid "747bc08d-dc67-4420-9bca-b14a013f3971")
+			(uuid "7035c7fb-4f53-4de4-a3e7-c205d0430e44")
 		)
 		(instances
 			(project ""
@@ -11982,10 +11971,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "82baf434-e3bf-4a8e-97cc-7d83567f3081")
+			(uuid "b6b5837c-75eb-415a-a9ee-493d2ae6ff3c")
 		)
 		(pin "1"
-			(uuid "b36e2c46-73fc-49b3-9f81-a10466738dd2")
+			(uuid "a2b65875-4487-45bc-ae5c-ce8c0ea936cf")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12114,10 +12103,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1f43aa7f-ed14-4ba9-baad-62aa77cd9803")
+			(uuid "65501f9f-f411-4654-a1d0-a5087e54ace5")
 		)
 		(pin "1"
-			(uuid "2d97468a-fc96-463a-8994-1d2e018880ac")
+			(uuid "83403fde-e8e9-412a-9901-dd12adf79501")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12246,10 +12235,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6429d263-b67b-465e-96e9-08df567a9999")
+			(uuid "6a83ea2c-49fb-4e40-ba6f-a64c4f284061")
 		)
 		(pin "1"
-			(uuid "9bed7d18-76f3-405b-9b0a-242253b8345c")
+			(uuid "09d1c540-2191-45ab-9486-ea7cc75b657d")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12378,10 +12367,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6dbcba59-d513-4abb-8511-c0fc46ef6781")
+			(uuid "4469a7ea-6828-4044-80ab-e98be4ea1813")
 		)
 		(pin "1"
-			(uuid "1662f4da-6b3d-441a-87bf-1c5996d2692b")
+			(uuid "db291560-9496-4d19-bf70-07da30724432")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12447,7 +12436,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7359288-84c6-4732-8382-baafa39a1a3c")
+			(uuid "1b04a031-bf61-414f-bdd8-5c87b2e3bb68")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12568,10 +12557,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc5c2637-f2f5-4362-8610-beea274a70bc")
+			(uuid "037944a7-912f-4458-906b-f2e10a7fc3a6")
 		)
 		(pin "1"
-			(uuid "15122b28-1c7f-42d5-b852-48d7758efea4")
+			(uuid "b95d94cb-f62f-4bf9-b1ce-25851ce2f0f6")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12701,10 +12690,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "07d4a457-387f-4c86-bf73-961d1d1e420e")
+			(uuid "4b049c65-4cc5-48cd-b43a-dec4f2663f50")
 		)
 		(pin "1"
-			(uuid "02fcb668-1870-426e-8be3-3bd80ed40042")
+			(uuid "09747d9f-13eb-486b-b7be-d1238823619e")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12833,10 +12822,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a1bfb1ae-52d5-41a5-b94e-8b10cdc725dd")
+			(uuid "8936bbf1-c49a-4c80-b642-c6d4c95f4b80")
 		)
 		(pin "1"
-			(uuid "68a2129d-598f-4366-bb42-c87fb824ee4e")
+			(uuid "a8ad47c9-7655-4762-908b-540f9c00c0c8")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12965,10 +12954,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2666c5df-4c7c-4f23-a040-123efa3e65f0")
+			(uuid "2f8fdb34-2c7d-417f-bf32-33c74a396cd8")
 		)
 		(pin "1"
-			(uuid "f459374f-4188-464e-a2fa-fd3da4b2dd1b")
+			(uuid "0ae1d178-df40-4e6a-a17a-3d0b49ba486a")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12989,7 +12978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8918fe06-2124-445b-8aed-30255107f4a6")
-		(property "Reference" "#PWR0913"
+		(property "Reference" "#PWR0914"
 			(at 396.24 196.85 0)
 			(effects
 				(font
@@ -13035,12 +13024,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "62ad9dab-6252-4f6d-bbc1-5bac4bbe6205")
+			(uuid "e44fbb7e-3775-4ed4-9132-7f11c238e28a")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0913")
+					(reference "#PWR0914")
 					(unit 1)
 				)
 			)
@@ -13157,10 +13146,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "62f189c7-b837-4a4f-861a-0713571ce690")
+			(uuid "185ce588-3a9e-4ae8-bf04-cfa05a0032fa")
 		)
 		(pin "1"
-			(uuid "b0e23e09-0676-4630-8fa9-dd1a8e41af80")
+			(uuid "6a0036ac-5776-47a5-bc6b-6a336cb15668")
 		)
 		(instances
 			(project "linux-sbc"
@@ -13253,37 +13242,37 @@
 			)
 		)
 		(pin "13"
-			(uuid "6a4d5240-84e8-4cad-bb00-aa1daaf76b7b")
+			(uuid "61c9b4ce-c1bb-4833-9216-8932e0f78418")
 		)
 		(pin "15"
-			(uuid "7be7f78d-ae0b-4d5f-9191-447d0054d1d6")
+			(uuid "ede4a225-fa2a-4ae9-9c51-1416138fabf8")
 		)
 		(pin "3"
-			(uuid "a066daab-32d2-4c92-8804-ba24c80b0469")
+			(uuid "3efb5b0d-fe66-455b-b66f-d2bc46aa8e4a")
 		)
 		(pin "1"
-			(uuid "a0d55ad7-d2d0-4240-bd11-ed7d8dcdd1d1")
+			(uuid "7845b826-7ef6-4997-9884-80bf7eb6280a")
 		)
 		(pin "4"
-			(uuid "6d7691ed-625c-4fb5-b8fa-c9160002784a")
+			(uuid "5d0228e4-b6b0-4a0e-a52f-d3438b7cbdf4")
 		)
 		(pin "12"
-			(uuid "fc1408c1-1d2f-4f62-8bb4-5fb41b726546")
+			(uuid "f7aa0991-15d9-47a3-86b2-dcd8917160dc")
 		)
 		(pin "5"
-			(uuid "dc0f195f-0949-44b7-8ec9-1ae01be074f3")
+			(uuid "1338dbc9-4067-41c4-9e46-8bc60e53848e")
 		)
 		(pin "10"
-			(uuid "d5ff0a59-e9b8-4118-914e-1806689cfc69")
+			(uuid "9d43800f-b058-4946-87ef-39e12970aa47")
 		)
 		(pin "6"
-			(uuid "06ade062-4c10-456f-964b-daac4eaced7e")
+			(uuid "55c9ebd5-8581-47f5-b60c-1feaa11f5de4")
 		)
 		(pin "11"
-			(uuid "f7036fcf-9c4a-4271-ab33-346b6076d5b5")
+			(uuid "d011091a-39eb-4942-b9fc-979191347ef7")
 		)
 		(pin "8"
-			(uuid "c81627fe-67b2-4a3d-9313-b3594f0c02d6")
+			(uuid "2e5fc8af-3089-48b3-927b-fdacb0e3d84a")
 		)
 		(instances
 			(project "linux-sbc"
@@ -13412,10 +13401,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "db6346e3-34a2-4653-93fe-b95516f0786e")
+			(uuid "63891554-d030-49ca-84a1-64269542cc55")
 		)
 		(pin "1"
-			(uuid "b81b2849-00b5-4faa-ae23-8cd2766eaaba")
+			(uuid "036f735b-0a53-4019-90bd-ec142ea63e18")
 		)
 		(instances
 			(project "linux-sbc"
@@ -13537,10 +13526,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e6548469-f31a-438f-9a5b-998b4b40c916")
+			(uuid "d0dbff07-e198-4836-83a5-1c804a92a273")
 		)
 		(pin "1"
-			(uuid "21ff13e4-233c-4fe5-821b-2cc404196cc6")
+			(uuid "783cc526-e35f-421c-9c96-d7a16dcd4a51")
 		)
 		(instances
 			(project "linux-sbc"
@@ -13561,7 +13550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8adbfdb-d46d-4129-bb16-14bd968c8f37")
-		(property "Reference" "#PWR0909"
+		(property "Reference" "#PWR0910"
 			(at 227.33 147.32 0)
 			(effects
 				(font
@@ -13607,12 +13596,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e556b77d-be84-4154-997a-2f26e2a0d073")
+			(uuid "29c97b69-ab17-4cda-8b26-b23baa12554e")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0909")
+					(reference "#PWR0910")
 					(unit 1)
 				)
 			)
@@ -13628,7 +13617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d7f8d9-9e36-404b-bf27-b3357bbbb5b4")
-		(property "Reference" "#PWR0905"
+		(property "Reference" "#PWR0906"
 			(at 130.81 219.71 0)
 			(effects
 				(font
@@ -13674,12 +13663,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "38f34995-e4c3-49ff-84cf-e42de9258782")
+			(uuid "13e45ff9-13e3-4dac-8a41-090c04828800")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0905")
+					(reference "#PWR0906")
 					(unit 1)
 				)
 			)
@@ -13795,10 +13784,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bdb58bdc-35dd-4dd1-8299-a4c81f4eab43")
+			(uuid "195ac704-a98b-4d67-ad99-097077ac7629")
 		)
 		(pin "1"
-			(uuid "d8db536b-3696-40fc-9bbb-01e3da9347c8")
+			(uuid "f0a20e46-86db-4680-bbf4-65a5a83748f7")
 		)
 		(instances
 			(project "linux-sbc"
@@ -13865,7 +13854,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4337162-e701-43bd-8492-5f42c7f8354a")
+			(uuid "84b3dae4-d329-42e4-b411-89bb47410917")
 		)
 		(instances
 			(project "linux-sbc"
@@ -13994,10 +13983,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "895d9885-9f59-48ea-9c98-a1c71edc30ba")
+			(uuid "f86685f7-120f-48d6-80f6-4b8a12052aa5")
 		)
 		(pin "1"
-			(uuid "6b189193-d57c-4dbd-92e2-0dbbe79390e9")
+			(uuid "c4033f8e-5e57-4c99-a270-f622a6d4e508")
 		)
 		(instances
 			(project "linux-sbc"
@@ -14126,10 +14115,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e55e46da-4091-47f5-8fbb-42ebb3281621")
+			(uuid "c529d6fa-9c2d-4578-b178-de64c0906c7d")
 		)
 		(pin "1"
-			(uuid "9036e5a3-ea7a-424f-920c-8ab15c12cf89")
+			(uuid "1b00ed85-1cad-4c01-a199-f0b5f761d4be")
 		)
 		(instances
 			(project "linux-sbc"
@@ -14226,22 +14215,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "375489b7-afa7-469b-8951-d5362b3a743b")
+			(uuid "8af2e972-6cd3-4693-8c7c-c1a2cf287422")
 		)
 		(pin "6"
-			(uuid "b45e7ea4-a7cb-42c7-86a5-90a9296f8597")
+			(uuid "8cdad79b-c94d-4471-b35e-ec03747ccfe6")
 		)
 		(pin "5"
-			(uuid "0468fb31-970f-4131-8f9c-cd700b20b38e")
+			(uuid "e4f7b319-b972-4656-8153-10efb4267723")
 		)
 		(pin "1"
-			(uuid "dc86709e-7045-4c68-859a-34735e26f3cb")
+			(uuid "45b8d3df-04ce-4288-801f-7bb59863b991")
 		)
 		(pin "2"
-			(uuid "5b04ffee-01d5-49b7-95fd-a9b32b541a3b")
+			(uuid "b03e8881-4a44-41b8-8627-7ef3e3533c39")
 		)
 		(pin "4"
-			(uuid "d382200d-73e6-4315-88fe-6ef618625dd4")
+			(uuid "c9c27c6c-fa80-402f-a9db-9e1d4a883ff7")
 		)
 		(instances
 			(project "linux-sbc"
@@ -14308,7 +14297,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4a546e4-e9e6-492d-97ab-7d8df05cb0f6")
+			(uuid "bca69320-8c61-47bd-8ec7-2813db1acc34")
 		)
 		(instances
 			(project "linux-sbc"
@@ -14437,10 +14426,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6974cbb4-072e-4a0d-89db-1e4e30ae848b")
+			(uuid "ccd3dc82-fef1-47d9-8c52-a125520d5afa")
 		)
 		(pin "1"
-			(uuid "d6ad2ebf-3b93-471f-8acc-50134b3bcb7d")
+			(uuid "3b554314-54c8-46e0-aa88-79bb4ed7df07")
 		)
 		(instances
 			(project "linux-sbc"
@@ -14535,31 +14524,31 @@
 			)
 		)
 		(pin "9"
-			(uuid "ebc4cdc8-cbb4-4ed7-b67a-a01bbb1aab7b")
+			(uuid "1a06f89f-5e14-4917-a37c-a3048503e4cb")
 		)
 		(pin "5"
-			(uuid "9244ebc6-d342-4131-b967-3f97d26a7d56")
+			(uuid "35f9779a-8c3d-4449-a27d-b00780582531")
 		)
 		(pin "3"
-			(uuid "e25b508c-7fe9-47e6-8cc7-f8d1d97bb911")
+			(uuid "ea7e7cf2-fa8a-4467-b787-bf8ad7218448")
 		)
 		(pin "7"
-			(uuid "bb2691a9-0b3e-40fc-b82e-0237dbe649b8")
+			(uuid "799784ab-32d9-4eef-b01d-ba68dfcb1422")
 		)
 		(pin "6"
-			(uuid "dc2f509f-ef50-4e8c-aa9f-2c068412f0e9")
+			(uuid "5305c9c5-72a5-4938-a4a4-2c734906372e")
 		)
 		(pin "1"
-			(uuid "0ed07862-c43c-478c-9147-e7a5700f992c")
+			(uuid "f687793e-5c5c-40cb-8631-5e78004e5074")
 		)
 		(pin "4"
-			(uuid "5f9f147c-6376-46d0-8204-557e866d86a5")
+			(uuid "e93a3027-fc78-45a9-aea0-b2aa76563368")
 		)
 		(pin "8"
-			(uuid "3df75bda-7172-4764-bb4e-a3c6b6293bd3")
+			(uuid "256e30fc-fd43-4ebd-a865-d1bf535a22ad")
 		)
 		(pin "2"
-			(uuid "168a10c9-1fe0-44ad-99fe-7b84394b12d8")
+			(uuid "b4376808-c5d0-4f4e-ab32-e4a0f4661c71")
 		)
 		(instances
 			(project ""
@@ -14656,22 +14645,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "de1661e6-74d2-4b1f-81d9-ed2b2fd52ff4")
+			(uuid "071fa5fe-acd1-4402-8505-2b1cc7ac469f")
 		)
 		(pin "6"
-			(uuid "17e1495a-deed-4531-935e-1325e9b6b527")
+			(uuid "f6cbf8e0-56df-4808-a059-375ea823a0b4")
 		)
 		(pin "5"
-			(uuid "507c71a1-9a24-4eb8-9f65-f7127dc1ae21")
+			(uuid "e844c557-c22a-4faa-b773-1d879d2eb096")
 		)
 		(pin "1"
-			(uuid "0dfe4bb5-97e2-48e2-b19c-1bc78e258e22")
+			(uuid "85ce3a75-02f3-47c2-b1c7-fdee8ff1f1c6")
 		)
 		(pin "2"
-			(uuid "e6377253-ab53-4619-bd11-0ff06e7567b0")
+			(uuid "c6341e68-1939-4312-96ad-72377bd15a4e")
 		)
 		(pin "4"
-			(uuid "ad200f61-ce24-482c-8da1-18c61d3c0e11")
+			(uuid "2df5bc63-99ae-4644-a200-945426735f01")
 		)
 		(instances
 			(project "linux-sbc"
@@ -14793,10 +14782,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bae9795a-6368-47d2-9ec2-a4b8f3019faa")
+			(uuid "12c6a767-2cf8-4884-a65d-29caa7977329")
 		)
 		(pin "1"
-			(uuid "405e86c6-802d-41b4-b3f1-0b2c90585269")
+			(uuid "8b4ad54b-6512-4cc2-81c5-755c7ba650e1")
 		)
 		(instances
 			(project "linux-sbc"
@@ -14918,10 +14907,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "93e86ef0-0677-49e8-b943-0e4c12ae5d0c")
+			(uuid "aae3edf8-9f2c-4cb8-ba7b-a274f2031299")
 		)
 		(pin "1"
-			(uuid "c8926563-a1b6-41d4-bb90-d97f2884bb49")
+			(uuid "a9653ed7-c981-46ff-86c6-11a1b27bb261")
 		)
 		(instances
 			(project "linux-sbc"
@@ -15024,10 +15013,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "bc389be2-4ad5-4d7c-a2a6-d32a19bad094")
+			(uuid "c33e1b87-5a0a-4228-919c-2f4872380e9f")
 		)
 		(pin "1"
-			(uuid "b48c509a-d2c1-4b47-88d1-a1bedd1ca8b9")
+			(uuid "d6869cb0-f1be-46e6-843d-48d8b655135c")
 		)
 		(instances
 			(project "linux-sbc"
@@ -15156,10 +15145,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3ec52c51-6e32-4599-8b6d-0e2f14903cd4")
+			(uuid "f6813cb5-c530-4200-8dbf-9d991fe68e80")
 		)
 		(pin "1"
-			(uuid "dbe9f997-8ed7-4e31-aaa1-ccf3464bd55e")
+			(uuid "8163be5c-fb5d-4a7d-b5cf-d93c7f2df3f6")
 		)
 		(instances
 			(project "linux-sbc"
@@ -15288,10 +15277,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b688389-52f9-4a9c-b80a-fc68a4a9972d")
+			(uuid "ba9d2f55-d576-41b9-b6e4-1829a9b00289")
 		)
 		(pin "2"
-			(uuid "b972ed93-d888-4077-827b-0c3dd7b46391")
+			(uuid "5d9f20ae-0efa-4ef8-8d58-882f97e9106a")
 		)
 		(instances
 			(project "linux-sbc"
@@ -15312,7 +15301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0da43da-43b3-4624-8312-37289713a306")
-		(property "Reference" "#PWR0904"
+		(property "Reference" "#PWR0905"
 			(at 67.31 213.36 0)
 			(effects
 				(font
@@ -15358,12 +15347,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e388d6d9-c642-4769-977e-82e0c662a2fa")
+			(uuid "f8f40b22-25fd-4c6d-b590-b52f04c6cf6b")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0904")
+					(reference "#PWR0905")
 					(unit 1)
 				)
 			)
@@ -15450,16 +15439,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "05380e2b-dd90-405b-90d1-066921a14cce")
+			(uuid "1dd4842b-d262-42dc-926b-bb0aa6315071")
 		)
 		(pin "2"
-			(uuid "176feeb5-0a72-40f4-90ed-3ae3cacd86d7")
+			(uuid "f1ff2efa-4707-49d8-962b-c9099bc59ded")
 		)
 		(pin "3"
-			(uuid "c1b11826-77a0-4718-84b1-9e848e54962c")
+			(uuid "b1b2dac5-1cec-4e96-b162-3db6917e89ea")
 		)
 		(pin "4"
-			(uuid "cbde22bd-db6b-40af-a781-3eca8fe5ab82")
+			(uuid "278b299a-a0f7-4bc0-80c9-567073a8a417")
 		)
 		(instances
 			(project "linux-sbc"
@@ -15525,12 +15514,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "578b612d-c186-411f-abbb-d6a6051d9793")
+			(uuid "534cc05b-f34f-4bbe-b154-db49235dc82d")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
 					(reference "TP905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 50.8 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e17fdd0b-dad5-4734-ac56-c2d6815b4c5b")
+		(property "Reference" "#PWR0902"
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_3V3"
+			(at 50.8 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 50.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5157439b-e43f-44cc-99ab-d08031ed43b2")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
@@ -15654,10 +15709,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2753a2b5-5828-442b-905b-2eeef77f124d")
+			(uuid "64a2b12c-9081-4bb9-8e13-03b0decc9cac")
 		)
 		(pin "1"
-			(uuid "71ffa4a3-1bad-4385-bb70-001c6a6cb31f")
+			(uuid "630c453c-8098-40ae-8bb3-2c1b1f5b5dcb")
 		)
 		(instances
 			(project "linux-sbc"
@@ -15678,7 +15733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5eb2d99-2b9e-4817-a710-3685f58655f1")
-		(property "Reference" "#PWR0907"
+		(property "Reference" "#PWR0908"
 			(at 153.67 219.71 0)
 			(effects
 				(font
@@ -15724,12 +15779,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "32b22d58-ac99-425a-8834-ef73875a0ec0")
+			(uuid "6fe2d08a-d552-4cfa-a3f2-5d54f45eac70")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0907")
+					(reference "#PWR0908")
 					(unit 1)
 				)
 			)
@@ -15821,22 +15876,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "c82c6b3e-2247-4361-a4e7-1ee11af8aa11")
+			(uuid "fccae756-325a-42c6-8277-0d39e1a84fd2")
 		)
 		(pin "6"
-			(uuid "76748432-5b05-487b-a82a-6b0870117a7e")
+			(uuid "b0a3d021-2954-4566-89f6-6c08cad4c990")
 		)
 		(pin "5"
-			(uuid "9f2025c6-6af8-4856-83f9-c99dfc614bd3")
+			(uuid "803ac45c-2917-4fb1-8cf5-8fb5c7b6df4a")
 		)
 		(pin "1"
-			(uuid "4e80749e-7b9a-47be-bab0-05e6f5aee438")
+			(uuid "76fa4014-723b-4fcd-adfa-1aadf9f42431")
 		)
 		(pin "2"
-			(uuid "91a8690b-8d6f-49d6-8281-a28a82986f0b")
+			(uuid "e9c47329-7f9a-4a19-993b-275816fbd0e2")
 		)
 		(pin "4"
-			(uuid "c6f11525-3e81-47ab-bdc8-ec0a153f75b9")
+			(uuid "256f5f4e-65e0-4790-95d0-5f3a12944bf3")
 		)
 		(instances
 			(project "linux-sbc"
@@ -15902,7 +15957,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdf2943b-5901-43c2-be9b-46eb5746ac3e")
+			(uuid "4431c3b8-53ce-4013-b085-4b5e5797dceb")
 		)
 		(instances
 			(project "linux-sbc"
@@ -15923,7 +15978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5c29259-1f23-40a2-b0da-98998d8f77da")
-		(property "Reference" "#PWR0902"
+		(property "Reference" "#PWR0903"
 			(at 54.61 213.36 0)
 			(effects
 				(font
@@ -15969,12 +16024,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "17a11768-69db-437b-9b9e-018ca9038035")
+			(uuid "f5bbd91d-6cc9-43dc-854a-78f98c3912f5")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0902")
+					(reference "#PWR0903")
 					(unit 1)
 				)
 			)
@@ -16099,10 +16154,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3fb42dd7-c950-4057-8a70-fff97a62495a")
+			(uuid "682729c8-babe-465b-9402-6dda5ce8527f")
 		)
 		(pin "2"
-			(uuid "2b4246d9-ae41-4a77-841b-f1e629179ac2")
+			(uuid "5d9674cb-5560-4d92-9135-bdab831f1a8e")
 		)
 		(instances
 			(project "linux-sbc"
@@ -16123,7 +16178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbcc9210-2e6c-4c53-b8ba-685b307f47de")
-		(property "Reference" "#PWR0903"
+		(property "Reference" "#PWR0904"
 			(at 59.69 107.95 0)
 			(effects
 				(font
@@ -16169,12 +16224,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "df9f419b-1d21-4bfb-bf94-cc30542380c3")
+			(uuid "b1a57276-4468-4dd4-8668-4eaeeaa37af5")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/efbf33e8-83fd-439d-aaf8-dc8287b68178"
-					(reference "#PWR0903")
+					(reference "#PWR0904")
 					(unit 1)
 				)
 			)

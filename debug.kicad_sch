@@ -5443,6 +5443,12 @@
 		(uuid "e76af6ad-1625-42b5-b123-0b571c744730")
 	)
 	(junction
+		(at 185.42 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea3d2a3e-f620-45cb-af76-7db62dd6159b")
+	)
+	(junction
 		(at 306.07 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5453,12 +5459,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec817eee-f8bf-4144-8fbf-741606fd5560")
-	)
-	(junction
-		(at 185.42 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f058551e-2de5-4e64-9d94-14574628a789")
 	)
 	(junction
 		(at 54.61 207.01)
@@ -5750,6 +5750,16 @@
 			(type default)
 		)
 		(uuid "0a142747-2da1-4cb6-b4b5-4783cb5baef3")
+	)
+	(wire
+		(pts
+			(xy 185.42 87.63) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad2bef3-78f3-4d6a-ba0c-a6ae7816f192")
 	)
 	(wire
 		(pts
@@ -6150,16 +6160,6 @@
 			(type default)
 		)
 		(uuid "23ae5c25-b774-4fb2-b8cb-2a3e848900ac")
-	)
-	(wire
-		(pts
-			(xy 182.88 88.9) (xy 185.42 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2812899e-878c-4f21-95c4-a36877b8f134")
 	)
 	(wire
 		(pts
@@ -8752,17 +8752,6 @@
 		)
 		(uuid "01ab98b6-9e9b-42c3-9ba6-43f3aee14803")
 	)
-	(hierarchical_label "VDD"
-		(shape input)
-		(at 182.88 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0516cab9-cd4c-47e1-b42a-9db91ecf64a2")
-	)
 	(hierarchical_label "{DEBUG}"
 		(shape bidirectional)
 		(at 318.77 196.85 0)
@@ -9201,7 +9190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07cb02c9-b8fc-4a2f-8f1b-168cb8ec2590")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0707"
 			(at 222.25 190.5 0)
 			(effects
 				(font
@@ -9252,7 +9241,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0706")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -9864,7 +9853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f591bf1-2fb2-439b-bff2-6fbae59e4cf0")
-		(property "Reference" "#PWR0708"
+		(property "Reference" "#PWR0709"
 			(at 241.3 139.7 0)
 			(effects
 				(font
@@ -9915,7 +9904,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0708")
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
@@ -14776,7 +14765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aefe8745-4702-488c-b3e6-68dd20950a88")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR0708"
 			(at 234.95 105.41 0)
 			(effects
 				(font
@@ -14827,7 +14816,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0707")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
@@ -15041,6 +15030,72 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "D701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 185.42 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb7b0ca9-e2e7-42ad-acef-1038e7180f08")
+		(property "Reference" "#PWR0706"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "V_3V3"
+			(at 185.42 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 185.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "108bd2ba-28e4-444c-8106-34633b352144")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -15812,7 +15867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce660a9f-e965-4283-9a08-77cb29e95bf2")
-		(property "Reference" "#PWR0709"
+		(property "Reference" "#PWR0710"
 			(at 266.7 74.93 0)
 			(effects
 				(font
@@ -15863,7 +15918,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0709")
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)

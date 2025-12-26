@@ -7486,6 +7486,12 @@
 		(uuid "7c9de15d-51b8-4d56-9304-73f21997644c")
 	)
 	(junction
+		(at 196.85 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cf6b264-4583-4e3b-b836-fe8e828e2b35")
+	)
+	(junction
 		(at 260.35 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7912,6 +7918,12 @@
 		(uuid "fa30dfc6-dcf9-48df-b8a2-cd6ddf9f50e0")
 	)
 	(junction
+		(at 177.8 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb4d8a9b-6441-43ff-9d70-1abd7c3e0ab6")
+	)
+	(junction
 		(at 53.34 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8001,7 +8013,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 215.9) (xy 177.8 219.71)
+			(xy 177.8 215.9) (xy 177.8 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9171,6 +9183,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 232.41) (xy 177.8 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a060a79-2ef3-41b4-a78d-725e35719dbd")
+	)
+	(wire
+		(pts
 			(xy 40.64 180.34) (xy 40.64 177.8)
 		)
 		(stroke
@@ -9428,6 +9450,16 @@
 			(type default)
 		)
 		(uuid "62159d5c-3e5b-42e4-9391-2220392e4b27")
+	)
+	(wire
+		(pts
+			(xy 177.8 232.41) (xy 196.85 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f7c97b-84cb-4175-b9d4-c993c8b76480")
 	)
 	(wire
 		(pts
@@ -10371,6 +10403,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 229.87) (xy 165.1 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad599f34-bff6-436b-9bb5-54baa8a80a46")
+	)
+	(wire
+		(pts
 			(xy 66.04 190.5) (xy 78.74 190.5)
 		)
 		(stroke
@@ -10451,7 +10493,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 227.33) (xy 177.8 228.6)
+			(xy 177.8 229.87) (xy 177.8 232.41)
 		)
 		(stroke
 			(width 0)
@@ -10661,7 +10703,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 213.36) (xy 165.1 219.71)
+			(xy 165.1 213.36) (xy 165.1 222.25)
 		)
 		(stroke
 			(width 0)
@@ -11218,16 +11260,6 @@
 			(type default)
 		)
 		(uuid "ead09045-bf3a-4c3a-b8a8-02155d16f568")
-	)
-	(wire
-		(pts
-			(xy 165.1 227.33) (xy 165.1 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb33d9b5-4e6b-418f-aeae-7f6ed3fefb6d")
 	)
 	(wire
 		(pts
@@ -12812,7 +12844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2697b57c-bd2f-4cd0-ba64-8ba1310609cf")
-		(property "Reference" "#PWR0611"
+		(property "Reference" "#PWR0609"
 			(at 260.35 240.03 0)
 			(effects
 				(font
@@ -12863,7 +12895,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/38fb80ce-3aa2-4a17-bb8b-7759011755a2"
-					(reference "#PWR0611")
+					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
@@ -13466,7 +13498,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 223.52 0)
+		(at 177.8 226.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13475,7 +13507,7 @@
 		(dnp no)
 		(uuid "35bb5a39-5910-4e96-8fbf-28388b9e839c")
 		(property "Reference" "C645"
-			(at 175.26 220.98 0)
+			(at 175.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13484,7 +13516,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 175.26 222.758 0)
+			(at 175.26 225.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13493,7 +13525,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 176.8348 227.33 0)
+			(at 176.8348 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13502,7 +13534,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 177.8 223.52 0)
+			(at 177.8 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13511,7 +13543,7 @@
 			)
 		)
 		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 177.8 223.52 0)
+			(at 177.8 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13520,7 +13552,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA475KE15D"
-			(at 177.8 223.52 0)
+			(at 177.8 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13529,7 +13561,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 177.8 223.52 0)
+			(at 177.8 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13538,7 +13570,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 175.006 224.79 0)
+			(at 175.006 227.33 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -13547,7 +13579,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 175.006 225.806 0)
+			(at 175.006 228.346 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -13556,7 +13588,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 175.006 226.822 0)
+			(at 175.006 229.362 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -13565,7 +13597,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 175.006 227.838 0)
+			(at 175.006 230.378 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -13574,7 +13606,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 177.8 223.52 0)
+			(at 177.8 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14327,7 +14359,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 223.52 0)
+		(at 165.1 226.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14336,7 +14368,7 @@
 		(dnp no)
 		(uuid "5c282bcb-52eb-44a6-8170-07058ed909c4")
 		(property "Reference" "C643"
-			(at 162.56 220.98 0)
+			(at 162.56 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14345,7 +14377,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 162.56 222.758 0)
+			(at 162.56 225.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14354,7 +14386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 164.1348 227.33 0)
+			(at 164.1348 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14363,7 +14395,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 165.1 223.52 0)
+			(at 165.1 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14372,7 +14404,7 @@
 			)
 		)
 		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 165.1 223.52 0)
+			(at 165.1 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,7 +14413,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA475KE15D"
-			(at 165.1 223.52 0)
+			(at 165.1 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14390,7 +14422,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 165.1 223.52 0)
+			(at 165.1 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14399,7 +14431,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 162.306 224.79 0)
+			(at 162.306 227.33 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -14408,7 +14440,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 162.306 225.806 0)
+			(at 162.306 228.346 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -14417,7 +14449,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 162.306 226.822 0)
+			(at 162.306 229.362 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -14426,7 +14458,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 162.306 227.838 0)
+			(at 162.306 230.378 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -14435,7 +14467,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 165.1 223.52 0)
+			(at 165.1 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15180,73 +15212,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/38fb80ce-3aa2-4a17-bb8b-7759011755a2"
 					(reference "C636")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 177.8 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73b8d035-5118-458c-9119-c1e5e47bca51")
-		(property "Reference" "#PWR0609"
-			(at 177.8 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 177.8 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 177.8 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a4c92b7-02fc-4e62-8402-8b8e48808473")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/38fb80ce-3aa2-4a17-bb8b-7759011755a2"
-					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
@@ -17459,73 +17424,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/38fb80ce-3aa2-4a17-bb8b-7759011755a2"
 					(reference "C607")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 165.1 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b505a4b5-340f-4434-b402-ea6a8ffe215e")
-		(property "Reference" "#PWR0608"
-			(at 165.1 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 165.1 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e86de68-9600-4856-b85e-2ddd0cdc0ecd")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/38fb80ce-3aa2-4a17-bb8b-7759011755a2"
-					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -20548,7 +20446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9db5cb5-e396-4671-9120-1734e2c6324a")
-		(property "Reference" "#PWR0610"
+		(property "Reference" "#PWR0608"
 			(at 196.85 130.81 0)
 			(effects
 				(font
@@ -20599,7 +20497,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776/38fb80ce-3aa2-4a17-bb8b-7759011755a2"
-					(reference "#PWR0610")
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
