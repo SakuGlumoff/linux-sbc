@@ -1760,20 +1760,20 @@
 	)
 	(text "Route uSD as\n50 Ω single-ended"
 		(exclude_from_sim no)
-		(at 115.57 119.38 0)
+		(at 114.3 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 194 0 194 1)
 			)
-			(justify right)
+			(justify left bottom)
 		)
 		(uuid "705c0748-c15c-4533-a41b-033ecf9c8794")
 	)
-	(text_box "micro-SD card interface provides the option to provide the operating system image on the SD card and to boot from it.\n- The supported micro-SD card size is up to 1 Terabyte.\n- The micro-SD card interface is human-interactable and thus has ESD TVS diodes for protection.\n- The micro-SD card interface is a push-push type and includes insertion detection capability. The insertion detection on the MPU side is active LOW.\n    - When the SD card is not inserted, the DET_A and DET_B pins are disconnected.\n    - When the SD card is connected, the DET_A and DET_B pins are connected."
+	(text_box "micro-SD card interface provides the option to provide the operating system image on the SD card and to boot from it.\n- The micro-SD card interface is human-interactable and thus has ESD TVS diodes for protection.\n- The micro-SD card interface is a push-push type and includes insertion detection capability. The insertion detection on the MPU side is active LOW.\n    - When the SD card is not inserted, the DET_A and DET_B pins are disconnected.\n    - When the SD card is connected, the DET_A and DET_B pins are connected."
 		(exclude_from_sim no)
 		(at 13.97 63.5 0)
-		(size 391.16 31.75)
+		(size 391.16 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -1811,6 +1811,27 @@
 			)
 		)
 		(uuid "34c900bc-1fc4-4770-9fc2-d382c3db4b99")
+	)
+	(text_box "Unpopulate R1109 and populate R1110 if UHS-I mode doesn't work."
+		(exclude_from_sim no)
+		(at 139.7 152.4 0)
+		(size 39.37 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "934a0b8a-37dc-4ea9-8026-e5cabea2d6bf")
 	)
 	(junction
 		(at 229.87 147.32)
@@ -1871,6 +1892,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c91677db-3adc-480b-bea8-b150255aca1f")
+	)
+	(junction
+		(at 299.72 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb7fc49a-e8cc-43c3-919b-d5a2fee55a47")
 	)
 	(junction
 		(at 240.03 134.62)
@@ -1984,6 +2011,16 @@
 			(type default)
 		)
 		(uuid "12f5bd1a-9e47-45e7-a1ad-b13097e213a5")
+	)
+	(wire
+		(pts
+			(xy 299.72 167.64) (xy 299.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13483633-13cf-4bb7-9c98-777fc51b4465")
 	)
 	(wire
 		(pts
@@ -2127,6 +2164,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 167.64) (xy 299.72 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "405b62cb-cb7c-4ed7-b64b-f01480618b18")
+	)
+	(wire
+		(pts
 			(xy 165.1 124.46) (xy 165.1 147.32)
 		)
 		(stroke
@@ -2197,7 +2244,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 160.02) (xy 237.49 165.1)
+			(xy 237.49 160.02) (xy 237.49 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 165.1) (xy 254 161.29)
+			(xy 254 162.56) (xy 254 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 151.13) (xy 299.72 149.86)
+			(xy 299.72 168.91) (xy 299.72 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2577,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 149.86) (xy 299.72 149.86)
+			(xy 299.72 149.86) (xy 298.45 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3253,7 +3300,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 299.72 151.13 0)
+		(at 299.72 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3261,8 +3308,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "649ae7c6-5873-4f1f-8e1d-6557a3e541be")
-		(property "Reference" "#PWR01103"
-			(at 299.72 156.21 0)
+		(property "Reference" "#PWR01102"
+			(at 299.72 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3318,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 299.593 154.94 0)
+			(at 299.593 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +3327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 152.4 0)
+			(at 299.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 152.4 0)
+			(at 299.72 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 299.72 151.13 0)
+			(at 299.72 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3359,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "#PWR01103")
+					(reference "#PWR01102")
 					(unit 1)
 				)
 			)
@@ -3790,7 +3837,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 254 165.1 0)
+		(at 254 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3798,8 +3845,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d45538d6-7052-42a7-8f5e-baf205ebb295")
-		(property "Reference" "#PWR01102"
-			(at 254 171.45 0)
+		(property "Reference" "#PWR01101"
+			(at 254 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,7 +3855,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 170.18 0)
+			(at 254 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 165.1 0)
+			(at 254 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +3873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 165.1 0)
+			(at 254 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3835,7 +3882,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 254 165.1 0)
+			(at 254 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,73 +3892,6 @@
 		)
 		(pin "1"
 			(uuid "03fb7f38-3e09-4fe5-94f7-c9705c7463ad")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/20d14260-625d-4d8e-93b5-fdd7ca1e9f7d"
-					(reference "#PWR01102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 237.49 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e46aeb7c-75d6-4e6d-a66d-3c7285e5a9a7")
-		(property "Reference" "#PWR01101"
-			(at 237.49 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 237.363 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 237.49 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b6b3207-92d4-41a6-9162-06a2ceac2958")
 		)
 		(instances
 			(project "linux-sbc"
