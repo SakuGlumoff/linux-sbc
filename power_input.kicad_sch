@@ -4233,179 +4233,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDPWR"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -5212,6 +5039,12 @@
 		(uuid "5e6b87cb-204e-4814-9373-76c4d28d7303")
 	)
 	(junction
+		(at 55.88 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fab9dc8-5aa9-404d-9054-b62daf7ce964")
+	)
+	(junction
 		(at 224.79 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5326,6 +5159,12 @@
 		(uuid "95942d3b-88a5-4335-aa2b-8cd0a9421180")
 	)
 	(junction
+		(at 149.86 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "973ea074-6e89-4a0a-90f4-b71b4d297d40")
+	)
+	(junction
 		(at 69.85 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5426,12 +5265,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2e93baf-9421-4df2-9634-550b7934feb2")
-	)
-	(junction
-		(at 50.8 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c343534e-0732-47d5-9c37-f79207502e81")
 	)
 	(junction
 		(at 358.14 241.3)
@@ -5784,6 +5617,16 @@
 			(type default)
 		)
 		(uuid "0eebe1a9-b641-4084-90d6-30a0e6145bc1")
+	)
+	(wire
+		(pts
+			(xy 149.86 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef05332-8a18-4817-b774-280f6889c6eb")
 	)
 	(wire
 		(pts
@@ -6437,16 +6280,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 241.3) (xy 389.89 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe06fcd-1e98-4402-b139-d11d0f666a25")
-	)
-	(wire
-		(pts
 			(xy 161.29 76.2) (xy 161.29 78.74)
 		)
 		(stroke
@@ -6457,7 +6290,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 114.3) (xy 139.7 114.3)
+			(xy 161.29 114.3) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6737,7 +6570,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 77.47) (xy 50.8 76.2)
+			(xy 55.88 77.47) (xy 55.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7427,16 +7260,6 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 241.3) (xy 398.78 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8869b146-0469-4cef-813c-0ad7f54bd0e6")
-	)
-	(wire
-		(pts
 			(xy 240.03 76.2) (xy 240.03 78.74)
 		)
 		(stroke
@@ -7484,6 +7307,16 @@
 			(type default)
 		)
 		(uuid "8ead9669-896b-486b-9337-6f10f710813f")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed949e3-85d3-4329-b4dd-3a70aec069ba")
 	)
 	(wire
 		(pts
@@ -7737,16 +7570,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 161.29) (xy 393.7 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a447d620-b128-4850-9afe-f1128b31053e")
-	)
-	(wire
-		(pts
 			(xy 240.03 86.36) (xy 240.03 114.3)
 		)
 		(stroke
@@ -7914,6 +7737,16 @@
 			(type default)
 		)
 		(uuid "b37d68f3-1806-49f9-b2bb-ccfdf2081dc2")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38ebf63-eca0-4e34-8f32-08e521734a20")
 	)
 	(wire
 		(pts
@@ -8094,16 +7927,6 @@
 			(type default)
 		)
 		(uuid "bf966ee4-9ff3-442e-9161-244915b1445e")
-	)
-	(wire
-		(pts
-			(xy 50.8 76.2) (xy 58.42 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf9c690b-4a8b-4953-8b80-6c7e01efcf7d")
 	)
 	(wire
 		(pts
@@ -8367,16 +8190,6 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 242.57) (xy 388.62 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4d8bd07-28a9-4899-83e2-343053d6ecc0")
-	)
-	(wire
-		(pts
 			(xy 114.3 76.2) (xy 114.3 78.74)
 		)
 		(stroke
@@ -8537,16 +8350,6 @@
 	)
 	(wire
 		(pts
-			(xy 398.78 242.57) (xy 398.78 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12cdea0-3dba-4c68-a3fd-d5c293001d2e")
-	)
-	(wire
-		(pts
 			(xy 387.35 162.56) (xy 387.35 160.02)
 		)
 		(stroke
@@ -8667,7 +8470,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 76.2) (xy 50.8 76.2)
+			(xy 41.91 76.2) (xy 55.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10560,15 +10363,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 50.8 77.47 180)
+		(at 55.88 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b5d201c-a0bd-43f7-a96d-14437d7eae6d")
-		(property "Reference" "TP201"
-			(at 50.8 81.788 0)
+		(property "Reference" "TP202"
+			(at 55.88 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10577,7 +10380,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 48.26 80.772 90)
+			(at 53.34 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,7 +10389,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 45.72 77.47 0)
+			(at 50.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +10398,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 77.47 0)
+			(at 50.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10604,7 +10407,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 50.8 77.47 0)
+			(at 55.88 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10618,7 +10421,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP201")
+					(reference "TP202")
 					(unit 1)
 				)
 			)
@@ -12917,7 +12720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "470cc755-d966-4aef-b943-19f42243c722")
-		(property "Reference" "TP202"
+		(property "Reference" "TP201"
 			(at 50.8 108.712 0)
 			(effects
 				(font
@@ -12968,7 +12771,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "TP202")
+					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -13116,7 +12919,7 @@
 		(dnp no)
 		(uuid "4b393308-f8c5-45d7-a871-08b31e15cedf")
 		(property "Reference" "F201"
-			(at 38.1 72.39 90)
+			(at 38.1 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13125,7 +12928,7 @@
 			)
 		)
 		(property "Value" "2.5 A"
-			(at 38.1 74.168 90)
+			(at 38.1 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,6 +12988,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Size" "2920"
+			(at 38.1 75.184 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify top)
 			)
 		)
 		(pin "2"
@@ -13786,83 +13598,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 393.7 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58388f00-3453-43f7-824d-8139454d4317")
-		(property "Reference" "#PWR0212"
-			(at 393.7 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 393.7 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 393.7 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 393.7 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0da54b8-ded5-44cc-8a9d-411800d3a30e")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#PWR0212")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 393.7 161.29 0)
+		(at 149.86 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "597b9ffa-f110-46c7-abfd-81c7ccf81dc9")
-		(property "Reference" "#FLG0204"
-			(at 393.7 159.385 0)
+		(property "Reference" "#FLG0201"
+			(at 149.86 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13871,7 +13616,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 393.7 158.242 0)
+			(at 149.86 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13880,7 +13625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 393.7 161.29 0)
+			(at 149.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13889,7 +13634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 393.7 161.29 0)
+			(at 149.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13898,7 +13643,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 393.7 161.29 0)
+			(at 149.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13912,74 +13657,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#FLG0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 398.78 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59a38a0b-4f09-4bd7-9b67-bb3e439923b4")
-		(property "Reference" "#PWR0213"
-			(at 398.78 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 398.653 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 398.78 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 398.78 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5f233b9-08e8-4579-a406-b335845224e3")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#PWR0213")
+					(reference "#FLG0201")
 					(unit 1)
 				)
 			)
@@ -17011,7 +16689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1e57b59-8411-4ac6-a8d6-5c3e5d4e518d")
-		(property "Reference" "#FLG0202"
+		(property "Reference" "#FLG0203"
 			(at 367.03 238.125 0)
 			(effects
 				(font
@@ -17062,7 +16740,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#FLG0202")
+					(reference "#FLG0203")
 					(unit 1)
 				)
 			)
@@ -17989,111 +17667,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 393.7 241.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1504578-cf4d-4dff-9d96-0a91e76a0f81")
-		(property "Reference" "R233"
-			(at 391.16 237.236 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 391.16 238.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 393.7 243.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 393.7 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
-			(at 393.7 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RMCF1206ZT0R00"
-			(at 393.7 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 393.7 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "1206"
-			(at 391.16 240.03 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Digi-Key Part Number" "RMCF1206ZT0R00CT-ND"
-			(at 393.7 241.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64019299-1fb7-4036-b2ae-eb7ab31d6a58")
-		)
-		(pin "1"
-			(uuid "4ff187bf-a3cf-4fcd-9e6d-0e5f02d97aea")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R233")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 285.75 160.02 90)
 		(unit 1)
@@ -19003,73 +18576,6 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 388.62 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d155cea7-eeb7-45a8-b1bc-80e2a5f9d1c7")
-		(property "Reference" "#PWR0211"
-			(at 388.62 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 388.62 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 388.62 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 388.62 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 388.62 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a6c611e-82a9-48c6-aa79-ffc6a7052c3f")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#PWR0211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
 		(at 387.35 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19827,7 +19333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e44e85fc-229b-4793-8c53-11670be9744f")
-		(property "Reference" "#FLG0203"
+		(property "Reference" "#FLG0204"
 			(at 383.54 73.025 0)
 			(effects
 				(font
@@ -19878,7 +19384,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#FLG0203")
+					(reference "#FLG0204")
 					(unit 1)
 				)
 			)
@@ -20418,7 +19924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f69f3756-0b0c-4d8e-80ba-dab4f550b5d4")
-		(property "Reference" "#FLG0201"
+		(property "Reference" "#FLG0202"
 			(at 215.9 73.025 0)
 			(effects
 				(font
@@ -20469,7 +19975,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "#FLG0201")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)
