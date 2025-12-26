@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2025-12-19")
+		(date "2025-12-26")
 		(rev "v1.0.0")
 	)
 	(lib_symbols
@@ -2419,177 +2419,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LM4040DBZ-5_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM4040DBZ-5"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "5.000V Precision Micropower Shunt Voltage Reference, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode device voltage reference shunt"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM4040DBZ-5_1_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0.635 0) (xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LM4040DBZ-5_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -1.27 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "R_1"
 			(pin_numbers
 				(hide yes)
@@ -4584,7 +4413,7 @@
 		)
 		(uuid "fe9827ab-49ef-463a-80e3-3ec770eed736")
 	)
-	(text_box "- See UVLO.asc for UVLO simulation in LTSPICE.\n- See OVLO.asc for OVLO simulation in LTSPICE.\n- See OCLO.asc for OCLO simulation in LTSPICE.\n- See EMI_FILTER.asc for EMI filter simulation in LTSPICE."
+	(text_box "- See UVLO.asc for UVLO simulation in LTspice.\n- See OVLO.asc for OVLO simulation in LTspice.\n- See OCLO.asc for OCLO simulation in LTspice.\n- See EMI_FILTER.asc for EMI filter simulation in LTspice."
 		(exclude_from_sim no)
 		(at 13.97 260.35 0)
 		(size 283.21 22.86)
@@ -4666,7 +4495,7 @@
 		)
 		(uuid "bd112380-0428-4f0c-a684-de7162b4f6a8")
 	)
-	(text_box "OCLO_IN = I_{IN} * R_{S} * (R_{F} / R_{G}) -> @ 0.1 A = 0.25 V, @ 2 A = 5 V\nV_{CM} = 24 V * (R_{F} / (R_{G} + R_{F})) ~= 23.53 V\nR_{s} Power dissipation = 0.05 * 2 A * 2 A = 0.2 W"
+	(text_box "OCLO_IN = I_{IN} * R_{S} * (R_{F} / R_{G}) -> @ 0.1 A = 0.25 V, @ 2 A = 5 V\nR_{s} power dissipation = 0.05 * 2 A * 2 A = 0.2 W"
 		(exclude_from_sim no)
 		(at 140.97 149.86 0)
 		(size 135.89 20.32)
@@ -11051,9 +10880,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2c666007-04ea-46fe-a4b8-fe97bbc360b2")
+		(uuid "2ab78d66-1c6f-4f23-bfa0-aea21e995063")
 		(property "Reference" "U204"
-			(at 212.344 224.79 90)
+			(at 212.344 224.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,7 +10891,7 @@
 			)
 		)
 		(property "Value" "LM4040-5.0"
-			(at 212.344 227.33 90)
+			(at 212.344 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11126,14 +10955,23 @@
 				(hide yes)
 			)
 		)
+		(property "Zener voltage" "5 V"
+			(at 212.598 227.584 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right)
+			)
+		)
 		(pin "2"
-			(uuid "074ebe30-d210-4b0f-92d0-78297f39599e")
+			(uuid "ef615a5c-68dc-4a85-9ed8-9476d7e589c7")
 		)
 		(pin "3"
-			(uuid "15e2bbd3-c977-4e6c-a0e7-55d329c89147")
+			(uuid "74b83604-c0e1-43ee-9a4a-89261a8b8d53")
 		)
 		(pin "1"
-			(uuid "85ddc70c-f7da-40eb-b508-b0e0fcea961c")
+			(uuid "68e8ac96-14e3-4b4e-bfa1-75eda77b5b45")
 		)
 		(instances
 			(project "linux-sbc"
@@ -12291,7 +12129,7 @@
 		(dnp no)
 		(uuid "3eed567c-1e90-4809-af09-1e4fb92062ee")
 		(property "Reference" "U206"
-			(at 268.224 106.68 90)
+			(at 268.224 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12300,7 +12138,7 @@
 			)
 		)
 		(property "Value" "LM4040-5.0"
-			(at 268.224 109.22 90)
+			(at 268.224 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,6 +12200,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Zener voltage" "5 V"
+			(at 268.478 109.474 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -17127,6 +16974,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Reference_Voltage:LM4040DBZ-5")
+		(at 21.59 228.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "accb80bf-1e8c-472c-830c-ddd1c333ab9f")
+		(property "Reference" "U201"
+			(at 23.114 226.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LM4040-5.0"
+			(at 23.114 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 26.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/LM4040-41-Precision-Micropower-Shunt-Voltage-Reference-DS20005757B.pdf"
+			(at 21.59 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt Voltage Reference IC Fixed 5V V ±1% 15 mA SOT-23-3"
+			(at 21.59 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "576-2570-1-ND"
+			(at 21.59 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM4040DYM3-5.0-TR"
+			(at 21.59 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 21.59 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Zener voltage" "5 V"
+			(at 23.368 230.124 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "a88a1569-c4d6-4b5f-bcaa-ed3d432fd8cf")
+		)
+		(pin "3"
+			(uuid "01d1bdc9-577a-4a69-9986-01b9b594d076")
+		)
+		(pin "1"
+			(uuid "ff3811f4-8818-4500-950d-2dfa7b1359c0")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "U201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 62.23 88.9 90)
 		(unit 1)
@@ -17310,108 +17267,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "R231")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "LM4040DBZ-5_1")
-		(lib_id "Reference_Voltage:LM4040DBZ-5")
-		(at 21.59 228.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5cb8bc7-c05d-4c11-bf17-e38d96c26933")
-		(property "Reference" "U201"
-			(at 23.114 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LM4040-5.0"
-			(at 23.114 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 26.67 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/LM4040-41-Precision-Micropower-Shunt-Voltage-Reference-DS20005757B.pdf"
-			(at 21.59 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt Voltage Reference IC Fixed 5V V ±1% 15 mA SOT-23-3"
-			(at 21.59 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "576-2570-1-ND"
-			(at 21.59 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LM4040DYM3-5.0-TR"
-			(at 21.59 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Microchip Technology"
-			(at 21.59 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bc839ecc-66d8-45e7-bb79-5701104628a7")
-		)
-		(pin "3"
-			(uuid "82cd43c3-411c-4125-a46e-ba74ff8c90f4")
-		)
-		(pin "1"
-			(uuid "d5ee521f-2ace-4005-8405-1b9ff1a7ec83")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "U201")
 					(unit 1)
 				)
 			)

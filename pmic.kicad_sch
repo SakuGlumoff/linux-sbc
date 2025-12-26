@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2025-12-19")
+		(date "2025-12-26")
 		(rev "v1.0.0")
 	)
 	(lib_symbols
@@ -2701,6 +2701,12 @@
 		(uuid "773066f2-93ff-437d-a6f1-3085cb6db734")
 	)
 	(junction
+		(at 87.63 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d0a4b4-6ef1-41fd-bb49-03539d5836cf")
+	)
+	(junction
 		(at 109.22 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2903,12 +2909,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de3d9bb3-8c43-4b35-a47e-073a42de1e2d")
-	)
-	(junction
-		(at 80.01 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0128ace-227e-4fc6-b42d-209f4ca0fec2")
 	)
 	(junction
 		(at 110.49 198.12)
@@ -3704,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 208.28) (xy 83.82 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42645e6e-e448-4ab1-8d7d-4971e22bae24")
+	)
+	(wire
+		(pts
 			(xy 254 129.54) (xy 254 138.43)
 		)
 		(stroke
@@ -4314,16 +4324,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 205.74) (xy 87.63 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8119179d-1554-4abc-8599-53ee9f27ff38")
-	)
-	(wire
-		(pts
 			(xy 160.02 182.88) (xy 162.56 182.88)
 		)
 		(stroke
@@ -4554,16 +4554,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 205.74) (xy 162.56 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94786eff-78c3-4ebe-8603-63d519362839")
-	)
-	(wire
-		(pts
 			(xy 228.6 147.32) (xy 241.3 147.32)
 		)
 		(stroke
@@ -4571,6 +4561,16 @@
 			(type default)
 		)
 		(uuid "96724a60-d21e-4ea0-95f3-2d67a417da6f")
+	)
+	(wire
+		(pts
+			(xy 147.32 205.74) (xy 162.56 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986e5f8d-2b07-4b3c-8bda-b643464f24b7")
 	)
 	(bus
 		(pts
@@ -4601,6 +4601,16 @@
 			(type default)
 		)
 		(uuid "9a833513-ac71-456a-b0ee-6abaa4e5578f")
+	)
+	(wire
+		(pts
+			(xy 147.32 205.74) (xy 147.32 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae13150-29e5-4274-975e-5e6395306d57")
 	)
 	(wire
 		(pts
@@ -4724,16 +4734,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 208.28) (xy 83.82 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acadc40b-0923-46f1-88c3-f213d02d5ebe")
-	)
-	(wire
-		(pts
 			(xy 254 147.32) (xy 266.7 147.32)
 		)
 		(stroke
@@ -4821,6 +4821,16 @@
 			(type default)
 		)
 		(uuid "b77d400b-a96c-4e40-b35c-f2a33e566d5c")
+	)
+	(wire
+		(pts
+			(xy 87.63 208.28) (xy 130.81 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8956d64-8107-4166-8b28-4410fac16341")
 	)
 	(wire
 		(pts
@@ -5154,7 +5164,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 208.28) (xy 80.01 208.28)
+			(xy 68.58 208.28) (xy 83.82 208.28)
 		)
 		(stroke
 			(width 0)
@@ -5334,16 +5344,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 208.28) (xy 130.81 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac6c1e4-42f6-4e78-96cd-527a1160dc84")
-	)
-	(wire
-		(pts
 			(xy 83.82 176.53) (xy 96.52 176.53)
 		)
 		(stroke
@@ -5464,23 +5464,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 208.28) (xy 80.01 210.82)
+			(xy 87.63 208.28) (xy 87.63 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc3d5341-a7a0-4c09-b8a4-26e3e76650f1")
-	)
-	(wire
-		(pts
-			(xy 87.63 205.74) (xy 130.81 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc8a8edd-1672-40de-a164-de638a3f2d39")
 	)
 	(label "VDD_LDO3"
 		(at 204.47 157.48 180)
@@ -6075,7 +6065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09be4936-2b41-4ce7-a13d-23fb37810148")
-		(property "Reference" "TP407"
+		(property "Reference" "TP406"
 			(at 125.73 215.138 0)
 			(effects
 				(font
@@ -6126,7 +6116,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "TP407")
+					(reference "TP406")
 					(unit 1)
 				)
 			)
@@ -7760,7 +7750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4776417f-119e-4475-a7e8-0534bce9a794")
-		(property "Reference" "TP406"
+		(property "Reference" "TP405"
 			(at 118.11 215.138 0)
 			(effects
 				(font
@@ -7811,7 +7801,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "TP406")
+					(reference "TP405")
 					(unit 1)
 				)
 			)
@@ -8093,7 +8083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51f1f0e0-a858-4c83-95de-288075c4c3f7")
-		(property "Reference" "TP404"
+		(property "Reference" "TP403"
 			(at 102.87 215.138 0)
 			(effects
 				(font
@@ -8144,7 +8134,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "TP404")
+					(reference "TP403")
 					(unit 1)
 				)
 			)
@@ -9556,7 +9546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92847ad4-5df0-4ae1-b884-cf90de8fff29")
-		(property "Reference" "R411"
+		(property "Reference" "R410"
 			(at 131.826 208.026 90)
 			(effects
 				(font
@@ -9646,7 +9636,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "R411")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -11136,7 +11126,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 80.01 210.82 0)
+		(at 87.63 210.82 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11145,7 +11135,7 @@
 		(dnp no)
 		(uuid "ceffbbb9-915b-4e80-a16c-a4c65c372607")
 		(property "Reference" "TP401"
-			(at 80.01 215.138 0)
+			(at 87.63 215.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,7 +11144,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 82.55 214.122 90)
+			(at 90.17 214.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11163,7 +11153,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 85.09 210.82 0)
+			(at 92.71 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,7 +11162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 210.82 0)
+			(at 92.71 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,7 +11171,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 80.01 210.82 0)
+			(at 87.63 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,113 +11324,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 134.62 205.74 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3e7f21b-1753-4c6b-adc1-d710fabd1965")
-		(property "Reference" "R410"
-			(at 131.826 205.486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 137.414 205.486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 134.62 203.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GN0R00C"
-			(at 134.62 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 134.62 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-1GN0R00C"
-			(at 134.62 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 134.62 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "0201"
-			(at 141.478 205.486 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Digi-Key Part Number" "P15979CT-ND"
-			(at 134.62 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76139009-ea49-4500-9211-b9ef3ee36d2c")
-		)
-		(pin "1"
-			(uuid "f77223cd-4d7f-4f93-9651-884607dd80e7")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "R410")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 292.1 190.5 0)
 		(unit 1)
@@ -11582,7 +11465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7c02c55-51e4-4a05-9b1e-0a59170355a1")
-		(property "Reference" "TP405"
+		(property "Reference" "TP404"
 			(at 110.49 215.138 0)
 			(effects
 				(font
@@ -11633,7 +11516,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "TP405")
+					(reference "TP404")
 					(unit 1)
 				)
 			)
@@ -11641,7 +11524,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 87.63 210.82 0)
+		(at 147.32 210.82 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11649,8 +11532,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd4fff72-f25e-4357-896d-623913063cf0")
-		(property "Reference" "TP402"
-			(at 87.63 215.138 0)
+		(property "Reference" "TP407"
+			(at 147.32 215.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11659,7 +11542,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 90.17 214.122 90)
+			(at 149.86 214.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +11551,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 92.71 210.82 0)
+			(at 152.4 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11677,7 +11560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 210.82 0)
+			(at 152.4 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11686,7 +11569,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 87.63 210.82 0)
+			(at 147.32 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,7 +11583,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "TP402")
+					(reference "TP407")
 					(unit 1)
 				)
 			)
@@ -11716,7 +11599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de8772f0-1c0d-4169-85ed-d5a47cf59d64")
-		(property "Reference" "TP403"
+		(property "Reference" "TP402"
 			(at 95.25 215.138 0)
 			(effects
 				(font
@@ -11767,7 +11650,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "TP403")
+					(reference "TP402")
 					(unit 1)
 				)
 			)

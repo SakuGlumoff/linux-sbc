@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2025-12-19")
+		(date "2025-12-26")
 		(rev "v1.0.0")
 	)
 	(lib_symbols
@@ -4768,17 +4768,6 @@
 		)
 		(uuid "744251ae-3c8a-46d6-bddc-e18e23f3a63d")
 	)
-	(text "To 4x4 membrane matrix keypad"
-		(exclude_from_sim no)
-		(at 147.066 129.5401 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7cab6579-21e3-4ad5-90e5-6c3b6d7c90b6")
-	)
 	(text "Place inside the EMI shield frame."
 		(exclude_from_sim no)
 		(at 241.3 91.44 0)
@@ -4929,12 +4918,6 @@
 		(uuid "05a9f23e-9257-476c-aaaf-6960ed3ecd7d")
 	)
 	(junction
-		(at 101.6 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a2611c3-7c77-4e4a-841f-24c868dbfc98")
-	)
-	(junction
 		(at 368.3 224.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5019,12 +5002,6 @@
 		(uuid "670fabd9-357a-46f6-8207-33c621b89231")
 	)
 	(junction
-		(at 101.6 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6714f4b2-c698-426d-a334-6b83daf13a92")
-	)
-	(junction
 		(at 215.9 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5079,6 +5056,12 @@
 		(uuid "b046d6ce-4803-4b89-8ccc-115e5a71d1bd")
 	)
 	(junction
+		(at 102.87 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beeff2da-b717-4801-a83f-140d239280a3")
+	)
+	(junction
 		(at 215.9 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5089,6 +5072,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c054b288-3973-41e4-9588-62f68a9c4c23")
+	)
+	(junction
+		(at 102.87 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c250b466-13cd-4e8c-8e64-536e7bcbd26b")
 	)
 	(junction
 		(at 240.03 153.67)
@@ -5535,7 +5524,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 132.08) (xy 101.6 132.08)
+			(xy 102.87 132.08) (xy 104.14 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5582,6 +5571,16 @@
 			(type default)
 		)
 		(uuid "0c1a579b-95c5-4a81-a36a-4aaa2261483b")
+	)
+	(wire
+		(pts
+			(xy 102.87 134.62) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf8836f-61e8-4c58-b4b8-7016a775fdc8")
 	)
 	(wire
 		(pts
@@ -5635,7 +5634,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 101.6 143.51)
+			(xy 102.87 137.16) (xy 102.87 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5872,6 +5871,16 @@
 			(type default)
 		)
 		(uuid "3f120467-3515-4a27-ade0-d8304ffbfa66")
+	)
+	(wire
+		(pts
+			(xy 102.87 137.16) (xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f44c119-2274-4640-8ea9-f42d46713998")
 	)
 	(wire
 		(pts
@@ -6405,7 +6414,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 132.08) (xy 101.6 134.62)
+			(xy 102.87 132.08) (xy 102.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6615,7 +6624,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 134.62) (xy 101.6 137.16)
+			(xy 102.87 134.62) (xy 102.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6655,7 +6664,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 143.51) (xy 101.6 143.51)
+			(xy 114.3 143.51) (xy 102.87 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6865,16 +6874,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 134.62) (xy 104.14 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d95ad557-2404-42d9-9075-aac3c2838b7d")
-	)
-	(wire
-		(pts
 			(xy 313.69 199.39) (xy 369.57 199.39)
 		)
 		(stroke
@@ -6932,16 +6931,6 @@
 			(type default)
 		)
 		(uuid "e17eb07c-0f35-48ee-9990-0fff3ece68ba")
-	)
-	(wire
-		(pts
-			(xy 101.6 137.16) (xy 104.14 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1adcf5c-8941-484d-86d0-5f9685eb3c67")
 	)
 	(wire
 		(pts
@@ -7863,7 +7852,7 @@
 		(dnp no)
 		(uuid "0432fecc-1168-4cf3-be1c-3cd7a520f416")
 		(property "Reference" "J1201"
-			(at 147.066 124.46 0)
+			(at 147.32 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +7861,7 @@
 			)
 		)
 		(property "Value" "PH1-08-UA"
-			(at 147.066 127 0)
+			(at 147.32 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9237,10 +9226,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ae1c20c-a68b-469f-968b-70b7645613a2")
 		(property "Reference" "J1203"
-			(at 377.19 184.5055 0)
+			(at 377.19 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9237,7 @@
 			)
 		)
 		(property "Value" "FH12A-40S-0.5SH(55)"
-			(at 377.19 187.0455 0)
+			(at 377.19 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
