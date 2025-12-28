@@ -5925,15 +5925,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 139.7 0)
+		(at 215.9 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "03b38b7e-e667-460c-ad64-447732aee45d")
-		(property "Reference" "C403"
-			(at 110.49 137.16 0)
+		(uuid "0487cd14-600e-45a8-b430-5f84ff9b0adb")
+		(property "Reference" "C412"
+			(at 218.44 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5942,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 110.49 138.938 0)
+			(at 218.44 189.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,8 +5950,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 108.9152 143.51 0)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 216.8652 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,8 +5959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 107.95 139.7 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,8 +5968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 107.95 139.7 0)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,8 +5977,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 107.95 139.7 0)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,8 +5986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 107.95 139.7 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,8 +5995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "35 V"
-			(at 110.744 140.97 0)
+		(property "Voltage rating" "16 V"
+			(at 218.694 191.77 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6005,7 +6005,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 110.744 141.986 0)
+			(at 218.694 192.786 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6014,7 +6014,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 110.744 143.002 0)
+			(at 218.694 193.802 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6022,8 +6022,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0603"
-			(at 110.744 144.018 0)
+		(property "Size" "0402"
+			(at 218.694 194.818 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -6031,8 +6031,8 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 107.95 139.7 0)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 215.9 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,15 +6041,147 @@
 			)
 		)
 		(pin "2"
-			(uuid "c2ca8e11-f57b-452b-a39b-10d2bd1f0e6b")
+			(uuid "f7e7b597-ef07-457c-8c06-da6af9041921")
 		)
 		(pin "1"
-			(uuid "ec22a0c1-4a0e-4509-a2d4-f9c0cee2d932")
+			(uuid "2fcb9e30-6cea-4586-9b3a-11f1b36a02f5")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C403")
+					(reference "C412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0946d030-bf31-443c-b935-f65be54d3be0")
+		(property "Reference" "C418"
+			(at 256.54 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 256.54 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 254.9652 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 254 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 254 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 254 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 254 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 256.794 191.77 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 256.794 192.786 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 256.794 193.802 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 256.794 194.818 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 254 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7033dc6d-b757-473a-84ab-fe1fc7b2c02f")
+		)
+		(pin "1"
+			(uuid "02f2a190-1e3f-484a-852a-7a571fe66a3e")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C418")
 					(unit 1)
 				)
 			)
@@ -6231,138 +6363,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "L403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 120.65 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1217834a-6316-4284-bd21-7625fd875c92")
-		(property "Reference" "C405"
-			(at 123.19 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 123.19 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.6152 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 120.65 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 120.65 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 120.65 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 120.65 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 123.444 140.97 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 123.444 141.986 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 123.444 143.002 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 123.444 144.018 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 120.65 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4a98122-7b82-41b9-a967-dc5555a98fd7")
-		)
-		(pin "1"
-			(uuid "61be3957-d498-43a5-a0f9-f4dbbade8b7c")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -6564,138 +6564,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "TP409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 254 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25c28a47-a1e7-46cd-b685-b525d830fc4b")
-		(property "Reference" "C418"
-			(at 256.54 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 256.54 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 254.9652 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 254 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 254 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 254 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 254 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 256.794 191.77 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 256.794 192.786 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 256.794 193.802 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 256.794 194.818 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 254 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d8566a0b-00a7-40c2-a4b9-35e2d574f416")
-		)
-		(pin "1"
-			(uuid "bcc89182-251a-4e09-a518-19102268d884")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C418")
 					(unit 1)
 				)
 			)
@@ -7065,6 +6933,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bee7b40-2d23-4ea3-b86f-588953acd776")
+		(property "Reference" "C414"
+			(at 231.14 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 231.14 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 229.5652 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 228.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 228.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 228.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 228.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 231.394 191.77 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 231.394 192.786 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 231.394 193.802 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 231.394 194.818 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 228.6 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "694d16b3-7bc3-4ac4-b84c-e7be688f6b7a")
+		)
+		(pin "1"
+			(uuid "a391d2a1-8704-4311-9ba5-940116ea48ad")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 323.85 128.27 0)
 		(unit 1)
@@ -7132,15 +7132,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 190.5 0)
+		(at 146.05 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3d0d9a34-50ed-4754-99ae-b5c271d4c1c2")
-		(property "Reference" "C414"
-			(at 231.14 187.96 0)
+		(uuid "36022e9a-5f41-4b73-95f2-f717645c5ce0")
+		(property "Reference" "C410"
+			(at 148.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +7149,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 231.14 189.738 0)
+			(at 148.59 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,8 +7157,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 229.5652 194.31 0)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 147.0152 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,8 +7166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 228.6 190.5 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,8 +7175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 228.6 190.5 0)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,8 +7184,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 228.6 190.5 0)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,8 +7193,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 228.6 190.5 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,8 +7202,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "35 V"
-			(at 231.394 191.77 0)
+		(property "Voltage rating" "16 V"
+			(at 148.844 140.97 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7212,7 +7212,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 231.394 192.786 0)
+			(at 148.844 141.986 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7221,7 +7221,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 231.394 193.802 0)
+			(at 148.844 143.002 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7229,8 +7229,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0603"
-			(at 231.394 194.818 0)
+		(property "Size" "0402"
+			(at 148.844 144.018 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7238,8 +7238,8 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 228.6 190.5 0)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 146.05 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,15 +7248,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "cafac3ec-3357-4d3f-ba8c-c490444fcb07")
+			(uuid "b23b576f-d6dd-4880-99c0-8e5751b66e15")
 		)
 		(pin "1"
-			(uuid "4141373d-bacc-4bfb-a981-d5ab524b255d")
+			(uuid "096c99f0-781c-41a8-abdb-a91812db76b7")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C414")
+					(reference "C410")
 					(unit 1)
 				)
 			)
@@ -7496,138 +7496,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "R407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 215.9 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4630a75d-331c-4274-ae78-4da5d8cf707a")
-		(property "Reference" "C412"
-			(at 218.44 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 218.44 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 216.8652 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 215.9 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 215.9 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 215.9 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 215.9 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 218.694 191.77 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 218.694 192.786 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 218.694 193.802 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 218.694 194.818 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 215.9 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c81e6b64-dbdf-4b24-ac95-18c4daa8bd09")
-		)
-		(pin "1"
-			(uuid "44839690-28c6-49ac-9630-c6166996bbe7")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C412")
 					(unit 1)
 				)
 			)
@@ -7936,138 +7804,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "TP415")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 266.7 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "504a8985-baa4-4a67-9819-6a4568854b97")
-		(property "Reference" "C420"
-			(at 269.24 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 269.24 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 267.6652 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 266.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 266.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 266.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 266.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 269.494 191.77 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 269.494 192.786 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 269.494 193.802 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 269.494 194.818 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 266.7 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95e7dd9f-afcc-49b0-b35b-28f20eae2f70")
-		)
-		(pin "1"
-			(uuid "10117282-4db7-4997-a1c7-c4276b6684cd")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C420")
 					(unit 1)
 				)
 			)
@@ -8472,138 +8208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 134.62 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ada161a-f7c5-497e-9855-63f7df8d0901")
-		(property "Reference" "C408"
-			(at 137.16 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 137.16 182.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 135.5852 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 137.414 184.15 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 137.414 185.166 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 137.414 186.182 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 137.414 187.198 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 134.62 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d83e4ac8-7685-40ec-9ced-eb9d4054c2c6")
-		)
-		(pin "1"
-			(uuid "9c0c5420-28ac-4190-af67-c2933b97212b")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 323.85 135.89 0)
 		(unit 1)
@@ -8664,6 +8268,138 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "#FLG0404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 279.4 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6de02924-087f-4344-a415-ac8788a31c9e")
+		(property "Reference" "C422"
+			(at 281.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 281.94 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 280.3652 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 279.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 279.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 279.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 279.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 282.194 191.77 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 282.194 192.786 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 282.194 193.802 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 282.194 194.818 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 279.4 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc380423-5756-4370-b408-26a04bfc3f28")
+		)
+		(pin "1"
+			(uuid "77ed2edd-e792-4fdd-9de6-77792cbd1dd8")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C422")
 					(unit 1)
 				)
 			)
@@ -8731,6 +8467,138 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "TP410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.3 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f601260-97fe-4f29-ab10-2d5c37fa9798")
+		(property "Reference" "C416"
+			(at 243.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 243.84 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 242.2652 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 241.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 241.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 241.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 241.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 244.094 191.77 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 244.094 192.786 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 244.094 193.802 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 244.094 194.818 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 241.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f60f42a-ea16-4b5c-af4f-0f0a6b96c8a1")
+		)
+		(pin "1"
+			(uuid "3902bd37-d793-47d7-b965-afc40a0fcc5f")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C416")
 					(unit 1)
 				)
 			)
@@ -9298,6 +9166,270 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 107.95 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "862859d2-f4bd-45c7-98e9-833bc3e0c480")
+		(property "Reference" "C403"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 110.49 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 108.9152 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 110.744 140.97 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 110.744 141.986 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 110.744 143.002 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 110.744 144.018 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 107.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e093e2fc-7f0f-4d14-965a-7b9be9f0eff0")
+		)
+		(pin "1"
+			(uuid "9ffe51b3-c2c8-4c67-98c2-1c1d9be8cc1b")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 266.7 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "890c76f4-f833-4301-b74e-d88ce73db410")
+		(property "Reference" "C420"
+			(at 269.24 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 269.24 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 267.6652 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 269.494 191.77 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 269.494 192.786 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 269.494 193.802 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 269.494 194.818 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 266.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b5c3be8-e4b2-4049-973c-f5d08288d917")
+		)
+		(pin "1"
+			(uuid "e45101e5-c5c8-4ed4-9b03-df49884dd9ac")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C420")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 266.7 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9530,6 +9662,138 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "R409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120.65 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9246b121-02f8-423d-986a-d5050424c327")
+		(property "Reference" "C405"
+			(at 123.19 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 123.19 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 121.6152 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 120.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 120.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 120.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 120.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 123.444 140.97 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 123.444 141.986 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 123.444 143.002 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 123.444 144.018 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 120.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "951c5c24-9f9c-4426-b60a-a887753c8558")
+		)
+		(pin "1"
+			(uuid "031934e9-6ca8-4348-9aca-5c559e10daaf")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -9798,6 +10062,270 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "J401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9df768f7-5ab1-4072-a13d-7e0b31413908")
+		(property "Reference" "C407"
+			(at 135.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 135.89 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 134.3152 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 136.144 140.97 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 136.144 141.986 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 136.144 143.002 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 136.144 144.018 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a5b3283d-99ed-4bb0-9693-52bd80d09b38")
+		)
+		(pin "1"
+			(uuid "9613cb45-1633-4b94-8035-b4720a5c7c38")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ee08e10-e55d-4e46-86ee-c4b93d197376")
+		(property "Reference" "C408"
+			(at 137.16 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 137.16 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 135.5852 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 137.414 184.15 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 137.414 185.166 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 137.414 186.182 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 137.414 187.198 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 134.62 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b32d2238-bc6d-4c47-bf1f-c05156e0ed73")
+		)
+		(pin "1"
+			(uuid "69d5e451-b1d8-4d38-8589-570297728296")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C408")
 					(unit 1)
 				)
 			)
@@ -10111,6 +10639,138 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 292.1 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8799e73-fa33-44e9-836d-3820e13db3bf")
+		(property "Reference" "C424"
+			(at 294.64 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 294.64 189.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 293.0652 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 292.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 292.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 292.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 292.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 294.894 191.77 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 294.894 192.786 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 294.894 193.802 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 294.894 194.818 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 292.1 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9044fe7-662a-4479-83f2-5cd0476b9331")
+		)
+		(pin "1"
+			(uuid "e02f73d6-3620-4bfc-93af-ad9e1a8cc719")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
+					(reference "C424")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 241.3 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10343,138 +11003,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "R405")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9adf732-1785-4024-81dc-cf7954788a0c")
-		(property "Reference" "C416"
-			(at 243.84 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 243.84 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 242.2652 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 241.3 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 241.3 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 241.3 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 241.3 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 244.094 191.77 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 244.094 192.786 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 244.094 193.802 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 244.094 194.818 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 241.3 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4071ef21-6638-47e4-b8e9-1c6bc538774d")
-		)
-		(pin "1"
-			(uuid "fb71cb23-ffe6-41aa-91bb-3df6f46596de")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C416")
 					(unit 1)
 				)
 			)
@@ -10788,138 +11316,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "TP416")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c85c67b2-3767-4bf1-b7bd-d00f685c14ec")
-		(property "Reference" "C410"
-			(at 148.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 148.59 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.0152 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 146.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 146.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 146.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 146.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 148.844 140.97 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 148.844 141.986 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 148.844 143.002 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 148.844 144.018 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 146.05 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb4e374b-0fd0-46fd-ba8d-b012da99e164")
-		)
-		(pin "1"
-			(uuid "da33e4a8-80cd-49a2-a56d-f595a86b17b7")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C410")
 					(unit 1)
 				)
 			)
@@ -11318,138 +11714,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
 					(reference "C409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 292.1 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4535e5f-fa51-4abf-ae87-209c93a32fd5")
-		(property "Reference" "C424"
-			(at 294.64 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 294.64 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 293.0652 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 292.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 292.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 292.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 292.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 294.894 191.77 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 294.894 192.786 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 294.894 193.802 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 294.894 194.818 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 292.1 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "109cbca8-a3c0-4cc1-9935-4ccb85ff89d3")
-		)
-		(pin "1"
-			(uuid "5257b451-2f14-4f84-a440-235954fa5907")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C424")
 					(unit 1)
 				)
 			)
@@ -12172,138 +12436,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef4de7f1-3e0f-4435-a732-0c5e04d91b9d")
-		(property "Reference" "C407"
-			(at 135.89 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 135.89 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 134.3152 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 136.144 140.97 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 136.144 141.986 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 136.144 143.002 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 136.144 144.018 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6299f37f-772c-4cfe-9781-90113c39ccf1")
-		)
-		(pin "1"
-			(uuid "99b6188b-1e58-48ad-8c3b-ee6671e4f623")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 254 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12436,138 +12568,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 279.4 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3e849df-34cd-4f58-a8f8-33fcee79076c")
-		(property "Reference" "C422"
-			(at 281.94 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 281.94 189.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 280.3652 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 279.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 279.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 279.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 279.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 282.194 191.77 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 282.194 192.786 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 282.194 193.802 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 282.194 194.818 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 279.4 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76477f86-a446-471d-8411-d760dc7fedf7")
-		)
-		(pin "1"
-			(uuid "4cf46b3b-13cf-4682-bdbe-8044cab1b7dc")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/b1491768-4eca-4c4e-8d13-68e94666bd26"
-					(reference "C422")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 203.2 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12593,7 +12593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
 			(at 204.1652 194.31 0)
 			(effects
 				(font
@@ -12602,7 +12602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
 			(at 203.2 190.5 0)
 			(effects
 				(font
@@ -12611,7 +12611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 203.2 190.5 0)
 			(effects
 				(font
@@ -12620,7 +12620,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R6YA475KE15D"
+		(property "MPN" "CL05A475MO5NUNC"
 			(at 203.2 190.5 0)
 			(effects
 				(font
@@ -12629,7 +12629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 203.2 190.5 0)
 			(effects
 				(font
@@ -12638,7 +12638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "35 V"
+		(property "Voltage rating" "16 V"
 			(at 205.994 191.77 0)
 			(effects
 				(font
@@ -12665,7 +12665,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0603"
+		(property "Size" "0402"
 			(at 205.994 194.818 0)
 			(effects
 				(font
@@ -12674,7 +12674,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
 			(at 203.2 190.5 0)
 			(effects
 				(font
