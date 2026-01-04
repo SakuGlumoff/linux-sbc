@@ -149,113 +149,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2629,12 +2522,6 @@
 		(uuid "ce53016d-c79a-443d-9d67-2a53cbdf9b85")
 	)
 	(junction
-		(at 196.85 199.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce7be78a-cf96-4c72-8fd0-e3f01659fdbd")
-	)
-	(junction
 		(at 181.61 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2651,12 +2538,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecefad99-3bed-435d-9783-ddcebdd3dcc4")
-	)
-	(junction
-		(at 195.58 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eef83959-1d06-4c82-a0c8-419b9f8f5855")
 	)
 	(wire
 		(pts
@@ -2737,16 +2618,6 @@
 			(type default)
 		)
 		(uuid "126d2425-1769-4bd8-86d2-bfc105757c16")
-	)
-	(wire
-		(pts
-			(xy 195.58 96.52) (xy 195.58 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1739a49c-e960-4193-b571-2922250892cd")
 	)
 	(wire
 		(pts
@@ -3260,17 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 198.12) (xy 196.85 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "811a8be9-fba0-4eb3-8924-90a8121b0b69")
-	)
-	(wire
-		(pts
-			(xy 196.85 199.39) (xy 204.47 199.39)
+			(xy 190.5 199.39) (xy 204.47 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3440,16 +3301,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 97.79) (xy 195.58 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8e4916e-6380-4500-b3cb-43b450fd0276")
-	)
-	(wire
-		(pts
 			(xy 80.01 125.73) (xy 80.01 130.81)
 		)
 		(stroke
@@ -3560,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 97.79) (xy 204.47 97.79)
+			(xy 190.5 97.79) (xy 204.47 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3797,16 +3648,6 @@
 			(type default)
 		)
 		(uuid "f8cc258f-b56f-4985-bca8-5ec36ed68a59")
-	)
-	(wire
-		(pts
-			(xy 190.5 199.39) (xy 196.85 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa8c9b0c-03ae-4730-a3ef-98aa46b17efa")
 	)
 	(wire
 		(pts
@@ -6849,72 +6690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 195.58 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6af3216-0b21-4136-a3a0-466a572cc7ae")
-		(property "Reference" "TP301"
-			(at 195.58 92.202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 198.12 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 200.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 195.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "954a977f-d941-407f-a6c2-17d2711c6781")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b"
-					(reference "TP301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 168.91 102.87 0)
 		(unit 1)
@@ -7478,72 +7253,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b"
 					(reference "C307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 196.85 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d5ae2b67-74ea-4673-b049-9e463e08cf1e")
-		(property "Reference" "TP302"
-			(at 196.85 193.802 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 199.39 194.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 196.85 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a261ab9-576b-4dcb-9766-bf0b61a52110")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/707b7ecb-79e2-4dd5-ae9a-df7ce3b9c75b"
-					(reference "TP302")
 					(unit 1)
 				)
 			)
