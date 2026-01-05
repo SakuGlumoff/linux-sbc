@@ -4382,10 +4382,10 @@
 		)
 		(uuid "77349a38-79ec-4e53-b385-1694c465c90b")
 	)
-	(text_box "Route as 50 Ω single-ended.\n\nEnsure that the skew between ETH.[T|R]XD0 and ETH.[T|R]XD1 is minimized."
+	(text_box "Route ETH as 50 Ω single-ended.\n\nEnsure that the skew between the RMII traces and REF_CLK is minimized."
 		(exclude_from_sim no)
 		(at 76.2 209.55 0)
-		(size 34.29 12.7)
+		(size 38.1 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width -0.0001)
@@ -7052,7 +7052,22 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 173.99 204.47) (xy 177.8 204.47) (xy 177.8 168.91) (xy 173.99 168.91)
+				(xy 172.72 201.93) (xy 170.18 201.93) (xy 170.18 204.47) (xy 172.72 204.47)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 335f067b-2f2b-406c-8d48-8699d6b2e261)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 170.18 191.77) (xy 172.72 191.77) (xy 172.72 168.91) (xy 170.18 168.91)
 			)
 			(stroke
 				(width 0)
@@ -7097,7 +7112,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 173.99 204.47 180)
+		(at 170.18 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7107,7 +7122,7 @@
 		)
 		(uuid "52776e1d-002b-43e8-bd90-4e5e3b50081a")
 		(property "Netclass" "ETH"
-			(at 173.2915 207.01 0)
+			(at 169.4815 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +7131,39 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 328.93 55.88 0)
+			(at 325.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 170.18 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cba78100-1837-43cf-9adc-c90472d3277f")
+		(property "Netclass" "ETH"
+			(at 169.4815 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 325.12 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

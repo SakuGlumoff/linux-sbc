@@ -521,9 +521,20 @@
         "line_style": 0,
         "name": "ANT",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.1146,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.112,
+        "line_style": 0,
+        "name": "BT",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 255)",
+        "track_width": 0.1,
         "wire_width": 6
       },
       {
@@ -531,7 +542,7 @@
         "line_style": 0,
         "name": "CHASSIS",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 20
       },
@@ -543,7 +554,7 @@
         "line_style": 0,
         "name": "DDR_CA",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.1,
         "wire_width": 6
@@ -556,7 +567,7 @@
         "line_style": 0,
         "name": "DDR_CLK",
         "pcb_color": "rgb(0, 132, 132)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.1,
         "wire_width": 6
@@ -569,7 +580,7 @@
         "line_style": 0,
         "name": "DDR_L",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.1,
         "wire_width": 6
@@ -582,7 +593,7 @@
         "line_style": 0,
         "name": "DDR_U",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.1,
         "wire_width": 6
@@ -595,7 +606,7 @@
         "line_style": 0,
         "name": "ETH",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.1,
         "wire_width": 6
@@ -605,7 +616,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgb(0, 0, 0)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 20
       },
@@ -614,7 +625,7 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       },
@@ -626,7 +637,7 @@
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.129,
         "wire_width": 6
@@ -639,7 +650,7 @@
         "line_style": 0,
         "name": "WLAN",
         "pcb_color": "rgb(132, 132, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.1,
         "wire_width": 6
@@ -652,7 +663,7 @@
         "line_style": 0,
         "name": "uSD",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.1,
         "wire_width": 6
@@ -1008,6 +1019,30 @@
       "/Ethernet/TX_P": [
         "ETH"
       ],
+      "/MPU/BT.CTS_N": [
+        "BT"
+      ],
+      "/MPU/BT.PCM_CLK": [
+        "BT"
+      ],
+      "/MPU/BT.PCM_SDI": [
+        "BT"
+      ],
+      "/MPU/BT.PCM_SDO": [
+        "BT"
+      ],
+      "/MPU/BT.PCM_WS": [
+        "BT"
+      ],
+      "/MPU/BT.RTS_N": [
+        "BT"
+      ],
+      "/MPU/BT.RX": [
+        "BT"
+      ],
+      "/MPU/BT.TX": [
+        "BT"
+      ],
       "/MPU/USB.DN": [
         "USB"
       ],
@@ -1127,6 +1162,30 @@
       ],
       "/Wireless/ANT_IN": [
         "ANT"
+      ],
+      "/Wireless/BT_CTS_N": [
+        "BT"
+      ],
+      "/Wireless/BT_PCM_CLK": [
+        "BT"
+      ],
+      "/Wireless/BT_PCM_IN": [
+        "BT"
+      ],
+      "/Wireless/BT_PCM_OUT": [
+        "BT"
+      ],
+      "/Wireless/BT_PCM_SYNC": [
+        "BT"
+      ],
+      "/Wireless/BT_RTS_N": [
+        "BT"
+      ],
+      "/Wireless/BT_RXD": [
+        "BT"
+      ],
+      "/Wireless/BT_TXD": [
+        "BT"
       ],
       "/Wireless/SDIO_CLK": [
         "WLAN"
