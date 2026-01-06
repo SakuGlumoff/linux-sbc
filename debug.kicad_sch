@@ -4183,130 +4183,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R_3"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_3_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_3_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:Earth"
 			(power)
 			(pin_numbers
@@ -5492,12 +5368,6 @@
 		(uuid "e67f969a-0daf-4c7f-a7d8-df2f36e73cc2")
 	)
 	(junction
-		(at 328.93 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6fc4ee5-2494-45ba-809d-bbc98228943b")
-	)
-	(junction
 		(at 21.59 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5526,6 +5396,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b2f184-0e03-4631-a4b7-64470de6f8bd")
+	)
+	(junction
+		(at 330.2 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd28aec5-dde8-4a53-8c8f-91ccf873c367")
 	)
 	(no_connect
 		(at 147.32 227.33)
@@ -6396,7 +6272,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 207.01) (xy 328.93 207.01)
+			(xy 323.85 207.01) (xy 330.2 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7016,7 +6892,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 208.28) (xy 328.93 207.01)
+			(xy 330.2 208.28) (xy 330.2 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7056,7 +6932,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 207.01) (xy 328.93 204.47)
+			(xy 330.2 207.01) (xy 330.2 204.47)
 		)
 		(stroke
 			(width 0)
@@ -7166,7 +7042,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 204.47) (xy 328.93 204.47)
+			(xy 252.73 204.47) (xy 330.2 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9260,7 +9136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
 			(at 309.372 234.95 90)
 			(effects
 				(font
@@ -9932,113 +9808,6 @@
 		)
 	)
 	(symbol
-		(lib_name "R_3")
-		(lib_id "Device:R")
-		(at 320.04 207.01 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a3570d5-d67c-4c3c-bcd0-5f5103ac2640")
-		(property "Reference" "R729"
-			(at 317.5 208.534 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 317.5 210.312 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 320.04 205.232 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GN0R00C"
-			(at 320.04 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 320.04 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-1GN0R00C"
-			(at 320.04 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 320.04 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size" "0402"
-			(at 317.5 212.09 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Digi-Key Part Number" "P15979CT-ND"
-			(at 320.04 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ccfbe5f6-67a3-466d-8a4e-9ba352660d6e")
-		)
-		(pin "1"
-			(uuid "8e3c3a04-9927-4674-b00d-cb2c902bfac2")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R729")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 203.2 234.95 0)
 		(mirror y)
@@ -10198,7 +9967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric"
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
 			(at 309.372 224.79 90)
 			(effects
 				(font
@@ -12305,7 +12074,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 328.93 208.28 180)
+		(at 330.2 208.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12313,7 +12082,7 @@
 		(dnp no)
 		(uuid "80a1e565-6023-4ec9-9dfb-1e3d8a4bddf6")
 		(property "Reference" "TP705"
-			(at 328.93 212.598 0)
+			(at 330.2 212.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +12091,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 326.39 211.582 90)
+			(at 327.66 211.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12331,7 +12100,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 323.85 208.28 0)
+			(at 325.12 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12340,7 +12109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 323.85 208.28 0)
+			(at 325.12 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +12118,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 328.93 208.28 0)
+			(at 330.2 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,6 +14998,113 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "R705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_2")
+		(lib_id "Device:R")
+		(at 320.04 207.01 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca8a0105-f96d-4fab-8de8-0472635844c5")
+		(property "Reference" "R729"
+			(at 317.246 206.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 322.834 206.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
+			(at 320.04 205.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ1GN0R00C"
+			(at 320.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 320.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GN0R00C"
+			(at 320.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 320.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0201"
+			(at 326.898 206.756 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Digi-Key Part Number" "P15979CT-ND"
+			(at 320.04 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14ac8e76-4a5f-49f5-a522-a2a17b8c0ed8")
+		)
+		(pin "1"
+			(uuid "2c454633-0a4b-47fd-b253-de006c1683d1")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R729")
 					(unit 1)
 				)
 			)
