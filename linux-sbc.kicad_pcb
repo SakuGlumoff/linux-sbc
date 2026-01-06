@@ -9,7 +9,7 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2025-12-27")
+		(date "2026-01-06")
 		(rev "v1.0.0")
 	)
 	(layers
@@ -156645,6 +156645,26 @@
 				(thickness 0.153)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text_box "Linux SBC\nv1.0.0\n2026-01-06"
+		(start 144.017999 183.769)
+		(end 182.117999 202.819)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "2d93755d-50f4-4d48-aed2-ccb1e0bafa68")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border no)
+		(stroke
+			(width 0)
+			(type solid)
 		)
 	)
 	(gr_text_box "Delay matching for DDR\n\nL1:\n- PCB:\n    - Propagation delay: 52.3043 ps/cm\n- Trace:\n    - Length: 43.5159 mm\n    - Delay: 227.607 ps\n\nL3:\n- Tolerance: ± 25 ps\n- PCB:\n    - Propagation delay: 66.7323 ps/cm\n- Trace:\n    - Length min: (227.607 ps - 25 ps) / 66.7323 ps/cm = 30.3611 mm\n    - Length max: (227.607 ps + 25 ps) / 66.7323 ps/cm = 37.8539 mm\n    - Length ideal: 227.607 ps / 66.7323 ps/cm = 34.1075 mm"
