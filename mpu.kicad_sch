@@ -7715,7 +7715,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "linux-sbc:SW_DIP_x03"
+		(symbol "Switch:SW_DPDT_x2"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -7724,23 +7724,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 6.35 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DIP_x03"
-				(at 0 -6.35 0)
+			(property "Value" "SW_DPDT_x2"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm"
-				(at 0 -2.54 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7749,15 +7749,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7766,7 +7757,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "dip switch"
+			(property "Description" "Switch, dual pole double throw, separate symbols"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7775,7 +7766,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SW_DIP_SPSTx03*"
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7784,89 +7775,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_DIP_x03_0_0"
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "SW_DPDT_x2_0_0"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.667) (xy 2.3622 3.7084)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.413) (xy 2.3622 -1.3716)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -7888,10 +7808,10 @@
 					)
 				)
 			)
-			(symbol "SW_DIP_x03_0_1"
+			(symbol "SW_DPDT_x2_0_1"
 				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -5.08)
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -7900,30 +7820,35 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "SW_DIP_x03_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DPDT_x2_1_1"
 				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7939,9 +7864,27 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "~"
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7956,28 +7899,12 @@
 						)
 					)
 				)
+			)
+			(symbol "SW_DPDT_x2_2_1"
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7993,9 +7920,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(name "~"
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8003,6 +7930,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8344,6 +8289,36 @@
 		)
 		(uuid "d6ea3475-fbd4-4279-ad9b-fb3d6484ae6b")
 	)
+	(text "Oriented to \"SD card\" by default, slide to the other position to enable UART boot."
+		(exclude_from_sim no)
+		(at 354.838 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0e10427-c342-4665-a8ec-0bda2245be16")
+	)
+	(text_box "Oriented to \"SD card\" by default, slide to the other position to enable \"UART and USB\" boot."
+		(exclude_from_sim no)
+		(at 361.95 88.9 0)
+		(size 38.1 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2984d3e2-f97e-402f-9c51-90c9fc954276")
+	)
 	(text_box "C_{XTAL_LOAD} = 9 pF, C_{STRAY} ~= 5 pF\n\nC_{L} = (C_{XTAL_LOAD} - C_{STRAY}) * 2 = 8 pF"
 		(exclude_from_sim no)
 		(at 152.4 260.35 0)
@@ -8385,6 +8360,27 @@
 			)
 		)
 		(uuid "67c98310-c2e4-479d-b0e6-417fa01798f4")
+	)
+	(text_box "Add instructions to silkscreen."
+		(exclude_from_sim no)
+		(at 361.95 101.6 0)
+		(size 38.1 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 194 1)
+			)
+			(justify left top)
+		)
+		(uuid "970b06b3-7ed3-4ba6-a034-a68733ca5b81")
 	)
 	(text_box "According to AN5474, Section 5.1, Boot mode selection, the U(S)ARTx RX and TX pins may require 10 kΩ pull-up resistors to VDD to prevent spurious data during device boot-up."
 		(exclude_from_sim no)
@@ -8431,12 +8427,6 @@
 		(uuid "45e27881-9bd0-411d-bd8e-56825b18d2b3")
 	)
 	(junction
-		(at 401.32 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "525d18f6-202b-4c07-b9ae-394a84981349")
-	)
-	(junction
 		(at 245.11 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8455,10 +8445,16 @@
 		(uuid "6c542e60-a94c-44a9-abc2-f4ab0dbaf633")
 	)
 	(junction
-		(at 401.32 102.87)
+		(at 266.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "740df596-67f9-4ef0-a5eb-c66a0801ea08")
+		(uuid "7dd31563-434f-4a68-9874-9d14a9cd0519")
+	)
+	(junction
+		(at 292.1 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84157721-4bfa-4d21-873b-54905d1c4ea8")
 	)
 	(junction
 		(at 278.13 278.13)
@@ -8491,22 +8487,10 @@
 		(uuid "c97ada9e-f7ce-4fd8-b5f8-424ad107c47f")
 	)
 	(junction
-		(at 365.76 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da98559a-8ed3-4ae7-a616-ec1233320b05")
-	)
-	(junction
 		(at 284.48 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbeb36f6-a1d3-461d-ae93-b2155a4e81ee")
-	)
-	(junction
-		(at 354.33 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de5a09a6-12e4-4eeb-b8bf-807e33888df5")
 	)
 	(no_connect
 		(at 259.08 180.34)
@@ -9979,26 +9963,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 102.87) (xy 401.32 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b2b8ef-eadd-4cdb-ac14-80ad147dde38")
-	)
-	(wire
-		(pts
-			(xy 365.76 102.87) (xy 384.81 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01fee2fe-14aa-4a07-88d2-a9ed38ac6371")
-	)
-	(wire
-		(pts
 			(xy 208.28 86.36) (xy 220.98 86.36)
 		)
 		(stroke
@@ -10036,6 +10000,16 @@
 			(type default)
 		)
 		(uuid "03317632-f11c-4fc2-8a4d-752902d5d0fc")
+	)
+	(wire
+		(pts
+			(xy 292.1 88.9) (xy 330.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "043cef67-98c9-4e89-affa-d15d44490812")
 	)
 	(wire
 		(pts
@@ -10329,6 +10303,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 88.9) (xy 292.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a5dd78-f553-44a1-95db-c5f0a46d1eb6")
+	)
+	(wire
+		(pts
 			(xy 198.12 205.74) (xy 215.9 205.74)
 		)
 		(stroke
@@ -10416,16 +10400,6 @@
 			(type default)
 		)
 		(uuid "17a5f1cf-fce5-451d-a26b-0c5a7c6bd05c")
-	)
-	(wire
-		(pts
-			(xy 365.76 96.52) (xy 365.76 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18861eea-3fd2-49c9-8fb7-b684774a3195")
 	)
 	(wire
 		(pts
@@ -10727,6 +10701,16 @@
 		)
 		(uuid "27d217c0-4c6c-4723-9485-696262540353")
 	)
+	(wire
+		(pts
+			(xy 355.6 104.14) (xy 347.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28af54c9-afe9-4cc3-bd4b-38a0dcf7e4f6")
+	)
 	(bus
 		(pts
 			(xy 238.76 228.6) (xy 238.76 231.14)
@@ -10857,26 +10841,6 @@
 		)
 		(uuid "2e522c4c-b824-4d47-a96d-366b02d2851d")
 	)
-	(wire
-		(pts
-			(xy 377.19 96.52) (xy 377.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e54efee-cbf5-4eb0-bcc2-3c56ec4914e6")
-	)
-	(wire
-		(pts
-			(xy 365.76 87.63) (xy 365.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2edc29b6-5233-46cf-9071-963f6063cffd")
-	)
 	(bus
 		(pts
 			(xy 140.97 88.9) (xy 142.24 88.9)
@@ -10966,6 +10930,16 @@
 			(type default)
 		)
 		(uuid "31eea6f8-cf25-4de3-9a7e-b2a573c43ef5")
+	)
+	(wire
+		(pts
+			(xy 266.7 88.9) (xy 266.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3204566f-8364-46d4-9c86-c129564620d7")
 	)
 	(bus
 		(pts
@@ -11259,16 +11233,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 105.41) (xy 384.81 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c84ef53-7dad-487c-b282-b4177eb456bf")
-	)
-	(wire
-		(pts
 			(xy 226.06 185.42) (xy 226.06 182.88)
 		)
 		(stroke
@@ -11549,6 +11513,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 107.95) (xy 298.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c28ad33-ae05-417d-b1ac-13231d5b7e4c")
+	)
+	(wire
+		(pts
 			(xy 157.48 142.24) (xy 156.21 142.24)
 		)
 		(stroke
@@ -11566,6 +11540,16 @@
 			(type default)
 		)
 		(uuid "4cb85b09-61a0-45a8-9c39-1d0c394a80e7")
+	)
+	(wire
+		(pts
+			(xy 298.45 106.68) (xy 299.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1641de-0ea8-4ef9-9160-8efc7aaa1c28")
 	)
 	(wire
 		(pts
@@ -11789,16 +11773,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 87.63) (xy 354.33 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "594b7d04-f758-46b9-b813-9e8f001992e5")
-	)
-	(wire
-		(pts
 			(xy 300.99 210.82) (xy 302.26 210.82)
 		)
 		(stroke
@@ -11959,6 +11933,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 101.6) (xy 330.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622c50b5-a9ce-4d16-8b04-a83b229dd359")
+	)
+	(wire
+		(pts
 			(xy 383.54 129.54) (xy 368.3 129.54)
 		)
 		(stroke
@@ -12046,16 +12030,6 @@
 			(type default)
 		)
 		(uuid "64a19879-a1d3-498c-ae40-e745d774b227")
-	)
-	(wire
-		(pts
-			(xy 400.05 100.33) (xy 401.32 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b1c97f-49c1-4338-9772-38116887dfad")
 	)
 	(wire
 		(pts
@@ -12369,16 +12343,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 87.63) (xy 354.33 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "781309f0-b156-42fc-933f-2efe74a999a9")
-	)
-	(wire
-		(pts
 			(xy 245.11 278.13) (xy 260.35 278.13)
 		)
 		(stroke
@@ -12519,16 +12483,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 100.33) (xy 384.81 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828cbe5b-2ae9-4c09-9c4d-cbe703665b3f")
-	)
-	(wire
-		(pts
 			(xy 383.54 195.58) (xy 368.3 195.58)
 		)
 		(stroke
@@ -12549,6 +12503,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 99.06) (xy 330.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84792d32-5fa0-44ec-ac53-17dd23a8cd29")
+	)
+	(wire
+		(pts
 			(xy 142.24 203.2) (xy 157.48 203.2)
 		)
 		(stroke
@@ -12556,16 +12520,6 @@
 			(type default)
 		)
 		(uuid "8524d5f2-7090-4749-80e9-5bf08900382a")
-	)
-	(wire
-		(pts
-			(xy 377.19 87.63) (xy 377.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8533d28c-9d33-4145-b1ec-647f8be622fb")
 	)
 	(wire
 		(pts
@@ -12666,6 +12620,16 @@
 			(type default)
 		)
 		(uuid "899d4139-9ec3-48bb-8a20-4a50fc67da83")
+	)
+	(wire
+		(pts
+			(xy 337.82 106.68) (xy 336.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c3d3f6-96d9-4413-8b09-e9b0ae3ca201")
 	)
 	(bus
 		(pts
@@ -12796,16 +12760,6 @@
 			(type default)
 		)
 		(uuid "90587029-f56f-4a19-8a5d-d60d489b1fd2")
-	)
-	(wire
-		(pts
-			(xy 365.76 87.63) (xy 377.19 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9131eb2f-4e1c-4baa-ab87-e4f037b61ea1")
 	)
 	(bus
 		(pts
@@ -12979,6 +12933,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 99.06) (xy 266.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa065d2-b972-434c-a500-29d34f375269")
+	)
+	(wire
+		(pts
 			(xy 46.99 157.48) (xy 34.29 157.48)
 		)
 		(stroke
@@ -13086,6 +13050,16 @@
 			(type default)
 		)
 		(uuid "a262a8f9-c631-4ee2-a5b3-4dad58150930")
+	)
+	(wire
+		(pts
+			(xy 292.1 88.9) (xy 292.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dcfb7a-6d6a-4150-9f3d-8f094087bc23")
 	)
 	(wire
 		(pts
@@ -13407,6 +13381,16 @@
 		)
 		(uuid "b2ac7205-c1bd-4575-b845-5f91281553f2")
 	)
+	(wire
+		(pts
+			(xy 292.1 99.06) (xy 292.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a8b6db-5c2f-46ff-a3a6-1e16ff476dbc")
+	)
 	(bus
 		(pts
 			(xy 102.87 144.78) (xy 102.87 142.24)
@@ -13426,6 +13410,16 @@
 			(type default)
 		)
 		(uuid "b53d3023-da1d-470c-af31-a92b25a46e88")
+	)
+	(wire
+		(pts
+			(xy 265.43 88.9) (xy 266.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b07ad6-cbf4-449c-b1e5-302a6ba7a101")
 	)
 	(bus
 		(pts
@@ -13559,16 +13553,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 100.33) (xy 401.32 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd0590be-bca1-4254-8f35-0164185569d7")
-	)
-	(wire
-		(pts
 			(xy 383.54 139.7) (xy 368.3 139.7)
 		)
 		(stroke
@@ -13607,16 +13591,6 @@
 		)
 		(uuid "bdf7549c-c509-4fed-899a-ed5e4c004685")
 	)
-	(wire
-		(pts
-			(xy 354.33 96.52) (xy 354.33 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea5766d-6d3a-4f86-8597-84d6a989e8e4")
-	)
 	(bus
 		(pts
 			(xy 386.08 198.12) (xy 386.08 200.66)
@@ -13639,16 +13613,6 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 105.41) (xy 400.05 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf32d755-fbd8-437c-9493-af7e57ad522b")
-	)
-	(wire
-		(pts
 			(xy 46.99 147.32) (xy 34.29 147.32)
 		)
 		(stroke
@@ -13656,6 +13620,16 @@
 			(type default)
 		)
 		(uuid "bfc673a5-b1ce-4269-ab90-45c3cda9295b")
+	)
+	(wire
+		(pts
+			(xy 309.88 104.14) (xy 317.5 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe9f193-5fac-49d0-bb12-8b7a53e2213e")
 	)
 	(bus
 		(pts
@@ -13686,6 +13660,16 @@
 			(type default)
 		)
 		(uuid "c0e9af4e-4b77-413e-a264-70398ccbf1d2")
+	)
+	(wire
+		(pts
+			(xy 266.7 104.14) (xy 279.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10a2e59-3f5d-4e18-805c-55c9fd65ca42")
 	)
 	(wire
 		(pts
@@ -13749,6 +13733,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 88.9) (xy 330.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34f467a-7027-482a-a851-ad0e70fb27f1")
+	)
+	(wire
+		(pts
 			(xy 142.24 190.5) (xy 157.48 190.5)
 		)
 		(stroke
@@ -13776,6 +13770,16 @@
 			(type default)
 		)
 		(uuid "c4882bf0-4252-4c9e-aadc-ba3fe12e829c")
+	)
+	(wire
+		(pts
+			(xy 336.55 107.95) (xy 336.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e9991b-b330-40f9-987f-fec6d5e86359")
 	)
 	(wire
 		(pts
@@ -14207,16 +14211,6 @@
 		)
 		(uuid "d5a504ce-c270-48b1-bad1-b957799ee188")
 	)
-	(wire
-		(pts
-			(xy 401.32 105.41) (xy 401.32 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d77b84e3-7dd3-410c-82da-45a54845d618")
-	)
 	(bus
 		(pts
 			(xy 199.39 227.33) (xy 199.39 229.87)
@@ -14226,6 +14220,16 @@
 			(type default)
 		)
 		(uuid "d7bb64ac-36cd-4e0b-bb53-6402d537c823")
+	)
+	(wire
+		(pts
+			(xy 292.1 101.6) (xy 299.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d816b2c9-d3b1-4b0c-ae55-c9890db0282b")
 	)
 	(wire
 		(pts
@@ -14396,16 +14400,6 @@
 			(type default)
 		)
 		(uuid "dff1cd6e-6cdf-4b77-886f-93bf1087fed4")
-	)
-	(wire
-		(pts
-			(xy 354.33 87.63) (xy 365.76 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0163ddd-1072-4115-9438-67de4dc52f4a")
 	)
 	(wire
 		(pts
@@ -14686,16 +14680,6 @@
 			(type default)
 		)
 		(uuid "f04574d3-3f52-4a4b-8631-3e40ca4a0606")
-	)
-	(wire
-		(pts
-			(xy 400.05 102.87) (xy 401.32 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a8adef-bca8-4fe5-83bf-861b7c53f725")
 	)
 	(wire
 		(pts
@@ -15883,12 +15867,12 @@
 		(uuid "21563757-06db-4109-b6ac-bc742ec538bb")
 	)
 	(label "BOOT0"
-		(at 378.46 100.33 0)
+		(at 355.6 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "220eab46-f753-45cb-aec9-2deb848252d4")
 	)
@@ -16623,12 +16607,12 @@
 		(uuid "7964af24-7eb8-4313-b5ef-8aeb3dae7f5e")
 	)
 	(label "BOOT1"
-		(at 378.46 102.87 0)
+		(at 317.5 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7a66deb7-94ba-4560-8903-d17d3f99cc11")
 	)
@@ -16963,12 +16947,12 @@
 		(uuid "96c65276-a3fd-4554-8e33-54bd956ac7b3")
 	)
 	(label "BOOT2"
-		(at 378.46 105.41 0)
+		(at 279.4 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "972d7d9f-530d-4b7c-979d-bd908122fe4f")
 	)
@@ -18207,7 +18191,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 353.06 87.63 180)
+		(at 265.43 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18456,114 +18440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "linux-sbc:SW_DIP_x03")
-		(at 392.43 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0915db40-a1da-45c8-9fa0-2989d89e1d86")
-		(property "Reference" "SW501"
-			(at 392.43 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "3x DIP switch"
-			(at 392.43 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile"
-			(at 392.43 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ctscorp.com/Files/DataSheets/Switches/DIP-Switches/CTS-Switches-DIP-219-Series-Datasheet.pdf"
-			(at 392.43 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dip Switch SPST 3 Position Surface Mount Slide (Standard) Actuator 100mA 20VDC"
-			(at 392.43 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key Part Number" "CT2193MST-ND"
-			(at 392.43 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "219-3MST"
-			(at 392.43 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "CTS Electrocomponents"
-			(at 392.43 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "9832ee8e-caef-4a64-9796-2824c184cda8")
-		)
-		(pin "5"
-			(uuid "2c520fe7-26c8-4713-a3e4-548d7c80f47a")
-		)
-		(pin "2"
-			(uuid "5318b614-cdf9-4bf7-8b39-3516b0dc8d90")
-		)
-		(pin "3"
-			(uuid "10d12a51-5c90-4f11-84a6-2c9d574df080")
-		)
-		(pin "1"
-			(uuid "d4bab10a-4fb8-4333-95d3-0af36b5dcb9c")
-		)
-		(pin "4"
-			(uuid "d5a5a986-6c00-4b2c-bee8-875a20128713")
-		)
-		(instances
-			(project ""
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "SW501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 36.83 210.82 90)
 		(mirror x)
@@ -18639,7 +18515,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "108fe309-ba79-466d-b95f-1b94800a45cb")
-		(property "Reference" "R506"
+		(property "Reference" "R508"
 			(at 323.85 236.474 90)
 			(effects
 				(font
@@ -18747,7 +18623,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R506")
+					(reference "R508")
 					(unit 1)
 				)
 			)
@@ -20239,6 +20115,114 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 304.8 104.14 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34d4d343-3870-454d-a092-d04597af3725")
+		(property "Reference" "SW501"
+			(at 304.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "JS202011CQN"
+			(at 304.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch DPDT Through Hole"
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "401-2001-ND"
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JS202011CQN"
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 304.8 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "101a155a-f04e-430f-badc-1bee03865d07")
+		)
+		(pin "5"
+			(uuid "fa637475-7be6-46ef-b386-acce5c07e5a6")
+		)
+		(pin "2"
+			(uuid "73d1c7fa-bd31-4a90-9a1b-56d6b60dd210")
+		)
+		(pin "1"
+			(uuid "2b13df7d-7a7a-4842-870c-ed32b851e41a")
+		)
+		(pin "4"
+			(uuid "39ee36c6-a1e2-4687-97b7-62a9fbf116ac")
+		)
+		(pin "6"
+			(uuid "60c8bbb5-5781-4d99-9e48-a5c7a278003c")
+		)
+		(instances
+			(project ""
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
+					(reference "SW501")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 232.41 271.78 0)
 		(mirror y)
@@ -20372,6 +20356,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 336.55 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e93a3cb-f677-4d8f-a6e5-6d450edc8b41")
+		(property "Reference" "#PWR0508"
+			(at 336.55 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 336.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 336.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 336.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06301242-ebe7-480f-901b-8f2d0cef8a85")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
+					(reference "#PWR0508")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 223.52 83.82 270)
 		(unit 1)
@@ -20432,6 +20484,115 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
 					(reference "TP505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DPDT_x2")
+		(at 342.9 104.14 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5852f699-42a8-410c-82fd-ea7fdc3f1fe1")
+		(property "Reference" "SW501"
+			(at 342.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "JS202011CQN"
+			(at 342.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
+			(at 342.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
+			(at 342.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch DPDT Through Hole"
+			(at 342.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key Part Number" "401-2001-ND"
+			(at 342.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JS202011CQN"
+			(at 342.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 342.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "101a155a-f04e-430f-badc-1bee03865d07")
+		)
+		(pin "5"
+			(uuid "fa637475-7be6-46ef-b386-acce5c07e5a6")
+		)
+		(pin "2"
+			(uuid "73d1c7fa-bd31-4a90-9a1b-56d6b60dd210")
+		)
+		(pin "1"
+			(uuid "2b13df7d-7a7a-4842-870c-ed32b851e41a")
+		)
+		(pin "4"
+			(uuid "39ee36c6-a1e2-4687-97b7-62a9fbf116ac")
+		)
+		(pin "6"
+			(uuid "60c8bbb5-5781-4d99-9e48-a5c7a278003c")
+		)
+		(instances
+			(project ""
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
+					(reference "SW501")
 					(unit 1)
 				)
 			)
@@ -21660,6 +21821,131 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 330.2 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70b7f8fc-97c6-4b15-90d1-385d55a21ec3")
+		(property "Reference" "R509"
+			(at 328.93 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 328.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
+			(at 331.978 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 330.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 330.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GNF1002C"
+			(at 330.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 330.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 328.93 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.05 W"
+			(at 328.93 96.52 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0201"
+			(at 328.93 97.7901 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P122414CT-ND"
+			(at 330.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29e5690b-7631-4c36-bea8-d160908ce207")
+		)
+		(pin "1"
+			(uuid "acb5bcfd-a846-460e-afa6-08ed1e43e280")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
+					(reference "R509")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 326.39 232.41 90)
 		(unit 1)
@@ -21668,7 +21954,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7445cbf7-513f-4b6d-ad58-b2397d274b0d")
-		(property "Reference" "R505"
+		(property "Reference" "R507"
 			(at 323.85 226.314 90)
 			(effects
 				(font
@@ -21776,7 +22062,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R505")
+					(reference "R507")
 					(unit 1)
 				)
 			)
@@ -23121,6 +23407,131 @@
 		)
 	)
 	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 292.1 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "979db857-4fe5-4644-a7c0-70dc9998f146")
+		(property "Reference" "R506"
+			(at 290.83 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 290.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
+			(at 293.878 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 292.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 292.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-1GNF1002C"
+			(at 292.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 292.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 290.83 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.05 W"
+			(at 290.83 96.52 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0201"
+			(at 290.83 97.7901 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P122414CT-ND"
+			(at 292.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70a8eb10-7029-4664-8198-067a1b0ab587")
+		)
+		(pin "1"
+			(uuid "75e6af01-5fd9-40ba-96b5-81109467e7a0")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
+					(reference "R506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 284.48 279.4 0)
 		(unit 1)
@@ -23313,7 +23724,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 401.32 107.95 0)
+		(at 298.45 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23322,7 +23733,7 @@
 		(fields_autoplaced yes)
 		(uuid "b845170c-f68f-4299-a709-c08f85ff460c")
 		(property "Reference" "#PWR0507"
-			(at 401.32 114.3 0)
+			(at 298.45 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,7 +23742,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 401.32 113.03 0)
+			(at 298.45 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23340,7 +23751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 401.32 107.95 0)
+			(at 298.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23349,7 +23760,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 401.32 107.95 0)
+			(at 298.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23358,7 +23769,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 401.32 107.95 0)
+			(at 298.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24978,15 +25389,15 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 354.33 92.71 0)
+		(at 266.7 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f8314f63-15e5-4d01-9559-f386209014b7")
-		(property "Reference" "R507"
-			(at 355.6 89.662 0)
+		(property "Reference" "R505"
+			(at 267.97 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24995,7 +25406,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 355.6 91.44 0)
+			(at 267.97 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25004,7 +25415,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 352.552 92.71 90)
+			(at 264.922 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25013,7 +25424,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 354.33 92.71 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25022,7 +25433,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 354.33 92.71 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25031,7 +25442,7 @@
 			)
 		)
 		(property "MPN" "ERJ-1GNF1002C"
-			(at 354.33 92.71 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25040,7 +25451,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 354.33 92.71 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25049,7 +25460,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 355.6 92.71 0)
+			(at 267.97 95.25 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -25058,7 +25469,7 @@
 			)
 		)
 		(property "Power rating" "0.05 W"
-			(at 355.6 93.98 0)
+			(at 267.97 96.52 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -25067,7 +25478,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 355.6 95.2501 0)
+			(at 267.97 97.7901 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -25076,7 +25487,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P122414CT-ND"
-			(at 354.33 92.71 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25093,131 +25504,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 365.76 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb0fb313-c27b-431d-ac43-8691753a2eaf")
-		(property "Reference" "R508"
-			(at 367.03 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 367.03 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 363.982 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 365.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 365.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-1GNF1002C"
-			(at 365.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 365.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 367.03 92.71 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Power rating" "0.05 W"
-			(at 367.03 93.98 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0201"
-			(at 367.03 95.2501 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "P122414CT-ND"
-			(at 365.76 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dc6f74bb-3c60-492d-9dce-5aca1c28d292")
-		)
-		(pin "1"
-			(uuid "7c6977e8-2f57-46ca-b275-311687ee4fcd")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R508")
+					(reference "R505")
 					(unit 1)
 				)
 			)
@@ -25285,130 +25572,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
 					(reference "#PWR0504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 377.19 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc8a360e-bbf1-4a72-b9c7-0c5a32c1ff30")
-		(property "Reference" "R509"
-			(at 378.46 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 378.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 375.412 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 377.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 377.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-1GNF1002C"
-			(at 377.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 377.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 378.46 92.71 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Power rating" "0.05 W"
-			(at 378.46 93.98 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0201"
-			(at 378.46 95.2501 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "P122414CT-ND"
-			(at 377.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e6103de-f3e3-48d6-96b2-90eb272a03e5")
-		)
-		(pin "1"
-			(uuid "91a12801-b379-4771-bc92-37cdae8e9c11")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/2d01087b-54dc-4f43-9cc7-a0ba17201776"
-					(reference "R509")
 					(unit 1)
 				)
 			)
