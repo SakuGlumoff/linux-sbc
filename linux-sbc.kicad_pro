@@ -526,7 +526,7 @@
         "line_style": 0,
         "name": "ANT",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.1146,
         "wire_width": 6
@@ -547,7 +547,7 @@
         "line_style": 0,
         "name": "CHASSIS",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 20
       },
@@ -609,7 +609,7 @@
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.1,
         "line_style": 0,
-        "name": "ETH",
+        "name": "ETH_CONN",
         "pcb_color": "rgb(0, 194, 194)",
         "priority": 5,
         "schematic_color": "rgb(0, 194, 194)",
@@ -621,7 +621,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgb(0, 0, 0)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 20
       },
@@ -630,9 +630,18 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "RMII",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 6
       },
       {
         "bus_width": 12,
@@ -642,7 +651,7 @@
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.129,
         "wire_width": 6
@@ -655,7 +664,7 @@
         "line_style": 0,
         "name": "WLAN",
         "pcb_color": "rgb(132, 132, 0)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.1,
         "wire_width": 6
@@ -668,7 +677,7 @@
         "line_style": 0,
         "name": "uSD",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.1,
         "wire_width": 6
@@ -932,52 +941,52 @@
         "USB"
       ],
       "/Ethernet/CLKIN": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/CRS_DVMODE2": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.CRS_DV": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.INT_N": [
         "ETH"
       ],
       "/Ethernet/ETH.MDC": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.MDIO": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.REF_CLK": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.RST_N": [
         "ETH"
       ],
       "/Ethernet/ETH.RXD0": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.RXD1": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.TXD0": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.TXD1": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/ETH.TXEN": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/INT_N": [
         "ETH"
       ],
       "/Ethernet/MDC": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/MDIO": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/MODE0": [
         "ETH"
@@ -995,34 +1004,34 @@
         "ETH"
       ],
       "/Ethernet/RXD0{slash}MODE0": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/RXD1": [
         "ETH"
       ],
       "/Ethernet/RXD1{slash}MODE1": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/RX_N": [
-        "ETH"
+        "ETH_CONN"
       ],
       "/Ethernet/RX_P": [
-        "ETH"
+        "ETH_CONN"
       ],
       "/Ethernet/TXD0": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/TXD1": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/TXEN": [
-        "ETH"
+        "RMII"
       ],
       "/Ethernet/TX_N": [
-        "ETH"
+        "ETH_CONN"
       ],
       "/Ethernet/TX_P": [
-        "ETH"
+        "ETH_CONN"
       ],
       "/MPU/BT.CTS_N": [
         "BT"
