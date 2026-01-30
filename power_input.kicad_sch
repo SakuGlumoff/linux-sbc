@@ -2027,7 +2027,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Filter:Choke_CommonMode_FerriteCore_1423"
+		(symbol "Filter:Choke_CommonMode_FerriteCore_1234"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -2043,7 +2043,7 @@
 					)
 				)
 			)
-			(property "Value" "Choke_CommonMode_FerriteCore_1423"
+			(property "Value" "Choke_CommonMode_FerriteCore_1234"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -2069,7 +2069,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic common-mode choke, ferrite core, 1423 pin order"
+			(property "Description" "Generic common-mode choke, ferrite core, 1234 pin order"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2087,7 +2087,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Choke_CommonMode_FerriteCore_1423_0_1"
+			(symbol "Choke_CommonMode_FerriteCore_1234_0_1"
 				(circle
 					(center -2.794 1.27)
 					(radius 0.254)
@@ -2423,7 +2423,7 @@
 					)
 				)
 			)
-			(symbol "Choke_CommonMode_FerriteCore_1423_1_1"
+			(symbol "Choke_CommonMode_FerriteCore_1234_1_1"
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -2445,6 +2445,24 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
@@ -2461,7 +2479,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
 					(name "4"
 						(effects
@@ -2471,24 +2489,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11120,9 +11120,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Filter:Choke_CommonMode_FerriteCore_1423")
+		(lib_id "Filter:Choke_CommonMode_FerriteCore_1234")
 		(at 127 78.74 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
