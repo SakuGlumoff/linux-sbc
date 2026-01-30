@@ -9731,129 +9731,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 359.41 200.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06ee6487-edd7-4204-9e1c-c0095d32ab77")
-		(property "Reference" "R239"
-			(at 356.87 194.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "4.99 kΩ"
-			(at 356.87 196.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
-			(at 359.41 202.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
-			(at 359.41 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur Thick Film"
-			(at 359.41 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110247"
-			(at 359.41 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 359.41 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 356.87 197.358 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Power rating" "0.1 W"
-			(at 356.87 198.374 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Size" "0402"
-			(at 356.87 199.39 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Digi-Key Part Number" "732-560112110247CT-ND"
-			(at 359.41 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e6c6923-4afa-41b3-9f63-6841e05a56c0")
-		)
-		(pin "1"
-			(uuid "23af6069-53bb-4ce1-a4bc-167ba623c6ce")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R239")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 222.25 198.12 0)
 		(unit 1)
@@ -11474,6 +11351,129 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 359.41 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33d42cab-b318-4cb0-b9eb-d99c69e086ac")
+		(property "Reference" "R240"
+			(at 356.87 215.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 356.87 216.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 359.41 222.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 359.41 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 359.41 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEA"
+			(at 359.41 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 359.41 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 356.87 217.678 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Power rating" "0.25 W"
+			(at 356.87 218.694 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Size" "0805"
+			(at 356.87 219.71 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Digi-Key Part Number" "541-10.0KCCT-ND"
+			(at 359.41 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd5cc0fb-8c44-48f5-897d-252964c53863")
+		)
+		(pin "1"
+			(uuid "d9d235f0-2a80-4820-b602-139a4b496a41")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R240")
 					(unit 1)
 				)
 			)
@@ -13130,6 +13130,129 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 359.41 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "557185f4-6517-4bf0-a3a8-a50728324860")
+		(property "Reference" "R239"
+			(at 356.87 194.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 356.87 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 359.41 202.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 359.41 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 359.41 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEA"
+			(at 359.41 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 359.41 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 356.87 197.358 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Power rating" "0.25 W"
+			(at 356.87 198.374 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Size" "0805"
+			(at 356.87 199.39 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Digi-Key Part Number" "541-10.0KCCT-ND"
+			(at 359.41 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "112586ca-eb60-4a4a-ae94-f2b93c7ac7e6")
+		)
+		(pin "1"
+			(uuid "5fb555d3-432f-49e3-addc-0aaf72c87072")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 165.1 232.41 0)
 		(mirror y)
 		(unit 1)
@@ -13875,6 +13998,129 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "D207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 359.41 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6631bf01-25f6-48e7-b457-232156cf8a96")
+		(property "Reference" "R238"
+			(at 356.87 174.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 356.87 176.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 359.41 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 359.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
+			(at 359.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510K0FKEA"
+			(at 359.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 359.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 356.87 177.038 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Power rating" "0.25 W"
+			(at 356.87 178.054 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Size" "0805"
+			(at 356.87 179.07 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify right top)
+			)
+		)
+		(property "Digi-Key Part Number" "541-10.0KCCT-ND"
+			(at 359.41 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ef46d7a-24e7-4a22-b702-7fff2e76d022")
+		)
+		(pin "1"
+			(uuid "8f3eba50-04d7-42f4-b936-e2847c837a2c")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
+					(reference "R238")
 					(unit 1)
 				)
 			)
@@ -14821,129 +15067,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "#PWR0208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 359.41 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "772856d7-f070-4bd8-9817-27de73314dfa")
-		(property "Reference" "R238"
-			(at 356.87 174.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "4.99 kΩ"
-			(at 356.87 176.022 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
-			(at 359.41 182.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
-			(at 359.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur Thick Film"
-			(at 359.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110247"
-			(at 359.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 359.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 356.87 177.038 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Power rating" "0.1 W"
-			(at 356.87 178.054 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Size" "0402"
-			(at 356.87 179.07 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Digi-Key Part Number" "732-560112110247CT-ND"
-			(at 359.41 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c43eb6b0-cd1a-429c-bdec-8bb3a004fe4c")
-		)
-		(pin "1"
-			(uuid "4f6c336b-9f0f-4b8e-a9a1-d82ac58b9902")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R238")
 					(unit 1)
 				)
 			)
@@ -17279,129 +17402,6 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
 					(reference "U201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 359.41 220.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b25e5717-8c7c-40e5-9fae-bb3a722c2c20")
-		(property "Reference" "R240"
-			(at 356.87 215.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "4.99 kΩ"
-			(at 356.87 216.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
-			(at 359.41 222.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
-			(at 359.41 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur Thick Film"
-			(at 359.41 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "560112110247"
-			(at 359.41 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
-			(at 359.41 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 356.87 217.678 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Power rating" "0.1 W"
-			(at 356.87 218.694 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Size" "0402"
-			(at 356.87 219.71 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify right top)
-			)
-		)
-		(property "Digi-Key Part Number" "732-560112110247CT-ND"
-			(at 359.41 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10449588-4a9c-4626-84ae-455d53141c22")
-		)
-		(pin "1"
-			(uuid "4936dabf-5a53-432f-a5ac-8784d1615a9a")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/524a017a-f4b1-440b-9b41-00cccec69d8d"
-					(reference "R240")
 					(unit 1)
 				)
 			)
@@ -20195,7 +20195,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "4.99 kΩ"
+		(property "Value" "10 kΩ"
 			(at 356.87 155.702 90)
 			(effects
 				(font
@@ -20204,7 +20204,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 359.41 161.798 90)
 			(effects
 				(font
@@ -20213,7 +20213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112110247.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 359.41 160.02 0)
 			(effects
 				(font
@@ -20222,7 +20222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Anti-Sulfur Thick Film"
+		(property "Description" "10 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"
 			(at 359.41 160.02 0)
 			(effects
 				(font
@@ -20231,7 +20231,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "560112110247"
+		(property "MPN" "CRCW080510K0FKEA"
 			(at 359.41 160.02 0)
 			(effects
 				(font
@@ -20240,7 +20240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "Vishay Dale"
 			(at 359.41 160.02 0)
 			(effects
 				(font
@@ -20258,7 +20258,7 @@
 				(justify right top)
 			)
 		)
-		(property "Power rating" "0.1 W"
+		(property "Power rating" "0.25 W"
 			(at 356.87 157.734 90)
 			(effects
 				(font
@@ -20267,7 +20267,7 @@
 				(justify right top)
 			)
 		)
-		(property "Size" "0402"
+		(property "Size" "0805"
 			(at 356.87 158.75 90)
 			(effects
 				(font
@@ -20276,7 +20276,7 @@
 				(justify right top)
 			)
 		)
-		(property "Digi-Key Part Number" "732-560112110247CT-ND"
+		(property "Digi-Key Part Number" "541-10.0KCCT-ND"
 			(at 359.41 160.02 90)
 			(effects
 				(font
