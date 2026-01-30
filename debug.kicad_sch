@@ -4427,7 +4427,7 @@
 	)
 	(text "Route USB as\n90 Ω differential"
 		(exclude_from_sim no)
-		(at 114.3 187.96 0)
+		(at 80.01 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7918,7 +7918,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 113.03 193.04) (xy 113.03 198.12) (xy 115.57 198.12) (xy 115.57 193.04)
+				(xy 80.01 193.04) (xy 80.01 198.12) (xy 82.55 198.12) (xy 82.55 193.04)
 			)
 			(stroke
 				(width 0)
@@ -7933,7 +7933,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 114.3 193.04 0)
+		(at 80.01 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7943,7 +7943,7 @@
 		)
 		(uuid "58d2ba50-7535-4fd1-990c-9011b292d35f")
 		(property "Netclass" "USB"
-			(at 114.9985 190.5 0)
+			(at 80.7085 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +7952,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 205.74 82.55 0)
+			(at 171.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,17 +7965,17 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 213.36 210.82 180)
+		(at 212.09 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "71330d3f-54b1-4869-ab55-aeff0cba5a84")
 		(property "Netclass" "USB"
-			(at 212.6615 213.36 0)
+			(at 211.3915 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7984,13 +7984,146 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 121.92 100.33 0)
+			(at 303.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02dc261c-79ba-43e6-9de2-9d9b0eec0db9")
+		(property "Reference" "C701"
+			(at 67.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 67.31 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric_HDI"
+			(at 68.8848 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 67.056 107.95 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 67.056 108.966 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 67.056 109.982 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 67.056 110.998 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cddf5143-280e-4e35-b72e-b405dd17fdaa")
+		)
+		(pin "1"
+			(uuid "1cca2ab1-c316-48ae-9cf8-8ba2f9c5a68d")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "C701")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -8657,6 +8790,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 234.95 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17ed0aef-f3ad-4325-9e63-33ffed1fafc7")
+		(property "Reference" "C707"
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 µF"
+			(at 232.41 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric_HDI"
+			(at 233.9848 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 234.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 234.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 234.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "16 V"
+			(at 232.156 95.25 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 232.156 96.266 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X5R"
+			(at 232.156 97.282 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 232.156 98.298 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 234.95 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad155e2c-366e-47f5-b228-ba191a87fe02")
+		)
+		(pin "1"
+			(uuid "29132496-2fb8-4fb2-a5e0-2d39091cc5cc")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "C707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 25.4 247.65 0)
 		(unit 1)
@@ -8785,6 +9051,139 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "#PWR0707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 273.05 234.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fda6841-2622-43ee-87bf-2a630fe244b0")
+		(property "Reference" "C708"
+			(at 270.51 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 270.51 234.188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 272.0848 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R6YA104KE14-01.pdf"
+			(at 273.05 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 273.05 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA2B3X7R1V104K050BB"
+			(at 273.05 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 273.05 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "35 V"
+			(at 270.256 236.22 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10 %"
+			(at 270.256 237.236 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature coefficient" "X7R"
+			(at 270.256 238.252 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 270.256 239.268 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "445-6901-1-ND"
+			(at 273.05 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1931e38b-a4bc-46af-a0c4-3ef0006904fe")
+		)
+		(pin "1"
+			(uuid "13a0dc60-da76-42b1-b515-5aceb55146e1")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "C708")
 					(unit 1)
 				)
 			)
@@ -9400,7 +9799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "perfect_footprints:C_0201_0603Metric"
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
 			(at 202.2348 238.76 0)
 			(effects
 				(font
@@ -9418,7 +9817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X5R 0201 (0603 Metric)"
+		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X7R 0402 (1005 Metric)"
 			(at 203.2 234.95 0)
 			(effects
 				(font
@@ -9427,7 +9826,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM033R6YA104KE14D"
+		(property "MPN" "CGA2B3X7R1V104K050BB"
 			(at 203.2 234.95 0)
 			(effects
 				(font
@@ -9436,7 +9835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "TDK Corporation"
 			(at 203.2 234.95 0)
 			(effects
 				(font
@@ -9463,7 +9862,7 @@
 				(justify left)
 			)
 		)
-		(property "Temperature coefficient" "X5R"
+		(property "Temperature coefficient" "X7R"
 			(at 200.406 238.252 0)
 			(effects
 				(font
@@ -9472,7 +9871,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0201"
+		(property "Size" "0402"
 			(at 200.406 239.268 0)
 			(effects
 				(font
@@ -9481,7 +9880,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "490-10430-1-ND"
+		(property "Digi-Key Part Number" "445-6901-1-ND"
 			(at 203.2 234.95 0)
 			(effects
 				(font
@@ -10020,138 +10419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 273.05 234.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5aa83d57-1209-49d0-9360-1e2458eb8da9")
-		(property "Reference" "C708"
-			(at 275.59 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 275.59 234.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:C_0201_0603Metric"
-			(at 274.0152 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R6YA104KE14-01.pdf"
-			(at 273.05 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 273.05 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM033R6YA104KE14D"
-			(at 273.05 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 273.05 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 275.844 236.22 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "10 %"
-			(at 275.844 237.236 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 275.844 238.252 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0201"
-			(at 275.844 239.268 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-10430-1-ND"
-			(at 273.05 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5df7281d-4819-476d-85c7-25f4fd697374")
-		)
-		(pin "1"
-			(uuid "149e6335-1d6f-48dd-a98a-0db26beb08cd")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C708")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_ABRG")
 		(at 279.4 81.28 90)
 		(unit 1)
@@ -10390,6 +10657,130 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "C703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 234.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60b15551-047c-4ba0-93cd-2a256a26e120")
+		(property "Reference" "R702"
+			(at 87.63 231.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1 kΩ"
+			(at 87.63 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
+			(at 90.678 234.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 88.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 88.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF5101X"
+			(at 88.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 88.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 87.63 234.95 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 87.63 236.22 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 87.63 237.4901 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P5.10KLCT-ND"
+			(at 88.9 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08b0a846-73d2-4de0-a631-00cdf6ea5aaf")
+		)
+		(pin "1"
+			(uuid "4271d9c9-32ca-4d23-bea3-bce653d4d2c0")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R702")
 					(unit 1)
 				)
 			)
@@ -10882,139 +11273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 215.9 234.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78f7a44a-cd2b-43d8-ac53-d6284a83cfd0")
-		(property "Reference" "C706"
-			(at 213.36 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 µF"
-			(at 213.36 234.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:C_0201_0603Metric"
-			(at 214.9348 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R6YA104KE14-01.pdf"
-			(at 215.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 215.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM033R6YA104KE14D"
-			(at 215.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 215.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 213.106 236.22 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "10 %"
-			(at 213.106 237.236 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 213.106 238.252 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0201"
-			(at 213.106 239.268 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-10430-1-ND"
-			(at 215.9 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dea0f8cb-315b-4cbf-91a7-1cb636d1996f")
-		)
-		(pin "1"
-			(uuid "025f42ab-0fcb-4a92-aa40-83496808fe8d")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C706")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_2")
 		(lib_id "Device:R")
 		(at 190.5 107.95 90)
@@ -11123,16 +11381,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 106.68 0)
+		(at 190.5 234.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7f63ad2e-43ad-4a1a-851e-1785b75c0d15")
-		(property "Reference" "C701"
-			(at 67.31 104.14 0)
+		(uuid "7ec95c77-e820-4650-b827-dfe0849d849d")
+		(property "Reference" "C704"
+			(at 187.96 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,8 +11398,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 µF"
-			(at 67.31 105.918 0)
+		(property "Value" "4.7 µF"
+			(at 187.96 234.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,8 +11407,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 68.8848 110.49 0)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric_HDI"
+			(at 189.5348 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,8 +11416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 69.85 106.68 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
+			(at 190.5 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11167,8 +11425,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 69.85 106.68 0)
+		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 190.5 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,8 +11434,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM188R6YA106MA73D"
-			(at 69.85 106.68 0)
+		(property "MPN" "CL05A475MO5NUNC"
+			(at 190.5 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,8 +11443,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 69.85 106.68 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 190.5 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,8 +11452,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage rating" "35 V"
-			(at 67.056 107.95 0)
+		(property "Voltage rating" "16 V"
+			(at 187.706 236.22 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11204,7 +11462,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 67.056 108.966 0)
+			(at 187.706 237.236 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11213,7 +11471,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 67.056 109.982 0)
+			(at 187.706 238.252 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11221,8 +11479,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0603"
-			(at 67.056 110.998 0)
+		(property "Size" "0402"
+			(at 187.706 239.268 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -11230,8 +11488,8 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 69.85 106.68 0)
+		(property "Digi-Key Part Number" "1276-6836-1-ND"
+			(at 190.5 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11240,15 +11498,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6dfb4e5d-6773-41f9-9b0e-a32267f24f47")
+			(uuid "719e0c58-5a3a-4ceb-bf31-13205a106709")
 		)
 		(pin "1"
-			(uuid "c3b40c4d-21cf-44f9-bfb2-d4d447a02c43")
+			(uuid "f61b31b1-025c-4de7-a959-56dbb1a08dd8")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C701")
+					(reference "C704")
 					(unit 1)
 				)
 			)
@@ -11683,139 +11941,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 190.5 234.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93800297-568a-4b4d-a80c-544ed0cf9445")
-		(property "Reference" "C704"
-			(at 187.96 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 187.96 234.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 189.5348 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 190.5 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 190.5 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 190.5 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 190.5 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 187.706 236.22 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 187.706 237.236 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 187.706 238.252 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 187.706 239.268 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 190.5 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23acf7ea-da75-4b01-8ac6-b5687534d20f")
-		)
-		(pin "1"
-			(uuid "a06c000d-5de5-4c6e-a2d4-dcc5c625d294")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C704")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 201.93 93.98 0)
 		(mirror y)
@@ -12040,6 +12165,129 @@
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
 					(reference "D706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1cc4133-c30d-491c-9779-5e5931285793")
+		(property "Reference" "R703"
+			(at 91.44 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22.1 kΩ"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
+			(at 88.392 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2RKF2212X"
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 91.44 107.95 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 91.44 109.2201 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "P22.1KLCT-ND"
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40ba25ff-68f8-458d-b552-2ccd86aa463d")
+		)
+		(pin "1"
+			(uuid "d3082ab3-a4db-4690-85e7-7d50b759b1f7")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R703")
 					(unit 1)
 				)
 			)
@@ -12324,139 +12572,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 234.95 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac61dc0a-dae8-442a-bb55-9000603c8b50")
-		(property "Reference" "C707"
-			(at 232.41 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 µF"
-			(at 232.41 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 233.9848 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA475KE15-01.pdf"
-			(at 234.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7 µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 234.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R6YA475KE15D"
-			(at 234.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 234.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage rating" "35 V"
-			(at 232.156 95.25 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20 %"
-			(at 232.156 96.266 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature coefficient" "X5R"
-			(at 232.156 97.282 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0603"
-			(at 232.156 98.298 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "490-7205-1-ND"
-			(at 234.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7586da39-1b39-44de-8107-330a3cdc64ed")
-		)
-		(pin "1"
-			(uuid "d5805bfb-e4f4-42af-b0cc-6f68bfe7653e")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "C707")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 76.2 234.95 0)
 		(mirror y)
@@ -12484,7 +12599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
 			(at 77.978 234.95 90)
 			(effects
 				(font
@@ -12502,7 +12617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+		(property "Description" "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
 			(at 76.2 234.95 0)
 			(effects
 				(font
@@ -12511,7 +12626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-1GNF5101C"
+		(property "MPN" "ERJ-2RKF5101X"
 			(at 76.2 234.95 0)
 			(effects
 				(font
@@ -12538,7 +12653,7 @@
 				(justify left)
 			)
 		)
-		(property "Power rating" "0.05 W"
+		(property "Power rating" "0.1 W"
 			(at 74.93 236.22 0)
 			(effects
 				(font
@@ -12547,7 +12662,7 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0201"
+		(property "Size" "0402"
 			(at 74.93 237.4901 0)
 			(effects
 				(font
@@ -12556,7 +12671,7 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "P123051CT-ND"
+		(property "Digi-Key Part Number" "P5.10KLCT-ND"
 			(at 76.2 234.95 0)
 			(effects
 				(font
@@ -13403,141 +13518,17 @@
 		)
 	)
 	(symbol
-		(lib_name "R_1")
-		(lib_id "Device:R")
-		(at 90.17 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bbe064d2-a0c0-442a-a896-f98ed99a2657")
-		(property "Reference" "R703"
-			(at 91.44 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 91.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 88.392 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 90.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 90.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-1GNF1002C"
-			(at 90.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 90.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Power rating" "0.05 W"
-			(at 91.44 107.95 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Size" "0201"
-			(at 91.44 109.2201 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Digi-Key Part Number" "P122414CT-ND"
-			(at 90.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b862b018-1601-489d-b9b0-daa726c7860b")
-		)
-		(pin "1"
-			(uuid "161dafb9-4f2b-467a-8baa-c3b3b76d9caf")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R703")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 88.9 234.95 0)
+		(lib_id "Device:C")
+		(at 215.9 234.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c45aa7d2-0be4-4d82-a716-79ebc8dea2c3")
-		(property "Reference" "R702"
-			(at 87.63 231.902 0)
+		(uuid "bbc89e29-3210-4b11-8432-85f74b49494e")
+		(property "Reference" "C706"
+			(at 213.36 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13545,8 +13536,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1 kΩ"
-			(at 87.63 233.68 0)
+		(property "Value" "0.1 µF"
+			(at 213.36 234.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13554,8 +13545,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "perfect_footprints:R_0201_0603Metric"
-			(at 90.678 234.95 90)
+		(property "Footprint" "perfect_footprints:C_0402_1005Metric"
+			(at 214.9348 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13563,8 +13554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 88.9 234.95 0)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R6YA104KE14-01.pdf"
+			(at 215.9 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13572,8 +13563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 88.9 234.95 0)
+		(property "Description" "0.1 µF ±10% 35V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 215.9 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13581,8 +13572,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-1GNF5101C"
-			(at 88.9 234.95 0)
+		(property "MPN" "CGA2B3X7R1V104K050BB"
+			(at 215.9 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,8 +13581,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 88.9 234.95 0)
+		(property "Manufacturer" "TDK Corporation"
+			(at 215.9 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13599,8 +13590,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1 %"
-			(at 87.63 234.95 0)
+		(property "Voltage rating" "35 V"
+			(at 213.106 236.22 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -13608,8 +13599,8 @@
 				(justify left)
 			)
 		)
-		(property "Power rating" "0.05 W"
-			(at 87.63 236.22 0)
+		(property "Tolerance" "10 %"
+			(at 213.106 237.236 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -13617,8 +13608,8 @@
 				(justify left)
 			)
 		)
-		(property "Size" "0201"
-			(at 87.63 237.4901 0)
+		(property "Temperature coefficient" "X7R"
+			(at 213.106 238.252 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -13626,8 +13617,17 @@
 				(justify left)
 			)
 		)
-		(property "Digi-Key Part Number" "P123051CT-ND"
-			(at 88.9 234.95 0)
+		(property "Size" "0402"
+			(at 213.106 239.268 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "445-6901-1-ND"
+			(at 215.9 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,15 +13636,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b1bbecf0-b26a-44e7-be74-ad687f8b5e3f")
+			(uuid "a34336eb-13ca-4e8b-8759-023b215d329f")
 		)
 		(pin "1"
-			(uuid "418be657-6872-4b87-9c07-24380b1b3071")
+			(uuid "35f7e58b-5961-4048-a078-e3558f6064cb")
 		)
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R702")
+					(reference "C706")
 					(unit 1)
 				)
 			)
