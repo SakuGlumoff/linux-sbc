@@ -29458,11 +29458,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3274d5be-b185-409b-a24e-705f1f8ea25f")
-		(at -142.964646 102.06)
+		(at -306 0.6 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C401"
-			(at 0 -1.43 0)
+			(at 0 -1.43 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -29510,7 +29510,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29523,7 +29523,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29536,7 +29536,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29549,7 +29549,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29562,7 +29562,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29575,7 +29575,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29588,7 +29588,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -29606,18 +29606,8 @@
 		(sheetfile "pmic.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "46b4ad6b-e0a1-45ab-865b-f1ac6dacec71")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.140581 0.51)
+			(end 0.140581 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -29626,34 +29616,14 @@
 			(uuid "d5adf395-3cc7-48d8-b469-968cbf7604b7")
 		)
 		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
+			(start -0.140581 -0.51)
+			(end 0.140581 -0.51)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "1be2ff15-f4e6-48ef-9df3-58828fb24009")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b14464cc-ef8e-42b4-8f84-0e6801078d80")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1d1296d2-074f-4c20-888c-a12f16127b81")
+			(layer "F.SilkS")
+			(uuid "46b4ad6b-e0a1-45ab-865b-f1ac6dacec71")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -29666,24 +29636,44 @@
 			(uuid "ec71391f-bed3-440f-9d54-3decac99e268")
 		)
 		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "cd5e1586-c68a-47de-a2c9-f9a3f98dc7b0")
+			(layer "F.CrtYd")
+			(uuid "1d1296d2-074f-4c20-888c-a12f16127b81")
 		)
 		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b14464cc-ef8e-42b4-8f84-0e6801078d80")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1be2ff15-f4e6-48ef-9df3-58828fb24009")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f639ab18-7a5f-4a2e-9fdd-84515b106d82")
+			(uuid "b3a2a81b-8527-4c46-84d2-31fa0087d647")
 		)
 		(fp_line
 			(start 0.8 -0.4)
@@ -29696,14 +29686,24 @@
 			(uuid "4637074e-9160-4c3c-abc7-90bc67a87854")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b3a2a81b-8527-4c46-84d2-31fa0087d647")
+			(uuid "f639ab18-7a5f-4a2e-9fdd-84515b106d82")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd5e1586-c68a-47de-a2c9-f9a3f98dc7b0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -29717,7 +29717,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -29726,7 +29726,7 @@
 			(uuid "358428e2-1304-4353-9310-7f377d2461f8")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -52405,7 +52405,7 @@
 	(footprint "STMicroelectronics:WFQFN-44L_P0.8mm_EP4.1x4.6mm"
 		(layer "F.Cu")
 		(uuid "4bdb6ceb-fd44-4fa2-896f-e011c67c698d")
-		(at -169.364646 118.505)
+		(at -300 0)
 		(property "Reference" "U401"
 			(at 0.07 -4.635 0)
 			(unlocked yes)
@@ -59963,9 +59963,9 @@
 	(footprint "perfect_footprints:C_0402_1005Metric_HDI"
 		(layer "F.Cu")
 		(uuid "5da56c20-f82b-4b00-82a9-1382f8fef256")
-		(at -143.494646 118.33)
+		(at -299.4 5 -90)
 		(property "Reference" "C407"
-			(at 0 -1.1 0)
+			(at 0 -1.099999 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -59978,7 +59978,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 0 1.2 0)
+			(at 0 1.2 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ca2359d3-4ad1-45c9-8231-8f49313e832a")
@@ -59990,7 +59990,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cc2ab792-83bb-481a-86b1-6796ec1e440a")
@@ -60002,7 +60002,7 @@
 			)
 		)
 		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f9433a41-06b5-4225-b026-8b064c51bcd2")
@@ -60014,7 +60014,7 @@
 			)
 		)
 		(property "MPN" "CL05A475MO5NUNC"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -60027,7 +60027,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -60040,7 +60040,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -60053,7 +60053,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -60066,7 +60066,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -60079,7 +60079,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -60092,7 +60092,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "1276-6836-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -60110,16 +60110,6 @@
 		(sheetfile "pmic.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.95 -0.47)
-			(end 0.95 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6feef404-bc9d-4789-a9ea-932e35f17d82")
-		)
-		(fp_line
 			(start -0.95 0.47)
 			(end -0.95 -0.47)
 			(stroke
@@ -60128,16 +60118,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "37c139a0-971d-418f-9408-e5ca89753f3f")
-		)
-		(fp_line
-			(start 0.95 -0.47)
-			(end 0.95 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6d7cd5c2-c9d3-4e2c-8cdf-53ca09468833")
 		)
 		(fp_line
 			(start 0.95 0.47)
@@ -60149,9 +60129,30 @@
 			(layer "F.CrtYd")
 			(uuid "14d36f79-04ad-46c0-a420-c7d32ba255e7")
 		)
-		(fp_rect
-			(start -0.5 -0.35)
-			(end 0.55 0.35)
+		(fp_line
+			(start -0.95 -0.47)
+			(end 0.95 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6feef404-bc9d-4789-a9ea-932e35f17d82")
+		)
+		(fp_line
+			(start 0.95 -0.47)
+			(end 0.95 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6d7cd5c2-c9d3-4e2c-8cdf-53ca09468833")
+		)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.35) (xy 0.55 -0.35) (xy 0.55 0.35) (xy -0.5 0.35)
+			)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -60161,7 +60162,7 @@
 			(uuid "de3d3ac3-bf92-47a7-9b4b-b7d59350df7d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e64ff4dc-44dd-4e24-b8bc-74c603e43780")
@@ -60173,7 +60174,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.5 0)
+			(at -0.499999 0 270)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "V_5V0")
@@ -60181,7 +60182,7 @@
 			(uuid "29418a36-de2d-498d-b211-bd89825f40fb")
 		)
 		(pad "2" smd rect
-			(at 0.5 0)
+			(at 0.499999 0 270)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -64269,11 +64270,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6103e32b-4f6f-45ca-b665-ce1eb3873d5e")
-		(at -142.964646 104.57)
+		(at -303.9 3.8 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C402"
-			(at 0 -1.43 0)
+			(at 0 -1.43 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -64286,7 +64287,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "30ccf0cb-48b0-4cb1-9d54-a5eadc07d848")
 			(effects
@@ -64297,7 +64298,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f792b0e3-af0f-4006-806a-e62e00a725f7")
@@ -64309,7 +64310,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "594e91d6-7e58-4a5f-97b7-6db56c8bbaa3")
@@ -64321,7 +64322,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -64334,7 +64335,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -64347,7 +64348,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -64360,7 +64361,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -64373,7 +64374,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -64386,7 +64387,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -64399,7 +64400,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -64417,18 +64418,8 @@
 		(sheetfile "pmic.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d78f84a1-fe9b-4bd6-b0ae-9c31fdd59987")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.140581 0.51)
+			(end 0.140581 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -64437,14 +64428,14 @@
 			(uuid "d8758c07-b573-4f50-8891-4fa12b97507b")
 		)
 		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
+			(start -0.140581 -0.51)
+			(end 0.140581 -0.51)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "31edeaa4-fc5b-49a6-ba2d-8bdf515b0fa3")
+			(layer "F.SilkS")
+			(uuid "d78f84a1-fe9b-4bd6-b0ae-9c31fdd59987")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -64457,16 +64448,6 @@
 			(uuid "f4c068e1-85b8-4a8f-9bc3-3b3fb1bc3cd3")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "886ab873-99e0-4225-9450-2bf8d6f0b616")
-		)
-		(fp_line
 			(start 1.48 0.73)
 			(end -1.48 0.73)
 			(stroke
@@ -64477,14 +64458,24 @@
 			(uuid "836d90bf-5c3e-4414-8f14-b05e8440dfde")
 		)
 		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "e9ba9e08-affa-476c-aca0-a4b830cba617")
+			(layer "F.CrtYd")
+			(uuid "31edeaa4-fc5b-49a6-ba2d-8bdf515b0fa3")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "886ab873-99e0-4225-9450-2bf8d6f0b616")
 		)
 		(fp_line
 			(start -0.8 0.4)
@@ -64497,16 +64488,6 @@
 			(uuid "d72cffae-30ce-423c-aa75-cfdbec43bb7a")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9e98eac5-25f6-4543-902a-dd4fa631ae16")
-		)
-		(fp_line
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
@@ -64516,8 +64497,28 @@
 			(layer "F.Fab")
 			(uuid "e6851207-a7ec-48b9-a009-032c6a139f4c")
 		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e9ba9e08-affa-476c-aca0-a4b830cba617")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e98eac5-25f6-4543-902a-dd4fa631ae16")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "9c020197-cb16-485f-945c-6ac514abcd0f")
 			(effects
@@ -64528,7 +64529,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -64537,7 +64538,7 @@
 			(uuid "c88c31f2-70b6-4490-8f25-dd6c0cf45b34")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -64803,7 +64804,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "61bce7c7-d22a-402e-8e7a-295f04b7ff68")
-		(at -142.964646 112.1)
+		(at -297 -4.4)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C408"
@@ -64951,8 +64952,8 @@
 		(sheetfile "pmic.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
+			(start -0.140581 -0.51)
+			(end 0.140581 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -64961,8 +64962,8 @@
 			(uuid "c4c6eaaa-1ecb-49df-b6e5-68250bd6009f")
 		)
 		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.140581 0.51)
+			(end 0.140581 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -79091,7 +79092,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7d252220-4ae9-456d-93d8-9a3a33119311")
-		(at -142.964646 107.08)
+		(at -294 0.2)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C404"
@@ -87373,9 +87374,9 @@
 	(footprint "perfect_footprints:C_0402_1005Metric_HDI"
 		(layer "F.Cu")
 		(uuid "88a03b37-763b-4aa7-a623-c8be4f50a28f")
-		(at -143.494646 116.34)
+		(at -297.4 4.7 -90)
 		(property "Reference" "C405"
-			(at 0 -1.1 0)
+			(at 0 -1.099999 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -87388,7 +87389,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 0 1.2 0)
+			(at 0 1.2 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "67846718-5f28-4260-b687-1ac806f8eb67")
@@ -87400,7 +87401,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "449d5f34-ea2e-4b26-8546-4e158998f1a5")
@@ -87412,7 +87413,7 @@
 			)
 		)
 		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e9f14c22-3c7b-47db-9394-99fcd7112385")
@@ -87424,7 +87425,7 @@
 			)
 		)
 		(property "MPN" "CL05A475MO5NUNC"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87437,7 +87438,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87450,7 +87451,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87463,7 +87464,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87476,7 +87477,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87489,7 +87490,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87502,7 +87503,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "1276-6836-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -87520,16 +87521,6 @@
 		(sheetfile "pmic.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.95 -0.47)
-			(end 0.95 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "187bd5f2-1934-4326-839d-907e12dd7ef9")
-		)
-		(fp_line
 			(start -0.95 0.47)
 			(end -0.95 -0.47)
 			(stroke
@@ -87538,16 +87529,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "666f91bf-d0e5-409a-80c7-551a47fa8895")
-		)
-		(fp_line
-			(start 0.95 -0.47)
-			(end 0.95 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f991d316-91d2-4cb1-b714-7887c401eb65")
 		)
 		(fp_line
 			(start 0.95 0.47)
@@ -87559,9 +87540,30 @@
 			(layer "F.CrtYd")
 			(uuid "0c3eadb6-eb59-4bc4-820a-494eba84650a")
 		)
-		(fp_rect
-			(start -0.5 -0.35)
-			(end 0.55 0.35)
+		(fp_line
+			(start -0.95 -0.47)
+			(end 0.95 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "187bd5f2-1934-4326-839d-907e12dd7ef9")
+		)
+		(fp_line
+			(start 0.95 -0.47)
+			(end 0.95 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f991d316-91d2-4cb1-b714-7887c401eb65")
+		)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.35) (xy 0.55 -0.35) (xy 0.55 0.35) (xy -0.5 0.35)
+			)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -87571,7 +87573,7 @@
 			(uuid "754a29e3-030c-4cf7-a507-4f96eccee561")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "94747f23-074c-4879-878c-914501a99299")
@@ -87583,7 +87585,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.5 0)
+			(at -0.499999 0 270)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "V_5V0")
@@ -87591,7 +87593,7 @@
 			(uuid "67abd229-ae5a-48a2-8fd0-396d83d44429")
 		)
 		(pad "2" smd rect
-			(at 0.5 0)
+			(at 0.499999 0 270)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -115646,9 +115648,9 @@
 	(footprint "perfect_footprints:C_0402_1005Metric_HDI"
 		(layer "F.Cu")
 		(uuid "c3c84647-0f7a-4825-9c3a-a1e711097f4c")
-		(at -143.494646 114.35)
+		(at -302.6 4.7 -90)
 		(property "Reference" "C403"
-			(at 0 -1.1 0)
+			(at 0 -1.099999 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -115661,7 +115663,7 @@
 			)
 		)
 		(property "Value" "4.7 µF"
-			(at 0 1.2 0)
+			(at 0 1.2 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ba0a59a0-cd9d-4385-9dde-81e51cb4f734")
@@ -115673,7 +115675,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2822/CL05A475MO5NUNC_Spec.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27c94411-aedc-4b3a-b5d8-e8c98a188221")
@@ -115685,7 +115687,7 @@
 			)
 		)
 		(property "Description" "4.7 µF ±20% 16V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "04ab7f15-ec58-4aa2-8114-32a635c1d180")
@@ -115697,7 +115699,7 @@
 			)
 		)
 		(property "MPN" "CL05A475MO5NUNC"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -115710,7 +115712,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -115723,7 +115725,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -115736,7 +115738,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -115749,7 +115751,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -115762,7 +115764,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -115775,7 +115777,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "1276-6836-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -115793,16 +115795,6 @@
 		(sheetfile "pmic.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.95 -0.47)
-			(end 0.95 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "08c35054-6b72-4062-8e8f-a3f92cafa74b")
-		)
-		(fp_line
 			(start -0.95 0.47)
 			(end -0.95 -0.47)
 			(stroke
@@ -115811,16 +115803,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "63f999b7-4611-4734-9814-0a2727244699")
-		)
-		(fp_line
-			(start 0.95 -0.47)
-			(end 0.95 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5c7dc568-d4da-4217-b6b0-365c3d9af828")
 		)
 		(fp_line
 			(start 0.95 0.47)
@@ -115832,9 +115814,30 @@
 			(layer "F.CrtYd")
 			(uuid "00c3b31f-d694-455e-989c-52b9fdf575e4")
 		)
-		(fp_rect
-			(start -0.5 -0.35)
-			(end 0.55 0.35)
+		(fp_line
+			(start -0.95 -0.47)
+			(end 0.95 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "08c35054-6b72-4062-8e8f-a3f92cafa74b")
+		)
+		(fp_line
+			(start 0.95 -0.47)
+			(end 0.95 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5c7dc568-d4da-4217-b6b0-365c3d9af828")
+		)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.35) (xy 0.55 -0.35) (xy 0.55 0.35) (xy -0.5 0.35)
+			)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -115844,7 +115847,7 @@
 			(uuid "ec3c01e8-8571-4d9d-a6ad-0d3fd93392a4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "173f4286-df3e-458b-93ca-9fabdfaa4d7c")
@@ -115856,7 +115859,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.5 0)
+			(at -0.499999 0 270)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "V_5V0")
@@ -115864,7 +115867,7 @@
 			(uuid "b12abc98-c5d7-4c51-bed6-3e122aea9185")
 		)
 		(pad "2" smd rect
-			(at 0.5 0)
+			(at 0.499999 0 270)
 			(size 0.6 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -152968,11 +152971,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ff077799-e52f-4d4c-85be-0800bdea0adb")
-		(at -142.964646 109.59)
+		(at -296.1 3.8 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C406"
-			(at 0 -1.43 0)
+			(at 0 -1.43 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -152985,7 +152988,7 @@
 			)
 		)
 		(property "Value" "10 µF"
-			(at 0 1.43 0)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e70039e0-ca4b-4bb3-ba8f-20a622bc7927")
 			(effects
@@ -152996,7 +152999,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "060a6c56-2a57-4113-979b-4e6d2d5f2f8e")
@@ -153008,7 +153011,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fe6c6df-14e3-4b9d-83cb-d13f085ab104")
@@ -153020,7 +153023,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -153033,7 +153036,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -153046,7 +153049,7 @@
 			)
 		)
 		(property "Voltage rating" "35 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -153059,7 +153062,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -153072,7 +153075,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -153085,7 +153088,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -153098,7 +153101,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-13248-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -153116,18 +153119,8 @@
 		(sheetfile "pmic.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6771b815-92fa-42c7-aa64-851494226607")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.140581 0.51)
+			(end 0.140581 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -153136,14 +153129,14 @@
 			(uuid "db49a6f5-fb89-4fa3-8738-06c22203c9df")
 		)
 		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
+			(start -0.140581 -0.51)
+			(end 0.140581 -0.51)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "629428c1-7fca-4d24-90b1-6fcff10ed11f")
+			(layer "F.SilkS")
+			(uuid "6771b815-92fa-42c7-aa64-851494226607")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -153156,16 +153149,6 @@
 			(uuid "acaf0316-995c-4845-ac9e-b6d5a480d5ca")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "af297adc-7468-447b-b667-c826ba6002aa")
-		)
-		(fp_line
 			(start 1.48 0.73)
 			(end -1.48 0.73)
 			(stroke
@@ -153176,14 +153159,24 @@
 			(uuid "59fbfdff-566f-47d4-98df-1e8ebeee7eed")
 		)
 		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "7eafaaa2-072c-4e96-b0de-bbd721885a00")
+			(layer "F.CrtYd")
+			(uuid "629428c1-7fca-4d24-90b1-6fcff10ed11f")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "af297adc-7468-447b-b667-c826ba6002aa")
 		)
 		(fp_line
 			(start -0.8 0.4)
@@ -153196,16 +153189,6 @@
 			(uuid "31f666bb-4b76-4e03-9691-ae184231661e")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "756e0a89-aa29-4c68-88a0-0c71a394e8f8")
-		)
-		(fp_line
 			(start 0.8 0.4)
 			(end -0.8 0.4)
 			(stroke
@@ -153215,8 +153198,28 @@
 			(layer "F.Fab")
 			(uuid "720e6c8f-b750-47f6-be87-f829cb3d773c")
 		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7eafaaa2-072c-4e96-b0de-bbd721885a00")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "756e0a89-aa29-4c68-88a0-0c71a394e8f8")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "9f4fdda1-42fc-46a0-ab56-806eea43994c")
 			(effects
@@ -153227,7 +153230,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -153236,7 +153239,7 @@
 			(uuid "54affbe7-f968-4653-80eb-d254756b237d")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -154406,7 +154409,7 @@
 	)
 	(via
 		(at -266.1 -185.8)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154414,7 +154417,7 @@
 	)
 	(via
 		(at -283.4 -139.2)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154422,7 +154425,7 @@
 	)
 	(via
 		(at -281.4 -137.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154430,7 +154433,7 @@
 	)
 	(via
 		(at -282.3 -147.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154438,7 +154441,7 @@
 	)
 	(via
 		(at -278.6 -174.200002)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154446,7 +154449,7 @@
 	)
 	(via
 		(at -294.6 -147.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154454,7 +154457,7 @@
 	)
 	(via
 		(at -285.4 -181.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154462,7 +154465,7 @@
 	)
 	(via
 		(at -282 -175.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154470,7 +154473,7 @@
 	)
 	(via
 		(at -282.3 -145.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154478,7 +154481,7 @@
 	)
 	(via
 		(at -283.4 -137.8)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154486,7 +154489,7 @@
 	)
 	(via
 		(at -282.3 -147.8)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154494,7 +154497,7 @@
 	)
 	(via
 		(at -146.249646 100.09)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154502,7 +154505,7 @@
 	)
 	(via
 		(at -172.259646 100.09)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154510,7 +154513,7 @@
 	)
 	(via
 		(at -123.244646 54.71)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154518,7 +154521,7 @@
 	)
 	(via
 		(at -288.5 -157.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154526,7 +154529,7 @@
 	)
 	(via
 		(at -282.4 -139.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154534,7 +154537,7 @@
 	)
 	(via
 		(at -281.4 -139.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154542,7 +154545,7 @@
 	)
 	(via
 		(at -289.6 -149.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154550,7 +154553,7 @@
 	)
 	(via
 		(at -269.4 -181.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154558,7 +154561,7 @@
 	)
 	(via
 		(at -266.1 -186.599999)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154566,7 +154569,7 @@
 	)
 	(via
 		(at -146.249646 113.095)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154574,7 +154577,7 @@
 	)
 	(via
 		(at -287.5 -141.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154582,7 +154585,7 @@
 	)
 	(via
 		(at -285.950001 -173.2)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154590,7 +154593,7 @@
 	)
 	(via
 		(at -288 -155.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154598,7 +154601,7 @@
 	)
 	(via
 		(at -277.1 -173.8)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154606,7 +154609,7 @@
 	)
 	(via
 		(at -259.5 -184.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154614,7 +154617,7 @@
 	)
 	(via
 		(at -172.259646 94.255)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154622,7 +154625,7 @@
 	)
 	(via
 		(at -263.4 -191.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154630,7 +154633,7 @@
 	)
 	(via
 		(at -284 -133.995)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154638,7 +154641,7 @@
 	)
 	(via
 		(at -281.5 -181.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154646,7 +154649,7 @@
 	)
 	(via
 		(at -165.089646 113.095)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154654,7 +154657,7 @@
 	)
 	(via
 		(at -289.6 -147.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154662,7 +154665,7 @@
 	)
 	(via
 		(at -283.4 -139.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154670,7 +154673,7 @@
 	)
 	(via
 		(at -246.6 -182.95)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154678,7 +154681,7 @@
 	)
 	(via
 		(at -159.254646 113.095)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154686,7 +154689,7 @@
 	)
 	(via
 		(at -297.005 -141.165)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154694,7 +154697,7 @@
 	)
 	(via
 		(at -270.995 -141.165)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154702,7 +154705,7 @@
 	)
 	(via
 		(at -281.4 -139.2)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154710,7 +154713,7 @@
 	)
 	(via
 		(at -288.4 -136.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154718,7 +154721,7 @@
 	)
 	(via
 		(at -270.995 -147)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154726,7 +154729,7 @@
 	)
 	(via
 		(at -172.259646 105.925)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154734,7 +154737,7 @@
 	)
 	(via
 		(at -261.5 -210.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154742,7 +154745,7 @@
 	)
 	(via
 		(at -279.7 -178)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154750,7 +154753,7 @@
 	)
 	(via
 		(at -271.6 -188.600001)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154758,7 +154761,7 @@
 	)
 	(via
 		(at -297.005 -152.835)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154766,7 +154769,7 @@
 	)
 	(via
 		(at -264.7 -210.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154774,7 +154777,7 @@
 	)
 	(via
 		(at -229.7 -181.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154782,7 +154785,7 @@
 	)
 	(via
 		(at -278.165 -160.005)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154790,7 +154793,7 @@
 	)
 	(via
 		(at -270.995 -133.995)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154798,7 +154801,7 @@
 	)
 	(via
 		(at -146.249646 87.085)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154806,7 +154809,7 @@
 	)
 	(via
 		(at -255.1 -186.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154814,7 +154817,7 @@
 	)
 	(via
 		(at -297.005 -147)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154822,7 +154825,7 @@
 	)
 	(via
 		(at -280.9 -144.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154830,7 +154833,7 @@
 	)
 	(via
 		(at -282.8 -175.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154838,7 +154841,7 @@
 	)
 	(via
 		(at -269.4 -182)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154846,7 +154849,7 @@
 	)
 	(via
 		(at -106.944646 54.71)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154854,7 +154857,7 @@
 	)
 	(via
 		(at -146.249646 105.925)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154862,7 +154865,7 @@
 	)
 	(via
 		(at -295 -151.2)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154870,7 +154873,7 @@
 	)
 	(via
 		(at -275.9 -126.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154878,7 +154881,7 @@
 	)
 	(via
 		(at -282.1 -135.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154886,7 +154889,7 @@
 	)
 	(via
 		(at -238.6 -210.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154894,7 +154897,7 @@
 	)
 	(via
 		(at -153.419646 87.085)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154902,7 +154905,7 @@
 	)
 	(via
 		(at -165.089646 87.085)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154910,7 +154913,7 @@
 	)
 	(via
 		(at -283.4 -138.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154918,7 +154921,7 @@
 	)
 	(via
 		(at -106.944646 62.86)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154926,7 +154929,7 @@
 	)
 	(via
 		(at -287.6 -150)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154934,7 +154937,7 @@
 	)
 	(via
 		(at -293.7 -152.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154942,7 +154945,7 @@
 	)
 	(via
 		(at -287.6 -150.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154950,7 +154953,7 @@
 	)
 	(via
 		(at -289.835 -133.995)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154958,7 +154961,7 @@
 	)
 	(via
 		(at -288.8 -141)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154966,7 +154969,7 @@
 	)
 	(via
 		(at -295 -151.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154974,7 +154977,7 @@
 	)
 	(via
 		(at -288.3 -146.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154982,7 +154985,7 @@
 	)
 	(via
 		(at -278.165 -133.995)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154990,7 +154993,7 @@
 	)
 	(via
 		(at -287.6 -147.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -154998,7 +155001,7 @@
 	)
 	(via
 		(at -266.1 -163.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155006,7 +155009,7 @@
 	)
 	(via
 		(at -288.8 -140.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155014,7 +155017,7 @@
 	)
 	(via
 		(at -115.094646 46.56)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155022,7 +155025,7 @@
 	)
 	(via
 		(at -282.4 -137.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155030,7 +155033,7 @@
 	)
 	(via
 		(at -254.6 -187.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155038,7 +155041,7 @@
 	)
 	(via
 		(at -288.5 -156.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155046,7 +155049,7 @@
 	)
 	(via
 		(at -281.4 -137.8)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155054,7 +155057,7 @@
 	)
 	(via
 		(at -159.254646 87.085)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155062,7 +155065,7 @@
 	)
 	(via
 		(at -287.1 -155.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155070,7 +155073,7 @@
 	)
 	(via
 		(at -172.259646 113.095)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155078,7 +155081,7 @@
 	)
 	(via
 		(at -282.3 -146.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155086,7 +155089,7 @@
 	)
 	(via
 		(at -115.094646 62.86)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155094,7 +155097,7 @@
 	)
 	(via
 		(at -279.2 -183.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155102,7 +155105,7 @@
 	)
 	(via
 		(at -287.6 -148.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155110,7 +155113,7 @@
 	)
 	(via
 		(at -262.7 -171.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155118,7 +155121,7 @@
 	)
 	(via
 		(at -123.244646 46.56)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155126,7 +155129,7 @@
 	)
 	(via
 		(at -288.5 -157.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155134,7 +155137,7 @@
 	)
 	(via
 		(at -245.9 -179.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155142,7 +155145,7 @@
 	)
 	(via
 		(at -289.835 -160.005)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155150,7 +155153,7 @@
 	)
 	(via
 		(at -267.3 -189.549999)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155158,7 +155161,7 @@
 	)
 	(via
 		(at -281.4 -138.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155166,7 +155169,7 @@
 	)
 	(via
 		(at -270.995 -152.835)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155174,7 +155177,7 @@
 	)
 	(via
 		(at -245.9 -180.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155182,7 +155185,7 @@
 	)
 	(via
 		(at -276.3 -173.8)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155190,7 +155193,7 @@
 	)
 	(via
 		(at -260.3 -184.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155198,7 +155201,7 @@
 	)
 	(via
 		(at -263.1 -210.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155206,7 +155209,7 @@
 	)
 	(via
 		(at -123.244646 62.86)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155214,7 +155217,7 @@
 	)
 	(via
 		(at -297.005 -160.005)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155222,7 +155225,7 @@
 	)
 	(via
 		(at -250.8 -182.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155230,7 +155233,7 @@
 	)
 	(via
 		(at -271 -184.2)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155238,7 +155241,7 @@
 	)
 	(via
 		(at -278.4 -183.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155246,7 +155249,7 @@
 	)
 	(via
 		(at -146.249646 94.255)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155254,7 +155257,7 @@
 	)
 	(via
 		(at -289.6 -150.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155262,7 +155265,7 @@
 	)
 	(via
 		(at -106.944646 46.56)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155270,7 +155273,7 @@
 	)
 	(via
 		(at -289.6 -150)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155278,7 +155281,7 @@
 	)
 	(via
 		(at -265.5 -210.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155286,7 +155289,7 @@
 	)
 	(via
 		(at -270.995 -160.005)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155294,7 +155297,7 @@
 	)
 	(via
 		(at -172.259646 87.085)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155302,7 +155305,7 @@
 	)
 	(via
 		(at -297.005 -133.995)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155310,7 +155313,7 @@
 	)
 	(via
 		(at -289.6 -148.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155318,7 +155321,7 @@
 	)
 	(via
 		(at -283.4 -137.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155326,7 +155329,7 @@
 	)
 	(via
 		(at -288.6 -147.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155334,7 +155337,7 @@
 	)
 	(via
 		(at -262.3 -210.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155342,7 +155345,7 @@
 	)
 	(via
 		(at -254.300001 -186.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155350,7 +155353,7 @@
 	)
 	(via
 		(at -288.5 -158.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155358,7 +155361,7 @@
 	)
 	(via
 		(at -262.6 -191.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155366,7 +155369,7 @@
 	)
 	(via
 		(at -263.9 -210.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155374,7 +155377,7 @@
 	)
 	(via
 		(at -287.6 -149.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155382,7 +155385,7 @@
 	)
 	(via
 		(at -259.5 -186)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155390,7 +155393,7 @@
 	)
 	(via
 		(at -284.6 -181.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155398,7 +155401,7 @@
 	)
 	(via
 		(at -284 -160.005)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155406,7 +155409,7 @@
 	)
 	(via
 		(at -288.6 -150.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155414,7 +155417,7 @@
 	)
 	(via
 		(at -281.8 -144.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155422,7 +155425,7 @@
 	)
 	(via
 		(at -288.3 -141.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155430,7 +155433,7 @@
 	)
 	(via
 		(at -287.2 -170.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155438,7 +155441,7 @@
 	)
 	(via
 		(at -153.419646 113.095)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155446,7 +155449,7 @@
 	)
 	(via
 		(at -294.5 -152.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
@@ -155606,7 +155609,7 @@
 	)
 	(via
 		(at -283.7 -206.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 4)
@@ -155614,7 +155617,7 @@
 	)
 	(via
 		(at -279.9 -210.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 4)
@@ -155622,7 +155625,7 @@
 	)
 	(via
 		(at -280.7 -210.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 4)
@@ -155910,7 +155913,7 @@
 	)
 	(via
 		(at -264.5 -194.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 9)
@@ -155918,7 +155921,7 @@
 	)
 	(via
 		(at -286.9 -176.100001)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -155927,7 +155930,7 @@
 	)
 	(via
 		(at -278.4 -180)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -155936,7 +155939,7 @@
 	)
 	(via
 		(at -279.2 -180)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -155945,7 +155948,7 @@
 	)
 	(via
 		(at -273 -181.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -155954,7 +155957,7 @@
 	)
 	(via
 		(at -286.9 -176.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -155963,7 +155966,7 @@
 	)
 	(via
 		(at -273 -182.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
@@ -156164,7 +156167,7 @@
 	)
 	(via
 		(at -293.8 -166)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156172,7 +156175,7 @@
 	)
 	(via
 		(at -295 -166)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156180,7 +156183,7 @@
 	)
 	(via
 		(at -295 -149.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156188,7 +156191,7 @@
 	)
 	(via
 		(at -291.4 -162)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156196,7 +156199,7 @@
 	)
 	(via
 		(at -291.4 -166)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156204,7 +156207,7 @@
 	)
 	(via
 		(at -292.6 -149.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156212,7 +156215,7 @@
 	)
 	(via
 		(at -295 -165)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156220,7 +156223,7 @@
 	)
 	(via
 		(at -291.4 -164)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156228,7 +156231,7 @@
 	)
 	(via
 		(at -295 -162)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156236,7 +156239,7 @@
 	)
 	(via
 		(at -293.8 -162)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156244,7 +156247,7 @@
 	)
 	(via
 		(at -292.6 -162)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156252,7 +156255,7 @@
 	)
 	(via
 		(at -288.8 -139.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156260,7 +156263,7 @@
 	)
 	(via
 		(at -292.6 -164)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156268,7 +156271,7 @@
 	)
 	(via
 		(at -293.8 -164)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156276,7 +156279,7 @@
 	)
 	(via
 		(at -292.6 -150.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156284,7 +156287,7 @@
 	)
 	(via
 		(at -295 -150.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156292,7 +156295,7 @@
 	)
 	(via
 		(at -294.6 -148.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156300,7 +156303,7 @@
 	)
 	(via
 		(at -292.6 -163)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156308,7 +156311,7 @@
 	)
 	(via
 		(at -291.4 -163)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156316,7 +156319,7 @@
 	)
 	(via
 		(at -291.4 -165)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156324,7 +156327,7 @@
 	)
 	(via
 		(at -288.8 -138.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156332,7 +156335,7 @@
 	)
 	(via
 		(at -286.4 -139.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156340,7 +156343,7 @@
 	)
 	(via
 		(at -292.6 -148.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156348,7 +156351,7 @@
 	)
 	(via
 		(at -287.4 -137.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156356,7 +156359,7 @@
 	)
 	(via
 		(at -288.4 -137.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156364,7 +156367,7 @@
 	)
 	(via
 		(at -286.4 -138.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156372,7 +156375,7 @@
 	)
 	(via
 		(at -293.8 -165)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156380,7 +156383,7 @@
 	)
 	(via
 		(at -286.4 -137.6)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156388,7 +156391,7 @@
 	)
 	(via
 		(at -292.6 -166)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156396,7 +156399,7 @@
 	)
 	(via
 		(at -293.6 -148.4)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156404,7 +156407,7 @@
 	)
 	(via
 		(at -292.6 -165)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156412,7 +156415,7 @@
 	)
 	(via
 		(at -295 -164)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156420,7 +156423,7 @@
 	)
 	(via
 		(at -293.8 -163)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156428,7 +156431,7 @@
 	)
 	(via
 		(at -295 -163)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
@@ -156484,7 +156487,7 @@
 	)
 	(via
 		(at -282 -155.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156492,7 +156495,7 @@
 	)
 	(via
 		(at -281 -155.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156500,7 +156503,7 @@
 	)
 	(via
 		(at -285.4 -155.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156508,7 +156511,7 @@
 	)
 	(via
 		(at -284 -157)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156516,7 +156519,7 @@
 	)
 	(via
 		(at -284.6 -158.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156524,7 +156527,7 @@
 	)
 	(via
 		(at -283 -155.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156532,7 +156535,7 @@
 	)
 	(via
 		(at -280 -155.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156540,7 +156543,7 @@
 	)
 	(via
 		(at -286.2 -155.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156548,7 +156551,7 @@
 	)
 	(via
 		(at -284 -156)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156556,7 +156559,7 @@
 	)
 	(via
 		(at -284.5 -147.1)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
@@ -156612,7 +156615,7 @@
 	)
 	(via
 		(at -277.8 -146.2)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156620,7 +156623,7 @@
 	)
 	(via
 		(at -277.8 -145.2)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156628,7 +156631,7 @@
 	)
 	(via
 		(at -280 -144.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156636,7 +156639,7 @@
 	)
 	(via
 		(at -278.3 -136.3)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156644,7 +156647,7 @@
 	)
 	(via
 		(at -273.8 -144.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156652,7 +156655,7 @@
 	)
 	(via
 		(at -274.8 -144.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156660,7 +156663,7 @@
 	)
 	(via
 		(at -276.8 -144.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156668,7 +156671,7 @@
 	)
 	(via
 		(at -278.4 -147.7)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156676,7 +156679,7 @@
 	)
 	(via
 		(at -279.2 -144.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -156684,7 +156687,7 @@
 	)
 	(via
 		(at -275.8 -144.9)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
@@ -157412,7 +157415,7 @@
 	)
 	(via
 		(at -281.6 -185.5)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 175)
@@ -157420,7 +157423,7 @@
 	)
 	(via
 		(at -268.6 -183.250001)
-		(size 0.45)
+		(size 0.4)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 175)
