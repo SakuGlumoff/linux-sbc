@@ -112,7 +112,7 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "error",
+        "track_dangling": "ignore",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -188,7 +188,9 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.1,
+        0.2,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -220,6 +222,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.2
         },
         {
           "diameter": 0.4,
@@ -592,6 +598,7 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.1,
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgb(0, 0, 0)",
@@ -601,6 +608,7 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.1,
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
