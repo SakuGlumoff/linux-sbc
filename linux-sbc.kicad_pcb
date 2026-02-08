@@ -19509,9 +19509,9 @@
 	(footprint "perfect_footprints:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "2eeb07fe-af7f-41c4-b8b5-6d05830a4c9e")
-		(at -48.638646 92.6382)
+		(at -64.274999 95.6)
 		(property "Reference" "R508"
-			(at 0 -1.1 0)
+			(at 0 -1.099999 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -19524,7 +19524,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 0 0.8128 0)
+			(at 0 0.812799 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4582d473-d8f2-4211-9bd4-2b6ff1524480")
@@ -19643,9 +19643,10 @@
 		(sheetname "/MPU/")
 		(sheetfile "mpu.kicad_sch")
 		(attr smd)
-		(fp_rect
-			(start -0.508 -0.2794)
-			(end 0.508 0.2794)
+		(fp_poly
+			(pts
+				(xy -0.508 -0.2794) (xy 0.508 -0.2794) (xy 0.508 0.2794) (xy -0.508 0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -19708,7 +19709,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "/Debug/VDD")
@@ -19716,7 +19717,7 @@
 			(uuid "2c7044f8-69b4-4a2a-949a-e483ad3bb1ab")
 		)
 		(pad "2" smd rect
-			(at 0.275 0)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 231 "Net-(SW501B-C)")
@@ -28869,7 +28870,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "3a039b70-f248-4f5b-9373-08f63ffa2e13")
-		(at -52.770646 94.247)
+		(at -42.625 90.9)
 		(property "Reference" "C506"
 			(at 0 -1.1 0)
 			(unlocked yes)
@@ -35094,9 +35095,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "41622cc2-11e0-4eaf-8986-8b807ce2509a")
-		(at -52.770646 92.6382)
+		(at -44.274999 90.9 180)
 		(property "Reference" "C505"
-			(at 0 -1.1 0)
+			(at 0 -1.099999 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -35109,7 +35110,7 @@
 			)
 		)
 		(property "Value" "8 pF"
-			(at 0 0.7874 0)
+			(at 0 0.7874 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ddf89c38-4e9a-4484-8eff-3e37c2ac29aa")
@@ -35146,7 +35147,7 @@
 			)
 		)
 		(property "MPN" "GJM0335C1E8R0CB01D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35159,7 +35160,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35172,7 +35173,7 @@
 			)
 		)
 		(property "Voltage rating" "25 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35185,7 +35186,7 @@
 			)
 		)
 		(property "Tolerance" "2 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35198,7 +35199,7 @@
 			)
 		)
 		(property "Temperature coefficient" "C0G"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35211,7 +35212,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35224,7 +35225,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-17280-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -35241,9 +35242,10 @@
 		(sheetname "/MPU/")
 		(sheetfile "mpu.kicad_sch")
 		(attr smd)
-		(fp_rect
-			(start -0.508 -0.2794)
-			(end 0.508 0.2794)
+		(fp_poly
+			(pts
+				(xy -0.508 -0.2794) (xy 0.508 -0.2794) (xy 0.508 0.2794) (xy -0.508 0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -35253,24 +35255,14 @@
 			(uuid "c83169b9-52ea-4009-b056-a9669d0a05ef")
 		)
 		(fp_line
-			(start -0.3 -0.1524)
-			(end 0.3 -0.1524)
+			(start 0.3 0.1476)
+			(end -0.3 0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dc2d6b18-2304-4839-9716-1b68d3b74239")
-		)
-		(fp_line
-			(start -0.3 0.1476)
-			(end -0.3 -0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c1f8f5e7-f14c-417b-885e-d93e3c79060d")
+			(uuid "418ab4d5-3c4e-41b9-a48c-f4ed47d82dde")
 		)
 		(fp_line
 			(start 0.3 -0.1524)
@@ -35283,17 +35275,27 @@
 			(uuid "3c540812-cad1-4994-ad78-a83c57fd9a78")
 		)
 		(fp_line
-			(start 0.3 0.1476)
-			(end -0.3 0.1476)
+			(start -0.3 0.1476)
+			(end -0.3 -0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "418ab4d5-3c4e-41b9-a48c-f4ed47d82dde")
+			(uuid "c1f8f5e7-f14c-417b-885e-d93e3c79060d")
+		)
+		(fp_line
+			(start -0.3 -0.1524)
+			(end 0.3 -0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dc2d6b18-2304-4839-9716-1b68d3b74239")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.3302 0)
+			(at 0 0.3302 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0af52e54-4285-46f9-9cd0-7581eef23c09")
@@ -35306,7 +35308,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0)
+			(at -0.274999 0 180)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 38 "/MPU/HSE_OUT")
@@ -35314,7 +35316,7 @@
 			(uuid "eb4ce75e-0d7d-4eff-aaa4-71dac8a7c177")
 		)
 		(pad "2" smd rect
-			(at 0.275 0)
+			(at 0.274999 0 180)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -76212,7 +76214,7 @@
 	(footprint "Crystal:Crystal_SMD_MicroCrystal_CM9V-T1A-2Pin_1.6x1.0mm"
 		(layer "F.Cu")
 		(uuid "8bfd2d07-c68e-4152-b811-3ad48afd0268")
-		(at -44.494646 85.85)
+		(at -39 92.3)
 		(descr "MicroCrystal CM9V-T1A, Crystal, 1.6x1.0mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CM9V-T1A.pdf")
 		(property "Reference" "Y501"
 			(at 0 -1.7 0)
@@ -86875,7 +86877,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "a8466495-bd84-4c27-9c9b-f7b578c31385")
-		(at -52.770646 91.0294)
+		(at -38.125 90.9)
 		(property "Reference" "C504"
 			(at 0 -1.1 0)
 			(unlocked yes)
@@ -101251,9 +101253,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "c79f0337-0db1-4ae6-9c55-1d04a3e3ccd5")
-		(at -54.836646 94.247)
+		(at -39.874999 90.9 180)
 		(property "Reference" "C503"
-			(at 0 -1.1 0)
+			(at 0 -1.099999 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -101266,7 +101268,7 @@
 			)
 		)
 		(property "Value" "8 pF"
-			(at 0 0.7874 0)
+			(at 0 0.7874 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "d072aa05-dc72-4842-8c27-ef24ebcd6001")
@@ -101303,7 +101305,7 @@
 			)
 		)
 		(property "MPN" "GJM0335C1E8R0CB01D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -101316,7 +101318,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -101329,7 +101331,7 @@
 			)
 		)
 		(property "Voltage rating" "25 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -101342,7 +101344,7 @@
 			)
 		)
 		(property "Tolerance" "2 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -101355,7 +101357,7 @@
 			)
 		)
 		(property "Temperature coefficient" "C0G"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -101368,7 +101370,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -101381,7 +101383,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-17280-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -101398,9 +101400,10 @@
 		(sheetname "/MPU/")
 		(sheetfile "mpu.kicad_sch")
 		(attr smd)
-		(fp_rect
-			(start -0.508 -0.2794)
-			(end 0.508 0.2794)
+		(fp_poly
+			(pts
+				(xy -0.508 -0.2794) (xy 0.508 -0.2794) (xy 0.508 0.2794) (xy -0.508 0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -101410,24 +101413,14 @@
 			(uuid "2a1b85ca-048b-45f7-a1e5-0295d806d808")
 		)
 		(fp_line
-			(start -0.3 -0.1524)
-			(end 0.3 -0.1524)
+			(start 0.3 0.1476)
+			(end -0.3 0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "29f6f697-1f44-4505-97a1-7a8f19b93e02")
-		)
-		(fp_line
-			(start -0.3 0.1476)
-			(end -0.3 -0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7076540f-ff78-4265-b559-579dddf5a29a")
+			(uuid "b6c6419d-30a7-41e0-b7fc-c22ddc769d40")
 		)
 		(fp_line
 			(start 0.3 -0.1524)
@@ -101440,17 +101433,27 @@
 			(uuid "9eaecde4-fb07-4b69-bcc0-c07d7b1d518f")
 		)
 		(fp_line
-			(start 0.3 0.1476)
-			(end -0.3 0.1476)
+			(start -0.3 0.1476)
+			(end -0.3 -0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b6c6419d-30a7-41e0-b7fc-c22ddc769d40")
+			(uuid "7076540f-ff78-4265-b559-579dddf5a29a")
+		)
+		(fp_line
+			(start -0.3 -0.1524)
+			(end 0.3 -0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29f6f697-1f44-4505-97a1-7a8f19b93e02")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.3302 0)
+			(at 0 0.3302 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b33ae24a-042c-4014-9440-d70a30a47325")
@@ -101463,7 +101466,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0)
+			(at -0.274999 0 180)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "/MPU/LSE_OUT")
@@ -101471,7 +101474,7 @@
 			(uuid "f16c313c-58d0-44f1-abbd-ee70d5890eca")
 		)
 		(pad "2" smd rect
-			(at 0.275 0)
+			(at 0.274999 0 180)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -103117,7 +103120,7 @@
 	(footprint "Button_Switch_THT:SW_CK_JS202011CQN_DPDT_Straight"
 		(layer "F.Cu")
 		(uuid "cbe79789-64bc-4955-ab09-ae9125eb4e26")
-		(at -63.644646 91.715)
+		(at -64 91)
 		(descr "C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
 		(tags "switch DPDT")
 		(property "Reference" "SW501"
@@ -115628,7 +115631,7 @@
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "e3993856-3266-4ad6-8323-f5bbd5f7891f")
-		(at -44.984646 92.5)
+		(at -44 93)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y502"
 			(at 0 -2.45 0)
@@ -124400,9 +124403,9 @@
 	(footprint "perfect_footprints:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "f20d7847-64ba-412b-9db7-2ba3997d37e4")
-		(at -48.638646 94.247)
+		(at -64.274999 89.7)
 		(property "Reference" "R511"
-			(at 0 -1.1 0)
+			(at 0 -1.099999 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -124415,7 +124418,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 0 0.8128 0)
+			(at 0 0.812799 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cbc5db04-01eb-44ff-b5e3-ad8e090addea")
@@ -124534,9 +124537,10 @@
 		(sheetname "/MPU/")
 		(sheetfile "mpu.kicad_sch")
 		(attr smd)
-		(fp_rect
-			(start -0.508 -0.2794)
-			(end 0.508 0.2794)
+		(fp_poly
+			(pts
+				(xy -0.508 -0.2794) (xy 0.508 -0.2794) (xy 0.508 0.2794) (xy -0.508 0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -124599,7 +124603,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 23 "/Debug/VDD")
@@ -124607,7 +124611,7 @@
 			(uuid "6aaf9b3a-08e8-4d36-bdb5-8e920745a9a6")
 		)
 		(pad "2" smd rect
-			(at 0.275 0)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 499 "Net-(SW501A-A)")
@@ -156497,6 +156501,14 @@
 		(uuid "04fc3b22-0d97-4887-8b7f-a826e27b27b4")
 	)
 	(via
+		(at -42.9 93.85)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "051694cd-a772-490d-a7b0-88e59705e821")
+	)
+	(via
 		(at -303.600001 102.8)
 		(size 0.3)
 		(drill 0.2)
@@ -156511,6 +156523,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "07a445a9-329c-494a-8f9b-5b14f02f280d")
+	)
+	(via
+		(at -44.549998 90.9)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "081c4b37-fa7c-4834-adba-44f1efb506e5")
 	)
 	(via
 		(at 150.799999 -195.5)
@@ -156727,6 +156747,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "1dfaa4d1-f31e-4a37-b35c-b1cf9e4bcf8e")
+	)
+	(via
+		(at -37.85 90.9)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "1e9bea4b-8184-4f07-912a-4718c2c7ed5d")
 	)
 	(via
 		(at -298 101.200001)
@@ -157183,6 +157211,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "3b5634f8-2745-4aa7-980f-cbbf7e52a845")
+	)
+	(via
+		(at -40.149998 90.9)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "3bf2372b-edc7-490a-b8c0-b806026ff6c7")
 	)
 	(via
 		(at 22.3 -184.7875)
@@ -158447,6 +158483,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "8e8bb398-609d-4303-b93c-c49a11506ead")
+	)
+	(via
+		(at -42.35 90.9)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 1)
+		(uuid "8eb94356-850b-4d61-be3b-80437b7064ba")
 	)
 	(via
 		(at -287.6 -150)
@@ -162831,6 +162875,14 @@
 		(uuid "283320ea-7dd5-443f-808c-ee453b7d8ce5")
 	)
 	(via
+		(at -64.549998 95.6)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 23)
+		(uuid "32a4e536-697f-413f-92f9-7d1d8b02dcb0")
+	)
+	(via
 		(at -294.8 100.4)
 		(size 0.3)
 		(drill 0.2)
@@ -162893,6 +162945,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 23)
 		(uuid "7f7b6040-3b81-427b-a856-1e3e047ae2a2")
+	)
+	(via
+		(at -64.549998 89.7)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net 23)
+		(uuid "890e4d6e-43ee-4c07-8322-20a591a4db25")
 	)
 	(via
 		(at -297.2 98.8)
@@ -165583,6 +165643,22 @@
 		(uuid "2b414bc5-31c4-4002-afe9-efcce251425a")
 	)
 	(segment
+		(start -39.6 90.9)
+		(end -39.6 90)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "054b9c8a-51cf-4f28-aa5e-813a0cdc3d78")
+	)
+	(segment
+		(start -39.6 92.3)
+		(end -39.6 90.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "063130df-02b7-4820-9e83-9135b3a050bb")
+	)
+	(segment
 		(start -294.4 99.200001)
 		(end -294 99.6)
 		(width 0.1)
@@ -165607,12 +165683,44 @@
 		(uuid "0622c979-7cf3-421c-a2ee-92644b32e64e")
 	)
 	(segment
+		(start -38.4 90.9)
+		(end -38.4 92.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "dea15bba-ecb3-4350-a595-f7aa0cd4eb40")
+	)
+	(segment
+		(start -38.4 90.9)
+		(end -38.4 90)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "fa2030cb-bd74-4fd8-b7b6-a349d991ff4a")
+	)
+	(segment
+		(start -44.75 93.85)
+		(end -44 93.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "3b2ca770-df0d-4fe8-adaa-cf9c9785d96e")
+	)
+	(segment
 		(start -294.4 96)
 		(end -294 96.4)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 38)
 		(uuid "6b7d6671-dceb-446d-a8ac-68b5caf87844")
+	)
+	(segment
+		(start -44 90.9)
+		(end -44 90)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "a47fb12a-e3de-4a8c-bd1a-b8ea8076b54d")
 	)
 	(segment
 		(start -294 96.4)
@@ -165623,12 +165731,44 @@
 		(uuid "adfa8851-2736-4c0f-ad6d-9a1e97fe320b")
 	)
 	(segment
+		(start -45.1 93.85)
+		(end -44.75 93.85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "b9df1dc5-aa85-4064-9097-e03a55b37561")
+	)
+	(segment
+		(start -44 93.1)
+		(end -44 90.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "f1720c5c-8b24-427b-be34-d8a1bd99e1be")
+	)
+	(segment
+		(start -42.9 90.9)
+		(end -42.9 90)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "b3e321a5-dfaf-4b69-85d0-520b2462affd")
+	)
+	(segment
 		(start -293.6 95.999999)
 		(end -292 96)
 		(width 0.1)
 		(layer "F.Cu")
 		(net 39)
 		(uuid "d6cb0c92-7ff5-491a-b421-95a21f3410e0")
+	)
+	(segment
+		(start -42.9 92.15)
+		(end -42.9 90.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "f468659d-c152-42fe-8466-685f51994a2c")
 	)
 	(segment
 		(start -301.6 95.2)
@@ -171541,6 +171681,14 @@
 		(layer "F.Cu")
 		(net 230)
 		(uuid "cb84561e-450f-44ee-95e3-13f089e706fd")
+	)
+	(segment
+		(start -64 95.6)
+		(end -64 94.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 231)
+		(uuid "0c607280-32cf-4974-a084-3cbcd6aa1f6a")
 	)
 	(segment
 		(start -18.2 -194.5)
@@ -177797,6 +177945,14 @@
 		(layer "F.Cu")
 		(net 498)
 		(uuid "45aca3fa-3259-449e-82ee-b688c43ef7a2")
+	)
+	(segment
+		(start -64 91)
+		(end -64 89.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 499)
+		(uuid "ecc406f1-13d9-48cb-886e-b15b5dd8e042")
 	)
 	(segment
 		(start -284.0875 -169.5875)
