@@ -504,7 +504,7 @@
         "line_style": 0,
         "name": "ANT",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.1483,
         "wire_width": 6
@@ -514,7 +514,7 @@
         "line_style": 0,
         "name": "BT",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.1565,
         "wire_width": 6
@@ -524,7 +524,7 @@
         "line_style": 0,
         "name": "CHASSIS",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(0, 194, 0)",
         "wire_width": 20
       },
@@ -533,7 +533,7 @@
         "line_style": 0,
         "name": "DDR_CA",
         "pcb_color": "rgb(0, 194, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.1565,
         "wire_width": 6
@@ -545,7 +545,7 @@
         "line_style": 0,
         "name": "DDR_CLK",
         "pcb_color": "rgb(0, 132, 132)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.1232,
         "wire_width": 6
@@ -555,7 +555,7 @@
         "line_style": 0,
         "name": "DDR_L",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.1565,
         "wire_width": 6
@@ -565,8 +565,18 @@
         "line_style": 0,
         "name": "DDR_U",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.1565,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "ETH",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 7,
+        "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.1565,
         "wire_width": 6
       },
@@ -577,7 +587,7 @@
         "line_style": 0,
         "name": "ETH_CONN",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.1232,
         "wire_width": 6
@@ -587,7 +597,7 @@
         "line_style": 0,
         "name": "GND",
         "pcb_color": "rgb(0, 0, 0)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 20
       },
@@ -596,18 +606,17 @@
         "line_style": 0,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 13,
+        "priority": 14,
         "schematic_color": "rgb(255, 0, 0)",
         "wire_width": 20
       },
       {
         "bus_width": 12,
         "line_style": 0,
-        "name": "RMII",
-        "pcb_color": "rgb(194, 0, 194)",
-        "priority": 6,
-        "schematic_color": "rgb(194, 0, 194)",
-        "track_width": 0.1565,
+        "name": "SCREEN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 6
       },
       {
@@ -617,7 +626,7 @@
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.1575,
         "wire_width": 6
@@ -627,7 +636,7 @@
         "line_style": 0,
         "name": "WLAN",
         "pcb_color": "rgb(132, 132, 0)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.1565,
         "wire_width": 6
@@ -637,7 +646,7 @@
         "line_style": 0,
         "name": "uSD",
         "pcb_color": "rgb(194, 194, 0)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.1565,
         "wire_width": 6
@@ -907,37 +916,37 @@
         "RMII"
       ],
       "/Ethernet/ETH.CRS_DV": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.INT_N": [
         "ETH"
       ],
       "/Ethernet/ETH.MDC": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.MDIO": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.REF_CLK": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.RST_N": [
         "ETH"
       ],
       "/Ethernet/ETH.RXD0": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.RXD1": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.TXD0": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.TXD1": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/ETH.TXEN": [
-        "RMII"
+        "ETH"
       ],
       "/Ethernet/INT_N": [
         "ETH"
@@ -993,7 +1002,16 @@
       "/Ethernet/TX_P": [
         "ETH_CONN"
       ],
+      "/Ethernet/{ETH}": [
+        "ETH"
+      ],
       "/MPU/BT.CTS_N": [
+        "BT"
+      ],
+      "/MPU/BT.DEV_WKUP": [
+        "BT"
+      ],
+      "/MPU/BT.HOST_WKUP": [
         "BT"
       ],
       "/MPU/BT.PCM_CLK": [
@@ -1008,6 +1026,9 @@
       "/MPU/BT.PCM_WS": [
         "BT"
       ],
+      "/MPU/BT.REG_ON": [
+        "BT"
+      ],
       "/MPU/BT.RTS_N": [
         "BT"
       ],
@@ -1016,6 +1037,108 @@
       ],
       "/MPU/BT.TX": [
         "BT"
+      ],
+      "/MPU/SCREEN.B0": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.B1": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.B2": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.B3": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.B4": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.B5": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.B6": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.B7": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.BL_EN": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.DCLK": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.DE": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.DISP": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.G0": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.G1": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.G2": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.G3": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.G4": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.G5": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.G6": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.G7": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.HSYNC": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.INT": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.R0": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.R1": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.R2": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.R3": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.R4": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.R5": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.R6": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.R7": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.RST": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.SCL": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.SDA": [
+        "SCREEN"
+      ],
+      "/MPU/SCREEN.VSYNC": [
+        "SCREEN"
       ],
       "/MPU/USB.DN": [
         "USB"
@@ -1047,6 +1170,15 @@
       "/MPU/WLAN.D3": [
         "WLAN"
       ],
+      "/MPU/WLAN.HOST_WKUP": [
+        "WLAN"
+      ],
+      "/MPU/WLAN.LPO": [
+        "WLAN"
+      ],
+      "/MPU/WLAN.REG_ON": [
+        "WLAN"
+      ],
       "/MPU/uSD.CLK": [
         "uSD"
       ],
@@ -1068,8 +1200,20 @@
       "/MPU/uSD.DET_N": [
         "uSD"
       ],
+      "/MPU/{BT}": [
+        "BT"
+      ],
+      "/MPU/{SCREEN}": [
+        "SCREEN"
+      ],
       "/MPU/{USB}": [
         "USB"
+      ],
+      "/MPU/{WLAN}": [
+        "WLAN"
+      ],
+      "/MPU/{uSD}": [
+        "uSD"
       ],
       "/SD card/CLK": [
         "uSD"
