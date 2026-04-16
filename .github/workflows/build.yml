@@ -22,7 +22,7 @@ jobs:
               sudo mv fonts/courier_new.ttf /usr/local/share/fonts
               fc-cache
       - name: Generate PDF
-        run: kicad-cli sch export pdf --output linux-sbc.pdf --default-font "Courier New" --draw-hop-over linux-sbc.kicad_sch
+        run: kicad-cli sch export pdf --output linux-sbc.pdf --default-font "Courier New" linux-sbc.kicad_sch
       - name: Archive schematics
         uses: actions/upload-artifact@v4
         with:
