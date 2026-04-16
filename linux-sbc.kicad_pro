@@ -235,17 +235,28 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": "v1.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -435,11 +446,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "error",
       "footprint_link_issues": "error",
       "four_way_junction": "error",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -462,6 +476,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "error",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -494,6 +509,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565,
+        "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
@@ -507,6 +523,7 @@
         "priority": 9,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.1483,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -517,6 +534,7 @@
         "priority": 1,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.1565,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -526,6 +544,7 @@
         "pcb_color": "rgb(0, 194, 0)",
         "priority": 12,
         "schematic_color": "rgb(0, 194, 0)",
+        "tuning_profile": "",
         "wire_width": 20
       },
       {
@@ -536,6 +555,7 @@
         "priority": 4,
         "schematic_color": "rgb(0, 194, 0)",
         "track_width": 0.1565,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -548,6 +568,7 @@
         "priority": 5,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.1232,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -558,6 +579,7 @@
         "priority": 3,
         "schematic_color": "rgb(255, 0, 255)",
         "track_width": 0.1565,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -568,6 +590,7 @@
         "priority": 2,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.1565,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -578,6 +601,7 @@
         "priority": 7,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.1565,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -590,6 +614,7 @@
         "priority": 6,
         "schematic_color": "rgb(0, 194, 194)",
         "track_width": 0.1232,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -599,6 +624,7 @@
         "pcb_color": "rgb(0, 0, 0)",
         "priority": 13,
         "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": "",
         "wire_width": 20
       },
       {
@@ -608,6 +634,7 @@
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 14,
         "schematic_color": "rgb(255, 0, 0)",
+        "tuning_profile": "",
         "wire_width": 20
       },
       {
@@ -617,6 +644,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(0, 194, 194)",
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -629,6 +657,7 @@
         "priority": 8,
         "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.1575,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -639,6 +668,7 @@
         "priority": 10,
         "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.1565,
+        "tuning_profile": "",
         "wire_width": 6
       },
       {
@@ -649,11 +679,12 @@
         "priority": 11,
         "schematic_color": "rgb(194, 194, 0)",
         "track_width": 0.1565,
+        "tuning_profile": "",
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": {
@@ -1413,6 +1444,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 1,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1700,6 +1735,111 @@
       "sort_asc": true,
       "sort_field": "Power rating"
     },
+    "bus_aliases": {
+      "BT": [
+        "BT.TX",
+        "BT.RX",
+        "BT.CTS_N",
+        "BT.RTS_N",
+        "BT.PCM_WS",
+        "BT.PCM_SDO",
+        "BT.PCM_SDI",
+        "BT.PCM_CLK",
+        "BT.REG_ON",
+        "BT.HOST_WKUP",
+        "BT.DEV_WKUP"
+      ],
+      "DDR": [
+        "DDR.A[0..15]",
+        "DDR.BA[0..2]",
+        "DDR.DQ[0..15]",
+        "DDR.DQM[0..1]",
+        "DDR.CAS_N",
+        "DDR.CKE",
+        "DDR.CS_N",
+        "DDR.WE_N",
+        "DDR.ODT",
+        "DDR.RST_N",
+        "DDR.RAS_N",
+        "DDR.CLK_P",
+        "DDR.CLK_N",
+        "DDR.DQS0_P",
+        "DDR.DQS0_N",
+        "DDR.DQS1_P",
+        "DDR.DQS1_N"
+      ],
+      "DEBUG": [
+        "DEBUG.RX",
+        "DEBUG.TX",
+        "DEBUG.SCL",
+        "DEBUG.SDA",
+        "DEBUG.INT_N"
+      ],
+      "ETH": [
+        "ETH.RXD[0..1]",
+        "ETH.TXD[0..1]",
+        "ETH.CRS_DV",
+        "ETH.MDIO",
+        "ETH.MDC",
+        "ETH.RST_N",
+        "ETH.INT_N",
+        "ETH.TXEN",
+        "ETH.REF_CLK"
+      ],
+      "JTAG": [
+        "JTAG.JTCK",
+        "JTAG.JTMS",
+        "JTAG.JTDI",
+        "JTAG.JTDO",
+        "JTAG.JTRST_N"
+      ],
+      "KEYPAD": [
+        "KEYPAD.SCL",
+        "KEYPAD.SDA",
+        "KEYPAD.INT_N"
+      ],
+      "PMIC": [
+        "PMIC.SDA",
+        "PMIC.SCL",
+        "PMIC.CTRL",
+        "PMIC.RST_N",
+        "PMIC.WKUP",
+        "PMIC.INT_N"
+      ],
+      "SCREEN": [
+        "SCREEN.DISP",
+        "SCREEN.DE",
+        "SCREEN.DCLK",
+        "SCREEN.R[0..7]",
+        "SCREEN.G[0..7]",
+        "SCREEN.B[0..7]",
+        "SCREEN.HSYNC",
+        "SCREEN.VSYNC",
+        "SCREEN.RST",
+        "SCREEN.INT",
+        "SCREEN.SCL",
+        "SCREEN.SDA",
+        "SCREEN.BL_EN"
+      ],
+      "USB": [
+        "USB.DP",
+        "USB.DN"
+      ],
+      "WLAN": [
+        "WLAN.D[0..3]",
+        "WLAN.CMD",
+        "WLAN.CLK",
+        "WLAN.REG_ON",
+        "WLAN.HOST_WKUP",
+        "WLAN.LPO"
+      ],
+      "uSD": [
+        "uSD.D[0..3]",
+        "uSD.CMD",
+        "uSD.CLK",
+        "uSD.DET_N"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -1707,6 +1847,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -1738,6 +1879,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1746,12 +1888,21 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "linux-sbc.kicad_sch",
+        "name": "linux-sbc",
+        "uuid": "fa11a02f-8043-4153-ab69-88d766503017"
+      }
+    ],
+    "used_designators": "R101,R201-241,R301-312,R401-405,R501-583,R701-724,R801-830,R901-912,R1001-1018,R1101-1103,R1201-1209,R1301-1313,#FLG101,#FLG201-204,#FLG301-302,#FLG401-404,#FLG701,#FLG1001-1002,#FLG1301,D101,D201-209,D301-302,D501-502,D701-709,D901-907,D1001,D1101,D1201,D1301,#PWR101-106,#PWR201-210,#PWR301-303,#PWR401-404,#PWR501-508,#PWR601-609,#PWR701-709,#PWR801-805,#PWR901-914,#PWR1001-1008,#PWR1101-1105,#PWR1201-1210,#PWR1301-1306,C201-219,C301-310,C401-425,C501-506,C601-647,C701-708,C801-822,C901-923,C1001-1008,C1101,C1201-1205,C1301-1304,FB1001,F201,FID101-103,FL201,H101-104,J101,J201-208,J301-303,J401,J701-702,J901-902,J1001,J1101,J1201-1203,J1301,L201,L301-302,L401-404,L1201,L1301,Q201-205,SW501,SYM101-103,TP401,TP501-505,TP901-904,TP1001-1002,U201-207,U301-302,U401,U501,U701-702,U801,U901-903,U1001,U1201-1202,U1301,X1201-1202,Y501-502,Y901",
+    "variants": []
   },
   "sheets": [
     [
       "fa11a02f-8043-4153-ab69-88d766503017",
-      "Root"
+      "linux-sbc"
     ],
     [
       "524a017a-f4b1-440b-9b41-00cccec69d8d",
@@ -1802,5 +1953,11 @@
       "Wireless"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
