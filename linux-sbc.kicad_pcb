@@ -7304,9 +7304,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "1951e245-9611-4c39-a406-69c513c644c2")
-		(at -300.525001 91.474999)
+		(at -300.1 91.4 90)
 		(property "Reference" "C502"
-			(at 0 -1.099999 0)
+			(at 0 -1.099999 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7319,7 +7319,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 0.7874 0)
+			(at 0 0.7874 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e9c904dd-ca6d-444b-8570-ff3e09a17e55")
@@ -7332,7 +7332,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C105ME15-01A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2770989-ba19-419b-b9d1-7aff9f3e4e62")
@@ -7344,7 +7344,7 @@
 			)
 		)
 		(property "Description" "1 µF ±20% 16V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "df166b5c-5e04-4673-b22a-363b9e1cd64e")
@@ -7356,7 +7356,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7369,7 +7369,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7382,7 +7382,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7395,7 +7395,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7408,7 +7408,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7421,7 +7421,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7434,7 +7434,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7471,26 +7471,6 @@
 			(uuid "7124b761-ea07-4e5e-b8f2-ed224ac901a3")
 		)
 		(fp_line
-			(start -0.3 -0.1524)
-			(end 0.3 -0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2590de16-ad23-40b3-938e-d4fb82505fb0")
-		)
-		(fp_line
-			(start -0.3 0.1476)
-			(end -0.3 -0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "51ac4ec5-1241-4199-902d-13306fa2483d")
-		)
-		(fp_line
 			(start 0.3 -0.1524)
 			(end 0.3 0.1476)
 			(stroke
@@ -7499,6 +7479,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "da2dfa1f-1c1c-4bde-8a78-9542ea72fc3a")
+		)
+		(fp_line
+			(start -0.3 -0.1524)
+			(end 0.3 -0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2590de16-ad23-40b3-938e-d4fb82505fb0")
 		)
 		(fp_line
 			(start 0.3 0.1476)
@@ -7510,8 +7500,18 @@
 			(layer "F.Fab")
 			(uuid "624f356c-5780-460a-b949-2509007b6df7")
 		)
+		(fp_line
+			(start -0.3 0.1476)
+			(end -0.3 -0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "51ac4ec5-1241-4199-902d-13306fa2483d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.3302 0)
+			(at 0 0.3302 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b6ce2757-ed18-42ba-886a-764ee12e95a2")
@@ -7524,7 +7524,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.274999 0)
+			(at -0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MPU/PMIC_RST_N")
@@ -7532,7 +7532,7 @@
 			(uuid "04ec02d6-37ac-4e44-89bf-082fa337b0ab")
 		)
 		(pad "2" smd rect
-			(at 0.274999 0)
+			(at 0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -12136,7 +12136,7 @@
 	(footprint "perfect_footprints:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "286d9a85-76f1-4069-bd6d-84efc4ac78f1")
-		(at -300.8 90.4 90)
+		(at -300.8 91.4 90)
 		(property "Reference" "R527"
 			(at 0 -1.099999 90)
 			(unlocked yes)
@@ -83557,6 +83557,244 @@
 			)
 		)
 	)
+	(footprint "perfect_footprints:R_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "c25c01a7-075f-4f42-9d35-9555374bd1aa")
+		(at -301.5 91.4 -90)
+		(property "Reference" "R506"
+			(at 0 -1.099999 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e63a1da-9084-45eb-8c9a-04a2d46ce5b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 kΩ"
+			(at 0 0.812799 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3f90fee0-b1ec-45b4-95dd-1bed22bb2db3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d159172-dbf1-4786-b93e-49a3e0930dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f695740f-e664-4627-ba08-336632685f57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ERJ-1GNF1002C"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "000f9ca1-2a8b-4b3e-89f9-5c7ed7902357")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Electronic Components"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40e45b77-33ad-4a8c-831c-a791665a9d57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40fdc073-1055-447d-98e6-636bc4a5ecea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Power rating" "0.05 W"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "266c41de-6547-4d23-a470-11e8f51fcd60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Size" "0201"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bed1c2e7-df6e-4adf-8ae1-3565a84717cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" "P122414CT-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2df19c7-cb25-4d60-abfb-41ce01f0aacc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/2d01087b-54dc-4f43-9cc7-a0ba17201776/f8314f63-15e5-4d01-9559-f386209014b7")
+		(sheetname "/MPU/")
+		(sheetfile "mpu.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_poly
+			(pts
+				(xy -0.508 -0.2794) (xy 0.508 -0.2794) (xy 0.508 0.2794) (xy -0.508 0.2794)
+			)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c6fb23a1-fd53-4a37-af1a-3be9d7a45955")
+		)
+		(fp_line
+			(start -0.3 0.1476)
+			(end -0.3 -0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd90003a-430c-48ba-af34-ec396ceb9efe")
+		)
+		(fp_line
+			(start 0.3 0.1476)
+			(end -0.3 0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0ff6a083-b2cc-4fd2-a2b4-f0ec212987af")
+		)
+		(fp_line
+			(start -0.3 -0.1524)
+			(end 0.3 -0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2402ed1d-cade-4f41-beac-4e17043dd465")
+		)
+		(fp_line
+			(start 0.3 -0.1524)
+			(end 0.3 0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "152d5864-b059-4669-b09d-4b67c7f7abfb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.3302 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "aba29acf-2542-4c9b-9c0f-8c63beec9b34")
+			(effects
+				(font
+					(size 0.26 0.26)
+					(thickness 0.04)
+				)
+				(justify top)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.274999 0 270)
+			(size 0.25 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/Debug/VDD")
+			(pintype "passive")
+			(uuid "cd08c66e-6239-4ae6-98e6-f30c2df5a3b8")
+		)
+		(pad "2" smd rect
+			(at 0.274999 0 270)
+			(size 0.25 0.35)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/MPU/BOOT2")
+			(pintype "passive")
+			(uuid "a9bfe2f8-48af-4c1e-a4f2-b6dd4b0921e6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Connector_Coaxial:SMA_Amphenol_132134-11_Vertical"
 		(layer "F.Cu")
 		(uuid "c27d82a3-a14e-46e8-814c-ca2e97808567")
@@ -116049,7 +116287,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "10414b89-9896-425d-9e1d-1a2c68de8a1a")
-		(at -255.503 149.4748 180)
+		(at -324.8 100.2 180)
 		(property "Reference" "C825"
 			(at 0 1.1 0)
 			(unlocked yes)
@@ -118540,7 +118778,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "1a9bf7a8-517c-4b40-b028-faa2050a89b0")
-		(at -259.635 138.2132 180)
+		(at -328.8 93.8 180)
 		(property "Reference" "C840"
 			(at 0 1.1 0)
 			(unlocked yes)
@@ -120032,7 +120270,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "1e4cfcec-ef02-49d9-9a24-42df171299b0")
-		(at -257.569 139.822 180)
+		(at -328.8 100.2 180)
 		(property "Reference" "C830"
 			(at 0 1.1 0)
 			(unlocked yes)
@@ -121263,9 +121501,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "24dbeb90-6bbd-46d8-84e1-3c5522ca3e5e")
-		(at -253.437 139.822 180)
+		(at -331.6 94.2 -90)
 		(property "Reference" "C808"
-			(at 0 1.1 0)
+			(at 0 1.099999 90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -121279,7 +121517,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "95898be8-300e-4d15-b136-99e6ce66c447")
@@ -121292,7 +121530,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C105ME15-01A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c3e68232-1e1e-448a-b433-43fa116f07b1")
@@ -121305,7 +121543,7 @@
 			)
 		)
 		(property "Description" "1 µF ±20% 16V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d42daa21-a71f-45d7-aecc-b83eb440884c")
@@ -121318,7 +121556,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -121332,7 +121570,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -121346,7 +121584,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -121360,7 +121598,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -121374,7 +121612,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -121388,7 +121626,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -121402,7 +121640,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -121427,9 +121665,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -121437,26 +121676,6 @@
 			(fill no)
 			(layer "B.CrtYd")
 			(uuid "47637330-fd1c-46ed-9eb4-8aeab432b1c1")
-		)
-		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "eec50753-11bf-4d7c-b7ca-d456d729bdd1")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "cfc944fc-9695-4639-97f9-81dd9de21db2")
 		)
 		(fp_line
 			(start -0.3 0.1524)
@@ -121469,6 +121688,16 @@
 			(uuid "9f9eb40b-512f-4725-b1d5-6a810dc57fe5")
 		)
 		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "eec50753-11bf-4d7c-b7ca-d456d729bdd1")
+		)
+		(fp_line
 			(start -0.3 -0.1476)
 			(end -0.3 0.1524)
 			(stroke
@@ -121478,8 +121707,18 @@
 			(layer "B.Fab")
 			(uuid "b72a20bb-5e11-4861-8fc8-f31a837d7937")
 		)
+		(fp_line
+			(start 0.3 -0.1476)
+			(end -0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "cfc944fc-9695-4639-97f9-81dd9de21db2")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "89688f18-fc7f-41e0-b703-af9f6ca46c2d")
@@ -121492,7 +121731,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0 270)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -121500,7 +121739,7 @@
 			(uuid "193ae322-02f8-4ec9-ad3d-469f385a177e")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0 270)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -121769,7 +122008,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "287c0548-ade5-4945-86be-89d232e1f2d4")
-		(at -255.503 141.4308 180)
+		(at -327.2 94.6 180)
 		(property "Reference" "C820"
 			(at 0 1.1 0)
 			(unlocked yes)
@@ -122289,9 +122528,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "319b42d9-5783-43ce-9488-7cdd028b59c2")
-		(at -255.503 151.0836 180)
+		(at -330.4 93.8)
 		(property "Reference" "C826"
-			(at 0 1.1 0)
+			(at 0 1.099999 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -122305,7 +122544,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "85b1fd49-ec86-4084-ad82-09f42da35cee")
@@ -122344,7 +122583,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -122358,7 +122597,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -122372,7 +122611,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -122386,7 +122625,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -122400,7 +122639,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -122414,7 +122653,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -122428,7 +122667,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -122453,9 +122692,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -122465,24 +122705,14 @@
 			(uuid "e7e0db78-11a0-40ba-a680-5b774b49ebbf")
 		)
 		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
+			(start -0.3 -0.1476)
+			(end -0.3 0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "7586922b-0dc0-49a5-b7d8-7498a4371732")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "525547d6-2b58-4fd2-bc74-d9f9ca2fc6da")
+			(uuid "c5a809f8-ce2f-482b-8813-bdaa2c5c9a76")
 		)
 		(fp_line
 			(start -0.3 0.1524)
@@ -122495,17 +122725,27 @@
 			(uuid "b56e526d-9692-4a03-9e46-816280bc449d")
 		)
 		(fp_line
-			(start -0.3 -0.1476)
-			(end -0.3 0.1524)
+			(start 0.3 -0.1476)
+			(end -0.3 -0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "c5a809f8-ce2f-482b-8813-bdaa2c5c9a76")
+			(uuid "525547d6-2b58-4fd2-bc74-d9f9ca2fc6da")
+		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "7586922b-0dc0-49a5-b7d8-7498a4371732")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "2657c7e1-793e-4133-a701-a71b44e3dd48")
@@ -122518,7 +122758,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -122526,7 +122766,7 @@
 			(uuid "1a9977c9-091e-4000-882d-821c493040d4")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -124325,9 +124565,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "3b22effe-727d-4da5-aac0-f17d84940ad8")
-		(at -253.437 141.4308 180)
+		(at -334 94.2 90)
 		(property "Reference" "C809"
-			(at 0 1.1 0)
+			(at 0 1.099999 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -124341,7 +124581,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "c1cca6fb-2ab4-4ebc-81b4-adad6cb7dfd0")
@@ -124354,7 +124594,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C105ME15-01A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e1bbe132-1da8-450d-a4a6-2be26577f949")
@@ -124367,7 +124607,7 @@
 			)
 		)
 		(property "Description" "1 µF ±20% 16V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ab87e668-9e47-4bd3-837e-4f7780e73ad5")
@@ -124380,7 +124620,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -124394,7 +124634,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -124408,7 +124648,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -124422,7 +124662,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -124436,7 +124676,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -124450,7 +124690,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -124464,7 +124704,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -124489,9 +124729,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -124499,16 +124740,6 @@
 			(fill no)
 			(layer "B.CrtYd")
 			(uuid "04b0771d-4b04-44e2-9df4-5bdbdc748462")
-		)
-		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "b1ef3233-496b-4c38-98f4-77d82fe88d74")
 		)
 		(fp_line
 			(start 0.3 -0.1476)
@@ -124521,16 +124752,6 @@
 			(uuid "377bc6d0-58ef-41c9-addb-bdca3fd028c2")
 		)
 		(fp_line
-			(start -0.3 0.1524)
-			(end 0.3 0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "fdbb45db-c0a4-431a-8ac9-b1fcb15cd75e")
-		)
-		(fp_line
 			(start -0.3 -0.1476)
 			(end -0.3 0.1524)
 			(stroke
@@ -124540,8 +124761,28 @@
 			(layer "B.Fab")
 			(uuid "9456006e-b054-4c8e-820f-1ded1cd5f797")
 		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "b1ef3233-496b-4c38-98f4-77d82fe88d74")
+		)
+		(fp_line
+			(start -0.3 0.1524)
+			(end 0.3 0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "fdbb45db-c0a4-431a-8ac9-b1fcb15cd75e")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "20fc9faf-b77a-4532-bb10-126a254aa686")
@@ -124554,7 +124795,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -124562,7 +124803,7 @@
 			(uuid "3a33e6da-5bce-4e57-858c-d58ec0bdc161")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -129809,7 +130050,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "5175d7c3-523e-449e-8b40-39c546aaad3a")
-		(at -253.437 151.0836 180)
+		(at -327 99.4 180)
 		(property "Reference" "C815"
 			(at 0 1.1 0)
 			(unlocked yes)
@@ -130069,7 +130310,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "51d2ac2e-38ba-41ad-abf9-5c0b0209ccc0")
-		(at -257.569 151.0836 180)
+		(at -323.2 100.2 180)
 		(property "Reference" "C837"
 			(at 0 1.1 0)
 			(unlocked yes)
@@ -131012,9 +131253,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "58962c85-7f5d-420c-9cd2-53b6d7858b82")
-		(at -257.569 143.0396 180)
+		(at -330.4 100.2 180)
 		(property "Reference" "C832"
-			(at 0 1.1 0)
+			(at 0 1.099999 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -131176,9 +131417,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -131241,7 +131483,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0 180)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -131249,7 +131491,7 @@
 			(uuid "873e932c-b3db-47e2-b87e-66dcc81a0bc2")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0 180)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -133362,9 +133604,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "64b029e1-e388-45b0-ad21-464443126150")
-		(at -253.437 144.6484 180)
+		(at -332 100.2)
 		(property "Reference" "C811"
-			(at 0 1.1 0)
+			(at 0 1.099999 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -133378,7 +133620,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "aed64490-ee74-4f82-ba1c-220e95a60a4d")
@@ -133417,7 +133659,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -133431,7 +133673,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -133445,7 +133687,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -133459,7 +133701,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -133473,7 +133715,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -133487,7 +133729,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -133501,7 +133743,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -133526,9 +133768,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -133538,24 +133781,14 @@
 			(uuid "7027be09-c635-4ea5-bf55-a3fa98d54403")
 		)
 		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
+			(start -0.3 -0.1476)
+			(end -0.3 0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e059c6c5-bdc4-43d3-8b94-ea9b50465ce7")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "754ed855-f0e3-4126-b34e-5335d834e662")
+			(uuid "5970cf2b-633a-48d4-976e-6bf023fbcbd9")
 		)
 		(fp_line
 			(start -0.3 0.1524)
@@ -133568,17 +133801,27 @@
 			(uuid "f763220c-a470-4b4e-a628-7fc2b509f359")
 		)
 		(fp_line
-			(start -0.3 -0.1476)
-			(end -0.3 0.1524)
+			(start 0.3 -0.1476)
+			(end -0.3 -0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "5970cf2b-633a-48d4-976e-6bf023fbcbd9")
+			(uuid "754ed855-f0e3-4126-b34e-5335d834e662")
+		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e059c6c5-bdc4-43d3-8b94-ea9b50465ce7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "2c95aab8-a46b-4acc-aadd-2f95ca50ee43")
@@ -133591,7 +133834,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -133599,7 +133842,7 @@
 			(uuid "0a0f3ed2-baa6-4d1f-80e2-4305f625bb67")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -137020,9 +137263,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "7949bfc3-a7d7-4334-8c14-758f31cd4e8c")
-		(at -257.569 149.4748 180)
+		(at -325.2 94.2 90)
 		(property "Reference" "C836"
-			(at 0 1.1 0)
+			(at 0 1.099999 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -137036,7 +137279,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "e8e45dea-55eb-4748-bf16-5e476f487afc")
@@ -137049,7 +137292,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C105ME15-01A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "44a8cd9a-ec58-446b-afe6-dd344928dffe")
@@ -137062,7 +137305,7 @@
 			)
 		)
 		(property "Description" "1 µF ±20% 16V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6bb48154-278b-4cf0-a4e1-51d45626636d")
@@ -137075,7 +137318,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -137089,7 +137332,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -137103,7 +137346,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -137117,7 +137360,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -137131,7 +137374,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -137145,7 +137388,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -137159,7 +137402,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -137184,9 +137427,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -137194,16 +137438,6 @@
 			(fill no)
 			(layer "B.CrtYd")
 			(uuid "98b8e886-5623-44a0-aada-a01b06c7aa5b")
-		)
-		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "4eeed434-a6ca-4d8d-abf2-27901cb04721")
 		)
 		(fp_line
 			(start 0.3 -0.1476)
@@ -137216,16 +137450,6 @@
 			(uuid "98719e68-4d48-40da-b955-e27576ef8439")
 		)
 		(fp_line
-			(start -0.3 0.1524)
-			(end 0.3 0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "aed91a02-3f93-4e5d-8533-e224aa6fd8b5")
-		)
-		(fp_line
 			(start -0.3 -0.1476)
 			(end -0.3 0.1524)
 			(stroke
@@ -137235,8 +137459,28 @@
 			(layer "B.Fab")
 			(uuid "b93139e3-347f-464e-a1f0-558e9fde16b9")
 		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4eeed434-a6ca-4d8d-abf2-27901cb04721")
+		)
+		(fp_line
+			(start -0.3 0.1524)
+			(end 0.3 0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "aed91a02-3f93-4e5d-8533-e224aa6fd8b5")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "8f933ad8-485a-47d0-b968-7cfaaa660c5f")
@@ -137249,7 +137493,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VREF_DDR")
@@ -137257,7 +137501,7 @@
 			(uuid "67c3be87-d250-492d-8176-8b2620f7e869")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -142022,7 +142266,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "936d6ae1-7575-4e61-b205-adcb39982455")
-		(at -294.4 86 180)
+		(at -294.8 86 180)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP504"
@@ -142356,9 +142600,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "9980a8be-f564-4e92-9efa-06576dbfd507")
-		(at -253.437 138.2132 180)
+		(at -333.6 100.2)
 		(property "Reference" "C807"
-			(at 0 1.1 0)
+			(at 0 1.099999 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -142372,7 +142616,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "ecb8830e-ac8b-4685-9819-75a7b05e9a8e")
@@ -142411,7 +142655,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -142425,7 +142669,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -142439,7 +142683,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -142453,7 +142697,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -142467,7 +142711,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -142481,7 +142725,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -142495,7 +142739,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -142520,9 +142764,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -142532,24 +142777,14 @@
 			(uuid "98fcf78c-2ae1-4396-b5b7-b7d9dba25745")
 		)
 		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
+			(start -0.3 -0.1476)
+			(end -0.3 0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ada91c95-acf8-45d4-9885-5a6cdfe84102")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "959ce195-d379-4f4c-b72e-ecc712140f29")
+			(uuid "e8a9f4b5-da8d-4453-a235-a4515267b8cc")
 		)
 		(fp_line
 			(start -0.3 0.1524)
@@ -142562,17 +142797,27 @@
 			(uuid "95d8608e-8aaa-4834-866b-fc89f3b1339e")
 		)
 		(fp_line
-			(start -0.3 -0.1476)
-			(end -0.3 0.1524)
+			(start 0.3 -0.1476)
+			(end -0.3 -0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e8a9f4b5-da8d-4453-a235-a4515267b8cc")
+			(uuid "959ce195-d379-4f4c-b72e-ecc712140f29")
+		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ada91c95-acf8-45d4-9885-5a6cdfe84102")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "ad8ede5a-7d45-4089-ac60-2c0885082361")
@@ -142585,7 +142830,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -142593,7 +142838,7 @@
 			(uuid "4611158d-410c-4d4f-9b87-a61cb39fad74")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -147269,9 +147514,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "b07259b6-b997-4d6f-a31d-ae864ee2f080")
-		(at -255.503 143.0396 180)
+		(at -331.2 99.4)
 		(property "Reference" "C821"
-			(at 0 1.1 0)
+			(at 0 1.099999 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -147285,7 +147530,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "9a491f71-336a-4a7a-b057-aa4c54926a95")
@@ -147324,7 +147569,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -147338,7 +147583,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -147352,7 +147597,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -147366,7 +147611,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -147380,7 +147625,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -147394,7 +147639,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -147408,7 +147653,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -147433,9 +147678,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -147445,24 +147691,14 @@
 			(uuid "12588e5b-c876-420f-ae09-2bbb8c645258")
 		)
 		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
+			(start -0.3 -0.1476)
+			(end -0.3 0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d3c92d2c-67d4-4c08-9727-2f7e5ae6a155")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "b2b16ca5-e3af-4984-b791-d52321911a3a")
+			(uuid "314b1d5f-5659-4413-b63b-9319fb3b5919")
 		)
 		(fp_line
 			(start -0.3 0.1524)
@@ -147475,17 +147711,27 @@
 			(uuid "0421abb0-783d-4552-8419-a086f50a14b9")
 		)
 		(fp_line
-			(start -0.3 -0.1476)
-			(end -0.3 0.1524)
+			(start 0.3 -0.1476)
+			(end -0.3 -0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "314b1d5f-5659-4413-b63b-9319fb3b5919")
+			(uuid "b2b16ca5-e3af-4984-b791-d52321911a3a")
+		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d3c92d2c-67d4-4c08-9727-2f7e5ae6a155")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "8bc7205e-7404-4492-aa45-8fb7b48e000c")
@@ -147498,7 +147744,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -147506,7 +147752,7 @@
 			(uuid "0cbd210f-97ff-46e9-8f85-83aa01f5d517")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -148579,9 +148825,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "b5a11528-cd01-49b9-8acf-a57e9bccfff4")
-		(at -257.569 152.6924 180)
+		(at -328.1 99.4)
 		(property "Reference" "C838"
-			(at 0 1.1 0)
+			(at 0 1.099999 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -148595,7 +148841,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "f7e1bd96-0272-4f67-b53d-06e73de9e136")
@@ -148634,7 +148880,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -148648,7 +148894,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -148662,7 +148908,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -148676,7 +148922,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -148690,7 +148936,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -148704,7 +148950,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -148718,7 +148964,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -148743,9 +148989,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -148755,24 +149002,14 @@
 			(uuid "4c2ad584-d9d5-40ca-a857-c1821e6ce326")
 		)
 		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
+			(start -0.3 -0.1476)
+			(end -0.3 0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "cab18143-2f9e-4165-b933-4d880ef7ed20")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ede5b6bf-6890-4a72-a548-69ef6fb19c04")
+			(uuid "4d8c796e-f107-488c-9f8a-3d2a84c18b1e")
 		)
 		(fp_line
 			(start -0.3 0.1524)
@@ -148785,17 +149022,27 @@
 			(uuid "62ac35c9-7afa-4fc7-8757-97f1be66a5f3")
 		)
 		(fp_line
-			(start -0.3 -0.1476)
-			(end -0.3 0.1524)
+			(start 0.3 -0.1476)
+			(end -0.3 -0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "4d8c796e-f107-488c-9f8a-3d2a84c18b1e")
+			(uuid "ede5b6bf-6890-4a72-a548-69ef6fb19c04")
+		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "cab18143-2f9e-4165-b933-4d880ef7ed20")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "5f88acd5-e7dd-415a-8a2d-0446af673488")
@@ -148808,7 +149055,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -148816,7 +149063,7 @@
 			(uuid "ba3a78a8-dd33-4126-9e05-99bccd9719c3")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -149275,7 +149522,7 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "b665d930-f389-4612-a97c-27b61b236a70")
-		(at -253.437 152.6924 180)
+		(at -332.8 93.8 180)
 		(property "Reference" "C816"
 			(at 0 1.1 0)
 			(unlocked yes)
@@ -149535,9 +149782,9 @@
 	(footprint "perfect_footprints:R_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "bbda2c7c-0a83-471b-ba68-a47c22687456")
-		(at -259.635 141.4308 180)
+		(at -326 94.2 90)
 		(property "Reference" "R802"
-			(at 0 1.1 0)
+			(at 0 1.099999 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -149551,7 +149798,7 @@
 			)
 		)
 		(property "Value" "240 Ω"
-			(at 0 -0.8128 0)
+			(at 0 -0.812799 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "857df9da-1dd7-4d2f-a16a-66e8be07958b")
@@ -149564,7 +149811,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4888f875-ef50-44e4-b014-3e1048bc8bd9")
@@ -149577,7 +149824,7 @@
 			)
 		)
 		(property "Description" "240 Ohms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "39effa58-ad43-4942-9ee9-36e9643133c6")
@@ -149590,7 +149837,7 @@
 			)
 		)
 		(property "MPN" "ERJ-1GNF2400C"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -149604,7 +149851,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -149618,7 +149865,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -149632,7 +149879,7 @@
 			)
 		)
 		(property "Power rating" "0.05 W"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -149646,7 +149893,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -149660,7 +149907,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "P122856CT-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -149685,9 +149932,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -149695,16 +149943,6 @@
 			(fill no)
 			(layer "B.CrtYd")
 			(uuid "b0901f4b-6237-4cb8-89b3-ed4beb66b418")
-		)
-		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "ea91ac72-c6d4-443e-bfc4-2b5af3a2e922")
 		)
 		(fp_line
 			(start 0.3 -0.1476)
@@ -149717,16 +149955,6 @@
 			(uuid "4feb64e5-5d9e-4bb7-9fa4-fe7efa154dfa")
 		)
 		(fp_line
-			(start -0.3 0.1524)
-			(end 0.3 0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "cc42bbe0-edf0-43bb-9e3c-6b819b8af9e3")
-		)
-		(fp_line
 			(start -0.3 -0.1476)
 			(end -0.3 0.1524)
 			(stroke
@@ -149736,8 +149964,28 @@
 			(layer "B.Fab")
 			(uuid "91e9e9c5-33c8-4d37-ba89-993bf66432b7")
 		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "ea91ac72-c6d4-443e-bfc4-2b5af3a2e922")
+		)
+		(fp_line
+			(start -0.3 0.1524)
+			(end 0.3 0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "cc42bbe0-edf0-43bb-9e3c-6b819b8af9e3")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "b5b32f48-8cf1-42d8-9f9d-1b07879ab793")
@@ -149750,7 +149998,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/ZQ")
@@ -149758,7 +150006,7 @@
 			(uuid "003e02a8-0e52-43d0-b1e8-bdd70e897539")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -151242,252 +151490,6 @@
 	)
 	(footprint "perfect_footprints:R_0201_0603Metric"
 		(layer "B.Cu")
-		(uuid "c25c01a7-075f-4f42-9d35-9555374bd1aa")
-		(at -236.977 144.6484 180)
-		(property "Reference" "R506"
-			(at 0 1.1 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "4e63a1da-9084-45eb-8c9a-04a2d46ce5b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 0 -0.8128 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "3f90fee0-b1ec-45b4-95dd-1bed22bb2db3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify top mirror)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "4d159172-dbf1-4786-b93e-49a3e0930dd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.05W, 1/20W Chip Resistor 0201 (0603 Metric) Thick Film"
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f695740f-e664-4627-ba08-336632685f57")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "MPN" "ERJ-1GNF1002C"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "000f9ca1-2a8b-4b3e-89f9-5c7ed7902357")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Manufacturer" "Panasonic Electronic Components"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "40e45b77-33ad-4a8c-831c-a791665a9d57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "40fdc073-1055-447d-98e6-636bc4a5ecea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Power rating" "0.05 W"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "266c41de-6547-4d23-a470-11e8f51fcd60")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Size" "0201"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bed1c2e7-df6e-4adf-8ae1-3565a84717cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Digi-Key Part Number" "P122414CT-ND"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d2df19c7-cb25-4d60-abfb-41ce01f0aacc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/2d01087b-54dc-4f43-9cc7-a0ba17201776/f8314f63-15e5-4d01-9559-f386209014b7")
-		(sheetname "/MPU/")
-		(sheetfile "mpu.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "B.CrtYd")
-			(uuid "c6fb23a1-fd53-4a37-af1a-3be9d7a45955")
-		)
-		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "152d5864-b059-4669-b09d-4b67c7f7abfb")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "0ff6a083-b2cc-4fd2-a2b4-f0ec212987af")
-		)
-		(fp_line
-			(start -0.3 0.1524)
-			(end 0.3 0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "2402ed1d-cade-4f41-beac-4e17043dd465")
-		)
-		(fp_line
-			(start -0.3 -0.1476)
-			(end -0.3 0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "cd90003a-430c-48ba-af34-ec396ceb9efe")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "aba29acf-2542-4c9b-9c0f-8c63beec9b34")
-			(effects
-				(font
-					(size 0.26 0.26)
-					(thickness 0.04)
-				)
-				(justify top mirror)
-			)
-		)
-		(pad "1" smd rect
-			(at -0.275 0 180)
-			(size 0.25 0.35)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Debug/VDD")
-			(pintype "passive")
-			(uuid "cd08c66e-6239-4ae6-98e6-f30c2df5a3b8")
-		)
-		(pad "2" smd rect
-			(at 0.275 0 180)
-			(size 0.25 0.35)
-			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/MPU/BOOT2")
-			(pintype "passive")
-			(uuid "a9bfe2f8-48af-4c1e-a4f2-b6dd4b0921e6")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "perfect_footprints:R_0201_0603Metric"
-		(layer "B.Cu")
 		(uuid "c44f2535-88f4-4dc9-a023-e8fc075f08d1")
 		(at -243.175 152.6924 180)
 		(property "Reference" "R554"
@@ -151707,9 +151709,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "c66a6565-2de6-4eaf-8b59-e45533ab90f2")
-		(at -253.437 136.6044 180)
+		(at -333.2 99 90)
 		(property "Reference" "C806"
-			(at 0 1.1 0)
+			(at 0 1.099999 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -151723,7 +151725,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "7ea421bb-573d-414a-8b0b-ac2e0f974aee")
@@ -151736,7 +151738,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C105ME15-01A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "21ee3553-4846-4651-8bde-3bc8ec848208")
@@ -151749,7 +151751,7 @@
 			)
 		)
 		(property "Description" "1 µF ±20% 16V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2b1738f2-7fd9-4637-bd8c-48eca0e3f6e5")
@@ -151762,7 +151764,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -151776,7 +151778,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -151790,7 +151792,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -151804,7 +151806,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -151818,7 +151820,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -151832,7 +151834,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -151846,7 +151848,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -151871,9 +151873,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -151881,16 +151884,6 @@
 			(fill no)
 			(layer "B.CrtYd")
 			(uuid "baba1437-88ef-4e2d-b84d-a56d93e04ba0")
-		)
-		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "53ddce46-d2d6-4cc3-8cd3-c2de33fc2c17")
 		)
 		(fp_line
 			(start 0.3 -0.1476)
@@ -151903,16 +151896,6 @@
 			(uuid "0985625b-cf73-467c-b144-d61d14e7094a")
 		)
 		(fp_line
-			(start -0.3 0.1524)
-			(end 0.3 0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "5aa7435c-5a98-4f27-a399-4c6c2d86bb41")
-		)
-		(fp_line
 			(start -0.3 -0.1476)
 			(end -0.3 0.1524)
 			(stroke
@@ -151922,8 +151905,28 @@
 			(layer "B.Fab")
 			(uuid "17177be8-5df1-4bf9-9e70-3e7bdba09fc7")
 		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "53ddce46-d2d6-4cc3-8cd3-c2de33fc2c17")
+		)
+		(fp_line
+			(start -0.3 0.1524)
+			(end 0.3 0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5aa7435c-5a98-4f27-a399-4c6c2d86bb41")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "5fe0b211-eb7d-4c95-8bfc-5b52e8e13c80")
@@ -151936,7 +151939,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -151944,7 +151947,7 @@
 			(uuid "dcc0ec77-8b68-455f-9e47-dd778129ce47")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -158481,9 +158484,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "dfdad14c-dc78-4133-8822-6d29b8351d51")
-		(at -253.437 143.0396 180)
+		(at -329.2 95 90)
 		(property "Reference" "C810"
-			(at 0 1.1 0)
+			(at 0 1.099999 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -158497,7 +158500,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "efa8d4df-88e2-4723-90e1-56bce47e0e26")
@@ -158510,7 +158513,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM033R61C105ME15-01A.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d7ce6389-1466-4a18-b4d7-0ca355232edb")
@@ -158523,7 +158526,7 @@
 			)
 		)
 		(property "Description" "1 µF ±20% 16V Ceramic Capacitor X5R 0201 (0603 Metric)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2cc5558b-4918-4373-877c-4fdc9922f307")
@@ -158536,7 +158539,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -158550,7 +158553,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -158564,7 +158567,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -158578,7 +158581,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -158592,7 +158595,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -158606,7 +158609,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -158620,7 +158623,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -158645,9 +158648,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -158655,16 +158659,6 @@
 			(fill no)
 			(layer "B.CrtYd")
 			(uuid "b7678ba7-bf0e-4e34-95ba-311be6865cd9")
-		)
-		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "8e4819ea-5324-49c8-b0ee-81d62c63c884")
 		)
 		(fp_line
 			(start 0.3 -0.1476)
@@ -158677,16 +158671,6 @@
 			(uuid "6bae7433-b577-42dd-ab9f-55bf35b60dad")
 		)
 		(fp_line
-			(start -0.3 0.1524)
-			(end 0.3 0.1524)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "af357654-cc66-4e78-8d40-1a1243afff0c")
-		)
-		(fp_line
 			(start -0.3 -0.1476)
 			(end -0.3 0.1524)
 			(stroke
@@ -158696,8 +158680,28 @@
 			(layer "B.Fab")
 			(uuid "bf9656c0-6642-40a0-a7d9-4160f2fe0f28")
 		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8e4819ea-5324-49c8-b0ee-81d62c63c884")
+		)
+		(fp_line
+			(start -0.3 0.1524)
+			(end 0.3 0.1524)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "af357654-cc66-4e78-8d40-1a1243afff0c")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "2b60893b-f03c-43df-b012-193525570012")
@@ -158710,7 +158714,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -158718,7 +158722,7 @@
 			(uuid "94ba7db4-09ac-47ac-8c92-8bdd5c953c50")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0 90)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -159423,9 +159427,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "e56e8048-692a-4614-98d8-3d340ca3f14d")
-		(at -259.635 136.6044 180)
+		(at -322.4 93.8)
 		(property "Reference" "C839"
-			(at 0 1.1 0)
+			(at 0 1.099999 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -159439,7 +159443,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "9c68865a-e1ee-4c79-9f24-966efc1ec618")
@@ -159478,7 +159482,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -159492,7 +159496,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -159506,7 +159510,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -159520,7 +159524,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -159534,7 +159538,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -159548,7 +159552,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -159562,7 +159566,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -159587,9 +159591,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -159599,24 +159604,14 @@
 			(uuid "55acbab9-5cce-44d7-9383-8dccd0e063a9")
 		)
 		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
+			(start -0.3 -0.1476)
+			(end -0.3 0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "79cc9b2c-059e-4c22-bfdd-f02be864f40c")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "e09587b8-2d2f-4be9-995b-227344fd20fb")
+			(uuid "f6283021-93f7-44ff-932d-6b7d7da0f4ff")
 		)
 		(fp_line
 			(start -0.3 0.1524)
@@ -159629,17 +159624,27 @@
 			(uuid "6cc9d2fa-d6ae-4324-8998-143571a1e45d")
 		)
 		(fp_line
-			(start -0.3 -0.1476)
-			(end -0.3 0.1524)
+			(start 0.3 -0.1476)
+			(end -0.3 -0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f6283021-93f7-44ff-932d-6b7d7da0f4ff")
+			(uuid "e09587b8-2d2f-4be9-995b-227344fd20fb")
+		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "79cc9b2c-059e-4c22-bfdd-f02be864f40c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "203efbfa-45c8-4357-b5d2-a62b94cc93d5")
@@ -159652,7 +159657,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -159660,7 +159665,7 @@
 			(uuid "5613c867-8c8d-4bd0-98e4-2a6f50d7344f")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -163582,9 +163587,9 @@
 	(footprint "perfect_footprints:C_0201_0603Metric"
 		(layer "B.Cu")
 		(uuid "fc7722d4-eb3b-4523-8048-daaec502e767")
-		(at -257.569 141.4308 180)
+		(at -324 93.8)
 		(property "Reference" "C831"
-			(at 0 1.1 0)
+			(at 0 1.099999 180)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
@@ -163598,7 +163603,7 @@
 			)
 		)
 		(property "Value" "1 µF"
-			(at 0 -0.7874 0)
+			(at 0 -0.7874 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "933945e5-4e1d-474a-9408-94e10f2e6c9c")
@@ -163637,7 +163642,7 @@
 			)
 		)
 		(property "MPN" "GRM033R61C105ME15D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -163651,7 +163656,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -163665,7 +163670,7 @@
 			)
 		)
 		(property "Voltage rating" "16 V"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -163679,7 +163684,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -163693,7 +163698,7 @@
 			)
 		)
 		(property "Temperature coefficient" "X5R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -163707,7 +163712,7 @@
 			)
 		)
 		(property "Size" "0201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -163721,7 +163726,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "490-18654-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -163746,9 +163751,10 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.508 0.2794)
-			(end 0.508 -0.2794)
+		(fp_poly
+			(pts
+				(xy 0.508 0.2794) (xy -0.508 0.2794) (xy -0.508 -0.2794) (xy 0.508 -0.2794)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -163758,24 +163764,14 @@
 			(uuid "58e4ef6c-a7be-4778-90a6-0df29cd6cadc")
 		)
 		(fp_line
-			(start 0.3 0.1524)
-			(end 0.3 -0.1476)
+			(start -0.3 -0.1476)
+			(end -0.3 0.1524)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d3c40821-d53f-405c-b816-67a8e68da342")
-		)
-		(fp_line
-			(start 0.3 -0.1476)
-			(end -0.3 -0.1476)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "d9b73e4f-0b1f-4f5a-9b19-beb61de4cebe")
+			(uuid "9dffd6ac-f42c-4dcb-be68-9440a0dac6a3")
 		)
 		(fp_line
 			(start -0.3 0.1524)
@@ -163788,17 +163784,27 @@
 			(uuid "f2db827b-6b9e-4e12-b411-35fdfe8a1c75")
 		)
 		(fp_line
-			(start -0.3 -0.1476)
-			(end -0.3 0.1524)
+			(start 0.3 -0.1476)
+			(end -0.3 -0.1476)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "9dffd6ac-f42c-4dcb-be68-9440a0dac6a3")
+			(uuid "d9b73e4f-0b1f-4f5a-9b19-beb61de4cebe")
+		)
+		(fp_line
+			(start 0.3 0.1524)
+			(end 0.3 -0.1476)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d3c40821-d53f-405c-b816-67a8e68da342")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3302 0)
+			(at 0 -0.3302 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "830798a5-faa1-40b8-8085-8957f972e554")
@@ -163811,7 +163817,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.275 0 180)
+			(at -0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/DDR/VDD_DDR")
@@ -163819,7 +163825,7 @@
 			(uuid "2886c0a1-4a6a-417b-8f9a-fa081d5fdd68")
 		)
 		(pad "2" smd rect
-			(at 0.275 0 180)
+			(at 0.274999 0)
 			(size 0.25 0.35)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
@@ -164957,7 +164963,7 @@
 		)
 	)
 	(gr_text "PWR_CPU_ON"
-		(at -294.4 85 90)
+		(at -294.8 85 90)
 		(layer "B.SilkS")
 		(uuid "2bdbbdba-1054-42e4-b7bd-971c11fb6977")
 		(effects
@@ -166415,6 +166421,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "/Debug/VDD")
 		(uuid "a51b51c9-6a64-4167-b065-e00319c7b861")
+	)
+	(via
+		(at -301.5 91.125001)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net "/Debug/VDD")
+		(uuid "ac2af520-2208-49e8-b329-d9e67e7aca3e")
 	)
 	(via
 		(at -296 97.6)
@@ -168013,7 +168027,7 @@
 		(uuid "28f3e0a2-fc7d-49d8-94ba-af97d64568df")
 	)
 	(via
-		(at -300.250002 91.474999)
+		(at -300.1 91.125001)
 		(size 0.3)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -177977,20 +177991,20 @@
 		(uuid "dca567c1-1fa0-481f-bddf-4c02ff510105")
 	)
 	(segment
-		(start -300.8 91.474999)
-		(end -300.8 93.6)
+		(start -300.8 93.6)
+		(end -300.8 91.674999)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/MPU/PMIC_RST_N")
-		(uuid "4057bf3b-b9e2-42ed-9952-2e9864a76e76")
+		(uuid "636566d2-edb7-4af2-995e-9af8d3f191ef")
 	)
 	(segment
-		(start -300.8 91.474999)
-		(end -300.8 90.674999)
+		(start -300.1 91.674999)
+		(end -300.8 91.674999)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "/MPU/PMIC_RST_N")
-		(uuid "88e36bab-6f6a-4815-b904-bc8a1834ff37")
+		(uuid "63d54e99-761f-4ee0-9795-1b3d415bdb58")
 	)
 	(segment
 		(start -239.865 -160.5)
@@ -180164,14 +180178,6 @@
 		(net "/Debug/PMIC.RST_N")
 		(uuid "d427575a-7617-482c-a814-fdeed7a40bea")
 	)
-	(segment
-		(start -300.8 90.125001)
-		(end -300.8 88)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/Debug/PMIC.RST_N")
-		(uuid "fef54ff6-d493-410e-b152-66a2e15ef816")
-	)
 	(via
 		(at -246 -165.9)
 		(size 0.3)
@@ -180189,6 +180195,14 @@
 		(filling no)
 		(net "/Debug/PMIC.RST_N")
 		(uuid "4367a0ff-b336-4a90-ab30-1143b4779619")
+	)
+	(via
+		(at -300.8 91.125001)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net "/Debug/PMIC.RST_N")
+		(uuid "61cbd307-ed9c-4b0f-9436-807b8798ee62")
 	)
 	(segment
 		(start -20 -192.3)
@@ -182874,13 +182888,29 @@
 		(net "/Wireless/ANT_IN")
 		(uuid "f938949c-0663-4d02-8335-b24ce56eb94c")
 	)
-	(via
-		(at -303.2 93.6)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
+	(segment
+		(start -303.6 91.474999)
+		(end -303.6 92.4)
+		(width 0.2)
+		(layer "F.Cu")
 		(net "/MPU/USB_DM")
-		(uuid "b9887a37-670d-4ba6-ad9a-9f34879e20bb")
+		(uuid "5a9aba2e-9998-458f-b7b3-85e620c17df7")
+	)
+	(segment
+		(start -303.2 92.8)
+		(end -303.2 93.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/USB_DM")
+		(uuid "9086b425-ed80-4d57-b5d2-61d6439010fe")
+	)
+	(segment
+		(start -303.6 92.4)
+		(end -303.2 92.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/USB_DM")
+		(uuid "994a7779-c5a6-4418-b349-8673bd3ccaf4")
 	)
 	(via
 		(at -294.399999 105.6)
@@ -185345,6 +185375,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "/MPU/PA13")
 		(uuid "7f7d6d62-de79-4e4b-bb62-b40a5056d420")
+	)
+	(via
+		(at -284.412499 94)
+		(size 0.3)
+		(drill 0.2)
+		(layers "F.Cu" "B.Cu")
+		(net "/MPU/PA13")
+		(uuid "d6b21e17-9dff-4e2d-b28d-caf5d92b23a0")
 	)
 	(segment
 		(start -28.000001 -190.400001)
@@ -188216,13 +188254,29 @@
 		(net "/MPU/ETH_MDC")
 		(uuid "84b52e94-282f-4ab2-80f2-42e123153f50")
 	)
+	(segment
+		(start -295.2 95.2)
+		(end -294.8 94.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/PWR_CPU_ON")
+		(uuid "a8fdbd8a-309e-4ea6-87b4-fd66bfa9ceb6")
+	)
+	(segment
+		(start -294.8 94.8)
+		(end -294.8 86)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/PWR_CPU_ON")
+		(uuid "f591b64b-4c90-451f-aba4-a2e434992b32")
+	)
 	(via
-		(at -295.2 95.2)
+		(at -294.8 86)
 		(size 0.3)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
 		(net "/MPU/PWR_CPU_ON")
-		(uuid "76e0058e-7a22-46f2-9c68-fc28215a54c8")
+		(uuid "a9d01f73-bad5-4d58-83fc-d72c5b6e285a")
 	)
 	(segment
 		(start -100.45 -171.112502)
@@ -188274,13 +188328,53 @@
 		(net "/MPU/MPU power/VDDA1V8_REG")
 		(uuid "c798b77c-d646-492c-bef1-88b79cec7f19")
 	)
-	(via
-		(at -302.4 95.2)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
+	(segment
+		(start -301.2 92.9)
+		(end -301.5 92.6)
+		(width 0.2)
+		(layer "F.Cu")
 		(net "/MPU/BOOT2")
-		(uuid "1141b570-76e9-4f3f-9a48-f190fc08420a")
+		(uuid "32c6a3a1-1fd4-4cb3-98d5-5805915fe278")
+	)
+	(segment
+		(start -301.4 94.8)
+		(end -301.2 94.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/BOOT2")
+		(uuid "414dc982-b526-42cc-92c2-38d35672844d")
+	)
+	(segment
+		(start -302 94.8)
+		(end -301.4 94.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/BOOT2")
+		(uuid "4b9e5777-02a3-4800-b2a6-da0a7a846833")
+	)
+	(segment
+		(start -301.5 92.6)
+		(end -301.5 91.674999)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/BOOT2")
+		(uuid "63867c0c-d6f8-46b2-aa46-058e0ccab451")
+	)
+	(segment
+		(start -302.4 95.2)
+		(end -302 94.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/BOOT2")
+		(uuid "a9f61876-4d3c-4031-a97d-7aa16d9c1185")
+	)
+	(segment
+		(start -301.2 94.6)
+		(end -301.2 92.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/BOOT2")
+		(uuid "e2de9bfb-1504-47dc-8707-328a9cfa786e")
 	)
 	(via
 		(at -304 95.2)
@@ -188354,29 +188448,69 @@
 		(net "/MPU/ETH_REF_CLK")
 		(uuid "62f476b6-e1b6-49fa-a642-8634ae531411")
 	)
-	(via
-		(at -302.399999 94.4)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
+	(segment
+		(start -302 87)
+		(end -302.399999 86.600001)
+		(width 0.2)
+		(layer "F.Cu")
 		(net "/MPU/PA14")
-		(uuid "44fc046e-c782-487a-ba75-f93f043a309f")
+		(uuid "3a189300-7d26-4561-a20c-98c266e83522")
 	)
-	(via
-		(at -302.399999 86)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
+	(segment
+		(start -302.4 94.4)
+		(end -302 94)
+		(width 0.2)
+		(layer "F.Cu")
 		(net "/MPU/PA14")
-		(uuid "b5088dd2-f68f-4e91-8ede-9deebb0c4313")
+		(uuid "40c0dcfa-86fd-4d15-8415-d0d2a4ba12eb")
 	)
-	(via
-		(at -303.199999 94.4)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
+	(segment
+		(start -302.399999 86.600001)
+		(end -302.399999 86)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/PA14")
+		(uuid "79f87517-c6f1-4b76-9e6b-52c07924741b")
+	)
+	(segment
+		(start -302 94)
+		(end -302 87)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/PA14")
+		(uuid "8d0fb380-1fef-47ac-979a-e2b916702808")
+	)
+	(segment
+		(start -302.8 92.4)
+		(end -302.9 92.3)
+		(width 0.2)
+		(layer "F.Cu")
 		(net "/MPU/USB_DP")
-		(uuid "3f537a27-0ad5-47c2-95f4-7165e1c502a4")
+		(uuid "0b326f21-62f2-4db3-92da-87bdb80db5fe")
+	)
+	(segment
+		(start -303.199999 94.4)
+		(end -302.8 94.000001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/USB_DP")
+		(uuid "114ca482-6de5-4d1e-84bd-b55e68ea4632")
+	)
+	(segment
+		(start -302.9 92.3)
+		(end -302.9 91.474999)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/USB_DP")
+		(uuid "78edf881-017a-4cd6-8daa-3209005b709e")
+	)
+	(segment
+		(start -302.8 94.000001)
+		(end -302.8 92.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/MPU/USB_DP")
+		(uuid "caccb459-8eb6-4acf-85c1-c8f16db233c3")
 	)
 	(via
 		(at -304.799999 94.4)
@@ -188427,14 +188561,6 @@
 		(uuid "89cd48fa-d6bb-4438-a83c-767c360b2382")
 	)
 	(via
-		(at -302.4 93.6)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "/MPU/USB_RREF")
-		(uuid "379ee182-3075-4299-ae1f-56465fd3404a")
-	)
-	(via
 		(at -302.4 91.2)
 		(size 0.3)
 		(drill 0.2)
@@ -188475,14 +188601,6 @@
 		(layer "F.Cu")
 		(net "/MPU/BOOT0")
 		(uuid "fd085065-fe28-4a51-bb41-37c835f9e00d")
-	)
-	(via
-		(at -304 93.6)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "/MPU/BOOT0")
-		(uuid "8266369f-c08c-43d2-8962-1e0772c06274")
 	)
 	(segment
 		(start -269.5 -187.599999)
@@ -190035,38 +190153,6 @@
 		(filling no)
 		(net "/DDR/VTT_DDR")
 		(uuid "bb1663d1-b004-4e31-b287-076795375c3b")
-	)
-	(via
-		(at -327.6 100.2)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "unconnected-(U801B-NC-PadJ1)")
-		(uuid "4de2a09a-4203-4d4b-8602-6e4093d73fc6")
-	)
-	(via
-		(at -327.6 93.8)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "unconnected-(U801B-NC-PadJ9)")
-		(uuid "e964bcbf-554a-405b-9e6f-14af8e731f39")
-	)
-	(via
-		(at -326 93.8)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "unconnected-(U801B-NC-PadL9)")
-		(uuid "ee564fa9-5312-454a-8c8d-5fd0249ba034")
-	)
-	(via
-		(at -326 100.2)
-		(size 0.3)
-		(drill 0.2)
-		(layers "F.Cu" "B.Cu")
-		(net "unconnected-(U801B-NC-PadL1)")
-		(uuid "a747f683-b451-42b3-8949-38500adadcbf")
 	)
 	(zone
 		(net "V_3V3")
@@ -193506,18 +193592,15 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy -273.534256 -142.394977) (xy -273.509014 -142.387565) (xy -273.456269 -142.356269) (xy -273.348921 -142.248921)
-				(xy -273.327774 -142.22067) (xy -273.315167 -142.197581) (xy -273.3 -142.138156) (xy -273.3 -139.769189)
-				(xy -273.305021 -139.734258) (xy -273.308644 -139.721921) (xy -273.309401 -139.718437) (xy -273.342879 -139.65712)
-				(xy -273.451081 -139.548918) (xy -273.479326 -139.527775) (xy -273.494144 -139.519685) (xy -273.502418 -139.515167)
-				(xy -273.561843 -139.5) (xy -278.530808 -139.5) (xy -278.565741 -139.505022) (xy -278.590984 -139.512434)
-				(xy -278.64373 -139.54373) (xy -278.899999 -139.799999) (xy -278.9 -139.8) (xy -278.900001 -139.8)
-				(xy -280.530809 -139.8) (xy -280.563044 -139.804263) (xy -280.564404 -139.804629) (xy -280.578078 -139.808644)
-				(xy -280.584537 -139.810049) (xy -280.587441 -139.810831) (xy -280.614767 -139.827531) (xy -280.64288 -139.84288)
-				(xy -280.751073 -139.951073) (xy -280.772223 -139.979325) (xy -280.784831 -140.002414) (xy -280.8 -140.061843)
-				(xy -280.8 -142.030808) (xy -280.794976 -142.065745) (xy -280.787564 -142.090986) (xy -280.756269 -142.14373)
-				(xy -280.548926 -142.351073) (xy -280.520675 -142.372222) (xy -280.497587 -142.38483) (xy -280.438157 -142.4)
-				(xy -273.569192 -142.4)
+				(xy -273.484323 -142.380315) (xy -273.463681 -142.363681) (xy -273.336319 -142.236319) (xy -273.302834 -142.174996)
+				(xy -273.3 -142.148638) (xy -273.3 -139.751362) (xy -273.308644 -139.721921) (xy -273.315168 -139.691935)
+				(xy -273.318922 -139.686919) (xy -273.319685 -139.684323) (xy -273.336319 -139.663681) (xy -273.463681 -139.536319)
+				(xy -273.525004 -139.502834) (xy -273.551362 -139.5) (xy -278.548638 -139.5) (xy -278.615677 -139.519685)
+				(xy -278.636319 -139.536319) (xy -278.899999 -139.799999) (xy -278.9 -139.8) (xy -278.900001 -139.8)
+				(xy -280.548638 -139.8) (xy -280.578078 -139.808644) (xy -280.608065 -139.815168) (xy -280.61308 -139.818922)
+				(xy -280.615677 -139.819685) (xy -280.636319 -139.836319) (xy -280.763681 -139.963681) (xy -280.797166 -140.025004)
+				(xy -280.8 -140.051362) (xy -280.8 -142.048638) (xy -280.780315 -142.115677) (xy -280.763681 -142.136319)
+				(xy -280.536319 -142.363681) (xy -280.474996 -142.397166) (xy -280.448638 -142.4) (xy -273.551362 -142.4)
 			)
 		)
 	)
