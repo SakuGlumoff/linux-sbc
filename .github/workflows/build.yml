@@ -24,16 +24,17 @@ jobs:
       - name: Generate PDF
         run: kicad-cli sch export pdf --output linux-sbc.pdf --default-font "Courier New" linux-sbc.kicad_sch
       - name: Archive schematics
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: schematics
           path: linux-sbc.pdf
           if-no-files-found: error
+          archive: false
       - name: Generate manufacturing files
         run: |
               kicad-cli jobset run --stop-on-error --file manuf.kicad_jobset linux-sbc.kicad_pcb
       - name: Archive manufacturing files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: manufacturing
           path: manufacturing/*
