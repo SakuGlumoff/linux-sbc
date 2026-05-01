@@ -203,7 +203,7 @@
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 2.0,
+          "max_amplitude": 0.5,
           "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.5
@@ -211,18 +211,18 @@
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 2.0,
+          "max_amplitude": 0.5,
           "min_amplitude": 0.1,
-          "single_sided": false,
-          "spacing": 0.25
+          "single_sided": true,
+          "spacing": 0.4
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 2.0,
-          "min_amplitude": 0.1,
-          "single_sided": false,
-          "spacing": 0.25
+          "max_amplitude": 0.5,
+          "min_amplitude": 0.2,
+          "single_sided": true,
+          "spacing": 0.4
         }
       },
       "via_dimensions": [
@@ -568,7 +568,7 @@
         "pcb_color": "rgb(0, 132, 132)",
         "priority": 5,
         "schematic_color": "rgb(0, 132, 132)",
-        "tuning_profile": "",
+        "tuning_profile": "DDR_CLK",
         "wire_width": 6
       },
       {
@@ -2009,6 +2009,24 @@
         "profile_name": "50 Ω",
         "target_impedance": 50.0,
         "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 6500000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5000000,
+            "diff_pair_gap": 125000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 107400
+          }
+        ],
+        "profile_name": "DDR_CLK",
+        "target_impedance": 50.0,
+        "type": 1,
         "via_overrides": [],
         "via_prop_delay": 6500000
       }
