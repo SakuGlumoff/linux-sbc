@@ -516,7 +516,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "tuning_profile": "",
+        "tuning_profile": "50 Ω",
         "via_diameter": 0.3,
         "via_drill": 0.2,
         "wire_width": 6
@@ -1969,6 +1969,49 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6150000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 186400
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6461300,
+            "diff_pair_gap": 0,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 176800
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6461300,
+            "diff_pair_gap": 0,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 176800
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 6150000,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 186400
+          }
+        ],
+        "profile_name": "50 Ω",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 6500000
+      }
+    ]
   }
 }
