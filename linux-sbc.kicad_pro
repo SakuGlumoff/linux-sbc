@@ -553,54 +553,42 @@
       },
       {
         "bus_width": 12,
-        "diff_pair_gap": 0.125,
-        "diff_pair_width": 0.1074,
         "line_style": 0,
         "name": "DDR_CA",
         "pcb_color": "rgb(0, 194, 0)",
         "priority": 4,
         "schematic_color": "rgb(0, 194, 0)",
-        "track_width": 0.1864,
-        "tuning_profile": "DDR",
+        "tuning_profile": "DDR_SE",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.125,
-        "diff_pair_width": 0.1074,
         "line_style": 0,
         "name": "DDR_CLK",
         "pcb_color": "rgb(0, 132, 132)",
         "priority": 5,
         "schematic_color": "rgb(0, 132, 132)",
-        "tuning_profile": "DDR",
+        "tuning_profile": "DDR_DIFF",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "diff_pair_gap": 0.125,
-        "diff_pair_width": 0.1074,
         "line_style": 0,
         "name": "DDR_L",
         "pcb_color": "rgb(255, 0, 255)",
         "priority": 3,
         "schematic_color": "rgb(255, 0, 255)",
-        "track_width": 0.1864,
-        "tuning_profile": "DDR",
+        "tuning_profile": "DDR_SE",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "diff_pair_gap": 0.125,
-        "diff_pair_width": 0.1074,
         "line_style": 0,
         "name": "DDR_U",
         "pcb_color": "rgb(255, 153, 0)",
         "priority": 2,
         "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.1864,
-        "tuning_profile": "DDR",
+        "tuning_profile": "DDR_SE",
         "wire_width": 6
       },
       {
@@ -882,16 +870,16 @@
         "DDR_U"
       ],
       "/DDR/DDR.DQS0_N": [
-        "DDR_L"
+        "DDR_CLK"
       ],
       "/DDR/DDR.DQS0_P": [
-        "DDR_L"
+        "DDR_CLK"
       ],
       "/DDR/DDR.DQS1_N": [
-        "DDR_U"
+        "DDR_CLK"
       ],
       "/DDR/DDR.DQS1_P": [
-        "DDR_U"
+        "DDR_CLK"
       ],
       "/DDR/DDR.ODT": [
         "DDR_CA"
@@ -1991,7 +1979,7 @@
             "diff_pair_gap": 0,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
-            "width": 0
+            "width": 186400
           },
           {
             "bottom_reference_layer": "UNDEFINED",
@@ -1999,22 +1987,86 @@
             "diff_pair_gap": 0,
             "signal_layer": "B.Cu",
             "top_reference_layer": "In6.Cu",
-            "width": 0
+            "width": 186400
           },
           {
-            "bottom_reference_layer": "UNDEFINED",
-            "delay": 6000000,
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6600000,
             "diff_pair_gap": 0,
             "signal_layer": "In5.Cu",
             "top_reference_layer": "In4.Cu",
-            "width": 0
+            "width": 176800
           }
         ],
-        "profile_name": "DDR",
+        "profile_name": "DDR_SE",
         "target_impedance": 50.0,
         "type": 0,
-        "via_overrides": [],
-        "via_prop_delay": 6000000
+        "via_overrides": [
+          {
+            "delay": 45000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "B.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "B.Cu"
+          },
+          {
+            "delay": 42000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "In5.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "In5.Cu"
+          }
+        ],
+        "via_prop_delay": 4500000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5400000,
+            "diff_pair_gap": 125000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 107400
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5400000,
+            "diff_pair_gap": 125000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 107400
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6500000,
+            "diff_pair_gap": 125000,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 108700
+          }
+        ],
+        "profile_name": "DDR_DIFF",
+        "target_impedance": 100.0,
+        "type": 1,
+        "via_overrides": [
+          {
+            "delay": 45000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "B.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "B.Cu"
+          },
+          {
+            "delay": 42000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "In5.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "In5.Cu"
+          }
+        ],
+        "via_prop_delay": 4500000
       }
     ]
   }
