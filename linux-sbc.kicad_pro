@@ -648,7 +648,7 @@
         "pcb_color": "rgb(132, 0, 132)",
         "priority": 8,
         "schematic_color": "rgb(132, 0, 132)",
-        "tuning_profile": "",
+        "tuning_profile": "USB",
         "wire_width": 6
       },
       {
@@ -2099,6 +2099,40 @@
         "profile_name": "uSD",
         "target_impedance": 50.0,
         "type": 0,
+        "via_overrides": [
+          {
+            "delay": 45000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "B.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "B.Cu"
+          }
+        ],
+        "via_prop_delay": 4500000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5900000,
+            "diff_pair_gap": 200000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 180600
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 0,
+            "diff_pair_gap": 200000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 180600
+          }
+        ],
+        "profile_name": "USB",
+        "target_impedance": 90.0,
+        "type": 1,
         "via_overrides": [
           {
             "delay": 45000000,
