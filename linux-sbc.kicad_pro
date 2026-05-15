@@ -668,7 +668,7 @@
         "pcb_color": "rgb(194, 194, 0)",
         "priority": 11,
         "schematic_color": "rgb(194, 194, 0)",
-        "tuning_profile": "",
+        "tuning_profile": "uSD",
         "wire_width": 6
       }
     ],
@@ -2064,6 +2064,48 @@
             "signal_layer_to": "In5.Cu",
             "via_layer_from": "F.Cu",
             "via_layer_to": "In5.Cu"
+          }
+        ],
+        "via_prop_delay": 4500000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 186400
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 186400
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6600000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 176800
+          }
+        ],
+        "profile_name": "uSD",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [
+          {
+            "delay": 45000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "B.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "B.Cu"
           }
         ],
         "via_prop_delay": 4500000
