@@ -523,11 +523,13 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "ANT",
         "pcb_color": "rgb(194, 0, 194)",
         "priority": 9,
         "schematic_color": "rgb(194, 0, 194)",
+        "track_width": 0.1737,
         "tuning_profile": "",
         "wire_width": 6
       },
@@ -538,7 +540,7 @@
         "pcb_color": "rgb(0, 0, 255)",
         "priority": 1,
         "schematic_color": "rgb(0, 0, 255)",
-        "tuning_profile": "",
+        "tuning_profile": "BT",
         "wire_width": 6
       },
       {
@@ -658,7 +660,7 @@
         "pcb_color": "rgb(132, 132, 0)",
         "priority": 10,
         "schematic_color": "rgb(132, 132, 0)",
-        "tuning_profile": "",
+        "tuning_profile": "WLAN",
         "wire_width": 6
       },
       {
@@ -2140,6 +2142,104 @@
             "signal_layer_to": "B.Cu",
             "via_layer_from": "F.Cu",
             "via_layer_to": "B.Cu"
+          }
+        ],
+        "via_prop_delay": 4500000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 186400
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 186400
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6600000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 176800
+          }
+        ],
+        "profile_name": "WLAN",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [
+          {
+            "delay": 45000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "B.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "B.Cu"
+          },
+          {
+            "delay": 42000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "In5.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "In5.Cu"
+          }
+        ],
+        "via_prop_delay": 4500000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 186400
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 6000000,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 186400
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6600000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 176800
+          }
+        ],
+        "profile_name": "BT",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [
+          {
+            "delay": 45000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "B.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "B.Cu"
+          },
+          {
+            "delay": 42000000,
+            "signal_layer_from": "F.Cu",
+            "signal_layer_to": "In5.Cu",
+            "via_layer_from": "F.Cu",
+            "via_layer_to": "In5.Cu"
           }
         ],
         "via_prop_delay": 4500000
