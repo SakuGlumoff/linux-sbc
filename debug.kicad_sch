@@ -4906,6 +4906,12 @@
 		(uuid "0b42a2f6-a895-45b4-92c8-de1da7eaeca7")
 	)
 	(junction
+		(at 201.93 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d60a04c-d0d7-4c96-88e9-158c00f98e08")
+	)
+	(junction
 		(at 234.95 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5108,12 +5114,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b251e49a-94e8-4144-b7fa-5cc2b3758923")
-	)
-	(junction
-		(at 201.93 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2e37301-39e2-44ea-a0fa-f4e08db4367f")
 	)
 	(junction
 		(at 222.25 113.03)
@@ -5510,16 +5510,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 87.63) (xy 201.93 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ad2bef3-78f3-4d6a-ba0c-a6ae7816f192")
-	)
-	(wire
-		(pts
 			(xy 203.2 190.5) (xy 232.41 190.5)
 		)
 		(stroke
@@ -5547,6 +5537,16 @@
 			(type default)
 		)
 		(uuid "0caaf25f-961b-4ee6-ad6c-f546580bcd4f")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e95c958-d657-452a-aad6-38ff9d728280")
 	)
 	(wire
 		(pts
@@ -8093,6 +8093,17 @@
 		)
 		(uuid "cf716f40-8df5-4a83-89d2-aaae30b88fa6")
 	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 190.5 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4b60932-02db-4134-b0ab-9b002bdd0c05")
+	)
 	(hierarchical_label "{JTAG}"
 		(shape bidirectional)
 		(at 111.76 90.17 0)
@@ -8507,7 +8518,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07cb02c9-b8fc-4a2f-8f1b-168cb8ec2590")
-		(property "Reference" "#PWR0708"
+		(property "Reference" "#PWR0707"
 			(at 273.05 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8568,7 +8579,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0708")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -9403,7 +9414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f591bf1-2fb2-439b-bff2-6fbae59e4cf0")
-		(property "Reference" "#PWR0707"
+		(property "Reference" "#PWR0706"
 			(at 241.3 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9464,7 +9475,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0707")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -13839,7 +13850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aefe8745-4702-488c-b3e6-68dd20950a88")
-		(property "Reference" "#PWR0706"
+		(property "Reference" "#PWR0705"
 			(at 234.95 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13900,7 +13911,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0706")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -14466,84 +14477,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 201.93 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb7b0ca9-e2e7-42ad-acef-1038e7180f08")
-		(property "Reference" "#PWR0705"
-			(at 201.93 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V_3V3"
-			(at 201.93 84.582 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 201.93 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "108bd2ba-28e4-444c-8106-34633b352144")
-		)
-		(instances
-			(project "linux-sbc"
-				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0705")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TC2050")
 		(at 81.28 95.25 0)
 		(unit 1)
@@ -14786,7 +14719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce660a9f-e965-4283-9a08-77cb29e95bf2")
-		(property "Reference" "#PWR0709"
+		(property "Reference" "#PWR0708"
 			(at 279.4 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -14847,7 +14780,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "#PWR0709")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
