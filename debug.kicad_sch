@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Linux SBC")
-		(date "2026-07-01")
+		(date "2026-09-01")
 		(rev "v1.0.0")
 	)
 	(lib_symbols
@@ -1549,395 +1549,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Expansion:TCA9554PW"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TCA9554PW"
-				(at 2.54 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-				(at 24.13 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9554.pdf"
-				(at 2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SMBUS I2C Expander"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TCA9554PW_0_1"
-				(rectangle
-					(start -7.62 -12.7)
-					(end 7.62 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TCA9554PW_1_1"
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "P0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "P5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "P6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "P7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Interface_USB:CY7C65213-32LTXI"
+		(symbol "Infineon Technologies:CY7C65213-32LTXI"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1979,7 +1591,7 @@
 				)
 			)
 			(property "Datasheet" "http://www.cypress.com/file/139881/download"
-				(at -63.5 12.7 0)
+				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1990,7 +1602,7 @@
 				)
 			)
 			(property "Description" "USB-UART LP Bridge Controller, full speed 12Mbps, +1.71V to 5.5V VDD, UART/RS232/RS422, QFN-32"
-				(at 0 0 0)
+				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2612,11 +2224,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -12.7 -12.7 0)
+				(pin passive line
+					(at -5.08 -25.4 90)
 					(length 2.54)
-					(hide yes)
-					(name "1EP"
+					(name "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2624,6 +2235,394 @@
 						)
 					)
 					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Interface_Expansion:TCA9554PW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TCA9554PW"
+				(at 2.54 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
+				(at 24.13 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9554.pdf"
+				(at 2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "8 Bit Port/Expander, I2C SMBUS, Interrupt output, TSSOP-16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SMBUS I2C Expander"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCA9554PW_0_1"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCA9554PW_1_1"
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4821,6 +4820,12 @@
 		(uuid "289de329-3910-43a7-8fbc-f45ec0a9cff6")
 	)
 	(junction
+		(at 139.7 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ec12484-4f44-43fa-81e0-29f27c010209")
+	)
+	(junction
 		(at 247.65 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4917,12 +4922,6 @@
 		(uuid "69e79402-c388-4211-9854-9468a8a0b3a4")
 	)
 	(junction
-		(at 152.4 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f5c7012-104f-4f8a-80bf-2af4f211ef13")
-	)
-	(junction
 		(at 69.85 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4963,6 +4962,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afa02279-2c3e-40a6-a6aa-c023e14b4e91")
+	)
+	(junction
+		(at 208.28 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb20c663-a8d8-4733-afed-7f9268e392b2")
 	)
 	(junction
 		(at 222.25 113.03)
@@ -5019,6 +5024,12 @@
 		(uuid "d700275e-19a7-4a0b-9226-5c24f1819b0e")
 	)
 	(junction
+		(at 127 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d82b8704-b78a-4b5e-9dc6-6fae059332c6")
+	)
+	(junction
 		(at 101.6 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5053,10 +5064,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8f7ec2c-e9c9-42b7-a0b9-5de8e9589026")
-	)
-	(no_connect
-		(at 186.69 214.63)
-		(uuid "0aee3aee-5b07-4be0-897f-b633f32e6761")
 	)
 	(no_connect
 		(at 186.69 217.17)
@@ -5275,7 +5282,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 185.42) (xy 152.4 185.42)
+			(xy 127 185.42) (xy 139.7 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5465,7 +5472,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 194.31) (xy 139.7 203.2)
+			(xy 127 194.31) (xy 127 203.2)
 		)
 		(stroke
 			(width 0)
@@ -5482,6 +5489,16 @@
 			(type default)
 		)
 		(uuid "1c5d2f71-57a9-466b-b8ca-293e35a70eb5")
+	)
+	(wire
+		(pts
+			(xy 127 184.15) (xy 127 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d48c07b-53b5-4709-adce-27f6e0a62c05")
 	)
 	(wire
 		(pts
@@ -5555,7 +5572,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 185.42) (xy 152.4 186.69)
+			(xy 139.7 185.42) (xy 139.7 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5665,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 222.25) (xy 187.96 222.25)
+			(xy 127 222.25) (xy 187.96 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5745,7 +5762,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 210.82) (xy 152.4 219.71)
+			(xy 139.7 210.82) (xy 139.7 219.71)
 		)
 		(stroke
 			(width 0)
@@ -5975,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 241.3) (xy 205.74 241.3)
+			(xy 234.95 241.3) (xy 208.28 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6012,6 +6029,16 @@
 			(type default)
 		)
 		(uuid "4db83b4f-71ab-4b91-8060-49bbcd05b97d")
+	)
+	(wire
+		(pts
+			(xy 152.4 214.63) (xy 187.96 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0ad1fa-7802-4794-85f7-5fbe8fabc9c0")
 	)
 	(wire
 		(pts
@@ -6075,6 +6102,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 214.63) (xy 152.4 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529d87e7-d8ee-4aed-8b26-03784af17c6d")
+	)
+	(wire
+		(pts
 			(xy 76.2 177.8) (xy 76.2 229.87)
 		)
 		(stroke
@@ -6102,6 +6139,16 @@
 			(type default)
 		)
 		(uuid "59b94681-1b83-4177-9cc2-866ece32e920")
+	)
+	(wire
+		(pts
+			(xy 152.4 186.69) (xy 152.4 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c25ffd6-25d3-4c16-be4b-60f32d25f5e1")
 	)
 	(wire
 		(pts
@@ -6152,6 +6199,16 @@
 			(type default)
 		)
 		(uuid "6111890e-7901-4f06-ae75-8d03c5eae057")
+	)
+	(wire
+		(pts
+			(xy 208.28 237.49) (xy 208.28 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631501b0-7047-4620-88de-b84e222bc6b3")
 	)
 	(wire
 		(pts
@@ -6235,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 219.71) (xy 187.96 219.71)
+			(xy 139.7 219.71) (xy 187.96 219.71)
 		)
 		(stroke
 			(width 0)
@@ -6255,7 +6312,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 186.69) (xy 139.7 185.42)
+			(xy 127 186.69) (xy 127 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6385,16 +6442,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 184.15) (xy 152.4 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78eecf83-8776-4b4d-a935-bd75af493219")
-	)
-	(wire
-		(pts
 			(xy 71.12 194.31) (xy 101.6 194.31)
 		)
 		(stroke
@@ -6415,7 +6462,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 194.31) (xy 152.4 203.2)
+			(xy 139.7 194.31) (xy 139.7 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6522,6 +6569,16 @@
 			(type default)
 		)
 		(uuid "87466bae-1eae-4f05-b83d-1d04fe06d519")
+	)
+	(wire
+		(pts
+			(xy 139.7 185.42) (xy 152.4 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8762e2f6-2d26-413a-8592-e85200e0cf0f")
 	)
 	(wire
 		(pts
@@ -6875,7 +6932,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 210.82) (xy 139.7 222.25)
+			(xy 208.28 241.3) (xy 205.74 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7dddb85-a20d-4a40-9f24-1dd5c378fe98")
+	)
+	(wire
+		(pts
+			(xy 127 210.82) (xy 127 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7265,16 +7332,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 214.63) (xy 186.69 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e079081d-bf9b-4de7-9be6-6c747d36cc09")
-	)
-	(wire
-		(pts
 			(xy 60.96 196.85) (xy 62.23 196.85)
 		)
 		(stroke
@@ -7372,6 +7429,16 @@
 			(type default)
 		)
 		(uuid "ef7b125c-b79c-4b34-8df8-3552c020914b")
+	)
+	(wire
+		(pts
+			(xy 152.4 194.31) (xy 152.4 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ba30d3-a2f6-43c8-8d7f-a78693f7ff5d")
 	)
 	(wire
 		(pts
@@ -7562,6 +7629,16 @@
 			(justify right bottom)
 		)
 		(uuid "14402ecf-a86e-478a-8f78-f19ca62a2757")
+	)
+	(label "LED_PWR_N"
+		(at 171.45 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1980ad36-6c47-4ecc-9619-3927232ab4d9")
 	)
 	(label "DEBUG.RX"
 		(at 279.4 204.47 180)
@@ -8143,7 +8220,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 152.4 184.15 0)
+		(at 127 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8153,7 +8230,7 @@
 		(dnp no)
 		(uuid "09bc0694-0016-4bd9-9a91-154528e4be5b")
 		(property "Reference" "#PWR0704"
-			(at 152.4 187.96 0)
+			(at 127 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8164,7 +8241,7 @@
 			)
 		)
 		(property "Value" "V_3V3"
-			(at 152.4 181.102 0)
+			(at 127 181.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8175,7 +8252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 184.15 0)
+			(at 127 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8186,7 +8263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 184.15 0)
+			(at 127 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8197,7 +8274,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 152.4 184.15 0)
+			(at 127 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8468,7 +8545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e776935-9c87-4287-a2a8-481e66c7677b")
-		(property "Reference" "R710"
+		(property "Reference" "R711"
 			(at 236.22 184.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8598,7 +8675,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R710")
+					(reference "R711")
 					(unit 1)
 				)
 			)
@@ -8616,7 +8693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f1856c9-7f4f-44f6-a274-d556c73f372a")
-		(property "Reference" "D707"
+		(property "Reference" "D708"
 			(at 351.028 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8724,7 +8801,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "D707")
+					(reference "D708")
 					(unit 1)
 				)
 			)
@@ -8741,7 +8818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10b5224d-6cfc-4428-9a97-4c9899f451ee")
-		(property "Reference" "R717"
+		(property "Reference" "R718"
 			(at 302.26 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8871,7 +8948,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R717")
+					(reference "R718")
 					(unit 1)
 				)
 			)
@@ -9046,7 +9123,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24291cf1-e008-4dea-8e94-e1d5a60d6723")
-		(property "Reference" "R718"
+		(property "Reference" "R719"
 			(at 312.42 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9176,7 +9253,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R718")
+					(reference "R719")
 					(unit 1)
 				)
 			)
@@ -9184,7 +9261,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 207.01 0)
+		(at 139.7 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9194,7 +9271,7 @@
 		(dnp no)
 		(uuid "276a3cb9-9aed-4108-b566-4720950aba9c")
 		(property "Reference" "R705"
-			(at 153.67 203.962 0)
+			(at 140.97 203.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9205,7 +9282,7 @@
 			)
 		)
 		(property "Value" "3 kΩ"
-			(at 153.67 205.74 0)
+			(at 140.97 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9216,7 +9293,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
-			(at 150.622 207.01 90)
+			(at 137.922 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9227,7 +9304,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCF.pdf"
-			(at 152.4 207.01 0)
+			(at 139.7 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,7 +9315,7 @@
 			)
 		)
 		(property "Description" "3 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 152.4 207.01 0)
+			(at 139.7 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9249,7 +9326,7 @@
 			)
 		)
 		(property "MPN" "RNCF0402DTE3K00"
-			(at 152.4 207.01 0)
+			(at 139.7 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9260,7 +9337,7 @@
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 152.4 207.01 0)
+			(at 139.7 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9271,7 +9348,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 153.67 207.01 0)
+			(at 140.97 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9282,7 +9359,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 153.67 208.28 0)
+			(at 140.97 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9293,7 +9370,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 153.67 209.5501 0)
+			(at 140.97 209.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9304,7 +9381,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "738-RNCF0402DTE3K00CT-ND"
-			(at 152.4 207.01 0)
+			(at 139.7 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9340,7 +9417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b346d98-60d4-4f85-9e9f-903d8f55dbdb")
-		(property "Reference" "R719"
+		(property "Reference" "R720"
 			(at 322.58 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9470,7 +9547,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R719")
+					(reference "R720")
 					(unit 1)
 				)
 			)
@@ -9487,7 +9564,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30143dd9-0dc0-49fc-aecc-12c634d41289")
-		(property "Reference" "R711"
+		(property "Reference" "R712"
 			(at 236.22 231.902 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,7 +9694,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R711")
+					(reference "R712")
 					(unit 1)
 				)
 			)
@@ -9955,7 +10032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ade55bb-3ce5-45e0-ac40-ace174e657e4")
-		(property "Reference" "R707"
+		(property "Reference" "R708"
 			(at 205.74 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10085,7 +10162,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R707")
+					(reference "R708")
 					(unit 1)
 				)
 			)
@@ -10102,7 +10179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5be3c9a6-4c41-46ed-bd74-c205ab985f3e")
-		(property "Reference" "D704"
+		(property "Reference" "D705"
 			(at 287.528 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10293,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "D704")
+					(reference "D705")
 					(unit 1)
 				)
 			)
@@ -10619,7 +10696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e8ea270-629a-4e02-a107-3aaa98910cea")
-		(property "Reference" "R713"
+		(property "Reference" "R714"
 			(at 251.206 209.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10727,7 +10804,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R713")
+					(reference "R714")
 					(unit 1)
 				)
 			)
@@ -10746,7 +10823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7173a5f7-868f-4ae7-82da-2846afdd10da")
-		(property "Reference" "R708"
+		(property "Reference" "R709"
 			(at 201.676 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10854,7 +10931,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R708")
+					(reference "R709")
 					(unit 1)
 				)
 			)
@@ -10871,7 +10948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7358a7c5-ecd8-47fd-a8ad-ee80d1531fcd")
-		(property "Reference" "R721"
+		(property "Reference" "R722"
 			(at 350.52 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11001,7 +11078,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R721")
+					(reference "R722")
 					(unit 1)
 				)
 			)
@@ -11018,7 +11095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73a1ae5e-d466-4c98-b063-fb78be9136f7")
-		(property "Reference" "R720"
+		(property "Reference" "R721"
 			(at 337.82 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,7 +11225,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R720")
+					(reference "R721")
 					(unit 1)
 				)
 			)
@@ -11392,6 +11469,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 152.4 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "867b06b4-768f-4119-9414-d903f9e3f0b6")
+		(property "Reference" "R706"
+			(at 153.67 203.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3 kΩ"
+			(at 153.67 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
+			(at 150.622 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCF.pdf"
+			(at 152.4 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
+			(at 152.4 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RNCF0402DTE3K00"
+			(at 152.4 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 152.4 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 153.67 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Power rating" "0.1 W"
+			(at 153.67 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Size" "0402"
+			(at 153.67 209.5501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Digi-Key Part Number" "738-RNCF0402DTE3K00CT-ND"
+			(at 152.4 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83ba31e2-deab-4e83-9319-cd603dcc347a")
+		)
+		(pin "1"
+			(uuid "4cadd917-116a-4771-a52a-0fc9740c6467")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "R706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 336.55 81.28 270)
 		(mirror x)
@@ -11403,7 +11627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87908dfa-947d-4388-b731-351c7e825432")
-		(property "Reference" "D706"
+		(property "Reference" "D707"
 			(at 338.328 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11511,7 +11735,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "D706")
+					(reference "D707")
 					(unit 1)
 				)
 			)
@@ -11528,7 +11752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bab07f9-4d8e-4e16-9ac3-b0ec18ff049d")
-		(property "Reference" "R714"
+		(property "Reference" "R715"
 			(at 270.51 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11658,7 +11882,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R714")
+					(reference "R715")
 					(unit 1)
 				)
 			)
@@ -11676,7 +11900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "990423a7-a755-4538-ac8c-64df474293a2")
-		(property "Reference" "R706"
+		(property "Reference" "R707"
 			(at 200.66 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11806,7 +12030,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R706")
+					(reference "R707")
 					(unit 1)
 				)
 			)
@@ -11814,7 +12038,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 152.4 190.5 270)
+		(at 139.7 190.5 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -11825,7 +12049,7 @@
 		(dnp no)
 		(uuid "9915c150-5d95-4869-a6fc-070d22bbb998")
 		(property "Reference" "D703"
-			(at 154.178 188.722 90)
+			(at 141.478 188.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11836,7 +12060,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 154.178 190.5 90)
+			(at 141.478 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11847,7 +12071,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 152.4 190.5 0)
+			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11858,7 +12082,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 152.4 190.5 0)
+			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11869,7 +12093,7 @@
 			)
 		)
 		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 152.4 190.5 0)
+			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11880,7 +12104,7 @@
 			)
 		)
 		(property "MPN" "150060RS75000"
-			(at 152.4 190.5 0)
+			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11891,7 +12115,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 152.4 190.5 0)
+			(at 139.7 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11902,7 +12126,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-4978-1-ND"
-			(at 152.4 190.5 90)
+			(at 139.7 190.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11913,7 +12137,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 154.178 192.024 90)
+			(at 141.478 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12415,7 +12639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3e663d8-160d-44e8-ad2a-2f9768407cf0")
-		(property "Reference" "R709"
+		(property "Reference" "R710"
 			(at 220.98 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12545,7 +12769,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R709")
+					(reference "R710")
 					(unit 1)
 				)
 			)
@@ -12710,7 +12934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad6e9438-0b4b-45f4-bb35-097630ac7af6")
-		(property "Reference" "R715"
+		(property "Reference" "R716"
 			(at 280.67 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12840,7 +13064,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R715")
+					(reference "R716")
 					(unit 1)
 				)
 			)
@@ -12938,7 +13162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af02b26e-3d38-4873-b42e-bf8f00379604")
-		(property "Reference" "R712"
+		(property "Reference" "R713"
 			(at 251.206 204.216 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13046,7 +13270,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R712")
+					(reference "R713")
 					(unit 1)
 				)
 			)
@@ -13054,7 +13278,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 207.01 0)
+		(at 127 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13064,7 +13288,7 @@
 		(dnp no)
 		(uuid "af21d636-f211-47d7-82af-6e100adff8a9")
 		(property "Reference" "R704"
-			(at 140.97 203.962 0)
+			(at 128.27 203.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13075,7 +13299,7 @@
 			)
 		)
 		(property "Value" "3 kΩ"
-			(at 140.97 205.74 0)
+			(at 128.27 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13086,7 +13310,7 @@
 			)
 		)
 		(property "Footprint" "perfect_footprints:R_0402_1005Metric_HDI"
-			(at 137.922 207.01 90)
+			(at 125.222 207.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13097,7 +13321,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RNCF.pdf"
-			(at 139.7 207.01 0)
+			(at 127 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13108,7 +13332,7 @@
 			)
 		)
 		(property "Description" "3 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thin Film"
-			(at 139.7 207.01 0)
+			(at 127 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13119,7 +13343,7 @@
 			)
 		)
 		(property "MPN" "RNCF0402DTE3K00"
-			(at 139.7 207.01 0)
+			(at 127 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13130,7 +13354,7 @@
 			)
 		)
 		(property "Manufacturer" "Stackpole Electronics Inc"
-			(at 139.7 207.01 0)
+			(at 127 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13141,7 +13365,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 140.97 207.01 0)
+			(at 128.27 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13152,7 +13376,7 @@
 			)
 		)
 		(property "Power rating" "0.1 W"
-			(at 140.97 208.28 0)
+			(at 128.27 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13163,7 +13387,7 @@
 			)
 		)
 		(property "Size" "0402"
-			(at 140.97 209.5501 0)
+			(at 128.27 209.5501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13174,7 +13398,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "738-RNCF0402DTE3K00CT-ND"
-			(at 139.7 207.01 0)
+			(at 127 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13541,6 +13765,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 152.4 190.5 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8933eb3-b833-4cbd-bafc-d8c2c09fb26f")
+		(property "Reference" "D704"
+			(at 154.178 188.722 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RED"
+			(at 154.178 190.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 152.4 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
+			(at 152.4 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+			(at 152.4 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 152.4 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 152.4 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digi-Key Part Number" "732-4978-1-ND"
+			(at 152.4 190.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Size" "0603"
+			(at 154.178 192.024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "1229fed6-4cd1-4891-8b73-6e376b2f3c6a")
+		)
+		(pin "1"
+			(uuid "ec12a112-20cb-4196-8ebe-e8d443885cf5")
+		)
+		(instances
+			(project "linux-sbc"
+				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
+					(reference "D704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 279.4 71.12 0)
 		(unit 1)
@@ -13856,7 +14206,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 139.7 190.5 270)
+		(at 127 190.5 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13867,7 +14217,7 @@
 		(dnp no)
 		(uuid "d8e810d2-33a7-4b48-9fbb-7ef8062ecd5b")
 		(property "Reference" "D702"
-			(at 141.478 188.722 90)
+			(at 128.778 188.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13878,7 +14228,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 141.478 190.5 90)
+			(at 128.778 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13889,7 +14239,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 139.7 190.5 0)
+			(at 127 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13900,7 +14250,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
-			(at 139.7 190.5 0)
+			(at 127 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13911,7 +14261,7 @@
 			)
 		)
 		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 139.7 190.5 0)
+			(at 127 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13922,7 +14272,7 @@
 			)
 		)
 		(property "MPN" "150060RS75000"
-			(at 139.7 190.5 0)
+			(at 127 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13933,7 +14283,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 139.7 190.5 0)
+			(at 127 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13944,7 +14294,7 @@
 			)
 		)
 		(property "Digi-Key Part Number" "732-4978-1-ND"
-			(at 139.7 190.5 90)
+			(at 127 190.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13955,7 +14305,7 @@
 			)
 		)
 		(property "Size" "0603"
-			(at 141.478 192.024 90)
+			(at 128.778 192.024 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14217,7 +14567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f91de5ff-9063-4bb5-b5c7-7c471740cf83")
-		(property "Reference" "D705"
+		(property "Reference" "D706"
 			(at 319.278 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14331,7 +14681,7 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "D705")
+					(reference "D706")
 					(unit 1)
 				)
 			)
@@ -14348,7 +14698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa5f30ce-7102-433f-8f6b-19d75144424c")
-		(property "Reference" "R716"
+		(property "Reference" "R717"
 			(at 290.83 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14478,14 +14828,14 @@
 		(instances
 			(project "linux-sbc"
 				(path "/fa11a02f-8043-4153-ab69-88d766503017/5e32b227-0684-45b9-8c92-9550e4036164"
-					(reference "R716")
+					(reference "R717")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Interface_USB:CY7C65213-32LTXI")
+		(lib_id "Infineon Technologies:CY7C65213-32LTXI")
 		(at 203.2 212.09 0)
 		(mirror y)
 		(unit 1)
